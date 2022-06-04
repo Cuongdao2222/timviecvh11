@@ -1,0 +1,48 @@
+<?php
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
+
+Route::get('/', function () {
+    return view('frontend.registerClientUser');
+})->name('home');
+
+Route::group(['prefix' => 'user','middleware' => 'checklogin'], function() {
+
+    Route::get('/user-dashboard', function () {
+        return view('frontend.user-dashboard');
+    })->name('user-dashboard');
+
+    Route::get('/my-profile', function () {
+        return view('frontend.list-board');
+    })->name('my-profile');
+
+    Route::get('/work-save', function () {
+        return view('frontend.work-save');
+    })->name('work-save');
+
+    Route::get('/work-apply', function () {
+        return view('frontend.work-apply');
+    })->name('work-apply');
+
+    Route::get('/notification-user', function () {
+        return view('frontend.notification');
+    })->name('notification-user');
+
+});
+
+
+
+Route::post('user', 'Backend\UserLoginController@registerUser')->name('register');
+
+Route::post('user/login', 'Backend\UserLoginController@loginUser')->name('login');
+
+
