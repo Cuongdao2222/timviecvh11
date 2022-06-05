@@ -46,6 +46,15 @@ return [
             'provider' => 'users',
             'hash' => false,
         ],
+
+        'employer_register' => [
+            'driver' => 'session',
+            'provider' => 'loyal_customers',
+        ],
+        'employer_register-api' => [
+            'driver' => 'token',
+            'provider' => 'loyal_customers',
+        ],
     ],
 
     /*
@@ -70,6 +79,11 @@ return [
             'driver' => 'eloquent',
             'model' => App\User::class,
         ],
+
+        'employer_register' => [
+            'driver' => 'eloquent',
+            'model' => App\employer_register::class,
+        ],          
 
         // 'users' => [
         //     'driver' => 'database',

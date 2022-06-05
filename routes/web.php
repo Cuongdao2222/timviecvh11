@@ -39,6 +39,10 @@ Route::group(['prefix' => 'user','middleware' => 'checklogin'], function() {
 
 });
 
+ Route::get('/employer-register', function () {
+        return view('frontend.employer-register');
+    })->name('employer-register');
+
 
 
 Route::post('user', 'Backend\UserLoginController@registerUser')->name('register');
