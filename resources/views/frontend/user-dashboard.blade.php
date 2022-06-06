@@ -278,7 +278,7 @@
                                 </div>
                                 <div class="col-lg-8 col-xl-9">
                                     <div class="cb-name">
-                                        <h2>Dao Cuong</h2>
+                                        <h2>{{ Auth::user()->name }}</h2>
                                     </div>
                                     <div class="information">
                                         <div class="assistant">Chưa cập nhật</div>
