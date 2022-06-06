@@ -11,11 +11,16 @@
 |
 */
 
+
 Route::get('/', function () {
-    return view('frontend.registerClientUser');
+    return view('frontend.homes');
 })->name('home');
 
 Route::group(['prefix' => 'user','middleware' => 'checklogin'], function() {
+
+    Route::get('/register-client-user', function () {
+        return view('frontend.registerClientUser');
+    })->name('registerClientUser');
 
     Route::get('/user-dashboard', function () {
         return view('frontend.user-dashboard');
@@ -38,10 +43,6 @@ Route::group(['prefix' => 'user','middleware' => 'checklogin'], function() {
     })->name('notification-user');
 
 });
-
- Route::get('/employer-register', function () {
-        return view('frontend.employer-register');
-    })->name('employer-register');
 
 
 
