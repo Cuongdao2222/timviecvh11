@@ -268,7 +268,7 @@
                                         </div>
                                         <div class="mobile-show">
                                             <div class="cb-name">
-                                                <h2>Dao Cuong</h2>
+                                                <h2>{{ Auth::user()->name }}</h2>
                                             </div>
                                             <div class="information">
                                                 <div class="assistant" id="titleresume_16167824">Chưa cập nhật</div>
