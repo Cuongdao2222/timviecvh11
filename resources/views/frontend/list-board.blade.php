@@ -109,7 +109,7 @@
                                 </div>
                                 <div class="col-lg-8 col-xl-9">
                                     <div class="cb-name">
-                                        <h2 id="section_name">Dao Cuong</h2>
+                                        <h2 id="section_name">{{ Auth::user()->name }}</h2>
                                     </div>
                                     <div class="information">
                                         <div class="assistant">Chưa cập nhật</div>

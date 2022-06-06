@@ -302,7 +302,8 @@
                         <div class="title">
                            <h2>Đăng Ký Tài Khoản Nhà Tuyển Dụng</h2>
                         </div>
-                        <form name="frmRegister" id="frmRegister" method="post" autocomplete="off">
+                        <form name="frmRegister" id="frmRegister" method="post" autocomplete="off" action="{{ route('employer-register') }}">
+                           @csrf
                            <div class="step-1" id="step-1">
                               <div class="step-title d-flex">
                                  <div class="main-step-title">
@@ -319,13 +320,7 @@
                                        <span class="form-error error_email" id="error_email" >  </span> 
                                     </div>
                                  </div>
-                                 <div class="form-group d-flex">
-                                    <div class="form-info"> <span>Xác nhận email</span> </div>
-                                    <div class="form-input">
-                                       <input type="text"  name="re_email" id="re_email" value="" class="form-control" placeholder="Vui lòng nhập thông tin">
-                                       <a class="check-email" href="javascript:void(0);" onclick="checkEmailExist();">Kiểm tra sự tồn tại của email</a> <span class="form-error error_re_email" id="error_re_email" >  </span> 
-                                    </div>
-                                 </div>
+                                 
                                  <div class="form-group d-flex">
                                     <div class="form-info"> <span>Mật khẩu</span> </div>
                                     <div class="form-input">
@@ -341,11 +336,11 @@
                                     </div>
                                  </div>
                                  <div class="btn-area">
-                                    <button type="submit" class="btn-action next-tab2">Tiếp tục</button>
+                                    <button type="submit" class="btn-action ">Đăng ký</button><!-- next-tab2 -->
                                  </div>
                               </div>
                            </div>
-                           <div class="step-2" id="step-2" style="display: none;">
+                          <!--  <div class="step-2" id="step-2" style="display: none;">
                               <div class="step-title d-flex">
                                  <div class="main-step-title">
                                     <h3>Bước 2 : Thông Tin Công Ty</h3>
@@ -486,7 +481,7 @@
                                     <p> Bằng việc nhấp vào "Đăng Ký Ngay!", bạn đã đồng ý với các điều khoản ghi trong <a href="https://careerbuilder.vn/vi/jobseekers/use">Thỏa thuận dịch vụ của CareerBuilder.vn.</a></p>
                                  </div>
                               </div>
-                           </div>
+                           </div> -->
                         </form>
                      </div>
                   </div>

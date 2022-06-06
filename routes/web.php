@@ -16,11 +16,16 @@ Route::get('/', function () {
     return view('frontend.homes');
 })->name('home');
 
+
+
+
 Route::group(['prefix' => 'user','middleware' => 'checklogin'], function() {
 
+   
     Route::get('/register-client-user', function () {
         return view('frontend.registerClientUser');
     })->name('registerClientUser');
+
 
     Route::get('/user-dashboard', function () {
         return view('frontend.user-dashboard');
@@ -44,10 +49,20 @@ Route::group(['prefix' => 'user','middleware' => 'checklogin'], function() {
 
 });
 
+Route::group(['prefix' => 'employer','middleware' => 'checklogin'], function() {
+
+    Route::get('/register', function () {
+        return view('frontend.employer-register');
+    })->name('register_employer');  
+    Route::post('register-field', 'Backend\employerController@registerEmployer')->name('employer-register');
+
+});
 
 
 Route::post('user', 'Backend\UserLoginController@registerUser')->name('register');
 
 Route::post('user/login', 'Backend\UserLoginController@loginUser')->name('login');
+
+
 
 
