@@ -53,7 +53,15 @@ Route::group(['prefix' => 'employer','middleware' => 'checklogin'], function() {
 
     Route::get('/register', function () {
         return view('frontend.employer-register');
-    })->name('register_employer');  
+    })->name('register_employer'); 
+
+    Route::get('/index', function () {
+        return view('frontend.index_employer');
+    })->name('index_employer');  
+
+     Route::get('/form', function () {
+        return view('frontend.form_recruit');
+    })->name('form_recruit'); 
 
     Route::post('register-field', 'Backend\employerController@registerEmployer')->name('employer-register');
 
