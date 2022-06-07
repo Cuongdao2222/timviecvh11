@@ -49,11 +49,11 @@ return [
 
         'employer_register' => [
             'driver' => 'session',
-            'provider' => 'loyal_customers',
+            'provider' => 'employer_register',
         ],
         'employer_register-api' => [
             'driver' => 'token',
-            'provider' => 'loyal_customers',
+            'provider' => 'employer_register',
         ],
     ],
 
