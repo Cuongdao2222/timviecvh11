@@ -51,9 +51,9 @@ Route::group(['prefix' => 'user','middleware' => 'checklogin'], function() {
 
 Route::group(['prefix' => 'employer','middleware' => 'checklogin'], function() {
 
-    Route::get('/register', function () {
-        return view('frontend.employer-register');
-    })->name('register_employer'); 
+    Route::get('/register', 'Backend\employerController@index')->name('register_employer'); 
+
+
 
     Route::get('/index', function () {
         return view('frontend.index_employer');
@@ -64,6 +64,8 @@ Route::group(['prefix' => 'employer','middleware' => 'checklogin'], function() {
     })->name('form_recruit'); 
 
     Route::post('register-field', 'Backend\employerController@registerEmployer')->name('employer-register');
+
+    Route::get('logout', 'Backend\employerController@logout')->name('employer-logout');
 
 });
 

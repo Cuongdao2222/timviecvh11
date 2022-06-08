@@ -151,7 +151,7 @@
                     <div class="dropdown-menu">
                         <ul>
                             <li> <a href="https://careerbuilder.vn/vi/employers/hrcentral/accounts"> <em class="fa fa-cog"></em>Tài khoản</a></li>
-                            <li> <a href="https://careerbuilder.vn/vi/employers/logout"> <em class="fa fa-sign-out"> </em>Thoát</a></li>
+                            <li> <a href="{{ route('employer-logout') }}"> <em class="fa fa-sign-out"> </em>Thoát</a></li>
                         </ul>
                     </div>
                 </div>
@@ -268,7 +268,7 @@
       <div class="right-wrap">
         <ul class="list-menu">
           <li> <a href="https://careerbuilder.vn/vi/tim-ung-vien.html"> <em class="material-icons">find_in_page</em> Tìm Hồ Sơ </a> </li>
-          <li> <a class="but-createjob" href="https://careerbuilder.vn/vi/employers/postjobs"> <em class="material-icons">assignment_ind</em> Đăng Tuyển Dụng </a> </li>
+          <li> <a class="but-createjob" href="{{ route('form_recruit') }}"> <em class="material-icons">assignment_ind</em> Đăng Tuyển Dụng </a> </li>
         </ul>
       </div>
     </div>

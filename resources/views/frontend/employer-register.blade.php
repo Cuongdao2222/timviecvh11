@@ -194,6 +194,8 @@
                         </div>
                      </div>
                   </div>
+                  
+
                   @endif
 
                   <div class="main-register"><a href="https://careerbuilder.vn/vi/employers/register">Đăng ký</a></div>

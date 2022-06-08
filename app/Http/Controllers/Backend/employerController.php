@@ -9,6 +9,23 @@ use Auth;
 
 class employerController extends Controller
 {
+
+    public function index()
+    {
+        if(!Auth::guard('employer_register')->check()){
+            return view('frontend.employer-register');
+        }
+        else{
+            return redirect(route('index_employer'));
+        }  
+    }
+
+    public function logout()
+    {
+        Auth::guard('employer_register')->logout();
+        
+        return redirect(route('register_employer'));
+    }
     public function registerEmployer(Request $request)
     {
         $input = $request->all();
@@ -36,8 +53,7 @@ class employerController extends Controller
 
          if (Auth::guard('employer_register')->attempt($arr)) {
 
-             return redirect()->back()->with('success', 'bạn đã đăng nhập thành công
-                '); 
+             return redirect(route('index_employer'));
       
             //..code tùy chọn
             //đăng nhập thành công thì hiển thị thông báo đăng nhập thành công
