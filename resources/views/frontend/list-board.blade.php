@@ -263,20 +263,26 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                 <div class="my-cb-center">
                     <h2>My CareerBuilder Center</h2>
                 </div>
+                <?php  
+
+                    $routeName = \Request::route()->getName();
+                ?>
+
+
                 <ul class="list-unstyled">
-                    <li> <a  href="https://careerbuilder.vn/vi/jobseekers/dashboard" title="Quản lý hồ sơ"> <em class="material-icons">color_lens</em><span>Quản lý hồ sơ</span></a></li>
-                    <li style="display:none"> <a href="https://careerbuilder.vn/vi/jobseekers/cv-hay/my-profile"> <em class="material-icons">person</em><span>Hồ sơ Careerbuilder</span></a></li>
-                    <li> <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/my-profile" class="active"> <em class="material-icons">person</em><span>Hồ sơ Careerbuilder</span></a></li>
-                    <li> <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/changetemplate" > <em class="material-icons">portrait</em><span>Chỉnh Mẫu Hồ Sơ</span></a></li>
+                    <li> <a  class="{{ $routeName==='user-dashboard'?'active':'' }}" href="{{ route('user-dashboard') }}" title="Quản lý hồ sơ"> <em class="material-icons">color_lens</em><span>Quản lý hồ sơ</span></a></li>
+                    <li style="display:none"> <a href="{{ route('my-profile') }}"> <em class="material-icons">person</em><span>Hồ sơ Careerbuilder</span></a></li>
+                    <li> <a href="{{ route('my-profile') }}"  class="{{ $routeName==='my-profile'?'active':'' }}"> <em class="material-icons">person</em><span>Hồ sơ Careerbuilder</span></a></li>
+                   
                     <li>
-                        <a class="collapse " href="javascript:;"><em class="material-icons">edit</em><span>Việc làm của tôi</span></a>
-                        <ul class="list-unstyled collapse"  >
-                            <li><a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/jobsaved" >Việc làm đã lưu</a></li>
-                            <li><a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/jobapplied" >Việc làm đã nộp</a></li>
+                        <a class="collapse {{ $routeName=='work-save'||$routeName=='work-apply'?'active':'' }}" href="javascript:;"><em class="material-icons">edit</em><span>Việc làm của tôi</span></a>
+                        <ul class="list-unstyled collapse {{ $routeName=='work-save'||$routeName=='work-apply'?'display':'' }}"  >
+                            <li><a href="{{ route('work-save') }}" class="{{ $routeName =='work-save'?'active':'' }}">Việc làm đã lưu</a></li>
+                            <li><a href="{{ route('work-apply') }}"  class="{{ $routeName =='work-apply'?'active':'' }}">Việc làm đã nộp</a></li>
                         </ul>
                     </li>
-                    <li> <a href="https://careerbuilder.vn/vi/jobseekers/jobalert" ><em class="material-icons">notifications</em><span>Thông Báo Việc Làm</span></a></li>
-                    <li>
+                    <li> <a href="{{ route('notification-user') }}" class="{{ $routeName=='notification-user'?'active':'' }}"><em class="material-icons">notifications</em><span>Thông Báo Việc Làm</span></a></li>
+                   <!--  <li>
                         <a class="collapse " href="javascript:;"><em class="material-icons">remove_red_eye</em><span>Nhà tuyển dụng của tôi</span></a>
                         <ul class="list-unstyled collapse" >
                             <li> <a href="https://careerbuilder.vn/vi/jobseekers/myresume/viewbyemp" >Nhà tuyển dụng xem hồ sơ của tôi</a></li>
@@ -284,8 +290,8 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                             <li> <a href="https://careerbuilder.vn/vi/jobseekers/blacklist" >Nhà tuyển dụng được cài đặt hạn chế xem hồ sơ của tôi</a></li>
                             <li> <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/feedback" >Phản hồi từ nhà tuyển dụng</a></li>
                         </ul>
-                    </li>
-                    <li> <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/notify"  title="Xem tất cả thông báo"> <em class="material-icons">textsms</em><span>Xem tất cả thông báo</span></a></li>
+                    </li> -->
+                   <!--  <li> <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/notify"  title="Xem tất cả thông báo"> <em class="material-icons">textsms</em><span>Xem tất cả thông báo</span></a></li> -->
                     <li>
                         <a class="collapse " href="javascript:;"><em class="material-icons">settings</em><span>Cài đặt</span></a>
                         <ul class="list-unstyled collapse" >
@@ -319,7 +325,7 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                             </div>
                                             <div class="mobile-show">
                                                 <div class="cb-name">
-                                                    <h2>Dao Cuong</h2>
+                                                    <h2>{{ Auth::user()->name }}</h2>
                                                 </div>
                                                 <div class="information">
                                                     <div class="assistant" id="titleresume_16167824" >Chưa cập nhật</div>
@@ -338,7 +344,7 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                     </div>
                                     <div class="col-lg-8 col-xl-9">
                                         <div class="cb-name">
-                                            <h2 id="section_name">Dao Cuong</h2>
+                                            <h2 id="section_name">{{ Auth::user()->name }}</h2>
                                         </div>
                                         <div class="information">
                                             <div class="assistant" >Chưa cập nhật</div>
