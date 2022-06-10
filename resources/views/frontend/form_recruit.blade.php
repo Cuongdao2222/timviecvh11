@@ -283,7 +283,8 @@
     </div>
     <div class="right-heading"><a href="https://careerbuilder.vn/vi/employers/faq" target="_blank" class="support" target="_blank">Hướng dẫn</a></div>
 </div>
-<form name="frmEditJob" id="frmEditJob"  method="post" action="https://careerbuilder.vn/vi/employers/postjobs/savejob">
+<form name="frmEditJob" id="frmEditJob"  method="post" action="{{ route('postJob') }}">
+    @csrf
 <div class="main-tabslet">
 <ul class="tabslet-tab">
     <li class="active"> <a href="javascript:void(0);">Thông Tin Tuyển Dụng</a></li>

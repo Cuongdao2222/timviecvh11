@@ -76,6 +76,8 @@ Route::post('user/login', 'Backend\UserLoginController@loginUser')->name('login'
 
 Route::post('employer/login', 'Backend\employerController@postLoginEmployer')->name('loginEmployer');
 
+Route::post('employer/postJob', 'Backend\employerController@postJob')->name('postJob');
+
 
 
 

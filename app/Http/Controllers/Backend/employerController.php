@@ -64,4 +64,10 @@ class employerController extends Controller
             //đăng nhập thất bại hiển thị đăng nhập thất bại
         }
     }
+
+    public function postJob(Request $request)
+    {
+        $all = $request->all();
+        print_r($all);
+    }
 }
