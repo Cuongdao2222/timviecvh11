@@ -1702,9 +1702,8 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                     </span>
                                 </div>
                                 <div id="editor" class="ql-container ql-snow">
-                                    <div class="ql-editor ql-blank" data-gramm="false" contenteditable="true" data-placeholder="Mục Tiêu Nghề Nghiệp">
-                                        <p><br></p>
-                                    </div>
+                                    <textarea data-placeholder="Mục Tiêu Nghề Nghiệp" style="width: 100%;"></textarea>
+                                   
                                     <div class="ql-clipboard" contenteditable="true" tabindex="-1"></div>
                                     <div class="ql-tooltip ql-hidden"><a class="ql-preview" target="_blank" href="about:blank"></a><input type="text" data-formula="e=mc^2" data-link="https://quilljs.com" data-video="Embed URL"><a class="ql-action"></a><a class="ql-remove"></a></div>
                                 </div>

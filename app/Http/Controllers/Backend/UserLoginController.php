@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\register;
 use App\User;
+use App\Models\application;
 use DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
@@ -25,7 +26,12 @@ class UserLoginController extends Controller
         $user->name = $input['name'];
         $user->email = $input['email'];
         $user->password = $input['password'];
+
         $user->save();
+        $application = new application();
+        $application->users_id =  $user->id;
+        $application->save();
+
         return redirect()->back()->with('success', 'Đăng ký thành công');
 
     }
