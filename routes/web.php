@@ -47,6 +47,8 @@ Route::group(['prefix' => 'user','middleware' => 'checklogin'], function() {
         return view('frontend.notification');
     })->name('notification-user');
 
+
+
 });
 
 Route::group(['prefix' => 'employer','middleware' => 'checklogin'], function() {
@@ -73,6 +75,8 @@ Route::group(['prefix' => 'employer','middleware' => 'checklogin'], function() {
 Route::post('user', 'Backend\UserLoginController@registerUser')->name('register');
 
 Route::post('user/login', 'Backend\UserLoginController@loginUser')->name('login');
+
+Route::post('user/profice/{action}', 'Backend\applicationController@updateApplication')->name('postProfile');
 
 Route::post('employer/login', 'Backend\employerController@postLoginEmployer')->name('loginEmployer');
 

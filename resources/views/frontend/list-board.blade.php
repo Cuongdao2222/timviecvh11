@@ -34,6 +34,11 @@
 <link href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/my-profile" rel="canonical" />
 <link rel="stylesheet" type="text/css" href="{{ asset('css/employ/fancybox.css') }}">
 
+<?php
+    $ar_ex = ['Sinh viên/ Thực tập sinh', 'Mới tốt nghiệp', 'Nhân viên', 'Trưởng nhóm / Giám sát', 'Quản lý', 'Phó Giám đốc', 'Giám đốc', 'Tổng giám đốc', 'Chủ tịch / Phó Chủ tịch'];
+    $i=0;
+    ?>
+
 <script>
     var DOMAIN_KV = 'https://careerbuilder.vn';
     var ROOT_KIEMVIEC = 'https://careerbuilder.vn/';
@@ -490,9 +495,21 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                         <div class="image"><img src="./img/dash-board/i14.png" alt=""></div>
                                         <div class="figcaption">
                                             <h3>Tiêu đề hồ sơ *</h3>
+
+                                            <?php 
+
+                                                $checkTitle = App\Models\application::where('users_id', Auth::user()->id)->first();
+                                              
+                                            ?>
+                                            @if(!empty(json_decode($checkTitle->title)))
+                                            <div class="status success">
+                                                <p>Đã hoàn thành</p>
+                                            </div>
+                                            @else
                                             <div class="status error">
                                                 <p>Chưa hoàn thành</p>
                                             </div>
+                                            @endif
                                         </div>
                                     </div>
                                     <div class="right-action">
@@ -574,9 +591,16 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                         <div class="image"><img src="./img/dash-board/i3.png" alt=""></div>
                                         <div class="figcaption">
                                             <h3>Mục tiêu nghề nghiệp</h3>
-                                            <div class="status">
+
+                                            @if(!empty(json_decode($checkTitle->objective)))
+                                            <div class="status success">
+                                                <p>Đã hoàn thành  </p>
+                                            </div>
+                                            @else
+                                             <div class="status">
                                                 <p>Không bắt buộc</p>
                                             </div>
+                                            @endif 
                                         </div>
                                     </div>
                                     <div class="right-action">
@@ -679,12 +703,19 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                         <div class="image"><img src="./img/dash-board/i4.png" alt=""></div>
                                         <div class="figcaption">
                                             <h3>Kinh nghiệm làm việc *</h3>
+
+                                           @if(!empty(json_decode($checkTitle->experience)))
+                                            <div class="status success">
+                                                <p>Đã hoàn thành</p>
+                                            </div>
+                                            @else
                                             <div class="status error">
                                                 <p>Chưa hoàn thành</p>
                                             </div>
+                                            @endif
                                         </div>
                                     </div>
-                                    <div class="right-action">
+                                    <!-- <div class="right-action">
                                         <div class="tips p1" onclick="openTipSlide('tip-experience')">
                                             <div class="icon">
                                                 <em class="mdi mdi-lightbulb"></em>
@@ -692,13 +723,13 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                             <p>Tips</p>
                                         </div>
                                         <div class="link-add"><a href="javascript:void(0);" onclick="openTipSlide('tip-experience-modal')" title="Thêm mới"> <em class="material-icons">add</em><span>Thêm mới</span></a></div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             <div class="widget-body">
                                 <div class="no-content">
                                     <p>Bạn hãy thêm kinh nghiệp làm việc của mình để nhà tuyển dụng tham khảo</p>
-                                    <a href="javascript:void(0);" onclick="openTipSlide('tip-experience-modal');"><em class="mdi mdi-plus-circle"></em><span>Thêm mới</span></a> 
+                                   <!--  <a href="javascript:void(0);" onclick="openTipSlide('tip-experience-modal');"><em class="mdi mdi-plus-circle"></em><span>Thêm mới</span></a>  -->
                                 </div>
                             </div>
                             <div class="widget-body">
@@ -707,14 +738,25 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                         <tbody>
                                             <tr>
                                                 <td>Số năm kinh nghiệm</td>
-                                                <td id="txt-experience">Chưa có kinh nghiệm</td>
+                                                <td id="txt-experience">{{ (json_decode($checkTitle->experience))->yearOfExperience??'}Chưa có kinh nghiệm' }}</td>
                                                 <td>
                                                     <div class="link-edit"><a href="javascript:void(0);" onclick="editFrmExperience();"> <em class="material-icons">create</em></a></div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>Cấp bậc hiện tại</td>
-                                                <td id="cbprofile_levelpresent">Chưa cập nhật</td>
+                                                <?php 
+                                                   
+                                                    if((json_decode($checkTitle->experience))->levelcurrent_id != null){
+                                                        $number_levelcurrent_id = $ar_ex[(int)(json_decode($checkTitle->experience))->levelcurrent_id-1];
+
+                                                    }
+                                                    else{
+                                                        $number_levelcurrent_id = 'chưa cập nhật';
+                                                    }
+                                                    
+                                                ?>
+                                                <td id="cbprofile_levelpresent">{{ $number_levelcurrent_id}}</td>
                                                 <td>
                                                     <div class="link-edit"><a href="javascript:void(0);" onclick="editFrmExperience();"> <em class="material-icons">create</em></a></div>
                                                 </td>
@@ -1179,20 +1221,22 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                     <h3>Kinh nghiệm làm việc</h3>
                 </div>
                 <div class="modal-body">
-                    <form name="frm_Experience" id="frm_Experience">
+                    <form name="frm_Experience" id="frm_Experience" method="post" action="{{ route('postProfile', 'experience') }}">
+                        @csrf
                         <div class="form-group row">
                             <div class="col-lg-4">
                                 <label for="">Số năm kinh nghiệm</label>
                             </div>
+                          
                             <div class="col-lg-8">
                                 <div class="input-group">
-                                    <input type="number" class="exp-yet" maxlength="2" name="yearOfExperience" id="yearOfExperience" min="1" max="55" value="0"  disabled="disabled">
+                                    <input type="number" class="exp-yet" maxlength="2" name="yearOfExperience" id="yearOfExperience" min="1" max="55" value="{{ (json_decode($checkTitle->experience))->yearOfExperience??'0' }}"  >
                                 </div>
                                 <div class="form-error"><span class="err_yearOfExperience" style="display:none"></span></div>
-                                <div class="form-group form-checkbox mt-1">
+                                <!-- <div class="form-group form-checkbox mt-1">
                                     <input type="checkbox" id="not_experence" name="not_experence"  checked="checked" value="1" style="margin-right: 5px;">
                                     <label class="no-exp-yet" for="not_experence">Chưa có kinh nghiệm</label>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="form-group row">
@@ -1201,17 +1245,16 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                             </div>
                             <div class="col-lg-8">
                                 <div class="select-group">
+                                    
                                     <select name="levelcurrent_id" id="levelcurrent_id" style="float: left; width: 200px; margin-bottom:5px">
                                         <option value="" >Chọn</option>
-                                        <option value="1">Sinh viên/ Thực tập sinh</option>
-                                        <option value="2">Mới tốt nghiệp</option>
-                                        <option value="3">Nhân viên</option>
-                                        <option value="4">Trưởng nhóm / Giám sát</option>
-                                        <option value="5">Quản lý</option>
-                                        <option value="6">Phó Giám đốc</option>
-                                        <option value="7">Giám đốc </option>
-                                        <option value="8">Tổng giám đốc</option>
-                                        <option value="9">Chủ tịch / Phó Chủ tịch</option>
+                                        @foreach($ar_ex as $value)
+                                        <?php  
+                                            $i++;
+                                        ?>
+                                        <option value="{{ $i }}">{{ $value }}</option>
+                                        @endforeach
+                                        
                                     </select>
                                 </div>
                                 <div class="form-error"><span class="err_levelcurrent_id" style="display:none"></span></div>
@@ -1219,7 +1262,7 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                         </div>
                         <div class="form-group form-button">
                             <div class="button-save button-center">
-                                <button class="btn-gradient" type="button" onclick="return saveFrmExperience();">Lưu Lại</button>
+                                <button class="btn-gradient" type="submit" >Lưu Lại</button>
                             </div>
                         </div>
                     </form>
@@ -1346,21 +1389,23 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                         <h3>Tiêu đề hồ sơ</h3>
                     </div>
                     <div class="modal-body">
-                        <form autocomplete="on" name="t-resume-form" id="t-resume-form">
+                        <form autocomplete="on" name="t-resume-form" id="t-resume-form" method="post" action="{{ route('postProfile', 'title') }}">
+                            @csrf
                             <div class="form-group row">
                                 <div class="col-lg-4">
                                     <label for="">Tiêu đề hồ sơ<span>*</span></label>
                                 </div>
+                               
                                 <div class="col-lg-8">
                                     <div class="input-group">
-                                        <input type="text" value="" name="resume_title" id="resume_title" maxlength="400">
+                                        <input type="text"  name="resume_title" id="resume_title" maxlength="400" value="{{ @json_decode($checkTitle->title)->resume_title }}">
                                     </div>
                                     <div class="form-error"><span class="err_resume_title"></span></div>
                                 </div>
                             </div>
                             <div class="form-group form-button">
                                 <div class="button-save button-center">
-                                    <button class="btn-gradient" type="button" onclick="return updateResumeTitle();">Lưu Lại</button>
+                                    <button class="btn-gradient" type="submit">Lưu Lại</button>
                                 </div>
                             </div>
                         </form>
@@ -1406,13 +1451,7 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                     <div class="modal-body">
                         <form name="personalInfoForm" id="personalInfoForm" autocomplete="off">
                             <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group form-text">
-                                        <input type="text" onkeyup="this.setAttribute('value', this.value);" name="lastname" id="lastname" value="Dao" maxlength="30" class="valid">
-                                        <label>* Họ và tên lót</label>
-                                        <span class="err_lastname" style=""></span> 
-                                    </div>
-                                </div>
+                                
                                 <div class="col-md-6">
                                     <div class="form-group form-text">
                                         <input type="text" onkeyup="this.setAttribute('value', this.value);" name="firstname" id="firstname" value="Cuong" maxlength="30">
@@ -1437,7 +1476,7 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                 <div class="col-md-6">
                                     <div class="form-group form-birthday">
                                         <label for="">* Ngày sinh</label>
-                                        <input type="text" data-field="date" data-max="31/12/2007" readonly="" data-view="Popup" class="date_month" name="birthday" value="" placeholder="DD-MM-YYYY">
+                                        <input type="text" data-field="date" >
                                         <div id="date_time_picker" class="dtpicker-overlay dtpicker-mobile">
                                             <div class="dtpicker-bg">
                                                 <div class="dtpicker-cont">
@@ -1463,7 +1502,7 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                         <label for="">* Email</label>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                               <!--  <div class="col-md-6">
                                     <div class="form-group form-select">
                                         <label for="">* Quốc tịch</label>
                                         <select name="slnationality" id="slnationality">
@@ -1490,7 +1529,7 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                         </select>
                                         <span class="err_slnationality" style="display:none"></span> 
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="col-md-6">
                                     <div class="form-group form-select">
                                         <label for="">* Tình trạng hôn nhân</label>
@@ -1529,7 +1568,7 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                         <span class="err_slcountry" style="display:none"></span>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <!-- <div class="col-md-6">
                                     <div class="form-group form-select">
                                         <label for="">* Tỉnh / Thành phố</label>
                                         <select name="slcity" id="slcity" class="select-province-city" onchange="loadDistrictProfile(this.value);">
@@ -1600,22 +1639,22 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                         </select>
                                         <span class="err_slcity" style="display:none"></span> 
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="col-md-6">
                                     <!--id="areaDistrict"-->
-                                    <div class="form-group form-select">
+                                    <!-- <div class="form-group form-select">
                                         <label for="">* Quận/huyện</label>
                                         <select name="sldistrict" id="sldistrict" class="select-district" disabled="">
                                             <option value="">Chọn</option>
                                         </select>
                                         <span class="err_sldistrict" style="display:none"></span> 
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="col-md-6">
                                     <label></label>
                                     <div class="form-group form-text">
                                         <input type="text" onkeyup="this.setAttribute('value', this.value);" name="address" value="">
-                                        <label for="">* Địa chỉ (Số nhà, Đường)</label>
+                                        <label for="">* Địa chỉ </label>
                                         <span class="err_address" style="display:none"></span>
                                     </div>
                                 </div>
@@ -1639,7 +1678,8 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                         <h3>Mục Tiêu Nghề Nghiệp</h3>
                     </div>
                     <div class="modal-body">
-                        <form name="objective-form" id="objective-form">
+                        <form name="objective-form" id="objective-form" method="post" action="{{ route('postProfile', 'objective') }}">
+                            @csrf
                             <div class="form-group">
                                 <div class="ql-toolbar ql-snow">
                                     <span class="ql-formats">
@@ -1699,17 +1739,17 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                     </span>
                                 </div>
                                 <div id="editor" class="ql-container ql-snow">
-                                    <textarea data-placeholder="Mục Tiêu Nghề Nghiệp" style="width: 100%;"></textarea>
+                                    <textarea data-placeholder="Mục Tiêu Nghề Nghiệp" style="width: 100%;" name="objective">{{ @json_decode($checkTitle->objective)->objective }}</textarea>
                                    
                                     <div class="ql-clipboard" contenteditable="true" tabindex="-1"></div>
                                     <div class="ql-tooltip ql-hidden"><a class="ql-preview" target="_blank" href="about:blank"></a><input type="text" data-formula="e=mc^2" data-link="https://quilljs.com" data-video="Embed URL"><a class="ql-action"></a><a class="ql-remove"></a></div>
                                 </div>
-                                <textarea name="objective_job" id="objective_job" style="display:none"></textarea>
+                               <!--  <textarea name="objective_job" id="objective_job" style="display:none"></textarea> -->
                                 <span class="error err_objective_job" style="display:none"></span> 
                             </div>
                             <div class="form-group form-button">
                                 <div class="button-save button-center">
-                                    <button class="btn-gradient" type="button" onclick="return updateResumeObjective(this);">Lưu Lại</button>
+                                    <button class="btn-gradient" type="submit">Lưu Lại</button>
                                 </div>
                             </div>
                         </form>
