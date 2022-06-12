@@ -541,29 +541,26 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                 <div class="table">
                                     <table>
                                         <tbody>
-                                            <tr>
-                                                <td>Họ và Tên Lót</td>
-                                                <td>Dao</td>
-                                            </tr>
+                                           
                                             <tr>
                                                 <td>Tên</td>
-                                                <td>Cuong</td>
+                                                <td>{{ Auth::user()->name }}</td>
                                             </tr>
                                             <tr>
                                                 <td>Email</td>
-                                                <td>chiensi26045@gmail.com</td>
+                                                <td>{{ Auth::user()->email }}</td>
                                             </tr>
                                             <tr>
                                                 <td>Quốc tịch</td>
-                                                <td></td>
+                                                <td>Việt Nam</td>
                                             </tr>
                                             <tr>
                                                 <td>Tình trạng hôn nhân</td>
-                                                <td>Độc thân</td>
+                                                <td></td>
                                             </tr>
                                             <tr>
                                                 <td>Quốc gia</td>
-                                                <td></td>
+                                                <td>Việt Nam</td>
                                             </tr>
                                         </tbody>
                                     </table>
