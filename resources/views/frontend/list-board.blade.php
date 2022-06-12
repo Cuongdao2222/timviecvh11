@@ -37,6 +37,13 @@
 <?php
     $ar_ex = ['Sinh viên/ Thực tập sinh', 'Mới tốt nghiệp', 'Nhân viên', 'Trưởng nhóm / Giám sát', 'Quản lý', 'Phó Giám đốc', 'Giám đốc', 'Tổng giám đốc', 'Chủ tịch / Phó Chủ tịch'];
     $i=0;
+
+
+    $exp = ['Chưa tốt nghiệp', 'Trung học', 'Trung cấp', 'Cao đẳng', 'Đại học', 'Sau đại học','Khác'];
+
+    $slMarritial =['Độc thân', 'Đã kết hôn'];
+
+
     ?>
 
 <script>
@@ -538,9 +545,15 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                         <div class="image"><img src="./img/dash-board/i2.png" alt=""></div>
                                         <div class="figcaption">
                                             <h3>Thông tin cá nhân *</h3>
+                                           @if(!empty(json_decode($checkTitle->info)))
+                                            <div class="status success">
+                                                <p>Đã hoàn thành</p>
+                                            </div>
+                                            @else
                                             <div class="status error">
                                                 <p>Chưa hoàn thành</p>
                                             </div>
+                                            @endif
                                         </div>
                                     </div>
                                     <div class="right-action">
@@ -561,19 +574,30 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                            
                                             <tr>
                                                 <td>Tên</td>
-                                                <td>{{ Auth::user()->name }}</td>
+                                                <td>{{ json_decode($checkTitle->info)->firstname??Auth::user()->name }}</td>
                                             </tr>
                                             <tr>
                                                 <td>Email</td>
-                                                <td>{{ Auth::user()->email }}</td>
+                                                <td>{{ json_decode($checkTitle->info)->email??Auth::user()->email }}</td>
                                             </tr>
                                             <tr>
                                                 <td>Quốc tịch</td>
                                                 <td>Việt Nam</td>
                                             </tr>
                                             <tr>
+                                                <?php 
+
+                                                    if(!empty(json_decode($checkTitle->info))){
+
+                                                        $mar = @json_decode($checkTitle->info)->slMarritial;
+                                                    }
+                                                    else{
+                                                        $mar ='';
+                                                    }
+                                                    
+                                                ?>
                                                 <td>Tình trạng hôn nhân</td>
-                                                <td></td>
+                                                <td>{{ $mar?$slMarritial[$mar]:'' }}</td>
                                             </tr>
                                             <tr>
                                                 <td>Quốc gia</td>
@@ -738,7 +762,7 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                         <tbody>
                                             <tr>
                                                 <td>Số năm kinh nghiệm</td>
-                                                <td id="txt-experience">{{ (json_decode($checkTitle->experience))->yearOfExperience??'}Chưa có kinh nghiệm' }}</td>
+                                                <td id="txt-experience">{{ (json_decode($checkTitle->experience))->yearOfExperience??'Chưa có kinh nghiệm' }}</td>
                                                 <td>
                                                     <div class="link-edit"><a href="javascript:void(0);" onclick="editFrmExperience();"> <em class="material-icons">create</em></a></div>
                                                 </td>
@@ -779,9 +803,17 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                         <div class="image"><img src="./img/dash-board/i7.png" alt=""></div>
                                         <div class="figcaption">
                                             <h3>Học vấn *</h3>
-                                            <div class="status error">
+
+
+                                            @if(!empty(json_decode($checkTitle->education)))
+                                            <div class="status success">
+                                                <p>Đã hoàn thành  </p>
+                                            </div>
+                                            @else
+                                             <div class="status error">
                                                 <p>Chưa hoàn thành</p>
                                             </div>
+                                            @endif 
                                         </div>
                                     </div>
                                     <div class="right-action">
@@ -805,25 +837,34 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                 <div class="experience">
                                     <table>
                                         <tbody>
+                                            <?php 
+                                                if(!empty(json_decode($checkTitle->education))){
+
+                                                    $redu_degree = (json_decode($checkTitle->education))->redu_degree??'';
+
+                                                }
+                                                else{
+                                                    $redu_degree ='chưa cập nhật';
+                                                }
+                                                
+
+                                            ?>
                                             <tr>
                                                 <td>Bằng cấp cao nhất</td>
                                                 <td>
                                                     <div class="box-edit-degree" id="cbprofile_degree_name">
-                                                        Chưa cập nhật                   
+                                                        {{ $exp[$redu_degree] }}                  
                                                         <div class="link-edit link-highest-degree"><a href="javascript:void(0);"> <em class="material-icons">create</em></a></div>
                                                     </div>
                                                     <div class="highest-degree">
                                                         <div class="select-group">
                                                             <form id="resume-degree-form">
                                                                 <select name="degree" id="degree">
-                                                                    <option value="" >Chọn</option>
-                                                                    <option value="0">Chưa tốt nghiệp</option>
-                                                                    <option value="1">Trung học</option>
-                                                                    <option value="2">Trung cấp</option>
-                                                                    <option value="3">Cao đẳng</option>
-                                                                    <option value="4">Đại học</option>
-                                                                    <option value="5">Sau đại học</option>
-                                                                    <option value="6">Khác</option>
+
+                                                                    
+                                                                   @foreach($exp as $key => $value)
+                                                                    <option value="{{ $key }}"  {{ $redu_degree== $key?'selected':''}}>{{ $value }}</option>
+                                                                    @endforeach
                                                                 </select>
                                                             </form>
                                                         </div>
@@ -1449,12 +1490,13 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                         <h3>Thông Tin Cá Nhân</h3>
                     </div>
                     <div class="modal-body">
-                        <form name="personalInfoForm" id="personalInfoForm" autocomplete="off">
+                        <form name="personalInfoForm" id="personalInfoForm" autocomplete="off" method="post" action="{{ route('postProfile', 'info') }}">
+                            @csrf
                             <div class="row">
                                 
                                 <div class="col-md-6">
                                     <div class="form-group form-text">
-                                        <input type="text" onkeyup="this.setAttribute('value', this.value);" name="firstname" id="firstname" value="Cuong" maxlength="30">
+                                        <input type="text" onkeyup="this.setAttribute('value', this.value);" name="firstname" id="firstname" value="{{ @json_decode($checkTitle->info)->firstname??Auth::user()->name  }}" maxlength="30">
                                         <label>* Tên</label>
                                         <span class="err_firstname" style="display:none"></span> 
                                     </div>
@@ -1476,7 +1518,7 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                 <div class="col-md-6">
                                     <div class="form-group form-birthday">
                                         <label for="">* Ngày sinh</label>
-                                        <input type="text" data-field="date" >
+                                        <input type="text" data-field="date" name="date" {{ @json_decode($checkTitle->info)->date??'' }}>
                                         <div id="date_time_picker" class="dtpicker-overlay dtpicker-mobile">
                                             <div class="dtpicker-bg">
                                                 <div class="dtpicker-cont">
@@ -1491,14 +1533,14 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group form-text">
-                                        <input type="text" onkeyup="this.setAttribute('value', this.value);" name="mobile" id="mobile" value="" maxlength="20" style="margin-top:5px">
+                                        <input type="text" onkeyup="this.setAttribute('value', this.value);" name="mobile" id="mobile" value="{{ @json_decode($checkTitle->info)->mobile??'' }}" maxlength="20" style="margin-top:5px">
                                         <label for="">* Số điện thoại</label>
                                         <span class="err_mobile" style="display:none"></span> 
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group form-text">
-                                        <input type="text" onkeyup="this.setAttribute('value', this.value);" id="email_member_edit" value="chiensi26045@gmail.com" readonly="readonly" disabled="disabled" style="margin-top:5px">
+                                        <input type="text" onkeyup="this.setAttribute('value', this.value);" id="email_member_edit" value="{{ @json_decode($checkTitle->info)->email??Auth::user()->email  }}" readonly="readonly" disabled="disabled" style="margin-top:5px" name="email">
                                         <label for="">* Email</label>
                                     </div>
                                 </div>
@@ -1534,8 +1576,10 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                     <div class="form-group form-select">
                                         <label for="">* Tình trạng hôn nhân</label>
                                         <select name="slMarritial">
-                                            <option value="1">Đã kết hôn</option>
-                                            <option value="0" selected="selected">Độc thân</option>
+                                            @foreach($slMarritial as $key => $value )
+                                           
+                                            <option value="{{ $key  }}" >{{ $value }}</option>
+                                            @endforeach
                                         </select>
                                         <span class="err_slMarritial" style="display:none"></span> 
                                     </div>
@@ -1661,7 +1705,7 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                             </div>
                             <div class="form-group form-button">
                                 <div class="button-save button-center">
-                                    <button class="btn-gradient" type="button" onclick="updateProfile(this);">Lưu lại</button>
+                                    <button class="btn-gradient" type="submit" >Lưu lại</button>
                                 </div>
                             </div>
                         </form>
@@ -2134,7 +2178,8 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                         <h3>Quá Trình Học Tập</h3>
                     </div>
                     <div class="modal-body">
-                        <form name="education-form" id="education-form">
+                        <form name="education-form" id="education-form" method="post" action="{{ route('postProfile', 'education') }}">
+                            @csrf
                             <input type="hidden" name="redu_id" id="redu_id" value="0">
                             <div class="form-group row">
                                 <div class="col-lg-4">
@@ -2142,7 +2187,7 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                 </div>
                                 <div class="col-lg-8">
                                     <div class="input-group">
-                                        <input type="text" name="redu_name" id="redu_name" value="" maxlength="200">
+                                        <input type="text" name="redu_name" id="redu_name" value="{{ (json_decode($checkTitle->education))->redu_name??'' }}" maxlength="200">
                                     </div>
                                     <div class="form-error"><span class="err_redu_name" style="display:block"></span></div>
                                 </div>
@@ -2154,13 +2199,10 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                 <div class="col-lg-8">
                                     <div class="select-group">
                                         <select name="redu_degree" id="redu_degree">
-                                            <option value="0">Chưa tốt nghiệp</option>
-                                            <option value="1">Trung học</option>
-                                            <option value="2">Trung cấp</option>
-                                            <option value="3">Cao đẳng</option>
-                                            <option value="4">Đại học</option>
-                                            <option value="5">Sau đại học</option>
-                                            <option value="6">Khác</option>
+                                            @foreach($exp as $key => $value)
+                                            <option value="{{ $key }}"  {{ $redu_degree== $key?'selected':''}}>{{ $value }}</option>
+                                            @endforeach
+                                          
                                         </select>
                                     </div>
                                     <div class="form-error"><span class="err_redu_degree" style="display:block"></span></div>
@@ -2252,14 +2294,14 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                 </div>
                                 <div class="col-lg-8">
                                     <div class="textarea-group">
-                                        <textarea name="redu_desc" id="redu_desc" placeholder="Vui lòng nhập tối đa không quá 4.000 ký tự" maxlength="40000"></textarea>
+                                        <textarea name="redu_desc" id="redu_desc" placeholder="Vui lòng nhập tối đa không quá 4.000 ký tự" maxlength="40000">{{ (json_decode($checkTitle->education))->redu_desc??'' }}</textarea>
                                     </div>
                                     <div class="form-error"><span class="err_redu_desc" style="display:block"></span></div>
                                 </div>
                             </div>
                             <div class="form-group form-button">
                                 <div class="button-save button-center">
-                                    <button class="btn-gradient" type="button" onclick="return updateResumeEducation(this);">Lưu Lại</button>
+                                    <button class="btn-gradient" type="submit" >Lưu Lại</button>
                                 </div>
                             </div>
                         </form>

@@ -79,8 +79,10 @@ class employerController extends Controller
         $input['deadline'] = $request->JOB_LASTDATE; 
         $job = new job();
         $job->create($input);
+
+        return redirect(route('index_employer'));
        
-        echo "thanh cong";
+       
             
     }
 }
