@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\employer_register;
+use App\Models\job; 
 use Auth;
 
 class employerController extends Controller
@@ -67,7 +68,19 @@ class employerController extends Controller
 
     public function postJob(Request $request)
     {
-        $all = $request->all();
-        print_r($all);
+        
+        $input['title'] = $request->job_title;
+        $input['code']  =  $request->job_code;
+        $input['detail']  =  $request->job_desc;
+        $input['requirements'] = $request->job_req;
+        $input['career'] = [$request->INDUSTRY_ID][0][0];
+        $input['address'] = [$request->LOCATION_ID][0][0];
+        $input['salary'] = $request->salary_from.' '.$request->job_salaryunit.'-'.$request->salary_to;
+        $input['deadline'] = $request->JOB_LASTDATE; 
+        $job = new job();
+        $job->create($input);
+       
+        echo "thanh cong";
+            
     }
 }
