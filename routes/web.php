@@ -57,9 +57,7 @@ Route::group(['prefix' => 'employer','middleware' => 'checklogin'], function() {
 
 
 
-    Route::get('/index', function () {
-        return view('frontend.index_employer');
-    })->name('index_employer');  
+    Route::get('/index','Backend\employerController@viewIndex')->name('index_employer');  
 
      Route::get('/form', function () {
         return view('frontend.form_recruit');

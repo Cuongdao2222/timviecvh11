@@ -169,7 +169,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="main-candidates"><a href="https://careerbuilder.vn/vi/"><em class="fa fa-external-link"></em>
+                <div class="main-candidates"><a href="{{ route('registerClientUser') }}"><em class="fa fa-external-link"></em>
                         <h4>Dành cho Ứng Viên</h4></a></div>
             </div>
         </div>
@@ -339,7 +339,7 @@
                             <ul class="list-post-management">
                                 <li>
                                     <a href="https://careerbuilder.vn/vi/employers/hrcentral/posting/user_id/chiensi26045.1652405352">
-                                        <span class="number green">0</span>
+                                        <span class="number green">{{ $job }}</span>
                                         <span class="title">Việc làm đang đăng</span>
                                     </a>
                                 </li>

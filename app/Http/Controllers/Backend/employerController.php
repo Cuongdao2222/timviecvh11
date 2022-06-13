@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\employer_register;
 use App\Models\job; 
 use Auth;
+use Illuminate\Support\Facades\Validator;
 
 class employerController extends Controller
 {
@@ -21,6 +22,14 @@ class employerController extends Controller
         }  
     }
 
+    public function viewIndex()
+    {
+        $id = Auth::guard('employer_register')->user()->id;
+        $job = job::where('employer_id', $id)->get()->count();
+
+        return view('frontend.index_employer', compact('job'));
+    }
+
     public function logout()
     {
         Auth::guard('employer_register')->logout();
@@ -29,6 +38,23 @@ class employerController extends Controller
     }
     public function registerEmployer(Request $request)
     {
+
+         $messages = [
+            'required' => 'Trường :attribute bắt buộc nhập.',
+            'email'    => 'Trường :attribute phải có định dạng email',
+            'unique'    => ':attribute đã tồn tại xin kiểm tra lại',
+        ];
+         $validator = Validator::make($request->all(), [
+            'email' => 'required|unique:employer_registers',
+           
+        ], $messages);
+
+      
+        if ($validator->fails()) {
+            return redirect()->back()->withErrors($validator);
+        }
+       
+
         $input = $request->all();
         $employer_register = new employer_register();
 
@@ -77,11 +103,11 @@ class employerController extends Controller
         $input['address'] = [$request->LOCATION_ID][0][0];
         $input['salary'] = $request->salary_from.' '.$request->job_salaryunit.'-'.$request->salary_to;
         $input['deadline'] = $request->JOB_LASTDATE; 
+        $input['employer_id'] = Auth::guard('employer_register')->id();
         $job = new job();
         $job->create($input);
 
         return redirect(route('index_employer'));
-       
        
             
     }
