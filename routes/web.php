@@ -13,7 +13,7 @@
 
 
 Route::get('/', function () {
-    return view('frontend.homes');
+    return view('frontend.index_list_job');
 })->name('home');
 
 
