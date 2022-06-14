@@ -616,8 +616,8 @@ Start New Layout CB -->
                         <div class="tabs">
                             <ul class="tabs-toggle">
                                 <li><a href="#tab-1">Việc Làm Nổi Bật</a></li>
-                                <li><a href="#tab-2">Việc Làm VIP ($1000+)</a></li>
-                                <li><a href="#tab-3">Việc Làm Từ Top Headhunter</a></li>
+                               <!--  <li><a href="#tab-2">Việc Làm VIP ($1000+)</a></li>
+                                <li><a href="#tab-3">Việc Làm Từ Top Headhunter</a></li> -->
                             </ul>
                             <div class="tab-content" id="tab-1">
                                 <div class="hot-jobs-slide" id="hot-jobs-slide">
@@ -625,12 +625,20 @@ Start New Layout CB -->
                                         <div class="swiper-wrapper" >
                                             <div class="swiper-slide">
                                                 <div class="row">
+
+                                                    <?php 
+
+                                                        $job = App\Models\job::get();
+                                                    ?>
+
+                                                    @foreach($job as $jobs)
+
                                                     <div class="col-lg-6 ">
                                                         <div class="job-item">
                                                             <div class="figure">
-                                                                <div class="image"><a target="_blank" href="https://careerbuilder.vn/vi/nha-tuyen-dung/tap-doan-hung-thinh.35A698F7.html" title="Tập đoàn Hưng Thịnh "><img src="../kiemviecv32/images/graphics/blank.gif" class="swiper-lazy" data-src="https://images.careerbuilder.vn/employer_folders/lot3/110583/67x67/103820logohungthinhcorp-nhandienmoi-01.png" alt="Tập đoàn Hưng Thịnh " /></a></div>
+                                                                <div class="image"><a target="_blank" href="/{{ $jobs->link }}" title="Tập đoàn Hưng Thịnh "><img src="../kiemviecv32/images/graphics/blank.gif" class="swiper-lazy" data-src="https://images.careerbuilder.vn/employer_folders/lot3/110583/67x67/103820logohungthinhcorp-nhandienmoi-01.png" alt="Tập đoàn Hưng Thịnh " /></a></div>
                                                                 <div class="figcaption">
-                                                                    <div class="title"><a target="_blank" href="https://careerbuilder.vn/vi/tim-viec-lam/pho-giam-doc-phap-ly-du-an.35B8D3D2.html" title="Phó Giám Đốc Pháp Lý Dự Án">Phó Giám Đốc Pháp Lý Dự Án</a></div>
+                                                                    <div class="title"><a target="_blank" href="/{{ $jobs->link }}" title="{{ $jobs->title  }}">{{ $jobs->title  }}</a></div>
                                                                     <div class="caption">
                                                                         <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/tap-doan-hung-thinh.35A698F7.html" title="Tập đoàn Hưng Thịnh " target="_blank">Tập đoàn Hưng Thịnh </a>
                                                                         <p class="salary"><em class="fa fa-usd"></em>Lương: Cạnh Tranh</p>
@@ -644,177 +652,8 @@ Start New Layout CB -->
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-6 ">
-                                                        <div class="job-item">
-                                                            <div class="figure">
-                                                                <div class="image"><a target="_blank" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-ca-phe-outspan-viet-nam.35A78F67.html" title="Công ty TNHH Cà Phê Outspan Việt Nam"><img src="../kiemviecv32/images/graphics/blank.gif" class="swiper-lazy" data-src="https://images.careerbuilder.vn/employer_folders/lot1/173671/67x67/104403olam_logo.jpg" alt="Công ty TNHH Cà Phê Outspan Việt Nam" /></a></div>
-                                                                <div class="figcaption">
-                                                                    <div class="title"><a target="_blank" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-van-hanh-lo-hoi.35B8D2B9.html" title="Nhân viên vận hành lò hơi">Nhân viên vận hành lò hơi</a></div>
-                                                                    <div class="caption">
-                                                                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-ca-phe-outspan-viet-nam.35A78F67.html" title="Công ty TNHH Cà Phê Outspan Việt Nam" target="_blank">Công ty TNHH Cà Phê Outspan Việt Nam</a>
-                                                                        <p class="salary"><em class="fa fa-usd"></em>Lương: Cạnh Tranh</p>
-                                                                        <div class="location">
-                                                                            <em class="mdi mdi-map-marker"></em>
-                                                                            <p> Long An |  Hồ Chí Minh</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="top-icon"> <span class="top">Top</span> </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-6 ">
-                                                        <div class="job-item">
-                                                            <div class="figure">
-                                                                <div class="image"><a target="_blank" href="https://careerbuilder.vn/vi/nha-tuyen-dung/yeah1-cong-ty-co-phan-tap-doan-yeah1.35A6EF44.html" title="YEAH1 - CÔNG TY CỔ PHẦN TẬP ĐOÀN YEAH1"><img src="../kiemviecv32/images/graphics/blank.gif" class="swiper-lazy" data-src="https://images.careerbuilder.vn/employer_folders/lot6/132676/67x67/191223icon-cty.png" alt="YEAH1 - CÔNG TY CỔ PHẦN TẬP ĐOÀN YEAH1" /></a></div>
-                                                                <div class="figcaption">
-                                                                    <div class="title"><a target="_blank" href="https://careerbuilder.vn/vi/tim-viec-lam/senior-account-executive.35B8D384.html" title="Senior Account Executive">Senior Account Executive</a></div>
-                                                                    <div class="caption">
-                                                                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/yeah1-cong-ty-co-phan-tap-doan-yeah1.35A6EF44.html" title="YEAH1 - CÔNG TY CỔ PHẦN TẬP ĐOÀN YEAH1" target="_blank">YEAH1 - CÔNG TY CỔ PHẦN TẬP ĐOÀN YEAH1</a>
-                                                                        <p class="salary"><em class="fa fa-usd"></em>Lương:  15 Tr - 20 Tr VND</p>
-                                                                        <div class="location">
-                                                                            <em class="mdi mdi-map-marker"></em>
-                                                                            <p> Hồ Chí Minh</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="top-icon"> <span class="top">Top</span> </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-6 ">
-                                                        <div class="job-item">
-                                                            <div class="figure">
-                                                                <div class="image"><a target="_blank" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-eurowindow.35A69BE6.html" title="Công Ty Cổ Phần Eurowindow"><img src="../kiemviecv32/images/graphics/blank.gif" class="swiper-lazy" data-src="https://images.careerbuilder.vn/employer_folders/lot4/111334/67x67/114411eu.png" alt="Công Ty Cổ Phần Eurowindow" /></a></div>
-                                                                <div class="figcaption">
-                                                                    <div class="title"><a target="_blank" href="https://careerbuilder.vn/vi/tim-viec-lam/truong-phong-quan-ly-chat-luong.35B97A02.html" title="Trưởng Phòng Quản Lý Chất Lượng">Trưởng Phòng Quản Lý Chất Lượng</a></div>
-                                                                    <div class="caption">
-                                                                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-eurowindow.35A69BE6.html" title="Công Ty Cổ Phần Eurowindow" target="_blank">Công Ty Cổ Phần Eurowindow</a>
-                                                                        <p class="salary"><em class="fa fa-usd"></em>Lương: Cạnh Tranh</p>
-                                                                        <div class="location">
-                                                                            <em class="mdi mdi-map-marker"></em>
-                                                                            <p> Bình Dương</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="top-icon"> <span class="top">Top</span>  <span class="new"><font color="FF0000">(Mới)</font></span> </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-6 ">
-                                                        <div class="job-item">
-                                                            <div class="figure">
-                                                                <div class="image"><a target="_blank" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-yusen-logistics-viet-nam.35A52692.html" title="Công ty TNHH Yusen Logistics (Việt Nam)"><img src="../kiemviecv32/images/graphics/blank.gif" class="swiper-lazy" data-src="https://images.careerbuilder.vn/employers/15762/67x67/104703logo.png" alt="Công ty TNHH Yusen Logistics (Việt Nam)" /></a></div>
-                                                                <div class="figcaption">
-                                                                    <div class="title"><a target="_blank" href="https://careerbuilder.vn/vi/tim-viec-lam/sales-supervisor.35B9667E.html" title="Sales Supervisor">Sales Supervisor</a></div>
-                                                                    <div class="caption">
-                                                                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-yusen-logistics-viet-nam.35A52692.html" title="Công ty TNHH Yusen Logistics (Việt Nam)" target="_blank">Công ty TNHH Yusen Logistics (Việt Nam)</a>
-                                                                        <p class="salary"><em class="fa fa-usd"></em>Lương: Cạnh Tranh</p>
-                                                                        <div class="location">
-                                                                            <em class="mdi mdi-map-marker"></em>
-                                                                            <p> Hà Nội |  Hồ Chí Minh</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="top-icon"> <span class="top">Top</span> </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-6 ">
-                                                        <div class="job-item">
-                                                            <div class="figure">
-                                                                <div class="image"><a target="_blank" href="https://careerbuilder.vn/vi/nha-tuyen-dung/ngan-hang-thuong-mai-co-phan-sai-gon-scb.35A71B52.html" title="Ngân Hàng Thương Mại Cổ Phần Sài Gòn (SCB)"><img src="../kiemviecv32/images/graphics/blank.gif" class="swiper-lazy" data-src="https://images.careerbuilder.vn/employer_folders/lot4/143954/67x67/155741logongang-01.png" alt="Ngân Hàng Thương Mại Cổ Phần Sài Gòn (SCB)" /></a></div>
-                                                                <div class="figcaption">
-                                                                    <div class="title"><a target="_blank" href="https://careerbuilder.vn/vi/tim-viec-lam/senior-talent-acquisition-specialist.35B969DF.html" title="(Senior) Talent Acquisition Specialist">(Senior) Talent Acquisition Specialist</a></div>
-                                                                    <div class="caption">
-                                                                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/ngan-hang-thuong-mai-co-phan-sai-gon-scb.35A71B52.html" title="Ngân Hàng Thương Mại Cổ Phần Sài Gòn (SCB)" target="_blank">Ngân Hàng Thương Mại Cổ Phần Sài Gòn (SCB)</a>
-                                                                        <p class="salary"><em class="fa fa-usd"></em>Lương: Cạnh Tranh</p>
-                                                                        <div class="location">
-                                                                            <em class="mdi mdi-map-marker"></em>
-                                                                            <p> Hồ Chí Minh</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="top-icon"> <span class="top">Top</span> </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-6 ">
-                                                        <div class="job-item">
-                                                            <div class="figure">
-                                                                <div class="image"><a target="_blank" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-fes-vietnam.35A611B0.html" title="Công ty TNHH FES VietNam"><img src="../kiemviecv32/images/graphics/blank.gif" class="swiper-lazy" data-src="https://images.careerbuilder.vn/employers/75952/67x67/134609foodempire_95x50_24012011.gif" alt="Công ty TNHH FES VietNam" /></a></div>
-                                                                <div class="figcaption">
-                                                                    <div class="title"><a target="_blank" href="https://careerbuilder.vn/vi/tim-viec-lam/graphic-designer-chuyen-vien-thiet-ke-do-hoa.35B96806.html" title="Graphic Designer/ Chuyên viên Thiết kế đồ họa">Graphic Designer/ Chuyên viên Thiết kế đồ họa</a></div>
-                                                                    <div class="caption">
-                                                                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-fes-vietnam.35A611B0.html" title="Công ty TNHH FES VietNam" target="_blank">Công ty TNHH FES VietNam</a>
-                                                                        <p class="salary"><em class="fa fa-usd"></em>Lương: Cạnh Tranh</p>
-                                                                        <div class="location">
-                                                                            <em class="mdi mdi-map-marker"></em>
-                                                                            <p> Hồ Chí Minh</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="top-icon"> <span class="top">Top</span> </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-6 ">
-                                                        <div class="job-item">
-                                                            <div class="figure">
-                                                                <div class="image"><a target="_blank" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-cp-viet-tinh-anh.35A7458F.html" title="Công Ty CP Việt Tinh Anh"><img src="../kiemviecv32/images/graphics/blank.gif" class="swiper-lazy" data-src="https://images.careerbuilder.vn/employer_folders/lot7/154767/67x67/936461.png" alt="Công Ty CP Việt Tinh Anh" /></a></div>
-                                                                <div class="figcaption">
-                                                                    <div class="title"><a target="_blank" href="https://careerbuilder.vn/vi/tim-viec-lam/giam-sat-dieu-phoi-van-tai.35B9798D.html" title="Giám Sát Điều Phối Vận Tải">Giám Sát Điều Phối Vận Tải</a></div>
-                                                                    <div class="caption">
-                                                                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-cp-viet-tinh-anh.35A7458F.html" title="Công Ty CP Việt Tinh Anh" target="_blank">Công Ty CP Việt Tinh Anh</a>
-                                                                        <p class="salary"><em class="fa fa-usd"></em>Lương:  13 Tr - 15 Tr VND</p>
-                                                                        <div class="location">
-                                                                            <em class="mdi mdi-map-marker"></em>
-                                                                            <p> Bình Dương</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="top-icon"> <span class="top">Top</span>  <span class="new"><font color="FF0000">(Mới)</font></span> </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-6 ">
-                                                        <div class="job-item">
-                                                            <div class="figure">
-                                                                <div class="image"><a target="_blank" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-eurowindow.35A69BE6.html" title="Công Ty Cổ Phần Eurowindow"><img src="../kiemviecv32/images/graphics/blank.gif" class="swiper-lazy" data-src="https://images.careerbuilder.vn/employer_folders/lot4/111334/67x67/114411eu.png" alt="Công Ty Cổ Phần Eurowindow" /></a></div>
-                                                                <div class="figcaption">
-                                                                    <div class="title"><a target="_blank" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-kinh-doanh-ha-noi.35B978F4.html" title="Nhân viên kinh doanh  - Hà Nội">Nhân viên kinh doanh  - Hà Nội</a></div>
-                                                                    <div class="caption">
-                                                                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-eurowindow.35A69BE6.html" title="Công Ty Cổ Phần Eurowindow" target="_blank">Công Ty Cổ Phần Eurowindow</a>
-                                                                        <p class="salary"><em class="fa fa-usd"></em>Lương:  10 Tr - 15 Tr VND</p>
-                                                                        <div class="location">
-                                                                            <em class="mdi mdi-map-marker"></em>
-                                                                            <p> Hà Nội</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="top-icon"> <span class="top">Top</span>  <span class="new"><font color="FF0000">(Mới)</font></span> </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-6 ">
-                                                        <div class="job-item">
-                                                            <div class="figure">
-                                                                <div class="image"><a target="_blank" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-vien-thong-dau-tu-va-thuong-mai-quoc-te.35A731FB.html" title="Công Ty Cổ Phần Viễn Thông Đầu Tư Và Thương Mại Quốc Tế"><img src="../kiemviecv32/images/graphics/blank.gif" class="swiper-lazy" data-src="https://images.careerbuilder.vn/employer_folders/lot5/149755/67x67/163431itecom-logo-thiet-ke-1-_optimized.jpg" alt="Công Ty Cổ Phần Viễn Thông Đầu Tư Và Thương Mại Quốc Tế" /></a></div>
-                                                                <div class="figcaption">
-                                                                    <div class="title"><a target="_blank" href="https://careerbuilder.vn/vi/tim-viec-lam/ky-su-cap-thoat-nuoc-phu-quoc.35B8BEBF.html" title="Kỹ Sư Cấp Thoát Nước (Phú Quốc)">Kỹ Sư Cấp Thoát Nước (Phú Quốc)</a></div>
-                                                                    <div class="caption">
-                                                                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-vien-thong-dau-tu-va-thuong-mai-quoc-te.35A731FB.html" title="Công Ty Cổ Phần Viễn Thông Đầu Tư Và Thương Mại Quốc Tế" target="_blank">Công Ty Cổ Phần Viễn Thông Đầu Tư Và Thương Mại Quốc Tế</a>
-                                                                        <p class="salary"><em class="fa fa-usd"></em>Lương:  12 Tr - 16 Tr VND</p>
-                                                                        <div class="location">
-                                                                            <em class="mdi mdi-map-marker"></em>
-                                                                            <p> Kiên Giang |  Hồ Chí Minh</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="top-icon"> <span class="top">Top</span> </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                    @endforeach
+                                                   
                                                 </div>
                                             </div>
                                         </div>

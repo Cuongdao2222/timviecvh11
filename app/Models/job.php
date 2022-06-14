@@ -17,6 +17,7 @@ class job extends Model
         'salary',
         'deadline',
         'employer_id',
+        'link'
         
     ];
      

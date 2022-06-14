@@ -48,7 +48,6 @@ Route::group(['prefix' => 'user','middleware' => 'checklogin'], function() {
     })->name('notification-user');
 
 
-
 });
 
 Route::group(['prefix' => 'employer','middleware' => 'checklogin'], function() {
