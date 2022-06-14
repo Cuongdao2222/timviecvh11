@@ -16,6 +16,10 @@ Route::get('/', function () {
     return view('frontend.index_list_job');
 })->name('home');
 
+ Route::get('/job-details/{id}', function () {
+        return view('frontend.job_details');
+    })->name('job_details');
+
 
 
 
@@ -53,6 +57,11 @@ Route::group(['prefix' => 'user','middleware' => 'checklogin'], function() {
 Route::group(['prefix' => 'employer','middleware' => 'checklogin'], function() {
 
     Route::get('/register', 'Backend\employerController@index')->name('register_employer'); 
+
+    Route::get('/job_details', 'Backend\employerController@index')->name('register_employer'); 
+
+
+   
 
 
 
