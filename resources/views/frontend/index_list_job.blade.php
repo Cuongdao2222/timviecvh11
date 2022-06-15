@@ -610,6 +610,13 @@ Start New Layout CB -->
                     </div>
                 </div>
             </section>
+            <style type="text/css">
+                
+                .apply-job{
+                    cursor: pointer;
+                    width: 65px !important;
+                }
+            </style>
             <section class="cb-section">
                 <div class="container">
                     <div class="hot-jobs-list">
@@ -648,7 +655,7 @@ Start New Layout CB -->
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="top-icon"> <span class="top">Top</span> </div>
+                                                                <div class="top-icon"> <span class="top apply-job">Apply</span> </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1143,6 +1150,13 @@ Start New Layout CB -->
             </div>
         </footer>
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTKWM2" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script type="text/javascript">
+            
+            $('.apply-job').click(function() {
+                alert('Đã xảy ra lỗi do xung đột');
+            })
+
+        </script>
         <script type="text/javascript">
             <!-- Google Tag Manager -->
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KTKWM2');

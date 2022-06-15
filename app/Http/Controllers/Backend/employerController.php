@@ -24,6 +24,9 @@ class employerController extends Controller
 
     public function viewIndex()
     {
+        if(!Auth::guard('employer_register')->check()){
+            return view('frontend.employer-register');
+        }
         $id = Auth::guard('employer_register')->user()->id;
         $job = job::where('employer_id', $id)->get()->count();
 
@@ -147,5 +150,10 @@ class employerController extends Controller
         return redirect(route('index_employer'));
        
             
+    }
+
+    public function info_employer()
+    {
+        return view('frontend.info_employer');
     }
 }

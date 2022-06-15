@@ -16,19 +16,22 @@ Route::get('/', function () {
     return view('frontend.index_list_job');
 })->name('home');
 
- Route::get('/job-details/{id}', function () {
+ Route::get('/job-details/{link}', function () {
         return view('frontend.job_details');
     })->name('job_details');
+ Route::get('/register-client-user', function () {
+    return view('frontend.registerClientUser');
+})->name('registerClientUser');
 
-
+ Route::get('employers_info', 'Backend\employerController@info_employer');
 
 
 Route::group(['prefix' => 'user','middleware' => 'checklogin'], function() {
 
    
-    Route::get('/register-client-user', function () {
-        return view('frontend.registerClientUser');
-    })->name('registerClientUser');
+    // Route::get('/register-client-user', function () {
+    //     return view('frontend.registerClientUser');
+    // })->name('registerClientUser');
 
 
     Route::get('/user-dashboard', function () {
