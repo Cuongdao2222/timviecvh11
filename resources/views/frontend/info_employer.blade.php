@@ -140,7 +140,7 @@ body.compensate-for-scrollbar{overflow:hidden;}.fancybox-active{height:auto;}.fa
 	var domainroot = "https://careerbuilder.vn";
 	var calendarlanguage = "vi";
 </script>
-			</head>
+	</head>
 			<body>
 				<header class="for-customers">
 		
@@ -262,7 +262,8 @@ body.compensate-for-scrollbar{overflow:hidden;}.fancybox-active{height:auto;}.fa
         </div>
     </div>
     <div class="backdrop"></div>
-</header>				<main>
+</header>				
+<main>
 
 <link rel="stylesheet" type="text/css" href="{{ asset('css/employ/account-tool-company-profile.css') }}">	
 
@@ -277,24 +278,24 @@ body.compensate-for-scrollbar{overflow:hidden;}.fancybox-active{height:auto;}.fa
         <div class="main-wrap">
             <div class="left-wrap">
                 <ul class="list-menu">
-                    <li > <a href="https://careerbuilder.vn/vi/employers/dashboard" title="Dashboard">Dashboard</a> </li>
+                    <li > <a href="{{ route('index_employer') }}" title="Dashboard">Dashboard</a> </li>
                     <li > <a href="https://careerbuilder.vn/vi/employers/hrcentral/posting" title="Quản Lý Đăng Tuyển">Quản Lý Đăng Tuyển</a> </li>
-                    <li > <a href="https://careerbuilder.vn/vi/employers/hrcentral/manageresume" class="active" title="Quản Lý  Ứng Viên">Quản Lý  Ứng Viên</a> </li>
+                   <!--  <li > <a href="https://careerbuilder.vn/vi/employers/hrcentral/manageresume" class="active" title="Quản Lý  Ứng Viên">Quản Lý  Ứng Viên</a> </li>
                     <li class=""> <a href="https://careerbuilder.vn/vi/employers/hrcentral/search-history" title="Lịch Sử Tìm Kiếm">Lịch Sử Tìm Kiếm</a> </li>
                     <li > <a href="https://careerbuilder.vn/vi/employers/hrcentral/reports/orders_available" title="Đơn Hàng ">Đơn Hàng </a> </li>
-                    <li > <a href="https://careerbuilder.vn/vi/employers/hrcentral/emailcontentmanagement" title="Cấu Hình Email" > Cấu Hình Email </a> </li>
+                    <li > <a href="https://careerbuilder.vn/vi/employers/hrcentral/emailcontentmanagement" title="Cấu Hình Email" > Cấu Hình Email </a> </li> -->
                     <li class="active">
                         <a href="https://careerbuilder.vn/vi/employers/hrcentral/accounts" title=" Tài Khoản"> Tài Khoản</a>
                     </li>
-                    <li> <a href="https://careerbuilder.vn/vi/employers/careerbuilder-rewards" target="_blank" title="CBRewards">CBRewards</a> </li>
+                    <!-- <li> <a href="https://careerbuilder.vn/vi/employers/careerbuilder-rewards" target="_blank" title="CBRewards">CBRewards</a> </li> -->
                 </ul>
             </div>
-            <div class="right-wrap">
+            <!-- <div class="right-wrap">
                 <ul class="list-menu">
                     <li> <a href="https://careerbuilder.vn/vi/tim-ung-vien.html"> <em class="material-icons">find_in_page</em> Tìm Hồ Sơ </a> </li>
                     <li> <a class="but-createjob" href="https://careerbuilder.vn/vi/employers/postjobs"> <em class="material-icons">assignment_ind</em> Đăng Tuyển Dụng </a> </li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -306,281 +307,380 @@ body.compensate-for-scrollbar{overflow:hidden;}.fancybox-active{height:auto;}.fa
     </div>
 </div>
 <section class="manage-job-posting-post-jobs cb-section bg-manage">
-<div class="container">
-<div class="box-manage-job-posting">
-<div class="heading-manage">
-    <div class="left-heading">
-        <h1 class="title-manage"> Thông Tin Tài Khoản</h1>
-    </div>
-    <div class="right-heading"> <a class="support"
-        href="https://careerbuilder.vn/vi/employers/faq" target="_blank">Hướng dẫn </a></div>
-</div>
-<div class="main-tabslet" data-toggle="tabslet">
-<ul class="tabslet-tab">
-    <li ><a href="https://careerbuilder.vn/vi/employers/hrcentral/accounts/1" alt="Quản lý user"><span>Quản lý user</span></a></li>
-    <li class="active"><a href="https://careerbuilder.vn/vi/employers/hrcentral/accounts/edit_employer" alt="Thông tin công ty"><span>Thông tin công ty</span></a></li>
-<!--     <li ><a href="https://careerbuilder.vn/vi/employers/hrcentral/accounts/edit_contact" alt="Thông tin liên hệ"><span>Thông tin liên hệ</span></a></li>
-    <li ><a href="https://careerbuilder.vn/vi/employers/hrcentral/accounts/worklocation" alt="Quản Lý Địa Điểm Làm Việc"><span>Quản Lý Địa Điểm Làm Việc</span></a></li>
-    <li ><a href="https://careerbuilder.vn/vi/employers/hrcentral/accounts/report_task_log" alt="Báo cáo tác vụ"><span>Báo cáo tác vụ</span></a></li>
-    <li ><a href="https://careerbuilder.vn/vi/employers/hrcentral/accounts/changepassword" alt="Đổi mật khẩu"><span>Đổi mật khẩu</span></a></li> -->
-</ul>
-<div class="tabslet-content active" id="tab-2">
-<form method="post" name="editCompany" id="editCompany" action="{{ route('updateEmployer') }}" enctype="multipart/form-data" >
-	@csrf
-<div class="main-application-information">
-<h2 class="title-application no-bg no-pad">
-    CHỈNH SỬA THÔNG TIN CÔNG TY
-</h2>
-<h2 class="title-application">THÔNG TIN CÔNG TY</h2>
-<div class="form-wrap">
-    <div class="row">
-        <div class="col-lg-6">
-            <div class="form-group form-text form-input-label">
-                <input type="text" name="EMP_NAME" id="EMP_NAME" value=""
-                    maxlength="150" onkeyup="this.setAttribute('value', this.value);">
-                <label>Tên công ty   <font style="color: red">*</font></label>
-                <span class="error error_EMP_NAME"> </span>
+    <div class="container">
+        <div class="box-manage-job-posting">
+            <div class="heading-manage">
+                <div class="left-heading">
+                    <h1 class="title-manage"> Thông Tin Tài Khoản</h1>
+                </div>
+                <div class="right-heading"> <a class="support"
+                    href="https://careerbuilder.vn/vi/employers/faq" target="_blank">Hướng dẫn </a></div>
             </div>
-        </div>
-        <div class="col-lg-6">
-            <div class="noti mt-20">
-                <em class="material-icons">info</em>
-                <div class="toolip">
-                    <p>Vui lòng nhập tối thiểu 3 ký tự!</p>
+            <div class="main-tabslet" data-toggle="tabslet">
+                <ul class="tabslet-tab">
+                    <li ><a href="https://careerbuilder.vn/vi/employers/hrcentral/accounts/1" alt="Quản lý user"><span>Quản lý user</span></a></li>
+                    <li class="active"><a href="https://careerbuilder.vn/vi/employers/hrcentral/accounts/edit_employer" alt="Thông tin công ty"><span>Thông tin công ty</span></a></li>
+                    <!--     <li ><a href="https://careerbuilder.vn/vi/employers/hrcentral/accounts/edit_contact" alt="Thông tin liên hệ"><span>Thông tin liên hệ</span></a></li>
+                        <li ><a href="https://careerbuilder.vn/vi/employers/hrcentral/accounts/worklocation" alt="Quản Lý Địa Điểm Làm Việc"><span>Quản Lý Địa Điểm Làm Việc</span></a></li>
+                        <li ><a href="https://careerbuilder.vn/vi/employers/hrcentral/accounts/report_task_log" alt="Báo cáo tác vụ"><span>Báo cáo tác vụ</span></a></li>
+                        <li ><a href="https://careerbuilder.vn/vi/employers/hrcentral/accounts/changepassword" alt="Đổi mật khẩu"><span>Đổi mật khẩu</span></a></li> -->
+                </ul>
+                <div class="tabslet-content active" id="tab-2">
+                    <form method="post" name="editCompany" id="editCompany" action="{{ route('updateEmployer') }}" enctype="multipart/form-data" >
+                        @csrf
+                        <div class="main-application-information">
+                            <h2 class="title-application no-bg no-pad">
+                                CHỈNH SỬA THÔNG TIN CÔNG TY
+                            </h2>
+                            <h2 class="title-application">THÔNG TIN CÔNG TY</h2>
+                            <div class="form-wrap">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group form-text form-input-label">
+                                            <input type="text" name="EMP_NAME" id="EMP_NAME" value="{{ @$data_employ->name }}"
+                                                maxlength="150" onkeyup="this.setAttribute('value', this.value);">
+                                            <label>Tên công ty   <font style="color: red">*</font></label>
+                                            <span class="error error_EMP_NAME"> </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="noti mt-20">
+                                            <em class="material-icons">info</em>
+                                            <div class="toolip">
+                                                <p>Vui lòng nhập tối thiểu 3 ký tự!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group form-select">
+                                            <label>Tổng số nhân viên</label>
+                                            <select name="EMP_TOTALSTAFF">
+                                            <?php 
+                                                $staff = ['chọn số nhân viên', 'Ít hơn 10', 'Ít hơn 10', '10-20', '25-99', '100-499', '500-999', '1.000-4.999', '5.000-9.999', '10.000-19.999', '20.000-49.999', 'Nhiều hơn 50.000']
+                                                ?>
+                                            @foreach($staff as $key=> $value)
+                                            <?php 
+                                                $totalstaff = !empty($data_employ->totalstaff)??'';
+                                                
+                                                ?>
+                                            <option value="{{ $key }}" {{ $totalstaff=$key?'selected':'' }}>{{ $value }}</option>
+                                            @endforeach
+                                            </select>
+                                            <span class="error error_EMP_TOTALSTAFF"> </span>
+                                        </div>
+                                    </div>
+                                    <?php 
+                                        $data_Company = ['chọn', '100% vốn nước ngoài', 'Cá nhân', 'Công ty đa quốc gia', 'Cổ phần', 'Liên doanh', 'Nhà nước', 'trách nhiệm hữu hạn']
+                                        ?>
+                                    <div class="col-lg-6">
+                                        <div class="form-group form-select">
+                                            <label>Loại hình hoạt động</label>
+                                            <select name="Company_type" class="width_160">
+                                            @foreach($data_Company as $key=> $value)
+                                            <?php 
+                                                $company_type = !empty($data_employ->company_type)??'';
+                                                
+                                                ?>
+                                            <option value="{{ $key }}" {{ $company_type==$key?'selected':'' }}>{{ $value }}</option>
+                                            @endforeach
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group form-text form-input-label">
+                                            <input type="text" name="EMP_WEBSITE" id="EMP_WEBSITE" value="{{ @$data_employ->website }}"
+                                                onkeyup="this.setAttribute('value', this.value);" maxlength="100">
+                                            <label>Website công ty</label>
+                                            <span class="error error_EMP_WEBSITE"> </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group form-text form-input-label">
+                                            <input type="text" name="EMP_TAXID" id="EMP_TAXID" value="{{ @$data_employ->taxid }}"
+                                                onkeyup="this.setAttribute('value', this.value);" maxlength="100">
+                                            <label>Mã Số  Thuế</label>
+                                            <span class="error error_EMP_TAXID"> </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-wrap logo-wrap">
+                                <div class="main-image">
+                                    <div class="form-group">
+                                        <p class="title-label">Logo</p>
+                                    </div>
+                                    <div class="list-image">
+                                        <div class="image-item" id="logo_path">
+                                        	@if(!empty($data_employ->logo))
+                                        	<img src="{{ asset( $data_employ->logo ) }}" width="95" height="50">
+                                        	@endif
+                                        </div>
+                                    </div>
+                                    <div class="upload-img">
+                                        <input type="file" id="logo" name="logo" value="">
+                                        <input type="hidden" name="logo_h" id="logo_h" value="" />
+                                        <input type="hidden" name="logo_old" id="logo_old" value="" />
+                                        <input type="hidden" name="logo_new" id="logo_new" value="" />
+                                        <label for="logo"><em class="material-icons">folder_open</em>Tải ảnh từ máy tính</label>
+                                        <div class="noti">
+                                            <em class="material-icons">info </em>
+                                            <div class="toolip">
+                                                <p>Định dạng: gif, jpg, png, kích thước đẹp nhất 240x160px</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-wrap banner-wrap">
+                                <div class="main-image">
+                                    <!--  <div class="form-group">
+                                        <p class="title-label">Cover/ Banner
+                                            <a class="btn-view-banner-location" href="https://static.careerbuilder.vn/themes/kiemviecv32/employersnews/images/graphics/cover-tip.jpg" class="line_bot fancybox"><img src="https://static.careerbuilder.vn/themes/kiemviecv32/images/icons/icon_help.png" align="absmiddle" title="Click để xem vị trí của Cover / Banner">Click để xem vị trí của Cover / Banner </a>
+                                        </p>
+                                        </div> -->
+                                    <!--  <div class="list-image" >
+                                        <div class="image-item" id="image1_path">
+                                        </div>
+                                        </div>
+                                        <div class="upload-img">
+                                        <input type="file"  name="image1" id="image1" value=""/>
+                                        <label for="image1"><em class="material-icons">folder_open</em>Tải ảnh từ máy tính</label>
+                                        <input type="hidden" class="li_dmk_width252" name="image1_h" id="image1_h"  value=""/>
+                                        <input type="hidden" class="li_dmk_width252" name="image1_old" id="image1_old"  value=""/>
+                                        <input type="hidden" class="li_dmk_width252" name="image1_new" id="image1_new"  value=""/>
+                                        <div class="noti">
+                                            <em class="material-icons">info </em>
+                                            <div class="toolip">
+                                                <p>Định dạng: *.gif, *.jpg, *.png. Kích thước đẹp nhất 1380x290px</p>
+                                            </div>
+                                        </div>
+                                        </div> -->
+                                </div>
+                            </div>
+                            <div class="form-wrap">
+                                <div class="form-group form-editor" id="div_jobdesc">
+                                    <label>Giới thiệu về công ty   <font style="color: red">*</font></label>
+                                    <textarea cols="80" rows="5" name="EMP_DESC" id="EMP_DESC"
+                                        class="editor">{!!  @$data_employ->desc   !!}</textarea>
+                                    <div class="note">
+                                        <p>Vui lòng không nhập email,số điện thoại và số lượng kí tự   phải lớn hơn 10
+                                        </p>
+                                    </div>
+                                    <span class="error error_EMP_DESC"> </span>
+                                    <div class="note">
+                                        <p> </p>
+                                    </div>
+                                </div>
+                                <div class="form-group form-editor" id="div_jobreq">
+                                    <label>Địa chỉ công ty</label>
+                                    <textarea cols="80" rows="5" id="EMP_MESSAGE" name="address_employ"
+                                        class="editor">{!!  @$data_employ->address   !!}</textarea>
+                                    <span class="error error_EMP_MESSAGE"> </span>
+                                    <div class="note">
+                                        <p> </p>
+                                    </div>
+                                </div>
+                                <!-- <div class="main-image">
+                                    <div class="list-image">
+                                        <div class="image-item" id="image2_path" >
+                                        </div>
+                                    </div>
+                                    <div class="upload-img">
+                                        <input type="file" name="image2" id="image2" value="" />
+                                        <label for="image2"><em class="material-icons">folder_open</em>Tải ảnh từ máy tính</label>
+                                        <input type="hidden" class="li_dmk_width252" name="image2_h" id="image2_h"  value=""/>
+                                        <input type="hidden" class="li_dmk_width252" name="image2_old" id="image2_old"  value=""/>
+                                        <input type="hidden" class="li_dmk_width252" name="image2_new" id="image2_new"  value=""/>
+                                        <div class="noti">
+                                            <em class="material-icons">info </em>
+                                            <div class="toolip">
+                                                <p>Định dạng: *.gif, *.jpg, *.png. Kích thước <1mb</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div> -->
+                            </div>
+                            <input type="hidden" id="strPhoto" name="strPhoto" value="3728_tu-lanh-samsung-rt19m300bgs-sv5_1655256984.jpg" />
+                            <input type="hidden" id="strPhotoDelete" name="strPhotoDelete" value="" />
+                            <input type="hidden" id="checkYouTube" name="checkYouTube" />
+                            <!-- <h2 class="title-application">Video và hình ảnh <span class="txt_required mả_left10">(Không bắt buộc)</span> </h2>
+                                <div class="form-wrap video-wrap">
+                                    <div class="noti">
+                                        <p> <em class="material-icons">info </em>Link video youtube</p>
+                                        <div class="toolip">
+                                            Nhập thêm video và hình ảnh giới thiệu về công ty sẽ thu hút ứng viên nộp đơn ứng tuyển. <br>Video và hình ảnh này sẽ được sử dụng chung cho tất cả 
+                                            <a class="line_bot fancybox" href="https://static.careerbuilder.vn/themes/kiemviecv32/employersnews/images/graphics/ex1.gif">thông tin tuyển dụng</a>
+                                            và
+                                            <a class="line_bot fancybox" href="https://static.careerbuilder.vn/themes/kiemviecv32/employersnews/images/graphics/ex2.gif">trang giới thiệu về công ty</a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group form-text">
+                                                <input type="text" placeholder="Link video youtube" id="strVideo" name="strVideo" onblur="checkYoutubeValid(0);" value="">
+                                            </div>
+                                            <span class="error error_strVideo"> </span>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="noti mt-20">
+                                                <p> <em class="material-icons">info </em></p>
+                                                <div class="toolip">
+                                                    Ví dụ: https://www.youtube.com/watch?v=egYcmuk3dso
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="preview"><a class="btn-preview" href="javascript:void(0);" onclick="checkYoutubeValid(1)">Xem trước</a></div>
+                                    <div class="main-image">
+                                        <div class="form-group">
+                                            <p class="title-label">Hình ảnh <br /><span class="note2">(Tối đa 5 ảnh)</span></p>
+                                        </div>
+                                        <div class="list-image" id="list-image">
+                                            <div class="image-item">
+                                                <img src="https://images.careerbuilder.vn//employer_photo/271347/3728_tu-lanh-samsung-rt19m300bgs-sv5_1655256984.jpg">
+                                                <a class="btn-del-img  company-btn-del-img" href="javascript:void(0);" data-src="3728_tu-lanh-samsung-rt19m300bgs-sv5_1655256984.jpg"  title="Xóa ảnh"><em class="material-icons">clear</em></a>
+                                            </div>
+                                        </div>
+                                        <div class="upload-img">
+                                            <input type="file" id="filephoto"  onchange="return ajaxPhotoUpload();" >
+                                            <label for="filephoto" class=""><em class="material-icons">folder_open</em>Tải Ảnh từ máy tính</label>
+                                            <div class="noti">
+                                                <em class="material-icons">info </em>
+                                                <div class="toolip">
+                                                    <div class="clear note2 pad_top8">- Hỗ trợ định dạng .jpg, .gif, .png; dung lượng mỗi ảnh không vượt quá 1mb</div>
+                                                    <div class="clear note2">- Chiều cao mỗi ảnh phải >135px và < 1,500px</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="show-video">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" id="isdisplay" name="isdisplay" value="1"   >
+                                            <label for="isdisplay"><strong>Hiển thị video và ảnh này trên trang giới thiệu về công ty</strong></label>
+                                            <span id="loading" class="img_loading" style="display:none"><img src="https://static.careerbuilder.vn/themes/kiemviecv32/css/images/graphics/loading.gif"></span>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            <!-- <h2 class="title-application">Phúc lợi</h2> -->
+                          <!--   <div class="checkbox-wrap">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_2" name="BENEFIT_ID[]" value="2"  checked="checked" >
+                                            <label for="BENEFIT_ID_2"> <em class="fa fa-medkit"></em>Chế độ bảo hiểm</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_3" name="BENEFIT_ID[]" value="3"  checked="checked" >
+                                            <label for="BENEFIT_ID_3"> <em class="fa fa-plane"></em>Du Lịch</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_8" name="BENEFIT_ID[]" value="8"  checked="checked" >
+                                            <label for="BENEFIT_ID_8"> <em class="fa fa-usd"></em>Chế độ thưởng</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_9" name="BENEFIT_ID[]" value="9"  checked="checked" >
+                                            <label for="BENEFIT_ID_9"> <em class="fa fa-user-md"></em>Chăm sóc sức khỏe</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_10" name="BENEFIT_ID[]" value="10"  checked="checked" >
+                                            <label for="BENEFIT_ID_10"> <em class="fa fa-graduation-cap"></em>Đào tạo</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_11" name="BENEFIT_ID[]" value="11"  checked="checked" >
+                                            <label for="BENEFIT_ID_11"> <em class="fa fa-line-chart"></em>Tăng lương</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_1" name="BENEFIT_ID[]" value="1" >
+                                            <label for="BENEFIT_ID_1"> <em class="fa fa-laptop"></em>Laptop</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_4" name="BENEFIT_ID[]" value="4" >
+                                            <label for="BENEFIT_ID_4"> <em class="fa fa-money"></em>Phụ cấp</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_5" name="BENEFIT_ID[]" value="5" >
+                                            <label for="BENEFIT_ID_5"> <em class="fa fa-taxi"></em>Xe đưa đón</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_6" name="BENEFIT_ID[]" value="6" >
+                                            <label for="BENEFIT_ID_6"> <em class="fa fa-fighter-jet"></em>Du lịch nước ngoài</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_7" name="BENEFIT_ID[]" value="7" >
+                                            <label for="BENEFIT_ID_7"> <em class="fa fa-black-tie"></em>Đồng phục</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_12" name="BENEFIT_ID[]" value="12" >
+                                            <label for="BENEFIT_ID_12"> <em class="fa fa-credit-card"></em>Công tác phí</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_13" name="BENEFIT_ID[]" value="13" >
+                                            <label for="BENEFIT_ID_13"> <em class="fa fa-money"></em>Phụ cấp thâm niên</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_14" name="BENEFIT_ID[]" value="14" >
+                                            <label for="BENEFIT_ID_14"> <em class="fa fa-briefcase"></em>Nghỉ phép năm</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_15" name="BENEFIT_ID[]" value="15" >
+                                            <label for="BENEFIT_ID_15"> <em class="fa fa-heartbeat"></em>CLB thể thao</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="noted">
+                                <p>  <font style="color: red">*</font> Thông tin bắt buộc</p>
+                            </div> -->
+                            <div class="form-group form-submit form-continue">
+                                <a class="btn-cancel btn-preview-account-user" href="javascript:;" onclick="window.open('https://careerbuilder.vn/vi/nha-tuyen-dung/congty-abc.35A90CF3.html', '_blank'); return false;  ">
+                                Xem lại</a>
+                                <button class="btn-gradient btn-submit" type="submit" id="update_info_company_form"
+                                    onclick="updateInfoCompany()">Cập nhật</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-lg-6">
-            <div class="form-group form-select">
-                <label>Tổng số nhân viên</label>
-                <select name="EMP_TOTALSTAFF">
-                    <option value="">Chọn số nhân viên</option>
-                    <option value="Ít hơn 10"  selected="selected">Ít hơn 10</option>
-                    <option value="10-20" >10-20</option>
-                    <option value="25-99" >25-99</option>
-                    <option value="100-499" >100-499</option>
-                    <option value="500-999" >500-999</option>
-                    <option value="1.000-4.999" >1.000-4.999</option>
-                    <option value="5.000-9.999" >5.000-9.999</option>
-                    <option value="10.000-19.999" >10.000-19.999</option>
-                    <option value="20.000-49.999" >20.000-49.999</option>
-                    <option value="Nhiều hơn 50.000" >Nhiều hơn 50.000</option>
-                </select>
-                <span class="error error_EMP_TOTALSTAFF"> </span>
-            </div>
-        </div>
-        <div class="col-lg-6">
-            <div class="form-group form-select">
-                <label>Loại hình hoạt động</label>
-                <select name="Company_type" class="width_160">
-                    <option value="0" selected="selected"
-                        >-- Chọn --</option>
-                    <option value="6" >100% vốn nước ngoài</option>
-                    <option value="4" >Cá nhân</option>
-                    <option value="7" >Công ty đa quốc gia</option>
-                    <option value="2" >Cổ phần</option>
-                    <option value="5" >Liên doanh</option>
-                    <option value="1" >Nhà nước</option>
-                    <option value="3" >Trách nhiệm hữu hạn</option>
-                </select>
-            </div>
-        </div>
-    </div>
-    <!--<div class="row">
-        <div class="col-lg-6">
-            <div class="form-group form-select">
-                <label>Loại hình hoạt động</label>
-                <select name="Company_type" class="width_160">
-                                                                                    <option value="0" selected="selected"
-                            >-- Chọn --</option>
-                                                                                    <option value="6" >100% vốn nước ngoài</option>
-                                                                                    <option value="4" >Cá nhân</option>
-                                                                                    <option value="7" >Công ty đa quốc gia</option>
-                                                                                    <option value="2" >Cổ phần</option>
-                                                                                    <option value="5" >Liên doanh</option>
-                                                                                    <option value="1" >Nhà nước</option>
-                                                                                    <option value="3" >Trách nhiệm hữu hạn</option>
-                                                                            </select>
-            </div>
-        </div>
-        </div>-->
-    <div class="row">
-        <div class="col-lg-6">
-            <div class="form-group form-text form-input-label">
-                <input type="text" name="EMP_WEBSITE" id="EMP_WEBSITE" value=""
-                    onkeyup="this.setAttribute('value', this.value);" maxlength="100">
-                <label>Website công ty</label>
-                <span class="error error_EMP_WEBSITE"> </span>
-            </div>
-        </div>
-        <div class="col-lg-6">
-            <div class="form-group form-text form-input-label">
-                <input type="text" name="EMP_TAXID" id="EMP_TAXID" value=""
-                    onkeyup="this.setAttribute('value', this.value);" maxlength="100">
-                <label>Mã Số  Thuế</label>
-                <span class="error error_EMP_TAXID"> </span>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="form-wrap logo-wrap">
-    <div class="main-image">
-        <div class="form-group">
-            <p class="title-label">Logo</p>
-        </div>
-        <div class="list-image">
-            <div class="image-item" id="logo_path">
-            </div>
-        </div>
-        <div class="upload-img">
-            <input type="file" id="logo" name="logo" value="">
-            <input type="hidden" name="logo_h" id="logo_h" value="" />
-            <input type="hidden" name="logo_old" id="logo_old" value="" />
-            <input type="hidden" name="logo_new" id="logo_new" value="" />
-            <label for="logo"><em class="material-icons">folder_open</em>Tải ảnh từ máy tính</label>
-            <div class="noti">
-                <em class="material-icons">info </em>
-                <div class="toolip">
-                    <p>Định dạng: gif, jpg, png, kích thước đẹp nhất 240x160px</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="form-wrap banner-wrap">
-    <div class="main-image">
-       <!--  <div class="form-group">
-            <p class="title-label">Cover/ Banner
-                <a class="btn-view-banner-location" href="https://static.careerbuilder.vn/themes/kiemviecv32/employersnews/images/graphics/cover-tip.jpg" class="line_bot fancybox"><img src="https://static.careerbuilder.vn/themes/kiemviecv32/images/icons/icon_help.png" align="absmiddle" title="Click để xem vị trí của Cover / Banner">Click để xem vị trí của Cover / Banner </a>
-            </p>
-        </div> -->
-       <!--  <div class="list-image" >
-            <div class="image-item" id="image1_path">
-            </div>
-        </div>
-        <div class="upload-img">
-            <input type="file"  name="image1" id="image1" value=""/>
-            <label for="image1"><em class="material-icons">folder_open</em>Tải ảnh từ máy tính</label>
-            <input type="hidden" class="li_dmk_width252" name="image1_h" id="image1_h"  value=""/>
-            <input type="hidden" class="li_dmk_width252" name="image1_old" id="image1_old"  value=""/>
-            <input type="hidden" class="li_dmk_width252" name="image1_new" id="image1_new"  value=""/>
-            <div class="noti">
-                <em class="material-icons">info </em>
-                <div class="toolip">
-                    <p>Định dạng: *.gif, *.jpg, *.png. Kích thước đẹp nhất 1380x290px</p>
-                </div>
-            </div>
-        </div> -->
-    </div>
-</div>
-<div class="form-wrap">
-    <div class="form-group form-editor" id="div_jobdesc">
-        <label>Giới thiệu về công ty   <font style="color: red">*</font></label>
-        <textarea cols="80" rows="5" name="EMP_DESC" id="EMP_DESC"
-            class="editor"></textarea>
-        <div class="note">
-            <p>Vui lòng không nhập email,số điện thoại và số lượng kí tự   phải lớn hơn 10
-            </p>
-        </div>
-        <span class="error error_EMP_DESC"> </span>
-        <div class="note">
-            <p> </p>
-        </div>
-    </div>
-    <div class="form-group form-editor" id="div_jobreq">
-        <label>Địa chỉ công ty</label>
-        <textarea cols="80" rows="5" id="EMP_MESSAGE" name="address_employ"
-            class="editor"></textarea>
-      
-        <span class="error error_EMP_MESSAGE"> </span>
-        <div class="note">
-            <p> </p>
-        </div>
-    </div>
-    <!-- <div class="main-image">
-        <div class="list-image">
-            <div class="image-item" id="image2_path" >
-            </div>
-        </div>
-        <div class="upload-img">
-            <input type="file" name="image2" id="image2" value="" />
-            <label for="image2"><em class="material-icons">folder_open</em>Tải ảnh từ máy tính</label>
-            <input type="hidden" class="li_dmk_width252" name="image2_h" id="image2_h"  value=""/>
-            <input type="hidden" class="li_dmk_width252" name="image2_old" id="image2_old"  value=""/>
-            <input type="hidden" class="li_dmk_width252" name="image2_new" id="image2_new"  value=""/>
-            <div class="noti">
-                <em class="material-icons">info </em>
-                <div class="toolip">
-                    <p>Định dạng: *.gif, *.jpg, *.png. Kích thước <1mb</p>
-                </div>
-            </div>
-        </div>
-    </div> -->
-</div>
-<input type="hidden" id="strPhoto" name="strPhoto" value="3728_tu-lanh-samsung-rt19m300bgs-sv5_1655256984.jpg" />
-<input type="hidden" id="strPhotoDelete" name="strPhotoDelete" value="" />
-<input type="hidden" id="checkYouTube" name="checkYouTube" />
-<!-- <h2 class="title-application">Video và hình ảnh <span class="txt_required mả_left10">(Không bắt buộc)</span> </h2>
-<div class="form-wrap video-wrap">
-    <div class="noti">
-        <p> <em class="material-icons">info </em>Link video youtube</p>
-        <div class="toolip">
-            Nhập thêm video và hình ảnh giới thiệu về công ty sẽ thu hút ứng viên nộp đơn ứng tuyển. <br>Video và hình ảnh này sẽ được sử dụng chung cho tất cả 
-            <a class="line_bot fancybox" href="https://static.careerbuilder.vn/themes/kiemviecv32/employersnews/images/graphics/ex1.gif">thông tin tuyển dụng</a>
-            và
-            <a class="line_bot fancybox" href="https://static.careerbuilder.vn/themes/kiemviecv32/employersnews/images/graphics/ex2.gif">trang giới thiệu về công ty</a>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-6">
-            <div class="form-group form-text">
-                <input type="text" placeholder="Link video youtube" id="strVideo" name="strVideo" onblur="checkYoutubeValid(0);" value="">
-            </div>
-            <span class="error error_strVideo"> </span>
-        </div>
-        <div class="col-lg-6">
-            <div class="noti mt-20">
-                <p> <em class="material-icons">info </em></p>
-                <div class="toolip">
-                    Ví dụ: https://www.youtube.com/watch?v=egYcmuk3dso
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="preview"><a class="btn-preview" href="javascript:void(0);" onclick="checkYoutubeValid(1)">Xem trước</a></div>
-    <div class="main-image">
-        <div class="form-group">
-            <p class="title-label">Hình ảnh <br /><span class="note2">(Tối đa 5 ảnh)</span></p>
-        </div>
-        <div class="list-image" id="list-image">
-            <div class="image-item">
-                <img src="https://images.careerbuilder.vn//employer_photo/271347/3728_tu-lanh-samsung-rt19m300bgs-sv5_1655256984.jpg">
-                <a class="btn-del-img  company-btn-del-img" href="javascript:void(0);" data-src="3728_tu-lanh-samsung-rt19m300bgs-sv5_1655256984.jpg"  title="Xóa ảnh"><em class="material-icons">clear</em></a>
-            </div>
-        </div>
-        <div class="upload-img">
-            <input type="file" id="filephoto"  onchange="return ajaxPhotoUpload();" >
-            <label for="filephoto" class=""><em class="material-icons">folder_open</em>Tải Ảnh từ máy tính</label>
-            <div class="noti">
-                <em class="material-icons">info </em>
-                <div class="toolip">
-                    <div class="clear note2 pad_top8">- Hỗ trợ định dạng .jpg, .gif, .png; dung lượng mỗi ảnh không vượt quá 1mb</div>
-                    <div class="clear note2">- Chiều cao mỗi ảnh phải >135px và < 1,500px</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="show-video">
-        <div class="form-group form-checkbox">
-            <input type="checkbox" id="isdisplay" name="isdisplay" value="1"   >
-            <label for="isdisplay"><strong>Hiển thị video và ảnh này trên trang giới thiệu về công ty</strong></label>
-            <span id="loading" class="img_loading" style="display:none"><img src="https://static.careerbuilder.vn/themes/kiemviecv32/css/images/graphics/loading.gif"></span>
-        </div>
-    </div>
-</div> -->
-<script type="text/javascript">
+</section>
+
+
+
+    <script type="text/javascript">
 $( document ).ready(function() {
    checkYoutubeValid();
    eventAfterAjax();
@@ -804,117 +904,6 @@ function checkYoutubeValid(type)
 
 </script>
 
-                                <h2 class="title-application">Phúc lợi</h2>
-                                <div class="checkbox-wrap">
-                                    <div class="row">
-                                                                        <div class="col-sm-6 col-lg-3">
-                                        <div class="form-group form-checkbox">
-                                            <input type="checkbox" class="" id="BENEFIT_ID_2" name="BENEFIT_ID[]" value="2"  checked="checked" >
-                                            <label for="BENEFIT_ID_2"> <em class="fa fa-medkit"></em>Chế độ bảo hiểm</label>
-                                        </div>
-                                    </div>
-                                                                        <div class="col-sm-6 col-lg-3">
-                                        <div class="form-group form-checkbox">
-                                            <input type="checkbox" class="" id="BENEFIT_ID_3" name="BENEFIT_ID[]" value="3"  checked="checked" >
-                                            <label for="BENEFIT_ID_3"> <em class="fa fa-plane"></em>Du Lịch</label>
-                                        </div>
-                                    </div>
-                                                                        <div class="col-sm-6 col-lg-3">
-                                        <div class="form-group form-checkbox">
-                                            <input type="checkbox" class="" id="BENEFIT_ID_8" name="BENEFIT_ID[]" value="8"  checked="checked" >
-                                            <label for="BENEFIT_ID_8"> <em class="fa fa-usd"></em>Chế độ thưởng</label>
-                                        </div>
-                                    </div>
-                                                                        <div class="col-sm-6 col-lg-3">
-                                        <div class="form-group form-checkbox">
-                                            <input type="checkbox" class="" id="BENEFIT_ID_9" name="BENEFIT_ID[]" value="9"  checked="checked" >
-                                            <label for="BENEFIT_ID_9"> <em class="fa fa-user-md"></em>Chăm sóc sức khỏe</label>
-                                        </div>
-                                    </div>
-                                                                        <div class="col-sm-6 col-lg-3">
-                                        <div class="form-group form-checkbox">
-                                            <input type="checkbox" class="" id="BENEFIT_ID_10" name="BENEFIT_ID[]" value="10"  checked="checked" >
-                                            <label for="BENEFIT_ID_10"> <em class="fa fa-graduation-cap"></em>Đào tạo</label>
-                                        </div>
-                                    </div>
-                                                                        <div class="col-sm-6 col-lg-3">
-                                        <div class="form-group form-checkbox">
-                                            <input type="checkbox" class="" id="BENEFIT_ID_11" name="BENEFIT_ID[]" value="11"  checked="checked" >
-                                            <label for="BENEFIT_ID_11"> <em class="fa fa-line-chart"></em>Tăng lương</label>
-                                        </div>
-                                    </div>
-                                                                        <div class="col-sm-6 col-lg-3">
-                                        <div class="form-group form-checkbox">
-                                            <input type="checkbox" class="" id="BENEFIT_ID_1" name="BENEFIT_ID[]" value="1" >
-                                            <label for="BENEFIT_ID_1"> <em class="fa fa-laptop"></em>Laptop</label>
-                                        </div>
-                                    </div>
-                                                                        <div class="col-sm-6 col-lg-3">
-                                        <div class="form-group form-checkbox">
-                                            <input type="checkbox" class="" id="BENEFIT_ID_4" name="BENEFIT_ID[]" value="4" >
-                                            <label for="BENEFIT_ID_4"> <em class="fa fa-money"></em>Phụ cấp</label>
-                                        </div>
-                                    </div>
-                                                                        <div class="col-sm-6 col-lg-3">
-                                        <div class="form-group form-checkbox">
-                                            <input type="checkbox" class="" id="BENEFIT_ID_5" name="BENEFIT_ID[]" value="5" >
-                                            <label for="BENEFIT_ID_5"> <em class="fa fa-taxi"></em>Xe đưa đón</label>
-                                        </div>
-                                    </div>
-                                                                        <div class="col-sm-6 col-lg-3">
-                                        <div class="form-group form-checkbox">
-                                            <input type="checkbox" class="" id="BENEFIT_ID_6" name="BENEFIT_ID[]" value="6" >
-                                            <label for="BENEFIT_ID_6"> <em class="fa fa-fighter-jet"></em>Du lịch nước ngoài</label>
-                                        </div>
-                                    </div>
-                                                                        <div class="col-sm-6 col-lg-3">
-                                        <div class="form-group form-checkbox">
-                                            <input type="checkbox" class="" id="BENEFIT_ID_7" name="BENEFIT_ID[]" value="7" >
-                                            <label for="BENEFIT_ID_7"> <em class="fa fa-black-tie"></em>Đồng phục</label>
-                                        </div>
-                                    </div>
-                                                                        <div class="col-sm-6 col-lg-3">
-                                        <div class="form-group form-checkbox">
-                                            <input type="checkbox" class="" id="BENEFIT_ID_12" name="BENEFIT_ID[]" value="12" >
-                                            <label for="BENEFIT_ID_12"> <em class="fa fa-credit-card"></em>Công tác phí</label>
-                                        </div>
-                                    </div>
-                                                                        <div class="col-sm-6 col-lg-3">
-                                        <div class="form-group form-checkbox">
-                                            <input type="checkbox" class="" id="BENEFIT_ID_13" name="BENEFIT_ID[]" value="13" >
-                                            <label for="BENEFIT_ID_13"> <em class="fa fa-money"></em>Phụ cấp thâm niên</label>
-                                        </div>
-                                    </div>
-                                                                        <div class="col-sm-6 col-lg-3">
-                                        <div class="form-group form-checkbox">
-                                            <input type="checkbox" class="" id="BENEFIT_ID_14" name="BENEFIT_ID[]" value="14" >
-                                            <label for="BENEFIT_ID_14"> <em class="fa fa-briefcase"></em>Nghỉ phép năm</label>
-                                        </div>
-                                    </div>
-                                                                        <div class="col-sm-6 col-lg-3">
-                                        <div class="form-group form-checkbox">
-                                            <input type="checkbox" class="" id="BENEFIT_ID_15" name="BENEFIT_ID[]" value="15" >
-                                            <label for="BENEFIT_ID_15"> <em class="fa fa-heartbeat"></em>CLB thể thao</label>
-                                        </div>
-                                    </div>
-                                                                        </div>
-                                </div>
-                                <div class="noted">
-                                    <p>  <font style="color: red">*</font> Thông tin bắt buộc</p>
-                                </div>
-                                <div class="form-group form-submit form-continue">
-                                    <a class="btn-cancel btn-preview-account-user" href="javascript:;" onclick="window.open('https://careerbuilder.vn/vi/nha-tuyen-dung/congty-abc.35A90CF3.html', '_blank'); return false;  ">
-                                        Xem lại</a>
-                                    <button class="btn-gradient btn-submit" type="submit" id="update_info_company_form"
-                                        onclick="updateInfoCompany()">Cập nhật</button>
-                                </div>
-                                                    </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
 
     <script type="text/javascript">
         var language_edit_employer = {
@@ -957,7 +946,7 @@ function checkYoutubeValid(type)
 </script>
 
 									</main>
-				<footer class="for-customers">
+<footer class="for-customers">
     <div class="container">
         <section class="top-footer cb-section cb-section-border-bottom">
             <div class="row">

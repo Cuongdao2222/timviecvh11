@@ -23,7 +23,7 @@ Route::get('/', function () {
     return view('frontend.registerClientUser');
 })->name('registerClientUser');
 
- Route::get('employers_info', 'Backend\employerController@info_employer');
+ Route::get('employers_info', 'Backend\employerController@info_employer')->name('employers_info');
 
 
 Route::group(['prefix' => 'user','middleware' => 'checklogin'], function() {

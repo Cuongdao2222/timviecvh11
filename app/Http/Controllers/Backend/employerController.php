@@ -219,7 +219,14 @@ class employerController extends Controller
             return view('frontend.employer-register');
         }
         else{
-           return view('frontend.info_employer');
+
+            $employ_id = Auth::guard('employer_register')->user()->id;
+
+            $id = employ_info::where('employ_id', $employ_id)->first();
+
+            $data_employ = employ_info::find($id->id);
+
+           return view('frontend.info_employer', compact('data_employ'));
         }  
         
     }
