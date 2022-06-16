@@ -136,7 +136,7 @@
                                     <li> <a href="https://careerbuilder.vn/vi/jobseekers/myresume/viewbyemp" rel="nofollow">Nhà tuyển dụng xem hồ sơ của tôi</a></li>
                                     <li> <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/notify" rel="nofollow">Xem tất cả thông báo</a></li>
                                     <li> <a href="https://careerbuilder.vn/vi/jobseekers/member/emailmanagement" rel="nofollow">Cài đặt</a></li>
-                                    <li> <a href="https://careerbuilder.vn/vi/jobseekers/logout" rel="nofollow">Thoát</a></li>
+                                    <li> <a href="{{ route('logoutUser') }}" rel="nofollow">Thoát</a></li>
                                 </ul>
                             </div>
                         </div>

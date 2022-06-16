@@ -224,7 +224,7 @@
                      </div>
                   </div>
                   <div class="main-candidates">
-                     <a href="https://careerbuilder.vn/vi/">
+                     <a href="{{ route('registerClientUser') }}">
                         <em class="fa fa-external-link"></em>
                         <h4>Dành cho Ứng Viên</h4>
                      </a>

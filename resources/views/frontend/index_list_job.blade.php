@@ -138,20 +138,45 @@ Start New Layout CB -->
                                 </div>
                             </div>
                         </div>
+
+
                         <div class="main-login dropdown">
-                            <div class="title-login"><a href="javascript:;" title="Đăng nhập"> <span class="mdi mdi-account-circle"></span>Đăng nhập</a></div>
+
+
+                           @if (count($errors) > 0)
+                               <div class="alert alert-danger">
+                                   <ul>
+                                       @foreach ($errors->all() as $error)
+                                           <li style="color: red">{{ $error }}</li>
+                                       @endforeach
+                                   </ul>
+                               </div>
+                           @endif
+                            @if (Auth::check()) 
+                                <div class="titles-login"><a href="{{ route('user-dashboard') }}">Xin chào {{ Auth::user()->name }}</a></div>
+
+                            
+                            @else
+
+                                <div class="title-login"><a href="javascript:;" title="Đăng nhập"> <span class="mdi mdi-account-circle"></span>Đăng nhập</a></div>
+
+                            
+                            @endif
+
+
                             <div class="dropdown-menu">
                                 <div class="login-wrapper">
-                                    <form name="header_login" id="header_login" method="post" action="https://careerbuilder.vn/vi/jobseekers/login" autocomplete="off">
+                                    <form name="header_login" id="header_login" method="post" action="{{ route('login') }}" autocomplete="off">
+                                         @csrf
                                         <div class="row">
                                             <div class="form-group col-12">
-                                                <input type="text" name="username" placeholder="Email hoặc Tên đăng nhập" autocomplete='off'>
+                                                <input type="text" name="emails" placeholder="Email hoặc Tên đăng nhập" autocomplete='off'>
                                             </div>
                                             <div class="form-group col-8">
-                                                <input type="password" name="password" placeholder="Mật khẩu" autocomplete='off'>
+                                                <input type="password" name="passwords" placeholder="Mật khẩu" autocomplete='off'>
                                             </div>
                                             <div class="form-group col-4">
-                                                <input type="hidden" name="csrf_token_login" value= "2f64100482170a6a6bb2aeecfde3adeeed9b0cfabe11fea063c033bc8149c3dd" />  
+                                                <input type="hidden" name="index" value= "index" />  
                                                 <button type="submit">Đăng nhập</button>
                                             </div>
                                             <div class="form-group form-check col-12">
@@ -233,6 +258,7 @@ Start New Layout CB -->
                             </div>
                             <div class="authentication-links">
                                 <ul>
+
                                     <li><a href="https://careerbuilder.vn/vi/jobseekers/login" title="Đăng nhập"> <i class="mdi mdi-login-variant"></i>Đăng nhập</a></li>
                                     <li><a href="https://careerbuilder.vn/vi/jobseekers/register" title="Đăng ký"> <i class="mdi mdi-account-plus-outline"></i>Đăng ký</a></li>
                                 </ul>
@@ -616,6 +642,18 @@ Start New Layout CB -->
                     cursor: pointer;
                     width: 65px !important;
                 }
+                .save-job{
+                    background: #00640E !important;
+                    color: #fff;
+                }
+                .saves-icon{
+                    top: 35px;
+                    right: 10px;
+                    cursor: pointer;
+
+                    z-index: 11;
+                    position: absolute;
+                }
             </style>
             <section class="cb-section">
                 <div class="container">
@@ -635,27 +673,41 @@ Start New Layout CB -->
 
                                                     <?php 
 
-                                                        $job = App\Models\job::get();
+                                                        $job = DB::table('job')->join('employer_registers', 'job.employer_id', '=', 'employer_registers.id')->join('employ_info', 'job.employer_id','=', 'employ_info.employ_id')->get();
+
+
+                                            
                                                     ?>
 
                                                     @foreach($job as $jobs)
 
+                                                  
+
                                                     <div class="col-lg-6 ">
                                                         <div class="job-item">
                                                             <div class="figure">
-                                                                <div class="image"><a target="_blank" href="/{{ $jobs->link }}" title="Tập đoàn Hưng Thịnh "><img src="../kiemviecv32/images/graphics/blank.gif" class="swiper-lazy" data-src="https://images.careerbuilder.vn/employer_folders/lot3/110583/67x67/103820logohungthinhcorp-nhandienmoi-01.png" alt="Tập đoàn Hưng Thịnh " /></a></div>
+                                                                <div class="image"><a target="_blank" href="{{ route('job_details', $jobs->link) }}" title="{{ $jobs->title }}"><img src="{{ asset($jobs->logo) }}" class="swiper-lazy" data-src="https://images.careerbuilder.vn/employer_folders/lot3/110583/67x67/103820logohungthinhcorp-nhandienmoi-01.png" alt="Tập đoàn Hưng Thịnh " /></a></div>
                                                                 <div class="figcaption">
-                                                                    <div class="title"><a target="_blank" href="/{{ $jobs->link }}" title="{{ $jobs->title  }}">{{ $jobs->title  }}</a></div>
+                                                                    <div class="title"><a target="_blank" href="{{ route('job_details', $jobs->link) }}" title="{{ $jobs->title  }}">{{ $jobs->title  }}</a></div>
+
+
                                                                     <div class="caption">
-                                                                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/tap-doan-hung-thinh.35A698F7.html" title="Tập đoàn Hưng Thịnh " target="_blank">Tập đoàn Hưng Thịnh </a>
+                                                                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/tap-doan-hung-thinh.35A698F7.html" title="{{ $jobs->title }}" target="_blank">{{ $jobs->name }} </a>
                                                                         <p class="salary"><em class="fa fa-usd"></em>Lương: Cạnh Tranh</p>
                                                                         <div class="location">
                                                                             <em class="mdi mdi-map-marker"></em>
-                                                                            <p> Hồ Chí Minh</p>
+                                                                            <p> Hà Nội</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
+
+                                                                @if (Auth::check()) 
                                                                 <div class="top-icon"> <span class="top apply-job">Apply</span> </div>
+
+                                                               
+
+                                                                <div class="saves-icon"> <span class="top save-job">Save</span> </div>
+                                                                @endif
                                                             </div>
                                                         </div>
                                                     </div>

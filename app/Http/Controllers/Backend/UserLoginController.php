@@ -44,7 +44,7 @@ class UserLoginController extends Controller
 
         $password = $request->passwords;
 
-        $check  =   DB::table('user')->where('email', $email)->first();
+        $check  =   DB::table('users')->where('email', $email)->first();
 
         if(!empty($check)){
 
@@ -55,7 +55,14 @@ class UserLoginController extends Controller
 
             if (Auth::attempt($data)) {
 
-                return redirect(route('user-dashboard'));
+                if(!empty($request->index)){
+
+                    return redirect()->back();
+
+                }
+                else{
+                    return redirect(route('user-dashboard'));
+                }
 
             } else {
                 
@@ -67,6 +74,14 @@ class UserLoginController extends Controller
             return redirect()->back()->with('error', 'Sai email hoặc sai mật khẩu, vui lòng kiểm tra lại');
         }
 
+
+    }
+
+    public function logoutUser()
+    {
+        Auth::logout();
+
+        return redirect(route('home'));
 
     }
 }

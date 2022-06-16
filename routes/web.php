@@ -12,9 +12,9 @@
 */
 
 
-Route::get('/', function () {
-    return view('frontend.index_list_job');
-})->name('home');
+Route::get('/', 'indexController@Home')->name('home');
+
+Route::get('/job_details/{id}', 'Backend\employerController@index')->name('job_details'); 
 
  Route::get('/job-details/{link}', function () {
         return view('frontend.job_details');
@@ -54,6 +54,9 @@ Route::group(['prefix' => 'user','middleware' => 'checklogin'], function() {
         return view('frontend.notification');
     })->name('notification-user');
 
+    Route::get('logoutUser', 'Backend\UserLoginController@logoutUser')->name('logoutUser');
+
+
 
 });
 
@@ -61,7 +64,6 @@ Route::group(['prefix' => 'employer','middleware' => 'checklogin'], function() {
 
     Route::get('/register', 'Backend\employerController@index')->name('register_employer'); 
 
-    Route::get('/job_details', 'Backend\employerController@index')->name('register_employer'); 
 
     Route::post('updateEmployer', 'Backend\employerController@updateEmployer')->name('updateEmployer');
 
@@ -82,6 +84,7 @@ Route::group(['prefix' => 'employer','middleware' => 'checklogin'], function() {
 Route::post('user', 'Backend\UserLoginController@registerUser')->name('register');
 
 Route::post('user/login', 'Backend\UserLoginController@loginUser')->name('login');
+
 
 Route::post('user/profice/{action}', 'Backend\applicationController@updateApplication')->name('postProfile');
 
