@@ -9,6 +9,8 @@ use App\Models\job;
 use Auth;
 use Illuminate\Support\Facades\Validator;
 
+use App\Models\employ_info;
+
 class employerController extends Controller
 {
 
@@ -66,7 +68,20 @@ class employerController extends Controller
             $input['password'] = bcrypt($input['password']);
 
         }
-        $employer_register->create($input);
+        $employer_register->email = $request->email;
+
+        $employer_register->password = $input['password'];
+
+        $employer_register->save();
+
+
+        $employ_info = new employ_info();
+
+        $employ_info->employ_id = $employer_register['id'];
+
+        $employ_info->save();
+
+
 
         return redirect()->back()->with('success', 'Bạn đã đăng ký thành công vui lòng đăng nhập'); 
       
@@ -149,11 +164,63 @@ class employerController extends Controller
 
         return redirect(route('index_employer'));
        
-            
+    }
+
+    public function updateEmployer(Request $request)
+    {
+        $employ_id = Auth::guard('employer_register')->user()->id;
+
+        $id = employ_info::where('employ_id', $employ_id)->first();
+
+
+        if(!empty($id)){
+
+            $employ_info = employ_info::find($id->id);
+            $employ_info->name = $request->EMP_NAME;
+            $employ_info->totalstaff = $request->EMP_TOTALSTAFF;
+            $employ_info->company_type  = $request->Company_type;
+            $employ_info->website = $request->EMP_WEBSITE ;
+            $employ_info->taxid = $request->EMP_TAXID;
+            $employ_info->desc = $request->EMP_DESC;
+            $employ_info->address = $request->address_employ ;
+        
+
+            if ($request->hasFile('logo')) {
+
+                $file_upload = $request->file('logo');
+
+                $name = time() . '_' . $file_upload->getClientOriginalName();
+
+                $path = 'images/upload/logo';
+
+                $request->file('logo')->move($path, $name, 'local');
+
+                $filePath = $path. '/'.$name;
+
+                $input['logo'] = $filePath;
+
+                $employ_info->logo = $filePath;
+            }
+
+            $employ_info->save();
+
+        }
+
+       
+
+
+        return redirect()->back();
+        
     }
 
     public function info_employer()
     {
-        return view('frontend.info_employer');
+         if(!Auth::guard('employer_register')->check()){
+            return view('frontend.employer-register');
+        }
+        else{
+           return view('frontend.info_employer');
+        }  
+        
     }
 }

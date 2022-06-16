@@ -63,9 +63,7 @@ Route::group(['prefix' => 'employer','middleware' => 'checklogin'], function() {
 
     Route::get('/job_details', 'Backend\employerController@index')->name('register_employer'); 
 
-
-   
-
+    Route::post('updateEmployer', 'Backend\employerController@updateEmployer')->name('updateEmployer');
 
 
     Route::get('/index','Backend\employerController@viewIndex')->name('index_employer');  
