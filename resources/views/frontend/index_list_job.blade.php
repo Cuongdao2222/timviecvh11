@@ -196,7 +196,7 @@ Start New Layout CB -->
                                 </div>
                             </div>
                         </div>
-                        <div class="main-register"><a href="https://careerbuilder.vn/vi/jobseekers/register" title="Đăng ký">Đăng ký</a></div>
+                        <div class="main-register"><a href="{{ route('registerClientUser') }}" title="Đăng ký">Đăng ký</a></div>
                         <div class="main-language dropdown">
                             <div class="dropdown-toggle">
                                 <p>VI<em class="mdi mdi-chevron-down"></em></p>
@@ -207,7 +207,7 @@ Start New Layout CB -->
                             </div>
                         </div>
                         <div class="main-employer dropdown">
-                            <a href="https://careerbuilder.vn/vi/employers" title="Đăng tuyển, Tìm ứng viên">
+                            <a href="{{ route('register_employer') }}" title="Đăng tuyển, Tìm ứng viên">
                                 <div class="dropdown-toggle">
                                     <h4>Dành cho nhà tuyển dụng<em class="mdi mdi-chevron-down"></em></h4>
                                     <p>Đăng tuyển, Tìm ứng viên</p>
@@ -265,7 +265,7 @@ Start New Layout CB -->
                             </div>
                         </div>
                         <div class="header-bottom-bottom">
-                            <a href="https://careerbuilder.vn/vi/employers" title="Dành cho nhà tuyển dụng">
+                            <a href="{{ route('register_employer') }}" title="Dành cho nhà tuyển dụng">
                                 <div class="employer-site">
                                     <h4>Dành cho nhà tuyển dụng</h4>
                                     <p>Đăng tuyển, Tìm ứng viên</p>
@@ -673,10 +673,8 @@ Start New Layout CB -->
 
                                                     <?php 
 
-                                                        $job = DB::table('job')->join('employer_registers', 'job.employer_id', '=', 'employer_registers.id')->join('employ_info', 'job.employer_id','=', 'employ_info.employ_id')->get();
+                                                        $job = DB::table('job')->join('employ_info', 'job.employer_id','=', 'employ_info.employ_id')->select('job.id', 'job.title', 'job.link','employ_info.logo', 'employ_info.name', 'employ_info.links')->get();
 
-
-                                            
                                                     ?>
 
                                                     @foreach($job as $jobs)
@@ -686,13 +684,13 @@ Start New Layout CB -->
                                                     <div class="col-lg-6 ">
                                                         <div class="job-item">
                                                             <div class="figure">
-                                                                <div class="image"><a target="_blank" href="{{ route('job_details', $jobs->link) }}" title="{{ $jobs->title }}"><img src="{{ asset($jobs->logo) }}" class="swiper-lazy" data-src="https://images.careerbuilder.vn/employer_folders/lot3/110583/67x67/103820logohungthinhcorp-nhandienmoi-01.png" alt="Tập đoàn Hưng Thịnh " /></a></div>
+                                                                <div class="image"><a target="_blank" href="{{ route('job_details', $jobs->link) }}" title="{{ $jobs->title }}"><img src="{{ asset($jobs->logo) }}" class="swiper-lazy" data-src="{{ asset($jobs->logo) }}" alt="{{ $jobs->title }} " /></a></div>
                                                                 <div class="figcaption">
                                                                     <div class="title"><a target="_blank" href="{{ route('job_details', $jobs->link) }}" title="{{ $jobs->title  }}">{{ $jobs->title  }}</a></div>
 
 
                                                                     <div class="caption">
-                                                                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/tap-doan-hung-thinh.35A698F7.html" title="{{ $jobs->title }}" target="_blank">{{ $jobs->name }} </a>
+                                                                        <a class="company-name" href="/nha-tuyen-dung/{{ $jobs->links }}" title="{{ $jobs->links }}" target="_blank">{{ $jobs->name }} </a>
                                                                         <p class="salary"><em class="fa fa-usd"></em>Lương: Cạnh Tranh</p>
                                                                         <div class="location">
                                                                             <em class="mdi mdi-map-marker"></em>
@@ -706,7 +704,7 @@ Start New Layout CB -->
 
                                                                
 
-                                                                <div class="saves-icon"> <span class="top save-job">Save</span> </div>
+                                                                <div class="saves-icon"> <span class="top save-job" onclick="saveJob('{{ $jobs->id }}')">Save</span> </div>
                                                                 @endif
                                                             </div>
                                                         </div>
@@ -1415,6 +1413,29 @@ Start New Layout CB -->
             function checkApply(){var apply_job_id=[];$('.chk_apply').each(function(){apply_job_id.push($(this).data('id'));});if(apply_job_id.length>0){var check_apply=$.ajax({url:ROOT_KIEMVIEC+'jobseekers/check-apply-job',dataType:'json',data:'lst_id='+apply_job_id.join()});var finish_apply=check_apply.then(function(data){$.each(data,function(i,item){if(item.status==1){$(".apply_"+item.id).removeAttr("data-id style").removeClass("chk_apply apply_"+item.id);}else{$(".apply_"+item.id).remove();}});});}}
             function copyToClipboard(text){navigator.clipboard.writeText(text);$("#tooltip-copy").css('display','block');setTimeout(function(){$("#tooltip-copy").hide();},1000);}
             if(memberLogin=='no'){window.onload=function(){google.accounts.id.initialize({client_id:client_id,callback:function(credentialResponse){var response=credentialResponse;$.ajax({type:'POST',url:PATH_KIEMVIEC+'jobseekers/logingoogleonetap',data:{'jwt':response.credential}}).done(function(status){if(status==1){location.reload();}else{show_noti(2,language.popup_login_error);}});}});google.accounts.id.prompt((notification)=>{if(notification.isNotDisplayed()||notification.isSkippedMoment()){console.log(notification.getNotDisplayedReason());}});};}
+        </script>
+
+        <script type="text/javascript">
+
+            function saveJob(id){
+                job =  JSON.parse(window.localStorage.getItem('job'));
+
+                if(job==null){
+                    job = [];
+                }
+
+                job.push(id);
+
+                job = JSON.stringify(job);
+
+                window.localStorage.setItem('job', job);
+
+                alert('save thành  công')
+
+            }
+            console.log(JSON.parse(window.localStorage.getItem('job')));
+
+           
         </script>
     </body>
 </html>
