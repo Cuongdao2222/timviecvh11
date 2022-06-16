@@ -1417,6 +1417,17 @@ Start New Layout CB -->
 
         <script type="text/javascript">
 
+            function unique_arr(arr) {
+                let newArr = arr.reduce(function (accumulator, element) {
+                    if (accumulator.indexOf(element) === -1) {
+                        accumulator.push(element)
+                    }
+                    return accumulator
+                }, [])
+                return newArr
+            }
+
+
             function saveJob(id){
                 job =  JSON.parse(window.localStorage.getItem('job'));
 
@@ -1426,11 +1437,16 @@ Start New Layout CB -->
 
                 job.push(id);
 
+                job = unique_arr(job);
+
                 job = JSON.stringify(job);
 
                 window.localStorage.setItem('job', job);
 
-                alert('save thành  công')
+                 // localStorage.clear();
+
+                alert('save thành  công');
+
 
             }
             console.log(JSON.parse(window.localStorage.getItem('job')));
