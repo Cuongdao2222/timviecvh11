@@ -24,6 +24,10 @@ class employerController extends Controller
         }  
     }
 
+    public function user_apply(){
+        return view('frontend.jops_apply');
+    }
+
     public function viewIndex()
     {
         if(!Auth::guard('employer_register')->check()){
