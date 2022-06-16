@@ -1,0 +1,39 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+use App\Models\job;
+
+use App\Models\apply_job;
+
+use Auth; 
+
+use DB;
+
+class ajaxController extends Controller
+{
+    public function getSaveJob(Request $request){
+        $data = json_decode($request->data);
+
+        $job = DB::table('job')->join('employ_info', 'job.employer_id','=', 'employ_info.employ_id')->whereIn('job.id', $data)->select('job.id', 'job.title', 'job.link','employ_info.logo', 'employ_info.name', 'employ_info.links')->get();
+
+
+        return view('ajax.saveJob', compact('job')); 
+
+    }
+
+    public function saveApply_job(Request $request){
+        $job = $request->job;
+        Auth::user()->id;
+
+        $apply = new apply_job();
+        $apply->job_id = $job;
+        $apply->user_id = Auth::user()->id;
+        $apply->save();
+
+        return response('thanh cong');
+
+    }
+}

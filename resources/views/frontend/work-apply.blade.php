@@ -23,16 +23,36 @@
                             <table>
                                 <thead>
                                     <tr>
-                                        <th class="title">Chức danh</th>
+                                        <th class="title">Công việc</th>
                                         <th>Ngày nộp</th>
                                         <th>Hồ sơ ứng tuyển</th>
                                         <th>&nbsp;</th>
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    <?php 
+
+                                        $apply =  DB::table('job')->join('apply_jobs', 'job.id', '=', 'apply_jobs.job_id')->where('apply_jobs.user_id', Auth::user()->id)->select('job.title', 'apply_jobs.updated_at')->get();
+                                    ?>
+                                    <style type="text/css">
+                                        .center{
+                                            text-align: center;
+                                        }
+                                    </style>
+                                    @if(!empty($apply))
+                                    @foreach($apply as $applys)
+                                    <tr class="record-tbl">
+                                        <td colspan="1" class="center">{{ $applys->title }}</td>
+                                        <td colspan="1" class="center">{{ $applys->updated_at }}</td>
+                                        
+                                        <td colspan="1" class="center"><a href="{{ route('my-profile') }}">Hồ sơ của tôi</a></td>
+                                    </tr>
+                                    @endforeach
+                                    @else  
                                     <tr class="record-tbl">
                                         <td colspan="4"> Hiện tại chưa có dữ liệu</td>
                                     </tr>
+                                    @endif  
                                 </tbody>
                             </table>
                             <div class="main-pagination">  </div>

@@ -26,6 +26,13 @@ Route::get('/job_details/{id}', 'Backend\employerController@index')->name('job_d
  Route::get('employers_info', 'Backend\employerController@info_employer')->name('employers_info');
 
 
+ Route::group(['prefix' => 'ajax'], function() {
+    Route::get('saveJob', 'ajaxController@getSaveJob')->name('getSaveJob'); 
+
+    Route::get('apply-job', 'ajaxController@saveApply_job')->name('apply-job'); 
+
+});
+
 Route::group(['prefix' => 'user','middleware' => 'checklogin'], function() {
 
    

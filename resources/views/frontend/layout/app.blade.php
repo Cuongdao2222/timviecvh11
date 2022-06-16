@@ -32,6 +32,8 @@
         <link rel="shortcut icon" href="https://careerbuilder.vn/favicon_careerbuilder_v2.ico?t=1"/>
         <link href="https://careerbuilder.vn/vi/jobseekers/dashboard" rel="canonical" />
         <link rel="stylesheet" type="text/css" href="{{ asset('css/userClient.css') }}">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxy/1.6.1/scripts/jquery.ajaxy.min.js"></script> -->
         @stack('style')
 
         <style type="text/css">
@@ -87,7 +89,7 @@
                 <div class="main-wrap">
                     <div class="left-wrap">
                         <div class="button-hambuger"><span class="mdi mdi-menu"></span></div>
-                        <div class="logo"><a href="https://careerbuilder.vn/vi/" title="Tuyển dụng & Tìm kiếm việc làm nhanh" ><img src="./img/logo.png" alt="Tuyển dụng & Tìm kiếm việc làm nhanh"></a></div>
+                        <div class="logo"><a href="{{ route('home') }}" title="Tuyển dụng & Tìm kiếm việc làm nhanh" ><img src="./img/logo.png" alt="Tuyển dụng & Tìm kiếm việc làm nhanh"></a></div>
                         <div class="main-menu">
                             <ul class="menu">
                                 <li class="dropdown">
