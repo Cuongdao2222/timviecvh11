@@ -186,6 +186,7 @@ class employerController extends Controller
             $employ_info->website = $request->EMP_WEBSITE ;
             $employ_info->taxid = $request->EMP_TAXID;
             $employ_info->desc = $request->EMP_DESC;
+            $employ_info->links = convertSlug($employ_info->name);
             $employ_info->address = $request->address_employ ;
         
 
