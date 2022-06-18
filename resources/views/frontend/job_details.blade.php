@@ -97,156 +97,166 @@ if(typeof language === 'undefined')	var language = language_common;	else $.exten
 </script>
 
 <script src="https://accounts.google.com/gsi/client" async defer></script>
-</head>	<body class="search-result-list-detail-page">
-
-				<header>
-  <div class="container-fluid">
-    <div class="main-wrap">
-      <div class="left-wrap">
-        <div class="button-hambuger"><span class="mdi mdi-menu"></span></div>
-        <div class="logo"><a href="https://careerbuilder.vn/vi/" title="Tuyển dụng & Tìm kiếm việc làm nhanh" ><img src="./img/logo.png" alt="Tuyển dụng & Tìm kiếm việc làm nhanh"></a></div>
-        <div class="main-menu">
-          <ul class="menu">
-            <li class="dropdown"><a href="javascript:void(0);" title="Tìm Việc Làm">Tìm Việc Làm</a>
-              <div class="dropdown-menu">
-                <ul>
-                  <li> <a href="https://careerbuilder.vn/viec-lam/tat-ca-viec-lam-vi.html" title="Việc làm mới nhất">Việc làm mới nhất</a></li>
-                  <li> <a href="https://careerbuilder.vn/tim-viec-lam.html" title="Ngành nghề / Địa điểm">Ngành nghề / Địa điểm</a></li>
-                                  </ul>
-              </div>
-            </li>
-            <li> <a href="https://careerbuilder.vn/cv-hay/" target="_blank" title="CV Hay">CV Hay</a></li>
-            <li> <a href="https://vietnamsalary.careerbuilder.vn/" target="_blank" title="VietnamSalary">VietnamSalary</a></li>
-            <li> <a href="https://careerbuilder.vn/careermap" target="_blank" title="CareerMap">CareerMap</a></li>
-            <li> <a href="https://careerbuilder.vn/vi/talentcommunity" title="Cẩm Nang">Cẩm Nang</a></li>
-			<li> <a href="https://careerbuilder.vn/tinh-luong-gross-net" title="Tính Lương">Tính Lương</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="right-wrap">
-        <div class="main-noti dropdown"><a href="https://careerbuilder.vn/thong-bao-viec-lam" title="Thông Báo Việc Làm"> <span class="mdi mdi-bell"></span></a>
-          <div class="dropdown-menu">
-            <div class="noti">
-              <p><p>Chào mừng bạn đến CareerBuilder.vn</p>
-<p>Đăng nhập ngay để xem việc làm phù hợp với bạn, nhà tuyển dụng đã xem hồ sơ của bạn và cập nhật nhiều hơn nữa ...<br><br></p></p>
-              <a class="email" href="https://careerbuilder.vn/thong-bao-viec-lam" title="Tạo Ngay">Tạo Ngay</a> </div>
-          </div>
-        </div>
-                <div class="main-login dropdown">
-          <div class="title-login"><a href="javascript:;" title="Đăng nhập"> <span class="mdi mdi-account-circle"></span>Đăng nhập</a></div>
-          <div class="dropdown-menu">
-            <div class="login-wrapper">
-              <form name="header_login" id="header_login" method="post" action="https://careerbuilder.vn/vi/jobseekers/login" autocomplete="off">
-                <div class="row">
-                  <div class="form-group col-12">
-                    <input type="text" name="username" placeholder="Email" autocomplete='off'>
-                  </div>
-                  <div class="form-group col-8">
-                    <input type="password" name="password" placeholder="Mật khẩu" autocomplete='off'>
-                  </div>
-                  <div class="form-group col-4">
-                    <input type="hidden" name="csrf_token_login" value= "e9f2f2a456eccd15a2f2c80530ae0495f397595a3e8c55f39e4a66621808fde3" />  
-                    <button type="submit">Đăng nhập</button>
-                  </div>
-                  <div class="form-group form-check col-12">
-                    <input type="checkbox" name="chkSave" value="1">
-                    <label>Tự động đăng nhập</label>
-                  </div>
+</head>	
+<body class="search-result-list-detail-page">
+    <header>
+        <div class="container-fluid">
+            <div class="main-wrap">
+                <div class="left-wrap">
+                    <div class="button-hambuger"><span class="mdi mdi-menu"></span></div>
+                    <div class="logo"><a href="https://careerbuilder.vn/vi/" title="Tuyển dụng & Tìm kiếm việc làm nhanh" ><img src="./img/logo.png" alt="Tuyển dụng & Tìm kiếm việc làm nhanh"></a></div>
+                    <div class="main-menu">
+                        <ul class="menu">
+                            <li class="dropdown">
+                                <a href="javascript:void(0);" title="Tìm Việc Làm">Tìm Việc Làm</a>
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li> <a href="https://careerbuilder.vn/viec-lam/tat-ca-viec-lam-vi.html" title="Việc làm mới nhất">Việc làm mới nhất</a></li>
+                                        <li> <a href="https://careerbuilder.vn/tim-viec-lam.html" title="Ngành nghề / Địa điểm">Ngành nghề / Địa điểm</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li> <a href="https://careerbuilder.vn/cv-hay/" target="_blank" title="CV Hay">CV Hay</a></li>
+                            <li> <a href="https://vietnamsalary.careerbuilder.vn/" target="_blank" title="VietnamSalary">VietnamSalary</a></li>
+                            <li> <a href="https://careerbuilder.vn/careermap" target="_blank" title="CareerMap">CareerMap</a></li>
+                            <li> <a href="https://careerbuilder.vn/vi/talentcommunity" title="Cẩm Nang">Cẩm Nang</a></li>
+                            <li> <a href="https://careerbuilder.vn/tinh-luong-gross-net" title="Tính Lương">Tính Lương</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <a class="forget-password" href="https://careerbuilder.vn/vi/jobseekers/forgotpassword">Quên mật khẩu?</a>
-              </form>
-              <div class="sign-in-by"><span>Đăng nhập bằng</span>
-                <ul>
-                  <li><a href="javascript:void(0);" onclick="popupapi('facebook','aHR0cHM6Ly9jYXJlZXJidWlsZGVyLnZuL3ZpL2pvYnNlZWtlcnMvbG9naW5mYWNlYm9vaw==');" title="Login Facebook"><i class="fa fa-facebook-official"></i></a></li>
-                  <li><a href="javascript:void(0);" onclick="popupapi('google','aHR0cHM6Ly9jYXJlZXJidWlsZGVyLnZuL3ZpL2pvYnNlZWtlcnMvbG9naW5nb29nbGU=');" title="Login Google"><i class="fa fa-google-plus-square"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="main-register"><a href="https://careerbuilder.vn/vi/jobseekers/register" title="Đăng ký">Đăng ký</a></div>
-
-                <div class="main-language dropdown">
-          <div class="dropdown-toggle">
-            <p>VI<em class="mdi mdi-chevron-down"></em></p>
-          </div>
-          <div class="dropdown-menu">
-              <div class="item active"><a class="dropdown-item" href="javascript:;" title="Change language">VI</a></div>
-			         <div class="item"><a class="dropdown-item" href="https://careerbuilder.vn/en/search-job/nhan-vien-tuyen-dung.35B9A7C0.html" title="Change language">EN</a></div>
-          </div>
-        </div>
-        <div class="main-employer dropdown"><a href="https://careerbuilder.vn/vi/employers" title="Đăng tuyển, Tìm ứng viên">
-          <div class="dropdown-toggle">
-            <h4>Dành cho nhà tuyển dụng<em class="mdi mdi-chevron-down"></em></h4>
-            <p>Đăng tuyển, Tìm ứng viên</p>
-          </div>
-          </a>
-          <div class="dropdown-menu">
-            <ul>
-              <li><a href="https://careerbuilder.vn/vi/employers/login" title="Đăng nhập">Đăng nhập</a></li>
-              <li><a href="https://careerbuilder.vn/vi/employers/postjobs" title="Đăng Tuyển Dụng">Đăng Tuyển Dụng</a></li>
-              <li><a href="https://careerbuilder.vn/vi/resume-search.html" title="Tìm Ứng Viên">Tìm Ứng Viên</a></li>
-              <li><a href="https://careerbuilder.vn/vi/employers/products-and-services" title="Sản phẩm và Dịch vụ">Sản phẩm và Dịch vụ</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="mobile-menu">
-    <div class="mobile-wrap">
-      <div class="header-logo"><a href="https://careerbuilder.vn/vi/" title="Tuyển dụng & Tìm kiếm việc làm nhanh"><img class="lazy-bg" data-src="./img/logo.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Tuyển dụng & Tìm kiếm việc làm nhanh"></a></div>
-      <div class="header-bottom">
-        <div class="header-bottom-top">
-          <div class="profile">             <div class="avatar"><img class="lazy-bg" data-src="./img/user_circle.png" src="../kiemviecv32/images/graphics/blank.gif" alt="user circle"></div>
-            <div class="username">
-              <p>welcome to careerbuilder</p>
-            </div>
-                        <div class="back-menu-normal"><em class="mdi mdi-arrow-left"></em></div>
-          </div>
-          <div class="menu">
-            <ul class="menu-normal">
-              <li class="active"><a href="https://careerbuilder.vn/vi/" title="Tuyển dụng & Tìm kiếm việc làm nhanh"> <i class="mdi mdi-home-outline"></i>Home</a></li>
-              <li class="dropdown-mobile"><a href="javascript:void(0);" title="Tìm Việc Làm"> <i class="mdi mdi-magnify"></i>Tìm Việc Làm</a>
-                <div class="dropdown-menu">
-                  <ul>
-                    <li><a href="https://careerbuilder.vn/viec-lam/tat-ca-viec-lam-vi.html" title="Việc làm mới nhất"> <i class="fa fa-thumb-tack"></i>Việc làm mới nhất</a></li>
-                    <li><a href="https://careerbuilder.vn/tim-viec-lam.html" title="Ngành nghề / Địa điểm"> <i class="fa fa-location-arrow"></i>Ngành nghề / Địa điểm</a></li>
-                                      </ul>
+                <div class="right-wrap">
+                    <div class="main-noti dropdown">
+                        <a href="https://careerbuilder.vn/thong-bao-viec-lam" title="Thông Báo Việc Làm"> <span class="mdi mdi-bell"></span></a>
+                        <div class="dropdown-menu">
+                            <div class="noti">
+                                <p>
+                                <p>Chào mừng bạn đến CareerBuilder.vn</p>
+                                <p>Đăng nhập ngay để xem việc làm phù hợp với bạn, nhà tuyển dụng đã xem hồ sơ của bạn và cập nhật nhiều hơn nữa ...<br><br></p>
+                                </p>
+                                <a class="email" href="https://careerbuilder.vn/thong-bao-viec-lam" title="Tạo Ngay">Tạo Ngay</a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-login dropdown">
+                        <div class="title-login"><a href="javascript:;" title="Đăng nhập"> <span class="mdi mdi-account-circle"></span>Đăng nhập</a></div>
+                        <div class="dropdown-menu">
+                            <div class="login-wrapper">
+                                <form name="header_login" id="header_login" method="post" action="https://careerbuilder.vn/vi/jobseekers/login" autocomplete="off">
+                                    <div class="row">
+                                        <div class="form-group col-12">
+                                            <input type="text" name="username" placeholder="Email" autocomplete='off'>
+                                        </div>
+                                        <div class="form-group col-8">
+                                            <input type="password" name="password" placeholder="Mật khẩu" autocomplete='off'>
+                                        </div>
+                                        <div class="form-group col-4">
+                                            <input type="hidden" name="csrf_token_login" value= "e9f2f2a456eccd15a2f2c80530ae0495f397595a3e8c55f39e4a66621808fde3" />  
+                                            <button type="submit">Đăng nhập</button>
+                                        </div>
+                                        <div class="form-group form-check col-12">
+                                            <input type="checkbox" name="chkSave" value="1">
+                                            <label>Tự động đăng nhập</label>
+                                        </div>
+                                    </div>
+                                    <a class="forget-password" href="https://careerbuilder.vn/vi/jobseekers/forgotpassword">Quên mật khẩu?</a>
+                                </form>
+                                <div class="sign-in-by">
+                                    <span>Đăng nhập bằng</span>
+                                    <ul>
+                                        <li><a href="javascript:void(0);" onclick="popupapi('facebook','aHR0cHM6Ly9jYXJlZXJidWlsZGVyLnZuL3ZpL2pvYnNlZWtlcnMvbG9naW5mYWNlYm9vaw==');" title="Login Facebook"><i class="fa fa-facebook-official"></i></a></li>
+                                        <li><a href="javascript:void(0);" onclick="popupapi('google','aHR0cHM6Ly9jYXJlZXJidWlsZGVyLnZuL3ZpL2pvYnNlZWtlcnMvbG9naW5nb29nbGU=');" title="Login Google"><i class="fa fa-google-plus-square"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-register"><a href="https://careerbuilder.vn/vi/jobseekers/register" title="Đăng ký">Đăng ký</a></div>
+                    <div class="main-language dropdown">
+                        <div class="dropdown-toggle">
+                            <p>VI<em class="mdi mdi-chevron-down"></em></p>
+                        </div>
+                        <div class="dropdown-menu">
+                            <div class="item active"><a class="dropdown-item" href="javascript:;" title="Change language">VI</a></div>
+                            <div class="item"><a class="dropdown-item" href="https://careerbuilder.vn/en/search-job/nhan-vien-tuyen-dung.35B9A7C0.html" title="Change language">EN</a></div>
+                        </div>
+                    </div>
+                    <div class="main-employer dropdown">
+                        <a href="https://careerbuilder.vn/vi/employers" title="Đăng tuyển, Tìm ứng viên">
+                            <div class="dropdown-toggle">
+                                <h4>Dành cho nhà tuyển dụng<em class="mdi mdi-chevron-down"></em></h4>
+                                <p>Đăng tuyển, Tìm ứng viên</p>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a href="https://careerbuilder.vn/vi/employers/login" title="Đăng nhập">Đăng nhập</a></li>
+                                <li><a href="https://careerbuilder.vn/vi/employers/postjobs" title="Đăng Tuyển Dụng">Đăng Tuyển Dụng</a></li>
+                                <li><a href="https://careerbuilder.vn/vi/resume-search.html" title="Tìm Ứng Viên">Tìm Ứng Viên</a></li>
+                                <li><a href="https://careerbuilder.vn/vi/employers/products-and-services" title="Sản phẩm và Dịch vụ">Sản phẩm và Dịch vụ</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-              </li>
-              <li><a href="https://careerbuilder.vn/cv-hay/" title="CV Hay"> <i class="mdi mdi-file-document-edit-outline"></i>CV Hay</a></li>
-              <li><a href="https://vietnamsalary.careerbuilder.vn/" title="VietnamSalary"> <i class="mdi mdi-currency-usd"></i>VietnamSalary</a></li>
-              <li><a href="https://careerbuilder.vn/careermap" title="CareerMap"> <i class="mdi mdi-chart-line-variant"></i>CareerMap</a></li>
-              <li><a href="https://careerbuilder.vn/vi/talentcommunity" title="Cẩm Nang"> <i class="mdi mdi-lightbulb-on-outline"></i>Cẩm Nang</a></li>
-			  <li><a href="https://careerbuilder.vn/tinh-luong-gross-net" title="Tính Lương"> <i class="mdi mdi-calculator"></i>Tính Lương</a></li>
-            </ul>
-             </div>
-                    <div class="authentication-links">
-            <ul>
-              <li><a href="https://careerbuilder.vn/vi/jobseekers/login" title="Đăng nhập"> <i class="mdi mdi-login-variant"></i>Đăng nhập</a></li>
-              <li><a href="https://careerbuilder.vn/vi/jobseekers/register" title="Đăng ký"> <i class="mdi mdi-account-plus-outline"></i>Đăng ký</a></li>
-            </ul>
-          </div>
-           </div>
-        <div class="header-bottom-bottom">  <a href="https://careerbuilder.vn/vi/employers" title="Dành cho nhà tuyển dụng">
-          <div class="employer-site">
-            <h4>Dành cho nhà tuyển dụng</h4>
-            <p>Đăng tuyển, Tìm ứng viên</p>
-          </div>
-          </a>           <div class="header-alert">
-            <ul>
-              <li><a href="https://careerbuilder.vn/thong-bao-viec-lam" title="Thông Báo Việc Làm"> <i class="mdi mdi-bell-outline"></i><span>Thông Báo Việc Làm</span></a></li>
-              <li><a href="https://careerbuilder.vn/en/search-job/nhan-vien-tuyen-dung.35B9A7C0.html" title="Change language"> <i class="mdi mdi-web"></i><span>English</span></a></li>
-            </ul>
-          </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="backdrop"></div>
-</header>
-		<main>
+        <div class="mobile-menu">
+            <div class="mobile-wrap">
+                <div class="header-logo"><a href="https://careerbuilder.vn/vi/" title="Tuyển dụng & Tìm kiếm việc làm nhanh"><img class="lazy-bg" data-src="./img/logo.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Tuyển dụng & Tìm kiếm việc làm nhanh"></a></div>
+                <div class="header-bottom">
+                    <div class="header-bottom-top">
+                        <div class="profile">
+                            <div class="avatar"><img class="lazy-bg" data-src="./img/user_circle.png" src="../kiemviecv32/images/graphics/blank.gif" alt="user circle"></div>
+                            <div class="username">
+                                <p>welcome to careerbuilder</p>
+                            </div>
+                            <div class="back-menu-normal"><em class="mdi mdi-arrow-left"></em></div>
+                        </div>
+                        <div class="menu">
+                            <ul class="menu-normal">
+                                <li class="active"><a href="https://careerbuilder.vn/vi/" title="Tuyển dụng & Tìm kiếm việc làm nhanh"> <i class="mdi mdi-home-outline"></i>Home</a></li>
+                                <li class="dropdown-mobile">
+                                    <a href="javascript:void(0);" title="Tìm Việc Làm"> <i class="mdi mdi-magnify"></i>Tìm Việc Làm</a>
+                                    <div class="dropdown-menu">
+                                        <ul>
+                                            <li><a href="https://careerbuilder.vn/viec-lam/tat-ca-viec-lam-vi.html" title="Việc làm mới nhất"> <i class="fa fa-thumb-tack"></i>Việc làm mới nhất</a></li>
+                                            <li><a href="https://careerbuilder.vn/tim-viec-lam.html" title="Ngành nghề / Địa điểm"> <i class="fa fa-location-arrow"></i>Ngành nghề / Địa điểm</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="https://careerbuilder.vn/cv-hay/" title="CV Hay"> <i class="mdi mdi-file-document-edit-outline"></i>CV Hay</a></li>
+                                <li><a href="https://vietnamsalary.careerbuilder.vn/" title="VietnamSalary"> <i class="mdi mdi-currency-usd"></i>VietnamSalary</a></li>
+                                <li><a href="https://careerbuilder.vn/careermap" title="CareerMap"> <i class="mdi mdi-chart-line-variant"></i>CareerMap</a></li>
+                                <li><a href="https://careerbuilder.vn/vi/talentcommunity" title="Cẩm Nang"> <i class="mdi mdi-lightbulb-on-outline"></i>Cẩm Nang</a></li>
+                                <li><a href="https://careerbuilder.vn/tinh-luong-gross-net" title="Tính Lương"> <i class="mdi mdi-calculator"></i>Tính Lương</a></li>
+                            </ul>
+                        </div>
+                        <div class="authentication-links">
+                            <ul>
+                                <li><a href="https://careerbuilder.vn/vi/jobseekers/login" title="Đăng nhập"> <i class="mdi mdi-login-variant"></i>Đăng nhập</a></li>
+                                <li><a href="https://careerbuilder.vn/vi/jobseekers/register" title="Đăng ký"> <i class="mdi mdi-account-plus-outline"></i>Đăng ký</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header-bottom-bottom">
+                        <a href="https://careerbuilder.vn/vi/employers" title="Dành cho nhà tuyển dụng">
+                            <div class="employer-site">
+                                <h4>Dành cho nhà tuyển dụng</h4>
+                                <p>Đăng tuyển, Tìm ứng viên</p>
+                            </div>
+                        </a>
+                        <div class="header-alert">
+                            <ul>
+                                <li><a href="https://careerbuilder.vn/thong-bao-viec-lam" title="Thông Báo Việc Làm"> <i class="mdi mdi-bell-outline"></i><span>Thông Báo Việc Làm</span></a></li>
+                                <li><a href="https://careerbuilder.vn/en/search-job/nhan-vien-tuyen-dung.35B9A7C0.html" title="Change language"> <i class="mdi mdi-web"></i><span>English</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="backdrop"></div>
+    </header>
+    <main>
 				<style>/*chosen.css*/
  .chosen-container{position:relative;display:inline-block;vertical-align:middle;font-size:13px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}.chosen-container *{-webkit-box-sizing:border-box;box-sizing:border-box;}.chosen-container .chosen-drop{position:absolute;top:100%;z-index:1010;width:100%;border:1px solid #aaa;border-top:0;background:#fff;-webkit-box-shadow:0 4px 5px rgba(0, 0, 0, 0.15);box-shadow:0 4px 5px rgba(0, 0, 0, 0.15);clip:rect(0, 0, 0, 0);-webkit-clip-path:inset(100% 100%);clip-path:inset(100% 100%);}.chosen-container.chosen-with-drop .chosen-drop{clip:auto;-webkit-clip-path:none;clip-path:none;}.chosen-container a{cursor:pointer;}.chosen-container .search-choice .group-name, .chosen-container .chosen-single .group-name{margin-right:4px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-weight:normal;color:#999999;}.chosen-container .search-choice .group-name:after, .chosen-container .chosen-single .group-name:after{content:":";padding-left:2px;vertical-align:top;}.chosen-container-single .chosen-single{position:relative;display:block;overflow:hidden;padding:0 0 0 8px;height:25px;border:1px solid #aaa;border-radius:5px;background-color:#fff;background:-webkit-gradient(linear, left top, left bottom, color-stop(20%, #fff), color-stop(50%, #f6f6f6), color-stop(52%, #eee), to(#f4f4f4));background:linear-gradient(#fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);background-clip:padding-box;-webkit-box-shadow:0 0 3px #fff inset, 0 1px 1px rgba(0, 0, 0, 0.1);box-shadow:0 0 3px #fff inset, 0 1px 1px rgba(0, 0, 0, 0.1);color:#444;text-decoration:none;white-space:nowrap;line-height:24px;}.chosen-container-single .chosen-default{color:#999;}.chosen-container-single .chosen-single span{display:block;overflow:hidden;margin-right:26px;text-overflow:ellipsis;white-space:nowrap;}.chosen-container-single .chosen-single-with-deselect span{margin-right:38px;}.chosen-container-single .chosen-single abbr{position:absolute;top:6px;right:26px;display:block;width:12px;height:12px;background:url("https://static.careerbuilder.vn/themes/careerbuilder/gallery/chosen/chosen-sprite.png") -42px 1px no-repeat;font-size:1px;}.chosen-container-single .chosen-single abbr:hover{background-position:-42px -10px;}.chosen-container-single.chosen-disabled .chosen-single abbr:hover{background-position:-42px -10px;}.chosen-container-single .chosen-single div{position:absolute;top:0;right:0;display:block;width:18px;height:100%;}.chosen-container-single .chosen-single div b{display:block;width:100%;height:100%;background:url("https://static.careerbuilder.vn/themes/careerbuilder/gallery/chosen/chosen-sprite.png") no-repeat 0px 2px;}.chosen-container-single .chosen-search{position:relative;z-index:1010;margin:0;padding:3px 4px;white-space:nowrap;}.chosen-container-single .chosen-search input[type="text"],.chosen-container-single .chosen-search input[type="search"]{margin:1px 0;padding:4px 20px 4px 5px;width:100%;height:auto;outline:0;border:1px solid #aaa;background:url("https://static.careerbuilder.vn/themes/careerbuilder/gallery/chosen/chosen-sprite.png") no-repeat 100% -20px;font-size:1em;font-family:sans-serif;line-height:normal;border-radius:0;}.chosen-container-single .chosen-drop{margin-top:-1px;border-radius:0 0 4px 4px;background-clip:padding-box;}.chosen-container-single.chosen-container-single-nosearch .chosen-search{position:absolute;clip:rect(0, 0, 0, 0);-webkit-clip-path:inset(100% 100%);clip-path:inset(100% 100%);}.chosen-container .chosen-results{color:#444;position:relative;overflow-x:hidden;overflow-y:auto;margin:0 4px 4px 0;padding:0 0 0 4px;max-height:240px;-webkit-overflow-scrolling:touch;}.chosen-container .chosen-results li{display:none;margin:0;padding:5px 6px;list-style:none;line-height:15px;word-wrap:break-word;-webkit-touch-callout:none;}.chosen-container .chosen-results li.active-result{display:list-item;cursor:pointer;}.chosen-container .chosen-results li.disabled-result{display:list-item;color:#ccc;cursor:default;}.chosen-container .chosen-results li.highlighted{background-color:#3875d7;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(20%, #3875d7), color-stop(90%, #2a62bc));background-image:linear-gradient(#3875d7 20%, #2a62bc 90%);color:#fff;}@media(max-width:576px){.chosen-container .chosen-results li.active-result:hover{background:#3875d7 !important;color:#fff !important;}}.chosen-container .chosen-results li.no-results{color:#777;display:list-item;background:#f4f4f4;}.chosen-container .chosen-results li.group-result{display:list-item;font-weight:bold;cursor:default;}.chosen-container .chosen-results li.group-option{padding-left:15px;}.chosen-container .chosen-results li em{font-style:normal;text-decoration:underline;}.chosen-container-multi .chosen-choices{position:relative;overflow:hidden;margin:0;padding:0 5px;width:100%;height:auto;border:1px solid #aaa;background-color:#fff;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(1%, #eee), color-stop(15%, #fff));background-image:linear-gradient(#eee 1%, #fff 15%);cursor:text;}.chosen-container-multi .chosen-choices li{float:left;list-style:none;}.chosen-container-multi .chosen-choices li.search-field{margin:0;padding:0;white-space:nowrap;}.chosen-container-multi .chosen-choices li.search-field input[type="text"],.chosen-container-multi .chosen-choices li.search-field input[type="search"]{margin:1px 0;padding:0;height:25px;outline:0;border:0 !important;background:transparent !important;-webkit-box-shadow:none;box-shadow:none;color:#999;font-size:100%;font-family:sans-serif;line-height:normal;border-radius:0;width:25px;}.chosen-container-multi .chosen-choices li.search-choice{position:relative;margin:3px 5px 3px 0;padding:3px 20px 3px 5px;border:1px solid #aaa;max-width:100%;border-radius:3px;background-color:#eeeeee;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(20%, #f4f4f4), color-stop(50%, #f0f0f0), color-stop(52%, #e8e8e8), to(#eee));background-image:linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);background-size:100% 19px;background-repeat:repeat-x;background-clip:padding-box;-webkit-box-shadow:0 0 2px #fff inset, 0 1px 0 rgba(0, 0, 0, 0.05);box-shadow:0 0 2px #fff inset, 0 1px 0 rgba(0, 0, 0, 0.05);color:#333;line-height:13px;cursor:default;}.chosen-container-multi .chosen-choices li.search-choice span{word-wrap:break-word;}.chosen-container-multi .chosen-choices li.search-choice .search-choice-close{position:absolute;top:4px;right:3px;display:block;width:12px;height:12px;background:url("https://static.careerbuilder.vn/themes/careerbuilder/gallery/chosen/chosen-sprite.png") -42px 1px no-repeat;font-size:1px;}.chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover{background-position:-42px -10px;}.chosen-container-multi .chosen-choices li.search-choice-disabled{padding-right:5px;border:1px solid #ccc;background-color:#e4e4e4;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(20%, #f4f4f4), color-stop(50%, #f0f0f0), color-stop(52%, #e8e8e8), to(#eee));background-image:linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);color:#666;}.chosen-container-multi .chosen-choices li.search-choice-focus{background:#d4d4d4;}.chosen-container-multi .chosen-choices li.search-choice-focus .search-choice-close{background-position:-42px -10px;}.chosen-container-multi .chosen-results{margin:0;padding:0;}.chosen-container-multi .chosen-drop .result-selected{display:list-item;color:#ccc;cursor:default;}.chosen-container-active .chosen-single{border:1px solid #5897fb;-webkit-box-shadow:0 0 5px rgba(0, 0, 0, 0.3);box-shadow:0 0 5px rgba(0, 0, 0, 0.3);}.chosen-container-active.chosen-with-drop .chosen-single{border:1px solid #aaa;border-bottom-right-radius:0;border-bottom-left-radius:0;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(20%, #eee), color-stop(80%, #fff));background-image:linear-gradient(#eee 20%, #fff 80%);-webkit-box-shadow:0 1px 0 #fff inset;box-shadow:0 1px 0 #fff inset;}.chosen-container-active.chosen-with-drop .chosen-single div{border-left:none;background:transparent;}.chosen-container-active.chosen-with-drop .chosen-single div b{background-position:-18px 2px;}.chosen-container-active .chosen-choices{border:1px solid #5897fb;-webkit-box-shadow:0 0 5px rgba(0, 0, 0, 0.3);box-shadow:0 0 5px rgba(0, 0, 0, 0.3);}.chosen-container-active .chosen-choices li.search-field input[type="text"],.chosen-container-active .chosen-choices li.search-field input[type="search"]{color:#222 !important;}.chosen-disabled{opacity:0.5 !important;cursor:default;}.chosen-disabled .chosen-single{cursor:default;}.chosen-disabled .chosen-choices .search-choice .search-choice-close{cursor:default;}.chosen-rtl{text-align:right;}.chosen-rtl .chosen-single{overflow:visible;padding:0 8px 0 0;}.chosen-rtl .chosen-single span{margin-right:0;margin-left:26px;direction:rtl;}.chosen-rtl .chosen-single-with-deselect span{margin-left:38px;}.chosen-rtl .chosen-single div{right:auto;left:3px;}.chosen-rtl .chosen-single abbr{right:auto;left:26px;}.chosen-rtl .chosen-choices li{float:right;}.chosen-rtl .chosen-choices li.search-field input[type="text"],.chosen-rtl .chosen-choices li.search-field input[type="search"]{direction:rtl;}.chosen-rtl .chosen-choices li.search-choice{margin:3px 5px 3px 0;padding:3px 5px 3px 19px;}.chosen-rtl .chosen-choices li.search-choice .search-choice-close{right:auto;left:4px;}.chosen-rtl.chosen-container-single .chosen-results{margin:0 0 4px 4px;padding:0 4px 0 0;}.chosen-rtl .chosen-results li.group-option{padding-right:15px;padding-left:0;}.chosen-rtl.chosen-container-active.chosen-with-drop .chosen-single div{border-right:none;}.chosen-rtl .chosen-search input[type="text"],.chosen-rtl .chosen-search input[type="search"]{padding:4px 5px 4px 20px;background:url("https://static.careerbuilder.vn/themes/careerbuilder/gallery/chosen/chosen-sprite.png") no-repeat -30px -20px;direction:rtl;}.chosen-rtl.chosen-container-single .chosen-single div b{background-position:6px 2px;}.chosen-rtl.chosen-container-single.chosen-with-drop .chosen-single div b{background-position:-12px 2px;}input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-results-button, input[type="search"]::-webkit-search-results-decoration{-webkit-appearance:none;}@media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:144dpi), only screen and (min-resolution:1.5dppx){.chosen-rtl .chosen-search input[type="text"], .chosen-rtl .chosen-search input[type="search"], .chosen-container-single .chosen-single abbr, .chosen-container-single .chosen-single div b, .chosen-container-single .chosen-search input[type="text"], .chosen-container-single .chosen-search input[type="search"], .chosen-container-multi .chosen-choices .search-choice .search-choice-close, .chosen-container .chosen-results-scroll-down span, .chosen-container .chosen-results-scroll-up span{background-image:url("https://static.careerbuilder.vn/themes/careerbuilder/gallery/chosen/chosen-sprite@2x.png") !important;background-size:52px 37px !important;background-repeat:no-repeat !important;}}
 
@@ -265,261 +275,465 @@ if(typeof language === 'undefined')	var language = language_common;	else $.exten
 
 </style>
     	<section class="find-jobs-form">
-  <div class="container">
-    <div class="main-form">
-      <div class="close-input-filter"><em class="lnr lnr-cross"></em></div>
-      <form>
-        <div class="advanced-search"> <div class="form-group form-keyword">
-  <input type="search" class="keyword" name="keyword" id="keyword" placeholder="Chức danh, Kỹ năng, Tên công ty">
-  <div class="cleartext"><em class="mdi mdi-close-circle"></em></div>
-</div>
-<div class="form-group form-select-chosen">
-  <select id="industry" name="industry" class="chosen-select chosen-select-max-three" data-placeholder="Tất cả ngành nghề" multiple>
-  	<option value="">Chọn ngành nghề</option>
-    <option value="an-ninh-bao-ve_51">An Ninh / Bảo Vệ</option><option value="an-toan-lao-dong_58">An toàn lao động</option><option value="ban-hang-kinh-doanh_31">Bán hàng / Kinh doanh</option><option value="ban-le-ban-si_30">Bán lẻ / Bán sỉ</option><option value="bao-hiem_23">Bảo hiểm</option><option value="bat-dong-san_28">Bất động sản</option><option value="bien-phien-dich_38">Biên phiên dịch</option><option value="buu-chinh-vien-thong_32">Bưu chính viễn thông</option><option value="chan-nuoi-thu-y_52">Chăn nuôi / Thú y</option><option value="chung-khoan_46">Chứng khoán</option><option value="cntt-phan-cung-mang_63">CNTT - Phần cứng / Mạng</option><option value="cntt-phan-mem_1">CNTT - Phần mềm</option><option value="cong-nghe-sinh-hoc_69">Công nghệ sinh học</option><option value="cong-nghe-thuc-pham-dinh-duong_70">Công nghệ thực phẩm / Dinh dưỡng</option><option value="co-khi-o-to-tu-dong-hoa_14">Cơ khí / Ô tô / Tự động hóa</option><option value="dau-khi_26">Dầu khí</option><option value="det-may-da-giay-thoi-trang_39">Dệt may / Da giày / Thời trang</option><option value="dich-vu-khach-hang_12">Dịch vụ khách hàng</option><option value="du-lich_34">Du lịch</option><option value="duoc-pham_7">Dược phẩm</option><option value="dien-dien-tu-dien-lanh_48">Điện / Điện tử / Điện lạnh</option><option value="do-go_35">Đồ gỗ</option><option value="giai-tri_15">Giải trí</option><option value="giao-duc-dao-tao_13">Giáo dục / Đào tạo</option><option value="hang-gia-dung-cham-soc-ca-nhan_10">Hàng gia dụng / Chăm sóc cá nhân</option><option value="hang-hai_61">Hàng hải</option><option value="hang-khong_60">Hàng không</option><option value="hanh-chinh-thu-ky_3">Hành chính / Thư ký</option><option value="hoa-hoc_41">Hóa học</option><option value="in-an-xuat-ban_64">In ấn / Xuất bản</option><option value="ke-toan-kiem-toan_2">Kế toán / Kiểm toán</option><option value="khoang-san_65">Khoáng sản</option><option value="kien-truc_6">Kiến trúc</option><option value="lao-dong-pho-thong_44">Lao động phổ thông</option><option value="lam-nghiep_50">Lâm Nghiệp</option><option value="luat-phap-ly_24">Luật / Pháp lý</option><option value="moi-truong_16">Môi trường</option><option value="moi-tot-nghiep-thuc-tap_45">Mới tốt nghiệp / Thực tập</option><option value="my-thuat-nghe-thuat-thiet-ke_11">Mỹ thuật / Nghệ thuật / Thiết kế</option><option value="ngan-hang_19">Ngân hàng</option><option value="nha-hang-khach-san_29">Nhà hàng / Khách sạn</option><option value="nhan-su_22">Nhân sự</option><option value="noi-ngoai-that_47">Nội ngoại thất</option><option value="nong-nghiep_5">Nông nghiệp</option><option value="phi-chinh-phu-phi-loi-nhuan_20">Phi chính phủ / Phi lợi nhuận</option><option value="quan-ly-chat-luong-qa-qc_42">Quản lý chất lượng (QA/QC)</option><option value="quan-ly-dieu-hanh_17">Quản lý điều hành</option><option value="quang-cao-doi-ngoai-truyen-thong_67">Quảng cáo / Đối ngoại / Truyền Thông</option><option value="san-xuat-van-hanh-san-xuat_25">Sản xuất / Vận hành sản xuất</option><option value="tai-chinh-dau-tu_59">Tài chính / Đầu tư</option><option value="thong-ke_36">Thống kê</option><option value="thu-mua-vat-tu_43">Thu mua / Vật tư</option><option value="thuy-loi_53">Thủy lợi</option><option value="thuy-san-hai-san_49">Thủy sản / Hải sản</option><option value="thu-vien_57">Thư viện</option><option value="thuc-pham-do-uong_21">Thực phẩm &amp; Đồ uống</option><option value="tiep-thi-marketing_4">Tiếp thị / Marketing</option><option value="tiep-thi-truc-tuyen_37">Tiếp thị trực tuyến</option><option value="to-chuc-su-kien_68">Tổ chức sự kiện</option><option value="trac-dia-dia-chat_54">Trắc địa / Địa Chất</option><option value="truyen-hinh-bao-chi-bien-tap_66">Truyền hình / Báo chí / Biên tập</option><option value="tu-van_9">Tư vấn</option><option value="van-chuyen-giao-nhan-kho-van_33">Vận chuyển / Giao nhận /  Kho vận</option><option value="xay-dung_8">Xây dựng</option><option value="xuat-nhap-khau_18">Xuất nhập khẩu</option><option value="y-te-cham-soc-suc-khoe_56">Y tế / Chăm sóc sức khỏe</option><option value="bao-tri-sua-chua_71">Bảo trì / Sửa chữa</option><option value="nganh-khac_27">Ngành khác</option>  </select>
-</div>
-<div class="form-group form-select-chosen">
-  <select id="location" name="location" class="chosen-select chosen-select-max-three" data-placeholder="Tất cả địa điểm" multiple>
-    <option value="">Chọn địa điểm</option>
-	<option value="ha-noi_4">Hà Nội</option><option value="ho-chi-minh_8">Hồ Chí Minh</option><option value="an-giang_76">An Giang</option><option value="ba-ria-vung-tau_64">Bà Rịa - Vũng Tàu</option><option value="bac-lieu_781">Bạc Liêu</option><option value="bac-can_281">Bắc Cạn</option><option value="bac-giang_240">Bắc Giang</option><option value="bac-ninh_241">Bắc Ninh</option><option value="ben-tre_75">Bến Tre</option><option value="binh-duong_650">Bình Dương</option><option value="binh-dinh_56">Bình Định</option><option value="binh-phuoc_651">Bình Phước</option><option value="binh-thuan_62">Bình Thuận</option><option value="ca-mau_78">Cà Mau</option><option value="cao-bang_26">Cao Bằng</option><option value="can-tho_71">Cần Thơ</option><option value="dak-lak_50">Dak Lak</option><option value="dak-nong_1042">Dak Nông</option><option value="da-nang_511">Đà Nẵng</option><option value="dien-bien_900">Điện Biên</option><option value="dong-bang-song-cuu-long_1064">Đồng Bằng Sông Cửu Long</option><option value="dong-nai_61">Đồng Nai</option><option value="dong-thap_67">Đồng Tháp</option><option value="gia-lai_59">Gia Lai</option><option value="ha-giang_19">Hà Giang</option><option value="ha-nam_351">Hà Nam</option><option value="ha-tinh_39">Hà Tĩnh</option><option value="hai-duong_320">Hải Dương</option><option value="hai-phong_31">Hải Phòng</option><option value="hau-giang_780">Hậu Giang</option><option value="hoa-binh_18">Hòa Bình</option><option value="hung-yen_321">Hưng Yên</option><option value="khac_901">Khác</option><option value="khanh-hoa_58">Khánh Hòa</option><option value="kien-giang_77">Kiên Giang</option><option value="kon-tum_60">Kon Tum</option><option value="kv-bac-trung-bo_1071">KV Bắc Trung Bộ</option><option value="kv-dong-nam-bo_1069">KV Đông Nam Bộ</option><option value="kv-nam-trung-bo_1070">KV Nam Trung Bộ</option><option value="kv-tay-nguyen_1072">KV Tây Nguyên</option><option value="lai-chau_23">Lai Châu</option><option value="lang-son_25">Lạng Sơn</option><option value="lao-cai_20">Lào Cai</option><option value="lam-dong_63">Lâm Đồng</option><option value="long-an_72">Long An</option><option value="nam-dinh_350">Nam Định</option><option value="nghe-an_38">Nghệ An</option><option value="ninh-binh_30">Ninh Bình</option><option value="ninh-thuan_68">Ninh Thuận</option><option value="phu-tho_210">Phú Thọ</option><option value="phu-yen_57">Phú Yên</option><option value="quang-binh_52">Quảng Bình</option><option value="quang-nam_510">Quảng Nam</option><option value="quang-ngai_55">Quảng Ngãi</option><option value="quang-ninh_33">Quảng Ninh</option><option value="quang-tri_53">Quảng Trị</option><option value="soc-trang_79">Sóc Trăng</option><option value="son-la_22">Sơn La</option><option value="tay-ninh_66">Tây Ninh</option><option value="thai-binh_36">Thái Bình</option><option value="thai-nguyen_280">Thái Nguyên</option><option value="thanh-hoa_37">Thanh Hóa</option><option value="thua-thien-hue_54">Thừa Thiên- Huế</option><option value="tien-giang_73">Tiền Giang</option><option value="toan-quoc_1065">Toàn quốc</option><option value="tra-vinh_74">Trà Vinh</option><option value="tuyen-quang_27">Tuyên Quang</option><option value="vinh-long_70">Vĩnh Long</option><option value="vinh-phuc_211">Vĩnh Phúc</option><option value="yen-bai_29">Yên Bái</option><option value="banteay-meanchey_1098">Banteay Meanchey</option><option value="battambang_1096">Battambang</option><option value="kampong-chhnang_1092">Kampong Chhnang</option><option value="kampong-speu_1090">Kampong Speu</option><option value="kampot_1085">Kampot</option><option value="kandal_1088">Kandal</option><option value="kampong-thum-cambodia_1094">Kâmpóng Thum, Cambodia</option><option value="kep_1084">Kep</option><option value="koh-kong_1091">Koh Kong</option><option value="kratie_1093">Kratie</option><option value="mondulkiri_1102">Mondulkiri</option><option value="otdar-meanchey_1104">Otdar Meanchey</option><option value="pailin_1103">Pailin</option><option value="phnompenh_1041">Phnompenh</option><option value="preah-sihanouk_1105">Preah Sihanouk</option><option value="preah-vihear_1099">Preah Vihear</option><option value="prey-veng_1089">Prey Veng</option><option value="pursat_1095">Pursat</option><option value="rotanak-kiri_1101">Rotanak Kiri</option><option value="siem-reap_1097">Siem Reap</option><option value="sihanoukville_1083">Sihanoukville</option><option value="stung-treng_1100">Stung Treng</option><option value="svay-rieng_1087">Svay Rieng</option><option value="tbong-khmum_1082">Tbong Khmum</option><option value="seoul_1018">Seoul</option><option value="chicago_1034">Chicago</option><option value="florida_1077">Florida</option><option value="miami_1033">Miami</option><option value="san-diego_1039">San Diego</option><option value="hong-kong_1079">Hồng Kông</option><option value="khac_1318">Khác</option><option value="attapeu_1106">Attapeu</option><option value="bokeo_1107">Bokeo</option><option value="bolikhamsai_1108">Bolikhamsai</option><option value="champasak_1109">Champasak</option><option value="houaphanh_1110">Houaphanh</option><option value="khammouane_1111">Khammouane</option><option value="louang-namtha_1112">Louang Namtha</option><option value="luang-prabang_1113">Luang Prabang</option><option value="phongsaly_1115">Phongsaly</option><option value="sekong_1119">Sekong</option><option value="vientiane_1059">Vientiane</option><option value="xiangkhouang_1120">Xiangkhouang</option><option value="kuala-lumpur_1019">Kuala Lumpur</option><option value="malaysia_1078">Malaysia</option><option value="yangon_1320">Yangon</option><option value="aichi_1319">Aichi</option><option value="hokkaido_1043">Hokkaido</option><option value="osaka_1000">Osaka</option><option value="tokyo_1001">Tokyo</option><option value="yokohama_1002">Yokohama</option><option value="qatar_1055">Qatar</option><option value="quoc-te_1073">Quốc tế</option><option value="singapore_1040">Singapore</option><option value="melbourne_1004">Melbourne</option><option value="sydney_1005">Sydney</option><option value="kharkiv_1053">Kharkiv</option>  </select>
-</div>
-<div class="form-group find-jobs">
-  <button class="btn-gradient" onClick="return validDatasearchJobsByKeyword('vi');">
-  <p>Tìm Ngay</p>
-  <span class="mdi mdi-magnify"></span> </button>
-</div>
-<div class="form-group animation">
-  <button class="btn-gradient" onClick="return validDatasearchJobsByKeyword('vi');">
-  <p>Tìm Ngay</p>
-  <span class="mdi mdi-magnify"></span> </button>
-</div>
- </div>
-      </form>
+    <div class="container">
+        <div class="main-form">
+            <div class="close-input-filter"><em class="lnr lnr-cross"></em></div>
+            <form>
+                <div class="advanced-search">
+                    <div class="form-group form-keyword">
+                        <input type="search" class="keyword" name="keyword" id="keyword" placeholder="Chức danh, Kỹ năng, Tên công ty">
+                        <div class="cleartext"><em class="mdi mdi-close-circle"></em></div>
+                    </div>
+                    <div class="form-group form-select-chosen">
+                        <select id="industry" name="industry" class="chosen-select chosen-select-max-three" data-placeholder="Tất cả ngành nghề" multiple>
+                            <option value="">Chọn ngành nghề</option>
+                            <option value="an-ninh-bao-ve_51">An Ninh / Bảo Vệ</option>
+                            <option value="an-toan-lao-dong_58">An toàn lao động</option>
+                            <option value="ban-hang-kinh-doanh_31">Bán hàng / Kinh doanh</option>
+                            <option value="ban-le-ban-si_30">Bán lẻ / Bán sỉ</option>
+                            <option value="bao-hiem_23">Bảo hiểm</option>
+                            <option value="bat-dong-san_28">Bất động sản</option>
+                            <option value="bien-phien-dich_38">Biên phiên dịch</option>
+                            <option value="buu-chinh-vien-thong_32">Bưu chính viễn thông</option>
+                            <option value="chan-nuoi-thu-y_52">Chăn nuôi / Thú y</option>
+                            <option value="chung-khoan_46">Chứng khoán</option>
+                            <option value="cntt-phan-cung-mang_63">CNTT - Phần cứng / Mạng</option>
+                            <option value="cntt-phan-mem_1">CNTT - Phần mềm</option>
+                            <option value="cong-nghe-sinh-hoc_69">Công nghệ sinh học</option>
+                            <option value="cong-nghe-thuc-pham-dinh-duong_70">Công nghệ thực phẩm / Dinh dưỡng</option>
+                            <option value="co-khi-o-to-tu-dong-hoa_14">Cơ khí / Ô tô / Tự động hóa</option>
+                            <option value="dau-khi_26">Dầu khí</option>
+                            <option value="det-may-da-giay-thoi-trang_39">Dệt may / Da giày / Thời trang</option>
+                            <option value="dich-vu-khach-hang_12">Dịch vụ khách hàng</option>
+                            <option value="du-lich_34">Du lịch</option>
+                            <option value="duoc-pham_7">Dược phẩm</option>
+                            <option value="dien-dien-tu-dien-lanh_48">Điện / Điện tử / Điện lạnh</option>
+                            <option value="do-go_35">Đồ gỗ</option>
+                            <option value="giai-tri_15">Giải trí</option>
+                            <option value="giao-duc-dao-tao_13">Giáo dục / Đào tạo</option>
+                            <option value="hang-gia-dung-cham-soc-ca-nhan_10">Hàng gia dụng / Chăm sóc cá nhân</option>
+                            <option value="hang-hai_61">Hàng hải</option>
+                            <option value="hang-khong_60">Hàng không</option>
+                            <option value="hanh-chinh-thu-ky_3">Hành chính / Thư ký</option>
+                            <option value="hoa-hoc_41">Hóa học</option>
+                            <option value="in-an-xuat-ban_64">In ấn / Xuất bản</option>
+                            <option value="ke-toan-kiem-toan_2">Kế toán / Kiểm toán</option>
+                            <option value="khoang-san_65">Khoáng sản</option>
+                            <option value="kien-truc_6">Kiến trúc</option>
+                            <option value="lao-dong-pho-thong_44">Lao động phổ thông</option>
+                            <option value="lam-nghiep_50">Lâm Nghiệp</option>
+                            <option value="luat-phap-ly_24">Luật / Pháp lý</option>
+                            <option value="moi-truong_16">Môi trường</option>
+                            <option value="moi-tot-nghiep-thuc-tap_45">Mới tốt nghiệp / Thực tập</option>
+                            <option value="my-thuat-nghe-thuat-thiet-ke_11">Mỹ thuật / Nghệ thuật / Thiết kế</option>
+                            <option value="ngan-hang_19">Ngân hàng</option>
+                            <option value="nha-hang-khach-san_29">Nhà hàng / Khách sạn</option>
+                            <option value="nhan-su_22">Nhân sự</option>
+                            <option value="noi-ngoai-that_47">Nội ngoại thất</option>
+                            <option value="nong-nghiep_5">Nông nghiệp</option>
+                            <option value="phi-chinh-phu-phi-loi-nhuan_20">Phi chính phủ / Phi lợi nhuận</option>
+                            <option value="quan-ly-chat-luong-qa-qc_42">Quản lý chất lượng (QA/QC)</option>
+                            <option value="quan-ly-dieu-hanh_17">Quản lý điều hành</option>
+                            <option value="quang-cao-doi-ngoai-truyen-thong_67">Quảng cáo / Đối ngoại / Truyền Thông</option>
+                            <option value="san-xuat-van-hanh-san-xuat_25">Sản xuất / Vận hành sản xuất</option>
+                            <option value="tai-chinh-dau-tu_59">Tài chính / Đầu tư</option>
+                            <option value="thong-ke_36">Thống kê</option>
+                            <option value="thu-mua-vat-tu_43">Thu mua / Vật tư</option>
+                            <option value="thuy-loi_53">Thủy lợi</option>
+                            <option value="thuy-san-hai-san_49">Thủy sản / Hải sản</option>
+                            <option value="thu-vien_57">Thư viện</option>
+                            <option value="thuc-pham-do-uong_21">Thực phẩm &amp; Đồ uống</option>
+                            <option value="tiep-thi-marketing_4">Tiếp thị / Marketing</option>
+                            <option value="tiep-thi-truc-tuyen_37">Tiếp thị trực tuyến</option>
+                            <option value="to-chuc-su-kien_68">Tổ chức sự kiện</option>
+                            <option value="trac-dia-dia-chat_54">Trắc địa / Địa Chất</option>
+                            <option value="truyen-hinh-bao-chi-bien-tap_66">Truyền hình / Báo chí / Biên tập</option>
+                            <option value="tu-van_9">Tư vấn</option>
+                            <option value="van-chuyen-giao-nhan-kho-van_33">Vận chuyển / Giao nhận /  Kho vận</option>
+                            <option value="xay-dung_8">Xây dựng</option>
+                            <option value="xuat-nhap-khau_18">Xuất nhập khẩu</option>
+                            <option value="y-te-cham-soc-suc-khoe_56">Y tế / Chăm sóc sức khỏe</option>
+                            <option value="bao-tri-sua-chua_71">Bảo trì / Sửa chữa</option>
+                            <option value="nganh-khac_27">Ngành khác</option>
+                        </select>
+                    </div>
+                    <div class="form-group form-select-chosen">
+                        <select id="location" name="location" class="chosen-select chosen-select-max-three" data-placeholder="Tất cả địa điểm" multiple>
+                            <option value="">Chọn địa điểm</option>
+                            <option value="ha-noi_4">Hà Nội</option>
+                            <option value="ho-chi-minh_8">Hồ Chí Minh</option>
+                            <option value="an-giang_76">An Giang</option>
+                            <option value="ba-ria-vung-tau_64">Bà Rịa - Vũng Tàu</option>
+                            <option value="bac-lieu_781">Bạc Liêu</option>
+                            <option value="bac-can_281">Bắc Cạn</option>
+                            <option value="bac-giang_240">Bắc Giang</option>
+                            <option value="bac-ninh_241">Bắc Ninh</option>
+                            <option value="ben-tre_75">Bến Tre</option>
+                            <option value="binh-duong_650">Bình Dương</option>
+                            <option value="binh-dinh_56">Bình Định</option>
+                            <option value="binh-phuoc_651">Bình Phước</option>
+                            <option value="binh-thuan_62">Bình Thuận</option>
+                            <option value="ca-mau_78">Cà Mau</option>
+                            <option value="cao-bang_26">Cao Bằng</option>
+                            <option value="can-tho_71">Cần Thơ</option>
+                            <option value="dak-lak_50">Dak Lak</option>
+                            <option value="dak-nong_1042">Dak Nông</option>
+                            <option value="da-nang_511">Đà Nẵng</option>
+                            <option value="dien-bien_900">Điện Biên</option>
+                            <option value="dong-bang-song-cuu-long_1064">Đồng Bằng Sông Cửu Long</option>
+                            <option value="dong-nai_61">Đồng Nai</option>
+                            <option value="dong-thap_67">Đồng Tháp</option>
+                            <option value="gia-lai_59">Gia Lai</option>
+                            <option value="ha-giang_19">Hà Giang</option>
+                            <option value="ha-nam_351">Hà Nam</option>
+                            <option value="ha-tinh_39">Hà Tĩnh</option>
+                            <option value="hai-duong_320">Hải Dương</option>
+                            <option value="hai-phong_31">Hải Phòng</option>
+                            <option value="hau-giang_780">Hậu Giang</option>
+                            <option value="hoa-binh_18">Hòa Bình</option>
+                            <option value="hung-yen_321">Hưng Yên</option>
+                            <option value="khac_901">Khác</option>
+                            <option value="khanh-hoa_58">Khánh Hòa</option>
+                            <option value="kien-giang_77">Kiên Giang</option>
+                            <option value="kon-tum_60">Kon Tum</option>
+                            <option value="kv-bac-trung-bo_1071">KV Bắc Trung Bộ</option>
+                            <option value="kv-dong-nam-bo_1069">KV Đông Nam Bộ</option>
+                            <option value="kv-nam-trung-bo_1070">KV Nam Trung Bộ</option>
+                            <option value="kv-tay-nguyen_1072">KV Tây Nguyên</option>
+                            <option value="lai-chau_23">Lai Châu</option>
+                            <option value="lang-son_25">Lạng Sơn</option>
+                            <option value="lao-cai_20">Lào Cai</option>
+                            <option value="lam-dong_63">Lâm Đồng</option>
+                            <option value="long-an_72">Long An</option>
+                            <option value="nam-dinh_350">Nam Định</option>
+                            <option value="nghe-an_38">Nghệ An</option>
+                            <option value="ninh-binh_30">Ninh Bình</option>
+                            <option value="ninh-thuan_68">Ninh Thuận</option>
+                            <option value="phu-tho_210">Phú Thọ</option>
+                            <option value="phu-yen_57">Phú Yên</option>
+                            <option value="quang-binh_52">Quảng Bình</option>
+                            <option value="quang-nam_510">Quảng Nam</option>
+                            <option value="quang-ngai_55">Quảng Ngãi</option>
+                            <option value="quang-ninh_33">Quảng Ninh</option>
+                            <option value="quang-tri_53">Quảng Trị</option>
+                            <option value="soc-trang_79">Sóc Trăng</option>
+                            <option value="son-la_22">Sơn La</option>
+                            <option value="tay-ninh_66">Tây Ninh</option>
+                            <option value="thai-binh_36">Thái Bình</option>
+                            <option value="thai-nguyen_280">Thái Nguyên</option>
+                            <option value="thanh-hoa_37">Thanh Hóa</option>
+                            <option value="thua-thien-hue_54">Thừa Thiên- Huế</option>
+                            <option value="tien-giang_73">Tiền Giang</option>
+                            <option value="toan-quoc_1065">Toàn quốc</option>
+                            <option value="tra-vinh_74">Trà Vinh</option>
+                            <option value="tuyen-quang_27">Tuyên Quang</option>
+                            <option value="vinh-long_70">Vĩnh Long</option>
+                            <option value="vinh-phuc_211">Vĩnh Phúc</option>
+                            <option value="yen-bai_29">Yên Bái</option>
+                            <option value="banteay-meanchey_1098">Banteay Meanchey</option>
+                            <option value="battambang_1096">Battambang</option>
+                            <option value="kampong-chhnang_1092">Kampong Chhnang</option>
+                            <option value="kampong-speu_1090">Kampong Speu</option>
+                            <option value="kampot_1085">Kampot</option>
+                            <option value="kandal_1088">Kandal</option>
+                            <option value="kampong-thum-cambodia_1094">Kâmpóng Thum, Cambodia</option>
+                            <option value="kep_1084">Kep</option>
+                            <option value="koh-kong_1091">Koh Kong</option>
+                            <option value="kratie_1093">Kratie</option>
+                            <option value="mondulkiri_1102">Mondulkiri</option>
+                            <option value="otdar-meanchey_1104">Otdar Meanchey</option>
+                            <option value="pailin_1103">Pailin</option>
+                            <option value="phnompenh_1041">Phnompenh</option>
+                            <option value="preah-sihanouk_1105">Preah Sihanouk</option>
+                            <option value="preah-vihear_1099">Preah Vihear</option>
+                            <option value="prey-veng_1089">Prey Veng</option>
+                            <option value="pursat_1095">Pursat</option>
+                            <option value="rotanak-kiri_1101">Rotanak Kiri</option>
+                            <option value="siem-reap_1097">Siem Reap</option>
+                            <option value="sihanoukville_1083">Sihanoukville</option>
+                            <option value="stung-treng_1100">Stung Treng</option>
+                            <option value="svay-rieng_1087">Svay Rieng</option>
+                            <option value="tbong-khmum_1082">Tbong Khmum</option>
+                            <option value="seoul_1018">Seoul</option>
+                            <option value="chicago_1034">Chicago</option>
+                            <option value="florida_1077">Florida</option>
+                            <option value="miami_1033">Miami</option>
+                            <option value="san-diego_1039">San Diego</option>
+                            <option value="hong-kong_1079">Hồng Kông</option>
+                            <option value="khac_1318">Khác</option>
+                            <option value="attapeu_1106">Attapeu</option>
+                            <option value="bokeo_1107">Bokeo</option>
+                            <option value="bolikhamsai_1108">Bolikhamsai</option>
+                            <option value="champasak_1109">Champasak</option>
+                            <option value="houaphanh_1110">Houaphanh</option>
+                            <option value="khammouane_1111">Khammouane</option>
+                            <option value="louang-namtha_1112">Louang Namtha</option>
+                            <option value="luang-prabang_1113">Luang Prabang</option>
+                            <option value="phongsaly_1115">Phongsaly</option>
+                            <option value="sekong_1119">Sekong</option>
+                            <option value="vientiane_1059">Vientiane</option>
+                            <option value="xiangkhouang_1120">Xiangkhouang</option>
+                            <option value="kuala-lumpur_1019">Kuala Lumpur</option>
+                            <option value="malaysia_1078">Malaysia</option>
+                            <option value="yangon_1320">Yangon</option>
+                            <option value="aichi_1319">Aichi</option>
+                            <option value="hokkaido_1043">Hokkaido</option>
+                            <option value="osaka_1000">Osaka</option>
+                            <option value="tokyo_1001">Tokyo</option>
+                            <option value="yokohama_1002">Yokohama</option>
+                            <option value="qatar_1055">Qatar</option>
+                            <option value="quoc-te_1073">Quốc tế</option>
+                            <option value="singapore_1040">Singapore</option>
+                            <option value="melbourne_1004">Melbourne</option>
+                            <option value="sydney_1005">Sydney</option>
+                            <option value="kharkiv_1053">Kharkiv</option>
+                        </select>
+                    </div>
+                    <div class="form-group find-jobs">
+                        <button class="btn-gradient" onClick="return validDatasearchJobsByKeyword('vi');">
+                            <p>Tìm Ngay</p>
+                            <span class="mdi mdi-magnify"></span> 
+                        </button>
+                    </div>
+                    <div class="form-group animation">
+                        <button class="btn-gradient" onClick="return validDatasearchJobsByKeyword('vi');">
+                            <p>Tìm Ngay</p>
+                            <span class="mdi mdi-magnify"></span> 
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
-  </div>
 </section>
-
 <section class="search-result-list-detail template-2">
-    <div class="container">        <div class="row no-gutters">
-            <div class="col-12 mb-15">
-                            <section class="apply-now-banner  ">   <div class="image"><img src="https://images.careerbuilder.vn/content/news/1.jpg" alt=""></div>
-    <div class="apply-now-content">
-    <div class="job-desc">
-      <h1 class="title">Nhân Viên Tuyển Dụng</h1>
-       <a class="employer job-company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-may-theu-giay-an-phuoc.35A4F400.html">Công Ty TNHH May Thêu Giày An Phước</a>  </div>
-    <div class="apply-now-btn ">        <a href="javascript:void(0);" class="btn-gradient btnApplyClick"> Nộp Đơn Ứng Tuyển </a>        </div>
-  </div>
-</section>
+<div class="container">
+<div class="row no-gutters">
+<div class="col-12 mb-15">
+    <section class="apply-now-banner  ">
+        <div class="image"><img src="https://images.careerbuilder.vn/content/news/1.jpg" alt=""></div>
+        <div class="apply-now-content">
+            <div class="job-desc">
+                <h1 class="title">Nhân Viên Tuyển Dụng</h1>
+                <a class="employer job-company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-may-theu-giay-an-phuoc.35A4F400.html">Công Ty TNHH May Thêu Giày An Phước</a>  
             </div>
-            <div class="col-lg-7 col-custom-xxl-9">
-                            <div class="tabs">
-                    <nav class="job-result-nav">
-                        <ul class="tabs-toggle">
-                            <li id="tabs-job-detail"><a href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html" data-href="#tab-1">Chi tiết</a></li>
-                                                        <li id="tabs-job-company"><a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-may-theu-giay-an-phuoc.35A4F400.html" data-href="#tab-2">Tổng quan công ty</a></li>
-                                                    </ul>
-                        <div class="job-detail-tool">
-                            <ol class="tabs-saved">
-                                                                <li>
-                                    <a class="toollips save-job chk_save_35B9A7C0 " href="javascript:void(0);" data-id="35B9A7C0"  onclick="popuplogin()">
-    <i class="mdi mdi-heart-outline"></i>
-    	<div class="toolip">
-		<p>Lưu việc làm</p>
-	</div>
-    </a>
-                                </li>
-                                                                <li>
-                                    <div class="dropdown"> <i class="mdi mdi-share-variant"></i>
-                                        <div class="dropdown-menu">
-                                            <div class="social-list">
-                                            <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0"><i class="fa fa-facebook"></i></a>
-                                            <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0"><i class="fa fa-linkedin"></i></a>
-                                            <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/email/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0"><i class="fa fa-envelope"></i></a>
-                                            <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/gmail/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0"><i class="fa fa-google"></i></a>
-                                                                                        <div class="zalo-share-button" data-href="" data-oaid="579745863508352884" data-layout="2" data-color="white" data-customize=false></div></div>
-                                                                                    </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a class="report-job toollips" href="javascript:void(0)"><i class="fa fa-flag-o"></i><div class="toolip">
-  <p> Báo xấu </p>
+            <div class="apply-now-btn ">        <a href="javascript:void(0);" class="btn-gradient btnApplyClick"> Nộp Đơn Ứng Tuyển </a>        </div>
+        </div>
+    </section>
 </div>
-</a>                                 </li>
-                            </ol>
+<div class="col-lg-7 col-custom-xxl-9">
+<div class="tabs">
+<nav class="job-result-nav">
+    <ul class="tabs-toggle">
+        <li id="tabs-job-detail"><a href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html" data-href="#tab-1">Chi tiết</a></li>
+        <li id="tabs-job-company"><a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-may-theu-giay-an-phuoc.35A4F400.html" data-href="#tab-2">Tổng quan công ty</a></li>
+    </ul>
+    <div class="job-detail-tool">
+        <ol class="tabs-saved">
+            <li>
+                <a class="toollips save-job chk_save_35B9A7C0 " href="javascript:void(0);" data-id="35B9A7C0"  onclick="popuplogin()">
+                    <i class="mdi mdi-heart-outline"></i>
+                    <div class="toolip">
+                        <p>Lưu việc làm</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <i class="mdi mdi-share-variant"></i>
+                    <div class="dropdown-menu">
+                        <div class="social-list">
+                            <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0"><i class="fa fa-facebook"></i></a>
+                            <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0"><i class="fa fa-linkedin"></i></a>
+                            <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/email/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0"><i class="fa fa-envelope"></i></a>
+                            <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/gmail/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0"><i class="fa fa-google"></i></a>
+                            <div class="zalo-share-button" data-href="" data-oaid="579745863508352884" data-layout="2" data-color="white" data-customize=false></div>
                         </div>
-                    </nav>
-                    <div class="tab-content" id="tab-1">
-                        <section class="job-detail-content">
-	<div class="bg-blue">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a class="report-job toollips" href="javascript:void(0)">
+                    <i class="fa fa-flag-o"></i>
+                    <div class="toolip">
+                        <p> Báo xấu </p>
+                    </div>
+                </a>
+            </li>
+        </ol>
+    </div>
+</nav>
+<div class="tab-content" id="tab-1">
+<section class="job-detail-content">
+<div class="bg-blue">
     <div class="row">
-		<div class="col-lg-4 col-sm-6 item-blue">
+        <div class="col-lg-4 col-sm-6 item-blue">
             <div class="detail-box">
                 <div class="map">
                     <strong><em class="mdi mdi-map-marker"></em>Địa điểm</strong>
                     <p><a href="https://careerbuilder.vn/viec-lam/ho-chi-minh-l8-vi.html">Hồ Chí Minh</a></p>
-                                        <a href="javascript:void(0)" onclick="show_map_detail_job();"><img src="img/icon-map.svg"></a>
-					                </div>
-				            </div>
-        </div>
-		
-        <div class="col-lg-4 col-sm-6 item-blue">
-            <div class="detail-box has-background">
-			<ul> 
-				<li> <strong><em class="mdi mdi-update"> </em>Ngày cập nhật</strong>
-					<p>14/06/2022</p>
-				</li>
-				<li> <strong> <em class="mdi mdi-briefcase"></em>Ngành nghề</strong>
-					<p>                <a href="https://careerbuilder.vn/viec-lam/nhan-su-c22-vi.html" >
-                                            Nhân sự
-                                    </a>
-				,                                 <a href="https://careerbuilder.vn/viec-lam/det-may-da-giay-thoi-trang-c39-vi.html" >
-                                            Dệt may / Da giày / Thời trang
-                                    </a>
-				,                                 <a href="https://careerbuilder.vn/viec-lam/hanh-chinh-thu-ky-c3-vi.html" >
-                                            Hành chính / Thư ký
-                                    </a>
-				                </p>
-				</li>
-				<li> <strong><em class="mdi mdi-briefcase-edit"> </em>Hình thức</strong>
-					<p>Nhân viên chính thức</p>
-				</li>
-			</ul>
+                    <a href="javascript:void(0)" onclick="show_map_detail_job();"><img src="img/icon-map.svg"></a>
+                </div>
             </div>
         </div>
-
         <div class="col-lg-4 col-sm-6 item-blue">
             <div class="detail-box has-background">
                 <ul>
-					<li><strong><i class="fa fa-usd"></i>Lương</strong>
-						<p>Cạnh tranh</p>
-					</li>	
-                                            <li>
+                    <li>
+                        <strong><em class="mdi mdi-update"> </em>Ngày cập nhật</strong>
+                        <p>14/06/2022</p>
+                    </li>
+                    <li>
+                        <strong> <em class="mdi mdi-briefcase"></em>Ngành nghề</strong>
+                        <p>                <a href="https://careerbuilder.vn/viec-lam/nhan-su-c22-vi.html" >
+                            Nhân sự
+                            </a>
+                            ,                                 <a href="https://careerbuilder.vn/viec-lam/det-may-da-giay-thoi-trang-c39-vi.html" >
+                            Dệt may / Da giày / Thời trang
+                            </a>
+                            ,                                 <a href="https://careerbuilder.vn/viec-lam/hanh-chinh-thu-ky-c3-vi.html" >
+                            Hành chính / Thư ký
+                            </a>
+                        </p>
+                    </li>
+                    <li>
+                        <strong><em class="mdi mdi-briefcase-edit"> </em>Hình thức</strong>
+                        <p>Nhân viên chính thức</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 item-blue">
+            <div class="detail-box has-background">
+                <ul>
+                    <li>
+                        <strong><i class="fa fa-usd"></i>Lương</strong>
+                        <p>Cạnh tranh</p>
+                    </li>
+                    <li>
                         <strong><i class="fa fa-briefcase"></i>Kinh nghiệm</strong>
                         <p>
-                                                   0 - 5 Năm
-                                                </p>
-                        </li>
-                                        <li><strong><i class="mdi mdi-account"></i>Cấp bậc</strong>
-                    <p>Nhân viên</p>
+                            0 - 5 Năm
+                        </p>
                     </li>
-                    <li><strong><i class="mdi mdi-calendar-check"></i>Hết hạn nộp</strong>
-                    <p>15/07/2022</p>
+                    <li>
+                        <strong><i class="mdi mdi-account"></i>Cấp bậc</strong>
+                        <p>Nhân viên</p>
+                    </li>
+                    <li>
+                        <strong><i class="mdi mdi-calendar-check"></i>Hết hạn nộp</strong>
+                        <p>15/07/2022</p>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-    </div>
-	<div class="detail-row">
-        <h3 class="detail-title">Phúc lợi </h3>
-<ul class="welfare-list">
-    <li><span class="fa fa-medkit"></span> Chế độ bảo hiểm</li>
-    <li><span class="fa fa-money"></span> Phụ cấp</li>
-    <li><span class="fa fa-black-tie"></span> Đồng phục</li>
-    <li><span class="fa fa-usd"></span> Chế độ thưởng</li>
-    <li><span class="fa fa-line-chart"></span> Tăng lương</li>
-    <li><span class="fa fa-credit-card"></span> Công tác phí</li>
-    <li><span class="fa fa-money"></span> Phụ cấp thâm niên</li>
-    <li><span class="fa fa-briefcase"></span> Nghỉ phép năm</li>
-  </ul>
-
-
-
-
-
-    </div>
-    <div class="detail-row">
-        <h3 class="detail-title">Mô tả Công việc</h3>
-        <p>Đề xuất các kênh tuyển dụng phù hợp nhằm đáp ứng nhu cầu nhân sự cho nhà máy<br/>Triển khai các kế hoạch tuyển mộ, tuyển chọn ứng viên<br/>Phỏng vấn, đánh giá, tham vấn ra quyết định tuyển chọn ứng viên<br/>Xây dựng và cải tiến quy trình tuyển dụng<br/>Thực hiện các hoạt động hướng dẫn và đào tạo hội nhập cho nhân viên mới</p><p>Một số công việc khác trao đổi trong phỏng vấn</p>
-    </div>
-    <div class="detail-row">
-        <h3 class="detail-title">Yêu Cầu Công Việc</h3>
-        <p>Nam, nữ kinh nghiệm 05 năm tuyển dụng hệ thống, td lao động số lượng lớn<br/>Ngoại hình khá, nhanh nhẹn, giao tiếp tốt.<br/>Thông thạo các kênh tuyển dụng<br/>Có kinh nghiệm quản lý nhân sự công ty quy mô 1000 lđ trở lên</p>
-    </div>
-    <div class="detail-row">
-  <h3 class="detail-title">Thông tin khác</h3>
-  <!-----
-<div class="content_fck ">
-  ------>
-<div class="content_fck ">
-  <ul>
-                <li> Bằng cấp:
+</div>
+<div class="detail-row">
+    <h3 class="detail-title">Phúc lợi </h3>
+    <ul class="welfare-list">
+        <li><span class="fa fa-medkit"></span> Chế độ bảo hiểm</li>
+        <li><span class="fa fa-money"></span> Phụ cấp</li>
+        <li><span class="fa fa-black-tie"></span> Đồng phục</li>
+        <li><span class="fa fa-usd"></span> Chế độ thưởng</li>
+        <li><span class="fa fa-line-chart"></span> Tăng lương</li>
+        <li><span class="fa fa-credit-card"></span> Công tác phí</li>
+        <li><span class="fa fa-money"></span> Phụ cấp thâm niên</li>
+        <li><span class="fa fa-briefcase"></span> Nghỉ phép năm</li>
+    </ul>
+</div>
+<div class="detail-row">
+    <h3 class="detail-title">Mô tả Công việc</h3>
+    <p>Đề xuất các kênh tuyển dụng phù hợp nhằm đáp ứng nhu cầu nhân sự cho nhà máy<br/>Triển khai các kế hoạch tuyển mộ, tuyển chọn ứng viên<br/>Phỏng vấn, đánh giá, tham vấn ra quyết định tuyển chọn ứng viên<br/>Xây dựng và cải tiến quy trình tuyển dụng<br/>Thực hiện các hoạt động hướng dẫn và đào tạo hội nhập cho nhân viên mới</p>
+    <p>Một số công việc khác trao đổi trong phỏng vấn</p>
+</div>
+<div class="detail-row">
+    <h3 class="detail-title">Yêu Cầu Công Việc</h3>
+    <p>Nam, nữ kinh nghiệm 05 năm tuyển dụng hệ thống, td lao động số lượng lớn<br/>Ngoại hình khá, nhanh nhẹn, giao tiếp tốt.<br/>Thông thạo các kênh tuyển dụng<br/>Có kinh nghiệm quản lý nhân sự công ty quy mô 1000 lđ trở lên</p>
+</div>
+<div class="detail-row">
+    <h3 class="detail-title">Thông tin khác</h3>
+    <!-----
+        <div class="content_fck ">
+          ------>
+    <div class="content_fck ">
+        <ul>
+            <li> Bằng cấp:
                 Cao đẳng
-         </li>
-            	  	        <li> Phụ cấp khác: Cơm trưa và CTP </li>
-                  <li> Thời gian thử việc: 02 tháng </li>
+            </li>
+            <li> Phụ cấp khác: Cơm trưa và CTP </li>
+            <li> Thời gian thử việc: 02 tháng </li>
             <li> Cơ hội huấn luyện: cơ hội huấn luyện cao </li>
-    		<li> Độ tuổi:
-                        28 - 35
-                 
-	</li>
-	    <li> Thời gian làm việc: 8 giờ </li>
+            <li> Độ tuổi:
+                28 - 35
+            </li>
+            <li> Thời gian làm việc: 8 giờ </li>
             <li> Đồng nghiệp: Thân thiện </li>
-    	        <li> Phúc lợi: chế dộ theo luật </li>
+            <li> Phúc lợi: chế dộ theo luật </li>
             <li> Ngày nghỉ: chủ nhật </li>
-          </ul>
-  </div>
+        </ul>
+    </div>
 </div>
-
-    <div class="share-this-job">
-<span>Chia sẻ việc làm này:</span> 
-<a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0"> <i class="fa fa-facebook"></i> </a>
- <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0">  <i class="fa fa-linkedin"></i></a>
-  <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/email/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0">  <i class="fa fa-envelope"></i></a> 
-  <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/gmail/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0">  <i class="fa fa-google"></i></a>
-       <div class="zalo-share-button" data-href="" data-oaid="579745863508352884" data-layout="2" data-color="white" data-customize=false></div>
-  </div>
-
-    
-	<div class="job-detail-bottom">
-  <div class="job-detail-bottom-wrapper">
-    <div class="apply-now-content">
-      <div class="job-desc">
-         <a class="toollips save-job chk_save_35B9A7C0 " href="javascript:void(0);" data-id="35B9A7C0"  onclick="popuplogin()">
-    <i class="mdi mdi-heart-outline"></i>
-        <span class="text">Lưu việc làm</span>
-	</a>
-  <a href="javascript:void(0);" onclick="showboxJobalert()"><i class="mdi mdi-email-outline"></i><span class="text">Gửi tôi việc làm tương tự</span></a>
-		  <a class="report-job toollips" href="javascript:void(0)"><i class="fa fa-flag-o"></i><span>Báo xấu</span><div class="toolip">
-  <p> Báo xấu </p>
+<div class="share-this-job">
+    <span>Chia sẻ việc làm này:</span> 
+    <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0"> <i class="fa fa-facebook"></i> </a>
+    <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0">  <i class="fa fa-linkedin"></i></a>
+    <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/email/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0">  <i class="fa fa-envelope"></i></a> 
+    <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/gmail/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0">  <i class="fa fa-google"></i></a>
+    <div class="zalo-share-button" data-href="" data-oaid="579745863508352884" data-layout="2" data-color="white" data-customize=false></div>
 </div>
-</a> <div class="report-modal" style="display: none">
-  <div class="modal-title">
-    <p>Vì sao bạn muốn báo xấu nhà tuyển dụng này? </p>
-  </div>
-  <div class="modal-body">
-    <form name="feedback_job" id="feedback_job" method="POST" autocomplete="off">
-      <input type="hidden" name="job_url" id="job_url" value="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html" />
-      <div class="form-group">
-        <input type="text" id="email" name="email" placeholder="Nhập địa chỉ email " onkeyup="this.setAttribute('value', this.value);" value="">
-        <p class="text-validate error_email" > </p>
-      </div>
-      <div class="list-radio" id="reason" name='reason'>
-        <input type="radio" id="reason-1" name="reason" value="1">
-        <label for="reason-1"> Việc làm không hợp pháp </label>
-        <br>
-        <input type="radio" id="reason-2" name="reason" value="2">
-        <label for="reason-2"> Không cung cấp đủ thông tin </label>
-        <br>
-        <input type="radio" id="reason-3" name="reason" value="3">
-        <label for="reason-3"> Khác </label>
-        <p class="text-validate error_reason" ></p>
-      </div>
-      <div class="box-reason form-group">
-        <input type="text" id="box_reason" name="box_reason">
-        <p class="text-validate error_box_reason" > </p>
-      </div>
-      <div class="form-group">
-        <input type="text" name="captcha" id="captcha" autocomplete="off" placeholder="Mã xác nhận" onkeyup="this.setAttribute('value', this.value);" value="">
-        <p class="text-validate error_captcha" ></p>
-      </div>
-      <div id="captchaim"  style="float:left" class="form-group" ><img width="150" height="50" alt="" src="https://images.careerbuilder.vn/rws/captcha/af07d8ff32512a92e980182265b1a4a6.png" class="img_code" /><input type="hidden" name="key_captcha" id="key_captcha" value="af07d8ff32512a92e980182265b1a4a6"></div>
-        <a style="padding-left: 10px" onclick="refeshImgCaptcha('captchaim');" href="javascript:void(0);" class="line_bot" id="trynewcode">Thử mã mới</a> 
-	<div class="form-group" style="clear:left">
-      <button class="btn-send-report" onclick="saveFeedbackJob();return false;"> Báo xấu </button>
-	  </div>
-    </form>
-  </div>
+<div class="job-detail-bottom">
+<div class="job-detail-bottom-wrapper">
+<div class="apply-now-content">
+<div class="job-desc">
+<a class="toollips save-job chk_save_35B9A7C0 " href="javascript:void(0);" data-id="35B9A7C0"  onclick="popuplogin()">
+<i class="mdi mdi-heart-outline"></i>
+<span class="text">Lưu việc làm</span>
+</a>
+<a href="javascript:void(0);" onclick="showboxJobalert()"><i class="mdi mdi-email-outline"></i><span class="text">Gửi tôi việc làm tương tự</span></a>
+<a class="report-job toollips" href="javascript:void(0)">
+    <i class="fa fa-flag-o"></i><span>Báo xấu</span>
+    <div class="toolip">
+        <p> Báo xấu </p>
+    </div>
+</a>
+<div class="report-modal" style="display: none">
+    <div class="modal-title">
+        <p>Vì sao bạn muốn báo xấu nhà tuyển dụng này? </p>
+    </div>
+    <div class="modal-body">
+        <form name="feedback_job" id="feedback_job" method="POST" autocomplete="off">
+            <input type="hidden" name="job_url" id="job_url" value="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html" />
+            <div class="form-group">
+                <input type="text" id="email" name="email" placeholder="Nhập địa chỉ email " onkeyup="this.setAttribute('value', this.value);" value="">
+                <p class="text-validate error_email" > </p>
+            </div>
+            <div class="list-radio" id="reason" name='reason'>
+                <input type="radio" id="reason-1" name="reason" value="1">
+                <label for="reason-1"> Việc làm không hợp pháp </label>
+                <br>
+                <input type="radio" id="reason-2" name="reason" value="2">
+                <label for="reason-2"> Không cung cấp đủ thông tin </label>
+                <br>
+                <input type="radio" id="reason-3" name="reason" value="3">
+                <label for="reason-3"> Khác </label>
+                <p class="text-validate error_reason" ></p>
+            </div>
+            <div class="box-reason form-group">
+                <input type="text" id="box_reason" name="box_reason">
+                <p class="text-validate error_box_reason" > </p>
+            </div>
+            <div class="form-group">
+                <input type="text" name="captcha" id="captcha" autocomplete="off" placeholder="Mã xác nhận" onkeyup="this.setAttribute('value', this.value);" value="">
+                <p class="text-validate error_captcha" ></p>
+            </div>
+            <div id="captchaim"  style="float:left" class="form-group" ><img width="150" height="50" alt="" src="https://images.careerbuilder.vn/rws/captcha/af07d8ff32512a92e980182265b1a4a6.png" class="img_code" /><input type="hidden" name="key_captcha" id="key_captcha" value="af07d8ff32512a92e980182265b1a4a6"></div>
+            <a style="padding-left: 10px" onclick="refeshImgCaptcha('captchaim');" href="javascript:void(0);" class="line_bot" id="trynewcode">Thử mã mới</a> 
+            <div class="form-group" style="clear:left">
+                <button class="btn-send-report" onclick="saveFeedbackJob();return false;"> Báo xấu </button>
+            </div>
+        </form>
+    </div>
 </div>
 
 <script>
@@ -603,41 +817,35 @@ $(document).ready(function() {
 });
 </script>
 
-      </div>
-      <div class="apply-now-right">
-        <div class="apply-now-btn  ">            <a href="javascript:void(0);" class="btn-gradient btnApplyClick"> Nộp Đơn Ứng Tuyển </a>            </div>
-      </div>
-    </div>
-  </div>
+     </div>
+<div class="apply-now-right">
+    <div class="apply-now-btn  ">            <a href="javascript:void(0);" class="btn-gradient btnApplyClick"> Nộp Đơn Ứng Tuyển </a>            </div>
+</div>
+</div>
+</div>
 </div>
 <input type="hidden" id="salary_taskbar" name="salary_taskbar" value="0" />
 <input type="hidden" id="industry_taskbar" name="industry_taskbar" value="22,39,3" />
 <input type="hidden" id="location_taskbar" name="location_taskbar" value="8" />
 <input type="hidden" id="keyword_taskbar" name="keyword_taskbar" value="Nhân Viên Tuyển Dụng" />
 <input type="hidden" id="title_alert" value="Nhân Viên Tuyển Dụng" />
-
 <script>
-$(document).on('click', '.btnApplyClick', function(){
-    
-            $('#apply_url').attr('href', "https://careerbuilder.vn/vi/jobseekers/jobs/apply?job_id=35B9A7C0&s=cbnon");
-        $('#span_title').html("Nhân Viên Tuyển Dụng");
-        $.fancybox.close('all');
-        $.fancybox.open($("#apply-job-modal"));
+    $(document).on('click', '.btnApplyClick', function(){
         
-});
+                $('#apply_url').attr('href', "https://careerbuilder.vn/vi/jobseekers/jobs/apply?job_id=35B9A7C0&s=cbnon");
+            $('#span_title').html("Nhân Viên Tuyển Dụng");
+            $.fancybox.close('all');
+            $.fancybox.open($("#apply-job-modal"));
+            
+    });
 </script>
-
-    <div class="job-detail-bottom-banner " id="">
-   <div class="adsBannerOA" data-id="852"></div>
+<div class="job-detail-bottom-banner " id="">
+    <div class="adsBannerOA" data-id="852"></div>
 </div>
-
 <script type="text/javascript">
     $(document).ready(function () { loadBannerOA(); });
 </script>
-
-
 </section>
-
 <div class="maps-modal" style="display: none">
     <div class="d-flex box-modal">
         <div class="map" id="jobMap" style="display: none;"></div>
@@ -655,8 +863,8 @@ $(document).on('click', '.btnApplyClick', function(){
                         <div class="figure">
                             <div class="image">
                                 <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-may-theu-giay-an-phuoc.35A4F400.html" target="_blank">
-                                    <img
-									class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot6/2816/110x55/74705logoap.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công Ty TNHH May Thêu Giày An Phước">
+                                <img
+                                    class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot6/2816/110x55/74705logoap.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công Ty TNHH May Thêu Giày An Phước">
                                 </a>
                             </div>
                             <div class="figcaption">
@@ -679,8 +887,8 @@ $(document).on('click', '.btnApplyClick', function(){
                                     <tr>
                                         <td>Lương</td>
                                         <td>$
-                                                                                    Cạnh tranh
-                                                                                </td>
+                                            Cạnh tranh
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>Hết hạn nộp</td>
@@ -689,24 +897,24 @@ $(document).on('click', '.btnApplyClick', function(){
                                     <tr>
                                         <td>Ngành nghề</td>
                                         <td>
-                                                                                            <a href="https://careerbuilder.vn/viec-lam/nhan-su-c22-vi.html" >
-                                                                                                        Nhân sự
-                                                                                                        ,                                                </a>
-                                                                                            <a href="https://careerbuilder.vn/viec-lam/det-may-da-giay-thoi-trang-c39-vi.html" >
-                                                                                                        Dệt may / Da giày / Thời trang
-                                                                                                        ,                                                </a>
-                                                                                            <a href="https://careerbuilder.vn/viec-lam/hanh-chinh-thu-ky-c3-vi.html" >
-                                                                                                        Hành chính / Thư ký
-                                                                                                                                                        </a>
-                                                                                    </td>
+                                            <a href="https://careerbuilder.vn/viec-lam/nhan-su-c22-vi.html" >
+                                            Nhân sự
+                                            ,                                                </a>
+                                            <a href="https://careerbuilder.vn/viec-lam/det-may-da-giay-thoi-trang-c39-vi.html" >
+                                            Dệt may / Da giày / Thời trang
+                                            ,                                                </a>
+                                            <a href="https://careerbuilder.vn/viec-lam/hanh-chinh-thu-ky-c3-vi.html" >
+                                            Hành chính / Thư ký
+                                            </a>
+                                        </td>
                                     </tr>
-                                                                        <tr>
+                                    <tr>
                                         <td>Kinh nghiệm</td>
                                         <td>
-                                                                                                                                                0 - 5 Năm
-                                                                                                                                    </td>
+                                            0 - 5 Năm
+                                        </td>
                                     </tr>
-                                                                    </tbody>
+                                </tbody>
                             </table>
                         </div>
                     </div>
@@ -715,46 +923,42 @@ $(document).on('click', '.btnApplyClick', function(){
                             <h4>Địa điểm</h4>
                         </div>
                         <div class="content">
-                                                                                                                                <p>Hồ Chí Minh</p>
-                                                                            <ul class="clearall">
-                                                                                                                                    <li>
-                                                    <em class="mdi mdi-map-marker"></em>
-                                                    <a href="javascript:void(0);" onclick="movetoCenter(0)">100 An Dương Vương, phường 9, Quận 5, Hồ Chí Minh</a>
-                                                </li>
-                                                                                                                                                                            </ul>
-                                                                                                                        </div>
+                            <p>Hồ Chí Minh</p>
+                            <ul class="clearall">
+                                <li>
+                                    <em class="mdi mdi-map-marker"></em>
+                                    <a href="javascript:void(0);" onclick="movetoCenter(0)">100 An Dương Vương, phường 9, Quận 5, Hồ Chí Minh</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="box-apply ">
-                                                                                    <a href="javascript:void(0);" class="btn-gradient btnApplyClick">
-                                    Nộp Đơn Ứng Tuyển
-                                </a>
-                                                                        </div>
-
+                        <a href="javascript:void(0);" class="btn-gradient btnApplyClick">
+                        Nộp Đơn Ứng Tuyển
+                        </a>
+                    </div>
                     <div class="box-contact">
                         <ul>
-                                                        <li>
+                            <li>
                                 <a class="toollips save-job chk_save_35B9A7C0 " href="javascript:void(0);" data-id="35B9A7C0"  onclick="popuplogin()">
-    <i class="mdi mdi-heart-outline"></i>
-    	<div class="toolip">
-		<p>Lưu việc làm</p>
-	</div>
-    </a>
+                                    <i class="mdi mdi-heart-outline"></i>
+                                    <div class="toolip">
+                                        <p>Lưu việc làm</p>
+                                    </div>
+                                </a>
                             </li>
-                                                        <li> <a class="email" href="javascript:void(0);" onclick="showboxJobalert()"><i class="mdi mdi-email"></i></a></li>
+                            <li> <a class="email" href="javascript:void(0);" onclick="showboxJobalert()"><i class="mdi mdi-email"></i></a></li>
                         </ul>
                     </div>
-
                 </div>
                 <div class="tab-content" id="maps-tab-2">
                     <section class="jobs-side-list"></section>
                     <div class="jobs-list">
-                        
-                                                                                                                                                                                                                                                                                                                                
-                                                <div class="job-item">
+                        <div class="job-item">
                             <div class="figure">
                                 <div class="image">
                                     <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/he-thong-nha-hang-nhat-tokyo-deli.35A77DB7.html" target="_blank"  title="Hệ thống nhà hàng Nhật Tokyo Deli">
-                                        <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot3/169143/67x67/141234standardlogo_001.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Hệ thống nhà hàng Nhật Tokyo Deli">
+                                    <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot3/169143/67x67/141234standardlogo_001.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Hệ thống nhà hàng Nhật Tokyo Deli">
                                     </a>
                                 </div>
                                 <div class="figcaption">
@@ -772,13 +976,11 @@ $(document).on('click', '.btnApplyClick', function(){
                                 </div>
                             </div>
                         </div>
-                        
-                                                                                                                                                                                                                                                                                                                                
-                                                <div class="job-item">
+                        <div class="job-item">
                             <div class="figure">
                                 <div class="image">
                                     <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-dau-tu-dich-vu-hum-viet-nam.35A87FA0.html" target="_blank"  title="CÔNG TY TNHH ĐẦU TƯ DỊCH VỤ HUM VIỆT NAM">
-                                        <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot8/235168/67x67/13580310974373.png" src="../kiemviecv32/images/graphics/blank.gif" alt="CÔNG TY TNHH ĐẦU TƯ DỊCH VỤ HUM VIỆT NAM">
+                                    <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot8/235168/67x67/13580310974373.png" src="../kiemviecv32/images/graphics/blank.gif" alt="CÔNG TY TNHH ĐẦU TƯ DỊCH VỤ HUM VIỆT NAM">
                                     </a>
                                 </div>
                                 <div class="figcaption">
@@ -796,13 +998,11 @@ $(document).on('click', '.btnApplyClick', function(){
                                 </div>
                             </div>
                         </div>
-                        
-                                                                                                                                                                                                                                                                                                                                
-                                                <div class="job-item">
+                        <div class="job-item">
                             <div class="figure">
                                 <div class="image">
                                     <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/mf-viet-nam-information-technology-co-ltd.35A80ECC.html" target="_blank"  title="MF Viet Nam Information Technology Co.,Ltd">
-                                        <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot4/206284/67x67/90857logomf.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="MF Viet Nam Information Technology Co.,Ltd">
+                                    <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot4/206284/67x67/90857logomf.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="MF Viet Nam Information Technology Co.,Ltd">
                                     </a>
                                 </div>
                                 <div class="figcaption">
@@ -820,13 +1020,11 @@ $(document).on('click', '.btnApplyClick', function(){
                                 </div>
                             </div>
                         </div>
-                        
-                                                                                                                                                                                                                                                                                                                                
-                                                <div class="job-item">
+                        <div class="job-item">
                             <div class="figure">
                                 <div class="image">
                                     <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-dtsx-bao-ngoc.35A8F06A.html" target="_blank"  title="Công Ty Cổ Phần ĐTSX Bảo Ngọc">
-                                        <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot2/264042/67x67/161921bnagroup.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công Ty Cổ Phần ĐTSX Bảo Ngọc">
+                                    <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot2/264042/67x67/161921bnagroup.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công Ty Cổ Phần ĐTSX Bảo Ngọc">
                                     </a>
                                 </div>
                                 <div class="figcaption">
@@ -844,13 +1042,11 @@ $(document).on('click', '.btnApplyClick', function(){
                                 </div>
                             </div>
                         </div>
-                        
-                                                                                                                                                                                                                                                                                                                                
-                                                <div class="job-item">
+                        <div class="job-item">
                             <div class="figure">
                                 <div class="image">
                                     <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-binh-viet-duc-bivid.35A8D45E.html" target="_blank"  title="Công ty TNHH Bình Việt Đức (BIVID)">
-                                        <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot2/256862/67x67/121241logo-bivid_chuan.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Công ty TNHH Bình Việt Đức (BIVID)">
+                                    <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot2/256862/67x67/121241logo-bivid_chuan.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Công ty TNHH Bình Việt Đức (BIVID)">
                                     </a>
                                 </div>
                                 <div class="figcaption">
@@ -868,13 +1064,11 @@ $(document).on('click', '.btnApplyClick', function(){
                                 </div>
                             </div>
                         </div>
-                        
-                                                                                                                                                                                                                                                                                                                                
-                                                <div class="job-item">
+                        <div class="job-item">
                             <div class="figure">
                                 <div class="image">
                                     <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-lien-doanh-vinh-hung-tmi-viet-nam.35A8E27D.html" target="_blank"  title="Công ty TNHH, Liên Doanh Vĩnh Hưng (TMI Việt Nam)">
-                                        <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot7/260477/67x67/94530logocty.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công ty TNHH, Liên Doanh Vĩnh Hưng (TMI Việt Nam)">
+                                    <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot7/260477/67x67/94530logocty.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công ty TNHH, Liên Doanh Vĩnh Hưng (TMI Việt Nam)">
                                     </a>
                                 </div>
                                 <div class="figcaption">
@@ -892,13 +1086,11 @@ $(document).on('click', '.btnApplyClick', function(){
                                 </div>
                             </div>
                         </div>
-                        
-                                                                                                                                                                                                                                    
-                                                <div class="job-item">
+                        <div class="job-item">
                             <div class="figure">
                                 <div class="image">
                                     <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-bat-dong-san-grandland.35A8B759.html" target="_blank"  title="CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN GRANDLAND">
-                                        <img class="lazy-hidden" data-src="https://static.careerbuilder.vn/themes/kiemviecv32/images/graphics/logo-default.png" src="../kiemviecv32/images/graphics/blank.gif" alt="CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN GRANDLAND">
+                                    <img class="lazy-hidden" data-src="https://static.careerbuilder.vn/themes/kiemviecv32/images/graphics/logo-default.png" src="../kiemviecv32/images/graphics/blank.gif" alt="CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN GRANDLAND">
                                     </a>
                                 </div>
                                 <div class="figcaption">
@@ -916,13 +1108,11 @@ $(document).on('click', '.btnApplyClick', function(){
                                 </div>
                             </div>
                         </div>
-                        
-                                                                                                                                                                                                                                                                                                                                
-                                                <div class="job-item">
+                        <div class="job-item">
                             <div class="figure">
                                 <div class="image">
                                     <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-thoi-trang-an-viet-vm-style.35A8D54D.html" target="_blank"  title="Công ty TNHH Thời trang An Việt (VM STYLE)">
-                                        <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot1/257101/67x67/170850logotrang.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công ty TNHH Thời trang An Việt (VM STYLE)">
+                                    <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot1/257101/67x67/170850logotrang.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công ty TNHH Thời trang An Việt (VM STYLE)">
                                     </a>
                                 </div>
                                 <div class="figcaption">
@@ -940,13 +1130,11 @@ $(document).on('click', '.btnApplyClick', function(){
                                 </div>
                             </div>
                         </div>
-                        
-                                                                                                                                                                                                                                                                                                                                
-                                                <div class="job-item">
+                        <div class="job-item">
                             <div class="figure">
                                 <div class="image">
                                     <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/tap-doan-ktg.35A882DE.html" target="_blank"  title="Tập đoàn KTG">
-                                        <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot8/235998/67x67/80145logoktg.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Tập đoàn KTG">
+                                    <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot8/235998/67x67/80145logoktg.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Tập đoàn KTG">
                                     </a>
                                 </div>
                                 <div class="figcaption">
@@ -964,13 +1152,11 @@ $(document).on('click', '.btnApplyClick', function(){
                                 </div>
                             </div>
                         </div>
-                        
-                                                                                                                                                                                                                                                                                                                                
-                                                <div class="job-item">
+                        <div class="job-item">
                             <div class="figure">
                                 <div class="image">
                                     <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-tap-doan-dau-tu-quoc-te-newa-group.35A8F2CC.html" target="_blank"  title="Công Ty Cổ Phần Tập Đoàn Đầu Tư Quốc Tế Newa Group">
-                                        <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot2/264652/67x67/91204hinhanhnewa.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công Ty Cổ Phần Tập Đoàn Đầu Tư Quốc Tế Newa Group">
+                                    <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot2/264652/67x67/91204hinhanhnewa.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công Ty Cổ Phần Tập Đoàn Đầu Tư Quốc Tế Newa Group">
                                     </a>
                                 </div>
                                 <div class="figcaption">
@@ -988,13 +1174,12 @@ $(document).on('click', '.btnApplyClick', function(){
                                 </div>
                             </div>
                         </div>
-                                            </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 <script src='https://cdn.jsdelivr.net/npm/@goongmaps/goong-js@1.0.6/dist/goong-js.js'></script>
 <link href='https://cdn.jsdelivr.net/npm/@goongmaps/goong-js@1.0.6/dist/goong-js.css' rel='stylesheet' />  
 
@@ -1062,242 +1247,252 @@ function initListMap(location){$("#lng").val(location.lng);$("#lat").val(locatio
     <div class="banner-ad">
   <script type='text/javascript'>OA_show(854);</script>
 </div>
-
-
-	<div class="similar-jobs">
-		<p>Các công việc tương tự</p>
-	</div>
-    <section class="jobs-side-list">
-        <div class="jobs-list">
-                                                <div class="job-item">                                                                                                             			                                    <div class="figure">
+<div class="similar-jobs">
+    <p>Các công việc tương tự</p>
+</div>
+<section class="jobs-side-list">
+    <div class="jobs-list">
+        <div class="job-item">
+            <div class="figure">
                 <div class="image"> <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/he-thong-nha-hang-nhat-tokyo-deli.35A77DB7.html" target="_blank" title="Hệ thống nhà hàng Nhật Tokyo Deli"> <img  class="lazy-bg" data-src="https://images.careerbuilder.vn/employer_folders/lot3/169143/67x67/141234standardlogo_001.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Hệ thống nhà hàng Nhật Tokyo Deli"> </a> </div>
                 <div class="figcaption">
-                <div class="timeago"></div>
-                <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B99B3A.html" target="_blank" title="Nhân Viên Tuyển Dụng"> Nhân Viên Tuyển Dụng </a> </div>
-                <div class="caption">
-					<a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/he-thong-nha-hang-nhat-tokyo-deli.35A77DB7.html" title="Hệ thống nhà hàng Nhật Tokyo Deli">Hệ thống nhà hàng Nhật Tokyo Deli</a>
-                    <p class="salary"><em class="fa fa-usd"></em>Lương: 7 Tr - 8,5 Tr VND</p>
-                    <div class="location">
-					<em class="mdi mdi-map-marker"></em>
-                    <ul>
-                        <li>Hồ Chí Minh</li>
-                    </ul>
+                    <div class="timeago"></div>
+                    <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B99B3A.html" target="_blank" title="Nhân Viên Tuyển Dụng"> Nhân Viên Tuyển Dụng </a> </div>
+                    <div class="caption">
+                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/he-thong-nha-hang-nhat-tokyo-deli.35A77DB7.html" title="Hệ thống nhà hàng Nhật Tokyo Deli">Hệ thống nhà hàng Nhật Tokyo Deli</a>
+                        <p class="salary"><em class="fa fa-usd"></em>Lương: 7 Tr - 8,5 Tr VND</p>
+                        <div class="location">
+                            <em class="mdi mdi-map-marker"></em>
+                            <ul>
+                                <li>Hồ Chí Minh</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
                 </div>
                 <div class="top-icon"></div>
             </div>
-            </div>
-                        <div class="job-item">                                                                                                             			                                    <div class="figure">
+        </div>
+        <div class="job-item">
+            <div class="figure">
                 <div class="image"> <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-dau-tu-dich-vu-hum-viet-nam.35A87FA0.html" target="_blank" title="CÔNG TY TNHH ĐẦU TƯ DỊCH VỤ HUM VIỆT NAM"> <img  class="lazy-bg" data-src="https://images.careerbuilder.vn/employer_folders/lot8/235168/67x67/13580310974373.png" src="../kiemviecv32/images/graphics/blank.gif" alt="CÔNG TY TNHH ĐẦU TƯ DỊCH VỤ HUM VIỆT NAM"> </a> </div>
                 <div class="figcaption">
-                <div class="timeago"></div>
-                <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B99BD8.html" target="_blank" title="Nhân viên Tuyển dụng"> Nhân viên Tuyển dụng </a> </div>
-                <div class="caption">
-					<a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-dau-tu-dich-vu-hum-viet-nam.35A87FA0.html" title="CÔNG TY TNHH ĐẦU TƯ DỊCH VỤ HUM VIỆT NAM">CÔNG TY TNHH ĐẦU TƯ DỊCH VỤ HUM VIỆT NAM</a>
-                    <p class="salary"><em class="fa fa-usd"></em>Lương:Cạnh tranh</p>
-                    <div class="location">
-					<em class="mdi mdi-map-marker"></em>
-                    <ul>
-                        <li>Hồ Chí Minh</li>
-                    </ul>
+                    <div class="timeago"></div>
+                    <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B99BD8.html" target="_blank" title="Nhân viên Tuyển dụng"> Nhân viên Tuyển dụng </a> </div>
+                    <div class="caption">
+                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-dau-tu-dich-vu-hum-viet-nam.35A87FA0.html" title="CÔNG TY TNHH ĐẦU TƯ DỊCH VỤ HUM VIỆT NAM">CÔNG TY TNHH ĐẦU TƯ DỊCH VỤ HUM VIỆT NAM</a>
+                        <p class="salary"><em class="fa fa-usd"></em>Lương:Cạnh tranh</p>
+                        <div class="location">
+                            <em class="mdi mdi-map-marker"></em>
+                            <ul>
+                                <li>Hồ Chí Minh</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
                 </div>
                 <div class="top-icon"></div>
             </div>
-            </div>
-                        <div class="job-item">                                                                                                             			                                    <div class="figure">
+        </div>
+        <div class="job-item">
+            <div class="figure">
                 <div class="image"> <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/mf-viet-nam-information-technology-co-ltd.35A80ECC.html" target="_blank" title="MF Viet Nam Information Technology Co.,Ltd"> <img  class="lazy-bg" data-src="https://images.careerbuilder.vn/employer_folders/lot4/206284/67x67/90857logomf.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="MF Viet Nam Information Technology Co.,Ltd"> </a> </div>
                 <div class="figcaption">
-                <div class="timeago"></div>
-                <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B929B8.html" target="_blank" title="NHÂN VIÊN TUYỂN DỤNG"> NHÂN VIÊN TUYỂN DỤNG </a> </div>
-                <div class="caption">
-					<a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/mf-viet-nam-information-technology-co-ltd.35A80ECC.html" title="MF Viet Nam Information Technology Co.,Ltd">MF Viet Nam Information Technology Co.,Ltd</a>
-                    <p class="salary"><em class="fa fa-usd"></em>Lương: 10 Tr - 20 Tr VND</p>
-                    <div class="location">
-					<em class="mdi mdi-map-marker"></em>
-                    <ul>
-                        <li>Hà Nội</li><li> Hồ Chí Minh</li>
-                    </ul>
+                    <div class="timeago"></div>
+                    <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B929B8.html" target="_blank" title="NHÂN VIÊN TUYỂN DỤNG"> NHÂN VIÊN TUYỂN DỤNG </a> </div>
+                    <div class="caption">
+                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/mf-viet-nam-information-technology-co-ltd.35A80ECC.html" title="MF Viet Nam Information Technology Co.,Ltd">MF Viet Nam Information Technology Co.,Ltd</a>
+                        <p class="salary"><em class="fa fa-usd"></em>Lương: 10 Tr - 20 Tr VND</p>
+                        <div class="location">
+                            <em class="mdi mdi-map-marker"></em>
+                            <ul>
+                                <li>Hà Nội</li>
+                                <li> Hồ Chí Minh</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
                 </div>
                 <div class="top-icon"></div>
             </div>
-            </div>
-                        <div class="job-item">                                                                                                             			                                    <div class="figure">
+        </div>
+        <div class="job-item">
+            <div class="figure">
                 <div class="image"> <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-dtsx-bao-ngoc.35A8F06A.html" target="_blank" title="Công Ty Cổ Phần ĐTSX Bảo Ngọc"> <img  class="lazy-bg" data-src="https://images.careerbuilder.vn/employer_folders/lot2/264042/67x67/161921bnagroup.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công Ty Cổ Phần ĐTSX Bảo Ngọc"> </a> </div>
                 <div class="figcaption">
-                <div class="timeago"></div>
-                <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B98BD0.html" target="_blank" title="Nhân viên tuyển dụng"> Nhân viên tuyển dụng </a> </div>
-                <div class="caption">
-					<a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-dtsx-bao-ngoc.35A8F06A.html" title="Công Ty Cổ Phần ĐTSX Bảo Ngọc">Công Ty Cổ Phần ĐTSX Bảo Ngọc</a>
-                    <p class="salary"><em class="fa fa-usd"></em>Lương: 10 Tr - 15 Tr VND</p>
-                    <div class="location">
-					<em class="mdi mdi-map-marker"></em>
-                    <ul>
-                        <li>Hồ Chí Minh</li>
-                    </ul>
+                    <div class="timeago"></div>
+                    <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B98BD0.html" target="_blank" title="Nhân viên tuyển dụng"> Nhân viên tuyển dụng </a> </div>
+                    <div class="caption">
+                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-dtsx-bao-ngoc.35A8F06A.html" title="Công Ty Cổ Phần ĐTSX Bảo Ngọc">Công Ty Cổ Phần ĐTSX Bảo Ngọc</a>
+                        <p class="salary"><em class="fa fa-usd"></em>Lương: 10 Tr - 15 Tr VND</p>
+                        <div class="location">
+                            <em class="mdi mdi-map-marker"></em>
+                            <ul>
+                                <li>Hồ Chí Minh</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
                 </div>
                 <div class="top-icon"></div>
             </div>
-            </div>
-                        <div class="job-item">                                                                                                             			                                    <div class="figure">
+        </div>
+        <div class="job-item">
+            <div class="figure">
                 <div class="image"> <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-binh-viet-duc-bivid.35A8D45E.html" target="_blank" title="Công ty TNHH Bình Việt Đức (BIVID)"> <img  class="lazy-bg" data-src="https://images.careerbuilder.vn/employer_folders/lot2/256862/67x67/121241logo-bivid_chuan.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Công ty TNHH Bình Việt Đức (BIVID)"> </a> </div>
                 <div class="figcaption">
-                <div class="timeago"></div>
-                <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B98C34.html" target="_blank" title="Nhân Viên Tuyển Dụng"> Nhân Viên Tuyển Dụng </a> </div>
-                <div class="caption">
-					<a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-binh-viet-duc-bivid.35A8D45E.html" title="Công ty TNHH Bình Việt Đức (BIVID)">Công ty TNHH Bình Việt Đức (BIVID)</a>
-                    <p class="salary"><em class="fa fa-usd"></em>Lương: 9 Tr - 11 Tr VND</p>
-                    <div class="location">
-					<em class="mdi mdi-map-marker"></em>
-                    <ul>
-                        <li>Hồ Chí Minh</li>
-                    </ul>
+                    <div class="timeago"></div>
+                    <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B98C34.html" target="_blank" title="Nhân Viên Tuyển Dụng"> Nhân Viên Tuyển Dụng </a> </div>
+                    <div class="caption">
+                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-binh-viet-duc-bivid.35A8D45E.html" title="Công ty TNHH Bình Việt Đức (BIVID)">Công ty TNHH Bình Việt Đức (BIVID)</a>
+                        <p class="salary"><em class="fa fa-usd"></em>Lương: 9 Tr - 11 Tr VND</p>
+                        <div class="location">
+                            <em class="mdi mdi-map-marker"></em>
+                            <ul>
+                                <li>Hồ Chí Minh</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
                 </div>
                 <div class="top-icon"></div>
             </div>
-            </div>
-                        <div class="job-item">                                                                                                             			                                    <div class="figure">
+        </div>
+        <div class="job-item">
+            <div class="figure">
                 <div class="image"> <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-lien-doanh-vinh-hung-tmi-viet-nam.35A8E27D.html" target="_blank" title="Công ty TNHH, Liên Doanh Vĩnh Hưng (TMI Việt Nam)"> <img  class="lazy-bg" data-src="https://images.careerbuilder.vn/employer_folders/lot7/260477/67x67/94530logocty.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công ty TNHH, Liên Doanh Vĩnh Hưng (TMI Việt Nam)"> </a> </div>
                 <div class="figcaption">
-                <div class="timeago"></div>
-                <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B95596.html" target="_blank" title="Nhân viên tuyển dụng"> Nhân viên tuyển dụng </a> </div>
-                <div class="caption">
-					<a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-lien-doanh-vinh-hung-tmi-viet-nam.35A8E27D.html" title="Công ty TNHH, Liên Doanh Vĩnh Hưng (TMI Việt Nam)">Công ty TNHH, Liên Doanh Vĩnh Hưng (TMI Việt Nam)</a>
-                    <p class="salary"><em class="fa fa-usd"></em>Lương: 10 Tr - 13 Tr VND</p>
-                    <div class="location">
-					<em class="mdi mdi-map-marker"></em>
-                    <ul>
-                        <li>Hồ Chí Minh</li>
-                    </ul>
+                    <div class="timeago"></div>
+                    <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B95596.html" target="_blank" title="Nhân viên tuyển dụng"> Nhân viên tuyển dụng </a> </div>
+                    <div class="caption">
+                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-lien-doanh-vinh-hung-tmi-viet-nam.35A8E27D.html" title="Công ty TNHH, Liên Doanh Vĩnh Hưng (TMI Việt Nam)">Công ty TNHH, Liên Doanh Vĩnh Hưng (TMI Việt Nam)</a>
+                        <p class="salary"><em class="fa fa-usd"></em>Lương: 10 Tr - 13 Tr VND</p>
+                        <div class="location">
+                            <em class="mdi mdi-map-marker"></em>
+                            <ul>
+                                <li>Hồ Chí Minh</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
                 </div>
                 <div class="top-icon"></div>
             </div>
-            </div>
-                        <div class="job-item">                                                                         			                                    <div class="figure">
+        </div>
+        <div class="job-item">
+            <div class="figure">
                 <div class="image"> <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-bat-dong-san-grandland.35A8B759.html" target="_blank" title="CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN GRANDLAND"> <img  class="lazy-bg" data-src="https://static.careerbuilder.vn/themes/kiemviecv32/images/graphics/logo-default.png" src="../kiemviecv32/images/graphics/blank.gif" alt="CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN GRANDLAND"> </a> </div>
                 <div class="figcaption">
-                <div class="timeago"></div>
-                <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9592D.html" target="_blank" title="Nhân Viên Tuyển Dụng"> Nhân Viên Tuyển Dụng </a> </div>
-                <div class="caption">
-					<a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-bat-dong-san-grandland.35A8B759.html" title="CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN GRANDLAND">CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN GRANDLAND</a>
-                    <p class="salary"><em class="fa fa-usd"></em>Lương: 8 Tr - 13 Tr VND</p>
-                    <div class="location">
-					<em class="mdi mdi-map-marker"></em>
-                    <ul>
-                        <li>Hồ Chí Minh</li>
-                    </ul>
+                    <div class="timeago"></div>
+                    <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9592D.html" target="_blank" title="Nhân Viên Tuyển Dụng"> Nhân Viên Tuyển Dụng </a> </div>
+                    <div class="caption">
+                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-bat-dong-san-grandland.35A8B759.html" title="CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN GRANDLAND">CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN GRANDLAND</a>
+                        <p class="salary"><em class="fa fa-usd"></em>Lương: 8 Tr - 13 Tr VND</p>
+                        <div class="location">
+                            <em class="mdi mdi-map-marker"></em>
+                            <ul>
+                                <li>Hồ Chí Minh</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
                 </div>
                 <div class="top-icon"></div>
             </div>
-            </div>
-                        <div class="job-item">                                                                                                             			                                    <div class="figure">
+        </div>
+        <div class="job-item">
+            <div class="figure">
                 <div class="image"> <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-thoi-trang-an-viet-vm-style.35A8D54D.html" target="_blank" title="Công ty TNHH Thời trang An Việt (VM STYLE)"> <img  class="lazy-bg" data-src="https://images.careerbuilder.vn/employer_folders/lot1/257101/67x67/170850logotrang.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công ty TNHH Thời trang An Việt (VM STYLE)"> </a> </div>
                 <div class="figcaption">
-                <div class="timeago"></div>
-                <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B971F0.html" target="_blank" title="Nhân viên tuyển dụng"> Nhân viên tuyển dụng </a> </div>
-                <div class="caption">
-					<a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-thoi-trang-an-viet-vm-style.35A8D54D.html" title="Công ty TNHH Thời trang An Việt (VM STYLE)">Công ty TNHH Thời trang An Việt (VM STYLE)</a>
-                    <p class="salary"><em class="fa fa-usd"></em>Lương: 8 Tr - 10 Tr VND</p>
-                    <div class="location">
-					<em class="mdi mdi-map-marker"></em>
-                    <ul>
-                        <li>Hồ Chí Minh</li>
-                    </ul>
+                    <div class="timeago"></div>
+                    <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B971F0.html" target="_blank" title="Nhân viên tuyển dụng"> Nhân viên tuyển dụng </a> </div>
+                    <div class="caption">
+                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-thoi-trang-an-viet-vm-style.35A8D54D.html" title="Công ty TNHH Thời trang An Việt (VM STYLE)">Công ty TNHH Thời trang An Việt (VM STYLE)</a>
+                        <p class="salary"><em class="fa fa-usd"></em>Lương: 8 Tr - 10 Tr VND</p>
+                        <div class="location">
+                            <em class="mdi mdi-map-marker"></em>
+                            <ul>
+                                <li>Hồ Chí Minh</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
                 </div>
                 <div class="top-icon"></div>
             </div>
-            </div>
-                        <div class="job-item">                                                                                                             			                                    <div class="figure">
+        </div>
+        <div class="job-item">
+            <div class="figure">
                 <div class="image"> <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/tap-doan-ktg.35A882DE.html" target="_blank" title="Tập đoàn KTG"> <img  class="lazy-bg" data-src="https://images.careerbuilder.vn/employer_folders/lot8/235998/67x67/80145logoktg.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Tập đoàn KTG"> </a> </div>
                 <div class="figcaption">
-                <div class="timeago"></div>
-                <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B95692.html" target="_blank" title="NHÂN VIÊN TUYỂN DỤNG"> NHÂN VIÊN TUYỂN DỤNG </a> </div>
-                <div class="caption">
-					<a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/tap-doan-ktg.35A882DE.html" title="Tập đoàn KTG">Tập đoàn KTG</a>
-                    <p class="salary"><em class="fa fa-usd"></em>Lương: 9 Tr - 12 Tr VND</p>
-                    <div class="location">
-					<em class="mdi mdi-map-marker"></em>
-                    <ul>
-                        <li>Hồ Chí Minh</li>
-                    </ul>
+                    <div class="timeago"></div>
+                    <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B95692.html" target="_blank" title="NHÂN VIÊN TUYỂN DỤNG"> NHÂN VIÊN TUYỂN DỤNG </a> </div>
+                    <div class="caption">
+                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/tap-doan-ktg.35A882DE.html" title="Tập đoàn KTG">Tập đoàn KTG</a>
+                        <p class="salary"><em class="fa fa-usd"></em>Lương: 9 Tr - 12 Tr VND</p>
+                        <div class="location">
+                            <em class="mdi mdi-map-marker"></em>
+                            <ul>
+                                <li>Hồ Chí Minh</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
                 </div>
                 <div class="top-icon"></div>
             </div>
-            </div>
-                        <div class="job-item">                                                                                                             			                                    <div class="figure">
+        </div>
+        <div class="job-item">
+            <div class="figure">
                 <div class="image"> <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-tap-doan-dau-tu-quoc-te-newa-group.35A8F2CC.html" target="_blank" title="Công Ty Cổ Phần Tập Đoàn Đầu Tư Quốc Tế Newa Group"> <img  class="lazy-bg" data-src="https://images.careerbuilder.vn/employer_folders/lot2/264652/67x67/91204hinhanhnewa.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công Ty Cổ Phần Tập Đoàn Đầu Tư Quốc Tế Newa Group"> </a> </div>
                 <div class="figcaption">
-                <div class="timeago"></div>
-                <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B96BD6.html" target="_blank" title="Nhân Viên Tuyển Dụng"> Nhân Viên Tuyển Dụng </a> </div>
-                <div class="caption">
-					<a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-tap-doan-dau-tu-quoc-te-newa-group.35A8F2CC.html" title="Công Ty Cổ Phần Tập Đoàn Đầu Tư Quốc Tế Newa Group">Công Ty Cổ Phần Tập Đoàn Đầu Tư Quốc Tế Newa Group</a>
-                    <p class="salary"><em class="fa fa-usd"></em>Lương: 7 Tr - 10 Tr VND</p>
-                    <div class="location">
-					<em class="mdi mdi-map-marker"></em>
-                    <ul>
-                        <li>Hồ Chí Minh</li>
-                    </ul>
+                    <div class="timeago"></div>
+                    <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B96BD6.html" target="_blank" title="Nhân Viên Tuyển Dụng"> Nhân Viên Tuyển Dụng </a> </div>
+                    <div class="caption">
+                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-tap-doan-dau-tu-quoc-te-newa-group.35A8F2CC.html" title="Công Ty Cổ Phần Tập Đoàn Đầu Tư Quốc Tế Newa Group">Công Ty Cổ Phần Tập Đoàn Đầu Tư Quốc Tế Newa Group</a>
+                        <p class="salary"><em class="fa fa-usd"></em>Lương: 7 Tr - 10 Tr VND</p>
+                        <div class="location">
+                            <em class="mdi mdi-map-marker"></em>
+                            <ul>
+                                <li>Hồ Chí Minh</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
                 </div>
                 <div class="top-icon"></div>
             </div>
-            </div>
-                    </div>
-		        <div class="load-more"><a href="https://careerbuilder.vn/viec-lam-tuong-tu/Nhân-Viên-Tuyển-Dụng-tai-ho-chi-minh-kl8-vi.html" title="jobs recommend">Xem tất cả</a></div>
-		    </section>
-	</div>            </div>
         </div>
     </div>
+    <div class="load-more"><a href="https://careerbuilder.vn/viec-lam-tuong-tu/Nhân-Viên-Tuyển-Dụng-tai-ho-chi-minh-kl8-vi.html" title="jobs recommend">Xem tất cả</a></div>
+</section>
+</div>            </div>
+</div>
+</div>
 </section>
 <div class="login-modal" style="display: none">
-  <div class="modal-title">
-    <p>Vui lòng đăng nhập để thực hiện chức năng này</p>
-  </div>
-  <div class="modal-body">
-    <form method="POST" id="popup_login_form" action="https://careerbuilder.vn/vi/jobseekers/member/login" autocomplete="off">
-      <div class="row">
-        <div class="form-group col-12">
-          <input type="text" id="username" name="username" placeholder="Username / Email" autocomplete="off">
-        </div>
-        <div class="form-group col-8">
-          <input type="password" name="password" id="password"  placeholder="Mật khẩu" autocomplete="off">
-        </div>
-        <div class="form-group col-4">
-          <input type="hidden" name="csrf_token" value= "e57f5b8fd1a24dcf6fb904aba69d2bfa002775400a2d77104213ffdb8beb76d9" />  
-          <button type="submit">Đăng nhập</button>
-        </div>
-        <div class="form-group form-check col-12">
-          <input type="checkbox" name="chkSave" value="1" />
-          <label>Tự động đăng nhập</label>
-        </div>
-      </div>
-      <a class="register" href="https://careerbuilder.vn/vi/jobseekers/register" title="Đăng ký">Đăng ký </a><a class="forget-password" href="https://careerbuilder.vn/vi/jobseekers/forgotpassword" title="Quên mật khẩu?" rel="nofollow">Quên mật khẩu?</a>
-    </form>
-    <div class="sign-in-by"><span>Đăng nhập bằng:</span>
-      <ul>
-        <li><a href="javascript:void(0);" onclick="popupapi('facebook','aHR0cHM6Ly9jYXJlZXJidWlsZGVyLnZuL3ZpL2pvYnNlZWtlcnMvbG9naW5mYWNlYm9vaw==');"><i class="fa fa-facebook-official"></i></a></li>
-        <li><a href="javascript:void(0);" onclick="popupapi('linkedin','aHR0cHM6Ly9jYXJlZXJidWlsZGVyLnZuL3ZpL2pvYnNlZWtlcnMvbG9naW5saW5rZWRpbg==');"><i class="fa fa-linkedin-square"></i></a></li>
-        <li><a href="javascript:void(0);" onclick="popupapi('google','aHR0cHM6Ly9jYXJlZXJidWlsZGVyLnZuL3ZpL2pvYnNlZWtlcnMvbG9naW5nb29nbGU=');"><i class="fa fa-google-plus-square"></i></a></li>
-      </ul>
+    <div class="modal-title">
+        <p>Vui lòng đăng nhập để thực hiện chức năng này</p>
     </div>
-  </div>
+    <div class="modal-body">
+        <form method="POST" id="popup_login_form" action="https://careerbuilder.vn/vi/jobseekers/member/login" autocomplete="off">
+            <div class="row">
+                <div class="form-group col-12">
+                    <input type="text" id="username" name="username" placeholder="Username / Email" autocomplete="off">
+                </div>
+                <div class="form-group col-8">
+                    <input type="password" name="password" id="password"  placeholder="Mật khẩu" autocomplete="off">
+                </div>
+                <div class="form-group col-4">
+                    <input type="hidden" name="csrf_token" value= "e57f5b8fd1a24dcf6fb904aba69d2bfa002775400a2d77104213ffdb8beb76d9" />  
+                    <button type="submit">Đăng nhập</button>
+                </div>
+                <div class="form-group form-check col-12">
+                    <input type="checkbox" name="chkSave" value="1" />
+                    <label>Tự động đăng nhập</label>
+                </div>
+            </div>
+            <a class="register" href="https://careerbuilder.vn/vi/jobseekers/register" title="Đăng ký">Đăng ký </a><a class="forget-password" href="https://careerbuilder.vn/vi/jobseekers/forgotpassword" title="Quên mật khẩu?" rel="nofollow">Quên mật khẩu?</a>
+        </form>
+        <div class="sign-in-by">
+            <span>Đăng nhập bằng:</span>
+            <ul>
+                <li><a href="javascript:void(0);" onclick="popupapi('facebook','aHR0cHM6Ly9jYXJlZXJidWlsZGVyLnZuL3ZpL2pvYnNlZWtlcnMvbG9naW5mYWNlYm9vaw==');"><i class="fa fa-facebook-official"></i></a></li>
+                <li><a href="javascript:void(0);" onclick="popupapi('linkedin','aHR0cHM6Ly9jYXJlZXJidWlsZGVyLnZuL3ZpL2pvYnNlZWtlcnMvbG9naW5saW5rZWRpbg==');"><i class="fa fa-linkedin-square"></i></a></li>
+                <li><a href="javascript:void(0);" onclick="popupapi('google','aHR0cHM6Ly9jYXJlZXJidWlsZGVyLnZuL3ZpL2pvYnNlZWtlcnMvbG9naW5nb29nbGU=');"><i class="fa fa-google-plus-square"></i></a></li>
+            </ul>
+        </div>
+    </div>
 </div>
 <script>/*jquery.validate_vi.js*/
 
@@ -1574,97 +1769,93 @@ var product = {
 };
 </script>
 <script type="application/ld+json">{"@context": "http://schema.org","@type": "JobPosting","baseSalary" : {"@type": "MonetaryAmount","currency": "VND","value": {"@type": "QuantitativeValue","value":"Cạnh tranh","unitText":"MONTH"}},"industry": "Nhân sự, Dệt may / Da giày / Thời trang, Hành chính / Thư ký","jobBenefits": "Chế độ bảo hiểm, Phụ cấp, Đồng phục, Chế độ thưởng, Tăng lương, Công tác phí, Phụ cấp thâm niên, Nghỉ phép năm","datePosted": "2022-06-14","validThrough": "2022-07-15","occupationalCategory": "Nhân viên","description": "<p>Đề xuất các kênh tuyển dụng phù hợp nhằm đáp ứng nhu cầu nhân sự cho nhà máy<br/>Triển khai các kế hoạch tuyển mộ, tuyển chọn ứng viên<br/>Phỏng vấn, đánh giá, tham vấn ra quyết định tuyển chọn ứng viên<br/>Xây dựng và cải tiến quy trình tuyển dụng<br/>Thực hiện các hoạt động hướng dẫn và đào tạo hội nhập cho nhân viên mới</p><p>Một số công việc khác trao đổi trong phỏng vấn</p>","experienceRequirements": {"@type": "OccupationalExperienceRequirements","monthsOfExperience": "60","description":"<p>Nam, nữ kinh nghiệm 05 năm tuyển dụng hệ thống, td lao động số lượng lớn<br/>Ngoại hình khá, nhanh nhẹn, giao tiếp tốt.<br/>Thông thạo các kênh tuyển dụng<br/>Có kinh nghiệm quản lý nhân sự công ty quy mô 1000 lđ trở lên</p>"},"qualifications": "Cao đẳng","identifier": {"@type":"PropertyValue","name":"Công Ty TNHH May Thêu Giày An Phước","value":"35A4F400"},"hiringOrganization" : {"@type" : "Organization","name" : "Công Ty TNHH May Thêu Giày An Phước","sameAs":"https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-may-theu-giay-an-phuoc.35A4F400.html","logo":"https://images.careerbuilder.vn/employer_folders/lot6/2816/110x55/74705logoap.jpg"},"employmentType": ["FULL_TIME"],"jobLocation" : {"@type": "Place","address": {"@type": "PostalAddress","streetAddress": "Hồ Chí Minh","addressLocality": "Hồ Chí Minh","addressRegion": "Hồ Chí Minh","addressCountry": "Việt Nam","postalCode": "70000"}},"title" : "Nhân Viên Tuyển Dụng","skills" : "","workHours" : "8 giờ"}</script>
-
-			<div class="back-drop"></div>
-		</main>
-		<footer>
-  <div class="container">
-    <section class="top-footer cb-section cb-section-border-bottom">
-      <div class="row">
-        <div class="col-lg-12 logo"><img class="lazy-bg" data-src="./img/logo.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Tuyển dụng & Tìm kiếm việc làm nhanh"></div>
-        <div class="col-lg-2 col-sm-6">
-          <div class="footer-links">
-            <h3>Dành Cho Ứng Viên</h3>
-            <ul>
-              <li><a target="_blank" href="https://careerbuilder.vn/viec-lam/tat-ca-viec-lam-vi.html" title="Việc làm mới nhất">Việc làm mới nhất</a></li>
-              <li><a target="_blank" href="https://careerbuilder.vn/cv-hay/" title="CV Hay">CV Hay</a></li>
-              <li><a target="_blank" href="https://vietnamsalary.careerbuilder.vn/" title="VietnamSalary">VietnamSalary</a></li>
-              <li><a target="_blank" href="https://careerbuilder.vn/careermap" title="CareerMap">CareerMap</a></li>
-              <li><a target="_blank" href="https://careerbuilder.vn/vi/talentcommunity" title="Cẩm Nang">Cẩm Nang</a></li>
-              <li><a target="_blank" href="https://vieclamit.careerbuilder.vn/advices" title="IT Blogs">IT Blogs</a></li>
-              <li><a target="_blank" href="https://careerbuilder.vn/vi/mobile" title="Ứng Dụng Di Động">Ứng Dụng Di Động</a></li>
-			  <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/sitemap" title="Sơ Đồ Trang Web">Sơ Đồ Trang Web</a></li>
-              
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-2 col-sm-6">
-          <div class="footer-links">
-            <h3>Nhà Tuyển Dụng</h3>
-            <ul>
-              <li><a target="_blank" href="https://careerbuilder.vn/vi/employers/postjobs" title="Đăng Tuyển Dụng">Đăng Tuyển Dụng</a></li>
-              <li><a target="_blank" href="https://careerbuilder.vn/vi/resume-search.html" title="Tìm Hồ Sơ">Tìm Hồ Sơ</a></li>
-              <li><a target="_blank" href="https://careerbuilder.vn/vi/talentnetwork">Giải Pháp Talent Solution</a></li>
-              <li><a target="_blank" href="https://careerbuilder.vn/vi/employers/products-and-services" title="Sản Phẩm Dịch Vụ">Sản Phẩm Dịch Vụ</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-2 col-sm-6">
-          <div class="footer-links">
-            <h3>Trung tâm trợ giúp</h3>
-            <ul>
-              <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/about" title="Về CareerBuilder.vn">Về CareerBuilder.vn</a></li>
-              <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/regulations" title="Chính Sách BV Thông Tin">Chính Sách BV Thông Tin</a></li>
-              <li><a target="_blank" href="https://advertising.careerbuilder.vn/html/customer/cbvn/GDPR.PDF" title="Chính sách GDPR">Chính sách GDPR</a></li>
-              <li><a target="_blank" href="https://images.careerbuilder.vn/regulations.pdf" title="Quy chế sàn giao dịch">Quy chế sàn giao dịch</a></li>
-              <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/use" title="Thỏa thuận sử dụng">Thỏa thuận sử dụng</a></li>
-              <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/security" title="Quy định bảo mật">Quy định bảo mật</a></li>
-              <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/process" title="QT Giải Quyết Tranh Chấp">QT Giải Quyết Tranh Chấp</a></li>
-              <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/faq" title="Trợ giúp">Trợ giúp</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-2 col-sm-6">
-          <div class="footer-links">
-            <h3>Website Đối Tác</h3>
-            <ul>
-              <li><a target="_blank" href="https://vieclam.tuoitre.vn/">Vieclam.Tuoitre.vn</a></li>
-<li><a target="_blank" href="https://vieclam.vietnamnet.vn/">Vieclam.Vietnamnet.vn</a></li>
-<li><a target="_blank" href="https://vieclam.thanhnien.vn/">Vieclam.Thanhnien.vn</a></li>
-<li><a target="_blank" href="https://vieclamit.careerbuilder.vn/">VieclamIT.vn</a></li>
-
-              <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/contact">Liên Hệ</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-4 col-12">
-          <div class="footer-app-links">
-            <h3>Tìm Kiếm Mọi Lúc Mọi Nơi</h3>
-            <div class="app-links"> <a href="https://itunes.apple.com/vn/app/careerbuilder.vn-job-search/id882391884?l=vi&mt=8" target="_blank" rel="nofollow,noreferrer" title="careerbuilder.vn-job-search"> <img class="lazy-bg" data-src="./img/apple.png" src="../kiemviecv32/images/graphics/blank.gif" alt="app"> </a> <a href="https://play.google.com/store/apps/details?id=vn.careerbuilder.android.app" target="_blank" rel="nofollow,noreferrer" title="careerbuilder.vn-job-search"> <img class="lazy-bg" data-src="./img/android.png" src="../kiemviecv32/images/graphics/blank.gif" alt="app"> </a> </div>
-          </div>
-          <div class="footer-social-links">
-            <h3>Kết nối với CareerBuilder.vn</h3>
-            <ul>
-              <li><a rel="nofollow,noreferrer" title="Facebook" target="_blank" href="https://www.facebook.com/pages/CareerBuilder-Vietnam/265321726945679?ref=tn_tnmn"> <span class="fa fa-facebook"></span></a></li>
-              <li><a rel="nofollow,noreferrer" title="Linkedin" target="_blank" href="https://www.linkedin.com/company/careerbuilder-vietnam"> <span class="fa fa-linkedin"></span></a></li>
-              <li><a rel="nofollow,noreferrer" title="Youtube" target="_blank" href="https://www.youtube.com/user/CareerBuilderVietnam"> <span class="fa fa-youtube-play"></span></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="bottom-footer">
-      <div class="left-bottom-footer">
-        <p>Trụ sở chính: Tầng 6, Tòa nhà Pasteur, 139 Pasteur, Phường 6, Quận 3, TP. Hồ Chí Minh  - Tel: (84.28) 3822 6060 </p>
-        <p>Văn phòng Hà Nội: Tầng 17, Tòa nhà VIT, 519 Kim Mã, Quận Ba Đình, Hà Nội - Tel: (84.24) 7305 6060 </p>
-        <p>Email: contact@careerbuilder.vn</p>
-        <p>Copyright © CareerBuilder Vietnam.</p>
-      </div>
-      <div class="right-bottom-footer"><a target="_blank"  rel="nofollow,noreferrer" href="http://online.gov.vn/Home/WebDetails/22254?AspxAutoDetectCookieSupport=1"><img class="lazy-bg" data-src="./img/dk.png" src="../kiemviecv32/images/graphics/blank.gif" alt="bct"></a></div>
-    </section>
-  </div>
+<div class="back-drop"></div>
+</main>
+<footer>
+    <div class="container">
+        <section class="top-footer cb-section cb-section-border-bottom">
+            <div class="row">
+                <div class="col-lg-12 logo"><img class="lazy-bg" data-src="./img/logo.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Tuyển dụng & Tìm kiếm việc làm nhanh"></div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="footer-links">
+                        <h3>Dành Cho Ứng Viên</h3>
+                        <ul>
+                            <li><a target="_blank" href="https://careerbuilder.vn/viec-lam/tat-ca-viec-lam-vi.html" title="Việc làm mới nhất">Việc làm mới nhất</a></li>
+                            <li><a target="_blank" href="https://careerbuilder.vn/cv-hay/" title="CV Hay">CV Hay</a></li>
+                            <li><a target="_blank" href="https://vietnamsalary.careerbuilder.vn/" title="VietnamSalary">VietnamSalary</a></li>
+                            <li><a target="_blank" href="https://careerbuilder.vn/careermap" title="CareerMap">CareerMap</a></li>
+                            <li><a target="_blank" href="https://careerbuilder.vn/vi/talentcommunity" title="Cẩm Nang">Cẩm Nang</a></li>
+                            <li><a target="_blank" href="https://vieclamit.careerbuilder.vn/advices" title="IT Blogs">IT Blogs</a></li>
+                            <li><a target="_blank" href="https://careerbuilder.vn/vi/mobile" title="Ứng Dụng Di Động">Ứng Dụng Di Động</a></li>
+                            <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/sitemap" title="Sơ Đồ Trang Web">Sơ Đồ Trang Web</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="footer-links">
+                        <h3>Nhà Tuyển Dụng</h3>
+                        <ul>
+                            <li><a target="_blank" href="https://careerbuilder.vn/vi/employers/postjobs" title="Đăng Tuyển Dụng">Đăng Tuyển Dụng</a></li>
+                            <li><a target="_blank" href="https://careerbuilder.vn/vi/resume-search.html" title="Tìm Hồ Sơ">Tìm Hồ Sơ</a></li>
+                            <li><a target="_blank" href="https://careerbuilder.vn/vi/talentnetwork">Giải Pháp Talent Solution</a></li>
+                            <li><a target="_blank" href="https://careerbuilder.vn/vi/employers/products-and-services" title="Sản Phẩm Dịch Vụ">Sản Phẩm Dịch Vụ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="footer-links">
+                        <h3>Trung tâm trợ giúp</h3>
+                        <ul>
+                            <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/about" title="Về CareerBuilder.vn">Về CareerBuilder.vn</a></li>
+                            <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/regulations" title="Chính Sách BV Thông Tin">Chính Sách BV Thông Tin</a></li>
+                            <li><a target="_blank" href="https://advertising.careerbuilder.vn/html/customer/cbvn/GDPR.PDF" title="Chính sách GDPR">Chính sách GDPR</a></li>
+                            <li><a target="_blank" href="https://images.careerbuilder.vn/regulations.pdf" title="Quy chế sàn giao dịch">Quy chế sàn giao dịch</a></li>
+                            <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/use" title="Thỏa thuận sử dụng">Thỏa thuận sử dụng</a></li>
+                            <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/security" title="Quy định bảo mật">Quy định bảo mật</a></li>
+                            <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/process" title="QT Giải Quyết Tranh Chấp">QT Giải Quyết Tranh Chấp</a></li>
+                            <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/faq" title="Trợ giúp">Trợ giúp</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="footer-links">
+                        <h3>Website Đối Tác</h3>
+                        <ul>
+                            <li><a target="_blank" href="https://vieclam.tuoitre.vn/">Vieclam.Tuoitre.vn</a></li>
+                            <li><a target="_blank" href="https://vieclam.vietnamnet.vn/">Vieclam.Vietnamnet.vn</a></li>
+                            <li><a target="_blank" href="https://vieclam.thanhnien.vn/">Vieclam.Thanhnien.vn</a></li>
+                            <li><a target="_blank" href="https://vieclamit.careerbuilder.vn/">VieclamIT.vn</a></li>
+                            <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/contact">Liên Hệ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="footer-app-links">
+                        <h3>Tìm Kiếm Mọi Lúc Mọi Nơi</h3>
+                        <div class="app-links"> <a href="https://itunes.apple.com/vn/app/careerbuilder.vn-job-search/id882391884?l=vi&mt=8" target="_blank" rel="nofollow,noreferrer" title="careerbuilder.vn-job-search"> <img class="lazy-bg" data-src="./img/apple.png" src="../kiemviecv32/images/graphics/blank.gif" alt="app"> </a> <a href="https://play.google.com/store/apps/details?id=vn.careerbuilder.android.app" target="_blank" rel="nofollow,noreferrer" title="careerbuilder.vn-job-search"> <img class="lazy-bg" data-src="./img/android.png" src="../kiemviecv32/images/graphics/blank.gif" alt="app"> </a> </div>
+                    </div>
+                    <div class="footer-social-links">
+                        <h3>Kết nối với CareerBuilder.vn</h3>
+                        <ul>
+                            <li><a rel="nofollow,noreferrer" title="Facebook" target="_blank" href="https://www.facebook.com/pages/CareerBuilder-Vietnam/265321726945679?ref=tn_tnmn"> <span class="fa fa-facebook"></span></a></li>
+                            <li><a rel="nofollow,noreferrer" title="Linkedin" target="_blank" href="https://www.linkedin.com/company/careerbuilder-vietnam"> <span class="fa fa-linkedin"></span></a></li>
+                            <li><a rel="nofollow,noreferrer" title="Youtube" target="_blank" href="https://www.youtube.com/user/CareerBuilderVietnam"> <span class="fa fa-youtube-play"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bottom-footer">
+            <div class="left-bottom-footer">
+                <p>Trụ sở chính: Tầng 6, Tòa nhà Pasteur, 139 Pasteur, Phường 6, Quận 3, TP. Hồ Chí Minh  - Tel: (84.28) 3822 6060 </p>
+                <p>Văn phòng Hà Nội: Tầng 17, Tòa nhà VIT, 519 Kim Mã, Quận Ba Đình, Hà Nội - Tel: (84.24) 7305 6060 </p>
+                <p>Email: contact@careerbuilder.vn</p>
+                <p>Copyright © CareerBuilder Vietnam.</p>
+            </div>
+            <div class="right-bottom-footer"><a target="_blank"  rel="nofollow,noreferrer" href="http://online.gov.vn/Home/WebDetails/22254?AspxAutoDetectCookieSupport=1"><img class="lazy-bg" data-src="./img/dk.png" src="../kiemviecv32/images/graphics/blank.gif" alt="bct"></a></div>
+        </section>
+    </div>
 </footer>
-
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTKWM2" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <script type="text/javascript">
