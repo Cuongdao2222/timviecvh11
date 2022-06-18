@@ -700,7 +700,7 @@ Start New Layout CB -->
                                                                 </div>
 
                                                                 @if (Auth::check()) 
-                                                                <div class="top-icon"> <span class="top apply-job">Apply</span> </div>
+                                                                <div class="top-icon"> <span class="top apply-job" onclick="apply('{{ $jobs->id }}')">Apply</span> </div>
 
                                                                
 
@@ -1202,9 +1202,27 @@ Start New Layout CB -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTKWM2" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <script type="text/javascript">
             
-            $('.apply-job').click(function() {
-                alert('Đã xảy ra lỗi do xung đột');
-            })
+            function apply(id) {
+
+                 $.ajax({
+
+                    type: 'GET',
+                    url: "{{ route('apply-job') }}",
+                    data: {
+                        job: id,
+                    
+                        
+                    },
+                    success: function(result){
+                        $('.btn-gradient').text('đã ứng tuyển');
+                        alert('thanh cong')
+                        // console.log(result);
+                        // $('tbody').append(result);
+                      
+                       
+                    }
+                });
+            }
 
         </script>
         <script type="text/javascript">

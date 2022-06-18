@@ -41,8 +41,7 @@
                                         $id = Auth::guard('employer_register')->user()->id;
                                         $jobs = App\Models\job::where('employer_id', $id)->get()->pluck('id')->toArray();
 
-                                        
-
+                                      
 
 
                                         $apply =  DB::table('job')->join('apply_jobs', 'job.id', '=', 'apply_jobs.job_id')->whereIn('apply_jobs.job_id', $jobs)->select('job.title', 'apply_jobs.updated_at', 'apply_jobs.user_id')->get();
