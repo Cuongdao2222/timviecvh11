@@ -314,7 +314,7 @@ Start New Layout CB -->
                                     <div class="login-form">
                                    
                                         <div>
-                                            <form name="frmRegister" id="frmRegister" method="post" action="{{ route('login') }}" autocomplete="off">
+                                            <form name="frmRegister" id="frmRegister" method="post" action="{{ route('login-user') }}" autocomplete="off">
                                                 @csrf
                                                 <div class="form-group form-text">
                                                     <input name="emails" id="emails"  maxlength="50" type="text"   autocomplete="off" value="">

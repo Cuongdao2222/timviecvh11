@@ -38,39 +38,8 @@ Route::get('employers/register', 'Backend\employerController@index')->name('regi
 
 });
 
-Route::group(['prefix' => 'user','middleware' => 'checklogin'], function() {
-
-   
-    // Route::get('/register-client-user', function () {
-    //     return view('frontend.registerClientUser');
-    // })->name('registerClientUser');
 
 
-    Route::get('/user-dashboard', function () {
-        return view('frontend.user-dashboard');
-    })->name('user-dashboard');
-
-    Route::get('/my-profile', function () {
-        return view('frontend.list-board');
-    })->name('my-profile');
-
-    Route::get('/work-save', function () {
-        return view('frontend.work-save');
-    })->name('work-save');
-
-    Route::get('/work-apply', function () {
-        return view('frontend.work-apply');
-    })->name('work-apply');
-
-    Route::get('/notification-user', function () {
-        return view('frontend.notification');
-    })->name('notification-user');
-
-    Route::get('logoutUser', 'Backend\UserLoginController@logoutUser')->name('logoutUser');
-
-
-
-});
 
 Route::group(['prefix' => 'employer','middleware' => 'checklogin'], function() {
 
@@ -94,17 +63,25 @@ Route::group(['prefix' => 'employer','middleware' => 'checklogin'], function() {
 
 });
 
+Route::get('user/user-dashboard', 'userController@dashBoard')->middleware('checklogin')->name('user-dashboard');
 
 Route::post('user', 'Backend\UserLoginController@registerUser')->name('register');
 
-Route::post('user/login', 'Backend\UserLoginController@loginUser')->name('login');
-
+Route::post('user/login', 'Backend\UserLoginController@loginUser')->name('login-user');
 
 Route::post('user/profice/{action}', 'Backend\applicationController@updateApplication')->name('postProfile');
 
 Route::post('employer/login', 'Backend\employerController@postLoginEmployer')->name('loginEmployer');
 
 Route::post('employer/postJob', 'Backend\employerController@postJob')->name('postJob');
+
+
+
+
+   
+
+
+
 
 
 

@@ -152,7 +152,10 @@ Start New Layout CB -->
                                    </ul>
                                </div>
                            @endif
+
+
                             @if (Auth::check()) 
+                            
                                 <div class="titles-login"><a href="{{ route('user-dashboard') }}">Xin chào {{ Auth::user()->name }}</a></div>
 
                             
@@ -166,7 +169,7 @@ Start New Layout CB -->
 
                             <div class="dropdown-menu">
                                 <div class="login-wrapper">
-                                    <form name="header_login" id="header_login" method="post" action="{{ route('login') }}" autocomplete="off">
+                                    <form name="header_login" id="header_login" method="post" action="{{ route('login-user') }}" autocomplete="off">
                                          @csrf
                                         <div class="row">
                                             <div class="form-group col-12">

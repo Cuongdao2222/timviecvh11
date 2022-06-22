@@ -73,8 +73,6 @@ class UserLoginController extends Controller
         else{
             return redirect()->back()->with('error', 'Sai email hoặc sai mật khẩu, vui lòng kiểm tra lại');
         }
-
-
     }
 
     public function logoutUser()
