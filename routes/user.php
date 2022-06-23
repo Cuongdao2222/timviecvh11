@@ -11,3 +11,6 @@ Route::get('work-apply', 'userController@workApply')->name('work-apply');
 Route::get('notification-user', 'userController@notification')->name('notification-user');
 
 Route::get('logout-user','UserLoginController@logoutUser')->name('logoutUser');
+
+Route::get('register-client-user', 'userController@registerUser')->name('registerClientUser');
+

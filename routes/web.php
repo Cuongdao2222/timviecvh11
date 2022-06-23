@@ -18,20 +18,10 @@ Route::get('/', 'indexController@Home')->name('home');
 
  Route::get('/job-details/{link}','Backend\jobController@jobDetails')->name('job_details');
 
- Route::get('/register-client-user', function () {
-    return view('frontend.registerClientUser');
-})->name('registerClientUser');
-
-
-Route::get('/employers-info-list','Backend\employerInfoController@index')->name('employers-info-list');
-
-
-Route::get('employers_info', 'Backend\employerController@info_employer')->name('employers_info');
-
-Route::get('employers/register', 'Backend\employerController@index')->name('register_employer'); 
 
 
  Route::group(['prefix' => 'ajax'], function() {
+
     Route::get('saveJob', 'ajaxController@getSaveJob')->name('getSaveJob'); 
 
     Route::get('apply-job', 'ajaxController@saveApply_job')->name('apply-job'); 
@@ -39,6 +29,13 @@ Route::get('employers/register', 'Backend\employerController@index')->name('regi
 });
 
 
+
+
+Route::get('employers/register', 'Backend\employerController@index')->name('register_employer'); 
+
+Route::get('employers_info', 'Backend\employerController@info_employer')->name('employers_info');
+
+Route::get('/employers-info-list','Backend\employerInfoController@index')->name('employers-info-list');
 
 
 Route::group(['prefix' => 'employer','middleware' => 'checklogin'], function() {

@@ -39,8 +39,13 @@ class userController extends Controller
         return view('frontend.notification');
     }
 
+    public function registerUser()
+    {
+        return view('frontend.registerClientUser');
+    }
 
 
+    
      // Route::get('/my-profile', function () {
     //     return view('frontend.list-board');
     // })->name('my-profile');

@@ -116,7 +116,7 @@ Start New Layout CB -->
                             </div>
                         </div>
                         <div class="main-employer dropdown">
-                            <a href="https://careerbuilder.vn/vi/employers" title="Đăng tuyển, Tìm ứng viên">
+                            <a href="{{ route('register_employer') }}" title="Đăng tuyển, Tìm ứng viên">
                                 <div class="dropdown-toggle">
                                     <h4>Dành cho nhà tuyển dụng<em class="mdi mdi-chevron-down"></em></h4>
                                     <p>Đăng tuyển, Tìm ứng viên</p>

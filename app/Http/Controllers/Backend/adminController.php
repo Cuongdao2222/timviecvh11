@@ -46,7 +46,7 @@ class adminController extends Controller
 
     public function loginAdminUser(Request $request)
     {
-         
+
         $email =  strip_tags(trim($request->emails), '@') ;
 
         $password = $request->passwords;
@@ -61,11 +61,8 @@ class adminController extends Controller
 
             if (Auth::guard('admin')->attempt($data)) {
 
-                
-                    // return redirect(route('user-dashboard'));
-                    echo "Đăng nhập thành công";
-                
-
+                return redirect(route('admin-view-Listboard'));
+                   
             } else {
                 
                 return redirect()->back()->with('error', 'Đăng nhập thất bại xin kiểm tra mật khẩu');
