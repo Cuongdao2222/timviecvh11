@@ -25,7 +25,7 @@
 <table>
 
     <?php 
-        $data = App\Models\user::get();
+        $data = App\user::get();
     ?>
 
     <tr>
