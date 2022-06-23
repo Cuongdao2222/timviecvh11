@@ -55,6 +55,15 @@ return [
             'driver' => 'token',
             'provider' => 'employer_register',
         ],
+
+        'admin' => [
+            'driver' => 'session',
+            'provider' => 'admin',
+        ],
+        'admin-api' => [
+            'driver' => 'token',
+            'provider' => 'admin',
+        ]
     ],
 
     /*
@@ -83,7 +92,12 @@ return [
         'employer_register' => [
             'driver' => 'eloquent',
             'model' => App\employer_register::class,
-        ],          
+        ], 
+
+        'admin' => [
+            'driver' => 'eloquent',
+            'model' => App\admin::class,
+        ],                   
 
         // 'users' => [
         //     'driver' => 'database',

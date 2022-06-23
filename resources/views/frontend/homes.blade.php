@@ -130,7 +130,7 @@
                 <button>create</button>
                 <p class="message">Already registered? <a href="#">Sign In</a></p>
             </form>
-            <form class="login-form" method="post" action="{{ route('login') }}">
+            <form class="login-form" method="post" action="{{ route('post-login-admin') }}">
                 @csrf
                 <input type="text" placeholder="email"/ name="emails">
                 <input type="password" placeholder="password"/ name="passwords">

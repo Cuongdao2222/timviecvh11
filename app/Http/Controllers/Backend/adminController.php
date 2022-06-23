@@ -4,6 +4,10 @@ namespace App\Http\Controllers\Backend;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\admin;
+use App\User;
+use DB;
+use Auth;
 
 class adminController extends Controller
 {
@@ -12,11 +16,21 @@ class adminController extends Controller
         return view('frontend.homes');
     }
 
+    public function regiterView()
+    {
+        return view('admin.register');
+    }
+
+    public function Listboard()
+    {
+        return view('admin.listUv');
+    }
+
     public function registerUser(Request $request)
     {
         $input = $request->All();
 
-        $user = new User();
+        $user = new admin();
 
         if(!empty($input['password'])){
            $input['password'] =  bcrypt($input['password']);
@@ -24,12 +38,8 @@ class adminController extends Controller
         $user->name = $input['name'];
         $user->email = $input['email'];
         $user->password = $input['password'];
-
         $user->save();
-        $application = new application();
-        $application->users_id =  $user->id;
-        $application->save();
-
+       
         return redirect()->back()->with('success', 'Đăng ký thành công');
 
     }
@@ -41,26 +51,20 @@ class adminController extends Controller
 
         $password = $request->passwords;
 
-        $check  =   DB::table('users')->where('email', $email)->first();
+        $check  =   DB::table('admins')->where('email', $email)->first();
 
         if(!empty($check)){
-
             $data = [
                 'email' => $email,
                 'password' => $password,
             ];
 
-            if (Auth::attempt($data)) {
+            if (Auth::guard('admin')->attempt($data)) {
 
-                if(!empty($request->index)){
-
-                    return redirect()->back();
-
-                }
-                else{
+                
                     // return redirect(route('user-dashboard'));
                     echo "Đăng nhập thành công";
-                }
+                
 
             } else {
                 
@@ -73,4 +77,6 @@ class adminController extends Controller
         }
 
     }
+
+   
 }
