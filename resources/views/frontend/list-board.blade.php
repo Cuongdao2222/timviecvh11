@@ -1170,7 +1170,7 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                 <ul>
                                     <li><a class="share-profile" href="javascript:void(0);"><em class="mdi mdi-share"></em><span>Chia sẻ hồ sơ</span> <span class="new-label"> New </span> </a></li>
                                     <li> <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/changetemplate"> <em class="material-icons">edit</em><span>Chỉnh Mẫu Hồ Sơ</span></a></li>
-                                    <li> <a href="javascript:void(0);" id="btn_view_cbprofile"> <em class="material-icons">remove_red_eye</em><span>Xem CV Template</span></a></li>
+                                    <li> <a href="{{ route('') }}" id="btn_view_cbprofile"> <em class="material-icons">remove_red_eye</em><span>Xem CV </span></a></li>
                                     <li id="btn_download" style="display:none"> <a href="javascript:void(0);" onclick="downloadCvProfile(16167824)" > <em class="material-icons">get_app</em><span>Tải hồ sơ</span></a>
                                     </li>
                                     <li><a class="hidden-info" href="javascript:void(0);" onclick="showHideInfor();"><em class="fa fa-eye-slash"></em><span>Ẩn thông tin</span></a></li>
