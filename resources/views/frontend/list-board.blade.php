@@ -770,8 +770,14 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                             <tr>
                                                 <td>Cấp bậc hiện tại</td>
                                                 <?php 
-                                                   
+
+
                                                     if((json_decode($checkTitle->experience))->levelcurrent_id != null){
+
+                                                        $int_num_levelcurrent_id = (int)(json_decode($checkTitle->experience))->levelcurrent_id;
+
+                                                        
+
                                                         $number_levelcurrent_id = $ar_ex[(int)(json_decode($checkTitle->experience))->levelcurrent_id-1];
 
                                                     }
@@ -780,7 +786,7 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                                     }
                                                     
                                                 ?>
-                                                <td id="cbprofile_levelpresent">{{ $number_levelcurrent_id}}</td>
+                                                <td id="cbprofile_levelpresent">{{ $number_levelcurrent_id }}</td>
                                                 <td>
                                                     <div class="link-edit"><a href="javascript:void(0);" onclick="editFrmExperience();"> <em class="material-icons">create</em></a></div>
                                                 </td>
@@ -1291,9 +1297,10 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                         <option value="" >Chọn</option>
                                         @foreach($ar_ex as $value)
                                         <?php  
+
                                             $i++;
                                         ?>
-                                        <option value="{{ $i }}">{{ $value }}</option>
+                                        <option value="{{ $i }}"   {{ $int_num_levelcurrent_id== $i?'selected':'' }}>{{ $value }}</option>
                                         @endforeach
                                         
                                     </select>
