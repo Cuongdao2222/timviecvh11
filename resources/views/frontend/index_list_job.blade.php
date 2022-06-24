@@ -141,7 +141,7 @@ Start New Layout CB -->
 
 
                         <div class="main-login dropdown">
-
+                          
 
                            @if (count($errors) > 0)
                                <div class="alert alert-danger">
@@ -152,6 +152,16 @@ Start New Layout CB -->
                                    </ul>
                                </div>
                            @endif
+
+                           <div class="alert alert-danger">
+                                   <ul>
+                                      
+                                        <li style="color: red">{{ @session()->get('error') }}</li>
+                                      
+                                   </ul>
+                               </div>
+
+                           
 
 
                             @if (Auth::check()) 

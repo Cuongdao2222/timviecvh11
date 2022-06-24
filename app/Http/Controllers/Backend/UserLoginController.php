@@ -66,7 +66,7 @@ class UserLoginController extends Controller
 
             } else {
                 
-                return redirect()->back()->with('error', 'Đăng nhập thất bại xin kiểm tra mật khẩu');
+                return redirect()->back()->with('error', 'Đăng nhập thất bại, xin kiểm tra lại mật khẩu');
             }
 
         }

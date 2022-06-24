@@ -19,4 +19,6 @@ Route::group(['middleware' => 'checkad'], function() {
 
 });
 
+Route::get('logout', 'adminController@logout')->name('admin-logout');
+
 

@@ -69,6 +69,12 @@
                             aria-label="Search" name="search">
                     </form>
                 </div>
+
+                <?php 
+
+                    $user = Auth::guard('admin')->user()->name;
+
+                ?>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown user-menu">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
@@ -83,15 +89,14 @@
                                     class="img-circle elevation-2"
                                     alt="User Image">
                                 <p>
-                                    cuong
+                                    {{ @$user }}
                                     <small>auth.app.member_since Nov. 2021</small>
                                 </p>
                             </li>
                             <!-- Menu Footer-->
                             <li class="user-footer">
                                 <a href="#" class="btn btn-default btn-flat">Profile</a>
-                                <a href="#" class="btn btn-default btn-flat float-right"
-                                    onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                <a href="{{ route('admin-logout') }}" class="btn btn-default btn-flat float-right">
                                 auth.sign_out                        </a>
                                 <form id="logout-form" action="https://dienmaynguoiviet.vn/logout" method="POST" class="d-none">
                                     <input type="hidden" name="_token" value="AHESRRqb0xWlPaXVsH9FEanXnrsLfHxHYI10slaJ">                        

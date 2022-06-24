@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Auth;
+use App\Models\application;
 
 class userController extends Controller
 {
@@ -42,6 +43,13 @@ class userController extends Controller
     public function registerUser()
     {
         return view('frontend.registerClientUser');
+    }
+
+    public function viewCv($id)
+    {
+        $data_cv = application::findOrFail($id);
+
+        return view('user.cv', compact('data_cv'));
     }
 
 

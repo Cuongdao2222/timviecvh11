@@ -33,7 +33,7 @@
         <th>Cv ứng viên</th>
         <th>Lịch sử nộp cv</th>
         <th>Chọn nổi bật</th>
-        <th>Sửa</th>
+        
         <th>Xóa</th>
     </tr>
     <tr>
@@ -43,7 +43,7 @@
             <td>Maria Anders</td>
             <td>Germany</td>
             <td>chọn</td>
-            <td><a href="">Sửa</a></td>
+           
             <td><a href="">Xóa</a></td>
             @endforeach
         @endif    

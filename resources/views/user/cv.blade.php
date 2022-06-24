@@ -18279,6 +18279,8 @@ header.header-dashboard .mobile-menu .menu .menu-logged ul li.dropdown-mobile .d
 }
 </style>
 
+
+
 <div id="ZoneShowCVTemplateEn" class="cv-template-wrapper clrBlueBlueLight cv-template-3 fontCVRoboto fontCVsize14" style="display: block;"><header>
 	<div class="top">
 		<div class="avatar">
@@ -18291,8 +18293,8 @@ header.header-dashboard .mobile-menu .menu .menu-logged ul li.dropdown-mobile .d
 			</table>			
 		</div>
 		<div class="name">
-			<h2>Nguyen Van A</h2>
-			<h4>Expected Tittle</h4>
+			<h2>{{ @json_decode($data_cv['info'])->firstname  }}</h2>
+			<h4>{{ @json_decode($data_cv['title'])->resume_title  }}</h4>
 		</div>
 	</div>
 	<ul class="contact">
@@ -18313,7 +18315,7 @@ header.header-dashboard .mobile-menu .menu .menu-logged ul li.dropdown-mobile .d
 	<h3>OBJECTIVES</h3>
 	<div class="text-edt">
 		<div class="content_fck">
-			Your personal statement is perhaps the single most important part of you CV. Its aim is to highlight your professional attributes and goals, summarize why someone should consider your application. (80-100 words)
+			{{ json_decode($data_cv['objective'])->objective  }}
 		</div>
 	</div>
 	<h3>WORK EXPERIENCE</h3>
