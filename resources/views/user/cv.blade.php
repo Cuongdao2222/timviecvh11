@@ -18297,9 +18297,11 @@ header.header-dashboard .mobile-menu .menu .menu-logged ul li.dropdown-mobile .d
 			<h4>{{ @json_decode($data_cv['title'])->resume_title  }}</h4>
 		</div>
 	</div>
+
+
 	<ul class="contact">
 		<li><i class="fa fa-phone"></i> {{ @json_decode($data_cv['info'])->mobile  }} </li>
-		<li><i class="fa fa-envelope"></i> {{ @json_decode($data_cv['info'])->email  }} </li>
+		<li><i class="fa fa-envelope"></i> {{ json_decode($data_cv['info'])->email??Auth::user()->email  }} </li>
 		<li><i class="fa fa-home"></i> {{   @json_decode($data_cv['info'])->address }}</li>
 	</ul>
 </header>
@@ -18307,7 +18309,7 @@ header.header-dashboard .mobile-menu .menu .menu-logged ul li.dropdown-mobile .d
 	<h3>Contact</h3>
 	<ul class="contact">	
 		<li><label>Birthday</label> : {{ @json_decode($data_cv['info'])->date }}</li>
-		<li><label>Marital status</label> :  {{ @json_decode($data_cv['info'])->slMarritial==0?'Độc thân'?'Đã kết hôn' }} </li>
+		<li><label>Marital status</label> :  {{ @json_decode($data_cv['info'])->slMarritial==0?'Độc thân':'Đã kết hôn' }} </li>
 		<li><label>Nationality</label>	: Vietnamese</li>
 		<li><label>Location</label>	: Vietnam</li>
 		<li><label>Address </label>: {{   @json_decode($data_cv['info'])->address }}</li>		
