@@ -739,7 +739,7 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                             @endif
                                         </div>
                                     </div>
-                                    <!-- <div class="right-action">
+                                    <div class="right-action">
                                         <div class="tips p1" onclick="openTipSlide('tip-experience')">
                                             <div class="icon">
                                                 <em class="mdi mdi-lightbulb"></em>
@@ -747,7 +747,7 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                             <p>Tips</p>
                                         </div>
                                         <div class="link-add"><a href="javascript:void(0);" onclick="openTipSlide('tip-experience-modal')" title="Thêm mới"> <em class="material-icons">add</em><span>Thêm mới</span></a></div>
-                                    </div> -->
+                                    </div>
                                 </div>
                             </div>
                             <div class="widget-body">
@@ -1170,7 +1170,7 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                 <ul>
                                     <li><a class="share-profile" href="javascript:void(0);"><em class="mdi mdi-share"></em><span>Chia sẻ hồ sơ</span> <span class="new-label"> New </span> </a></li>
                                     <li> <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/changetemplate"> <em class="material-icons">edit</em><span>Chỉnh Mẫu Hồ Sơ</span></a></li>
-                                    <li> <a href="{{ route('') }}" id="btn_view_cbprofile"> <em class="material-icons">remove_red_eye</em><span>Xem CV </span></a></li>
+                                    <li> <a href="{{ route('viewCv', Auth::user()->id) }}" id="btn_view_cbprofile"> <em class="material-icons">remove_red_eye</em><span>Xem CV </span></a></li>
                                     <li id="btn_download" style="display:none"> <a href="javascript:void(0);" onclick="downloadCvProfile(16167824)" > <em class="material-icons">get_app</em><span>Tải hồ sơ</span></a>
                                     </li>
                                     <li><a class="hidden-info" href="javascript:void(0);" onclick="showHideInfor();"><em class="fa fa-eye-slash"></em><span>Ẩn thông tin</span></a></li>
@@ -1511,21 +1511,34 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                 <div class="col-md-6">
                                     <div class="form-group form-radio">
                                         <p>* Giới tính</p>
+
+                                  
+
+
+                                        <?php 
+
+                                            $gender = ['Nam', 'Nữ'];
+
+                                            $map = ['m', 'f']
+                                        ?>
+                                        @foreach($gender as $key => $value)
                                         <div class="gender">
-                                            <input type="radio" id="gender_m" value="1" name="gender">
-                                            <label for="gender_m">Nam</label>
+                                            <input type="radio"  id="gender_{{ $map[$key] }}" value="{{ $key }}" name="gender" {{ @json_decode($checkTitle->info)->gender==$key?'checked':''  }}>
+                                            <label for="gender_{{ $map[$key]  }}">{{ $value }}</label>
                                         </div>
-                                        <div class="gender">
-                                            <input type="radio" id="gender_f" value="2" name="gender">
-                                            <label for="gender_f">Nữ</label>
-                                        </div>
+                                        @endforeach
+                                       
+
+                     
+
+
                                         <span class="err_gender" style="display:none"></span> 
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group form-birthday">
                                         <label for="">* Ngày sinh</label>
-                                        <input type="text" data-field="date" name="date" {{ @json_decode($checkTitle->info)->date??'' }}>
+                                        <input type="text" data-field="date" name="date" value="{{ @json_decode($checkTitle->info)->date??'' }}">
                                         <div id="date_time_picker" class="dtpicker-overlay dtpicker-mobile">
                                             <div class="dtpicker-bg">
                                                 <div class="dtpicker-cont">
@@ -1704,7 +1717,7 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                 <div class="col-md-6">
                                     <label></label>
                                     <div class="form-group form-text">
-                                        <input type="text" onkeyup="this.setAttribute('value', this.value);" name="address" value="">
+                                        <input type="text" onkeyup="this.setAttribute('value', this.value);" name="address" value=" {{ @json_decode($checkTitle->info)->address??'' }} ">
                                         <label for="">* Địa chỉ </label>
                                         <span class="err_address" style="display:none"></span>
                                     </div>
@@ -1918,7 +1931,8 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                         <h3>Kinh Nghiệm Làm Việc</h3>
                     </div>
                     <div class="modal-body">
-                        <form name="experience-form" id="experience-form">
+                        <form name="experience-form" id="experience-form"  method="post" action="{{ route('postProfile', 'experience_details') }}">
+                            @csrf
                             <input type="hidden" value="0" name="rexp_id" id="rexp_id">
                             <div class="form-group row">
                                 <div class="col-lg-3 col-xl-3">
@@ -1926,7 +1940,7 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                 </div>
                                 <div class="col-lg-9 col-xl-9">
                                     <div class="input-group">
-                                        <input type="text" value="" class="form-control" name="rexp_title" maxlength="100">
+                                        <input type="text" value="{{ @json_decode($checkTitle->experience_details)->rexp_title }}" class="form-control" name="rexp_title" maxlength="100">
                                     </div>
                                     <div class="form-error"><span class="err_rexp_title" style="display:none"></span></div>
                                 </div>
@@ -1937,199 +1951,19 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                 </div>
                                 <div class="col-lg-9 col-xl-9">
                                     <div class="input-group">
-                                        <input type="text" value="" class="form-control" name="rexp_company" maxlength="200">
+                                        <input type="text" value="{{ @json_decode($checkTitle->experience_details)->rexp_company }}" class="form-control" name="rexp_company" maxlength="200">
                                     </div>
                                     <div class="form-error"><span class="err_rexp_company" style="display:none"></span></div>
                                 </div>
                             </div>
-                            <div class="form-group row">
-                                <div class="col-lg-3 col-xl-3">
-                                    <label for="">Phương thức công việc</label>
-                                </div>
-                                <div class="col-lg-9 col-xl-9">
-                                    <div class="select-group">
-                                        <select name="rexp_worktype">
-                                            <option value="">Chọn</option>
-                                            <option value="1000">Nhân viên chính thức</option>
-                                            <option value="0100">Bán thời gian</option>
-                                            <option value="0010">Thời vụ - Nghề tự do </option>
-                                            <option value="0001">Thực tập</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col-lg-3 col-xl-3">
-                                    <label for="">Thời gian làm việc</label>
-                                </div>
-                                <div class="col-lg-9 col-xl-9">
-                                    <div class="form-work-time">
-                                        <div class="start-date">
-                                            <div class="select-group">
-                                                <select name="rexp_month_start">
-                                                    <option value="">Tháng</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                    <option value="5">5</option>
-                                                    <option value="6">6</option>
-                                                    <option value="7">7</option>
-                                                    <option value="8">8</option>
-                                                    <option value="9">9</option>
-                                                    <option value="10">10</option>
-                                                    <option value="11">11</option>
-                                                    <option value="12">12</option>
-                                                </select>
-                                            </div>
-                                            <div class="select-group">
-                                                <select name="rexp_year_start">
-                                                    <option value="">Năm</option>
-                                                    <option value="2022">2022</option>
-                                                    <option value="2021">2021</option>
-                                                    <option value="2020">2020</option>
-                                                    <option value="2019">2019</option>
-                                                    <option value="2018">2018</option>
-                                                    <option value="2017">2017</option>
-                                                    <option value="2016">2016</option>
-                                                    <option value="2015">2015</option>
-                                                    <option value="2014">2014</option>
-                                                    <option value="2013">2013</option>
-                                                    <option value="2012">2012</option>
-                                                    <option value="2011">2011</option>
-                                                    <option value="2010">2010</option>
-                                                    <option value="2009">2009</option>
-                                                    <option value="2008">2008</option>
-                                                    <option value="2007">2007</option>
-                                                    <option value="2006">2006</option>
-                                                    <option value="2005">2005</option>
-                                                    <option value="2004">2004</option>
-                                                    <option value="2003">2003</option>
-                                                    <option value="2002">2002</option>
-                                                    <option value="2001">2001</option>
-                                                    <option value="2000">2000</option>
-                                                    <option value="1999">1999</option>
-                                                    <option value="1998">1998</option>
-                                                    <option value="1997">1997</option>
-                                                    <option value="1996">1996</option>
-                                                    <option value="1995">1995</option>
-                                                    <option value="1994">1994</option>
-                                                    <option value="1993">1993</option>
-                                                    <option value="1992">1992</option>
-                                                    <option value="1991">1991</option>
-                                                    <option value="1990">1990</option>
-                                                    <option value="1989">1989</option>
-                                                    <option value="1988">1988</option>
-                                                    <option value="1987">1987</option>
-                                                    <option value="1986">1986</option>
-                                                    <option value="1985">1985</option>
-                                                    <option value="1984">1984</option>
-                                                    <option value="1983">1983</option>
-                                                    <option value="1982">1982</option>
-                                                    <option value="1981">1981</option>
-                                                    <option value="1980">1980</option>
-                                                    <option value="1979">1979</option>
-                                                    <option value="1978">1978</option>
-                                                    <option value="1977">1977</option>
-                                                    <option value="1976">1976</option>
-                                                    <option value="1975">1975</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="to"><span>Đến </span></div>
-                                        <div class="end-date">
-                                            <div class="select-group">
-                                                <select name="rexp_month_end">
-                                                    <option value="">Tháng</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                    <option value="5">5</option>
-                                                    <option value="6">6</option>
-                                                    <option value="7">7</option>
-                                                    <option value="8">8</option>
-                                                    <option value="9">9</option>
-                                                    <option value="10">10</option>
-                                                    <option value="11">11</option>
-                                                    <option value="12">12</option>
-                                                </select>
-                                            </div>
-                                            <div class="select-group">
-                                                <select name="rexp_year_end">
-                                                    <option value="">Năm</option>
-                                                    <option value="2022">2022</option>
-                                                    <option value="2021">2021</option>
-                                                    <option value="2020">2020</option>
-                                                    <option value="2019">2019</option>
-                                                    <option value="2018">2018</option>
-                                                    <option value="2017">2017</option>
-                                                    <option value="2016">2016</option>
-                                                    <option value="2015">2015</option>
-                                                    <option value="2014">2014</option>
-                                                    <option value="2013">2013</option>
-                                                    <option value="2012">2012</option>
-                                                    <option value="2011">2011</option>
-                                                    <option value="2010">2010</option>
-                                                    <option value="2009">2009</option>
-                                                    <option value="2008">2008</option>
-                                                    <option value="2007">2007</option>
-                                                    <option value="2006">2006</option>
-                                                    <option value="2005">2005</option>
-                                                    <option value="2004">2004</option>
-                                                    <option value="2003">2003</option>
-                                                    <option value="2002">2002</option>
-                                                    <option value="2001">2001</option>
-                                                    <option value="2000">2000</option>
-                                                    <option value="1999">1999</option>
-                                                    <option value="1998">1998</option>
-                                                    <option value="1997">1997</option>
-                                                    <option value="1996">1996</option>
-                                                    <option value="1995">1995</option>
-                                                    <option value="1994">1994</option>
-                                                    <option value="1993">1993</option>
-                                                    <option value="1992">1992</option>
-                                                    <option value="1991">1991</option>
-                                                    <option value="1990">1990</option>
-                                                    <option value="1989">1989</option>
-                                                    <option value="1988">1988</option>
-                                                    <option value="1987">1987</option>
-                                                    <option value="1986">1986</option>
-                                                    <option value="1985">1985</option>
-                                                    <option value="1984">1984</option>
-                                                    <option value="1983">1983</option>
-                                                    <option value="1982">1982</option>
-                                                    <option value="1981">1981</option>
-                                                    <option value="1980">1980</option>
-                                                    <option value="1979">1979</option>
-                                                    <option value="1978">1978</option>
-                                                    <option value="1977">1977</option>
-                                                    <option value="1976">1976</option>
-                                                    <option value="1975">1975</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="no-date">
-                                            <div class="form-group form-checkbox mt-1 work-time-now">
-                                                <input type="checkbox" name="cboExperCurrent" id="cboExperCurrent" value="1">
-                                                <label for="cboExperCurrent">Hiện nay</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-error">
-                                        <span class="err_rexp_month_start" style="display:none"></span>
-                                        <span class="err_rexp_year_start" style="display:none"></span>
-                                        <span class="err_cboExperCurrent" style="display:none"></span>
-                                    </div>
-                                </div>
-                            </div>
+                           
                             <div class="form-group row">
                                 <div class="col-lg-3 col-xl-3">
                                     <label for="">Mô tả công việc</label>
                                 </div>
                                 <div class="col-lg-9 col-xl-9">
                                     <div class="textarea-group">
-                                        <textarea name="rexp_workdesc" rows="3" class="form-control" placeholder="Vui lòng nhập tối đa không quá 4.000 ký tự" maxlength="4000"></textarea>
+                                        <textarea name="rexp_workdesc" rows="3" class="form-control" placeholder="Vui lòng nhập tối đa không quá 4.000 ký tự" maxlength="4000">{{  @json_decode($checkTitle->experience_details)->rexp_workdesc  }}</textarea>
                                     </div>
                                     <div class="form-error">
                                         <span class="err_rexp_workdesc" style="display:none"></span>
@@ -2138,7 +1972,7 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                             </div>
                             <div class="form-group form-button">
                                 <div class="button-save button-center">
-                                    <button class="btn-gradient" type="button" onclick="updateResumeExperience(this);">Lưu Lại</button>
+                                    <button class="btn-gradient" type="submit" onclick="updateResumeExperience(this);">Lưu Lại</button>
                                 </div>
                             </div>
                         </form>
@@ -2222,73 +2056,26 @@ if(typeof language === 'undefined') var language = language_common; else $.exten
                                 <div class="col-lg-8">
                                     <div class="select-graduating">
                                         <div class="select-group">
+
+
                                             <select name="redu_month" id="redu_month">
+
                                                 <option value="">Tháng</option>
-                                                <option value="1">1</option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                                <option value="5">5</option>
-                                                <option value="6">6</option>
-                                                <option value="7">7</option>
-                                                <option value="8">8</option>
-                                                <option value="9">9</option>
-                                                <option value="10">10</option>
-                                                <option value="11">11</option>
-                                                <option value="12">12</option>
+                                                 @for($i =1; $i <13; $i++)
+                                                <option value="{{ $i }}" {{ json_decode($checkTitle->education)->redu_month==$i?'selected':''}}>{{ $i }}</option>
+                                                @endfor
+                                               
                                             </select>
                                         </div>
                                         <div class="select-group">
                                             <select name="redu_year" id="redu_year">
                                                 <option value="">Năm</option>
-                                                <option value="2022">2022</option>
-                                                <option value="2021">2021</option>
-                                                <option value="2020">2020</option>
-                                                <option value="2019">2019</option>
-                                                <option value="2018">2018</option>
-                                                <option value="2017">2017</option>
-                                                <option value="2016">2016</option>
-                                                <option value="2015">2015</option>
-                                                <option value="2014">2014</option>
-                                                <option value="2013">2013</option>
-                                                <option value="2012">2012</option>
-                                                <option value="2011">2011</option>
-                                                <option value="2010">2010</option>
-                                                <option value="2009">2009</option>
-                                                <option value="2008">2008</option>
-                                                <option value="2007">2007</option>
-                                                <option value="2006">2006</option>
-                                                <option value="2005">2005</option>
-                                                <option value="2004">2004</option>
-                                                <option value="2003">2003</option>
-                                                <option value="2002">2002</option>
-                                                <option value="2001">2001</option>
-                                                <option value="2000">2000</option>
-                                                <option value="1999">1999</option>
-                                                <option value="1998">1998</option>
-                                                <option value="1997">1997</option>
-                                                <option value="1996">1996</option>
-                                                <option value="1995">1995</option>
-                                                <option value="1994">1994</option>
-                                                <option value="1993">1993</option>
-                                                <option value="1992">1992</option>
-                                                <option value="1991">1991</option>
-                                                <option value="1990">1990</option>
-                                                <option value="1989">1989</option>
-                                                <option value="1988">1988</option>
-                                                <option value="1987">1987</option>
-                                                <option value="1986">1986</option>
-                                                <option value="1985">1985</option>
-                                                <option value="1984">1984</option>
-                                                <option value="1983">1983</option>
-                                                <option value="1982">1982</option>
-                                                <option value="1981">1981</option>
-                                                <option value="1980">1980</option>
-                                                <option value="1979">1979</option>
-                                                <option value="1978">1978</option>
-                                                <option value="1977">1977</option>
-                                                <option value="1976">1976</option>
-                                                <option value="1975">1975</option>
+
+                                                @for($k = 1975; $k <2023; $k++)
+                                                <option value="{{ $k }}" {{ json_decode($checkTitle->education)->redu_year==$k?'selected':'' }}>{{ $k }}</option>
+                                                @endfor
+                                               
+                                                
                                             </select>
                                         </div>
                                     </div>

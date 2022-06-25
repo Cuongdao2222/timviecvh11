@@ -18298,19 +18298,19 @@ header.header-dashboard .mobile-menu .menu .menu-logged ul li.dropdown-mobile .d
 		</div>
 	</div>
 	<ul class="contact">
-		<li><i class="fa fa-phone"></i> Phone number</li>
-		<li><i class="fa fa-envelope"></i> Example@gmail.com</li>
-		<li><i class="fa fa-home"></i> Address</li>
+		<li><i class="fa fa-phone"></i> {{ @json_decode($data_cv['info'])->mobile  }} </li>
+		<li><i class="fa fa-envelope"></i> {{ @json_decode($data_cv['info'])->email  }} </li>
+		<li><i class="fa fa-home"></i> {{   @json_decode($data_cv['info'])->address }}</li>
 	</ul>
 </header>
 <div class="content">
 	<h3>Contact</h3>
 	<ul class="contact">	
-		<li><label>Birthday</label> : MM/DD/YYYY</li>
-		<li><label>Marital status</label> : Single</li>
+		<li><label>Birthday</label> : {{ @json_decode($data_cv['info'])->date }}</li>
+		<li><label>Marital status</label> :  {{ @json_decode($data_cv['info'])->slMarritial==0?'Độc thân'?'Đã kết hôn' }} </li>
 		<li><label>Nationality</label>	: Vietnamese</li>
 		<li><label>Location</label>	: Vietnam</li>
-		<li><label>Address </label>: Address</li>		
+		<li><label>Address </label>: {{   @json_decode($data_cv['info'])->address }}</li>		
 	</ul>
 	<h3>OBJECTIVES</h3>
 	<div class="text-edt">
@@ -18320,29 +18320,18 @@ header.header-dashboard .mobile-menu .menu .menu-logged ul li.dropdown-mobile .d
 	</div>
 	<h3>WORK EXPERIENCE</h3>
 	<div class="text-edt">
-		<div class="title">Expected Tittle</div>
+		<div class="title">{{ @json_decode($data_cv->experience_details)->rexp_title }} {{ @json_decode($data_cv->experience_details)->rexp_company  }}</div>
 		<div class="content_fck">
-			06.2017 – 06.2018:<b> Job Title - Company Name</b><br>
-Key achievements:<br>
-- Provide a list of the key achievements you have made in your job.<br>
-- Try to show evidence such as percentage increases or financial figures.<br>
-Key skills gained:<br>
-- Show that you have the relevant knowledge required to succeed.<br>
-06.2017 – 06.2018:<b> Job Title - Company Name</b><br>
-Key achievements:<br>
-- Provide a list of the key achievements you have made in your job.<br>
-- Try to show evidence such as percentage increases or financial figures.<br>
-Key skills gained:<br>
-- Show that you have the relevant knowledge required to succeed.<br>
+
+		
+			 {!!   @json_decode($data_cv->experience_details)->rexp_workdesc !!}  
 		</div>
 	</div>
 	<h3>Educations</h3>
 	<div class="text-edt">
-		<div class="title">Highest Degree Level:  Bachelor</div>
+		<div class="title">   {{ @json_decode($data_cv->education)->redu_name  }}  tốt nghiệp  {{  @json_decode($data_cv->education)->redu_month }}/{{ @@json_decode($data_cv->education)->redu_year  }}</div>
 		<div class="content_fck">
-			05.2010 – 06.2014: <b>Course Title - University Name</b><br>
-Explain how your course helped you develop your knowledge in the areas that are relevant to the position you’re applying for.<br>
-If you have switched direction from the topic you studied, you may want to briefly explain the reasons behind this decision.<br>
+			{!!  @json_decode($data_cv->education)->redu_desc   !!}
 
 		</div>
 	</div>	
