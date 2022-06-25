@@ -17,6 +17,8 @@ Route::group(['middleware' => 'checkad'], function() {
 
 	Route::get('Listboard', 'adminController@Listboard')->name('admin-view-Listboard'); 
 
+	Route::get('employerlistboard', 'adminController@ListEmployer')->name('admin-list-employer'); 
+
 });
 
 Route::get('logout', 'adminController@logout')->name('admin-logout');

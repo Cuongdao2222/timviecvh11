@@ -134,43 +134,26 @@
                                     <p>Trang chủ</p>
                                 </a>
                             </li>
-                            <li class="nav-item"  >
-                                <div style="display:flex;">
-                                    <a href="https://dienmaynguoiviet.vn/admins/show/pop-up"
-                                        class="nav-link " style="width: 68%;">
-                                        <p>Hiển thị</p>
-                                    </a>
-                                    <span class="btn btn-link opens-fe" style="width: 12%;">+</span>
-                                </div>
-                                <!--  <ul style="width: 68%">
-                                    <li class="child-navs" style="">
-                                        <a href="https://dienmaynguoiviet.vn/admins/show/pop-up" class="nav-link">
-                                            <p>Popup-toàn trang</p>
-                                        </a>
-                                    </li>
-                                    
-                                    <li class="child-navs" style="">
-                                        <a href="#" class="nav-link">
-                                            <p>Tìm kiếm nhiều cuối trang</p>
-                                        </a>
-                                    </li>
-                                    
-                                    <li class="child-navs" style="">
-                                        <a href="#" class="nav-link">
-                                            <p>Đổi hình nền toàn trang</p>
-                                        </a>
-                                    </li>
-                                    
-                                    </ul> -->
-                            </li>
+                          
                             <li class="nav-item" style="display: flex; height:44px;"  >
-                                <a href="https://dienmaynguoiviet.vn/admins/groupProducts"
+                                <a href="{{ route('admin-view-Listboard') }}"
                                     class="nav-link " style="width: 68%;">
-                                    <p>Nhóm sản phẩm</p>
+                                    <p>Ứng viên</p>
                                 </a>
                                 <span class="btn btn-link open" style="width: 12%;">+</span>
                             </li>
-                           
+
+
+                            <li class="nav-item" style="display: flex; height:44px;"  >
+                                <a href="{{ route('admin-list-employer') }}"
+                                    class="nav-link " style="width: 68%;">
+                                    <p>Nhà tuyển dụng</p>
+                                </a>
+                                <span class="btn btn-link open" style="width: 12%;">+</span>
+                            </li>
+                            
+
+                            
                           
                             <style type="text/css">
                                 .child-nav a{

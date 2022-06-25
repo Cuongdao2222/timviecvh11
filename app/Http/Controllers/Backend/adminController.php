@@ -26,6 +26,11 @@ class adminController extends Controller
         return view('admin.listUv');
     }
 
+     public function ListEmployer()
+    {
+        return view('admin.employer_list');
+    }
+
     public function registerUser(Request $request)
     {
         $input = $request->All();

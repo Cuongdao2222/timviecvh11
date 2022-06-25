@@ -36,4 +36,11 @@ class ajaxController extends Controller
         return response('thanh cong');
 
     }
+    public function getInfoDataCV(Request $request)
+    {
+        $id = $request->id;
+        $data = apply_job::where('user_id', $id)->get();
+        return view('ajax.job_apply', compact('data'));
+
+    }
 }

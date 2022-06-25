@@ -26,6 +26,10 @@ Route::get('/', 'indexController@Home')->name('home');
 
     Route::get('apply-job', 'ajaxController@saveApply_job')->name('apply-job'); 
 
+     Route::get('view-apply-job', 'ajaxController@getInfoDataCV')->name('view-apply-job'); 
+
+    
+
 });
 
 
