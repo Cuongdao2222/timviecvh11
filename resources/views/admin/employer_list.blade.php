@@ -19,7 +19,7 @@
 </style>
 
 
-<h2>Danh sách ứng viên</h2>
+<h2>Danh sách nhà tuyển dụng</h2>
 
 
 <table>
@@ -85,7 +85,7 @@
        
         $.ajax({
             type: 'GET',
-            url: "{{ route('view-job-post') }}",
+            url: "{{ route('view-apply-job') }}",
             data:{
                 id:id
             },
