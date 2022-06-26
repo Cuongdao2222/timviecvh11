@@ -116,6 +116,8 @@
             },
            
             success: function(result){
+                console.log(result);
+                
                 $('.modal-body').html('');
 
                 $('.modal-title').text('Danh sách cv')

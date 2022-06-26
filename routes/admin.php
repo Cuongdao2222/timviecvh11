@@ -23,7 +23,7 @@ Route::group(['middleware' => 'checkad'], function() {
 
 	Route::get('ajax-showJob', 'adminController@showJob')->name('admin-showjob');
 
-	Route::get('showApplyJob', 'adminController@showJob')->name('showApplyJob-ad');
+	Route::get('showApplyJob', 'adminController@showApplyJob')->name('showApplyJob-ad');
 
 	Route::get('delete-employ/{id}', 'adminController@removeEmploy')->name('delete-employ');
 
