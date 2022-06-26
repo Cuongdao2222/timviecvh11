@@ -16,7 +16,7 @@ Route::get('/', 'indexController@Home')->name('home');
 
 // Route::get('/job_details/{id}', 'Backend\employerController@index')->name('job_details'); 
 
- Route::get('/job-details/{link}','Backend\jobController@jobDetails')->name('job_details');
+ Route::get('/job-details/{link}/{id}.html','Backend\jobController@jobDetails')->name('job_details');
 
 
 

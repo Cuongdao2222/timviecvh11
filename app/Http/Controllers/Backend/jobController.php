@@ -8,14 +8,10 @@ use App\Models\job;
 
 class jobController extends Controller
 {
-    public function jobDetails($link)
+    public function jobDetails($link, $id)
     {
 
-        $findID = job::where('link', $link)->first();
-
-        if(empty($findID)){
-            abort('404');
-        }
+        $findID = job::findOrFail($id);
 
         $data = job::find($findID->id);
         return view('frontend.job_details', compact('data'));

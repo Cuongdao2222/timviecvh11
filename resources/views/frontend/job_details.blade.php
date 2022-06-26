@@ -581,7 +581,7 @@ if(typeof language === 'undefined')	var language = language_common;	else $.exten
                 <ul>
                     <li>
                         <strong><em class="mdi mdi-update"> </em>Ngày cập nhật</strong>
-                        <p>14/06/2022</p>
+                        <p>{{ $data->updated_at->format('d/m/Y') }}</p>
                     </li>
                     <li>
                         <strong> <em class="mdi mdi-briefcase"></em>Ngành nghề</strong>
@@ -644,12 +644,11 @@ if(typeof language === 'undefined')	var language = language_common;	else $.exten
 </div>
 <div class="detail-row">
     <h3 class="detail-title">Mô tả Công việc</h3>
-    <p>Đề xuất các kênh tuyển dụng phù hợp nhằm đáp ứng nhu cầu nhân sự cho nhà máy<br/>Triển khai các kế hoạch tuyển mộ, tuyển chọn ứng viên<br/>Phỏng vấn, đánh giá, tham vấn ra quyết định tuyển chọn ứng viên<br/>Xây dựng và cải tiến quy trình tuyển dụng<br/>Thực hiện các hoạt động hướng dẫn và đào tạo hội nhập cho nhân viên mới</p>
-    <p>Một số công việc khác trao đổi trong phỏng vấn</p>
+   	{!! $data->detail  !!}
 </div>
 <div class="detail-row">
     <h3 class="detail-title">Yêu Cầu Công Việc</h3>
-    <p>Nam, nữ kinh nghiệm 05 năm tuyển dụng hệ thống, td lao động số lượng lớn<br/>Ngoại hình khá, nhanh nhẹn, giao tiếp tốt.<br/>Thông thạo các kênh tuyển dụng<br/>Có kinh nghiệm quản lý nhân sự công ty quy mô 1000 lđ trở lên</p>
+   {!! $data->requirements  !!}
 </div>
 <div class="detail-row">
     <h3 class="detail-title">Thông tin khác</h3>

@@ -111,7 +111,7 @@
                 <div class="button-hambuger"><span class="mdi mdi-menu"></span></div>
                                 <div class="logo"><a href="https://careerbuilder.vn/vi/employers" title="homepage-employers">
                     <img src="./img/logo.png" alt="https://images.careerbuilder.vn/logo/logo_1482896879_1489026739.png" title="https://images.careerbuilder.vn/logo/logo_1482896879_1489026739.png" /></a></div>
-                <div class="main-menu">
+               <!--  <div class="main-menu">
                     <ul class="menu">
                         <li class=""><a href="https://careerbuilder.vn/vi/employers" alt="Trang chủ" title="Trang chủ">Trang Chủ</a></li>
                         <li class="dropdown "><a href="https://careerbuilder.vn/vi/employers/products-and-services">Sản Phẩm và Dịch Vụ</a>
@@ -133,7 +133,7 @@
                         <li class=""><a href="https://careerbuilder.vn/vi/hiringsite">Cẩm Nang Tuyển Dụng</a></li>
                         <li class=""><a href="https://careerbuilder.vn/vi/employers/services/contact">Liên hệ</a></li>
                     </ul>
-                </div>
+                </div> -->
             </div>
             <div class="right-wrap">
                                 <div class="main-login dropdown logged"><a href="https://careerbuilder.vn/vi/employers/hrcentral/accounts" title="cuong"> <span class="mdi mdi-account-circle"></span>Hi, <span class="name">cuong</span></a>
@@ -243,7 +243,7 @@
             <p>Danh Mục</p>
             <em class="mdi mdi-chevron-down"></em> 
         </div>
-        <div class="main-wrap">
+       <!--  <div class="main-wrap">
             <div class="left-wrap">
                 <ul class="list-menu">
                     <li > <a href="https://careerbuilder.vn/vi/employers/dashboard" title="Dashboard">Dashboard</a> </li>
@@ -264,7 +264,7 @@
                     <li> <a class="but-createjob" href="https://careerbuilder.vn/vi/employers/postjobs"> <em class="material-icons">assignment_ind</em> Đăng Tuyển Dụng </a> </li>
                 </ul>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
 <div class="last-login-user">
