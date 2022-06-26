@@ -1,6 +1,7 @@
 <div class="register-form">
     <form name="frmRegister" id="frmRegister" method="POST" action="{{ route('post-register-admin') }}" autocomplete="off">
-         <input type="hidden" name="_token" value="8cwsGg0cLIgUHsmzra6WSu9RF22goMqwLbrayK76">                                            <div class="form-group form-text">
+        @csrf
+        <div class="form-group form-text">
             <input name="name" id="name" maxlength="15" type="text" autocomplete="off" value="">
             <label for="">* Tên</label>
             <span class="error_firstname" style="display:none"></span>

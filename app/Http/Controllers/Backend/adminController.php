@@ -43,9 +43,11 @@ class adminController extends Controller
         $user->name = $input['name'];
         $user->email = $input['email'];
         $user->password = $input['password'];
+
+
         $user->save();
        
-        return redirect()->back()->with('success', 'Đăng ký thành công');
+        return redirect(route('admin login'))->with('success', 'Đăng ký thành công');
 
     }
 
