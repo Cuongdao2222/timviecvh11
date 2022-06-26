@@ -343,7 +343,7 @@
                                         <span class="title">Việc làm đang đăng</span>
                                     </a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="#">
                                         <span class="number blue">0</span>
                                         <span class="title">Việc làm chờ đăng</span>
@@ -366,7 +366,7 @@
                                         <span class="number ">0</span>
                                         <span class="title">Followers</span>
                                     </a>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                     </div>

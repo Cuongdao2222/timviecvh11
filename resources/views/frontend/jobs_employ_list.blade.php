@@ -8,11 +8,11 @@
         <div class="heading-manage">
             <div class="left-heading">
                 <h1 class="title-manage">Quản Lý Tuyển Dụng</h1>
-                <div class="button"><a class="btn-gradient" href="https://careerbuilder.vn/vi/employers/postjobs"><em class="material-icons">create</em>Tạo Mẫu Tuyển Dụng</a></div>
+                <div class="button"><a class="btn-gradient" href="{{ route('form_recruit') }}"><em class="material-icons">create</em>Tạo Mẫu Tuyển Dụng</a></div>
             </div>
             <div class="right-heading"><a href="https://careerbuilder.vn/vi/employers/faq" target="_blank" class="support">Hướng dẫn</a></div>
         </div>
-        <div class="main-form-posting">
+        <!-- <div class="main-form-posting">
             <form name="frmSearchJob" id="frmSearchJob" action="" method="post" onsubmit="return validateSearch();">
                 <div class="form-wrap">
                     <div class="form-group form-text">
@@ -59,7 +59,7 @@
                     </div>
                 </div>
             </form>
-        </div>
+        </div> -->
         <script type="text/javascript">
             var action  = 'posting';
             var user_id = 'chiensi26045.1652405352';
@@ -177,7 +177,7 @@
                                         <th width="10%" onclick="setTypeSort('posting', 'asc', 4)">Hết hạn<em class="material-icons">sort</em></th>
                                         <th width="10%" onclick="setTypeSort('posting', 'asc', 0)">Lượt Xem<em class="material-icons">sort</em></th>
                                         <th width="10%" onclick="setTypeSort('posting', 'asc', 1)">Lượt Nộp<em class="material-icons">sort</em></th>
-                                        <th width="10%">CV Gợi Ý</th>
+                                       <!--  <th width="10%">CV Gợi Ý</th> -->
                                         <th width="15%">Sửa</th>
                                     </tr>
                                 </thead>
@@ -203,9 +203,7 @@
                                          <td>
                                             0
                                         </td>
-                                         <td>
-                                            7
-                                        </td>
+                                        
                                         <td colspan="9" class="cb-text-center">
 
                                             <a href="#">Sửa</a>
