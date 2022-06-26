@@ -205,7 +205,7 @@
                                         <li><a href="https://careerbuilder.vn/vi/employers/postjobs">Đăng Tuyển Dụng</a></li>
                                         <li><a href="https://careerbuilder.vn/vi/tim-ung-vien.html">Tìm Hồ Sơ</a></li>
 
-                                                                                                                                <li><a href="https://careerbuilder.vn/vi/employers/careerbuilder-rewards">CareerBuilder Rewards</a></li>
+                                        <li><a href="https://careerbuilder.vn/vi/employers/careerbuilder-rewards">CareerBuilder Rewards</a></li>
                                                                                                                 </ul>
                                 </div>
                             </li>
@@ -338,25 +338,25 @@
                         <div class="body">
                             <ul class="list-post-management">
                                 <li>
-                                    <a href="https://careerbuilder.vn/vi/employers/hrcentral/posting/user_id/chiensi26045.1652405352">
+                                    <a href="{{ route('employers-info-list') }}">
                                         <span class="number green">{{ $job }}</span>
                                         <span class="title">Việc làm đang đăng</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://careerbuilder.vn/vi/employers/hrcentral/waitposting/user_id/chiensi26045.1652405352">
+                                    <a href="#">
                                         <span class="number blue">0</span>
                                         <span class="title">Việc làm chờ đăng</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://careerbuilder.vn/vi/employers/hrcentral/unposting/user_id/chiensi26045.1652405352">
+                                    <a href="#">
                                         <span class="number ">0</span>
                                         <span class="title">Việc làm tạm dừng đăng</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://careerbuilder.vn/vi/employers/hrcentral/expireposting/user_id/chiensi26045.1652405352">
+                                    <a href="#">
                                         <span class="number ">0</span>
                                         <span class="title">Việc làm hết hạn</span>
                                     </a>

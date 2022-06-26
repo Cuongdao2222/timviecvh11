@@ -39,11 +39,12 @@ Route::get('employers/register', 'Backend\employerController@index')->name('regi
 
 Route::get('employers_info', 'Backend\employerController@info_employer')->name('employers_info');
 
-Route::get('/employers-info-list','Backend\employerInfoController@index')->name('employers-info-list');
 
 
-Route::group(['prefix' => 'employer','middleware' => 'checklogin'], function() {
 
+Route::group(['prefix' => 'employer','middleware' => 'Checkemploy'], function() {
+
+    Route::get('employers-info-list','Backend\employerInfoController@index')->name('employers-info-list');
 
 
     Route::get('/apply', 'Backend\employerController@user_apply')->name('user_apply'); 

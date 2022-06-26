@@ -36,22 +36,24 @@
         
         <th>Xóa</th>
     </tr>
-    <tr>
+    
         @if(!empty($data))
             @foreach($data as $value)
-            <td>{{ $value->name }}</td>
-            <td><a href="#"> <button type="button" class="btn btn-primary">Xem</button> </a></td>
-            <td>
-                <button type="button" class="btn btn-primary"  onclick="data_apply_cv({{ $value->id }})">Xem</button>
-            </td>
-            <td>chọn</td>
-           
-            <td><a href="">Xóa</a></td>
+            <tr>
+                <td>{{ $value->name }}</td>
+                <td><a href="#"> <button type="button" class="btn btn-primary">Xem</button> </a></td>
+                <td>
+                    <button type="button" class="btn btn-primary"  onclick="data_apply_cv({{ $value->id }})">Xem</button>
+                </td>
+                <td>chọn</td>
+               
+                <td><a href="">Xóa</a></td>
+            </tr>
             @endforeach
         @endif    
         
         
-    </tr>
+   
 
 
     

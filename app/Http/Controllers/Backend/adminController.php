@@ -13,11 +13,18 @@ class adminController extends Controller
 {
     public function login()
     {
+         if(Auth::guard('admin')->check()){
+            return view('admin.listUv');
+
+        }
         return view('frontend.homes');
     }
 
     public function regiterView()
     {
+
+
+            
         return view('admin.register');
     }
 
@@ -97,7 +104,4 @@ class adminController extends Controller
 
     }
 
-    
-
-   
 }
