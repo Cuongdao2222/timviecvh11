@@ -47,7 +47,7 @@
                 </td>
                 <td>chọn</td>
                
-                <td><a href="">Xóa</a></td>
+                <td><a href="javascript:void(0)" onclick="remove_user({{ $value->id }})">Xóa</a></td>
              </tr>    
             @endforeach
         @endif    
@@ -101,6 +101,22 @@
             }
         });
         
+    }
+    function remove_user(id) {
+       
+       $.ajax({
+            type: 'GET',
+            url: "{{ route('Remove-user') }}",
+            data:{
+                id:id
+            },
+           
+            success: function(result){
+              
+                window.location.href;
+                
+            }
+        });
     }
    
     

@@ -89,6 +89,14 @@ class adminController extends Controller
         return redirect(route('admin login'));
     }
 
+    public function remove_user(Request $request)
+    {
+        $id = $request->id;
+        $user = User::find($id);
+        $user->delete();
+
+    }
+
     
 
    

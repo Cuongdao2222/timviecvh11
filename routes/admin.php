@@ -10,7 +10,9 @@ Route::post('post-register', 'adminController@registerUser')->name('post-registe
 
 Route::group(['middleware' => 'checkad'], function() {
 
-	Route::get('list-user', 'adminController@index')->name('list-user'); 
+	Route::get('list-user', 'adminController@index')->name('list-user');
+
+	Route::get('delete-user', 'adminController@remove_user')->name('Remove-user');
 
 	
 	Route::get('Listboard', 'adminController@Listboard')->name('admin-view-Listboard'); 
