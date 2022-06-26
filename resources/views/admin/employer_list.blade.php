@@ -41,13 +41,13 @@
             @foreach($data as $value)
             <tr>
                 <td>{{ $value->name }}</td>
-                <td><a href="#"> <button type="button" class="btn btn-primary">Xem</button> </a></td>
+                <td><button type="button" class="btn btn-primary"  onclick="data_job({{ $value->employ_id }})">Xem</button></td>
                 <td>
-                    <button type="button" class="btn btn-primary"  onclick="data_apply_cv({{ $value->id }})">Xem</button>
+                    <button type="button" class="btn btn-primary"  onclick="cv_apply({{ $value->employ_id }})">Xem</button>
                 </td>
                 <td>chọn</td>
                
-                <td><a href="">Xóa</a></td>
+                <td><a href="{{ route('delete-employ', $value->id) }}">Xóa</a></td>
             </tr>
             @endforeach
         @endif    
@@ -81,19 +81,44 @@
             </div>
         </div>
     </div>
+
+
+     
 <script type="text/javascript">
 
-    function data_apply_cv(id) {
+    function data_job(id) {
        
         $.ajax({
             type: 'GET',
-            url: "{{ route('view-apply-job') }}",
+            url: "{{ route('admin-showjob') }}",
             data:{
                 id:id
             },
            
             success: function(result){
+                $('.modal-body').html('');
+               $('.modal-body').append(result);
+                 $('#exampleModal').modal('show');
               
+                
+            }
+        });
+        
+    }
+
+    function cv_apply(id) {
+       
+        $.ajax({
+            type: 'GET',
+            url: "{{ route('showApplyJob-ad') }}",
+            data:{
+                id:id
+            },
+           
+            success: function(result){
+                $('.modal-body').html('');
+
+                $('.modal-title').text('Danh sách cv')
                $('.modal-body').append(result);
                  $('#exampleModal').modal('show');
               

@@ -41,7 +41,7 @@
             @foreach($data as $value)
             <tr>
                 <td>{{ $value->name }}</td>
-                <td><a href="{{ route('viewCv', $value->id) }}"> <button type="button" class="btn btn-primary">Xem</button> </a></td>
+                <td><a href="{{ route('viewCvadmin', $value->id) }}"> <button type="button" class="btn btn-primary">Xem</button> </a></td>
                 <td>
                     <button type="button" class="btn btn-primary"  onclick="data_apply_cv({{ $value->id }})">Xem</button>
                 </td>

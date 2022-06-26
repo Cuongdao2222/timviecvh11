@@ -19,6 +19,16 @@ Route::group(['middleware' => 'checkad'], function() {
 
 	Route::get('employerlistboard', 'adminController@ListEmployer')->name('admin-list-employer'); 
 
+	Route::get('cv/{id}', 'adminController@viewCv')->name('viewCvadmin');
+
+	Route::get('ajax-showJob', 'adminController@showJob')->name('admin-showjob');
+
+	Route::get('showApplyJob', 'adminController@showJob')->name('showApplyJob-ad');
+
+	Route::get('delete-employ/{id}', 'adminController@removeEmploy')->name('delete-employ');
+
+	
+
 });
 
 Route::get('logout', 'adminController@logout')->name('admin-logout');

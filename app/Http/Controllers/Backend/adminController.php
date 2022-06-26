@@ -6,8 +6,14 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\admin;
 use App\User;
+use App\Models\job;
+
+use App\Models\employ_info;
+
+use App\Models\apply_job;
 use DB;
 use Auth;
+use App\Models\application;
 
 class adminController extends Controller
 {
@@ -104,4 +110,41 @@ class adminController extends Controller
 
     }
 
+    public function viewCv($id)
+    {
+        $data_cv = application::findOrFail($id);
+
+        $email = (User::find($id))->email;
+
+        return view('user.cv', compact('data_cv','email'));
+    }
+
+    public function showJob(Request $request)
+    {
+        $id = $request->id;
+        $job = job::where('employer_id', $id)->get();
+        return view('ajax.job_employ', compact('job'));
+
+
+
+    }
+
+    public function showApplyJob(Request $request)
+    {
+        $id = $request->id;
+        $job_id = job::where('employer_id', $id)->get()->pluck('id')->toArray();
+
+        $apply_job = apply_job::whereIn('job_id', $job_id)->get();
+        return view('ajax.job_employ', compact('apply_job'));
+
+
+
+    }
+
+    public function removeEmploy($id)
+    {
+        $employ = employ_info::findOrFail($id);
+        $delete = $employ->delete();
+        return redirect()->back();
+    }    
 }
