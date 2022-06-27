@@ -37,6 +37,10 @@
         "classmap": [
             "database/seeds",
             "database/factories"
+        ],
+         "files": [
+           
+            "app/lib/Lib/simpledom/simple_html_dom.php"
         ]
     },
     "autoload-dev": {
