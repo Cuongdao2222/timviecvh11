@@ -33,13 +33,9 @@ Route::get('/', 'indexController@Home')->name('home');
 });
 
 
-
-
 Route::get('employers/register', 'Backend\employerController@index')->name('register_employer'); 
 
 Route::get('employers_info', 'Backend\employerController@info_employer')->name('employers_info');
-
-
 
 
 Route::group(['prefix' => 'employer','middleware' => 'Checkemploy'], function() {
