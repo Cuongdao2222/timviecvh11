@@ -14,7 +14,7 @@
 
 Route::get('/', 'indexController@Home')->name('home');
 
-Route::get('/crawl', 'crawlController@crawlJob')->name('home');
+Route::get('/crawl', 'crawlController@crawlJobDetail')->name('home');
 
 // Route::get('/job_details/{id}', 'Backend\employerController@index')->name('job_details'); 
 

@@ -105,7 +105,7 @@ Start New Layout CB -->
                 <div class="main-wrap">
                     <div class="left-wrap">
                         <div class="button-hambuger"><span class="mdi mdi-menu"></span></div>
-                        <div class="logo"><a href="https://careerbuilder.vn/vi/" title="Tuyển dụng & Tìm kiếm việc làm nhanh" ><img src="./img/logo.png" alt="Tuyển dụng & Tìm kiếm việc làm nhanh"></a></div>
+                        <div class="logo"><a href="#" title="Tuyển dụng & Tìm kiếm việc làm nhanh" ><img src="{{ asset('images/template/logo/logo.png') }}" alt="Tuyển dụng & Tìm kiếm việc làm nhanh"></a></div>
                         <div class="main-menu">
                             <ul class="menu">
                                 <li class="dropdown">
@@ -1131,7 +1131,7 @@ Start New Layout CB -->
             <div class="container">
                 <section class="top-footer cb-section cb-section-border-bottom">
                     <div class="row">
-                        <div class="col-lg-12 logo"><img class="lazy-bg" data-src="./img/logo.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Tuyển dụng & Tìm kiếm việc làm nhanh"></div>
+                        <div class="col-lg-12 logo"><img class="lazy-bg" data-src="{{ asset('images/template/logo/logo.png') }}" src="../kiemviecv32/images/graphics/blank.gif" alt="Tuyển dụng & Tìm kiếm việc làm nhanh"></div>
                         <div class="col-lg-2 col-sm-6">
                             <div class="footer-links">
                                 <h3>Dành Cho Ứng Viên</h3>

@@ -355,6 +355,16 @@
             <p>Nhỏ hơn 10 000 kí tự</p>
         </div>
     </div>
+
+    <div class="form-group form-editor" id="div_jobreq">
+        <label>Quyền lợi ứng viên<font style="color: red">*</font></label>
+        <textarea cols="80" rows="5" id="rights" name="rights" class="editor"></textarea>
+        <span class="form-error"></span>
+        <div class="note">
+            <p>Nhỏ hơn 10 000 kí tự</p>
+        </div>
+    </div>
+
     <div class="row">
         <div class="col-lg-6">
             <div class="form-group form-select-chosen">

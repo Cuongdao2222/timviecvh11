@@ -18,8 +18,6 @@ class applicationController extends Controller
             $data = $request->all();
             unset($data['_token']);
 
-
-
             if(!empty($application)){
 
                 $application->$action = json_encode($data);
@@ -28,8 +26,9 @@ class applicationController extends Controller
             }
         }
       
-       
         return redirect()->back();
        
     }
+
+
 }
