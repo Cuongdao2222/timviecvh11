@@ -15,6 +15,23 @@ use App\Models\employ_info;
 class crawlController extends Controller
 {
 
+
+    public function updateCrawl()
+    {
+        $employ = job::where('employer_id', 16)->get();
+
+        foreach ($employ as $key => $value) {
+
+            $employ = job::find($value->id);
+
+            $employ->employer_id = 19;
+
+            $employ->save();
+
+        }
+        echo "thanh cong";
+
+    }
     public function linkCpn()
     {
         $url = 'https://timviec365.vn/viec-lam-luong-cao.html';
@@ -93,7 +110,7 @@ class crawlController extends Controller
 
             $employ_info->address = strip_tags( $html->find('.text_ntd_2 span', 0));
 
-            $employ_info->logo =$html->find('.anh_cty img', 0)->src;
+            $employ_info->logo =$html->find('.anh_cty img', 0)->getAttribute('data-src');
 
             $employ_info->links = $this->convertSlug($employ_info->name);
 
@@ -103,11 +120,9 @@ class crawlController extends Controller
 
             $employ_info->save();
 
-            echo "thành công";
-
-           
-
+        
         }
+        echo "thành công";
 
     }
     public function crawlJob()

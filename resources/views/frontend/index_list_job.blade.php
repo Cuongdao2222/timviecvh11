@@ -619,8 +619,8 @@ Start New Layout CB -->
                 </section>
             </div>
             <section class="cb-section cb-section-border-bottom" id="box-job-suggest" style="display:none"></section>
-            <script src='https://ads1.careerbuilder.vn/js/cb/cb_homepage.js'></script>
-            <script src='https://static.careerbuilder.vn/2012/library_v2.0.4.js'></script>
+            <script src='{{ asset("js/caree/cb_homepage.js") }}'></script>
+            <script src='{{ asset("js/caree/library_v2.0.4.js") }}'></script>
             <section class="cb-section cb-section-border-bottom">
                 <div class="container">
                     <div class="cb-title cb-title-center">
@@ -686,13 +686,19 @@ Start New Layout CB -->
 
                                                     <?php 
 
-                                                        $job = DB::table('job')->join('employ_info', 'job.employer_id','=', 'employ_info.employ_id')->select('job.id', 'job.title', 'job.link','employ_info.logo', 'employ_info.name', 'employ_info.links')->get();
+                                                        
 
+                                                        // $job = DB::table('job')->join('employ_info', 'employ_info.employ_id', '=', 'job.employer_id')->select('job.id', 'job.title', 'job.link','employ_info.logo', 'employ_info.name', 'employ_info.links')->distinct()->get();
+
+
+                                                        $job= DB::table('employer_registers')->join('job', 'employer_registers.id', '=', 'job.employer_id')->join('employ_info', 'employer_registers.id', '=', 'employ_info.employ_id')->get();
+
+
+
+                                                      
                                                     ?>
 
                                                     @foreach($job as $jobs)
-
-                                                  
 
                                                     <div class="col-lg-6 ">
                                                         <div class="job-item">
