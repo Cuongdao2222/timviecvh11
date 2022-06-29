@@ -16,6 +16,7 @@ Route::get('/', 'indexController@Home')->name('home');
 
 Route::get('/crawl', 'crawlController@crawlJobDetail')->name('home');
 
+
 // Route::get('/job_details/{id}', 'Backend\employerController@index')->name('job_details'); 
 
  Route::get('/job-details/{link}/{id}.html','Backend\jobController@jobDetails')->name('job_details');
@@ -33,6 +34,10 @@ Route::get('/crawl', 'crawlController@crawlJobDetail')->name('home');
     
 
 });
+
+Route::get('/alljob', function () {
+    return view('frontend.all_job');
+})->name('all_job'); 
 
 
 Route::get('employers/register', 'Backend\employerController@index')->name('register_employer'); 

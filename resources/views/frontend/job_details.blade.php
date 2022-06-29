@@ -1,1633 +1,1083 @@
 
-<!--Start New Layout CB -->
-<!DOCTYPE html>
-<html lang="vi">
-	<head>
-<meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<meta name="robots" content="index,follow">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, maximum-scale=1"/>
-<base href="https://static.careerbuilder.vn/themes/careerbuilder/"/>
-<meta name="theme-color" content="#1e5c8b"/>
-<title>Việc làm Nhân Viên Tuyển Dụng - Công Ty TNHH May Thêu Giày An Phước</title>
-<meta name="description" content="Công Ty TNHH May Thêu Giày An Phước tuyển dụng Nhân Viên Tuyển Dụng ở  Hồ Chí Minh. Ngành nghề: Nhân sự, Dệt may / Da giày / Thời trang, Hành chính / Thư ký - 14/06/2022" />
-<meta name="keywords" content="Nhân Viên Tuyển Dụng, Dệt may, Da giày, Thời trang, Nhân sự" />
-<link href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html" hreflang="vi-vn" rel="alternate"/>
-<link href="https://careerbuilder.vn/en/search-job/nhan-vien-tuyen-dung.35B9A7C0.html" hreflang="x-default" rel="alternate"/>
-<meta property="og:url" content="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html"/>
-<meta property="og:title" content="Việc làm Nhân Viên Tuyển Dụng - Công Ty TNHH May Thêu Giày An Phước"/>
-<meta property="og:description" content="Công Ty TNHH May Thêu Giày An Phước tuyển dụng Nhân Viên Tuyển Dụng ở  Hồ Chí Minh. Ngành nghề: Nhân sự, Dệt may / Da giày / Thời trang, Hành chính / Thư ký - 14/06/2022"/><meta name="apple-mobile-web-app-capable" content="yes"/>
-<meta name="apple-mobile-web-app-status-bar-style" content="#1e5c8b"/>
-<meta name="apple-mobile-web-app-title" content="CareerBuilder"/>
-<link rel="apple-touch-icon" href="https://careerbuilder.vn/favicon_careerbuilder_v2.ico?t=1"/>
-<link rel="apple-touch-icon" sizes="57x57" href="https://static.careerbuilder.vn/themes/kiemviecv32/images/graphics/cb_57x57.png?t=1"/>
-<link rel="apple-touch-icon" sizes="76x76" href="https://static.careerbuilder.vn/themes/kiemviecv32/images/graphics/cb_76x76.png?t=1"/>
-<link rel="apple-touch-icon" sizes="120x120" href="https://static.careerbuilder.vn/themes/kiemviecv32/images/graphics/cb_120x120.png?t=1"/>
-<link rel="apple-touch-icon" sizes="152x152" href="https://static.careerbuilder.vn/themes/kiemviecv32/images/graphics/cb_152x152.png?t=1"/>
-<link rel="apple-touch-icon" sizes="167x167" href="https://static.careerbuilder.vn/themes/kiemviecv32/images/graphics/cb_167x167.png?t=1"/>
-<link rel="apple-touch-icon" sizes="180x180" href="https://static.careerbuilder.vn/themes/kiemviecv32/images/graphics/cb_180x180.png?t=1"/>
-<link href="https://careerbuilder.vn/manifest.json" rel="manifest"/>
-<meta property="og:image" content="https://images.careerbuilder.vn/employer_folders/lot6/2816/200x200/74705logoap.jpg"/>
-<link data-page-subject="true" href="https://images.careerbuilder.vn/employer_folders/lot6/2816/200x200/74705logoap.jpg" rel="image_src"/>
-<meta property="fb:app_id" content="143458889176984"/>
-<link rel="shortcut icon" href="https://careerbuilder.vn/favicon_careerbuilder_v2.ico?t=1"/>
-<link href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html" rel="canonical" />
-<style>/*jquery.fancybox.css*/
-body.compensate-for-scrollbar{overflow:hidden;}.fancybox-active{height:auto;}.fancybox-is-hidden{left:-9999px;margin:0;position:absolute !important;top:-9999px;visibility:hidden;}.fancybox-container{-webkit-backface-visibility:hidden;height:100%;left:0;outline:none;position:fixed;-webkit-tap-highlight-color:transparent;top:0;-ms-touch-action:manipulation;touch-action:manipulation;transform:translateZ(0);width:100%;z-index:99992;}.fancybox-container *{box-sizing:border-box;}.fancybox-outer, .fancybox-inner, .fancybox-bg, .fancybox-stage{bottom:0;left:0;position:absolute;right:0;top:0;}.fancybox-outer{-webkit-overflow-scrolling:touch;overflow-y:auto;}.fancybox-bg{background:rgb(30, 30, 30);opacity:0;transition-duration:inherit;transition-property:opacity;transition-timing-function:cubic-bezier(.47, 0, .74, .71);}.fancybox-is-open .fancybox-bg{opacity:.9;transition-timing-function:cubic-bezier(.22, .61, .36, 1);}.fancybox-infobar, .fancybox-toolbar, .fancybox-caption, .fancybox-navigation .fancybox-button{direction:ltr;opacity:0;position:absolute;transition:opacity .25s ease, visibility 0s ease .25s;visibility:hidden;z-index:99997;}.fancybox-show-infobar .fancybox-infobar, .fancybox-show-toolbar .fancybox-toolbar, .fancybox-show-caption .fancybox-caption, .fancybox-show-nav .fancybox-navigation .fancybox-button{opacity:1;transition:opacity .25s ease 0s, visibility 0s ease 0s;visibility:visible;}.fancybox-infobar{color:#ccc;font-size:13px;-webkit-font-smoothing:subpixel-antialiased;height:44px;left:0;line-height:44px;min-width:44px;mix-blend-mode:difference;padding:0 10px;pointer-events:none;top:0;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}.fancybox-toolbar{right:0;top:0;}.fancybox-stage{direction:ltr;overflow:visible;transform:translateZ(0);z-index:99994;}.fancybox-is-open .fancybox-stage{overflow:hidden;}.fancybox-slide{-webkit-backface-visibility:hidden;display:none;height:100%;left:0;outline:none;overflow:auto;-webkit-overflow-scrolling:touch;padding:44px;position:absolute;text-align:center;top:0;transition-property:transform, opacity;white-space:normal;width:100%;z-index:99994;}.fancybox-slide::before{content:'';display:inline-block;font-size:0;height:100%;vertical-align:middle;width:0;}.fancybox-is-sliding .fancybox-slide, .fancybox-slide--previous, .fancybox-slide--current, .fancybox-slide--next{display:block;}.fancybox-slide--image{overflow:hidden;padding:44px 0;}.fancybox-slide--image::before{display:none;}.fancybox-slide--html{padding:6px;}.fancybox-content{background:#fff;display:inline-block;margin:0;max-width:100%;overflow:auto;-webkit-overflow-scrolling:touch;padding:44px;position:relative;text-align:left;vertical-align:middle;}.fancybox-slide--image .fancybox-content{animation-timing-function:cubic-bezier(.5, 0, .14, 1);-webkit-backface-visibility:hidden;background:transparent;background-repeat:no-repeat;background-size:100% 100%;left:0;max-width:none;overflow:visible;padding:0;position:absolute;top:0;-ms-transform-origin:top left;transform-origin:top left;transition-property:transform, opacity;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;z-index:99995;}.fancybox-can-zoomOut .fancybox-content{cursor:zoom-out;}.fancybox-can-zoomIn .fancybox-content{cursor:zoom-in;}.fancybox-can-swipe .fancybox-content, .fancybox-can-pan .fancybox-content{cursor:-webkit-grab;cursor:grab;}.fancybox-is-grabbing .fancybox-content{cursor:-webkit-grabbing;cursor:grabbing;}.fancybox-container [data-selectable='true']{cursor:text;}.fancybox-image, .fancybox-spaceball{background:transparent;border:0;height:100%;left:0;margin:0;max-height:none;max-width:none;padding:0;position:absolute;top:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:100%;}.fancybox-spaceball{z-index:1;}.fancybox-slide--video .fancybox-content, .fancybox-slide--map .fancybox-content, .fancybox-slide--pdf .fancybox-content, .fancybox-slide--iframe .fancybox-content{height:100%;overflow:visible;padding:0;width:100%;}.fancybox-slide--video .fancybox-content{background:#000;}.fancybox-slide--map .fancybox-content{background:#e5e3df;}.fancybox-slide--iframe .fancybox-content{background:#fff;}.fancybox-video, .fancybox-iframe{background:transparent;border:0;display:block;height:100%;margin:0;overflow:hidden;padding:0;width:100%;}.fancybox-iframe{left:0;position:absolute;top:0;}.fancybox-error{background:#fff;cursor:default;max-width:400px;padding:40px;width:100%;}.fancybox-error p{color:#444;font-size:16px;line-height:20px;margin:0;padding:0;}.fancybox-button{background:rgba(30, 30, 30, .6);border:0;border-radius:0;box-shadow:none;cursor:pointer;display:inline-block;height:44px;margin:0;padding:10px;position:relative;transition:color .2s;vertical-align:top;visibility:inherit;width:44px;}.fancybox-button, .fancybox-button:visited, .fancybox-button:link{color:#ccc;}.fancybox-button:hover{color:#fff;}.fancybox-button:focus{outline:none;}.fancybox-button.fancybox-focus{outline:1px dotted;}.fancybox-button[disabled], .fancybox-button[disabled]:hover{color:#888;cursor:default;outline:none;}.fancybox-button div{height:100%;}.fancybox-button svg{display:block;height:100%;overflow:visible;position:relative;width:100%;}.fancybox-button svg path{fill:currentColor;stroke-width:0;}.fancybox-button--play svg:nth-child(2), .fancybox-button--fsenter svg:nth-child(2){display:none;}.fancybox-button--pause svg:nth-child(1), .fancybox-button--fsexit svg:nth-child(1){display:none;}.fancybox-progress{background:#ff5268;height:2px;left:0;position:absolute;right:0;top:0;-ms-transform:scaleX(0);transform:scaleX(0);-ms-transform-origin:0;transform-origin:0;transition-property:transform;transition-timing-function:linear;z-index:99998;}.fancybox-close-small{background:transparent;border:0;border-radius:0;color:#ccc;cursor:pointer;opacity:.8;padding:8px;position:absolute;right:-12px;top:-44px;z-index:401;}.fancybox-close-small:hover{color:#fff;opacity:1;}.fancybox-slide--html .fancybox-close-small{color:currentColor;padding:10px;right:0;top:0;}.fancybox-slide--image.fancybox-is-scaling .fancybox-content{overflow:hidden;}.fancybox-is-scaling .fancybox-close-small, .fancybox-is-zoomable.fancybox-can-pan .fancybox-close-small{display:none;}.fancybox-navigation .fancybox-button{background-clip:content-box;height:100px;opacity:0;position:absolute;top:calc(50% - 50px);width:70px;}.fancybox-navigation .fancybox-button div{padding:7px;}.fancybox-navigation .fancybox-button--arrow_left{left:0;left:env(safe-area-inset-left);padding:31px 26px 31px 6px;}.fancybox-navigation .fancybox-button--arrow_right{padding:31px 6px 31px 26px;right:0;right:env(safe-area-inset-right);}.fancybox-caption{background:linear-gradient(to top, rgba(0, 0, 0, .85) 0%, rgba(0, 0, 0, .3) 50%, rgba(0, 0, 0, .15) 65%, rgba(0, 0, 0, .075) 75.5%, rgba(0, 0, 0, .037) 82.85%, rgba(0, 0, 0, .019) 88%, rgba(0, 0, 0, 0) 100%);bottom:0;color:#eee;font-size:14px;font-weight:400;left:0;line-height:1.5;padding:75px 44px 25px 44px;pointer-events:none;right:0;text-align:center;z-index:99996;}@supports (padding:max(0px)){.fancybox-caption{padding:75px max(44px, env(safe-area-inset-right)) max(25px, env(safe-area-inset-bottom)) max(44px, env(safe-area-inset-left));}}.fancybox-caption--separate{margin-top:-50px;}.fancybox-caption__body{max-height:50vh;overflow:auto;pointer-events:all;}.fancybox-caption a, .fancybox-caption a:link, .fancybox-caption a:visited{color:#ccc;text-decoration:none;}.fancybox-caption a:hover{color:#fff;text-decoration:underline;}.fancybox-loading{animation:fancybox-rotate 1s linear infinite;background:transparent;border:4px solid #888;border-bottom-color:#fff;border-radius:50%;height:50px;left:50%;margin:-25px 0 0 -25px;opacity:.7;padding:0;position:absolute;top:50%;width:50px;z-index:99999;}@keyframes fancybox-rotate{100%{transform:rotate(360deg);}}.fancybox-animated{transition-timing-function:cubic-bezier(0, 0, .25, 1);}.fancybox-fx-slide.fancybox-slide--previous{opacity:0;transform:translate3d(-100%, 0, 0);}.fancybox-fx-slide.fancybox-slide--next{opacity:0;transform:translate3d(100%, 0, 0);}.fancybox-fx-slide.fancybox-slide--current{opacity:1;transform:translate3d(0, 0, 0);}.fancybox-fx-fade.fancybox-slide--previous, .fancybox-fx-fade.fancybox-slide--next{opacity:0;transition-timing-function:cubic-bezier(.19, 1, .22, 1);}.fancybox-fx-fade.fancybox-slide--current{opacity:1;}.fancybox-fx-zoom-in-out.fancybox-slide--previous{opacity:0;transform:scale3d(1.5, 1.5, 1.5);}.fancybox-fx-zoom-in-out.fancybox-slide--next{opacity:0;transform:scale3d(.5, .5, .5);}.fancybox-fx-zoom-in-out.fancybox-slide--current{opacity:1;transform:scale3d(1, 1, 1);}.fancybox-fx-rotate.fancybox-slide--previous{opacity:0;-ms-transform:rotate(-360deg);transform:rotate(-360deg);}.fancybox-fx-rotate.fancybox-slide--next{opacity:0;-ms-transform:rotate(360deg);transform:rotate(360deg);}.fancybox-fx-rotate.fancybox-slide--current{opacity:1;-ms-transform:rotate(0deg);transform:rotate(0deg);}.fancybox-fx-circular.fancybox-slide--previous{opacity:0;transform:scale3d(0, 0, 0) translate3d(-100%, 0, 0);}.fancybox-fx-circular.fancybox-slide--next{opacity:0;transform:scale3d(0, 0, 0) translate3d(100%, 0, 0);}.fancybox-fx-circular.fancybox-slide--current{opacity:1;transform:scale3d(1, 1, 1) translate3d(0, 0, 0);}.fancybox-fx-tube.fancybox-slide--previous{transform:translate3d(-100%, 0, 0) scale(.1) skew(-10deg);}.fancybox-fx-tube.fancybox-slide--next{transform:translate3d(100%, 0, 0) scale(.1) skew(10deg);}.fancybox-fx-tube.fancybox-slide--current{transform:translate3d(0, 0, 0) scale(1);}@media all and (max-height:576px){.fancybox-slide{padding-left:6px;padding-right:6px;}.fancybox-slide--image{padding:6px 0;}.fancybox-close-small{right:-6px;}.fancybox-slide--image .fancybox-close-small{background:#4e4e4e;color:#f2f4f6;height:36px;opacity:1;padding:6px;right:0;top:0;width:36px;}.fancybox-caption{padding-left:12px;padding-right:12px;}@supports (padding:max(0px)){.fancybox-caption{padding-left:max(12px, env(safe-area-inset-left));padding-right:max(12px, env(safe-area-inset-right));}}}.fancybox-share{background:#f4f4f4;border-radius:3px;max-width:90%;padding:30px;text-align:center;}.fancybox-share h1{color:#222;font-size:35px;font-weight:700;margin:0 0 20px 0;}.fancybox-share p{margin:0;padding:0;}.fancybox-share__button{border:0;border-radius:3px;display:inline-block;font-size:14px;font-weight:700;line-height:40px;margin:0 5px 10px 5px;min-width:130px;padding:0 15px;text-decoration:none;transition:all .2s;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;white-space:nowrap;}.fancybox-share__button:visited, .fancybox-share__button:link{color:#fff;}.fancybox-share__button:hover{text-decoration:none;}.fancybox-share__button--fb{background:#3b5998;}.fancybox-share__button--fb:hover{background:#344e86;}.fancybox-share__button--pt{background:#bd081d;}.fancybox-share__button--pt:hover{background:#aa0719;}.fancybox-share__button--tw{background:#1da1f2;}.fancybox-share__button--tw:hover{background:#0d95e8;}.fancybox-share__button svg{height:25px;margin-right:7px;position:relative;top:-1px;vertical-align:middle;width:25px;}.fancybox-share__button svg path{fill:#fff;}.fancybox-share__input{background:transparent;border:0;border-bottom:1px solid #d7d7d7;border-radius:0;color:#5d5b5b;font-size:14px;margin:10px 0 0 0;outline:none;padding:10px 15px;width:100%;}.fancybox-thumbs{background:#ddd;bottom:0;display:none;margin:0;-webkit-overflow-scrolling:touch;-ms-overflow-style:-ms-autohiding-scrollbar;padding:2px 2px 4px 2px;position:absolute;right:0;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);top:0;width:212px;z-index:99995;}.fancybox-thumbs-x{overflow-x:auto;overflow-y:hidden;}.fancybox-show-thumbs .fancybox-thumbs{display:block;}.fancybox-show-thumbs .fancybox-inner{right:212px;}.fancybox-thumbs__list{font-size:0;height:100%;list-style:none;margin:0;overflow-x:hidden;overflow-y:auto;padding:0;position:absolute;position:relative;white-space:nowrap;width:100%;}.fancybox-thumbs-x .fancybox-thumbs__list{overflow:hidden;}.fancybox-thumbs-y .fancybox-thumbs__list::-webkit-scrollbar{width:7px;}.fancybox-thumbs-y .fancybox-thumbs__list::-webkit-scrollbar-track{background:#fff;border-radius:10px;box-shadow:inset 0 0 6px rgba(0, 0, 0, .3);}.fancybox-thumbs-y .fancybox-thumbs__list::-webkit-scrollbar-thumb{background:#2a2a2a;border-radius:10px;}.fancybox-thumbs__list a{-webkit-backface-visibility:hidden;backface-visibility:hidden;background-color:rgba(0, 0, 0, .1);background-position:center center;background-repeat:no-repeat;background-size:cover;cursor:pointer;float:left;height:75px;margin:2px;max-height:calc(100% - 8px);max-width:calc(50% - 4px);outline:none;overflow:hidden;padding:0;position:relative;-webkit-tap-highlight-color:transparent;width:100px;}.fancybox-thumbs__list a::before{border:6px solid #ff5268;bottom:0;content:'';left:0;opacity:0;position:absolute;right:0;top:0;transition:all .2s cubic-bezier(.25, .46, .45, .94);z-index:99991;}.fancybox-thumbs__list a:focus::before{opacity:.5;}.fancybox-thumbs__list a.fancybox-thumbs-active::before{opacity:1;}@media all and (max-width:576px){.fancybox-thumbs{width:110px;}.fancybox-show-thumbs .fancybox-inner{right:110px;}.fancybox-thumbs__list a{max-width:calc(100% - 10px);}}
-
-/*global.css*/
-@charset "UTF-8";@font-face{src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-ThinItalic.eot");src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-ThinItalic.eot?#iefix") format('embedded-opentype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-ThinItalic.woff2") format('woff2'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-ThinItalic.woff") format('woff'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-ThinItalic.ttf") format('truetype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-ThinItalic.svg#Roboto-ThinItalic") format('svg');font-display:swap;font-family:'Roboto';font-style:italic;font-weight:100;}@font-face{src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Light.eot");src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Light.eot?#iefix") format('embedded-opentype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Light.woff2") format('woff2'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Light.woff") format('woff'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Light.ttf") format('truetype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Light.svg#Roboto-Light") format('svg');font-display:swap;font-family:'Roboto';font-style:normal;font-weight:300;}@font-face{src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Bold.eot");src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Bold.eot?#iefix") format('embedded-opentype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Bold.woff2") format('woff2'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Bold.woff") format('woff'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Bold.ttf") format('truetype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Bold.svg#Roboto-Bold") format('svg');font-display:swap;font-family:'Roboto';font-style:normal;font-weight:bold;}@font-face{src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Black.eot");src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Black.eot?#iefix") format('embedded-opentype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Black.woff2") format('woff2'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Black.woff") format('woff'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Black.ttf") format('truetype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Black.svg#Roboto-Black") format('svg');font-display:swap;font-family:'Roboto';font-style:normal;font-weight:900;}@font-face{src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-MediumItalic.eot");src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-MediumItalic.eot?#iefix") format('embedded-opentype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-MediumItalic.woff2") format('woff2'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-MediumItalic.woff") format('woff'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-MediumItalic.ttf") format('truetype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-MediumItalic.svg#Roboto-MediumItalic") format('svg');font-display:swap;font-family:'Roboto';font-style:italic;font-weight:500;}@font-face{src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-BoldItalic.eot");src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-BoldItalic.eot?#iefix") format('embedded-opentype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-BoldItalic.woff2") format('woff2'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-BoldItalic.woff") format('woff'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-BoldItalic.ttf") format('truetype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-BoldItalic.svg#Roboto-BoldItalic") format('svg');font-display:swap;font-family:'Roboto';font-style:italic;font-weight:bold;}@font-face{src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Italic.eot");src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Italic.eot?#iefix") format('embedded-opentype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Italic.woff2") format('woff2'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Italic.woff") format('woff'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Italic.ttf") format('truetype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Italic.svg#Roboto-Italic") format('svg');font-display:swap;font-family:'Roboto';font-style:italic;font-weight:normal;}@font-face{src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Regular.eot");src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Regular.eot?#iefix") format('embedded-opentype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Regular.woff2") format('woff2'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Regular.woff") format('woff'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Regular.ttf") format('truetype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Regular.svg#Roboto-Regular") format('svg');font-display:swap;font-family:'Roboto';font-style:normal;font-weight:normal;}@font-face{src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-BlackItalic.eot");src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-BlackItalic.eot?#iefix") format('embedded-opentype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-BlackItalic.woff2") format('woff2'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-BlackItalic.woff") format('woff'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-BlackItalic.ttf") format('truetype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-BlackItalic.svg#Roboto-BlackItalic") format('svg');font-display:swap;font-family:'Roboto';font-style:italic;font-weight:900;}@font-face{src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Thin.eot");src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Thin.eot?#iefix") format('embedded-opentype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Thin.woff2") format('woff2'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Thin.woff") format('woff'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Thin.ttf") format('truetype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Thin.svg#Roboto-Thin") format('svg');font-display:swap;font-family:'Roboto';font-style:normal;font-weight:100;}@font-face{src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Medium.eot");src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Medium.eot?#iefix") format('embedded-opentype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Medium.woff2") format('woff2'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Medium.woff") format('woff'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Medium.ttf") format('truetype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-Medium.svg#Roboto-Medium") format('svg');font-display:swap;font-family:'Roboto';font-style:normal;font-weight:500;}@font-face{src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-LightItalic.eot");src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-LightItalic.eot?#iefix") format('embedded-opentype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-LightItalic.woff2") format('woff2'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-LightItalic.woff") format('woff'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-LightItalic.ttf") format('truetype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Roboto-LightItalic.svg#Roboto-LightItalic") format('svg');font-display:swap;font-family:'Roboto';font-style:italic;font-weight:300;}@font-face{src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/materialdesignicons-webfont.eot?v=4.9.95");src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/materialdesignicons-webfont.eot?#iefix&v=4.9.95") format("embedded-opentype"), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/materialdesignicons-webfont.woff2?v=4.9.95") format("woff2"), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/materialdesignicons-webfont.woff?v=4.9.95") format("woff"), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/materialdesignicons-webfont.ttf?v=4.9.95") format("truetype");font-display:swap;font-family:"Material Design Icons";font-style:normal;font-weight:normal;}.mdi:before, .mdi-set{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;display:inline-block;font:normal normal normal 24px/1 "Material Design Icons";font-size:inherit;line-height:inherit;text-rendering:auto;}@font-face{src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Linearicons-Free.eot?w118d");src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Linearicons-Free.eot?#iefixw118d") format('embedded-opentype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Linearicons-Free.woff2?w118d") format('woff2'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Linearicons-Free.woff?w118d") format('woff'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Linearicons-Free.ttf?w118d") format('truetype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/Linearicons-Free.svg?w118d#Linearicons-Free") format('svg');font-display:swap;font-family:'Linearicons-Free';font-style:normal;font-weight:normal;}.lnr:before{speak:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:'Linearicons-Free';font-style:normal;font-variant:normal;font-weight:normal;line-height:1;text-transform:none;}@font-face{font-display:swap;src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/material-icons.woff2") format('woff2');font-family:'Material Icons';font-style:normal;font-weight:400}.material-icons{word-wrap:normal;-webkit-font-feature-settings:'liga';-webkit-font-smoothing:antialiased;display:inline-block;font-family:'Material Icons';font-size:24px;font-style:normal;font-weight:normal;letter-spacing:normal;line-height:1;direction:ltr;text-transform:none;white-space:nowrap;}@font-face{src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/fontawesome-webfont.eot?v=4.7.0");src:url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format('embedded-opentype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/fontawesome-webfont.woff2?v=4.7.0") format('woff2'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/fontawesome-webfont.woff?v=4.7.0") format('woff'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/fontawesome-webfont.ttf?v=4.7.0") format('truetype'), url("https://static.careerbuilder.vn/themes/careerbuilder/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format('svg');font-display:swap;font-family:'FontAwesome';font-style:normal;font-weight:normal;}.fa{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;}.fa-lg{font-size:1.33333333em;line-height:0.75em;vertical-align:-15%;}.fa-2x{font-size:2em;}.fa-3x{font-size:3em;}.fa-4x{font-size:4em;}.fa-5x{font-size:5em;}.fa-fw{width:1.28571429em;text-align:center;}.fa-ul{margin-left:2.14285714em;padding-left:0;list-style-type:none;}.fa-ul > li{position:relative;}.fa-li{position:absolute;top:0.14285714em;left:-2.14285714em;width:2.14285714em;text-align:center;}.fa-li.fa-lg{left:-1.85714286em;}.fa-border{padding:.2em .25em .15em;border:solid 0.08em #eeeeee;border-radius:.1em;}.fa-pull-left{float:left;}.fa-pull-right{float:right;}.fa.fa-pull-left{margin-right:.3em;}.fa.fa-pull-right{margin-left:.3em;}.pull-right{float:right;}.pull-left{float:left;}.fa.pull-left{margin-right:.3em;}.fa.pull-right{margin-left:.3em;}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear;}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8);}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg);}}@keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg);}}.fa-rotate-90{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg);}.fa-rotate-180{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}.fa-rotate-270{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";-webkit-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg);}.fa-flip-horizontal{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";-webkit-transform:scale(-1, 1);-ms-transform:scale(-1, 1);transform:scale(-1, 1);}.fa-flip-vertical{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";-webkit-transform:scale(1, -1);-ms-transform:scale(1, -1);transform:scale(1, -1);}:root .fa-rotate-90,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-flip-horizontal,:root .fa-flip-vertical{-webkit-filter:none;filter:none;}.fa-stack{display:inline-block;position:relative;width:2em;height:2em;line-height:2em;vertical-align:middle;}.fa-stack-1x, .fa-stack-2x{position:absolute;left:0;width:100%;text-align:center;}.fa-stack-1x{line-height:inherit;}.fa-stack-2x{font-size:2em;}.fa-inverse{color:#ffffff;}.fa-glass:before{content:"\f000";}.fa-music:before{content:"\f001";}.fa-search:before{content:"\f002";}.fa-envelope-o:before{content:"\f003";}.fa-heart:before{content:"\f004";}.fa-star:before{content:"\f005";}.fa-star-o:before{content:"\f006";}.fa-user:before{content:"\f007";}.fa-film:before{content:"\f008";}.fa-th-large:before{content:"\f009";}.fa-th:before{content:"\f00a";}.fa-th-list:before{content:"\f00b";}.fa-check:before{content:"\f00c";}.fa-remove:before, .fa-close:before, .fa-times:before{content:"\f00d";}.fa-search-plus:before{content:"\f00e";}.fa-search-minus:before{content:"\f010";}.fa-power-off:before{content:"\f011";}.fa-signal:before{content:"\f012";}.fa-gear:before, .fa-cog:before{content:"\f013";}.fa-trash-o:before{content:"\f014";}.fa-home:before{content:"\f015";}.fa-file-o:before{content:"\f016";}.fa-clock-o:before{content:"\f017";}.fa-road:before{content:"\f018";}.fa-download:before{content:"\f019";}.fa-arrow-circle-o-down:before{content:"\f01a";}.fa-arrow-circle-o-up:before{content:"\f01b";}.fa-inbox:before{content:"\f01c";}.fa-play-circle-o:before{content:"\f01d";}.fa-rotate-right:before, .fa-repeat:before{content:"\f01e";}.fa-refresh:before{content:"\f021";}.fa-list-alt:before{content:"\f022";}.fa-lock:before{content:"\f023";}.fa-flag:before{content:"\f024";}.fa-headphones:before{content:"\f025";}.fa-volume-off:before{content:"\f026";}.fa-volume-down:before{content:"\f027";}.fa-volume-up:before{content:"\f028";}.fa-qrcode:before{content:"\f029";}.fa-barcode:before{content:"\f02a";}.fa-tag:before{content:"\f02b";}.fa-tags:before{content:"\f02c";}.fa-book:before{content:"\f02d";}.fa-bookmark:before{content:"\f02e";}.fa-print:before{content:"\f02f";}.fa-camera:before{content:"\f030";}.fa-font:before{content:"\f031";}.fa-bold:before{content:"\f032";}.fa-italic:before{content:"\f033";}.fa-text-height:before{content:"\f034";}.fa-text-width:before{content:"\f035";}.fa-align-left:before{content:"\f036";}.fa-align-center:before{content:"\f037";}.fa-align-right:before{content:"\f038";}.fa-align-justify:before{content:"\f039";}.fa-list:before{content:"\f03a";}.fa-dedent:before, .fa-outdent:before{content:"\f03b";}.fa-indent:before{content:"\f03c";}.fa-video-camera:before{content:"\f03d";}.fa-photo:before, .fa-image:before, .fa-picture-o:before{content:"\f03e";}.fa-pencil:before{content:"\f040";}.fa-map-marker:before{content:"\f041";}.fa-adjust:before{content:"\f042";}.fa-tint:before{content:"\f043";}.fa-edit:before, .fa-pencil-square-o:before{content:"\f044";}.fa-share-square-o:before{content:"\f045";}.fa-check-square-o:before{content:"\f046";}.fa-arrows:before{content:"\f047";}.fa-step-backward:before{content:"\f048";}.fa-fast-backward:before{content:"\f049";}.fa-backward:before{content:"\f04a";}.fa-play:before{content:"\f04b";}.fa-pause:before{content:"\f04c";}.fa-stop:before{content:"\f04d";}.fa-forward:before{content:"\f04e";}.fa-fast-forward:before{content:"\f050";}.fa-step-forward:before{content:"\f051";}.fa-eject:before{content:"\f052";}.fa-chevron-left:before{content:"\f053";}.fa-chevron-right:before{content:"\f054";}.fa-plus-circle:before{content:"\f055";}.fa-minus-circle:before{content:"\f056";}.fa-times-circle:before{content:"\f057";}.fa-check-circle:before{content:"\f058";}.fa-question-circle:before{content:"\f059";}.fa-info-circle:before{content:"\f05a";}.fa-crosshairs:before{content:"\f05b";}.fa-times-circle-o:before{content:"\f05c";}.fa-check-circle-o:before{content:"\f05d";}.fa-ban:before{content:"\f05e";}.fa-arrow-left:before{content:"\f060";}.fa-arrow-right:before{content:"\f061";}.fa-arrow-up:before{content:"\f062";}.fa-arrow-down:before{content:"\f063";}.fa-mail-forward:before, .fa-share:before{content:"\f064";}.fa-expand:before{content:"\f065";}.fa-compress:before{content:"\f066";}.fa-plus:before{content:"\f067";}.fa-minus:before{content:"\f068";}.fa-asterisk:before{content:"\f069";}.fa-exclamation-circle:before{content:"\f06a";}.fa-gift:before{content:"\f06b";}.fa-leaf:before{content:"\f06c";}.fa-fire:before{content:"\f06d";}.fa-eye:before{content:"\f06e";}.fa-eye-slash:before{content:"\f070";}.fa-warning:before, .fa-exclamation-triangle:before{content:"\f071";}.fa-plane:before{content:"\f072";}.fa-calendar:before{content:"\f073";}.fa-random:before{content:"\f074";}.fa-comment:before{content:"\f075";}.fa-magnet:before{content:"\f076";}.fa-chevron-up:before{content:"\f077";}.fa-chevron-down:before{content:"\f078";}.fa-retweet:before{content:"\f079";}.fa-shopping-cart:before{content:"\f07a";}.fa-folder:before{content:"\f07b";}.fa-folder-open:before{content:"\f07c";}.fa-arrows-v:before{content:"\f07d";}.fa-arrows-h:before{content:"\f07e";}.fa-bar-chart-o:before, .fa-bar-chart:before{content:"\f080";}.fa-twitter-square:before{content:"\f081";}.fa-facebook-square:before{content:"\f082";}.fa-camera-retro:before{content:"\f083";}.fa-key:before{content:"\f084";}.fa-gears:before, .fa-cogs:before{content:"\f085";}.fa-comments:before{content:"\f086";}.fa-thumbs-o-up:before{content:"\f087";}.fa-thumbs-o-down:before{content:"\f088";}.fa-star-half:before{content:"\f089";}.fa-heart-o:before{content:"\f08a";}.fa-sign-out:before{content:"\f08b";}.fa-linkedin-square:before{content:"\f08c";}.fa-thumb-tack:before{content:"\f08d";}.fa-external-link:before{content:"\f08e";}.fa-sign-in:before{content:"\f090";}.fa-trophy:before{content:"\f091";}.fa-github-square:before{content:"\f092";}.fa-upload:before{content:"\f093";}.fa-lemon-o:before{content:"\f094";}.fa-phone:before{content:"\f095";}.fa-square-o:before{content:"\f096";}.fa-bookmark-o:before{content:"\f097";}.fa-phone-square:before{content:"\f098";}.fa-twitter:before{content:"\f099";}.fa-facebook-f:before, .fa-facebook:before{content:"\f09a";}.fa-github:before{content:"\f09b";}.fa-unlock:before{content:"\f09c";}.fa-credit-card:before{content:"\f09d";}.fa-feed:before, .fa-rss:before{content:"\f09e";}.fa-hdd-o:before{content:"\f0a0";}.fa-bullhorn:before{content:"\f0a1";}.fa-bell:before{content:"\f0f3";}.fa-certificate:before{content:"\f0a3";}.fa-hand-o-right:before{content:"\f0a4";}.fa-hand-o-left:before{content:"\f0a5";}.fa-hand-o-up:before{content:"\f0a6";}.fa-hand-o-down:before{content:"\f0a7";}.fa-arrow-circle-left:before{content:"\f0a8";}.fa-arrow-circle-right:before{content:"\f0a9";}.fa-arrow-circle-up:before{content:"\f0aa";}.fa-arrow-circle-down:before{content:"\f0ab";}.fa-globe:before{content:"\f0ac";}.fa-wrench:before{content:"\f0ad";}.fa-tasks:before{content:"\f0ae";}.fa-filter:before{content:"\f0b0";}.fa-briefcase:before{content:"\f0b1";}.fa-arrows-alt:before{content:"\f0b2";}.fa-group:before, .fa-users:before{content:"\f0c0";}.fa-chain:before, .fa-link:before{content:"\f0c1";}.fa-cloud:before{content:"\f0c2";}.fa-flask:before{content:"\f0c3";}.fa-cut:before, .fa-scissors:before{content:"\f0c4";}.fa-copy:before, .fa-files-o:before{content:"\f0c5";}.fa-paperclip:before{content:"\f0c6";}.fa-save:before, .fa-floppy-o:before{content:"\f0c7";}.fa-square:before{content:"\f0c8";}.fa-navicon:before, .fa-reorder:before, .fa-bars:before{content:"\f0c9";}.fa-list-ul:before{content:"\f0ca";}.fa-list-ol:before{content:"\f0cb";}.fa-strikethrough:before{content:"\f0cc";}.fa-underline:before{content:"\f0cd";}.fa-table:before{content:"\f0ce";}.fa-magic:before{content:"\f0d0";}.fa-truck:before{content:"\f0d1";}.fa-pinterest:before{content:"\f0d2";}.fa-pinterest-square:before{content:"\f0d3";}.fa-google-plus-square:before{content:"\f0d4";}.fa-google-plus:before{content:"\f0d5";}.fa-money:before{content:"\f0d6";}.fa-caret-down:before{content:"\f0d7";}.fa-caret-up:before{content:"\f0d8";}.fa-caret-left:before{content:"\f0d9";}.fa-caret-right:before{content:"\f0da";}.fa-columns:before{content:"\f0db";}.fa-unsorted:before, .fa-sort:before{content:"\f0dc";}.fa-sort-down:before, .fa-sort-desc:before{content:"\f0dd";}.fa-sort-up:before, .fa-sort-asc:before{content:"\f0de";}.fa-envelope:before{content:"\f0e0";}.fa-linkedin:before{content:"\f0e1";}.fa-rotate-left:before, .fa-undo:before{content:"\f0e2";}.fa-legal:before, .fa-gavel:before{content:"\f0e3";}.fa-dashboard:before, .fa-tachometer:before{content:"\f0e4";}.fa-comment-o:before{content:"\f0e5";}.fa-comments-o:before{content:"\f0e6";}.fa-flash:before, .fa-bolt:before{content:"\f0e7";}.fa-sitemap:before{content:"\f0e8";}.fa-umbrella:before{content:"\f0e9";}.fa-paste:before, .fa-clipboard:before{content:"\f0ea";}.fa-lightbulb-o:before{content:"\f0eb";}.fa-exchange:before{content:"\f0ec";}.fa-cloud-download:before{content:"\f0ed";}.fa-cloud-upload:before{content:"\f0ee";}.fa-user-md:before{content:"\f0f0";}.fa-stethoscope:before{content:"\f0f1";}.fa-suitcase:before{content:"\f0f2";}.fa-bell-o:before{content:"\f0a2";}.fa-coffee:before{content:"\f0f4";}.fa-cutlery:before{content:"\f0f5";}.fa-file-text-o:before{content:"\f0f6";}.fa-building-o:before{content:"\f0f7";}.fa-hospital-o:before{content:"\f0f8";}.fa-ambulance:before{content:"\f0f9";}.fa-medkit:before{content:"\f0fa";}.fa-fighter-jet:before{content:"\f0fb";}.fa-beer:before{content:"\f0fc";}.fa-h-square:before{content:"\f0fd";}.fa-plus-square:before{content:"\f0fe";}.fa-angle-double-left:before{content:"\f100";}.fa-angle-double-right:before{content:"\f101";}.fa-angle-double-up:before{content:"\f102";}.fa-angle-double-down:before{content:"\f103";}.fa-angle-left:before{content:"\f104";}.fa-angle-right:before{content:"\f105";}.fa-angle-up:before{content:"\f106";}.fa-angle-down:before{content:"\f107";}.fa-desktop:before{content:"\f108";}.fa-laptop:before{content:"\f109";}.fa-tablet:before{content:"\f10a";}.fa-mobile-phone:before, .fa-mobile:before{content:"\f10b";}.fa-circle-o:before{content:"\f10c";}.fa-quote-left:before{content:"\f10d";}.fa-quote-right:before{content:"\f10e";}.fa-spinner:before{content:"\f110";}.fa-circle:before{content:"\f111";}.fa-mail-reply:before, .fa-reply:before{content:"\f112";}.fa-github-alt:before{content:"\f113";}.fa-folder-o:before{content:"\f114";}.fa-folder-open-o:before{content:"\f115";}.fa-smile-o:before{content:"\f118";}.fa-frown-o:before{content:"\f119";}.fa-meh-o:before{content:"\f11a";}.fa-gamepad:before{content:"\f11b";}.fa-keyboard-o:before{content:"\f11c";}.fa-flag-o:before{content:"\f11d";}.fa-flag-checkered:before{content:"\f11e";}.fa-terminal:before{content:"\f120";}.fa-code:before{content:"\f121";}.fa-mail-reply-all:before, .fa-reply-all:before{content:"\f122";}.fa-star-half-empty:before, .fa-star-half-full:before, .fa-star-half-o:before{content:"\f123";}.fa-location-arrow:before{content:"\f124";}.fa-crop:before{content:"\f125";}.fa-code-fork:before{content:"\f126";}.fa-unlink:before, .fa-chain-broken:before{content:"\f127";}.fa-question:before{content:"\f128";}.fa-info:before{content:"\f129";}.fa-exclamation:before{content:"\f12a";}.fa-superscript:before{content:"\f12b";}.fa-subscript:before{content:"\f12c";}.fa-eraser:before{content:"\f12d";}.fa-puzzle-piece:before{content:"\f12e";}.fa-microphone:before{content:"\f130";}.fa-microphone-slash:before{content:"\f131";}.fa-shield:before{content:"\f132";}.fa-calendar-o:before{content:"\f133";}.fa-fire-extinguisher:before{content:"\f134";}.fa-rocket:before{content:"\f135";}.fa-maxcdn:before{content:"\f136";}.fa-chevron-circle-left:before{content:"\f137";}.fa-chevron-circle-right:before{content:"\f138";}.fa-chevron-circle-up:before{content:"\f139";}.fa-chevron-circle-down:before{content:"\f13a";}.fa-html5:before{content:"\f13b";}.fa-css3:before{content:"\f13c";}.fa-anchor:before{content:"\f13d";}.fa-unlock-alt:before{content:"\f13e";}.fa-bullseye:before{content:"\f140";}.fa-ellipsis-h:before{content:"\f141";}.fa-ellipsis-v:before{content:"\f142";}.fa-rss-square:before{content:"\f143";}.fa-play-circle:before{content:"\f144";}.fa-ticket:before{content:"\f145";}.fa-minus-square:before{content:"\f146";}.fa-minus-square-o:before{content:"\f147";}.fa-level-up:before{content:"\f148";}.fa-level-down:before{content:"\f149";}.fa-check-square:before{content:"\f14a";}.fa-pencil-square:before{content:"\f14b";}.fa-external-link-square:before{content:"\f14c";}.fa-share-square:before{content:"\f14d";}.fa-compass:before{content:"\f14e";}.fa-toggle-down:before, .fa-caret-square-o-down:before{content:"\f150";}.fa-toggle-up:before, .fa-caret-square-o-up:before{content:"\f151";}.fa-toggle-right:before, .fa-caret-square-o-right:before{content:"\f152";}.fa-euro:before, .fa-eur:before{content:"\f153";}.fa-gbp:before{content:"\f154";}.fa-dollar:before, .fa-usd:before{content:"\f155";}.fa-rupee:before, .fa-inr:before{content:"\f156";}.fa-cny:before, .fa-rmb:before, .fa-yen:before, .fa-jpy:before{content:"\f157";}.fa-ruble:before, .fa-rouble:before, .fa-rub:before{content:"\f158";}.fa-won:before, .fa-krw:before{content:"\f159";}.fa-bitcoin:before, .fa-btc:before{content:"\f15a";}.fa-file:before{content:"\f15b";}.fa-file-text:before{content:"\f15c";}.fa-sort-alpha-asc:before{content:"\f15d";}.fa-sort-alpha-desc:before{content:"\f15e";}.fa-sort-amount-asc:before{content:"\f160";}.fa-sort-amount-desc:before{content:"\f161";}.fa-sort-numeric-asc:before{content:"\f162";}.fa-sort-numeric-desc:before{content:"\f163";}.fa-thumbs-up:before{content:"\f164";}.fa-thumbs-down:before{content:"\f165";}.fa-youtube-square:before{content:"\f166";}.fa-youtube:before{content:"\f167";}.fa-xing:before{content:"\f168";}.fa-xing-square:before{content:"\f169";}.fa-youtube-play:before{content:"\f16a";}.fa-dropbox:before{content:"\f16b";}.fa-stack-overflow:before{content:"\f16c";}.fa-instagram:before{content:"\f16d";}.fa-flickr:before{content:"\f16e";}.fa-adn:before{content:"\f170";}.fa-bitbucket:before{content:"\f171";}.fa-bitbucket-square:before{content:"\f172";}.fa-tumblr:before{content:"\f173";}.fa-tumblr-square:before{content:"\f174";}.fa-long-arrow-down:before{content:"\f175";}.fa-long-arrow-up:before{content:"\f176";}.fa-long-arrow-left:before{content:"\f177";}.fa-long-arrow-right:before{content:"\f178";}.fa-apple:before{content:"\f179";}.fa-windows:before{content:"\f17a";}.fa-android:before{content:"\f17b";}.fa-linux:before{content:"\f17c";}.fa-dribbble:before{content:"\f17d";}.fa-skype:before{content:"\f17e";}.fa-foursquare:before{content:"\f180";}.fa-trello:before{content:"\f181";}.fa-female:before{content:"\f182";}.fa-male:before{content:"\f183";}.fa-gittip:before, .fa-gratipay:before{content:"\f184";}.fa-sun-o:before{content:"\f185";}.fa-moon-o:before{content:"\f186";}.fa-archive:before{content:"\f187";}.fa-bug:before{content:"\f188";}.fa-vk:before{content:"\f189";}.fa-weibo:before{content:"\f18a";}.fa-renren:before{content:"\f18b";}.fa-pagelines:before{content:"\f18c";}.fa-stack-exchange:before{content:"\f18d";}.fa-arrow-circle-o-right:before{content:"\f18e";}.fa-arrow-circle-o-left:before{content:"\f190";}.fa-toggle-left:before, .fa-caret-square-o-left:before{content:"\f191";}.fa-dot-circle-o:before{content:"\f192";}.fa-wheelchair:before{content:"\f193";}.fa-vimeo-square:before{content:"\f194";}.fa-turkish-lira:before, .fa-try:before{content:"\f195";}.fa-plus-square-o:before{content:"\f196";}.fa-space-shuttle:before{content:"\f197";}.fa-slack:before{content:"\f198";}.fa-envelope-square:before{content:"\f199";}.fa-wordpress:before{content:"\f19a";}.fa-openid:before{content:"\f19b";}.fa-institution:before, .fa-bank:before, .fa-university:before{content:"\f19c";}.fa-mortar-board:before, .fa-graduation-cap:before{content:"\f19d";}.fa-yahoo:before{content:"\f19e";}.fa-google:before{content:"\f1a0";}.fa-reddit:before{content:"\f1a1";}.fa-reddit-square:before{content:"\f1a2";}.fa-stumbleupon-circle:before{content:"\f1a3";}.fa-stumbleupon:before{content:"\f1a4";}.fa-delicious:before{content:"\f1a5";}.fa-digg:before{content:"\f1a6";}.fa-pied-piper-pp:before{content:"\f1a7";}.fa-pied-piper-alt:before{content:"\f1a8";}.fa-drupal:before{content:"\f1a9";}.fa-joomla:before{content:"\f1aa";}.fa-language:before{content:"\f1ab";}.fa-fax:before{content:"\f1ac";}.fa-building:before{content:"\f1ad";}.fa-child:before{content:"\f1ae";}.fa-paw:before{content:"\f1b0";}.fa-spoon:before{content:"\f1b1";}.fa-cube:before{content:"\f1b2";}.fa-cubes:before{content:"\f1b3";}.fa-behance:before{content:"\f1b4";}.fa-behance-square:before{content:"\f1b5";}.fa-steam:before{content:"\f1b6";}.fa-steam-square:before{content:"\f1b7";}.fa-recycle:before{content:"\f1b8";}.fa-automobile:before, .fa-car:before{content:"\f1b9";}.fa-cab:before, .fa-taxi:before{content:"\f1ba";}.fa-tree:before{content:"\f1bb";}.fa-spotify:before{content:"\f1bc";}.fa-deviantart:before{content:"\f1bd";}.fa-soundcloud:before{content:"\f1be";}.fa-database:before{content:"\f1c0";}.fa-file-pdf-o:before{content:"\f1c1";}.fa-file-word-o:before{content:"\f1c2";}.fa-file-excel-o:before{content:"\f1c3";}.fa-file-powerpoint-o:before{content:"\f1c4";}.fa-file-photo-o:before, .fa-file-picture-o:before, .fa-file-image-o:before{content:"\f1c5";}.fa-file-zip-o:before, .fa-file-archive-o:before{content:"\f1c6";}.fa-file-sound-o:before, .fa-file-audio-o:before{content:"\f1c7";}.fa-file-movie-o:before, .fa-file-video-o:before{content:"\f1c8";}.fa-file-code-o:before{content:"\f1c9";}.fa-vine:before{content:"\f1ca";}.fa-codepen:before{content:"\f1cb";}.fa-jsfiddle:before{content:"\f1cc";}.fa-life-bouy:before, .fa-life-buoy:before, .fa-life-saver:before, .fa-support:before, .fa-life-ring:before{content:"\f1cd";}.fa-circle-o-notch:before{content:"\f1ce";}.fa-ra:before, .fa-resistance:before, .fa-rebel:before{content:"\f1d0";}.fa-ge:before, .fa-empire:before{content:"\f1d1";}.fa-git-square:before{content:"\f1d2";}.fa-git:before{content:"\f1d3";}.fa-y-combinator-square:before, .fa-yc-square:before, .fa-hacker-news:before{content:"\f1d4";}.fa-tencent-weibo:before{content:"\f1d5";}.fa-qq:before{content:"\f1d6";}.fa-wechat:before, .fa-weixin:before{content:"\f1d7";}.fa-send:before, .fa-paper-plane:before{content:"\f1d8";}.fa-send-o:before, .fa-paper-plane-o:before{content:"\f1d9";}.fa-history:before{content:"\f1da";}.fa-circle-thin:before{content:"\f1db";}.fa-header:before{content:"\f1dc";}.fa-paragraph:before{content:"\f1dd";}.fa-sliders:before{content:"\f1de";}.fa-share-alt:before{content:"\f1e0";}.fa-share-alt-square:before{content:"\f1e1";}.fa-bomb:before{content:"\f1e2";}.fa-soccer-ball-o:before, .fa-futbol-o:before{content:"\f1e3";}.fa-tty:before{content:"\f1e4";}.fa-binoculars:before{content:"\f1e5";}.fa-plug:before{content:"\f1e6";}.fa-slideshare:before{content:"\f1e7";}.fa-twitch:before{content:"\f1e8";}.fa-yelp:before{content:"\f1e9";}.fa-newspaper-o:before{content:"\f1ea";}.fa-wifi:before{content:"\f1eb";}.fa-calculator:before{content:"\f1ec";}.fa-paypal:before{content:"\f1ed";}.fa-google-wallet:before{content:"\f1ee";}.fa-cc-visa:before{content:"\f1f0";}.fa-cc-mastercard:before{content:"\f1f1";}.fa-cc-discover:before{content:"\f1f2";}.fa-cc-amex:before{content:"\f1f3";}.fa-cc-paypal:before{content:"\f1f4";}.fa-cc-stripe:before{content:"\f1f5";}.fa-bell-slash:before{content:"\f1f6";}.fa-bell-slash-o:before{content:"\f1f7";}.fa-trash:before{content:"\f1f8";}.fa-copyright:before{content:"\f1f9";}.fa-at:before{content:"\f1fa";}.fa-eyedropper:before{content:"\f1fb";}.fa-paint-brush:before{content:"\f1fc";}.fa-birthday-cake:before{content:"\f1fd";}.fa-area-chart:before{content:"\f1fe";}.fa-pie-chart:before{content:"\f200";}.fa-line-chart:before{content:"\f201";}.fa-lastfm:before{content:"\f202";}.fa-lastfm-square:before{content:"\f203";}.fa-toggle-off:before{content:"\f204";}.fa-toggle-on:before{content:"\f205";}.fa-bicycle:before{content:"\f206";}.fa-bus:before{content:"\f207";}.fa-ioxhost:before{content:"\f208";}.fa-angellist:before{content:"\f209";}.fa-cc:before{content:"\f20a";}.fa-shekel:before, .fa-sheqel:before, .fa-ils:before{content:"\f20b";}.fa-meanpath:before{content:"\f20c";}.fa-buysellads:before{content:"\f20d";}.fa-connectdevelop:before{content:"\f20e";}.fa-dashcube:before{content:"\f210";}.fa-forumbee:before{content:"\f211";}.fa-leanpub:before{content:"\f212";}.fa-sellsy:before{content:"\f213";}.fa-shirtsinbulk:before{content:"\f214";}.fa-simplybuilt:before{content:"\f215";}.fa-skyatlas:before{content:"\f216";}.fa-cart-plus:before{content:"\f217";}.fa-cart-arrow-down:before{content:"\f218";}.fa-diamond:before{content:"\f219";}.fa-ship:before{content:"\f21a";}.fa-user-secret:before{content:"\f21b";}.fa-motorcycle:before{content:"\f21c";}.fa-street-view:before{content:"\f21d";}.fa-heartbeat:before{content:"\f21e";}.fa-venus:before{content:"\f221";}.fa-mars:before{content:"\f222";}.fa-mercury:before{content:"\f223";}.fa-intersex:before, .fa-transgender:before{content:"\f224";}.fa-transgender-alt:before{content:"\f225";}.fa-venus-double:before{content:"\f226";}.fa-mars-double:before{content:"\f227";}.fa-venus-mars:before{content:"\f228";}.fa-mars-stroke:before{content:"\f229";}.fa-mars-stroke-v:before{content:"\f22a";}.fa-mars-stroke-h:before{content:"\f22b";}.fa-neuter:before{content:"\f22c";}.fa-genderless:before{content:"\f22d";}.fa-facebook-official:before{content:"\f230";}.fa-pinterest-p:before{content:"\f231";}.fa-whatsapp:before{content:"\f232";}.fa-server:before{content:"\f233";}.fa-user-plus:before{content:"\f234";}.fa-user-times:before{content:"\f235";}.fa-hotel:before, .fa-bed:before{content:"\f236";}.fa-viacoin:before{content:"\f237";}.fa-train:before{content:"\f238";}.fa-subway:before{content:"\f239";}.fa-medium:before{content:"\f23a";}.fa-yc:before, .fa-y-combinator:before{content:"\f23b";}.fa-optin-monster:before{content:"\f23c";}.fa-opencart:before{content:"\f23d";}.fa-expeditedssl:before{content:"\f23e";}.fa-battery-4:before, .fa-battery:before, .fa-battery-full:before{content:"\f240";}.fa-battery-3:before, .fa-battery-three-quarters:before{content:"\f241";}.fa-battery-2:before, .fa-battery-half:before{content:"\f242";}.fa-battery-1:before, .fa-battery-quarter:before{content:"\f243";}.fa-battery-0:before, .fa-battery-empty:before{content:"\f244";}.fa-mouse-pointer:before{content:"\f245";}.fa-i-cursor:before{content:"\f246";}.fa-object-group:before{content:"\f247";}.fa-object-ungroup:before{content:"\f248";}.fa-sticky-note:before{content:"\f249";}.fa-sticky-note-o:before{content:"\f24a";}.fa-cc-jcb:before{content:"\f24b";}.fa-cc-diners-club:before{content:"\f24c";}.fa-clone:before{content:"\f24d";}.fa-balance-scale:before{content:"\f24e";}.fa-hourglass-o:before{content:"\f250";}.fa-hourglass-1:before, .fa-hourglass-start:before{content:"\f251";}.fa-hourglass-2:before, .fa-hourglass-half:before{content:"\f252";}.fa-hourglass-3:before, .fa-hourglass-end:before{content:"\f253";}.fa-hourglass:before{content:"\f254";}.fa-hand-grab-o:before, .fa-hand-rock-o:before{content:"\f255";}.fa-hand-stop-o:before, .fa-hand-paper-o:before{content:"\f256";}.fa-hand-scissors-o:before{content:"\f257";}.fa-hand-lizard-o:before{content:"\f258";}.fa-hand-spock-o:before{content:"\f259";}.fa-hand-pointer-o:before{content:"\f25a";}.fa-hand-peace-o:before{content:"\f25b";}.fa-trademark:before{content:"\f25c";}.fa-registered:before{content:"\f25d";}.fa-creative-commons:before{content:"\f25e";}.fa-gg:before{content:"\f260";}.fa-gg-circle:before{content:"\f261";}.fa-tripadvisor:before{content:"\f262";}.fa-odnoklassniki:before{content:"\f263";}.fa-odnoklassniki-square:before{content:"\f264";}.fa-get-pocket:before{content:"\f265";}.fa-wikipedia-w:before{content:"\f266";}.fa-safari:before{content:"\f267";}.fa-chrome:before{content:"\f268";}.fa-firefox:before{content:"\f269";}.fa-opera:before{content:"\f26a";}.fa-internet-explorer:before{content:"\f26b";}.fa-tv:before, .fa-television:before{content:"\f26c";}.fa-contao:before{content:"\f26d";}.fa-500px:before{content:"\f26e";}.fa-amazon:before{content:"\f270";}.fa-calendar-plus-o:before{content:"\f271";}.fa-calendar-minus-o:before{content:"\f272";}.fa-calendar-times-o:before{content:"\f273";}.fa-calendar-check-o:before{content:"\f274";}.fa-industry:before{content:"\f275";}.fa-map-pin:before{content:"\f276";}.fa-map-signs:before{content:"\f277";}.fa-map-o:before{content:"\f278";}.fa-map:before{content:"\f279";}.fa-commenting:before{content:"\f27a";}.fa-commenting-o:before{content:"\f27b";}.fa-houzz:before{content:"\f27c";}.fa-vimeo:before{content:"\f27d";}.fa-black-tie:before{content:"\f27e";}.fa-fonticons:before{content:"\f280";}.fa-reddit-alien:before{content:"\f281";}.fa-edge:before{content:"\f282";}.fa-credit-card-alt:before{content:"\f283";}.fa-codiepie:before{content:"\f284";}.fa-modx:before{content:"\f285";}.fa-fort-awesome:before{content:"\f286";}.fa-usb:before{content:"\f287";}.fa-product-hunt:before{content:"\f288";}.fa-mixcloud:before{content:"\f289";}.fa-scribd:before{content:"\f28a";}.fa-pause-circle:before{content:"\f28b";}.fa-pause-circle-o:before{content:"\f28c";}.fa-stop-circle:before{content:"\f28d";}.fa-stop-circle-o:before{content:"\f28e";}.fa-shopping-bag:before{content:"\f290";}.fa-shopping-basket:before{content:"\f291";}.fa-hashtag:before{content:"\f292";}.fa-bluetooth:before{content:"\f293";}.fa-bluetooth-b:before{content:"\f294";}.fa-percent:before{content:"\f295";}.fa-gitlab:before{content:"\f296";}.fa-wpbeginner:before{content:"\f297";}.fa-wpforms:before{content:"\f298";}.fa-envira:before{content:"\f299";}.fa-universal-access:before{content:"\f29a";}.fa-wheelchair-alt:before{content:"\f29b";}.fa-question-circle-o:before{content:"\f29c";}.fa-blind:before{content:"\f29d";}.fa-audio-description:before{content:"\f29e";}.fa-volume-control-phone:before{content:"\f2a0";}.fa-braille:before{content:"\f2a1";}.fa-assistive-listening-systems:before{content:"\f2a2";}.fa-asl-interpreting:before, .fa-american-sign-language-interpreting:before{content:"\f2a3";}.fa-deafness:before, .fa-hard-of-hearing:before, .fa-deaf:before{content:"\f2a4";}.fa-glide:before{content:"\f2a5";}.fa-glide-g:before{content:"\f2a6";}.fa-signing:before, .fa-sign-language:before{content:"\f2a7";}.fa-low-vision:before{content:"\f2a8";}.fa-viadeo:before{content:"\f2a9";}.fa-viadeo-square:before{content:"\f2aa";}.fa-snapchat:before{content:"\f2ab";}.fa-snapchat-ghost:before{content:"\f2ac";}.fa-snapchat-square:before{content:"\f2ad";}.fa-pied-piper:before{content:"\f2ae";}.fa-first-order:before{content:"\f2b0";}.fa-yoast:before{content:"\f2b1";}.fa-themeisle:before{content:"\f2b2";}.fa-google-plus-circle:before, .fa-google-plus-official:before{content:"\f2b3";}.fa-fa:before, .fa-font-awesome:before{content:"\f2b4";}.fa-handshake-o:before{content:"\f2b5";}.fa-envelope-open:before{content:"\f2b6";}.fa-envelope-open-o:before{content:"\f2b7";}.fa-linode:before{content:"\f2b8";}.fa-address-book:before{content:"\f2b9";}.fa-address-book-o:before{content:"\f2ba";}.fa-vcard:before, .fa-address-card:before{content:"\f2bb";}.fa-vcard-o:before, .fa-address-card-o:before{content:"\f2bc";}.fa-user-circle:before{content:"\f2bd";}.fa-user-circle-o:before{content:"\f2be";}.fa-user-o:before{content:"\f2c0";}.fa-id-badge:before{content:"\f2c1";}.fa-drivers-license:before, .fa-id-card:before{content:"\f2c2";}.fa-drivers-license-o:before, .fa-id-card-o:before{content:"\f2c3";}.fa-quora:before{content:"\f2c4";}.fa-free-code-camp:before{content:"\f2c5";}.fa-telegram:before{content:"\f2c6";}.fa-thermometer-4:before, .fa-thermometer:before, .fa-thermometer-full:before{content:"\f2c7";}.fa-thermometer-3:before, .fa-thermometer-three-quarters:before{content:"\f2c8";}.fa-thermometer-2:before, .fa-thermometer-half:before{content:"\f2c9";}.fa-thermometer-1:before, .fa-thermometer-quarter:before{content:"\f2ca";}.fa-thermometer-0:before, .fa-thermometer-empty:before{content:"\f2cb";}.fa-shower:before{content:"\f2cc";}.fa-bathtub:before, .fa-s15:before, .fa-bath:before{content:"\f2cd";}.fa-podcast:before{content:"\f2ce";}.fa-window-maximize:before{content:"\f2d0";}.fa-window-minimize:before{content:"\f2d1";}.fa-window-restore:before{content:"\f2d2";}.fa-times-rectangle:before, .fa-window-close:before{content:"\f2d3";}.fa-times-rectangle-o:before, .fa-window-close-o:before{content:"\f2d4";}.fa-bandcamp:before{content:"\f2d5";}.fa-grav:before{content:"\f2d6";}.fa-etsy:before{content:"\f2d7";}.fa-imdb:before{content:"\f2d8";}.fa-ravelry:before{content:"\f2d9";}.fa-eercast:before{content:"\f2da";}.fa-microchip:before{content:"\f2db";}.fa-snowflake-o:before{content:"\f2dc";}.fa-superpowers:before{content:"\f2dd";}.fa-wpexplorer:before{content:"\f2de";}.fa-meetup:before{content:"\f2e0";}.fa-sync:before{content:"\f021";}.sr-only{clip:rect(0, 0, 0, 0);position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;border:0;}.sr-only-focusable:active, .sr-only-focusable:focus{clip:auto;position:static;width:auto;height:auto;margin:0;overflow:visible;}*, *::before, *::after{-webkit-box-sizing:border-box;box-sizing:border-box;}html{-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);font-family:sans-serif;line-height:1.5;}article, aside, .figcaption, .figure, footer, header, hgroup, main, nav, section{display:block;}body{margin:0;background-color:#fff;color:#212529;font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-size:1rem;font-weight:400;line-height:1.5;text-align:left;}[tabindex="-1"]:focus{outline:0 !important;}hr{-webkit-box-sizing:content-box;box-sizing:content-box;height:0;overflow:visible;}h1, h2, h3, h4, h5, h6{margin-top:0;margin-bottom:0;}p{margin-top:0;margin-bottom:0;}abbr[title], abbr[data-original-title]{-webkit-text-decoration:underline dotted;-webkit-text-decoration-skip-ink:none;border-bottom:0;text-decoration:underline;text-decoration:underline dotted;text-decoration-skip-ink:none;cursor:help;}address{margin-bottom:0;font-style:normal;line-height:inherit;}ol, ul, dl{margin-top:0;margin-bottom:0;padding-left:0;}ol ol, ul ul, ol ul, ul ol{margin-bottom:0;}dt{font-weight:700;}dd{margin-bottom:0;margin-left:0;}blockquote{margin:0;}b, strong{font-weight:bolder;}small{font-size:80%;}sub, sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline;}sub{bottom:-.25em;}sup{top:-.5em;}a{background-color:transparent;color:#007bff;text-decoration:none;}a:hover{color:#0056b3;text-decoration:underline;}a:not([href]):not([tabindex]){color:inherit;text-decoration:none;}a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus{color:inherit;text-decoration:none;}a:not([href]):not([tabindex]):focus{outline:0;}pre, code, kbd, samp{font-family:SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-size:1em;}pre{margin-top:0;margin-bottom:0;overflow:auto;}.figure{margin:0;}img{border-style:none;vertical-align:middle;}svg{overflow:hidden;vertical-align:middle;}table{border-collapse:collapse;}caption{padding-top:0;padding-bottom:0;color:#6c757d;text-align:left;caption-side:bottom;}th{text-align:inherit;}label{display:inline-block;margin-bottom:0;}button{border-radius:0;}button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color;}input, button, select, optgroup, textarea{margin:0;font-family:inherit;font-size:inherit;line-height:inherit;}button, input{overflow:visible;}button, select{text-transform:none;}select{word-wrap:normal;}button, [type="button"], [type="reset"], [type="submit"]{-webkit-appearance:button;}button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled){cursor:pointer;}button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner{padding:0;border-style:none;}input[type="radio"], input[type="checkbox"]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0;}input[type="date"], input[type="time"], input[type="datetime-local"], input[type="month"]{-webkit-appearance:listbox;}textarea{overflow:auto;resize:vertical;}fieldset{min-width:0;margin:0;padding:0;border:0;}legend{display:block;width:100%;max-width:100%;margin-bottom:0;padding:0;color:inherit;font-size:1.5rem;line-height:inherit;white-space:normal;}progress{vertical-align:baseline;}[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button{height:auto;}[type="search"]{-webkit-appearance:none;outline-offset:-2px;}[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit;}output{display:inline-block;}summary{display:list-item;cursor:pointer;}template{display:none;}[hidden], .d-none, .hidden{display:none !important;}.container{width:100%;margin-right:auto;margin-left:auto;padding-right:15px;padding-left:15px;}@media (min-width:576px){.container{max-width:540px;}}@media (min-width:768px){.container{max-width:720px;}}@media (min-width:1025px){.container{max-width:960px;}}@media (min-width:1200px){.container{max-width:1440px;}header .main-wrap{height:80px;}}.container-fluid{width:100%;margin-right:auto;margin-left:auto;padding-right:15px;padding-left:15px;}.row{-ms-flex-wrap:wrap;display:-ms-flexbox;display:-webkit-box;display:flex;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}.no-gutters{margin-right:0;margin-left:0;}.no-gutters>.col, .no-gutters>[class*="col-"]{padding-right:0;padding-left:0;}.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto{position:relative;width:100%;padding-right:15px;padding-left:15px;}.col{-ms-flex-preferred-size:0;-ms-flex-positive:1;-webkit-box-flex:1;flex-basis:0;flex-grow:1;max-width:100%;}.col-auto{-ms-flex:0 0 auto;-webkit-box-flex:0;flex:0 0 auto;width:auto;max-width:100%;}.col-1{-ms-flex:0 0 8.333333%;-webkit-box-flex:0;flex:0 0 8.333333%;max-width:8.333333%;}.col-2{-ms-flex:0 0 16.666667%;-webkit-box-flex:0;flex:0 0 16.666667%;max-width:16.666667%;}.col-3{-ms-flex:0 0 25%;-webkit-box-flex:0;flex:0 0 25%;max-width:25%;}.col-4{-ms-flex:0 0 33.333333%;-webkit-box-flex:0;flex:0 0 33.333333%;max-width:33.333333%;}.col-5{-ms-flex:0 0 41.666667%;-webkit-box-flex:0;flex:0 0 41.666667%;max-width:41.666667%;}.col-6{-ms-flex:0 0 50%;-webkit-box-flex:0;flex:0 0 50%;max-width:50%;}.col-7{-ms-flex:0 0 58.333333%;-webkit-box-flex:0;flex:0 0 58.333333%;max-width:58.333333%;}.col-8{-ms-flex:0 0 66.666667%;-webkit-box-flex:0;flex:0 0 66.666667%;max-width:66.666667%;}.col-9{-ms-flex:0 0 75%;-webkit-box-flex:0;flex:0 0 75%;max-width:75%;}.col-10{-ms-flex:0 0 83.333333%;-webkit-box-flex:0;flex:0 0 83.333333%;max-width:83.333333%;}.col-11{-ms-flex:0 0 91.666667%;-webkit-box-flex:0;flex:0 0 91.666667%;max-width:91.666667%;}.col-12{-ms-flex:0 0 100%;-webkit-box-flex:0;flex:0 0 100%;max-width:100%;}@media (min-width:576px){.col-sm{-ms-flex-preferred-size:0;-ms-flex-positive:1;-webkit-box-flex:1;flex-basis:0;flex-grow:1;max-width:100%;}.col-sm-auto{-ms-flex:0 0 auto;-webkit-box-flex:0;flex:0 0 auto;width:auto;max-width:100%;}.col-sm-1{-ms-flex:0 0 8.333333%;-webkit-box-flex:0;flex:0 0 8.333333%;max-width:8.333333%;}.col-sm-2{-ms-flex:0 0 16.666667%;-webkit-box-flex:0;flex:0 0 16.666667%;max-width:16.666667%;}.col-sm-3{-ms-flex:0 0 25%;-webkit-box-flex:0;flex:0 0 25%;max-width:25%;}.col-sm-4{-ms-flex:0 0 33.333333%;-webkit-box-flex:0;flex:0 0 33.333333%;max-width:33.333333%;}.col-sm-5{-ms-flex:0 0 41.666667%;-webkit-box-flex:0;flex:0 0 41.666667%;max-width:41.666667%;}.col-sm-6{-ms-flex:0 0 50%;-webkit-box-flex:0;flex:0 0 50%;max-width:50%;}.col-sm-7{-ms-flex:0 0 58.333333%;-webkit-box-flex:0;flex:0 0 58.333333%;max-width:58.333333%;}.col-sm-8{-ms-flex:0 0 66.666667%;-webkit-box-flex:0;flex:0 0 66.666667%;max-width:66.666667%;}.col-sm-9{-ms-flex:0 0 75%;-webkit-box-flex:0;flex:0 0 75%;max-width:75%;}.col-sm-10{-ms-flex:0 0 83.333333%;-webkit-box-flex:0;flex:0 0 83.333333%;max-width:83.333333%;}.col-sm-11{-ms-flex:0 0 91.666667%;-webkit-box-flex:0;flex:0 0 91.666667%;max-width:91.666667%;}.col-sm-12{-ms-flex:0 0 100%;-webkit-box-flex:0;flex:0 0 100%;max-width:100%;}}@media (min-width:768px){.col-md{-ms-flex-preferred-size:0;-ms-flex-positive:1;-webkit-box-flex:1;flex-basis:0;flex-grow:1;max-width:100%;}.col-md-auto{-ms-flex:0 0 auto;-webkit-box-flex:0;flex:0 0 auto;width:auto;max-width:100%;}.col-md-1{-ms-flex:0 0 8.333333%;-webkit-box-flex:0;flex:0 0 8.333333%;max-width:8.333333%;}.col-md-2{-ms-flex:0 0 16.666667%;-webkit-box-flex:0;flex:0 0 16.666667%;max-width:16.666667%;}.col-md-3{-ms-flex:0 0 25%;-webkit-box-flex:0;flex:0 0 25%;max-width:25%;}.col-md-4{-ms-flex:0 0 33.333333%;-webkit-box-flex:0;flex:0 0 33.333333%;max-width:33.333333%;}.col-md-5{-ms-flex:0 0 41.666667%;-webkit-box-flex:0;flex:0 0 41.666667%;max-width:41.666667%;}.col-md-6{-ms-flex:0 0 50%;-webkit-box-flex:0;flex:0 0 50%;max-width:50%;}.col-md-7{-ms-flex:0 0 58.333333%;-webkit-box-flex:0;flex:0 0 58.333333%;max-width:58.333333%;}.col-md-8{-ms-flex:0 0 66.666667%;-webkit-box-flex:0;flex:0 0 66.666667%;max-width:66.666667%;}.col-md-9{-ms-flex:0 0 75%;-webkit-box-flex:0;flex:0 0 75%;max-width:75%;}.col-md-10{-ms-flex:0 0 83.333333%;-webkit-box-flex:0;flex:0 0 83.333333%;max-width:83.333333%;}.col-md-11{-ms-flex:0 0 91.666667%;-webkit-box-flex:0;flex:0 0 91.666667%;max-width:91.666667%;}.col-md-12{-ms-flex:0 0 100%;-webkit-box-flex:0;flex:0 0 100%;max-width:100%;}}@media (min-width:1024px){.col-lg{-ms-flex-preferred-size:0;-ms-flex-positive:1;-webkit-box-flex:1;flex-basis:0;flex-grow:1;max-width:100%;}.col-lg-auto{-ms-flex:0 0 auto;-webkit-box-flex:0;flex:0 0 auto;width:auto;max-width:100%;}.col-lg-1{-ms-flex:0 0 8.333333%;-webkit-box-flex:0;flex:0 0 8.333333%;max-width:8.333333%;}.col-lg-2{-ms-flex:0 0 16.666667%;-webkit-box-flex:0;flex:0 0 16.666667%;max-width:16.666667%;}.col-lg-3{-ms-flex:0 0 25%;-webkit-box-flex:0;flex:0 0 25%;max-width:25%;}.col-lg-4{-ms-flex:0 0 33.333333%;-webkit-box-flex:0;flex:0 0 33.333333%;max-width:33.333333%;}.col-lg-5{-ms-flex:0 0 41.666667%;-webkit-box-flex:0;flex:0 0 41.666667%;max-width:41.666667%;}.col-lg-6{-ms-flex:0 0 50%;-webkit-box-flex:0;flex:0 0 50%;max-width:50%;}.col-lg-7{-ms-flex:0 0 58.333333%;-webkit-box-flex:0;flex:0 0 58.333333%;max-width:58.333333%;}.col-lg-8{-ms-flex:0 0 66.666667%;-webkit-box-flex:0;flex:0 0 66.666667%;max-width:66.666667%;}.col-lg-9{-ms-flex:0 0 75%;-webkit-box-flex:0;flex:0 0 75%;max-width:75%;}.col-lg-10{-ms-flex:0 0 83.333333%;-webkit-box-flex:0;flex:0 0 83.333333%;max-width:83.333333%;}.col-lg-11{-ms-flex:0 0 91.666667%;-webkit-box-flex:0;flex:0 0 91.666667%;max-width:91.666667%;}.col-lg-12{-ms-flex:0 0 100%;-webkit-box-flex:0;flex:0 0 100%;max-width:100%;}}@media (min-width:1200px){.col-xl{-ms-flex-preferred-size:0;-ms-flex-positive:1;-webkit-box-flex:1;flex-basis:0;flex-grow:1;max-width:100%;}.col-xl-auto{-ms-flex:0 0 auto;-webkit-box-flex:0;flex:0 0 auto;width:auto;max-width:100%;}.col-xl-1{-ms-flex:0 0 8.333333%;-webkit-box-flex:0;flex:0 0 8.333333%;max-width:8.333333%;}.col-xl-2{-ms-flex:0 0 16.666667%;-webkit-box-flex:0;flex:0 0 16.666667%;max-width:16.666667%;}.col-xl-3{-ms-flex:0 0 25%;-webkit-box-flex:0;flex:0 0 25%;max-width:25%;}.col-xl-4{-ms-flex:0 0 33.333333%;-webkit-box-flex:0;flex:0 0 33.333333%;max-width:33.333333%;}.col-xl-5{-ms-flex:0 0 41.666667%;-webkit-box-flex:0;flex:0 0 41.666667%;max-width:41.666667%;}.col-xl-6{-ms-flex:0 0 50%;-webkit-box-flex:0;flex:0 0 50%;max-width:50%;}.col-xl-7{-ms-flex:0 0 58.333333%;-webkit-box-flex:0;flex:0 0 58.333333%;max-width:58.333333%;}.col-xl-8{-ms-flex:0 0 66.666667%;-webkit-box-flex:0;flex:0 0 66.666667%;max-width:66.666667%;}.col-xl-9{-ms-flex:0 0 75%;-webkit-box-flex:0;flex:0 0 75%;max-width:75%;}.col-xl-10{-ms-flex:0 0 83.333333%;-webkit-box-flex:0;flex:0 0 83.333333%;max-width:83.333333%;}.col-xl-11{-ms-flex:0 0 91.666667%;-webkit-box-flex:0;flex:0 0 91.666667%;max-width:91.666667%;}.col-xl-12{-ms-flex:0 0 100%;-webkit-box-flex:0;flex:0 0 100%;max-width:100%;}}.mdi-plus-circle:before{content:"\f417";}.mdi-link-variant:before{content:'\f339';}.mdi-logout-variant:before{content:'\F5FD';}.mdi-lock:before{content:'\F33E';}.mdi-notification-clear-all:before{content:'\F39F';}.mdi-account-settings:before{content:'\F630';}.mdi-file-document-box-check:before{content:'\FEC3';}.mdi-view-grid-outline:before{content:'\F0204';}.mdi-file-account:before{content:'\F73A';}.mdi-cloud-upload:before{content:'\F167';}.mdi-close:before{content:'\f156';}.mdi-close-circle:before{content:"\f159";}.mdi-rotate-3d-variant:before{content:'\F464';}.mdi-eye:before{content:'\F208';}.mdi-download:before{content:'\f1da';}.mdi-magnify:before{content:"\f349";}.mdi-phone:before{content:"\f3f2";}.mdi-bell:before{content:"\f09a";}.mdi-account-circle:before{content:"\f009";}.mdi-account:before{content:"\f004";}.mdi-email:before{content:"\f1ee";}.mdi-facebook:before{content:"\f20d";}.mdi-youtube:before{content:"\f5c3";}.mdi-map-marker:before{content:"\f34e";}.mdi-menu:before{content:"\f35c";}.mdi-currency-usd:before{content:"\f1b3";}.mdi-briefcase:before{content:"\f0d6";}.mdi-chevron-down:before{content:"\f140";}.mdi-chevron-right:before{content:"\f142";}.mdi-chevron-left:before{content:"\f141";}.mdi-chevron-up:before{content:"\f143";}.mdi-arrow-right:before{content:"\f054";}.mdi-arrow-down:before{content:"\f045";}.mdi-magnify-plus-outline:before{content:"\f6ec";}.mdi-view-list:before{content:"\f572";}.mdi-view-quilt:before{content:"\f574";}.mdi-heart:before{content:"\f2d1";}.mdi-heart-outline:before{content:"\f2d5";}.mdi-share-variant:before{content:"\f497";}.mdi-calendar-today:before{content:"\f0f6";}.mdi-lock-outline:before{content:"\f341";}.mdi-laptop-mac:before{content:"\f324";}.mdi-marker-check:before{content:"\f355";}.mdi-airplane:before{content:"\f01d";}.mdi-wallet-membership:before{content:"\f586";}.mdi-hospital:before{content:"\f2e0";}.mdi-school:before{content:"\f474";}.mdi-cash-usd:before{content:"\f117";}.mdi-snowflake:before{content:"\f716";}.mdi-swim:before{content:"\f4e3";}.mdi-email-outline:before{content:"\f1f0";}.mdi-account-supervisor:before{content:"\fa8a";}.mdi-gavel:before{content:"\f29b";}.mdi-link:before{content:"\f337";}.mdi-image:before{content:"\f2e9";}.mdi-play-circle-outline:before{content:"\f40d";}.mdi-plus-circle-outline:before{content:"\f419";}.mdi-minus-circle-outline:before{content:"\f377";}.mdi-filter-outline:before{content:"\f233";}.mdi-checkbox-marked-circle-outline:before{content:"\f134";}.mdi-check:before{content:"\f12c";}.mdi-calendar-check:before{content:"\f0ef";}.mdi-calendar:before{content:"\F0ED";}.mdi-sort-variant:before{content:"\f4bf";}.mdi-panorama:before{content:"\f3dc";}.mdi-home-outline:before{content:"\f6a0";}.mdi-file-document-edit-outline:before{content:"\fda5";}.mdi-chart-line-variant:before{content:"\f7b0";}.mdi-lightbulb-on-outline:before{content:"\f6e8";}.mdi-login-variant:before{content:"\f5fc";}.mdi-account-plus-outline:before{content:"\f800";}.mdi-bell-outline:before{content:"\f09c";}.mdi-web:before{content:"\f59f";}.mdi-flash:before{content:"\f241";}.mdi-folder-outline:before{content:"\f256";}.mdi-arrow-up:before{content:"\f05d";}.mdi-alert-circle-outline:before{content:"\f5d6";}.mdi-settings-outline:before{content:"\f8ba";}.mdi-arrow-left:before{content:"\f04d";}.mdi-linkedin:before{content:"\f33b";}.mdi-gmail:before{content:"\f2ab";}.mdi-image-edit:before{content:"\f020e\de0e";}.mdi-image-edit-outline:before{content:"\f020f\de0f";}.mdi-lightbulb:before{content:"\f335";}.mdi-lightbulb-outline:before{content:"\f336";}.mdi-calculator:before{content:"\f0ec";}.mdi-arrow-up:before{content:'\f05d';}.mdi-update:before{content:'\f6af';}.mdi-timer-sand:before{content:'\f51f';}.mdi-school:before{content:'\f474';}.mdi-home-outline:before{content:'\f6a0';}.lnr-chevron-right:before{speak:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:"Linearicons-Free";font-style:normal;font-variant:normal;font-weight:normal;line-height:1;text-transform:none;content:"\e876";}.lnr-chevron-left:before{speak:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:"Linearicons-Free";font-style:normal;font-variant:normal;font-weight:normal;line-height:1;text-transform:none;content:"\e875";}.lnr-chevron-up:before{speak:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:"Linearicons-Free";font-style:normal;font-variant:normal;font-weight:normal;line-height:1;text-transform:none;content:"\e873";}.lnr-chevron-down:before{speak:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:"Linearicons-Free";font-style:normal;font-variant:normal;font-weight:normal;line-height:1;text-transform:none;content:"\e874";}.lnr-arrow-right:before{speak:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:"Linearicons-Free";font-style:normal;font-variant:normal;font-weight:normal;line-height:1;text-transform:none;content:"\e87a";}.lnr-map-marker:before{speak:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:"Linearicons-Free";font-style:normal;font-variant:normal;font-weight:normal;line-height:1;text-transform:none;content:"\e833";}.lnr-bullhorn:before{speak:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:"Linearicons-Free";font-style:normal;font-variant:normal;font-weight:normal;line-height:1;text-transform:none;content:"\e859";}.lnr-phone-handset:before{speak:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:"Linearicons-Free";font-style:normal;font-variant:normal;font-weight:normal;line-height:1;text-transform:none;content:"\e830";}.lnr-envelope:before{speak:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:"Linearicons-Free";font-style:normal;font-variant:normal;font-weight:normal;line-height:1;text-transform:none;content:"\e818";}ul{list-style-type:none;}@media (max-width:1440px){.container{padding:0 50px;}}@media (max-width:1024px){.container{max-width:100%;padding:0 15px;}}@media (max-width:720px){.container{padding:0 50px;}}@media (max-width:576px){.container{padding:0 15px;}}.cb-section{padding:60px 0;}.cb-section.cb-section-border-bottom{border-bottom:1px solid #e9e9e9;}@media screen and (max-width:768px){.cb-section{padding:40px 0;}}.btn-gradient{-webkit-transition:all 0.4s ease-in-out;-o-transition:all 0.4s ease-in-out;background-size:200% 100%;transition:all 0.4s ease-in-out;}.btn-gradient:hover{background-position:100% 0;}.dropdown{position:relative;}.dropdown .dropdown-menu{display:none;z-index:5;position:absolute;top:calc(100% - 1px);right:0;width:100%;min-width:210px;padding-top:26px;}.dropdown .dropdown-menu > *{-webkit-box-shadow:0 2px 14px rgba(46, 46, 46, 0.5);background:#fff;box-shadow:0 2px 14px rgba(46, 46, 46, 0.5);}.dropdown .dropdown-menu > ul li a{-webkit-transition:0.3s all;-o-transition:0.3s all;display:block;height:45px;padding:0 15px;color:#182642;font-size:14px;font-weight:700;line-height:normal;line-height:45px;text-decoration:none;white-space:nowrap;transition:0.3s all;}.dropdown .dropdown-menu > ul li a:hover{background:#E9E9E9;}.dropdown:hover .dropdown-menu{display:block;}.cb-title *{margin-bottom:1.875rem;color:#182642;font-size:1.875rem;font-weight:700;}.cb-title.cb-title-center{text-align:center;}.cb-title.cb-title-white *{color:#ffffff;}.mdi{line-height:1;}.row{margin-bottom:-30px;}.row + .row{margin-top:30px;}.row > *{margin-bottom:30px;}.view-more{-webkit-box-pack:end;-ms-flex-pack:end;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:flex-end;margin-top:40px;}.view-more a{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;color:#287ab9;font-size:14px;font-weight:700;text-decoration:none;}.view-more a span{padding-left:7px;}.view-more a:hover{color:#f7a334;}@media screen and (max-width:768px){.view-more{margin-top:20px;}}.job-tags{margin-top:40px;}.job-tags ul{margin-bottom:-20px;}.job-tags ul li{display:inline-block;margin-right:10px;margin-bottom:20px;}.job-tags ul li a{-webkit-transition:0.3s all;-o-transition:0.3s all;padding:8px 10px;border-radius:4px;background:#f1f1f1;color:inherit;font-size:14px;text-decoration:none;transition:0.3s all;}.job-tags ul li a:hover{background:#d8d8d8;}@media screen and (max-width:768px){.job-tags{margin-top:30px;}}.banner-ad + .banner-ad{margin-top:10px;}.banner-ad img{width:100%;}.pagination{margin-top:30px;}.pagination ul{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;}.pagination ul li a{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;width:30px;height:30px;border:1px solid #e5e5e5;border-radius:50%;background:#fff;color:#5d677a;font-size:14px;line-height:1;text-decoration:none;opacity:1;}.pagination ul li + li{margin-left:10px;}.pagination ul li.prev-page a, .pagination ul li.next-page a{border:1px solid transparent;background:#f5f5f5;}.pagination ul li.active a, .pagination ul li:hover a{border-color:#f7a334;background:#f7a334;color:#fff;}ul.filter-list li{-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:space-between;font-size:14px;}ul.filter-list li + li{margin-top:5px;}ul.filter-list li .count{color:#999999;}ul.filter-list li .form-group input{display:none;}ul.filter-list li .form-group label{-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;line-height:1;}ul.filter-list li .form-group label:before{margin-right:8px;font-family:Material Design Icons;font-size:18px;}ul.filter-list li .form-group.frm-checkbox input:checked ~ label:before{color:#287ab9;content:"\f132";}ul.filter-list li .form-group.frm-checkbox label:before{content:"\f131";}ul.filter-list li .form-group.frm-radio input:checked ~ label:before{content:"\f43e";}ul.filter-list li .form-group.frm-radio label:before{content:"\f43d";}.success-modal, .success-follow-modal, .success-job-alert-modal{position:relative;width:480px;padding:0 !important;}.success-modal .fancybox-close-small, .success-follow-modal .fancybox-close-small, .success-job-alert-modal .fancybox-close-small{display:none;}.success-modal .modal-title, .success-follow-modal .modal-title, .success-job-alert-modal .modal-title{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;min-height:48px;background:#eeeeee;text-align:center;}.success-modal .modal-title p, .success-follow-modal .modal-title p, .success-job-alert-modal .modal-title p{margin-bottom:0;font-size:14px;font-weight:700;line-height:1;text-transform:uppercase;}.success-modal .modal-body, .success-follow-modal .modal-body, .success-job-alert-modal .modal-body, .success-report-modal .modal-body{padding:40px;text-align:center;}.success-modal .modal-body .icon, .success-follow-modal .modal-body .icon, .success-job-alert-modal .modal-body .icon, .success-report-modal .modal-body .icon{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;margin-bottom:20px;}.success-modal .modal-body .icon em, .success-follow-modal .modal-body .icon em, .success-job-alert-modal .modal-body .icon em{color:#86cb49;font-size:30px;}.success-modal .modal-body .icon span, .success-follow-modal .modal-body .icon span, .success-job-alert-modal .modal-body .icon span{color:#86cb49;font-size:30px;}.success-modal .modal-body .icon img, .success-follow-modal .modal-body .icon img, .success-job-alert-modal .modal-body .icon img{max-height:100px;}.success-modal .modal-body p, .success-follow-modal .modal-body p, .success-job-alert-modal .modal-body p, .success-report-modal .modal-body p{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;color:#5d677a;font-size:14px;font-weight:400;}.success-modal .modal-body p span, .success-follow-modal .modal-body p span, .success-job-alert-modal .modal-body p span{margin-right:8px;}.success-modal .modal-body .btn-close-modal, .success-follow-modal .modal-body .btn-close-modal, .success-job-alert-modal .modal-body .btn-close-modal{-webkit-transition:0.3s all;-o-transition:0.3s all;display:block;z-index:11;position:absolute;top:10px;right:10px;max-width:120px;border-radius:4px;color:#cccccc;text-decoration:none;transition:0.3s all;}.success-modal .modal-body .view-saved-job, .success-follow-modal .modal-body .view-saved-job, .success-job-alert-modal .modal-body .view-saved-job{-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;margin-top:20px;padding:7px 20px;border-radius:20px;background:-webkit-gradient(linear, left top, right top, from(#2d7bb7), color-stop(#1e9bd3), to(#2d7bb7));background:-o-linear-gradient(left, #2d7bb7, #1e9bd3, #2d7bb7);background:linear-gradient(to right, #2d7bb7, #1e9bd3, #2d7bb7);background-size:200% 100%;color:#ffffff;font-size:14px;text-decoration:none;transition:0.4s ease-in-out all;}.success-modal .modal-body .view-saved-job:hover, .success-follow-modal .modal-body .view-saved-job:hover, .success-job-alert-modal .modal-body .view-saved-job:hover{background-position:100% 0;}.remove-modal{width:480px;padding:0 !important;}.remove-modal .fancybox-close-small{display:none;}.remove-modal .modal-title{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;min-height:48px;background:#eeeeee;text-align:center;}.remove-modal .modal-title p{margin-bottom:0;font-size:18px;font-weight:700;line-height:1;text-transform:uppercase;}.remove-modal .modal-body{padding:40px;text-align:center;}.remove-modal .modal-body .icon{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;margin-bottom:20px;}.remove-modal .modal-body .icon em{color:#fc0821;font-size:30px;}.remove-modal .modal-body .icon span{color:#fc0821;font-size:30px;}.remove-modal .modal-body .icon img{max-height:100px;}.remove-modal .modal-body p{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;color:#5d677a;font-size:16px;font-weight:400;}.remove-modal .modal-body p span{margin-right:8px;}.remove-modal .modal-body .btn-close-modal{-webkit-transition:0.3s all;-o-transition:0.3s all;display:block;z-index:11;position:absolute;top:10px;right:10px;max-width:120px;border-radius:4px;color:#cccccc;text-decoration:none;transition:0.3s all;}.remove-modal .modal-body .view-saved-job{color:inherit;}.login-modal{padding:0 !important;}.login-modal .modal-title{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;min-height:48px;background:#eeeeee;text-align:center;}.login-modal .modal-title p{margin-bottom:0;font-size:18px;font-weight:700;line-height:1.4em;text-transform:uppercase;}@media (max-width:576px){.login-modal .modal-title p{padding:0 50px;}}.login-modal .modal-body{padding:30px;}.login-modal .row{margin-right:-5px;margin-bottom:-10px;margin-left:-5px;}.login-modal .row > *{margin-bottom:10px;padding:0 5px;}.login-modal .form-group{display:-webkit-box;display:-ms-flexbox;display:flex;margin-bottom:15px;}.login-modal .form-group input[type=text], .login-modal .form-group input[type=password]{width:100%;height:35px;padding:0 10px;border-color:#333333;font-size:14px;}.login-modal .form-group input[type=text]::-webkit-input-placeholder, .login-modal .form-group input[type=password]::-webkit-input-placeholder{font-size:14px;}.login-modal .form-group input[type=text]::-moz-placeholder, .login-modal .form-group input[type=password]::-moz-placeholder{font-size:14px;}.login-modal .form-group input[type=text]:-ms-input-placeholder, .login-modal .form-group input[type=password]:-ms-input-placeholder{font-size:14px;}.login-modal .form-group input[type=text]::-ms-input-placeholder, .login-modal .form-group input[type=password]::-ms-input-placeholder{font-size:14px;}.login-modal .form-group input[type=text]::placeholder, .login-modal .form-group input[type=password]::placeholder{font-size:14px;}.login-modal .form-group button{width:100%;height:100%;border-color:#f79d25;background:#f79d25;color:#fff;font-size:14px;}.login-modal .form-group button:hover{background:#e18408;}.login-modal .form-group label{font-size:13px;}.login-modal .form-group.form-check{-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;margin-bottom:20px;}.login-modal .form-group.form-check input{margin-right:5px;}.login-modal .register{padding-right:10px;font-size:14px;}.login-modal .forget-password{font-size:14px;}.login-modal .sign-in-by{-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;margin-top:5px;}.login-modal .sign-in-by span{margin-right:10px;font-size:13px;}.login-modal .sign-in-by ul li{display:inline-block;margin-left:5px;}.login-modal .sign-in-by ul li a{color:inherit;font-size:20px;text-decoration:none;}.login-modal .sign-in-by ul li a:hover{color:#f79d25;}.references-modal, .hide-infor-modal, .saved-and-finish-modal{padding:0 !important;}.references-modal .modal-title, .hide-infor-modal .modal-title, .saved-and-finish-modal .modal-title{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;min-height:48px;padding:5px 15px;padding-right:44px;background:#eeeeee;text-align:center;}.references-modal .modal-title p, .hide-infor-modal .modal-title p, .saved-and-finish-modal .modal-title p{margin-bottom:0;font-size:18px;font-weight:700;line-height:1;text-transform:uppercase;}.references-modal .modal-body, .hide-infor-modal .modal-body, .saved-and-finish-modal .modal-body{padding:40px;}@media (min-width:1200px){.references-modal .modal-body .d-flex, .hide-infor-modal .modal-body .d-flex, .saved-and-finish-modal .modal-body .d-flex{-ms-flex-wrap:wrap;display:-webkit-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;margin:0 -10px;}.references-modal .modal-body .d-flex .form-group, .hide-infor-modal .modal-body .d-flex .form-group, .saved-and-finish-modal .modal-body .d-flex .form-group{-webkit-box-flex:0;-ms-flex:0 0 20%;flex:0 0 20%;max-width:20%;padding:0 10px;}}.references-modal .form-group, .hide-infor-modal .form-group, .saved-and-finish-modal .form-group{margin-bottom:10px;}.references-modal .form-group label, .hide-infor-modal .form-group label, .saved-and-finish-modal .form-group label{width:100%;color:#5d677a;font-size:16px;font-weight:400;}.references-modal .form-group label span, .hide-infor-modal .form-group label span, .saved-and-finish-modal .form-group label span{color:#999999;font-size:14px;font-weight:400;}.references-modal .form-group input, .hide-infor-modal .form-group input, .saved-and-finish-modal .form-group input{width:100%;height:40px;padding:5px 0;border:none;border-bottom:1px solid #93bcdc;color:#172642;font-size:16px;font-weight:700;}.references-modal .form-group input:focus, .hide-infor-modal .form-group input:focus, .saved-and-finish-modal .form-group input:focus{outline:none;}.references-modal .form-group span, .hide-infor-modal .form-group span, .saved-and-finish-modal .form-group span{display:-webkit-box;display:-ms-flexbox;display:flex;padding-top:7px;color:red;font-size:12px;font-style:italic;font-weight:400;}.references-modal .form-group.form-text, .hide-infor-modal .form-group.form-text, .saved-and-finish-modal .form-group.form-text{position:relative;}.references-modal .form-group.form-text label, .hide-infor-modal .form-group.form-text label, .saved-and-finish-modal .form-group.form-text label{-webkit-transition:0.5s;-o-transition:0.5s;position:absolute;top:7px;left:0;pointer-events:none;transition:0.5s;}.references-modal .form-group.form-text input:focus ~ label, .references-modal .form-group.form-text input:not([value=""]) ~ label, .hide-infor-modal .form-group.form-text input:focus ~ label, .hide-infor-modal .form-group.form-text input:not([value=""]) ~ label, .saved-and-finish-modal .form-group.form-text input:focus ~ label, .saved-and-finish-modal .form-group.form-text input:not([value=""]) ~ label{top:-12px;left:0;font-size:14px;}.references-modal .form-group.form-checkbox label, .hide-infor-modal .form-group.form-checkbox label, .saved-and-finish-modal .form-group.form-checkbox label{position:relative;padding-left:25px;}.references-modal .form-group.form-checkbox label:after, .hide-infor-modal .form-group.form-checkbox label:after, .saved-and-finish-modal .form-group.form-checkbox label:after{position:absolute;top:2px;left:0;color:#5d677a;font:normal normal normal 24px/1 Material Design Icons;font-size:18px;content:"\f131";}.references-modal .form-group.form-checkbox input, .hide-infor-modal .form-group.form-checkbox input, .saved-and-finish-modal .form-group.form-checkbox input{display:none;}.references-modal .form-group.form-checkbox input:checked, .hide-infor-modal .form-group.form-checkbox input:checked, .saved-and-finish-modal .form-group.form-checkbox input:checked{background:black;}.references-modal .form-group.form-checkbox input:checked ~ label:after, .hide-infor-modal .form-group.form-checkbox input:checked ~ label:after, .saved-and-finish-modal .form-group.form-checkbox input:checked ~ label:after{color:#5d677a;content:"\f132";}.references-modal .button-modal, .hide-infor-modal .button-modal, .saved-and-finish-modal .button-modal{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;}.references-modal .btn-gradient, .hide-infor-modal .btn-gradient, .saved-and-finish-modal .btn-gradient{-webkit-transition:0.3s all;-o-transition:0.3s all;display:block;max-width:120px;margin:30px auto 0;margin-right:10px;margin-left:10px;padding:8px 15px;border-radius:4px;background-image:-webkit-gradient(linear, left top, right top, from(#86cb49), color-stop(#169b74), to(#86cb49));background-image:-o-linear-gradient(left, #86cb49, #169b74, #86cb49);background-image:linear-gradient(to right, #86cb49, #169b74, #86cb49);color:#fff;text-align:center;text-decoration:none;transition:0.3s all;}@media (min-width:1200px){.references-modal .btn-gradient, .hide-infor-modal .btn-gradient, .saved-and-finish-modal .btn-gradient{width:120px;}}.references-modal .btn-close-modal, .hide-infor-modal .btn-close-modal, .saved-and-finish-modal .btn-close-modal{-webkit-transition:0.3s all;-o-transition:0.3s all;display:block;max-width:120px;margin:30px auto 0;margin-right:10px;margin-left:10px;padding:8px 15px;border-radius:4px;background:#2d7bb7;color:#fff;text-align:center;text-decoration:none;transition:0.3s all;}.references-modal .btn-close-modal:hover, .hide-infor-modal .btn-close-modal:hover, .saved-and-finish-modal .btn-close-modal:hover{background:#235f8e;}@media (min-width:1200px){.references-modal .btn-close-modal, .hide-infor-modal .btn-close-modal, .saved-and-finish-modal .btn-close-modal{width:120px;}}@media (min-width:1025px){.hide-infor-modal{min-width:300px;}}.chosen-container-multi .chosen-choices .search-choice .search-choice-close, .chosen-container-single .chosen-search input[type=text], .chosen-container-single .chosen-single abbr, .chosen-container-single .chosen-single div b, .chosen-container .chosen-results-scroll-down span, .chosen-container .chosen-results-scroll-up span, .chosen-rtl .chosen-search input[type=text]{background-image:url("https://static.careerbuilder.vn/themes/careerbuilder/img/chosen-sprite@2x.png") !important;background-repeat:no-repeat !important;background-size:52px 37px !important;}.back-drop{-webkit-transition:0.5s ease-in-out;-o-transition:0.5s ease-in-out;z-index:998;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0, 0, 0, 0.5);opacity:0;pointer-events:none;transition:0.5s ease-in-out;}.back-drop.active{opacity:1;pointer-events:initial;}select{width:100%;height:40px;}.zalo-share-button{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;position:relative;align-items:center;justify-content:center;}.zalo-share-button:before{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;z-index:0;position:absolute;top:3px;align-items:center;justify-content:center;height:20px;content:url("https://static.careerbuilder.vn/themes/careerbuilder/img/i-zalo.png");pointer-events:none;}.zalo-share-button iframe{opacity:0 !important;}.zalo-share-button #_no-clickjacking-0, .zalo-share-button #_no-clickjacking-1{opacity:0 !important;}.zalo-share-button:hover:before{content:url("https://static.careerbuilder.vn/themes/careerbuilder/img/i-zalo-hover.png");}.autocomplete-suggestions{z-index:99999999 !important;}.maps-tooltip .figure{-webkit-box-align:center;-ms-flex-align:center;-ms-flex-wrap:wrap;display:-webkit-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;align-items:center;}.maps-tooltip .caption{-webkit-box-flex:0;-ms-flex:0 0 calc(100% - 60px);flex:0 0 calc(100% - 60px);max-width:calc(100% - 60px);padding-left:10px;}.maps-tooltip .image{-webkit-box-flex:0;-ms-flex:0 0 60px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;flex:0 0 60px;align-items:center;justify-content:center;width:60px;max-width:60px;height:60px;margin-bottom:5px;padding:5px;border:1px solid #f1f1f1;border-radius:3px;}.maps-tooltip .image img{max-width:100%;max-height:100%;}.maps-tooltip p{margin-bottom:3px;font-size:12px;}.maps-tooltip .title{color:#5d677a;font-size:14px;font-weight:700;}.maps-tooltip a{color:#0056b3;font-size:13px;font-weight:400;}.maps-tooltip .salary{color:#008563;}.chosen-drop-bottom .chosen-container .chosen-drop{top:initial;bottom:100%;border-top:1px solid #aaaaaa;border-bottom:none;}@media (min-width:1200px){.cus-row{overflow-x:hidden;}}.form-group.form-text input.label-active ~ label{top:-12px !important;font-size:14px !important;}.toolip{position:absolute;top:calc(100% + 5px);left:0;width:-webkit-max-content;width:-moz-max-content;width:max-content;max-width:400px;padding:5px 15px;border:1px solid #cccccc;border-radius:2px;background:#ffffff;opacity:0;pointer-events:none;}.toolip p, .toolip a{color:#5d677a;font-size:13px;}.toolip:after{-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);z-index:11;position:absolute;top:-4px;left:50%;width:0;height:0;transform:translateX(-50%);border-right:6px solid transparent;border-bottom:5px solid #ffffff;border-left:6px solid transparent;content:"";opacity:0;}.toolip:before{-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);z-index:-1;position:absolute;top:-5.5px;left:50%;width:0;height:0;transform:translateX(-50%);border-right:8px solid transparent;border-bottom:7px solid #cccccc;border-left:8px solid transparent;content:"";opacity:0;}.toollips{position:relative;}@media (min-width:1025px){.toollips:hover{visibility:visible;}.toollips:hover .toolip{opacity:1;}.toollips:hover .toolip:after{opacity:1;}.toollips:hover .toolip::before{opacity:1;}}@media (max-width:1024px){.toollips .toolip{display:none;}}input:focus{border:1px solid #f1f1f1;border-color:#4fb45e !important;outline:none;}button:focus{border:1px solid #f1f1f1;border-color:#4fb45e !important;outline:none;}select:focus{border:1px solid #f1f1f1;border-color:#4fb45e !important;outline:none;}textarea:focus{border:1px solid #f1f1f1;border-color:#4fb45e !important;outline:none;}html, body{color:#5d677a;font-family:"Roboto", sans-serif;font-size:13px;}@media (min-width:768px){html, body{font-size:14px;}}@media (min-width:1025px){html, body{font-size:15px;}}@media (min-width:1200px){html, body{font-size:16px;}}body{-webkit-transition:left 0.5s ease-in-out;-o-transition:left 0.5s ease-in-out;position:relative;left:0;min-height:100vh;transition:left 0.5s ease-in-out;}@media screen and (max-width:1200px){html.menu-mobile-active{position:fixed;width:100%;overflow:hidden;}html.menu-mobile-active body, html.menu-mobile-active header{left:290px;}}a{color:#09a0db;}main{padding-top:80px;}@media screen and (max-width:1200px){main{padding-top:60px;}}img{max-width:100%;height:auto;}iframe{max-width:100%;}select{background-image:url("https://static.careerbuilder.vn/themes/careerbuilder/img/sl.png");background-position:95% 50%;background-repeat:no-repeat;}button{border:0;}strong, b{font-weight:700;}input, textarea, button, select{border:1px solid #333333;}button{border:0;}header{-webkit-transition:left 0.5s ease-in-out;-o-transition:left 0.5s ease-in-out;z-index:999;position:fixed !important;position:relative;top:0;left:0;width:100%;background:#ffffff;transition:left 0.5s ease-in-out;}header:before{z-index:1;position:absolute;bottom:0;left:0;width:100%;height:1px;background:#e8e8e8;content:"";}@media (max-width:1200px){header{position:fixed;height:60px;padding:14px 0;}}header.active{-webkit-box-shadow:1px 0 20px 0 rgba(0, 0, 0, 0.1);box-shadow:1px 0 20px 0 rgba(0, 0, 0, 0.1);}@media (max-width:1025px){header.active{-webkit-box-shadow:none;box-shadow:none;}}header .container-fluid{padding-right:0;}header .main-wrap, header .right-wrap, header .left-wrap{-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:space-between;}header .main-menu{margin-left:40px;}header .main-menu .menu{-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:space-between;}header .main-menu .menu li{padding:0 10px;}header .main-menu .menu li a{-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;position:relative;color:#5d677a;font-size:14px;font-weight:400;text-decoration:none;transition:0.4s ease-in-out all;}header .main-menu .menu li a:before{-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;z-index:12;position:absolute;bottom:-32px;left:0;width:100%;height:4px;background:#287ab9;content:"";opacity:0;transition:0.4s ease-in-out all;}header .main-menu .menu li:hover a{color:#182642;}header .main-menu .menu li:hover a::before{opacity:1;}header .main-menu .menu li.active a{color:#182642;font-weight:700;}header .main-menu .menu li.active a::before{opacity:1;}header .main-menu .menu li.dropdown{position:relative;}header .main-menu .menu li.dropdown .dropdown-menu{left:0;}header .main-menu .menu li.dropdown li{margin-bottom:5px;padding:0;}header .main-menu .menu li.dropdown li a{color:#182642;font-size:14px;font-weight:700;}header .main-menu .menu li.dropdown li a:before{display:none;bottom:-5px;height:2px;opacity:0;}header .main-menu .menu li.dropdown li:hover a{color:#182642;}header .main-menu .menu li.dropdown li:hover a::before{opacity:1;}header .main-menu .menu li.dropdown li.active a{color:#182642;font-weight:700;}header .main-menu .menu li.dropdown li.active a::before{opacity:1;}@media (min-width:1400px){header .main-menu .menu li{padding:0 15px;}}@media (max-width:1368px){header .main-menu{margin-left:10px;}header .main-menu .menu li{padding:0 6px;}header .main-menu .menu li a{font-size:13px;}}header .main-noti{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;width:47px;border-right:1px solid #e8e8e8;}header .main-noti:hover a{color:#f79d25;}header .main-noti a{height:26px;color:#5d677a;font-size:20px;}header .main-noti .dropdown-menu .noti{min-width:310px;padding:20px;}header .main-noti .dropdown-menu p{font-size:14px;}header .main-noti .dropdown-menu .email{display:block;width:75px;height:27px;margin:15px auto 0;padding:0 5px;border:none;background-color:#f79d25;color:#fff;font-size:12px;font-weight:bold;line-height:27px;text-align:center;cursor:pointer;}header .main-login, header .title-login{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;height:26px;padding:0 10px;border-right:1px solid #e8e8e8;}header .main-login:hover > a, header .title-login:hover > a{color:#f79d25;}header .main-login > a, header .title-login > a{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;color:#5d677a;font-size:14px;font-weight:400;}header .main-login > a span, header .title-login > a span{padding-right:5px;font-size:20px;line-height:0;}header .main-login .dropdown-menu, header .title-login .dropdown-menu{min-width:250px;}header .main-login .login-wrapper, header .title-login .login-wrapper{padding:15px;}header .main-login .login-wrapper .row, header .title-login .login-wrapper .row{margin-right:-5px;margin-bottom:-10px;margin-left:-5px;}header .main-login .login-wrapper .row > *, header .title-login .login-wrapper .row > *{margin-bottom:10px;padding:0 5px;}header .main-login .login-wrapper .form-group, header .title-login .login-wrapper .form-group{display:-webkit-box;display:-ms-flexbox;display:flex;}header .main-login .login-wrapper .form-group input[type=text], header .main-login .login-wrapper .form-group input[type=password], header .title-login .login-wrapper .form-group input[type=text], header .title-login .login-wrapper .form-group input[type=password]{width:100%;height:30px;padding:0 5px;font-size:14px;}header .main-login .login-wrapper .form-group input[type=text]::-webkit-input-placeholder, header .main-login .login-wrapper .form-group input[type=password]::-webkit-input-placeholder, header .title-login .login-wrapper .form-group input[type=text]::-webkit-input-placeholder, header .title-login .login-wrapper .form-group input[type=password]::-webkit-input-placeholder{font-size:14px;}header .main-login .login-wrapper .form-group input[type=text]::-moz-placeholder, header .main-login .login-wrapper .form-group input[type=password]::-moz-placeholder, header .title-login .login-wrapper .form-group input[type=text]::-moz-placeholder, header .title-login .login-wrapper .form-group input[type=password]::-moz-placeholder{font-size:14px;}header .main-login .login-wrapper .form-group input[type=text]:-ms-input-placeholder, header .main-login .login-wrapper .form-group input[type=password]:-ms-input-placeholder, header .title-login .login-wrapper .form-group input[type=text]:-ms-input-placeholder, header .title-login .login-wrapper .form-group input[type=password]:-ms-input-placeholder{font-size:14px;}header .main-login .login-wrapper .form-group input[type=text]::-ms-input-placeholder, header .main-login .login-wrapper .form-group input[type=password]::-ms-input-placeholder, header .title-login .login-wrapper .form-group input[type=text]::-ms-input-placeholder, header .title-login .login-wrapper .form-group input[type=password]::-ms-input-placeholder{font-size:14px;}header .main-login .login-wrapper .form-group input[type=text]::placeholder, header .main-login .login-wrapper .form-group input[type=password]::placeholder, header .title-login .login-wrapper .form-group input[type=text]::placeholder, header .title-login .login-wrapper .form-group input[type=password]::placeholder{font-size:14px;}header .main-login .login-wrapper .form-group button, header .title-login .login-wrapper .form-group button{width:100%;height:100%;background:#f79d25;color:#fff;font-size:14px;}header .main-login .login-wrapper .form-group button:hover, header .title-login .login-wrapper .form-group button:hover{background:#e18408;}header .main-login .login-wrapper .form-group label, header .title-login .login-wrapper .form-group label{font-size:13px;}header .main-login .login-wrapper .form-group.form-check, header .title-login .login-wrapper .form-group.form-check{display:-webkit-box;display:-ms-flexbox;display:flex;}header .main-login .login-wrapper .form-group.form-check input, header .title-login .login-wrapper .form-group.form-check input{margin-right:5px;}header .main-login .login-wrapper .forget-password, header .title-login .login-wrapper .forget-password{font-size:14px;}header .main-login .login-wrapper .sign-in-by, header .title-login .login-wrapper .sign-in-by{-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;}header .main-login .login-wrapper .sign-in-by span, header .title-login .login-wrapper .sign-in-by span{margin-right:10px;font-size:13px;}header .main-login .login-wrapper .sign-in-by ul li, header .title-login .login-wrapper .sign-in-by ul li{display:inline-block;margin-left:5px;}header .main-login .login-wrapper .sign-in-by ul li a, header .title-login .login-wrapper .sign-in-by ul li a{color:inherit;font-size:20px;text-decoration:none;}header .main-login .login-wrapper .sign-in-by ul li a:hover, header .title-login .login-wrapper .sign-in-by ul li a:hover{color:#f79d25;}header .main-login.dropdown .dropdown-menu, header .title-login.dropdown .dropdown-menu{display:none;min-width:350px;}header .main-login.dropdown:hover .dropdown-menu, header .title-login.dropdown:hover .dropdown-menu{display:none;}header .main-login.logged .dropdown-menu, header .title-login.logged .dropdown-menu{width:-webkit-max-content;width:-moz-max-content;width:max-content;min-width:170px;}header .main-login.logged > a, header .title-login.logged > a{color:#287ab9;}header .main-login.logged > a span, header .title-login.logged > a span{display:-webkit-box;display:-ms-flexbox;display:flex;padding-left:4px;color:#287ab9;font-size:15px !important;font-weight:700;}header .main-login.logged > a:hover, header .title-login.logged > a:hover{text-decoration:none;}header .main-login.logged:hover .dropdown-menu, header .title-login.logged:hover .dropdown-menu{display:block;}.main-login.logged .switch-status-area{margin:0 15px;}.main-login.logged .switch-status-area > p{margin-bottom:10px;color:#172642;}.main-login.logged .switch-status-area > p em{color:#ff0000;font-style:normal;margin-left:5px;font-size:14px;position:relative;top:-7px;font-weight:700;}.main-login.logged .switch-status{display:-ms-flexbox;display:inline-flex;background-color:#fff;border:1px solid #ccc;border-radius:26px;margin-bottom:15px;width:100%;}.main-login.logged .switch-status a{display:inline-block;width:100%;color:#5d677a;text-align:center;border-radius:26px;font-size:14px;font-weight:bold;padding:10px 0;}.main-login.logged .switch-status a:hover{text-decoration:none}.main-login.logged .switch-status .inactive:hover{background-color:#f5f6f7;color:#000}.main-login.logged .switch-status .passive:hover{background-color:#109ed9;color:#fff}.main-login.logged .switch-status .actives:hover{background-color:#32dba3;color:#fff}header .main-login.logged .dropdown-menu .inner{-webkit-box-shadow:0 2px 14px rgb(46 46 46 / 50%);background:#fff;box-shadow:0 2px 14px rgb(46 46 46 / 50%);}header .main-login.logged .dropdown-menu > *{box-shadow:none;}header .main-login.logged .dropdown-menu .inner > ul li:first-child{border-top:1px solid #ccc;border-bottom:1px solid #ccc;}.main-login.logged .top-info{padding-top:15px;}.main-login.logged .top-info h2{color:#172642;font-size:24px;margin-bottom:15px;line-height:1.2em;}.main-login.logged .top-info{text-align:center;}.main-login.logged .top-info .image{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;width:80px;height:80px;margin:0 auto;margin-bottom:10px;overflow:hidden;border-radius:50%;}.main-login.logged .switch-status{justify-content:center;}.logged.dropdown .dropdown-menu .edit-profile{display:-webkit-box;display:-ms-flexbox;display:flex;justify-content:center;padding-bottom:15px;}.logged.dropdown .dropdown-menu .edit-profile a{-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;padding:10px 20px;background-color:#109ed9;color:#fff;font-size:14px;font-weight:700;text-transform:uppercase;transition:0.4s ease-in-out all;text-decoration:none;}.logged.dropdown .dropdown-menu .setting{padding:0 15px;}.logged.dropdown .dropdown-menu .logout{padding:15px;text-align:right;}.logged.dropdown .dropdown-menu ul li em{font-size:22px;margin-right:15px;}.logged.dropdown .dropdown-menu ul li em.color-1{color:#182642;}.logged.dropdown .dropdown-menu ul li em.color-2{color:#109ed9;}.logged.dropdown .dropdown-menu ul li em.color-3{color:#32dba3;}.logged.dropdown .dropdown-menu ul li em.color-4{color:#f8b45c;}.logged.dropdown .dropdown-menu .logout a, .logged.dropdown .dropdown-menu .logout a em, .logged.dropdown .dropdown-menu .setting > a{color:#5d677a;}.logged.dropdown .dropdown-menu .inner ul li a{-webkit-transition:0.3s all;-o-transition:0.3s all;display:block;height:45px;padding:0 15px;color:#182642;font-size:14px;font-weight:700;line-height:normal;line-height:45px;text-decoration:none;white-space:nowrap;transition:0.3s all;}.logged.dropdown .dropdown-menu .inner > ul li a, .logged.dropdown .dropdown-menu .setting ul li a{display:flex;align-items:center;}.logged.dropdown .dropdown-menu .setting ul{display:none;}.logged.dropdown .dropdown-menu .setting > a{position:relative;display:block;text-decoration:none;}.logged.dropdown .dropdown-menu .setting > a:before{position:absolute;top:3px;right:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;display:inline-block;font:normal normal normal 24px/1 "Material Design Icons";font-size:inherit;line-height:inherit;text-rendering:auto;content:"\f140";color:#182642;}.logged.dropdown .dropdown-menu .setting > a.active:before{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}.logged.dropdown .dropdown-menu .logout a em{font-size:16px;margin-right:10px;}header .title-login{padding:0;border-right:none;}header .main-register{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;height:26px;padding:0 10px;border-right:1px solid #e8e8e8;}header .main-register:hover a{color:#f79d25;}header .main-register a{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;color:#5d677a;font-size:14px;font-weight:400;}@media (max-width:1025px){header .left-wrap .logo{padding-left:20px;}}@media (max-width:768px){header .left-wrap .logo{padding-left:10px;}}header .main-language{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;position:relative;align-items:center;justify-content:center;height:26px;padding:0 15px;}header .main-language .dropdown-toggle{-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;display:-webkit-box;display:-ms-flexbox;display:flex;position:relative;color:#666666;font-size:14px;font-weight:400;transition:0.4s ease-in-out all;}@media (max-width:1025px){header .main-language .dropdown-toggle{color:#5d677a;}}header .main-language .dropdown-toggle:hover{color:#182642;cursor:pointer;}header .main-language .dropdown-toggle:hover:before{color:#182642;}header .main-language .dropdown-menu{min-width:50px;}header .main-language .dropdown-menu .item{-webkit-box-shadow:none !important;position:relative;padding:5px 5px;padding-left:25px;border-right:1px solid #ebebeb;border-left:1px solid #ebebeb;box-shadow:none !important;}header .main-language .dropdown-menu .item.active:before{-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);position:absolute;top:50%;left:5px;transform:translateY(-50%);color:#182642;font-family:"Material Design Icons";font-size:18px;content:"\f12c";}header .main-language .dropdown-menu .item:first-child{border-top:1px solid #ebebeb;}header .main-language .dropdown-menu .item:last-child{border-bottom:1px solid #ebebeb;}header .main-language .dropdown-menu a{-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;color:#5d677a;font-size:14px;font-weight:400;line-height:1.2;transition:0.4s ease-in-out all;}header .main-language .dropdown-menu a:hover{color:#182642;}header .main-language:hover .dropdown-menu{display:block;}header .main-employer{z-index:2;position:relative;}header .main-employer .dropdown-menu{padding-top:0;}header .main-employer .dropdown-toggle{padding:17.5px;background:#182642;}header .main-employer .dropdown-toggle h4{color:#ffffff;font-size:16px;font-weight:700;}header .main-employer .dropdown-toggle em{padding-left:5px;color:#ffffff;font-size:14px;}header .main-employer .dropdown-toggle p{color:#999999;font-size:14px;font-weight:400;}header .main-employer:hover a{text-decoration:none;}header .main-employer:hover .dropdown-menu{display:block;}@media (min-width:1400px){header .main-employer .dropdown-toggle{min-width:190px;padding:17.5px 20px;}}header .button-hambuger{display:none;}header .backdrop{-webkit-transition:0.5s ease-in-out;-o-transition:0.5s ease-in-out;z-index:31;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0, 0, 0, 0.8);opacity:0;pointer-events:none;transition:0.5s ease-in-out;}header .backdrop.active{opacity:1;pointer-events:initial;}header .mobile-menu{-webkit-transition:left 0.5s ease-in-out;-o-transition:left 0.5s ease-in-out;display:block;z-index:900;position:fixed;top:0;left:-290px;width:290px;height:100%;background-color:#fff;transition:left 0.5s ease-in-out;}header .mobile-menu.show{left:0;}header .mobile-menu .mobile-wrap{height:100%;}header .mobile-menu .header-logo{padding:20px 10px;text-align:center;}header .mobile-menu .header-bottom{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;-webkit-box-pack:justify;-ms-flex-pack:justify;display:-webkit-box;display:-ms-flexbox;display:flex;flex-direction:column;justify-content:space-between;height:calc(100% - 77px);overflow-x:hidden;overflow-y:auto;background:#182641;color:#fff;}header .mobile-menu .dropdown-mobile{position:relative;}header .mobile-menu .dropdown-mobile:before{position:absolute;top:0;right:15px;color:#ffffff;font-family:"Material Design Icons";font-size:16px;content:"\f140";}header .mobile-menu .dropdown-mobile .dropdown-menu{display:none;}header .mobile-menu .dropdown-mobile .dropdown-menu ul{padding:10px;}header .mobile-menu .dropdown-mobile.show-menu:before{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}header .mobile-menu .dropdown-mobile.show-menu .dropdown-menu{display:block;}header .mobile-menu .dropdown-mobile-2{position:relative;}header .mobile-menu .dropdown-mobile-2:before{position:absolute;top:0;right:15px;color:#ffffff;font-family:"Material Design Icons";font-size:16px;content:"\f140";}header .mobile-menu .dropdown-mobile-2 .dropdown-menu-2{display:none;}header .mobile-menu .dropdown-mobile-2 .dropdown-menu-2 ul{padding:10px 25px;padding-right:10px;}header .mobile-menu .dropdown-mobile-2.show-menu-2:before{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}header .mobile-menu .dropdown-mobile-2.show-menu-2 .dropdown-menu-2{display:block;}header .mobile-menu .profile{position:relative;padding:20px 10px;border-bottom:1px solid #ccc;}header .mobile-menu .profile .avatar{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;width:80px;height:80px;margin:0 auto;overflow:hidden;border-radius:50%;background:rgba(255, 255, 255, 0.3);}header .mobile-menu .profile .avatar img{-o-object-fit:cover;width:100%;height:100%;object-fit:cover;}header .mobile-menu .profile .username{margin-top:15px;font-size:16px;text-align:center;text-transform:uppercase;}header .mobile-menu .profile .username p, header .mobile-menu .profile .username a{color:#ffffff;font-size:16px;text-align:center;text-transform:uppercase;}header .mobile-menu .profile .username p:hover, header .mobile-menu .profile .username a:hover{text-decoration:none;}header .mobile-menu .profile .back-menu-normal, header .mobile-menu .profile .back-menu-normal-2{-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;position:absolute;top:25px;left:15px;opacity:0;pointer-events:none;transition:0.4s ease-in-out all;}header .mobile-menu .profile .back-menu-normal em, header .mobile-menu .profile .back-menu-normal-2 em{color:#ffffff;font-size:35px;font-weight:700;}header .mobile-menu .profile .back-menu-normal.active, header .mobile-menu .profile .back-menu-normal-2.active{cursor:pointer;opacity:1;pointer-events:auto;}header .mobile-menu .menu, header .mobile-menu .authentication-links, header .mobile-menu .header-alert{padding:20px;border-bottom:1px solid #ccc;}header .mobile-menu .menu ul li + li, header .mobile-menu .authentication-links ul li + li, header .mobile-menu .header-alert ul li + li{margin-top:10px;}header .mobile-menu .menu ul li a, header .mobile-menu .authentication-links ul li a, header .mobile-menu .header-alert ul li a{color:inherit;font-size:14px;}header .mobile-menu .menu ul li a i, header .mobile-menu .authentication-links ul li a i, header .mobile-menu .header-alert ul li a i{margin-right:10px;}header .mobile-menu .authentication-links{border-bottom:none;}header .mobile-menu .menu{position:relative;}header .mobile-menu .menu ul li.active a{color:#f7a334;}header .mobile-menu .menu ul li.dropdown-search-jobs .dropdown-menu{display:none;}header .mobile-menu .menu ul li.dropdown-search-jobs .dropdown-menu ul{padding-top:5px;padding-left:35px;}header .mobile-menu .menu ul li.dropdown-search-jobs .dropdown-menu ul li a{font-size:14px;}header .mobile-menu .menu .menu-normal{-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;transition:0.4s ease-in-out all;}header .mobile-menu .menu .menu-normal li a i.fa{font-size:14px;}header .mobile-menu .menu .menu-normal.active{-webkit-transform:translateX(-300px);-ms-transform:translateX(-300px);transform:translateX(-300px);}header .mobile-menu .menu .menu-logged{width:calc(100% - 50px);}header .mobile-menu .menu .menu-logged, header .mobile-menu .menu .menu-search-jobs, header .mobile-menu .menu .list-unstyled{-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;-webkit-transform:translateX(300px);-ms-transform:translateX(300px);transform:translateX(300px);transition:0.4s ease-in-out all;}header .mobile-menu .menu .menu-logged .menu-dashboard a, header .mobile-menu .menu .menu-search-jobs .menu-dashboard a, header .mobile-menu .menu .list-unstyled .menu-dashboard a{position:relative;padding-right:15px;}header .mobile-menu .menu .menu-logged .menu-dashboard a:before, header .mobile-menu .menu .menu-search-jobs .menu-dashboard a:before, header .mobile-menu .menu .list-unstyled .menu-dashboard a:before{position:absolute;top:1.2px;left:calc(100% - 15px);color:#ffffff;font-family:"Material Design Icons";font-size:12px;content:"\f142";}header .mobile-menu .menu .menu-logged .menu-dashboard .list-unstyled, header .mobile-menu .menu .menu-search-jobs .menu-dashboard .list-unstyled, header .mobile-menu .menu .list-unstyled .menu-dashboard .list-unstyled{width:100%;}header .mobile-menu .menu .menu-logged .menu-dashboard .list-unstyled li a, header .mobile-menu .menu .menu-search-jobs .menu-dashboard .list-unstyled li a, header .mobile-menu .menu .list-unstyled .menu-dashboard .list-unstyled li a{line-height:1.3;}header .mobile-menu .menu .menu-logged .menu-dashboard ul li a:before, header .mobile-menu .menu .menu-search-jobs .menu-dashboard ul li a:before, header .mobile-menu .menu .list-unstyled .menu-dashboard ul li a:before{display:none;}header .mobile-menu .menu .menu-logged.active, header .mobile-menu .menu .menu-search-jobs.active, header .mobile-menu .menu .list-unstyled.active{-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0);opacity:1;pointer-events:auto;}header .mobile-menu .menu .menu-logged.active-2, header .mobile-menu .menu .menu-search-jobs.active-2, header .mobile-menu .menu .list-unstyled.active-2{-webkit-transform:translateX(-300px);-ms-transform:translateX(-300px);transform:translateX(-300px);opacity:1;pointer-events:none;}header .mobile-menu .menu .menu-logged.active-2 .menu-dashboard .list-unstyled, header .mobile-menu .menu .menu-search-jobs.active-2 .menu-dashboard .list-unstyled, header .mobile-menu .menu .list-unstyled.active-2 .menu-dashboard .list-unstyled{-webkit-transform:translateX(300px);-ms-transform:translateX(300px);transform:translateX(300px);}header .mobile-menu .menu.active{border-bottom:none;}header .mobile-menu .header-alert{background:#182641;}header .mobile-menu .header-alert ul{-ms-flex-wrap:wrap;display:-webkit-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;}header .mobile-menu .header-alert ul li{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;}header .mobile-menu .header-alert ul li a{-webkit-box-align:start;-ms-flex-align:start;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:flex-start;}header .mobile-menu .header-alert ul li a i{margin:0;margin-right:10px;padding-top:3px;}header .mobile-menu .header-alert ul li a span{display:-webkit-box;display:-ms-flexbox;display:flex;}header .mobile-menu .employer-site{margin-top:auto;padding:20px;background:#4892C7;}header .mobile-menu .employer-site h4{color:#ffffff;font-size:16px;}header .mobile-menu .employer-site p{color:#ffffff;font-size:14px;}header .mobile-menu .menu-logged, header .mobile-menu .menu-search-jobs, header .mobile-menu .list-unstyled{-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;z-index:11;position:absolute;top:20px;left:20px;opacity:0;pointer-events:none;transition:0.4s ease-in-out all;}header .mobile-menu .menu-logged ul li a, header .mobile-menu .menu-search-jobs ul li a, header .mobile-menu .list-unstyled ul li a{-webkit-box-pack:start;-ms-flex-pack:start;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:flex-start;}header .mobile-menu .menu-logged ul li a i, header .mobile-menu .menu-search-jobs ul li a i, header .mobile-menu .list-unstyled ul li a i{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;width:25px;margin-right:0;padding-right:7px;}header .mobile-menu .menu-logged ul li a i.fa, header .mobile-menu .menu-search-jobs ul li a i.fa, header .mobile-menu .list-unstyled ul li a i.fa{font-size:16px;}header .mobile-menu .header-bottom-bottom a:hover, header .mobile-menu .header-bottom-bottom a:focus{text-decoration:none;}header .mobile-menu .header-bottom-bottom .authentication-links{-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;background:#4990c6;transition:0.4s ease-in-out all;}header .mobile-menu .header-bottom-bottom .authentication-links ul li a i{width:20px;}header .mobile-menu .header-bottom-bottom .authentication-links ul li a i.fa{font-size:15px;}header .mobile-menu .header-bottom-bottom .authentication-links.active{-webkit-transform:translateX(-300px);-ms-transform:translateX(-300px);transform:translateX(-300px);}header .mobile-menu .menu-logged p, header .mobile-menu .menu-search-jobs p, header .mobile-menu .list-unstyled p{margin-bottom:10px;color:#ffffff;font-size:14px;font-weight:700;}header .mobile-menu.logged .menu{border-bottom:none;}@media screen and (min-width:1200px){header .mobile-menu{display:none;}}@media screen and (max-width:1280.98px){header .main-menu .menu li a{font-size:13px;}}@media screen and (max-width:1200px){header .button-hambuger{display:block;}header .button-hambuger span{font-size:24px;line-height:normal;}header .left-wrap{-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;position:relative;align-items:center;width:100%;}header .left-wrap .logo{-webkit-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);position:absolute;top:50%;left:50%;padding-left:0;transform:translate(-50%, -50%);}header .left-wrap .logo img{max-width:200px;}header .right-wrap{display:none;}header .left-wrap .main-menu{display:none;}}footer{background:#f5f5f5;}footer .logo{margin-bottom:20px;}footer address ul li{display:-webkit-box;display:-ms-flexbox;display:flex;font-size:14px;}footer address ul li span{margin-right:8px;}footer h3{margin-bottom:1.25rem;color:#182642;font-size:14px;font-weight:700;text-transform:uppercase;}footer .footer-links ul li a{color:inherit;font-size:14px;}footer .footer-links ul li + li{margin-top:5px;}footer .footer-app-links .app-links{margin-bottom:-10px;margin-left:-10px;}footer .footer-app-links .app-links a{display:inline-block;margin-bottom:10px;margin-left:10px;}footer .footer-social-links{margin-top:30px;}footer .footer-social-links ul{-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;}footer .footer-social-links ul li a{color:inherit;font-size:18px;}footer .footer-social-links ul li a:hover{color:#f79c25;}footer .footer-social-links ul li + li{margin-left:20px;}footer .bottom-footer{-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:space-between;padding:24px 0;}footer .bottom-footer .left-bottom-footer{font-size:12px;}footer .bottom-footer .left-bottom-footer ul{display:-webkit-box;display:-ms-flexbox;display:flex;}footer .bottom-footer .left-bottom-footer ul li + li{-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;margin-left:10px;}footer .bottom-footer .left-bottom-footer ul li + li:before{margin-right:10px;content:"|";}footer .bottom-footer .left-bottom-footer ul li a{color:inherit;}@media screen and (max-width:768px){footer .bottom-footer{display:block;text-align:center;}footer .left-bottom-footer ul{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;}}.chat-with-us{z-index:500;position:fixed;right:30px;bottom:10px;}@media screen and (max-width:768px){.chat-with-us{right:0px;bottom:0px;}}.feedback-btn{-webkit-transform:translate(25%, -50%) rotate(270deg);-ms-transform:translate(25%, -50%) rotate(270deg);z-index:999;position:fixed;top:50%;right:0;padding:5px 10px;transform:translate(25%, -50%) rotate(270deg);border:1px solid #e5e5e5;border-top:3px solid #287ab9;background:#fff;color:inherit;font-size:14px;text-decoration:none;}@media (max-width:1023px){.feedback-btn{display:none !important;}}.feedback-modal{width:560px;}.feedback-modal .logo{margin-bottom:20px;text-align:center;}.feedback-modal .text{margin-bottom:20px;}.feedback-modal .text p{font-size:14px;}.feedback-modal .text p + p{margin-top:10px;}.feedback-modal .text p strong{font-size:18px;}.feedback-modal .form-group + .form-group{margin-top:15px;}.feedback-modal .form-group label{display:block;margin-bottom:5px;}.feedback-modal .form-group input[type=text], .feedback-modal .form-group textarea{width:100%;}.feedback-modal .form-group input[type=text]{height:40px;padding:0 15px;}.feedback-modal .form-group textarea{height:120px;padding:5px 15px;}.feedback-modal .form-group span{color:red;font-size:12px;font-style:italic;font-weight:400;}.feedback-modal .form-group .note{font-size:12px;}.feedback-modal .form-group.form-submit{margin-top:30px;text-align:center;}.feedback-modal .form-group.form-submit input{-webkit-transition:0.3s all;-o-transition:0.3s all;width:80px;height:36px;border:0;background:#f79d25;color:#fff;font-size:14px;transition:0.3s all;}.feedback-modal .form-group.form-submit input:hover{background:#e18408;}.feedback-modal .fancybox-close-small{background:#f7a334;opacity:1;}.feedback-modal .fancybox-close-small svg path{fill:#fff;}.report-modal{width:100%;max-width:730px!important;padding:0 !important;}.report-modal .modal-title{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;min-height:48px;background:#eeeeee;text-align:center;}.report-modal .modal-title p{margin-bottom:0;font-size:18px;font-weight:700;line-height:1;text-transform:uppercase;}@media (max-width:576px){.report-modal .modal-title p{padding:5px 50px;line-height:1.3em;}}.report-modal .modal-body{padding:30px;font-size:14px;}.report-modal .text-validate{color:red;display:block;margin-top:5px;}.report-modal .form-group{margin-bottom:12px;}.report-modal .list-radio{margin:12px 0;}.report-modal .list-radio label, .report-modal .list-radio input{cursor:pointer;}.report-modal .list-radio input{position:relative;top:1px;}.report-modal .list-radio label{margin-bottom:3px;}.report-modal .form-group input[type=text], .report-modal textarea{width:100%;height:35px;padding:0 10px;border-color:#333333;font-size:14px;}.report-modal textarea{height:auto;padding:5px 10px;}.report-modal .box-reason{display:none;}.btn-send-report{height:35px;border-color:#f79d25;background:#f79d25;color:#fff;font-size:14px;padding:0 30px;}.btn-send-report:hover{background:#e18408;}.success-report-modal{position:relative;width:480px;padding:0 !important;}@media (min-width:1025px){.job-detail-content .job-detail-bottom .job-desc .report-job:hover .toolip:before{z-index:11;top:initial;bottom:100%;}}@media (max-width:1440px){header .left-wrap .logo img{max-width:200px;}}@media (max-width:1300px){header .left-wrap .logo img{max-width:180px;}}.progress-wrap{position:fixed;right:40px;bottom:130px;height:46px;width:46px;cursor:pointer;display:block;border-radius:50px;box-shadow:inset 0 0 0 2px rgba(255,255,255,0.2);z-index:10;opacity:0;visibility:hidden;transform:translateY(15px);-webkit-transition:all 200ms linear;transition:all 200ms linear;}.progress-wrap.active-progress{opacity:1;visibility:visible;transform:translateY(0);}.progress-wrap::after{position:absolute;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;display:inline-block;font:normal normal normal 24px/1 "Material Design Icons";font-size:inherit;line-height:inherit;text-rendering:auto;content:'\f05d';text-align:center;line-height:46px;font-size:24px;color:#00b72f;left:0;top:0;height:46px;width:46px;cursor:pointer;display:block;z-index:1;-webkit-transition:all 200ms linear;transition:all 200ms linear;}.progress-wrap:hover::after{opacity:0;}.progress-wrap::before{position:absolute;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;display:inline-block;font:normal normal normal 24px/1 "Material Design Icons";font-size:inherit;line-height:inherit;text-rendering:auto;content:'\f05d';text-align:center;line-height:46px;font-size:24px;opacity:0;background:#fb9104;-webkit-background-clip:text;-webkit-text-fill-color:transparent;left:0;top:0;height:46px;width:46px;cursor:pointer;display:block;z-index:2;-webkit-transition:all 200ms linear;transition:all 200ms linear;}.progress-wrap:hover::before{opacity:1;}.progress-wrap svg path{fill:none;}.progress-wrap svg.progress-circle path{stroke:#00b72f;stroke-width:4;box-sizing:border-box;-webkit-transition:all 200ms linear;transition:all 200ms linear;}@media screen and (max-width:576px){.progress-wrap{right:15px;}.progress-wrap.ps-1{bottom:70px;}}@media screen and (max-width:576px){.chat-with-us.hidden-on-mb{display:none;}}.btn-gradient-1{-webkit-transition:all 0.4s ease-in-out;-o-transition:all 0.4s ease-in-out;background-size:200% 100%;transition:all 0.4s ease-in-out;}.btn-gradient-1{background-image:-webkit-gradient(linear, right top, left top, from(#2d7cb8), color-stop(#1f9ad2), to(#2d7cb8))!important;background-image:-o-linear-gradient(right, #2d7cb8, #1f9ad2, #2d7cb8)!important;background-image:linear-gradient(to left, #2d7cb8, #1f9ad2, #2d7cb8)!important;}.btn-gradient-1:hover{background-position:100% 0;}
-
-</style>
-<script>
-	var DOMAIN_KV = 'https://careerbuilder.vn';
-	var ROOT_KIEMVIEC = 'https://careerbuilder.vn/';
-	var PATH_KIEMVIEC = 'https://careerbuilder.vn/vi/';
-	var PATH_IMAGES = 'https://images.careerbuilder.vn/';
-	var DOMAIN_STATIC = 'https://static.careerbuilder.vn';
-	var DOMAIN_KIEMVIEC_NOTIFY = 'https://careerbuilder.vn';
-	var CURRENT_LANGUAGE = 'vi';
-	var is_mobile = "";
-	var allowSizeUpload = 3072;
-	var memberLogin = "no";
-	var client_id = "687088973437-38pnelafhrqnth469mvgm2ma64aev0il.apps.googleusercontent.com";
-	var mapKeywords = {"salary":"luong","salary_from":"luong-tu","salary_to":"luong-den","luong":"luong","luong-tu":"luong-tu","luong-den":"luong-den","muc-luong":"muc-luong","ngay-cap-nhat":"ngay-cap-nhat","ngay_cap_nhat":"ngay-cap-nhat","level":"cap-bac","cap-bac":"cap-bac","kinh_nghiem":"kinh-nghiem","kinh_nghiem_tu":"kinh-nghiem-tu","kinh_nghiem_den":"kinh-nghiem-den","hinh_thuc":"hinh-thuc","loai_hinh":"loai-hinh","industry":"nganh-nghe","nganh-nghe":"nganh-nghe","category":"nganh-nghe","location":"noi-lam-viec","noi-lam-viec":"noi-lam-viec","gender":"gioi-tinh","gioi-tinh":"gioi-tinh","hon_nhan":"hon-nhan","language":"ngoai-ngu","language_level":"trinh-do","ngoai-ngu":"ngoai-ngu","trinh-do":"trinh-do","degree_from":"bang-cap-tu","bang-cap-tu":"bang-cap-tu","degree_to":"bang-cap-den","bang-cap-den":"bang-cap-den","from_age":"tu-tuoi","tu-tuoi":"tu-tuoi","to_age":"den-tuoi","den-tuoi":"den-tuoi","tu_khoa":"tu-khoa","tai":"tai","similar":"viec-lam-tuong-tu","search":"tim-viec-lam","cap_quan_ly_dieu_hanh":"cap-quan-ly-dieu-hanh","hot_jobs":"viec-lam-hap-dan","featured_employers":"cong-ty-hang-dau","featured_jobs_this_week":"viec-lam-noi-bat-trong-tuan","featured_jobs":"viec-lam-noi-bat","resume_search":"tim-ung-vien","country":"quoc-gia","page":"trang","job":"viec-lam","dang-trong":"dang-trong","days":"ngay","all_jobs":"tat-ca-viec-lam","management":"quan-ly-dieu-hanh","all_cate":"nganh-nghe","top-employer":"top-employer","top-client":"top-client","top-employers":"doanh-nghiep-hang-dau","cv_hay":"cv-hay","tao_cv":"tao-cv","jobalert":"thong-bao-viec-lam","recommend":"viec-lam-phu-hop-voi-ban","cbr_about":"gioi-thieu","cbr_reward":"chuong-trinh-reward","cbr_point":"tich-diem","cbr_history":"lich-su","cbr_gift":"qua-tang","view_attach":"quan-ly-nghe-nghiep\/ho-so-cua-toi\/ho-so-dinh-kem\/","url_gross_net":"tinh-luong-gross-net","careermap":"careermap","jsk_survey":"danh-gia-feedback","headhunt_jobs":"top-headhunt\/jobs","top_headhunt":"top-headhunt","topemployer_jobs":"cong-ty-hang-dau\/jobs","topemployer":"cong-ty-hang-dau","url_urgentjob":"tim-viec-nhanh","url_urgentjob_create":"tao-ho-so"};
-</script>
-<script type="application/ld+json">{
-	"@context": "https://schema.org",
-	"@type": "WebSite",
-	"name":"Careerbuilder Vietnam",
-	"alternateName" : "careerbuilder.vn",
-	"url": "https://careerbuilder.vn/",
-	"sameAs" : [
-		"https://www.facebook.com/CareerbuilderVietnam/",
-		"https://www.linkedin.com/company/3216963/"
-	],
-	"potentialAction": {
-		"@type": "SearchAction",
-		"target": "https://careerbuilder.vn/viec-lam/{search_term_string}-k-vi.html",
-		"query-input": "required name=search_term_string"
-	}
-}
-</script>
-<script src="{{ asset('js/employ/global1.js') }}"></script>
-<script src="{{ asset('js/employ/lazy.js') }}"></script>
-<script src="{{ asset('js/employ/fancybox1.js') }}"></script>
-<script src='//cdnt.netcoresmartech.com/smartechclient.js'></script>
-<script src='https://ads.careerbuilder.vn/www/delivery/spcjs.php?id=23'></script>
-<script>
-$.fancybox.defaults.hash=false;
-$.fancybox.defaults.backFocus=false;
-if (!$.isFunction(window.smartech)) {
-	function smartech(action,data){console.log('smartech:'+action);}
-}
-if ($.isFunction(window.smartech)) {
-	smartech('create', 'ADGMOT35CHFLVDHBJNIG50K96BT3VC7KA7MBJ665I14C320R3PRG');
-	smartech('register', '87d64a04bc7036938e094b9327ac7fd1');
-	smartech('identify', '');
-	smartech('dispatch', 1,{});
-}
-if (!$.isFunction(window.OA_show)) {
-	function OA_show(id){console.log('ads:'+id)}
-	var OA_output = Array();
-}
-var language_common = {title_popup:"Thông báo",popup_msg_success:"Lưu thành công",message_common:"Vui lòng thao tác đầy đủ để hoàn thành",popup_msg_error:"Vui lòng kiểm tra lại",popup_close_popup:"Đóng",job_message_save_job_succ_new:"job_message_save_job_succ_new",job_view_detail_saved_exists:"Công việc này đã nằm trong Danh sách công việc đã lưu của bạn",job_message_error:"Lỗi trong quá trình thực thi",job_view_detail_saved_exists:"Công việc này đã nằm trong Danh sách công việc đã lưu của bạn",popup_login_error:"Vui lòng nhập thông tin",job_message_delete_job_succ:"Xóa thành công",okButton:"Đồng ý",cancelButton:"Hủy"
-};
-if(typeof language === 'undefined')	var language = language_common;	else $.extend(language, language_common);
-</script>
-
-<script src="https://accounts.google.com/gsi/client" async defer></script>
-</head>	
-<body class="search-result-list-detail-page">
-    <header>
-        <div class="container-fluid">
-            <div class="main-wrap">
-                <div class="left-wrap">
-                    <div class="button-hambuger"><span class="mdi mdi-menu"></span></div>
-                    <div class="logo"><a href="https://careerbuilder.vn/vi/" title="Tuyển dụng & Tìm kiếm việc làm nhanh" ><img src="./img/logo.png" alt="Tuyển dụng & Tìm kiếm việc làm nhanh"></a></div>
-                    <div class="main-menu">
-                        <ul class="menu">
-                            <li class="dropdown">
-                                <a href="javascript:void(0);" title="Tìm Việc Làm">Tìm Việc Làm</a>
-                                <div class="dropdown-menu">
-                                    <ul>
-                                        <li> <a href="https://careerbuilder.vn/viec-lam/tat-ca-viec-lam-vi.html" title="Việc làm mới nhất">Việc làm mới nhất</a></li>
-                                        <li> <a href="https://careerbuilder.vn/tim-viec-lam.html" title="Ngành nghề / Địa điểm">Ngành nghề / Địa điểm</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li> <a href="https://careerbuilder.vn/cv-hay/" target="_blank" title="CV Hay">CV Hay</a></li>
-                            <li> <a href="https://vietnamsalary.careerbuilder.vn/" target="_blank" title="VietnamSalary">VietnamSalary</a></li>
-                            <li> <a href="https://careerbuilder.vn/careermap" target="_blank" title="CareerMap">CareerMap</a></li>
-                            <li> <a href="https://careerbuilder.vn/vi/talentcommunity" title="Cẩm Nang">Cẩm Nang</a></li>
-                            <li> <a href="https://careerbuilder.vn/tinh-luong-gross-net" title="Tính Lương">Tính Lương</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="right-wrap">
-                    <div class="main-noti dropdown">
-                        <a href="https://careerbuilder.vn/thong-bao-viec-lam" title="Thông Báo Việc Làm"> <span class="mdi mdi-bell"></span></a>
-                        <div class="dropdown-menu">
-                            <div class="noti">
-                                <p>
-                                <p>Chào mừng bạn đến CareerBuilder.vn</p>
-                                <p>Đăng nhập ngay để xem việc làm phù hợp với bạn, nhà tuyển dụng đã xem hồ sơ của bạn và cập nhật nhiều hơn nữa ...<br><br></p>
-                                </p>
-                                <a class="email" href="https://careerbuilder.vn/thong-bao-viec-lam" title="Tạo Ngay">Tạo Ngay</a> 
-                            </div>
+@extends('frontend.layout.appfe')
+@section('content')
+<main>
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/common-job-detail.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/chosen.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/search-result-list-detail.css') }}">
+    <section class="find-jobs-form">
+        <div class="container">
+            <div class="main-form">
+                <div class="close-input-filter"><em class="lnr lnr-cross"></em></div>
+                <form>
+                    <div class="advanced-search">
+                        <div class="form-group form-keyword">
+                            <input type="search" class="keyword" name="keyword" id="keyword" placeholder="Chức danh, Kỹ năng, Tên công ty">
+                            <div class="cleartext"><em class="mdi mdi-close-circle"></em></div>
+                        </div>
+                        <div class="form-group form-select-chosen">
+                            <select id="industry" name="industry" class="chosen-select chosen-select-max-three" data-placeholder="Tất cả ngành nghề" multiple>
+                                <option value="">Chọn ngành nghề</option>
+                                <option value="an-ninh-bao-ve_51">An Ninh / Bảo Vệ</option>
+                                <option value="an-toan-lao-dong_58">An toàn lao động</option>
+                                <option value="ban-hang-kinh-doanh_31">Bán hàng / Kinh doanh</option>
+                                <option value="ban-le-ban-si_30">Bán lẻ / Bán sỉ</option>
+                                <option value="bao-hiem_23">Bảo hiểm</option>
+                                <option value="bat-dong-san_28">Bất động sản</option>
+                                <option value="bien-phien-dich_38">Biên phiên dịch</option>
+                                <option value="buu-chinh-vien-thong_32">Bưu chính viễn thông</option>
+                                <option value="chan-nuoi-thu-y_52">Chăn nuôi / Thú y</option>
+                                <option value="chung-khoan_46">Chứng khoán</option>
+                                <option value="cntt-phan-cung-mang_63">CNTT - Phần cứng / Mạng</option>
+                                <option value="cntt-phan-mem_1">CNTT - Phần mềm</option>
+                                <option value="cong-nghe-sinh-hoc_69">Công nghệ sinh học</option>
+                                <option value="cong-nghe-thuc-pham-dinh-duong_70">Công nghệ thực phẩm / Dinh dưỡng</option>
+                                <option value="co-khi-o-to-tu-dong-hoa_14">Cơ khí / Ô tô / Tự động hóa</option>
+                                <option value="dau-khi_26">Dầu khí</option>
+                                <option value="det-may-da-giay-thoi-trang_39">Dệt may / Da giày / Thời trang</option>
+                                <option value="dich-vu-khach-hang_12">Dịch vụ khách hàng</option>
+                                <option value="du-lich_34">Du lịch</option>
+                                <option value="duoc-pham_7">Dược phẩm</option>
+                                <option value="dien-dien-tu-dien-lanh_48">Điện / Điện tử / Điện lạnh</option>
+                                <option value="do-go_35">Đồ gỗ</option>
+                                <option value="giai-tri_15">Giải trí</option>
+                                <option value="giao-duc-dao-tao_13">Giáo dục / Đào tạo</option>
+                                <option value="hang-gia-dung-cham-soc-ca-nhan_10">Hàng gia dụng / Chăm sóc cá nhân</option>
+                                <option value="hang-hai_61">Hàng hải</option>
+                                <option value="hang-khong_60">Hàng không</option>
+                                <option value="hanh-chinh-thu-ky_3">Hành chính / Thư ký</option>
+                                <option value="hoa-hoc_41">Hóa học</option>
+                                <option value="in-an-xuat-ban_64">In ấn / Xuất bản</option>
+                                <option value="ke-toan-kiem-toan_2">Kế toán / Kiểm toán</option>
+                                <option value="khoang-san_65">Khoáng sản</option>
+                                <option value="kien-truc_6">Kiến trúc</option>
+                                <option value="lao-dong-pho-thong_44">Lao động phổ thông</option>
+                                <option value="lam-nghiep_50">Lâm Nghiệp</option>
+                                <option value="luat-phap-ly_24">Luật / Pháp lý</option>
+                                <option value="moi-truong_16">Môi trường</option>
+                                <option value="moi-tot-nghiep-thuc-tap_45">Mới tốt nghiệp / Thực tập</option>
+                                <option value="my-thuat-nghe-thuat-thiet-ke_11">Mỹ thuật / Nghệ thuật / Thiết kế</option>
+                                <option value="ngan-hang_19">Ngân hàng</option>
+                                <option value="nha-hang-khach-san_29">Nhà hàng / Khách sạn</option>
+                                <option value="nhan-su_22">Nhân sự</option>
+                                <option value="noi-ngoai-that_47">Nội ngoại thất</option>
+                                <option value="nong-nghiep_5">Nông nghiệp</option>
+                                <option value="phi-chinh-phu-phi-loi-nhuan_20">Phi chính phủ / Phi lợi nhuận</option>
+                                <option value="quan-ly-chat-luong-qa-qc_42">Quản lý chất lượng (QA/QC)</option>
+                                <option value="quan-ly-dieu-hanh_17">Quản lý điều hành</option>
+                                <option value="quang-cao-doi-ngoai-truyen-thong_67">Quảng cáo / Đối ngoại / Truyền Thông</option>
+                                <option value="san-xuat-van-hanh-san-xuat_25">Sản xuất / Vận hành sản xuất</option>
+                                <option value="tai-chinh-dau-tu_59">Tài chính / Đầu tư</option>
+                                <option value="thong-ke_36">Thống kê</option>
+                                <option value="thu-mua-vat-tu_43">Thu mua / Vật tư</option>
+                                <option value="thuy-loi_53">Thủy lợi</option>
+                                <option value="thuy-san-hai-san_49">Thủy sản / Hải sản</option>
+                                <option value="thu-vien_57">Thư viện</option>
+                                <option value="thuc-pham-do-uong_21">Thực phẩm &amp; Đồ uống</option>
+                                <option value="tiep-thi-marketing_4">Tiếp thị / Marketing</option>
+                                <option value="tiep-thi-truc-tuyen_37">Tiếp thị trực tuyến</option>
+                                <option value="to-chuc-su-kien_68">Tổ chức sự kiện</option>
+                                <option value="trac-dia-dia-chat_54">Trắc địa / Địa Chất</option>
+                                <option value="truyen-hinh-bao-chi-bien-tap_66">Truyền hình / Báo chí / Biên tập</option>
+                                <option value="tu-van_9">Tư vấn</option>
+                                <option value="van-chuyen-giao-nhan-kho-van_33">Vận chuyển / Giao nhận /  Kho vận</option>
+                                <option value="xay-dung_8">Xây dựng</option>
+                                <option value="xuat-nhap-khau_18">Xuất nhập khẩu</option>
+                                <option value="y-te-cham-soc-suc-khoe_56">Y tế / Chăm sóc sức khỏe</option>
+                                <option value="bao-tri-sua-chua_71">Bảo trì / Sửa chữa</option>
+                                <option value="nganh-khac_27">Ngành khác</option>
+                            </select>
+                        </div>
+                        <div class="form-group form-select-chosen">
+                            <select id="location" name="location" class="chosen-select chosen-select-max-three" data-placeholder="Tất cả địa điểm" multiple>
+                                <option value="">Chọn địa điểm</option>
+                                <option value="ha-noi_4">Hà Nội</option>
+                                <option value="ho-chi-minh_8">Hồ Chí Minh</option>
+                                <option value="an-giang_76">An Giang</option>
+                                <option value="ba-ria-vung-tau_64">Bà Rịa - Vũng Tàu</option>
+                                <option value="bac-lieu_781">Bạc Liêu</option>
+                                <option value="bac-can_281">Bắc Cạn</option>
+                                <option value="bac-giang_240">Bắc Giang</option>
+                                <option value="bac-ninh_241">Bắc Ninh</option>
+                                <option value="ben-tre_75">Bến Tre</option>
+                                <option value="binh-duong_650">Bình Dương</option>
+                                <option value="binh-dinh_56">Bình Định</option>
+                                <option value="binh-phuoc_651">Bình Phước</option>
+                                <option value="binh-thuan_62">Bình Thuận</option>
+                                <option value="ca-mau_78">Cà Mau</option>
+                                <option value="cao-bang_26">Cao Bằng</option>
+                                <option value="can-tho_71">Cần Thơ</option>
+                                <option value="dak-lak_50">Dak Lak</option>
+                                <option value="dak-nong_1042">Dak Nông</option>
+                                <option value="da-nang_511">Đà Nẵng</option>
+                                <option value="dien-bien_900">Điện Biên</option>
+                                <option value="dong-bang-song-cuu-long_1064">Đồng Bằng Sông Cửu Long</option>
+                                <option value="dong-nai_61">Đồng Nai</option>
+                                <option value="dong-thap_67">Đồng Tháp</option>
+                                <option value="gia-lai_59">Gia Lai</option>
+                                <option value="ha-giang_19">Hà Giang</option>
+                                <option value="ha-nam_351">Hà Nam</option>
+                                <option value="ha-tinh_39">Hà Tĩnh</option>
+                                <option value="hai-duong_320">Hải Dương</option>
+                                <option value="hai-phong_31">Hải Phòng</option>
+                                <option value="hau-giang_780">Hậu Giang</option>
+                                <option value="hoa-binh_18">Hòa Bình</option>
+                                <option value="hung-yen_321">Hưng Yên</option>
+                                <option value="khac_901">Khác</option>
+                                <option value="khanh-hoa_58">Khánh Hòa</option>
+                                <option value="kien-giang_77">Kiên Giang</option>
+                                <option value="kon-tum_60">Kon Tum</option>
+                                <option value="kv-bac-trung-bo_1071">KV Bắc Trung Bộ</option>
+                                <option value="kv-dong-nam-bo_1069">KV Đông Nam Bộ</option>
+                                <option value="kv-nam-trung-bo_1070">KV Nam Trung Bộ</option>
+                                <option value="kv-tay-nguyen_1072">KV Tây Nguyên</option>
+                                <option value="lai-chau_23">Lai Châu</option>
+                                <option value="lang-son_25">Lạng Sơn</option>
+                                <option value="lao-cai_20">Lào Cai</option>
+                                <option value="lam-dong_63">Lâm Đồng</option>
+                                <option value="long-an_72">Long An</option>
+                                <option value="nam-dinh_350">Nam Định</option>
+                                <option value="nghe-an_38">Nghệ An</option>
+                                <option value="ninh-binh_30">Ninh Bình</option>
+                                <option value="ninh-thuan_68">Ninh Thuận</option>
+                                <option value="phu-tho_210">Phú Thọ</option>
+                                <option value="phu-yen_57">Phú Yên</option>
+                                <option value="quang-binh_52">Quảng Bình</option>
+                                <option value="quang-nam_510">Quảng Nam</option>
+                                <option value="quang-ngai_55">Quảng Ngãi</option>
+                                <option value="quang-ninh_33">Quảng Ninh</option>
+                                <option value="quang-tri_53">Quảng Trị</option>
+                                <option value="soc-trang_79">Sóc Trăng</option>
+                                <option value="son-la_22">Sơn La</option>
+                                <option value="tay-ninh_66">Tây Ninh</option>
+                                <option value="thai-binh_36">Thái Bình</option>
+                                <option value="thai-nguyen_280">Thái Nguyên</option>
+                                <option value="thanh-hoa_37">Thanh Hóa</option>
+                                <option value="thua-thien-hue_54">Thừa Thiên- Huế</option>
+                                <option value="tien-giang_73">Tiền Giang</option>
+                                <option value="toan-quoc_1065">Toàn quốc</option>
+                                <option value="tra-vinh_74">Trà Vinh</option>
+                                <option value="tuyen-quang_27">Tuyên Quang</option>
+                                <option value="vinh-long_70">Vĩnh Long</option>
+                                <option value="vinh-phuc_211">Vĩnh Phúc</option>
+                                <option value="yen-bai_29">Yên Bái</option>
+                                <option value="banteay-meanchey_1098">Banteay Meanchey</option>
+                                <option value="battambang_1096">Battambang</option>
+                                <option value="kampong-chhnang_1092">Kampong Chhnang</option>
+                                <option value="kampong-speu_1090">Kampong Speu</option>
+                                <option value="kampot_1085">Kampot</option>
+                                <option value="kandal_1088">Kandal</option>
+                                <option value="kampong-thum-cambodia_1094">Kâmpóng Thum, Cambodia</option>
+                                <option value="kep_1084">Kep</option>
+                                <option value="koh-kong_1091">Koh Kong</option>
+                                <option value="kratie_1093">Kratie</option>
+                                <option value="mondulkiri_1102">Mondulkiri</option>
+                                <option value="otdar-meanchey_1104">Otdar Meanchey</option>
+                                <option value="pailin_1103">Pailin</option>
+                                <option value="phnompenh_1041">Phnompenh</option>
+                                <option value="preah-sihanouk_1105">Preah Sihanouk</option>
+                                <option value="preah-vihear_1099">Preah Vihear</option>
+                                <option value="prey-veng_1089">Prey Veng</option>
+                                <option value="pursat_1095">Pursat</option>
+                                <option value="rotanak-kiri_1101">Rotanak Kiri</option>
+                                <option value="siem-reap_1097">Siem Reap</option>
+                                <option value="sihanoukville_1083">Sihanoukville</option>
+                                <option value="stung-treng_1100">Stung Treng</option>
+                                <option value="svay-rieng_1087">Svay Rieng</option>
+                                <option value="tbong-khmum_1082">Tbong Khmum</option>
+                                <option value="seoul_1018">Seoul</option>
+                                <option value="chicago_1034">Chicago</option>
+                                <option value="florida_1077">Florida</option>
+                                <option value="miami_1033">Miami</option>
+                                <option value="san-diego_1039">San Diego</option>
+                                <option value="hong-kong_1079">Hồng Kông</option>
+                                <option value="khac_1318">Khác</option>
+                                <option value="attapeu_1106">Attapeu</option>
+                                <option value="bokeo_1107">Bokeo</option>
+                                <option value="bolikhamsai_1108">Bolikhamsai</option>
+                                <option value="champasak_1109">Champasak</option>
+                                <option value="houaphanh_1110">Houaphanh</option>
+                                <option value="khammouane_1111">Khammouane</option>
+                                <option value="louang-namtha_1112">Louang Namtha</option>
+                                <option value="luang-prabang_1113">Luang Prabang</option>
+                                <option value="phongsaly_1115">Phongsaly</option>
+                                <option value="sekong_1119">Sekong</option>
+                                <option value="vientiane_1059">Vientiane</option>
+                                <option value="xiangkhouang_1120">Xiangkhouang</option>
+                                <option value="kuala-lumpur_1019">Kuala Lumpur</option>
+                                <option value="malaysia_1078">Malaysia</option>
+                                <option value="yangon_1320">Yangon</option>
+                                <option value="aichi_1319">Aichi</option>
+                                <option value="hokkaido_1043">Hokkaido</option>
+                                <option value="osaka_1000">Osaka</option>
+                                <option value="tokyo_1001">Tokyo</option>
+                                <option value="yokohama_1002">Yokohama</option>
+                                <option value="qatar_1055">Qatar</option>
+                                <option value="quoc-te_1073">Quốc tế</option>
+                                <option value="singapore_1040">Singapore</option>
+                                <option value="melbourne_1004">Melbourne</option>
+                                <option value="sydney_1005">Sydney</option>
+                                <option value="kharkiv_1053">Kharkiv</option>
+                            </select>
+                        </div>
+                        <div class="form-group find-jobs">
+                            <button class="btn-gradient" onClick="return validDatasearchJobsByKeyword('vi');">
+                                <p>Tìm Ngay</p>
+                                <span class="mdi mdi-magnify"></span> 
+                            </button>
+                        </div>
+                        <div class="form-group animation">
+                            <button class="btn-gradient" onClick="return validDatasearchJobsByKeyword('vi');">
+                                <p>Tìm Ngay</p>
+                                <span class="mdi mdi-magnify"></span> 
+                            </button>
                         </div>
                     </div>
-                    <div class="main-login dropdown">
-                        <div class="title-login"><a href="javascript:;" title="Đăng nhập"> <span class="mdi mdi-account-circle"></span>Đăng nhập</a></div>
-                        <div class="dropdown-menu">
-                            <div class="login-wrapper">
-                                <form name="header_login" id="header_login" method="post" action="https://careerbuilder.vn/vi/jobseekers/login" autocomplete="off">
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="search-result-list-detail template-2">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-12 mb-15">
+                    <section class="apply-now-banner  ">
+                        <div class="image"><img src="https://images.careerbuilder.vn/content/news/1.jpg" alt=""></div>
+                        <div class="apply-now-content">
+                            <div class="job-desc">
+                                <h1 class="title">{{ @$data->title }}</h1>
+                                <a class="employer job-company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-may-theu-giay-an-phuoc.35A4F400.html">Công Ty TNHH May Thêu Giày An Phước</a>  
+                            </div>
+                            <div class="apply-now-btn ">        
+                                <a href="javascript:void(0);" class="btn-gradient btnApplyClick"> Nộp Đơn Ứng Tuyển </a>        
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-lg-7 col-custom-xxl-9">
+                    <div class="tabs">
+                        <nav class="job-result-nav">
+                            <ul class="tabs-toggle">
+                                <li id="tabs-job-detail"><a href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html" data-href="#tab-1">Chi tiết</a></li>
+                                <li id="tabs-job-company"><a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-may-theu-giay-an-phuoc.35A4F400.html" data-href="#tab-2">Tổng quan công ty</a></li>
+                            </ul>
+                            <div class="job-detail-tool">
+                                <ol class="tabs-saved">
+                                    <li>
+                                        <a class="toollips save-job chk_save_35B9A7C0 " href="javascript:void(0);" data-id="35B9A7C0"  onclick="popuplogin()">
+                                            <i class="mdi mdi-heart-outline"></i>
+                                            <div class="toolip">
+                                                <p>Lưu việc làm</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <div class="dropdown">
+                                            <i class="mdi mdi-share-variant"></i>
+                                            <div class="dropdown-menu">
+                                                <div class="social-list">
+                                                    <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0"><i class="fa fa-facebook"></i></a>
+                                                    <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0"><i class="fa fa-linkedin"></i></a>
+                                                    <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/email/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0"><i class="fa fa-envelope"></i></a>
+                                                    <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/gmail/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0"><i class="fa fa-google"></i></a>
+                                                    <div class="zalo-share-button" data-href="" data-oaid="579745863508352884" data-layout="2" data-color="white" data-customize=false></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="report-job toollips" href="javascript:void(0)">
+                                            <i class="fa fa-flag-o"></i>
+                                            <div class="toolip">
+                                                <p> Báo xấu </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ol>
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="tab-1">
+                            <section class="job-detail-content">
+                                <div class="bg-blue">
                                     <div class="row">
-                                        <div class="form-group col-12">
-                                            <input type="text" name="username" placeholder="Email" autocomplete='off'>
+                                        <div class="col-lg-4 col-sm-6 item-blue">
+                                            <div class="detail-box">
+                                                <div class="map">
+                                                    <strong><em class="mdi mdi-map-marker"></em>Địa điểm</strong>
+                                                    <p><a href="https://careerbuilder.vn/viec-lam/ho-chi-minh-l8-vi.html">Hồ Chí Minh</a></p>
+                                                    <a href="javascript:void(0)" onclick="show_map_detail_job();"><img src="img/icon-map.svg"></a>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="form-group col-8">
-                                            <input type="password" name="password" placeholder="Mật khẩu" autocomplete='off'>
+                                        <div class="col-lg-4 col-sm-6 item-blue">
+                                            <div class="detail-box has-background">
+                                                <ul>
+                                                    <li>
+                                                        <strong><em class="mdi mdi-update"> </em>Ngày cập nhật</strong>
+                                                        <p>{{ $data->updated_at->format('d/m/Y') }}</p>
+                                                    </li>
+                                                    <li>
+                                                        <strong> <em class="mdi mdi-briefcase"></em>Ngành nghề</strong>
+                                                        <p>                <a href="https://careerbuilder.vn/viec-lam/nhan-su-c22-vi.html" >
+                                                            Nhân sự
+                                                            </a>
+                                                            ,                                 <a href="https://careerbuilder.vn/viec-lam/det-may-da-giay-thoi-trang-c39-vi.html" >
+                                                            Dệt may / Da giày / Thời trang
+                                                            </a>
+                                                            ,                                 <a href="https://careerbuilder.vn/viec-lam/hanh-chinh-thu-ky-c3-vi.html" >
+                                                            Hành chính / Thư ký
+                                                            </a>
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <strong><em class="mdi mdi-briefcase-edit"> </em>Hình thức</strong>
+                                                        <p>Nhân viên chính thức</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
-                                        <div class="form-group col-4">
-                                            <input type="hidden" name="csrf_token_login" value= "e9f2f2a456eccd15a2f2c80530ae0495f397595a3e8c55f39e4a66621808fde3" />  
-                                            <button type="submit">Đăng nhập</button>
-                                        </div>
-                                        <div class="form-group form-check col-12">
-                                            <input type="checkbox" name="chkSave" value="1">
-                                            <label>Tự động đăng nhập</label>
+                                        <div class="col-lg-4 col-sm-6 item-blue">
+                                            <div class="detail-box has-background">
+                                                <ul>
+                                                    <li>
+                                                        <strong><i class="fa fa-usd"></i>Lương</strong>
+                                                        <p>Cạnh tranh</p>
+                                                    </li>
+                                                    <li>
+                                                        <strong><i class="fa fa-briefcase"></i>Kinh nghiệm</strong>
+                                                        <p>
+                                                            0 - 5 Năm
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <strong><i class="mdi mdi-account"></i>Cấp bậc</strong>
+                                                        <p>Nhân viên</p>
+                                                    </li>
+                                                    <li>
+                                                        <strong><i class="mdi mdi-calendar-check"></i>Hết hạn nộp</strong>
+                                                        <p>15/07/2022</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-                                    <a class="forget-password" href="https://careerbuilder.vn/vi/jobseekers/forgotpassword">Quên mật khẩu?</a>
-                                </form>
-                                <div class="sign-in-by">
-                                    <span>Đăng nhập bằng</span>
-                                    <ul>
-                                        <li><a href="javascript:void(0);" onclick="popupapi('facebook','aHR0cHM6Ly9jYXJlZXJidWlsZGVyLnZuL3ZpL2pvYnNlZWtlcnMvbG9naW5mYWNlYm9vaw==');" title="Login Facebook"><i class="fa fa-facebook-official"></i></a></li>
-                                        <li><a href="javascript:void(0);" onclick="popupapi('google','aHR0cHM6Ly9jYXJlZXJidWlsZGVyLnZuL3ZpL2pvYnNlZWtlcnMvbG9naW5nb29nbGU=');" title="Login Google"><i class="fa fa-google-plus-square"></i></a></li>
+                                </div>
+                                <div class="detail-row">
+                                    <h3 class="detail-title">Phúc lợi </h3>
+                                    <ul class="welfare-list">
+                                        <li><span class="fa fa-medkit"></span> Chế độ bảo hiểm</li>
+                                        <li><span class="fa fa-money"></span> Phụ cấp</li>
+                                        <li><span class="fa fa-black-tie"></span> Đồng phục</li>
+                                        <li><span class="fa fa-usd"></span> Chế độ thưởng</li>
+                                        <li><span class="fa fa-line-chart"></span> Tăng lương</li>
+                                        <li><span class="fa fa-credit-card"></span> Công tác phí</li>
+                                        <li><span class="fa fa-money"></span> Phụ cấp thâm niên</li>
+                                        <li><span class="fa fa-briefcase"></span> Nghỉ phép năm</li>
                                     </ul>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="main-register"><a href="https://careerbuilder.vn/vi/jobseekers/register" title="Đăng ký">Đăng ký</a></div>
-                    <div class="main-language dropdown">
-                        <div class="dropdown-toggle">
-                            <p>VI<em class="mdi mdi-chevron-down"></em></p>
-                        </div>
-                        <div class="dropdown-menu">
-                            <div class="item active"><a class="dropdown-item" href="javascript:;" title="Change language">VI</a></div>
-                            <div class="item"><a class="dropdown-item" href="https://careerbuilder.vn/en/search-job/nhan-vien-tuyen-dung.35B9A7C0.html" title="Change language">EN</a></div>
-                        </div>
-                    </div>
-                    <div class="main-employer dropdown">
-                        <a href="https://careerbuilder.vn/vi/employers" title="Đăng tuyển, Tìm ứng viên">
-                            <div class="dropdown-toggle">
-                                <h4>Dành cho nhà tuyển dụng<em class="mdi mdi-chevron-down"></em></h4>
-                                <p>Đăng tuyển, Tìm ứng viên</p>
-                            </div>
-                        </a>
-                        <div class="dropdown-menu">
-                            <ul>
-                                <li><a href="https://careerbuilder.vn/vi/employers/login" title="Đăng nhập">Đăng nhập</a></li>
-                                <li><a href="https://careerbuilder.vn/vi/employers/postjobs" title="Đăng Tuyển Dụng">Đăng Tuyển Dụng</a></li>
-                                <li><a href="https://careerbuilder.vn/vi/resume-search.html" title="Tìm Ứng Viên">Tìm Ứng Viên</a></li>
-                                <li><a href="https://careerbuilder.vn/vi/employers/products-and-services" title="Sản phẩm và Dịch vụ">Sản phẩm và Dịch vụ</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="mobile-menu">
-            <div class="mobile-wrap">
-                <div class="header-logo"><a href="https://careerbuilder.vn/vi/" title="Tuyển dụng & Tìm kiếm việc làm nhanh"><img class="lazy-bg" data-src="./img/logo.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Tuyển dụng & Tìm kiếm việc làm nhanh"></a></div>
-                <div class="header-bottom">
-                    <div class="header-bottom-top">
-                        <div class="profile">
-                            <div class="avatar"><img class="lazy-bg" data-src="./img/user_circle.png" src="../kiemviecv32/images/graphics/blank.gif" alt="user circle"></div>
-                            <div class="username">
-                                <p>welcome to careerbuilder</p>
-                            </div>
-                            <div class="back-menu-normal"><em class="mdi mdi-arrow-left"></em></div>
-                        </div>
-                        <div class="menu">
-                            <ul class="menu-normal">
-                                <li class="active"><a href="https://careerbuilder.vn/vi/" title="Tuyển dụng & Tìm kiếm việc làm nhanh"> <i class="mdi mdi-home-outline"></i>Home</a></li>
-                                <li class="dropdown-mobile">
-                                    <a href="javascript:void(0);" title="Tìm Việc Làm"> <i class="mdi mdi-magnify"></i>Tìm Việc Làm</a>
-                                    <div class="dropdown-menu">
-                                        <ul>
-                                            <li><a href="https://careerbuilder.vn/viec-lam/tat-ca-viec-lam-vi.html" title="Việc làm mới nhất"> <i class="fa fa-thumb-tack"></i>Việc làm mới nhất</a></li>
-                                            <li><a href="https://careerbuilder.vn/tim-viec-lam.html" title="Ngành nghề / Địa điểm"> <i class="fa fa-location-arrow"></i>Ngành nghề / Địa điểm</a></li>
-                                        </ul>
+                                <div class="detail-row">
+                                    <h3 class="detail-title">Mô tả Công việc</h3>
+                                    {!!  str_replace('
+                                    <h2>Mô tả công việc</h2>
+                                    ', '', $data->detail)!!}
+                                </div>
+                                <div class="detail-row">
+                                    <h3 class="detail-title">Yêu Cầu Công Việc</h3>
+                                    {!!  str_replace('
+                                    <h2>Yêu cầu công việc</h2>
+                                    ', '', $data->requirements)!!}
+                                </div>
+                                <div class="detail-row">
+                                    <h3 class="detail-title">Quyền lợi được hưởng</h3>
+                                    {!!str_replace('
+                                    <h2>Quyền lợi được hưởng</h2>
+                                    ', '', $data->rights)!!}
+                                </div>
+                                <div class="share-this-job">
+                                    <span>Chia sẻ việc làm này:</span> 
+                                    <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0"> <i class="fa fa-facebook"></i> </a>
+                                    <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0">  <i class="fa fa-linkedin"></i></a>
+                                    <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/email/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0">  <i class="fa fa-envelope"></i></a> 
+                                    <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/gmail/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0">  <i class="fa fa-google"></i></a>
+                                    <div class="zalo-share-button" data-href="" data-oaid="579745863508352884" data-layout="2" data-color="white" data-customize=false></div>
+                                </div>
+                                <div class="job-detail-bottom">
+                                    <div class="job-detail-bottom-wrapper">
+                                        <div class="apply-now-content">
+                                            <div class="job-desc">
+                                                <a class="toollips save-job chk_save_35B9A7C0 " href="javascript:void(0);" data-id="35B9A7C0"  onclick="popuplogin()">
+                                                <i class="mdi mdi-heart-outline"></i>
+                                                <span class="text">Lưu việc làm</span>
+                                                </a>
+                                                <a href="javascript:void(0);" onclick="showboxJobalert()"><i class="mdi mdi-email-outline"></i><span class="text">Gửi tôi việc làm tương tự</span></a>
+                                                <a class="report-job toollips" href="javascript:void(0)">
+                                                    <i class="fa fa-flag-o"></i><span>Báo xấu</span>
+                                                    <div class="toolip">
+                                                        <p> Báo xấu </p>
+                                                    </div>
+                                                </a>
+                                                <div class="report-modal" style="display: none">
+                                                    <div class="modal-title">
+                                                        <p>Vì sao bạn muốn báo xấu nhà tuyển dụng này? </p>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <form name="feedback_job" id="feedback_job" method="POST" autocomplete="off">
+                                                            <input type="hidden" name="job_url" id="job_url" value="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html" />
+                                                            <div class="form-group">
+                                                                <input type="text" id="email" name="email" placeholder="Nhập địa chỉ email " onkeyup="this.setAttribute('value', this.value);" value="">
+                                                                <p class="text-validate error_email" > </p>
+                                                            </div>
+                                                            <div class="list-radio" id="reason" name='reason'>
+                                                                <input type="radio" id="reason-1" name="reason" value="1">
+                                                                <label for="reason-1"> Việc làm không hợp pháp </label>
+                                                                <br>
+                                                                <input type="radio" id="reason-2" name="reason" value="2">
+                                                                <label for="reason-2"> Không cung cấp đủ thông tin </label>
+                                                                <br>
+                                                                <input type="radio" id="reason-3" name="reason" value="3">
+                                                                <label for="reason-3"> Khác </label>
+                                                                <p class="text-validate error_reason" ></p>
+                                                            </div>
+                                                            <div class="box-reason form-group">
+                                                                <input type="text" id="box_reason" name="box_reason">
+                                                                <p class="text-validate error_box_reason" > </p>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input type="text" name="captcha" id="captcha" autocomplete="off" placeholder="Mã xác nhận" onkeyup="this.setAttribute('value', this.value);" value="">
+                                                                <p class="text-validate error_captcha" ></p>
+                                                            </div>
+                                                            <div id="captchaim"  style="float:left" class="form-group" ><img width="150" height="50" alt="" src="https://images.careerbuilder.vn/rws/captcha/af07d8ff32512a92e980182265b1a4a6.png" class="img_code" /><input type="hidden" name="key_captcha" id="key_captcha" value="af07d8ff32512a92e980182265b1a4a6"></div>
+                                                            <a style="padding-left: 10px" onclick="refeshImgCaptcha('captchaim');" href="javascript:void(0);" class="line_bot" id="trynewcode">Thử mã mới</a> 
+                                                            <div class="form-group" style="clear:left">
+                                                                <button class="btn-send-report" onclick="saveFeedbackJob();return false;"> Báo xấu </button>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                                <script>
+                                                    var language_fbjob = {
+                                                        send_report_success:"Gửi báo xấu thành công",
+                                                        send_report_unsuccess:"Không thành công, vui lòng kiểm tra lại thông tin đã điền"
+                                                    };
+                                                    if(typeof language === 'undefined') var language = language_fbjob;
+                                                    else    $.extend(language, language_fbjob);
+                                                    function saveFeedbackJob() {
+                                                        if ($("#feedback_job").validate({
+                                                                ignore: ":hidden",
+                                                                onkeyup: false,
+                                                                rules: {
+                                                                    email:{required: true, email: true,isemail:true},
+                                                                    box_reason: {required: true},
+                                                                    reason:{ required:true },
+                                                                    captcha:{ required:true }
+                                                                },
+                                                                errorPlacement: function(error, element) {
+                                                                    var name = element.attr('name');
+                                                                    var errorSelector = '.error_'+name;
+                                                                    var $element = $(errorSelector);
+                                                                    $(errorSelector).html(error.html());
+                                                                },
+                                                                success: function(element) {
+                                                                    element.remove();
+                                                                },
+                                                                messages: {
+                                                                    email: {
+                                                                        required: language.js_alert_nodata,
+                                                                        email: language.js_alert_email_invalid,
+                                                                        isemail: language.js_alert_email_invalid
+                                                                    },
+                                                                    box_reason: {
+                                                                        required: language.js_alert_nodata
+                                                                    },
+                                                                    reason: {
+                                                                        required: language.js_alert_nodata
+                                                                    },
+                                                                    captcha:{
+                                                                        required: language.js_alert_nodata
+                                                                    }
+                                                                },
+                                                            }).form() == false) return false;
+                                                        $.ajax({
+                                                            type: "POST",
+                                                            url: PATH_KIEMVIEC + 'jobs/feedbackjob',
+                                                            data: $('#feedback_job').serialize(),
+                                                            success: function(rs) {
+                                                                if (rs == 1) {
+                                                                    show_noti(1, language.send_report_success);
+                                                                } else {
+                                                                    show_noti(2, language.send_report_unsuccess);
+                                                                }
+                                                                refeshImgCaptcha('captchaim');
+                                                            }
+                                                        });
+                                                    }
+                                                    function refeshImgCaptcha(id){
+                                                        $.ajax({
+                                                            type:'POST',
+                                                            url:PATH_KIEMVIEC+'jobseekers/index/imagecaptchanew',
+                                                            success:function(data){
+                                                                $('#'+id).html(data)
+                                                            }
+                                                        });
+                                                    }
+                                                    $(document).ready(function() {
+                                                        $('input[type="radio"]').click(function() {
+                                                            if ($(this).attr("value") == "3") {
+                                                                $('.box-reason').show(500);
+                                                            } else {
+                                                                $('.box-reason').hide(500);
+                                                            }
+                                                        });
+                                                        $('.report-job').on('click', function (e) {
+                                                            e.preventDefault();
+                                                            $.fancybox.open($('.report-modal'))
+                                                        })
+                                                    });
+                                                </script>
+                                            </div>
+                                            <div class="apply-now-right">
+                                                <div class="apply-now-btn  ">            <a href="javascript:void(0);" class="btn-gradient btnApplyClick"> Nộp Đơn Ứng Tuyển </a>            </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                </li>
-                                <li><a href="https://careerbuilder.vn/cv-hay/" title="CV Hay"> <i class="mdi mdi-file-document-edit-outline"></i>CV Hay</a></li>
-                                <li><a href="https://vietnamsalary.careerbuilder.vn/" title="VietnamSalary"> <i class="mdi mdi-currency-usd"></i>VietnamSalary</a></li>
-                                <li><a href="https://careerbuilder.vn/careermap" title="CareerMap"> <i class="mdi mdi-chart-line-variant"></i>CareerMap</a></li>
-                                <li><a href="https://careerbuilder.vn/vi/talentcommunity" title="Cẩm Nang"> <i class="mdi mdi-lightbulb-on-outline"></i>Cẩm Nang</a></li>
-                                <li><a href="https://careerbuilder.vn/tinh-luong-gross-net" title="Tính Lương"> <i class="mdi mdi-calculator"></i>Tính Lương</a></li>
-                            </ul>
-                        </div>
-                        <div class="authentication-links">
-                            <ul>
-                                <li><a href="https://careerbuilder.vn/vi/jobseekers/login" title="Đăng nhập"> <i class="mdi mdi-login-variant"></i>Đăng nhập</a></li>
-                                <li><a href="https://careerbuilder.vn/vi/jobseekers/register" title="Đăng ký"> <i class="mdi mdi-account-plus-outline"></i>Đăng ký</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="header-bottom-bottom">
-                        <a href="https://careerbuilder.vn/vi/employers" title="Dành cho nhà tuyển dụng">
-                            <div class="employer-site">
-                                <h4>Dành cho nhà tuyển dụng</h4>
-                                <p>Đăng tuyển, Tìm ứng viên</p>
+                                </div>
+                                <input type="hidden" id="salary_taskbar" name="salary_taskbar" value="0" />
+                                <input type="hidden" id="industry_taskbar" name="industry_taskbar" value="22,39,3" />
+                                <input type="hidden" id="location_taskbar" name="location_taskbar" value="8" />
+                                <input type="hidden" id="keyword_taskbar" name="keyword_taskbar" value="Nhân Viên Tuyển Dụng" />
+                                <input type="hidden" id="title_alert" value="Nhân Viên Tuyển Dụng" />
+                                <script>
+                                    $(document).on('click', '.btnApplyClick', function(){
+                                        
+                                                $('#apply_url').attr('href', "https://careerbuilder.vn/vi/jobseekers/jobs/apply?job_id=35B9A7C0&s=cbnon");
+                                            $('#span_title').html("Nhân Viên Tuyển Dụng");
+                                            $.fancybox.close('all');
+                                            $.fancybox.open($("#apply-job-modal"));
+                                            
+                                    });
+                                </script>
+                                <div class="job-detail-bottom-banner " id="">
+                                    <div class="adsBannerOA" data-id="852"></div>
+                                </div>
+                                <script type="text/javascript">
+                                    $(document).ready(function () { loadBannerOA(); });
+                                </script>
+                            </section>
+                            <div class="maps-modal" style="display: none">
+                                <div class="d-flex box-modal">
+                                    <div class="map" id="jobMap" style="display: none;"></div>
+                                    <div class="info">
+                                        <div class="tabs-toggle">
+                                            <a href="javascript:void(0);" class="item active" data-tab="1">Thông Tin Tuyển Dụng</a>
+                                            <a href="javascript:void(0);" class="item" data-tab="2">Các công việc tương tự</a>
+                                        </div>
+                                        <div class="main-content">
+                                            <div class="tab-content active" id="maps-tab-1">
+                                                <div class="box-about">
+                                                    <div class="title-h4">
+                                                        <h4>Giới thiệu về công ty</h4>
+                                                    </div>
+                                                    <div class="figure">
+                                                        <div class="image">
+                                                            <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-may-theu-giay-an-phuoc.35A4F400.html" target="_blank">
+                                                            <img
+                                                                class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot6/2816/110x55/74705logoap.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công Ty TNHH May Thêu Giày An Phước">
+                                                            </a>
+                                                        </div>
+                                                        <div class="figcaption">
+                                                            <h5>Công Ty TNHH May Thêu Giày An Phước</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="box-info">
+                                                    <div class="title-h4">
+                                                        <h4>Thông Tin Tuyển Dụng</h4>
+                                                    </div>
+                                                    <div class="content">
+                                                        <p class="blue">Nhân Viên Tuyển Dụng</p>
+                                                        <table>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Cấp bậc</td>
+                                                                    <td>Nhân viên</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Lương</td>
+                                                                    <td>$
+                                                                        Cạnh tranh
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Hết hạn nộp</td>
+                                                                    <td>15/07/2022</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Ngành nghề</td>
+                                                                    <td>
+                                                                        <a href="https://careerbuilder.vn/viec-lam/nhan-su-c22-vi.html" >
+                                                                        Nhân sự
+                                                                        ,                                                </a>
+                                                                        <a href="https://careerbuilder.vn/viec-lam/det-may-da-giay-thoi-trang-c39-vi.html" >
+                                                                        Dệt may / Da giày / Thời trang
+                                                                        ,                                                </a>
+                                                                        <a href="https://careerbuilder.vn/viec-lam/hanh-chinh-thu-ky-c3-vi.html" >
+                                                                        Hành chính / Thư ký
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Kinh nghiệm</td>
+                                                                    <td>
+                                                                        0 - 5 Năm
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                                <div class="box-local">
+                                                    <div class="title-h4">
+                                                        <h4>Địa điểm</h4>
+                                                    </div>
+                                                    <div class="content">
+                                                        <p>Hồ Chí Minh</p>
+                                                        <ul class="clearall">
+                                                            <li>
+                                                                <em class="mdi mdi-map-marker"></em>
+                                                                <a href="javascript:void(0);" onclick="movetoCenter(0)">100 An Dương Vương, phường 9, Quận 5, Hồ Chí Minh</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="box-apply ">
+                                                    <a href="javascript:void(0);" class="btn-gradient btnApplyClick">
+                                                    Nộp Đơn Ứng Tuyển
+                                                    </a>
+                                                </div>
+                                                <div class="box-contact">
+                                                    <ul>
+                                                        <li>
+                                                            <a class="toollips save-job chk_save_35B9A7C0 " href="javascript:void(0);" data-id="35B9A7C0"  onclick="popuplogin()">
+                                                                <i class="mdi mdi-heart-outline"></i>
+                                                                <div class="toolip">
+                                                                    <p>Lưu việc làm</p>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li> <a class="email" href="javascript:void(0);" onclick="showboxJobalert()"><i class="mdi mdi-email"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="tab-content" id="maps-tab-2">
+                                                <section class="jobs-side-list"></section>
+                                                <div class="jobs-list">
+                                                    <div class="job-item">
+                                                        <div class="figure">
+                                                            <div class="image">
+                                                                <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/he-thong-nha-hang-nhat-tokyo-deli.35A77DB7.html" target="_blank"  title="Hệ thống nhà hàng Nhật Tokyo Deli">
+                                                                <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot3/169143/67x67/141234standardlogo_001.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Hệ thống nhà hàng Nhật Tokyo Deli">
+                                                                </a>
+                                                            </div>
+                                                            <div class="figcaption">
+                                                                <div class="timeago"></div>
+                                                                <div class="title"><a target="_blank" title="Nhân Viên Tuyển Dụng" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B99B3A.html?s=rec">Nhân Viên Tuyển Dụng</a></div>
+                                                                <div class="caption">
+                                                                    <p class="company-name">Hệ thống nhà hàng Nhật Tokyo Deli</p>
+                                                                    <p class="salary">$ 7 Tr - 8,5 Tr VND</p>
+                                                                    <div class="location">
+                                                                        <ul>
+                                                                            <li>Hồ Chí Minh</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="job-item">
+                                                        <div class="figure">
+                                                            <div class="image">
+                                                                <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-dau-tu-dich-vu-hum-viet-nam.35A87FA0.html" target="_blank"  title="CÔNG TY TNHH ĐẦU TƯ DỊCH VỤ HUM VIỆT NAM">
+                                                                <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot8/235168/67x67/13580310974373.png" src="../kiemviecv32/images/graphics/blank.gif" alt="CÔNG TY TNHH ĐẦU TƯ DỊCH VỤ HUM VIỆT NAM">
+                                                                </a>
+                                                            </div>
+                                                            <div class="figcaption">
+                                                                <div class="timeago"></div>
+                                                                <div class="title"><a target="_blank" title="Nhân viên Tuyển dụng" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B99BD8.html?s=rec">Nhân viên Tuyển dụng</a></div>
+                                                                <div class="caption">
+                                                                    <p class="company-name">CÔNG TY TNHH ĐẦU TƯ DỊCH VỤ HUM VIỆT NAM</p>
+                                                                    <p class="salary">$ Cạnh tranh</p>
+                                                                    <div class="location">
+                                                                        <ul>
+                                                                            <li>Hồ Chí Minh</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="job-item">
+                                                        <div class="figure">
+                                                            <div class="image">
+                                                                <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/mf-viet-nam-information-technology-co-ltd.35A80ECC.html" target="_blank"  title="MF Viet Nam Information Technology Co.,Ltd">
+                                                                <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot4/206284/67x67/90857logomf.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="MF Viet Nam Information Technology Co.,Ltd">
+                                                                </a>
+                                                            </div>
+                                                            <div class="figcaption">
+                                                                <div class="timeago"></div>
+                                                                <div class="title"><a target="_blank" title="NHÂN VIÊN TUYỂN DỤNG" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B929B8.html?s=rec">NHÂN VIÊN TUYỂN DỤNG</a></div>
+                                                                <div class="caption">
+                                                                    <p class="company-name">MF Viet Nam Information Technology Co.,Ltd</p>
+                                                                    <p class="salary">$ 10 Tr - 20 Tr VND</p>
+                                                                    <div class="location">
+                                                                        <ul>
+                                                                            <li>Hà Nội | Hồ Chí Minh</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="job-item">
+                                                        <div class="figure">
+                                                            <div class="image">
+                                                                <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-dtsx-bao-ngoc.35A8F06A.html" target="_blank"  title="Công Ty Cổ Phần ĐTSX Bảo Ngọc">
+                                                                <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot2/264042/67x67/161921bnagroup.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công Ty Cổ Phần ĐTSX Bảo Ngọc">
+                                                                </a>
+                                                            </div>
+                                                            <div class="figcaption">
+                                                                <div class="timeago"></div>
+                                                                <div class="title"><a target="_blank" title="Nhân viên tuyển dụng" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B98BD0.html?s=rec">Nhân viên tuyển dụng</a></div>
+                                                                <div class="caption">
+                                                                    <p class="company-name">Công Ty Cổ Phần ĐTSX Bảo Ngọc</p>
+                                                                    <p class="salary">$ 10 Tr - 15 Tr VND</p>
+                                                                    <div class="location">
+                                                                        <ul>
+                                                                            <li>Hồ Chí Minh</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="job-item">
+                                                        <div class="figure">
+                                                            <div class="image">
+                                                                <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-binh-viet-duc-bivid.35A8D45E.html" target="_blank"  title="Công ty TNHH Bình Việt Đức (BIVID)">
+                                                                <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot2/256862/67x67/121241logo-bivid_chuan.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Công ty TNHH Bình Việt Đức (BIVID)">
+                                                                </a>
+                                                            </div>
+                                                            <div class="figcaption">
+                                                                <div class="timeago"></div>
+                                                                <div class="title"><a target="_blank" title="Nhân Viên Tuyển Dụng" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B98C34.html?s=rec">Nhân Viên Tuyển Dụng</a></div>
+                                                                <div class="caption">
+                                                                    <p class="company-name">Công ty TNHH Bình Việt Đức (BIVID)</p>
+                                                                    <p class="salary">$ 9 Tr - 11 Tr VND</p>
+                                                                    <div class="location">
+                                                                        <ul>
+                                                                            <li>Hồ Chí Minh</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="job-item">
+                                                        <div class="figure">
+                                                            <div class="image">
+                                                                <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-lien-doanh-vinh-hung-tmi-viet-nam.35A8E27D.html" target="_blank"  title="Công ty TNHH, Liên Doanh Vĩnh Hưng (TMI Việt Nam)">
+                                                                <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot7/260477/67x67/94530logocty.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công ty TNHH, Liên Doanh Vĩnh Hưng (TMI Việt Nam)">
+                                                                </a>
+                                                            </div>
+                                                            <div class="figcaption">
+                                                                <div class="timeago"></div>
+                                                                <div class="title"><a target="_blank" title="Nhân viên tuyển dụng" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B95596.html?s=rec">Nhân viên tuyển dụng</a></div>
+                                                                <div class="caption">
+                                                                    <p class="company-name">Công ty TNHH, Liên Doanh Vĩnh Hưng (TMI Việt Nam)</p>
+                                                                    <p class="salary">$ 10 Tr - 13 Tr VND</p>
+                                                                    <div class="location">
+                                                                        <ul>
+                                                                            <li>Hồ Chí Minh</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="job-item">
+                                                        <div class="figure">
+                                                            <div class="image">
+                                                                <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-bat-dong-san-grandland.35A8B759.html" target="_blank"  title="CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN GRANDLAND">
+                                                                <img class="lazy-hidden" data-src="https://static.careerbuilder.vn/themes/kiemviecv32/images/graphics/logo-default.png" src="../kiemviecv32/images/graphics/blank.gif" alt="CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN GRANDLAND">
+                                                                </a>
+                                                            </div>
+                                                            <div class="figcaption">
+                                                                <div class="timeago"></div>
+                                                                <div class="title"><a target="_blank" title="Nhân Viên Tuyển Dụng" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9592D.html?s=rec">Nhân Viên Tuyển Dụng</a></div>
+                                                                <div class="caption">
+                                                                    <p class="company-name">CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN GRANDLAND</p>
+                                                                    <p class="salary">$ 8 Tr - 13 Tr VND</p>
+                                                                    <div class="location">
+                                                                        <ul>
+                                                                            <li>Hồ Chí Minh</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="job-item">
+                                                        <div class="figure">
+                                                            <div class="image">
+                                                                <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-thoi-trang-an-viet-vm-style.35A8D54D.html" target="_blank"  title="Công ty TNHH Thời trang An Việt (VM STYLE)">
+                                                                <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot1/257101/67x67/170850logotrang.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công ty TNHH Thời trang An Việt (VM STYLE)">
+                                                                </a>
+                                                            </div>
+                                                            <div class="figcaption">
+                                                                <div class="timeago"></div>
+                                                                <div class="title"><a target="_blank" title="Nhân viên tuyển dụng" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B971F0.html?s=rec">Nhân viên tuyển dụng</a></div>
+                                                                <div class="caption">
+                                                                    <p class="company-name">Công ty TNHH Thời trang An Việt (VM STYLE)</p>
+                                                                    <p class="salary">$ 8 Tr - 10 Tr VND</p>
+                                                                    <div class="location">
+                                                                        <ul>
+                                                                            <li>Hồ Chí Minh</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="job-item">
+                                                        <div class="figure">
+                                                            <div class="image">
+                                                                <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/tap-doan-ktg.35A882DE.html" target="_blank"  title="Tập đoàn KTG">
+                                                                <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot8/235998/67x67/80145logoktg.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Tập đoàn KTG">
+                                                                </a>
+                                                            </div>
+                                                            <div class="figcaption">
+                                                                <div class="timeago"></div>
+                                                                <div class="title"><a target="_blank" title="NHÂN VIÊN TUYỂN DỤNG" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B95692.html?s=rec">NHÂN VIÊN TUYỂN DỤNG</a></div>
+                                                                <div class="caption">
+                                                                    <p class="company-name">Tập đoàn KTG</p>
+                                                                    <p class="salary">$ 9 Tr - 12 Tr VND</p>
+                                                                    <div class="location">
+                                                                        <ul>
+                                                                            <li>Hồ Chí Minh</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="job-item">
+                                                        <div class="figure">
+                                                            <div class="image">
+                                                                <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-tap-doan-dau-tu-quoc-te-newa-group.35A8F2CC.html" target="_blank"  title="Công Ty Cổ Phần Tập Đoàn Đầu Tư Quốc Tế Newa Group">
+                                                                <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot2/264652/67x67/91204hinhanhnewa.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công Ty Cổ Phần Tập Đoàn Đầu Tư Quốc Tế Newa Group">
+                                                                </a>
+                                                            </div>
+                                                            <div class="figcaption">
+                                                                <div class="timeago"></div>
+                                                                <div class="title"><a target="_blank" title="Nhân Viên Tuyển Dụng" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B96BD6.html?s=rec">Nhân Viên Tuyển Dụng</a></div>
+                                                                <div class="caption">
+                                                                    <p class="company-name">Công Ty Cổ Phần Tập Đoàn Đầu Tư Quốc Tế Newa Group</p>
+                                                                    <p class="salary">$ 7 Tr - 10 Tr VND</p>
+                                                                    <div class="location">
+                                                                        <ul>
+                                                                            <li>Hồ Chí Minh</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </a>
-                        <div class="header-alert">
-                            <ul>
-                                <li><a href="https://careerbuilder.vn/thong-bao-viec-lam" title="Thông Báo Việc Làm"> <i class="mdi mdi-bell-outline"></i><span>Thông Báo Việc Làm</span></a></li>
-                                <li><a href="https://careerbuilder.vn/en/search-job/nhan-vien-tuyen-dung.35B9A7C0.html" title="Change language"> <i class="mdi mdi-web"></i><span>English</span></a></li>
-                            </ul>
+                            <script src='https://cdn.jsdelivr.net/npm/@goongmaps/goong-js@1.0.6/dist/goong-js.js'></script>
+                            <link href='https://cdn.jsdelivr.net/npm/@goongmaps/goong-js@1.0.6/dist/goong-js.css' rel='stylesheet' />
+                            <script>
+                                var map_container = 'jobMap';
+                                var option_zoom = 14;
+                                var strMapGoongAccess = 'KxinmQjfV9bpwUkrhqJuIrkq00hataFG2LVS13yY#cb';
+                                var strMapGoongApi = 'LDLS1XzFyZxDWcxOJgXnU9DhFl2UnrOZp0qAymJG';
+                                var arrPostion = [10.7574202,106.6705781];
+                                var init_map = false;
+                                var pinData = [
+                                    
+                                                                                                                                            {
+                                    address: "100 An Dương Vương, phường 9, Quận 5, Hồ Chí Minh",
+                                    location_id : '8',
+                                    position:'10.7574202,106.6705781',
+                                    title : '<div class="maps-tooltip"><div class="figure"><div class="image"><img src="https://images.careerbuilder.vn/employer_folders/lot6/2816/110x55/74705logoap.jpg" alt="Performance Marketing Specialist" style="max-height: 50px"></div><div class="caption"><p class="title">Nhân Viên Tuyển Dụng</p><p class="company"><a href="javascript:void(0);"">Công Ty TNHH May Thêu Giày An Phước</a></p></div></div><p class="location">100 An Dương Vương, phường 9, Quận 5, Hồ Chí Minh</p><p class="salary">$ \
+                                     Cạnh tranh \
+                                    </p></div>'
+                                },
+                                                                                                                    
+                                
+                                ];
+                                
+                            </script>
+                            <script>
+                                $(document).ready(function(){
+                                    $("div .map a").click(function(){
+                                        $("#jobMap").fadeIn("fast");
+                                        init_map = true;
+                                        $.getScript(DOMAIN_STATIC+"/themes/careerbuilder/js/maps.js");
+                                    });
+                                });
+                            </script>
+                            <script>/*maps.js*/
+                                if(typeof strMapGoongAccess!=='undefined'&&typeof strMapGoongApi!=='undefined'){goongjs.accessToken=strMapGoongAccess;if(typeof map_container==='undefined')
+                                map_container='map';if(typeof opt_draggable==='undefined')
+                                opt_draggable=true;if(typeof option_zoom==='undefined')
+                                option_zoom=14;if(isNaN(option_zoom))
+                                option_zoom=14;var map_api="https://rsapi.goong.io/Place/[FUNCTION]?api_key="+strMapGoongApi;if(typeof arrPostion==='undefined'){arrPostion=[10.783353464561465,106.69269561767578];}
+                                var position=[parseFloat(arrPostion[1]),parseFloat(arrPostion[0])];if(typeof init_map==='undefined')
+                                init_map=true;if(init_map==true){var map=new goongjs.Map({container:map_container,style:'https://tiles.goong.io/assets/goong_map_web.json',center:position,zoom:option_zoom});}
+                                if(typeof pinData!=='undefined'&&init_map==true){var marker=new goongjs.Marker({draggable:false});var arrData=[];$.each(pinData,function(key,val){var strPosition=val.position;var arrPosition=strPosition.split(",");var objData={'type':'Feature','properties':{'description':val.title},'geometry':{'type':'Point','coordinates':[$.trim(arrPosition[1]),$.trim(arrPosition[0])]}};arrData.push(objData);});map.on('load',function(){map.loadImage('https://images.careerbuilder.vn/content/images/icon/custom_marker.png',function(error,image){if(error)throw error;map.addImage('custom-marker',image);map.addSource('places',{'type':'geojson','data':{'type':'FeatureCollection','features':arrData}});map.addLayer({'id':'places','type':'symbol','source':'places','layout':{'icon-image':'custom-marker','icon-allow-overlap':true}});});var popup=new goongjs.Popup({closeButton:false,closeOnClick:false});map.on('mouseenter','places',function(e){var coordinates=e.features[0].geometry.coordinates.slice();var description=e.features[0].properties.description;while(Math.abs(e.lngLat.lng-coordinates[0])>180){coordinates[0]+=e.lngLat.lng>coordinates[0]?360:-360;}
+                                new goongjs.Popup().setLngLat(coordinates).setHTML(description).addTo(map);});map.on('mouseleave','places',function(){});});$.each(pinData,function(key,val){var strPosition=val.position;var arrPosition=strPosition.split(",");var coordinates=[$.trim(arrPosition[1]),$.trim(arrPosition[0])];new goongjs.Popup().setLngLat(coordinates).setHTML(val.title).addTo(map);});}else if(init_map==true){var marker=new goongjs.Marker({draggable:opt_draggable}).setLngLat(position).addTo(map);function onDragEnd(){var lngLat=marker.getLngLat();$("#lng").val(lngLat.lng);$("#lat").val(lngLat.lat);}
+                                marker.on('dragend',onDragEnd);var strAddress=$("#address").val();if(typeof strAddress!=='undefined'&&strAddress!='')
+                                callListGoongmap($("#address").val());}}
+                                function movetoCenter(i){if(typeof pinData[i].position!="undefined"&&typeof map!="undefined"){var strPosition=pinData[i].position;var arrPosition=strPosition.split(",");position=[$.trim(arrPosition[1]),$.trim(arrPosition[0])];marker.setLngLat(position).addTo(map);map.setCenter(position);map.setZoom(14);}}
+                                function autoSuggest(){let address=$("#address").val();callListGoongmap(address);}
+                                function callListGoongmap(addr){let funcname="AutoComplete";let suggest_addr_api=map_api.replace("[FUNCTION]",funcname)+"&input="+encodeURI(addr);$.get(suggest_addr_api,function(resp){if(resp.status=="OK"){displayList(resp.predictions);}},"json");}
+                                function displayList(data){var matched=[];var matchedID=[];for(var i=0;i<data.length;i++){matched.push(data[i].description);matchedID[data[i].description]=data[i].place_id;}
+                                if(data.length>0){$("#address").autocomplete({source:function(request,response){response(matched);},focus:function(event,ui){return false;},select:function(event,ui){$("#address").val(ui.item.value);pointListMapTile(matchedID[ui.item.value]);return false;},create:function(){$(this).data('ui-autocomplete')._renderItem=function(ul,item){return $("<li></li>").data("item.autocomplete",item).append("<a>"+item.value+"</a>").appendTo(ul);};}});}}
+                                function pointListMapTile(id){let funcname="Detail";let detail_addr_api=map_api.replace("[FUNCTION]",funcname)+"&place_id="+encodeURI(id);$.get(detail_addr_api,function(resp){if(resp.status=="OK"&&typeof resp.result.geometry!="undefined"){initListMap(resp.result.geometry.location);}},'json')}
+                                function initListMap(location){$("#lng").val(location.lng);$("#lat").val(location.lat);position=[location.lng,location.lat];marker.setLngLat(position).addTo(map);map.setCenter(position);map.setZoom(14);}
+                            </script>
+                            <script src="https://sp.zalo.me/plugins/sdk.js"></script>
                         </div>
+                        <div class="tab-content" id="tab-2"></div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-custom-xxl-3">
+                    <div class="side-wrapper">
+                        <div class="banner-ad">
+                            <script type='text/javascript'>OA_show(854);</script>
+                        </div>
+                        <div class="similar-jobs">
+                            <p>Các công việc tương tự</p>
+                        </div>
+                        <section class="jobs-side-list">
+                            <div class="jobs-list">
+                                <div class="job-item">
+                                    <div class="figure">
+                                        <div class="image"> <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/he-thong-nha-hang-nhat-tokyo-deli.35A77DB7.html" target="_blank" title="Hệ thống nhà hàng Nhật Tokyo Deli"> <img  class="lazy-bg" data-src="https://images.careerbuilder.vn/employer_folders/lot3/169143/67x67/141234standardlogo_001.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Hệ thống nhà hàng Nhật Tokyo Deli"> </a> </div>
+                                        <div class="figcaption">
+                                            <div class="timeago"></div>
+                                            <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B99B3A.html" target="_blank" title="Nhân Viên Tuyển Dụng"> Nhân Viên Tuyển Dụng </a> </div>
+                                            <div class="caption">
+                                                <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/he-thong-nha-hang-nhat-tokyo-deli.35A77DB7.html" title="Hệ thống nhà hàng Nhật Tokyo Deli">Hệ thống nhà hàng Nhật Tokyo Deli</a>
+                                                <p class="salary"><em class="fa fa-usd"></em>Lương: 7 Tr - 8,5 Tr VND</p>
+                                                <div class="location">
+                                                    <em class="mdi mdi-map-marker"></em>
+                                                    <ul>
+                                                        <li>Hồ Chí Minh</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="top-icon"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="load-more"><a href="https://careerbuilder.vn/viec-lam-tuong-tu/Nhân-Viên-Tuyển-Dụng-tai-ho-chi-minh-kl8-vi.html" title="jobs recommend">Xem tất cả</a></div>
+                        </section>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="backdrop"></div>
-    </header>
-    <main>
-				<style>/*chosen.css*/
- .chosen-container{position:relative;display:inline-block;vertical-align:middle;font-size:13px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}.chosen-container *{-webkit-box-sizing:border-box;box-sizing:border-box;}.chosen-container .chosen-drop{position:absolute;top:100%;z-index:1010;width:100%;border:1px solid #aaa;border-top:0;background:#fff;-webkit-box-shadow:0 4px 5px rgba(0, 0, 0, 0.15);box-shadow:0 4px 5px rgba(0, 0, 0, 0.15);clip:rect(0, 0, 0, 0);-webkit-clip-path:inset(100% 100%);clip-path:inset(100% 100%);}.chosen-container.chosen-with-drop .chosen-drop{clip:auto;-webkit-clip-path:none;clip-path:none;}.chosen-container a{cursor:pointer;}.chosen-container .search-choice .group-name, .chosen-container .chosen-single .group-name{margin-right:4px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-weight:normal;color:#999999;}.chosen-container .search-choice .group-name:after, .chosen-container .chosen-single .group-name:after{content:":";padding-left:2px;vertical-align:top;}.chosen-container-single .chosen-single{position:relative;display:block;overflow:hidden;padding:0 0 0 8px;height:25px;border:1px solid #aaa;border-radius:5px;background-color:#fff;background:-webkit-gradient(linear, left top, left bottom, color-stop(20%, #fff), color-stop(50%, #f6f6f6), color-stop(52%, #eee), to(#f4f4f4));background:linear-gradient(#fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);background-clip:padding-box;-webkit-box-shadow:0 0 3px #fff inset, 0 1px 1px rgba(0, 0, 0, 0.1);box-shadow:0 0 3px #fff inset, 0 1px 1px rgba(0, 0, 0, 0.1);color:#444;text-decoration:none;white-space:nowrap;line-height:24px;}.chosen-container-single .chosen-default{color:#999;}.chosen-container-single .chosen-single span{display:block;overflow:hidden;margin-right:26px;text-overflow:ellipsis;white-space:nowrap;}.chosen-container-single .chosen-single-with-deselect span{margin-right:38px;}.chosen-container-single .chosen-single abbr{position:absolute;top:6px;right:26px;display:block;width:12px;height:12px;background:url("https://static.careerbuilder.vn/themes/careerbuilder/gallery/chosen/chosen-sprite.png") -42px 1px no-repeat;font-size:1px;}.chosen-container-single .chosen-single abbr:hover{background-position:-42px -10px;}.chosen-container-single.chosen-disabled .chosen-single abbr:hover{background-position:-42px -10px;}.chosen-container-single .chosen-single div{position:absolute;top:0;right:0;display:block;width:18px;height:100%;}.chosen-container-single .chosen-single div b{display:block;width:100%;height:100%;background:url("https://static.careerbuilder.vn/themes/careerbuilder/gallery/chosen/chosen-sprite.png") no-repeat 0px 2px;}.chosen-container-single .chosen-search{position:relative;z-index:1010;margin:0;padding:3px 4px;white-space:nowrap;}.chosen-container-single .chosen-search input[type="text"],.chosen-container-single .chosen-search input[type="search"]{margin:1px 0;padding:4px 20px 4px 5px;width:100%;height:auto;outline:0;border:1px solid #aaa;background:url("https://static.careerbuilder.vn/themes/careerbuilder/gallery/chosen/chosen-sprite.png") no-repeat 100% -20px;font-size:1em;font-family:sans-serif;line-height:normal;border-radius:0;}.chosen-container-single .chosen-drop{margin-top:-1px;border-radius:0 0 4px 4px;background-clip:padding-box;}.chosen-container-single.chosen-container-single-nosearch .chosen-search{position:absolute;clip:rect(0, 0, 0, 0);-webkit-clip-path:inset(100% 100%);clip-path:inset(100% 100%);}.chosen-container .chosen-results{color:#444;position:relative;overflow-x:hidden;overflow-y:auto;margin:0 4px 4px 0;padding:0 0 0 4px;max-height:240px;-webkit-overflow-scrolling:touch;}.chosen-container .chosen-results li{display:none;margin:0;padding:5px 6px;list-style:none;line-height:15px;word-wrap:break-word;-webkit-touch-callout:none;}.chosen-container .chosen-results li.active-result{display:list-item;cursor:pointer;}.chosen-container .chosen-results li.disabled-result{display:list-item;color:#ccc;cursor:default;}.chosen-container .chosen-results li.highlighted{background-color:#3875d7;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(20%, #3875d7), color-stop(90%, #2a62bc));background-image:linear-gradient(#3875d7 20%, #2a62bc 90%);color:#fff;}@media(max-width:576px){.chosen-container .chosen-results li.active-result:hover{background:#3875d7 !important;color:#fff !important;}}.chosen-container .chosen-results li.no-results{color:#777;display:list-item;background:#f4f4f4;}.chosen-container .chosen-results li.group-result{display:list-item;font-weight:bold;cursor:default;}.chosen-container .chosen-results li.group-option{padding-left:15px;}.chosen-container .chosen-results li em{font-style:normal;text-decoration:underline;}.chosen-container-multi .chosen-choices{position:relative;overflow:hidden;margin:0;padding:0 5px;width:100%;height:auto;border:1px solid #aaa;background-color:#fff;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(1%, #eee), color-stop(15%, #fff));background-image:linear-gradient(#eee 1%, #fff 15%);cursor:text;}.chosen-container-multi .chosen-choices li{float:left;list-style:none;}.chosen-container-multi .chosen-choices li.search-field{margin:0;padding:0;white-space:nowrap;}.chosen-container-multi .chosen-choices li.search-field input[type="text"],.chosen-container-multi .chosen-choices li.search-field input[type="search"]{margin:1px 0;padding:0;height:25px;outline:0;border:0 !important;background:transparent !important;-webkit-box-shadow:none;box-shadow:none;color:#999;font-size:100%;font-family:sans-serif;line-height:normal;border-radius:0;width:25px;}.chosen-container-multi .chosen-choices li.search-choice{position:relative;margin:3px 5px 3px 0;padding:3px 20px 3px 5px;border:1px solid #aaa;max-width:100%;border-radius:3px;background-color:#eeeeee;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(20%, #f4f4f4), color-stop(50%, #f0f0f0), color-stop(52%, #e8e8e8), to(#eee));background-image:linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);background-size:100% 19px;background-repeat:repeat-x;background-clip:padding-box;-webkit-box-shadow:0 0 2px #fff inset, 0 1px 0 rgba(0, 0, 0, 0.05);box-shadow:0 0 2px #fff inset, 0 1px 0 rgba(0, 0, 0, 0.05);color:#333;line-height:13px;cursor:default;}.chosen-container-multi .chosen-choices li.search-choice span{word-wrap:break-word;}.chosen-container-multi .chosen-choices li.search-choice .search-choice-close{position:absolute;top:4px;right:3px;display:block;width:12px;height:12px;background:url("https://static.careerbuilder.vn/themes/careerbuilder/gallery/chosen/chosen-sprite.png") -42px 1px no-repeat;font-size:1px;}.chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover{background-position:-42px -10px;}.chosen-container-multi .chosen-choices li.search-choice-disabled{padding-right:5px;border:1px solid #ccc;background-color:#e4e4e4;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(20%, #f4f4f4), color-stop(50%, #f0f0f0), color-stop(52%, #e8e8e8), to(#eee));background-image:linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);color:#666;}.chosen-container-multi .chosen-choices li.search-choice-focus{background:#d4d4d4;}.chosen-container-multi .chosen-choices li.search-choice-focus .search-choice-close{background-position:-42px -10px;}.chosen-container-multi .chosen-results{margin:0;padding:0;}.chosen-container-multi .chosen-drop .result-selected{display:list-item;color:#ccc;cursor:default;}.chosen-container-active .chosen-single{border:1px solid #5897fb;-webkit-box-shadow:0 0 5px rgba(0, 0, 0, 0.3);box-shadow:0 0 5px rgba(0, 0, 0, 0.3);}.chosen-container-active.chosen-with-drop .chosen-single{border:1px solid #aaa;border-bottom-right-radius:0;border-bottom-left-radius:0;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(20%, #eee), color-stop(80%, #fff));background-image:linear-gradient(#eee 20%, #fff 80%);-webkit-box-shadow:0 1px 0 #fff inset;box-shadow:0 1px 0 #fff inset;}.chosen-container-active.chosen-with-drop .chosen-single div{border-left:none;background:transparent;}.chosen-container-active.chosen-with-drop .chosen-single div b{background-position:-18px 2px;}.chosen-container-active .chosen-choices{border:1px solid #5897fb;-webkit-box-shadow:0 0 5px rgba(0, 0, 0, 0.3);box-shadow:0 0 5px rgba(0, 0, 0, 0.3);}.chosen-container-active .chosen-choices li.search-field input[type="text"],.chosen-container-active .chosen-choices li.search-field input[type="search"]{color:#222 !important;}.chosen-disabled{opacity:0.5 !important;cursor:default;}.chosen-disabled .chosen-single{cursor:default;}.chosen-disabled .chosen-choices .search-choice .search-choice-close{cursor:default;}.chosen-rtl{text-align:right;}.chosen-rtl .chosen-single{overflow:visible;padding:0 8px 0 0;}.chosen-rtl .chosen-single span{margin-right:0;margin-left:26px;direction:rtl;}.chosen-rtl .chosen-single-with-deselect span{margin-left:38px;}.chosen-rtl .chosen-single div{right:auto;left:3px;}.chosen-rtl .chosen-single abbr{right:auto;left:26px;}.chosen-rtl .chosen-choices li{float:right;}.chosen-rtl .chosen-choices li.search-field input[type="text"],.chosen-rtl .chosen-choices li.search-field input[type="search"]{direction:rtl;}.chosen-rtl .chosen-choices li.search-choice{margin:3px 5px 3px 0;padding:3px 5px 3px 19px;}.chosen-rtl .chosen-choices li.search-choice .search-choice-close{right:auto;left:4px;}.chosen-rtl.chosen-container-single .chosen-results{margin:0 0 4px 4px;padding:0 4px 0 0;}.chosen-rtl .chosen-results li.group-option{padding-right:15px;padding-left:0;}.chosen-rtl.chosen-container-active.chosen-with-drop .chosen-single div{border-right:none;}.chosen-rtl .chosen-search input[type="text"],.chosen-rtl .chosen-search input[type="search"]{padding:4px 5px 4px 20px;background:url("https://static.careerbuilder.vn/themes/careerbuilder/gallery/chosen/chosen-sprite.png") no-repeat -30px -20px;direction:rtl;}.chosen-rtl.chosen-container-single .chosen-single div b{background-position:6px 2px;}.chosen-rtl.chosen-container-single.chosen-with-drop .chosen-single div b{background-position:-12px 2px;}input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-results-button, input[type="search"]::-webkit-search-results-decoration{-webkit-appearance:none;}@media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:144dpi), only screen and (min-resolution:1.5dppx){.chosen-rtl .chosen-search input[type="text"], .chosen-rtl .chosen-search input[type="search"], .chosen-container-single .chosen-single abbr, .chosen-container-single .chosen-single div b, .chosen-container-single .chosen-search input[type="text"], .chosen-container-single .chosen-search input[type="search"], .chosen-container-multi .chosen-choices .search-choice .search-choice-close, .chosen-container .chosen-results-scroll-down span, .chosen-container .chosen-results-scroll-up span{background-image:url("https://static.careerbuilder.vn/themes/careerbuilder/gallery/chosen/chosen-sprite@2x.png") !important;background-size:52px 37px !important;background-repeat:no-repeat !important;}}
-
-/*jquery.auto-complete.css*/
-.autocomplete-suggestions{text-align:left;cursor:default;border:1px solid #ccc;border-top:0;background:#fff;box-shadow:-1px 1px 3px rgba(0,0,0,.1);position:absolute;display:none;z-index:9999;max-height:254px;overflow:hidden;overflow-y:auto;box-sizing:border-box;}.autocomplete-suggestion{position:relative;padding:0 .6em;line-height:23px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:1.02em;color:#333;}.autocomplete-suggestion b{font-weight:normal;color:#1f8dd6;}.autocomplete-suggestion.selected{background:#f0f0f0;}
-
-/*swiper.css*/
- .swiper-container{margin-left:auto;margin-right:auto;position:relative;overflow:hidden;list-style:none;padding:0;z-index:1;}.swiper-container-no-flexbox .swiper-slide{float:left;}.swiper-container-vertical > .swiper-wrapper{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}.swiper-wrapper{position:relative;width:100%;height:100%;z-index:1;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-transition-property:-webkit-transform;transition-property:-webkit-transform;-o-transition-property:transform;transition-property:transform;transition-property:transform, -webkit-transform;-webkit-box-sizing:content-box;box-sizing:content-box;}.swiper-container-android .swiper-slide, .swiper-wrapper{-webkit-transform:translate3d(0px, 0, 0);transform:translate3d(0px, 0, 0);}.swiper-container-multirow > .swiper-wrapper{-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}.swiper-container-free-mode > .swiper-wrapper{-webkit-transition-timing-function:ease-out;-o-transition-timing-function:ease-out;transition-timing-function:ease-out;margin:0 auto;}.swiper-slide{-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;width:100%;height:100%;position:relative;-webkit-transition-property:-webkit-transform;transition-property:-webkit-transform;-o-transition-property:transform;transition-property:transform;transition-property:transform, -webkit-transform;}.swiper-slide-invisible-blank{visibility:hidden;}.swiper-container-autoheight, .swiper-container-autoheight .swiper-slide{height:auto;}.swiper-container-autoheight .swiper-wrapper{-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;-webkit-transition-property:height, -webkit-transform;transition-property:height, -webkit-transform;-o-transition-property:transform, height;transition-property:transform, height;transition-property:transform, height, -webkit-transform;}.swiper-container-3d{-webkit-perspective:1200px;perspective:1200px;}.swiper-container-3d .swiper-wrapper, .swiper-container-3d .swiper-slide, .swiper-container-3d .swiper-slide-shadow-left, .swiper-container-3d .swiper-slide-shadow-right, .swiper-container-3d .swiper-slide-shadow-top, .swiper-container-3d .swiper-slide-shadow-bottom, .swiper-container-3d .swiper-cube-shadow{-webkit-transform-style:preserve-3d;transform-style:preserve-3d;}.swiper-container-3d .swiper-slide-shadow-left, .swiper-container-3d .swiper-slide-shadow-right, .swiper-container-3d .swiper-slide-shadow-top, .swiper-container-3d .swiper-slide-shadow-bottom{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;z-index:10;}.swiper-container-3d .swiper-slide-shadow-left{background-image:-webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));background-image:-webkit-linear-gradient(right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));background-image:-o-linear-gradient(right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));background-image:linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));}.swiper-container-3d .swiper-slide-shadow-right{background-image:-webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));background-image:-webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));background-image:-o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));background-image:linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));}.swiper-container-3d .swiper-slide-shadow-top{background-image:-webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));background-image:-webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));background-image:-o-linear-gradient(bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));background-image:linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));}.swiper-container-3d .swiper-slide-shadow-bottom{background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));background-image:-webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));background-image:-o-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));}.swiper-container-wp8-horizontal, .swiper-container-wp8-horizontal > .swiper-wrapper{-ms-touch-action:pan-y;touch-action:pan-y;}.swiper-container-wp8-vertical, .swiper-container-wp8-vertical > .swiper-wrapper{-ms-touch-action:pan-x;touch-action:pan-x;}.swiper-button-prev, .swiper-button-next{position:absolute;top:50%;width:27px;height:44px;margin-top:-22px;z-index:10;cursor:pointer;background-size:27px 44px;background-position:center;background-repeat:no-repeat;}.swiper-button-prev.swiper-button-disabled, .swiper-button-next.swiper-button-disabled{opacity:0.35;cursor:auto;pointer-events:none;}.swiper-button-prev, .swiper-container-rtl .swiper-button-next{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");left:10px;right:auto;}.swiper-button-next, .swiper-container-rtl .swiper-button-prev{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");right:10px;left:auto;}.swiper-button-prev.swiper-button-white, .swiper-container-rtl .swiper-button-next.swiper-button-white{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E");}.swiper-button-next.swiper-button-white, .swiper-container-rtl .swiper-button-prev.swiper-button-white{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E");}.swiper-button-prev.swiper-button-black, .swiper-container-rtl .swiper-button-next.swiper-button-black{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E");}.swiper-button-next.swiper-button-black, .swiper-container-rtl .swiper-button-prev.swiper-button-black{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E");}.swiper-button-lock{display:none;}.swiper-pagination{position:absolute;text-align:center;-webkit-transition:300ms opacity;-o-transition:300ms opacity;transition:300ms opacity;-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);z-index:10;}.swiper-pagination.swiper-pagination-hidden{opacity:0;}.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{bottom:10px;left:0;width:100%;}.swiper-pagination-bullets-dynamic{overflow:hidden;font-size:0;}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{-webkit-transform:scale(0.33);-ms-transform:scale(0.33);transform:scale(0.33);position:relative;}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev{-webkit-transform:scale(0.66);-ms-transform:scale(0.66);transform:scale(0.66);}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev{-webkit-transform:scale(0.33);-ms-transform:scale(0.33);transform:scale(0.33);}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next{-webkit-transform:scale(0.66);-ms-transform:scale(0.66);transform:scale(0.66);}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next{-webkit-transform:scale(0.33);-ms-transform:scale(0.33);transform:scale(0.33);}.swiper-pagination-bullet{width:8px;height:8px;display:inline-block;border-radius:100%;background:#000;opacity:0.2;}button.swiper-pagination-bullet{border:none;margin:0;padding:0;-webkit-box-shadow:none;box-shadow:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;}.swiper-pagination-clickable .swiper-pagination-bullet{cursor:pointer;}.swiper-pagination-bullet-active{opacity:1;background:#007aff;}.swiper-container-vertical > .swiper-pagination-bullets{right:10px;top:50%;-webkit-transform:translate3d(0px, -50%, 0);transform:translate3d(0px, -50%, 0);}.swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet{margin:6px 0;display:block;}.swiper-container-vertical > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic{top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);width:8px;}.swiper-container-vertical > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{display:inline-block;-webkit-transition:200ms top, 200ms -webkit-transform;transition:200ms top, 200ms -webkit-transform;-o-transition:200ms transform, 200ms top;transition:200ms transform, 200ms top;transition:200ms transform, 200ms top, 200ms -webkit-transform;}.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet{margin:0 4px;}.swiper-container-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic{left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);white-space:nowrap;}.swiper-container-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{-webkit-transition:200ms left, 200ms -webkit-transform;transition:200ms left, 200ms -webkit-transform;-o-transition:200ms transform, 200ms left;transition:200ms transform, 200ms left;transition:200ms transform, 200ms left, 200ms -webkit-transform;}.swiper-container-horizontal.swiper-container-rtl > .swiper-pagination-bullets-dynamic .swiper-pagination-bullet{-webkit-transition:200ms right, 200ms -webkit-transform;transition:200ms right, 200ms -webkit-transform;-o-transition:200ms transform, 200ms right;transition:200ms transform, 200ms right;transition:200ms transform, 200ms right, 200ms -webkit-transform;}.swiper-pagination-progressbar{background:rgba(0, 0, 0, 0.25);position:absolute;}.swiper-pagination-progressbar .swiper-pagination-progressbar-fill{background:#007aff;position:absolute;left:0;top:0;width:100%;height:100%;-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);-webkit-transform-origin:left top;-ms-transform-origin:left top;transform-origin:left top;}.swiper-container-rtl .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{-webkit-transform-origin:right top;-ms-transform-origin:right top;transform-origin:right top;}.swiper-container-horizontal > .swiper-pagination-progressbar, .swiper-container-vertical > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite{width:100%;height:4px;left:0;top:0;}.swiper-container-vertical > .swiper-pagination-progressbar, .swiper-container-horizontal > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite{width:4px;height:100%;left:0;top:0;}.swiper-pagination-white .swiper-pagination-bullet-active{background:#ffffff;}.swiper-pagination-progressbar.swiper-pagination-white{background:rgba(255, 255, 255, 0.25);}.swiper-pagination-progressbar.swiper-pagination-white .swiper-pagination-progressbar-fill{background:#ffffff;}.swiper-pagination-black .swiper-pagination-bullet-active{background:#000000;}.swiper-pagination-progressbar.swiper-pagination-black{background:rgba(0, 0, 0, 0.25);}.swiper-pagination-progressbar.swiper-pagination-black .swiper-pagination-progressbar-fill{background:#000000;}.swiper-pagination-lock{display:none;}.swiper-scrollbar{border-radius:10px;position:relative;-ms-touch-action:none;background:rgba(0, 0, 0, 0.1);}.swiper-container-horizontal > .swiper-scrollbar{position:absolute;left:1%;bottom:3px;z-index:50;height:5px;width:98%;}.swiper-container-vertical > .swiper-scrollbar{position:absolute;right:3px;top:1%;z-index:50;width:5px;height:98%;}.swiper-scrollbar-drag{height:100%;width:100%;position:relative;background:rgba(0, 0, 0, 0.5);border-radius:10px;left:0;top:0;}.swiper-scrollbar-cursor-drag{cursor:move;}.swiper-scrollbar-lock{display:none;}.swiper-zoom-container{width:100%;height:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;text-align:center;}.swiper-zoom-container > img, .swiper-zoom-container > svg, .swiper-zoom-container > canvas{max-width:100%;max-height:100%;-o-object-fit:contain;object-fit:contain;}.swiper-slide-zoomed{cursor:move;}.swiper-lazy-preloader{width:42px;height:42px;position:absolute;left:50%;top:50%;margin-left:-21px;margin-top:-21px;z-index:10;-webkit-transform-origin:50%;-ms-transform-origin:50%;transform-origin:50%;-webkit-animation:swiper-preloader-spin 1s steps(12, end) infinite;animation:swiper-preloader-spin 1s steps(12, end) infinite;}.swiper-lazy-preloader:after{display:block;content:'';width:100%;height:100%;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D'0%200%20120%20120'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20xmlns%3Axlink%3D'http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink'%3E%3Cdefs%3E%3Cline%20id%3D'l'%20x1%3D'60'%20x2%3D'60'%20y1%3D'7'%20y2%3D'27'%20stroke%3D'%236c6c6c'%20stroke-width%3D'11'%20stroke-linecap%3D'round'%2F%3E%3C%2Fdefs%3E%3Cg%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(30%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(60%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(90%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(120%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(150%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.37'%20transform%3D'rotate(180%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.46'%20transform%3D'rotate(210%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.56'%20transform%3D'rotate(240%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.66'%20transform%3D'rotate(270%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.75'%20transform%3D'rotate(300%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.85'%20transform%3D'rotate(330%2060%2C60)'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");background-position:50%;background-size:100%;background-repeat:no-repeat;}.swiper-lazy-preloader-white:after{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D'0%200%20120%20120'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20xmlns%3Axlink%3D'http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink'%3E%3Cdefs%3E%3Cline%20id%3D'l'%20x1%3D'60'%20x2%3D'60'%20y1%3D'7'%20y2%3D'27'%20stroke%3D'%23fff'%20stroke-width%3D'11'%20stroke-linecap%3D'round'%2F%3E%3C%2Fdefs%3E%3Cg%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(30%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(60%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(90%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(120%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(150%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.37'%20transform%3D'rotate(180%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.46'%20transform%3D'rotate(210%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.56'%20transform%3D'rotate(240%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.66'%20transform%3D'rotate(270%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.75'%20transform%3D'rotate(300%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.85'%20transform%3D'rotate(330%2060%2C60)'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");}@-webkit-keyframes swiper-preloader-spin{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);}}@keyframes swiper-preloader-spin{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);}}.swiper-container .swiper-notification{position:absolute;left:0;top:0;pointer-events:none;opacity:0;z-index:-1000;}.swiper-container-fade.swiper-container-free-mode .swiper-slide{-webkit-transition-timing-function:ease-out;-o-transition-timing-function:ease-out;transition-timing-function:ease-out;}.swiper-container-fade .swiper-slide{pointer-events:none;-webkit-transition-property:opacity;-o-transition-property:opacity;transition-property:opacity;}.swiper-container-fade .swiper-slide .swiper-slide{pointer-events:none;}.swiper-container-fade .swiper-slide-active, .swiper-container-fade .swiper-slide-active .swiper-slide-active{pointer-events:auto;}.swiper-container-cube{overflow:visible;}.swiper-container-cube .swiper-slide{pointer-events:none;-webkit-backface-visibility:hidden;backface-visibility:hidden;z-index:1;visibility:hidden;-webkit-transform-origin:0 0;-ms-transform-origin:0 0;transform-origin:0 0;width:100%;height:100%;}.swiper-container-cube .swiper-slide .swiper-slide{pointer-events:none;}.swiper-container-cube.swiper-container-rtl .swiper-slide{-webkit-transform-origin:100% 0;-ms-transform-origin:100% 0;transform-origin:100% 0;}.swiper-container-cube .swiper-slide-active, .swiper-container-cube .swiper-slide-active .swiper-slide-active{pointer-events:auto;}.swiper-container-cube .swiper-slide-active, .swiper-container-cube .swiper-slide-next, .swiper-container-cube .swiper-slide-prev, .swiper-container-cube .swiper-slide-next + .swiper-slide{pointer-events:auto;visibility:visible;}.swiper-container-cube .swiper-slide-shadow-top, .swiper-container-cube .swiper-slide-shadow-bottom, .swiper-container-cube .swiper-slide-shadow-left, .swiper-container-cube .swiper-slide-shadow-right{z-index:0;-webkit-backface-visibility:hidden;backface-visibility:hidden;}.swiper-container-cube .swiper-cube-shadow{position:absolute;left:0;bottom:0px;width:100%;height:100%;background:#000;opacity:0.6;-webkit-filter:blur(50px);filter:blur(50px);z-index:0;}.swiper-container-flip{overflow:visible;}.swiper-container-flip .swiper-slide{pointer-events:none;-webkit-backface-visibility:hidden;backface-visibility:hidden;z-index:1;}.swiper-container-flip .swiper-slide .swiper-slide{pointer-events:none;}.swiper-container-flip .swiper-slide-active, .swiper-container-flip .swiper-slide-active .swiper-slide-active{pointer-events:auto;}.swiper-container-flip .swiper-slide-shadow-top, .swiper-container-flip .swiper-slide-shadow-bottom, .swiper-container-flip .swiper-slide-shadow-left, .swiper-container-flip .swiper-slide-shadow-right{z-index:0;-webkit-backface-visibility:hidden;backface-visibility:hidden;}.swiper-container-coverflow .swiper-wrapper{-ms-perspective:1200px;}
-
-/*search-result-list-detail.css*/
-.page-heading-tool{z-index:555;position:-webkit-sticky;position:sticky;top:80px;left:0;width:100%;padding:20px 0;border-bottom:1px solid #e5e5e5;background:#fbfbfb;}.page-heading-tool .mdi-close-circle:before{content:"\f159";}.page-heading-tool .lnr-cross:before{content:"\e870";}@media (max-width:1200px){.page-heading-tool{top:60px;}}@media (max-width:1023px){.page-heading-tool{position:relative;top:0;}.page-heading-tool.mobile-hide{position:-webkit-sticky;position:sticky;top:60px;}.page-heading-tool.mobile-hide .close-input-filter.active{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;}.page-heading-tool.mobile-show-all .tool-wrapper .search-job .form-group.form-select-chosen{display:block !important;}.page-heading-tool.mobile-show-all .tool-wrapper .search-job .form-group.form-submit{display:block !important;}}.page-heading-tool .close-input-filter{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;display:none;z-index:11;position:absolute;top:0;right:10px;align-items:center;justify-content:center;cursor:pointer;transition:0.4s ease-in-out all;}.page-heading-tool .close-input-filter em{font-size:16px;}.page-heading-tool .tool-wrapper{-webkit-box-align:center;-ms-flex-align:center;-ms-flex-wrap:wrap;display:-webkit-box;display:-ms-flexbox;display:flex;position:relative;flex-wrap:wrap;align-items:center;width:100%;margin:0 -5px;}@media (max-width:1023px){.page-heading-tool .tool-wrapper.mobile-height .search-job{-webkit-box-flex:0;-ms-flex:0 0 calc(100% - 40px);flex:0 0 calc(100% - 40px);max-width:calc(100% - 40px);}.page-heading-tool .tool-wrapper.mobile-height .search-job .form-group.form-select-chosen{display:none;}.page-heading-tool .tool-wrapper.mobile-height .search-job .form-group.form-submit{display:none;}.page-heading-tool .tool-wrapper.mobile-height .mobile-filter .toolip{display:none;}.page-heading-tool .tool-wrapper.mobile-height .mobile-filter-2{right:0;opacity:1;}.page-heading-tool .tool-wrapper.mobile-show .switch-group{display:block;width:auto;max-width:auto;height:30px;margin-top:10px;padding:0 5px;overflow:initial;opacity:1;pointer-events:auto;}.page-heading-tool .tool-wrapper.mobile-show .mobile-filter{-webkit-box-flex:0;-ms-flex:0 0 calc(100% - 200px);-webkit-box-pack:start;-ms-flex-pack:start;display:-webkit-box;display:-ms-flexbox;display:flex;right:40px;flex:0 0 calc(100% - 200px);justify-content:flex-start;max-width:calc(100% - 200px);margin-top:10px;opacity:1;pointer-events:auto;}.page-heading-tool .tool-wrapper.mobile-show .mobile-filter p{display:block;}.page-heading-tool .tool-wrapper.mobile-show .mobile-filter-2{-webkit-transition:0.1s;-o-transition:0.1s;right:-20px;opacity:0;transition:0.1s;}}@media (max-width:576px){.page-heading-tool .tool-wrapper.mobile-show .mobile-filter{-webkit-box-flex:0;-ms-flex:0 0 calc(100% - 170px);flex:0 0 calc(100% - 170px);max-width:calc(100% - 170px);}}.page-heading-tool .Advanced-Search-Popup{-webkit-box-flex:0;-ms-flex:0 0 10%;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;flex:0 0 10%;align-items:center;justify-content:center;max-width:10%;padding:0 5px;cursor:pointer;}.page-heading-tool .Advanced-Search-Popup i{font-size:30px;}@media (min-width:1024px){.page-heading-tool .Advanced-Search-Popup{-webkit-box-flex:0;-ms-flex:0 0 5%;flex:0 0 5%;max-width:5%;}}@media (min-width:1200px){.page-heading-tool .Advanced-Search-Popup{-webkit-box-flex:0;-ms-flex:0 0 4%;flex:0 0 4%;max-width:4%;}}.page-heading-tool .search-job{-webkit-box-flex:0;-ms-flex:0 0 100%;-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;flex:0 0 100%;max-width:100%;padding:0 5px;transition:0.4s ease-in-out all;}.page-heading-tool .search-job .form-group{-webkit-box-align:center;-ms-flex-align:center;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;position:relative;align-items:center;width:100%;}.page-heading-tool .search-job .form-group button{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;width:100%;height:35px;border-radius:4px;background-image:-webkit-gradient(linear, left top, right top, from(#86cb49), color-stop(#169b74), to(#86cb49));background-image:-o-linear-gradient(left, #86cb49, #169b74, #86cb49);background-image:linear-gradient(to right, #86cb49, #169b74, #86cb49);background-position:100% 100%;color:#fff;}.page-heading-tool .search-job .form-group button span{height:24px;font-size:24px;}@media (min-width:1024px){.page-heading-tool .search-job .form-group button{width:35px;height:35px;}}.page-heading-tool .search-job .form-group input{width:100%;height:35px;padding:0 40px 0 16px;border:1px solid #e5e5e5;border-radius:4px;color:#000;font-size:14px;}.page-heading-tool .search-job .form-group input::-webkit-input-placeholder{color:#999999;}.page-heading-tool .search-job .form-group input::-moz-placeholder{color:#999999;}.page-heading-tool .search-job .form-group input:-ms-input-placeholder{color:#999999;}.page-heading-tool .search-job .form-group input::-ms-input-placeholder{color:#999999;}.page-heading-tool .search-job .form-group input::placeholder{color:#999999;}.page-heading-tool .search-job .form-group.form-keyword{position:relative;}.page-heading-tool .search-job .form-group.form-keyword .cleartext{z-index:11;position:absolute;top:8px;right:8px;color:#cccccc;cursor:pointer;opacity:0;}.page-heading-tool .search-job .form-group.form-keyword .cleartext em{color:#cccccc;font-size:18px;}.page-heading-tool .search-job .form-group.form-keyword .cleartext.active{opacity:1;}@media (min-width:1200px){.page-heading-tool .search-job .form-group.form-keyword .cleartext{top:6px;}}.page-heading-tool .search-job .form-group.form-select-chosen select{display:none;}.page-heading-tool .search-job .form-group.form-select-chosen label{margin-bottom:5px;}.page-heading-tool .search-job .form-group.form-select-chosen .chosen-container{width:100% !important;height:35px !important;}.page-heading-tool .search-job .form-group.form-select-chosen .chosen-container .chosen-choices{-webkit-box-shadow:none;display:-webkit-box;display:-ms-flexbox;display:flex;height:35px;padding:0.5px 16px 0.5px 16px;padding-left:16px;border:none;border:1px solid #e5e5e5;border-radius:4px;background-image:none;box-shadow:none;}.page-heading-tool .search-job .form-group.form-select-chosen .chosen-container .chosen-choices .search-choice{-webkit-box-pack:center !important;-ms-flex-pack:center !important;-webkit-box-align:center !important;-ms-flex-align:center !important;display:-webkit-box !important;display:-ms-flexbox !important;display:flex !important;align-items:center !important;justify-content:center !important;height:26px !important;border:none !important;background:#ebf8ff !important;}.page-heading-tool .search-job .form-group.form-select-chosen .chosen-container .chosen-choices .search-choice .search-choice-close{background:none !important;}.page-heading-tool .search-job .form-group.form-select-chosen .chosen-container .chosen-choices .search-choice .search-choice-close:before{color:#5d677a;font-family:"Material Design Icons";font-size:11px;content:"\f156";}.page-heading-tool .search-job .form-group.form-select-chosen .chosen-container .chosen-choices .search-choice .search-choice-close:hover:before{color:#fc0821;}.page-heading-tool .search-job .form-group.form-select-chosen .chosen-container .chosen-choices .search-field{padding:2px 0;}.page-heading-tool .search-job .form-group.form-select-chosen .chosen-container .chosen-choices .search-field input{font-family:"Roboto", sans-serif !important;}.page-heading-tool .search-job .form-group.form-select-chosen .chosen-container .chosen-choices .search-field .chosen-search-input{color:#999999;font-size:14px;font-weight:400;}.page-heading-tool .search-job .form-group.form-select-chosen .chosen-container .chosen-drop .chosen-results::-webkit-scrollbar{width:6px !important;}.page-heading-tool .search-job .form-group.form-select-chosen .chosen-container .chosen-drop .chosen-results::-webkit-scrollbar-track{background:#eaeaea !important;}.page-heading-tool .search-job .form-group.form-select-chosen .chosen-container .chosen-drop .chosen-results::-webkit-scrollbar-thumb{background:#7fcb42 !important;}.page-heading-tool .search-job .form-group.form-select-chosen .chosen-container .chosen-drop .chosen-results::-webkit-scrollbar-thumb:hover{background:#7fcb42 !important;}.page-heading-tool .search-job .form-group.form-select-chosen .chosen-container .chosen-drop .active-result{position:relative;padding-left:43px;color:#182642;}.page-heading-tool .search-job .form-group.form-select-chosen .chosen-container .chosen-drop .active-result::after{position:absolute;top:5px;left:20px;color:#5d677a;font:normal normal normal 24px/1 Material Design Icons;font-size:15px;content:"\f131";}.page-heading-tool .search-job .form-group.form-select-chosen .chosen-container .chosen-drop .active-result:hover{color:#ffffff;}.page-heading-tool .search-job .form-group.form-select-chosen .chosen-container .chosen-drop .active-result:hover::after{color:#ffffff;}.page-heading-tool .search-job .form-group.form-select-chosen .chosen-container .chosen-drop .active-result.highlighted{color:#ffffff;}.page-heading-tool .search-job .form-group.form-select-chosen .chosen-container .chosen-drop .active-result.highlighted::after{color:#ffffff;}.page-heading-tool .search-job .form-group.form-select-chosen .chosen-container .chosen-drop .result-selected{position:relative;padding-left:43px;color:#182642;}.page-heading-tool .search-job .form-group.form-select-chosen .chosen-container .chosen-drop .result-selected::after{position:absolute;top:5px;left:20px;color:#287ab9;font:normal normal normal 24px/1 Material Design Icons;font-size:15px;content:"\f132";opacity:1;}.page-heading-tool .search-job .form-group.form-select-chosen .chosen-container .chosen-drop .result-selected:hover{color:#182642;cursor:pointer;}.page-heading-tool .search-job .form-group.form-select-chosen .chosen-container .chosen-drop .result-selected:hover::after{color:#287ab9;}.page-heading-tool .search-job .form-group.form-submit button p{color:#ffffff;font-size:16px;font-weight:700;text-transform:uppercase;}.page-heading-tool .search-job .form-group.form-submit button span{display:none;}@media (min-width:1024px){.page-heading-tool .search-job .form-group.form-submit button p{display:none;}.page-heading-tool .search-job .form-group.form-submit button span{display:block;}}.page-heading-tool .search-job .form-wrap{-ms-flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;align-items:center;margin:0 -1px;}.page-heading-tool .search-job .form-wrap .form-group{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;margin-bottom:5px;padding:0 1px;}@media (min-width:1024px){.page-heading-tool .search-job{-webkit-box-flex:0;-ms-flex:0 0 calc(100% - 310px);flex:0 0 calc(100% - 310px);max-width:calc(100% - 310px);}.page-heading-tool .search-job .form-wrap{-ms-flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;align-items:center;margin:0 -1px;}.page-heading-tool .search-job .form-wrap .form-group{-webkit-box-flex:0;-ms-flex:0 0 calc((100% - 40px) / 3);flex:0 0 calc((100% - 40px) / 3);max-width:calc((100% - 40px) / 3);padding:0 1px;}.page-heading-tool .search-job .form-wrap .form-group input{margin-bottom:0;}.page-heading-tool .search-job .form-wrap .form-group.form-submit{-webkit-box-flex:0;-ms-flex:0 0 35px;flex:0 0 35px;max-width:35px;padding:0;}.page-heading-tool .search-job .form-wrap .form-group:nth-child(3){padding-right:0;}}@media (min-width:1200px){.page-heading-tool .search-job{-webkit-box-flex:0;-ms-flex:0 0 calc(100% - 310px);flex:0 0 calc(100% - 310px);max-width:calc(100% - 310px);}}.page-heading-tool .mobile-filter{-webkit-box-flex:0;-ms-flex:0 0 calc(100% - 150px);-webkit-box-pack:start;-ms-flex-pack:start;-webkit-box-align:center;-ms-flex-align:center;-webkit-box-ordinal-group:4;-ms-flex-order:3;-webkit-transition-timing-function:cubic-bezier(0.55, 0.06, 0.68, 0.19);-o-transition-timing-function:cubic-bezier(0.55, 0.06, 0.68, 0.19);-webkit-transition:width 2s;-o-transition:width 2s;display:-webkit-box;display:-ms-flexbox;display:flex;z-index:100;position:relative;flex:0 0 calc(100% - 150px);align-items:center;justify-content:flex-start;order:3;max-width:calc(100% - 150px);margin-top:10px;padding:0 5px;cursor:pointer;transition:width 2s;transition-timing-function:cubic-bezier(0.55, 0.06, 0.68, 0.19);}.page-heading-tool .mobile-filter span{height:30px;font-size:30px;}@media (max-width:576px){.page-heading-tool .mobile-filter span{font-size:24px;}}.page-heading-tool .mobile-filter.dropdown-filter-item{position:relative;pointer-events:auto;}.page-heading-tool .mobile-filter.dropdown-filter-item .dropdown-title{-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;cursor:pointer;}.page-heading-tool .mobile-filter.dropdown-filter-item .dropdown-title .mdi{padding-left:10px;}.page-heading-tool .mobile-filter.dropdown-filter-item .dropdown-menu{-webkit-box-shadow:0px 2px 10px 0px rgba(0, 0, 0, 0.05);display:none;z-index:10;position:absolute;top:calc(100% + 30px);right:0;min-width:200px;max-height:calc( 100vh - 250px);padding:20px;overflow-y:auto !important;background:rgba(255, 255, 255, 0.9);box-shadow:0px 2px 10px 0px rgba(0, 0, 0, 0.05);}.page-heading-tool .mobile-filter.dropdown-filter-item .dropdown-menu::-webkit-scrollbar{width:6px;background:#eaeaea;}.page-heading-tool .mobile-filter.dropdown-filter-item .dropdown-menu::-webkit-scrollbar-thumb{background:#7fcb42;}.page-heading-tool .mobile-filter.dropdown-filter-item .dropdown-menu:before{position:absolute;bottom:100%;left:0;width:100%;height:30px;content:"";}.page-heading-tool .mobile-filter.dropdown-filter-item .dropdown-menu span{height:auto;font-size:14px;}.page-heading-tool .mobile-filter.dropdown-filter-item .dropdown-menu .title-drop{display:block;margin-bottom:3px;font-size:15px;}.page-heading-tool .mobile-filter.dropdown-filter-item .dropdown-menu .filter-list .form-group label{padding-right:10px;white-space:nowrap;}.page-heading-tool .mobile-filter.dropdown-filter-item .dropdown-menu.scroll-menu{padding-right:5px;}.page-heading-tool .mobile-filter.dropdown-filter-item .dropdown-menu.scroll-menu .filter-list{max-height:150px;padding-right:10px;overflow-y:scroll;}.page-heading-tool .mobile-filter.dropdown-filter-item .dropdown-menu.scroll-menu .filter-list::-webkit-scrollbar{width:6px;background:#eaeaea;}.page-heading-tool .mobile-filter.dropdown-filter-item .dropdown-menu.scroll-menu .filter-list::-webkit-scrollbar-thumb{background:#7fcb42;}@media (min-width:1024px){.page-heading-tool .mobile-filter.dropdown-filter-item{cursor:pointer;}}@media (min-width:576px){.page-heading-tool .mobile-filter{-webkit-box-flex:0;-ms-flex:0 0 calc(100% - 170px);flex:0 0 calc(100% - 170px);max-width:calc(100% - 170px);}}@media (min-width:1024px){.page-heading-tool .mobile-filter{-webkit-box-flex:0;-ms-flex:0 0 35px;-webkit-box-ordinal-group:3;-ms-flex-order:2;-webkit-box-pack:center;-ms-flex-pack:center;flex:0 0 35px;justify-content:center;order:2;max-width:35px;margin-top:0;}.page-heading-tool .mobile-filter p{display:none;}}@media (min-width:1024px){.page-heading-tool .mobile-filter .toolip::before{top:-7.5px;}.page-heading-tool .mobile-filter .toolip:after{top:-5px;}.page-heading-tool .mobile-filter:hover .toolip{-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);left:50%;transform:translateX(-50%);opacity:1;}.page-heading-tool .mobile-filter:hover .toolip p{display:block;}.page-heading-tool .mobile-filter:hover .toolip:before{z-index:-1;}}.page-heading-tool .mobile-filter-2{-webkit-box-ordinal-group:3;-ms-flex-order:2;-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;z-index:11;position:absolute;top:5px;right:-20px;order:2;overflow:hidden;opacity:0;transition:0.4s ease-in-out all;}.page-heading-tool .mobile-filter-2 span{height:30px;font-size:30px;}@media (max-width:576px){.page-heading-tool .mobile-filter-2 span{font-size:24px;}}.page-heading-tool .switch-group{-webkit-box-ordinal-group:3;-ms-flex-order:2;-webkit-box-flex:0;-ms-flex:0 0 190px;-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;flex:0 0 190px;order:2;max-width:190px;margin-top:10px;margin-bottom:0;padding:0 5px;transition:0.4s ease-in-out all;}.page-heading-tool .switch-group .form-group{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;position:relative;}.page-heading-tool .switch-group .form-group label{-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;width:100%;padding-right:45px;color:#5d677a;font-size:14px;font-weight:400;}@media (max-width:576px){.page-heading-tool .switch-group .form-group label{padding-right:40px;font-size:14px;}}.page-heading-tool .switch-group .form-group .slider{-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);-webkit-transition:0.4s;-o-transition:0.4s;display:-webkit-box;display:-ms-flexbox;display:flex;position:absolute;top:50%;right:0;width:35px;height:18px;transform:translateY(-50%);border-radius:9px;background-color:#ccc;cursor:pointer;transition:0.4s;}.page-heading-tool .switch-group .form-group .slider::before{-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);-webkit-transition:0.4s;-o-transition:0.4s;position:absolute;top:50%;left:2px;width:16px;height:16px;transform:translateY(-50%);border-radius:50%;background-color:white;content:"";transition:0.4s;}.page-heading-tool .switch-group .form-group input{display:none;}.page-heading-tool .switch-group .form-group input:checked~.slider{background-color:#2aba2a;}.page-heading-tool .switch-group .form-group input:focus~.slider{-webkit-box-shadow:0 0 1px #2aba2a;box-shadow:0 0 1px #2aba2a;}.page-heading-tool .switch-group .form-group input:checked~.slider::before{-webkit-transform:translate(16px, -50%);-ms-transform:translate(16px, -50%);transform:translate(16px, -50%);}@media (min-width:576px){.page-heading-tool .switch-group{-webkit-box-flex:0;-ms-flex:0 0 200px;flex:0 0 200px;max-width:200px;}}@media (min-width:1024px){.page-heading-tool .switch-group{-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3;margin-top:0;}}.page-heading-tool .change-display{-webkit-box-flex:0;-ms-flex:0 0 75px;-webkit-box-ordinal-group:5;-ms-flex-order:4;display:none;z-index:100;flex:0 0 75px;order:4;max-width:75px;padding:0 5px;}.page-heading-tool .change-display ul{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:end;-ms-flex-pack:end;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:flex-end;}.page-heading-tool .change-display ul li a{color:inherit;font-size:30px;}.page-heading-tool .change-display ul li a span{display:block;height:30px;}.page-heading-tool .change-display ul li.active{color:#f7a334;}.page-heading-tool .change-display ul li+li{padding-left:20px;}.page-heading-tool .change-display ul li.list-view-mode, .page-heading-tool .change-display ul li.quick-view-mode{position:relative;}@media (min-width:1024px){.page-heading-tool .change-display{display:block;}.page-heading-tool .change-display ul li.list-view-mode .toolip, .page-heading-tool .change-display ul li.quick-view-mode .toolip{right:0;left:auto;}.page-heading-tool .change-display ul li.list-view-mode .toolip::before, .page-heading-tool .change-display ul li.quick-view-mode .toolip::before{top:-7.5px;}.page-heading-tool .change-display ul li.list-view-mode .toolip:after, .page-heading-tool .change-display ul li.quick-view-mode .toolip:after{top:-5px;}.page-heading-tool .change-display ul li.list-view-mode:hover .toolip, .page-heading-tool .change-display ul li.quick-view-mode:hover .toolip{opacity:1;}.page-heading-tool .change-display ul li.list-view-mode:hover .toolip::before, .page-heading-tool .change-display ul li.list-view-mode:hover .toolip:after, .page-heading-tool .change-display ul li.quick-view-mode:hover .toolip::before, .page-heading-tool .change-display ul li.quick-view-mode:hover .toolip:after{opacity:1;}.page-heading-tool .change-display ul li.list-view-mode.active:hover .toolip, .page-heading-tool .change-display ul li.quick-view-mode.active:hover .toolip{opacity:0;}.page-heading-tool .change-display ul li.quick-view-mode .toolip{-webkit-transform:initial;-ms-transform:initial;right:0;left:initial;transform:initial;}.page-heading-tool .change-display ul li.quick-view-mode .toolip:after{-webkit-transform:initial;-ms-transform:initial;right:7px;left:initial;transform:initial;}.page-heading-tool .change-display ul li.quick-view-mode .toolip:before{-webkit-transform:initial;-ms-transform:initial;right:5px;left:initial;transform:initial;}}.page-heading-tool .filters-wrapper{-webkit-box-shadow:0 2px 5px 0 rgba(0, 0, 0, 0.1);display:none;z-index:20;position:absolute;top:100%;width:100%;padding:10px 0;background:#ffffff;box-shadow:0 2px 5px 0 rgba(0, 0, 0, 0.1);}.page-heading-tool .filters-wrapper .title-filter{-webkit-box-pack:justify;-ms-flex-pack:justify;display:-webkit-box;display:-ms-flexbox;display:flex;position:relative;justify-content:space-between;color:#172642;font-size:16px;font-weight:400;text-transform:uppercase;}.page-heading-tool .filters-wrapper.active .inner{animation:opacity 400ms forwards;}.page-heading-tool .filters-wrapper.active{overflow:inherit!important;}.page-heading-tool .filters-wrapper .title-filter .close-filter{z-index:11;position:absolute;top:0;right:0;cursor:pointer;}.page-heading-tool .filters-wrapper .title-filter .close-filter em{color:#172642;font-size:16px;}.page-heading-tool .filters-wrapper .row{margin-bottom:0;}.page-heading-tool .filters-wrapper .row>*{margin-bottom:0;}.page-heading-tool .filters-wrapper .form-group{margin-bottom:10px;}.page-heading-tool .filters-wrapper .form-group label{width:100%;margin-bottom:5px;color:#5d677a;font-size:16px;font-weight:400;}.page-heading-tool .filters-wrapper .form-group select{-webkit-appearance:none;-moz-appearance:none;appearance:none;width:100%!important;height:35px;padding:0 40px 0 16px;border:1px solid #e5e5e5;border-radius:4px;background-color:#ffffff;color:#333;font-size:16px;}.edit-multiselect button.ui-multiselect{width:100%!important;}.edit-multiselect .ui-multiselect-menu{width:88.9%!important;}.page-heading-tool .filters-wrapper .form-group select::-webkit-input-placeholder{color:#999999;}.page-heading-tool .filters-wrapper .form-group select::-moz-placeholder{color:#999999;}.page-heading-tool .filters-wrapper .form-group select:-ms-input-placeholder{color:#999999;}.page-heading-tool .filters-wrapper .form-group select::-ms-input-placeholder{color:#999999;}.page-heading-tool .filters-wrapper .form-group select::placeholder{color:#999999;}.page-heading-tool .filters-wrapper .form-group select:focus{outline:none;}.page-heading-tool .filters-wrapper .form-group select::-ms-expand{display:none;}.page-heading-tool .filters-wrapper .form-group select option{color:#999999;}.page-heading-tool .filters-wrapper .form-group.form-submit{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;bottom:0;align-items:center;justify-content:center;margin-top:10px;margin-bottom:0;}.page-heading-tool .filters-wrapper .form-group.form-submit .btn-reset{-webkit-box-pack:end;-ms-flex-pack:end;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:flex-end;margin-right:10px;padding:6px 10px;border:1px solid #e5e5e5;border-radius:4px;background:#ffffff;color:#666666;font-size:14px;}.page-heading-tool .filters-wrapper .form-group.form-submit .btn-gradient{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;margin-left:10px;padding:6px 25px;border-radius:4px;background-image:-webkit-gradient(linear, left top, right top, from(#86cb49), color-stop(#169b74), to(#86cb49));background-image:-o-linear-gradient(left, #86cb49, #169b74, #86cb49);background-image:linear-gradient(to right, #86cb49, #169b74, #86cb49);background-position:100% 100%;color:#fff;font-size:14px;text-transform:uppercase;}@media (min-width:1024px){.page-heading-tool .filters-wrapper .form-group.form-submit .btn-gradient{padding:6px 10px;}}@media (min-width:1200px){.page-heading-tool .filters-wrapper .form-group.form-submit .btn-gradient{margin-left:15px;}}@media (min-width:1440px){.page-heading-tool .filters-wrapper .form-group.form-submit .btn-gradient{padding:6px 25px;}}@media (min-width:541px){.page-heading-tool .filters-wrapper .form-group.form-submit .btn-reset{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2;margin-left:15px;}.page-heading-tool .filters-wrapper .form-group.form-submit .btn-gradient{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1;margin-left:0;}}@media (min-width:576px){.page-heading-tool .filters-wrapper .form-group.form-submit{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;margin-top:27px;}.page-heading-tool .filters-wrapper .form-group.form-submit .btn-reset{margin-right:0;}.page-heading-tool .filters-wrapper .form-group.form-submit .btn-gradient{margin-left:15px;}}@media (min-width:1200px){.page-heading-tool .filters-wrapper .form-group.form-submit{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;}}@media (min-width:1440px){.page-heading-tool .filters-wrapper .form-group.form-submit{margin-top:28px;}}@media (min-width:1024px){.page-heading-tool .filters-wrapper .form-group{margin-bottom:0;}}@media (max-width:1440px){.page-heading-tool .filters-wrapper .form-group label{font-size:14px;}.page-heading-tool .filters-wrapper .form-group select{font-size:14px;}}.page-heading-tool .tool-wrapper.mobile-height.mobile-show{-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;transition:0.4s ease-in-out all;}.page-heading-tool .tool-wrapper.mobile-height.mobile-show .mobile-filter, .page-heading-tool .tool-wrapper.mobile-height.mobile-show .switch-group{opacity:1;}@media (max-width:1023px){.page-heading-tool .tool-wrapper.mobile-height.mobile-show{padding-bottom:40px;}}@media (max-width:1023px){.page-heading-tool .tool-wrapper{padding-bottom:40px;}.page-heading-tool .tool-wrapper .mobile-filter .toolip, .page-heading-tool .tool-wrapper .switch-group .toolip{display:none;}.page-heading-tool .tool-wrapper.mobile-height{-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;padding-bottom:0;transition:0.4s ease-in-out all;}.page-heading-tool .tool-wrapper.mobile-height .mobile-filter, .page-heading-tool .tool-wrapper.mobile-height .switch-group{-webkit-transition:0.2s ease all;-o-transition:0.2s ease all;display:-webkit-box;display:-ms-flexbox;display:flex;opacity:0;pointer-events:none;transition:0.2s ease all;}.page-heading-tool .tool-wrapper.mobile-show .mobile-filter, .page-heading-tool .tool-wrapper.mobile-show .switch-group{pointer-events:auto;}.page-heading-tool .tool-wrapper.mobile-show .switch-group{right:135px;bottom:-2px;}}@media (max-width:1023px){.page-heading-tool .mobile-filter{-webkit-transition:0.1s ease-in-out all;-o-transition:0.1s ease-in-out all;z-index:11;position:absolute;right:0;bottom:-5px;transition:0.1s ease-in-out all;}}@media (max-width:1023px){.page-heading-tool .switch-group{-webkit-transition:0.1s ease-in-out all;-o-transition:0.1s ease-in-out all;z-index:11;position:absolute;right:95px;bottom:-9px;height:30px;transition:0.1s ease-in-out all;}.page-heading-tool .filters-wrapper .switch-group{position:static;margin-top:0!important;}}.find-jobs-form{padding:10px 0;border-bottom:1px solid #e7e7e7;background:#fbfbfb;}.find-jobs-form .mdi-close-circle:before{content:"\f159";}.find-jobs-form .close-input-filter{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:none;z-index:11;position:absolute;top:0;right:10px;align-items:center;justify-content:center;cursor:pointer;}.find-jobs-form .close-input-filter em{font-size:16px;}@media (max-width:1024px){.find-jobs-form .close-input-filter.active{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;}}.find-jobs-form .lnr-cross:before{content:"\e870";}.find-jobs-form .main-form{position:relative;}.find-jobs-form .main-form .advanced-search{-ms-flex-wrap:wrap;display:-webkit-box;display:-ms-flexbox;display:flex;position:relative;flex-wrap:wrap;}.find-jobs-form .main-form .form-group{-webkit-box-flex:0;-ms-flex:0 0 calc( 100% - 35px);-webkit-box-ordinal-group:2;-ms-flex-order:1;position:relative;flex:0 0 calc( 100% - 35px);order:1;max-width:calc( 100% - 35px);margin-bottom:5px;padding:0 4px;}.find-jobs-form .main-form .form-group label{z-index:11;position:absolute;top:5px;left:17px;color:#cccccc;font-size:20px;}.find-jobs-form .main-form .form-group input, .find-jobs-form .main-form .form-group .chosen-container{-webkit-appearance:none;-moz-appearance:none;appearance:none;width:100% !important;height:35px;padding:5px 10px;border:1px solid #cccccc;border-radius:4px;background:#fff;color:#999999;font-size:14px;font-weight:400;}.find-jobs-form .main-form .form-group input:focus, .find-jobs-form .main-form .form-group .chosen-container:focus{border-color:#4fb45e;outline:none;}.find-jobs-form .main-form .form-group input::-webkit-input-placeholder, .find-jobs-form .main-form .form-group .chosen-container::-webkit-input-placeholder{color:#999999;font-size:14px;font-weight:400;}.find-jobs-form .main-form .form-group input::-moz-placeholder, .find-jobs-form .main-form .form-group .chosen-container::-moz-placeholder{color:#999999;font-size:14px;font-weight:400;}.find-jobs-form .main-form .form-group input:-ms-input-placeholder, .find-jobs-form .main-form .form-group .chosen-container:-ms-input-placeholder{color:#999999;font-size:14px;font-weight:400;}.find-jobs-form .main-form .form-group input::-ms-input-placeholder, .find-jobs-form .main-form .form-group .chosen-container::-ms-input-placeholder{color:#999999;font-size:14px;font-weight:400;}.find-jobs-form .main-form .form-group input::placeholder, .find-jobs-form .main-form .form-group .chosen-container::placeholder{color:#999999;font-size:14px;font-weight:400;}.find-jobs-form .main-form .form-group .chosen-container .chosen-drop{width:auto !important;}.find-jobs-form .main-form .form-group .chosen-container .chosen-choices{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-shadow:none;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;border:0;background-image:none;box-shadow:none;}.find-jobs-form .main-form .form-group .chosen-container .chosen-choices:focus{-webkit-box-shadow:none;box-shadow:none;}.find-jobs-form .main-form .form-group .chosen-container .chosen-choices li.search-choice{white-space:nowrap;}.find-jobs-form .main-form .form-group .chosen-container .chosen-choices li.search-choice .search-choice-close{background:url("https://static.careerbuilder.vn/themes/careerbuilder/img/chosen-sprite.png") -42px 1px no-repeat;}@media (min-width:1024px){.find-jobs-form .main-form .form-group .chosen-container .chosen-drop{-webkit-box-shadow:0 2px 6px 0 rgba(0, 0, 0, 0.1);top:calc(100% + 2px);left:0;width:100% !important;border:none !important;box-shadow:0 2px 6px 0 rgba(0, 0, 0, 0.1);}}@media (max-width:1023px){.find-jobs-form .main-form .form-group .chosen-container .chosen-drop{top:calc(100% + 2px);left:0;width:100% !important;}}.find-jobs-form .main-form .form-group.form-keyword{position:relative;}.find-jobs-form .main-form .form-group.form-keyword .cleartext{z-index:11;position:absolute;top:8px;right:8px;color:#cccccc;cursor:pointer;opacity:0;}.find-jobs-form .main-form .form-group.form-keyword .cleartext em{color:#cccccc;font-size:18px;}.find-jobs-form .main-form .form-group.form-keyword .cleartext.active{opacity:1;}@media (min-width:1200px){.find-jobs-form .main-form .form-group.form-keyword .cleartext{top:6px;}}.find-jobs-form .main-form .form-group.form-select-chosen select{display:none;}.find-jobs-form .main-form .form-group.form-select-chosen label{margin-bottom:5px;}.find-jobs-form .main-form .form-group.form-select-chosen .chosen-container{width:100% !important;height:35px !important;}.find-jobs-form .main-form .form-group.form-select-chosen .chosen-container .chosen-choices{height:100%;padding:5px;padding-left:0;border:none;background-image:none;}.find-jobs-form .main-form .form-group.form-select-chosen .chosen-container .chosen-choices .search-choice{-webkit-box-pack:center !important;-ms-flex-pack:center !important;-webkit-box-align:center !important;-ms-flex-align:center !important;display:-webkit-box !important;display:-ms-flexbox !important;display:flex !important;align-items:center !important;justify-content:center !important;height:26px !important;margin:0 !important;margin-right:5px !important;border:none !important;background:#ebf8ff !important;}.find-jobs-form .main-form .form-group.form-select-chosen .chosen-container .chosen-choices .search-choice .search-choice-close{background:none !important;}.find-jobs-form .main-form .form-group.form-select-chosen .chosen-container .chosen-choices .search-choice .search-choice-close:before{color:#5d677a;font-family:"Material Design Icons";font-size:11px;content:"\f156";}.find-jobs-form .main-form .form-group.form-select-chosen .chosen-container .chosen-choices .search-choice .search-choice-close:hover:before{color:#fc0821;}.find-jobs-form .main-form .form-group.form-select-chosen .chosen-container .chosen-choices .search-field{-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;}.find-jobs-form .main-form .form-group.form-select-chosen .chosen-container .chosen-choices .search-field input{color:#999999;font-family:"Roboto", sans-serif !important;font-size:14px;font-weight:400;}.find-jobs-form .main-form .form-group.form-select-chosen .chosen-container .chosen-choices .search-field .chosen-search-input{color:#999999;font-size:14px;font-weight:400;}.find-jobs-form .main-form .form-group.form-select-chosen .chosen-container .chosen-drop .chosen-results::-webkit-scrollbar{width:6px !important;}.find-jobs-form .main-form .form-group.form-select-chosen .chosen-container .chosen-drop .chosen-results::-webkit-scrollbar-track{background:#eaeaea !important;}.find-jobs-form .main-form .form-group.form-select-chosen .chosen-container .chosen-drop .chosen-results::-webkit-scrollbar-thumb{background:#7fcb42 !important;}.find-jobs-form .main-form .form-group.form-select-chosen .chosen-container .chosen-drop .chosen-results::-webkit-scrollbar-thumb:hover{background:#7fcb42 !important;}.find-jobs-form .main-form .form-group.form-select-chosen .chosen-container .chosen-drop .active-result{position:relative;padding-left:43px;color:#182642;}.find-jobs-form .main-form .form-group.form-select-chosen .chosen-container .chosen-drop .active-result::after{position:absolute;top:5px;left:20px;color:#5d677a;font:normal normal normal 24px/1 Material Design Icons;font-size:15px;content:"\f131";}.find-jobs-form .main-form .form-group.form-select-chosen .chosen-container .chosen-drop .active-result:hover{color:#ffffff;}.find-jobs-form .main-form .form-group.form-select-chosen .chosen-container .chosen-drop .active-result:hover::after{color:#ffffff;}.find-jobs-form .main-form .form-group.form-select-chosen .chosen-container .chosen-drop .active-result.highlighted{color:#ffffff;}.find-jobs-form .main-form .form-group.form-select-chosen .chosen-container .chosen-drop .active-result.highlighted::after{color:#ffffff;}.find-jobs-form .main-form .form-group.form-select-chosen .chosen-container .chosen-drop .result-selected{position:relative;padding-left:43px;color:#182642;}.find-jobs-form .main-form .form-group.form-select-chosen .chosen-container .chosen-drop .result-selected::after{position:absolute;top:5px;left:20px;color:#287ab9;font:normal normal normal 24px/1 Material Design Icons;font-size:15px;content:"\f132";opacity:1;}.find-jobs-form .main-form .form-group.form-select-chosen .chosen-container .chosen-drop .result-selected:hover{color:#182642;cursor:pointer;}.find-jobs-form .main-form .form-group.form-select-chosen .chosen-container .chosen-drop .result-selected:hover::after{color:#287ab9;}@media (max-width:1023px){.find-jobs-form .main-form .form-group.form-select-chosen{display:none;}}.find-jobs-form .main-form .form-group.find-jobs{-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;margin-bottom:0;transition:0.4s ease-in-out all;}.find-jobs-form .main-form .form-group.find-jobs button p{color:#ffffff;font-size:14px;font-weight:700;text-transform:uppercase;}.find-jobs-form .main-form .form-group.find-jobs button span{display:none;}@media (min-width:1024px){.find-jobs-form .main-form .form-group.find-jobs button p{display:none;}.find-jobs-form .main-form .form-group.find-jobs button span{display:block;}}@media (max-width:1024px){.find-jobs-form .main-form .form-group.find-jobs{-webkit-box-flex:0;-ms-flex:0 0 10%;-webkit-transition:initial;-o-transition:initial;flex:0 0 10%;width:100%;max-width:10%;margin-bottom:5px;transition:initial;}.find-jobs-form .main-form .form-group.find-jobs.w-100{-webkit-box-flex:0;-ms-flex:0 0 90%;flex:0 0 90%;max-width:90%;}}@media (max-width:1023px){.find-jobs-form .main-form .form-group.find-jobs{-webkit-box-flex:0;-ms-flex:0 0 90%;display:none;flex:0 0 90%;max-width:90%;}.find-jobs-form .main-form .form-group.find-jobs span{display:none;}}@media (max-width:800px){.find-jobs-form .main-form .form-group.find-jobs{-webkit-box-flex:0;-ms-flex:0 0 calc(100% - 35px);flex:0 0 calc(100% - 35px);max-width:calc(100% - 35px);}.find-jobs-form .main-form .form-group.find-jobs button{padding:8px 11px;}.find-jobs-form .main-form .form-group.find-jobs.w-100{-webkit-box-flex:0;-ms-flex:0 0 calc( 100% - 35px);flex:0 0 calc( 100% - 35px);max-width:calc( 100% - 35px);margin-left:0;padding-right:5px;padding-left:5px;}}.find-jobs-form .main-form .form-group.animation{-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;display:none;z-index:22;position:absolute;top:0;right:0;pointer-events:none;transition:0.4s ease-in-out all;}.find-jobs-form .main-form .form-group.animation .btn-gradient{-webkit-transition:all 0.4s ease-in-ou;-o-transition:all 0.4s ease-in-ou;-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;width:100%;padding:7px 11px;border-radius:4px;background-image:-webkit-gradient(linear, left top, right top, from(#86cb49), color-stop(#169b74), to(#86cb49));background-image:-o-linear-gradient(left, #86cb49, #169b74, #86cb49);background-image:linear-gradient(to right, #86cb49, #169b74, #86cb49);color:#ffffff;font-size:18px;font-weight:700;text-transform:uppercase;transition:all 0.4s ease-in-ou;}.find-jobs-form .main-form .form-group.animation .btn-gradient p{color:#ffffff;font-size:14px;font-weight:700;text-transform:uppercase;}.find-jobs-form .main-form .form-group.animation .btn-gradient span{display:none;}@media (max-width:1023px){.find-jobs-form .main-form .form-group.animation{-webkit-box-flex:0;-ms-flex:0 0 calc(10% + 8px);-webkit-transition:0.2s ease-in-out all;-o-transition:0.2s ease-in-out all;display:block;flex:0 0 calc(10% + 8px);width:100%;max-width:calc(10% + 8px);overflow:hidden;opacity:1;pointer-events:auto;transition:0.2s ease-in-out all;}.find-jobs-form .main-form .form-group.animation p{display:block;}.find-jobs-form .main-form .form-group.animation span{display:none;}.find-jobs-form .main-form .form-group.animation.active{-webkit-transition:0.5s ease-in-out all;-o-transition:0.5s ease-in-out all;opacity:0;pointer-events:none;transition:0.5s ease-in-out all;}}@media (max-width:800px){.find-jobs-form .main-form .form-group.animation{-webkit-box-flex:0;-ms-flex:0 0 40px;flex:0 0 40px;max-width:40px;padding-right:0;padding-left:0;}.find-jobs-form .main-form .form-group.animation .btn-gradient{padding:8px 11px;}.find-jobs-form .main-form .form-group.animation .btn-gradient p{display:none;}.find-jobs-form .main-form .form-group.animation .btn-gradient span{display:block;}}@media (min-width:801px){.find-jobs-form .main-form .form-group{-webkit-box-flex:0;-ms-flex:0 0 90%;flex:0 0 90%;max-width:90%;}}@media (min-width:1024px){.find-jobs-form .main-form .advanced-search .form-group{-webkit-box-flex:0;-ms-flex:0 0 calc((100% - 40px)/3);flex:0 0 calc((100% - 40px)/3);max-width:calc((100% - 40px)/3);margin-bottom:0;}.find-jobs-form .main-form .advanced-search .form-group.find-jobs{-webkit-box-flex:0;-ms-flex:0 0 40px;flex:0 0 40px;max-width:40px;padding-left:0;}.find-jobs-form .main-form .advanced-search .form-group:nth-child(3){padding-right:0;}}.find-jobs-form .find-jobs{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;-webkit-box-flex:0;-ms-flex:0 0 100%;-webkit-box-ordinal-group:4;-ms-flex-order:3;display:-webkit-box;display:-ms-flexbox;display:flex;flex:0 0 100%;align-items:center;justify-content:center;order:3;max-width:100%;margin-bottom:0;padding:0 4px;}.find-jobs-form .find-jobs button{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;-webkit-transition:all 0.4s ease-in-out;-o-transition:all 0.4s ease-in-out;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;width:100%;padding:7px 11px;border-radius:4px;background-image:-webkit-gradient(linear, left top, right top, from(#86cb49), color-stop(#169b74), to(#86cb49));background-image:-o-linear-gradient(left, #86cb49, #169b74, #86cb49);background-image:linear-gradient(to right, #86cb49, #169b74, #86cb49);color:#ffffff;font-size:18px;font-weight:700;text-transform:uppercase;transition:all 0.4s ease-in-out;}.find-jobs-form .Advanced-Search-Popup{-webkit-box-flex:0;-ms-flex:0 0 10%;-webkit-box-ordinal-group:3;-ms-flex-order:2;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;flex:0 0 10%;align-items:center;justify-content:center;order:2;max-width:10%;margin-top:5px;margin-bottom:10px;padding:0 4px;cursor:pointer;}.find-jobs-form .Advanced-Search-Popup i{font-size:30px;}@media (min-width:1200px){.find-jobs-form .main-form .advanced-search{-webkit-box-align:center;-ms-flex-align:center;-ms-flex-wrap:wrap;display:-webkit-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;align-items:center;margin:0 -1px;}.find-jobs-form .main-form .form-group{padding:0 1px;}.find-jobs-form .Advanced-Search-Popup{-webkit-box-flex:0;-ms-flex:0 0 3%;-webkit-box-ordinal-group:4;-ms-flex-order:3;flex:0 0 3%;order:3;max-width:3%;margin-top:0;margin-bottom:0;padding:0 15px;}.find-jobs-form .find-jobs{-webkit-box-flex:0;-ms-flex:0 0 20%;flex:0 0 20%;max-width:20%;}.find-jobs-form .find-jobs button{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;min-width:35px;height:35px;padding:2px 10px;}}.job-item{position:relative;}.job-item a{text-decoration:none;}.job-item .figure{-ms-flex-wrap:wrap;-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;display:-webkit-box;display:-ms-flexbox;display:flex;position:relative;flex-wrap:wrap;padding:15px 10px;overflow:hidden;border-top:1px solid #e5e5e5;border-right:1px solid #e5e5e5;border-radius:5px;border-top-left-radius:4px;transition:0.4s ease-in-out all;}.job-item .figure .image{-webkit-box-flex:0;-ms-flex:0 0 79px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;flex:0 0 79px;align-items:center;justify-content:center;max-width:79px;height:79px;padding:5px;border:1px solid #e5e5e5;border-radius:5px;}.job-item .figure .image img{max-width:100%;max-height:100%;}.job-item .figure .figcaption{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;max-width:calc(100% - 79px);padding-left:15px;}.job-item .figure .title{margin-bottom:3px;}.job-item .figure .title p, .job-item .figure .title a{-o-text-overflow:ellipsis;-webkit-line-clamp:1;-webkit-box-orient:vertical;display:-webkit-box;overflow:hidden;color:#172642;font-size:16px;font-weight:700;line-height:1.2;text-overflow:ellipsis;}.job-item .figure .title.is-orange p, .job-item .figure .title.is-orange a{color:#fb9104;}.job-item .figure .title.is-red p, .job-item .figure .title.is-red a{color:#fc0821;}@media (max-width:576px){.job-item .figure .title p, .job-item .figure .title a{-webkit-line-clamp:initial;}}.job-item .figure .caption{color:#5d677a;font-size:14px;line-height:1.4;}.job-item .figure .caption .salary{color:#008563;}.job-item .figure .caption .company-name{-o-text-overflow:ellipsis;-webkit-line-clamp:1;-webkit-box-orient:vertical;display:-webkit-box;overflow:hidden;color:#5d677a;text-overflow:ellipsis;}@media (max-width:576px){.job-item .figure .caption .company-name{-webkit-line-clamp:initial;}}.job-item .figure .caption .welfare{display:-webkit-box;display:-ms-flexbox;display:flex;}.job-item .figure .caption .welfare li{-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;}.job-item .figure .caption .welfare li span{margin-right:4px;line-height:initial;}.job-item .figure .caption .welfare li+li{margin-left:12px;}.job-item .figure .caption .location p{-webkit-box-orient:vertical;-o-text-overflow:ellipsis;-webkit-line-clamp:1;display:-webkit-box;height:21px;padding-left:0;overflow:hidden;text-overflow:ellipsis;}.job-item .figure .caption .location p+p{display:-webkit-box;display:-ms-flexbox;display:flex;}.job-item .figure .caption .location p+p:before{margin:0;margin-right:8px;content:"|";}.job-item .figure .caption .location ul{-ms-flex-wrap:wrap;display:-webkit-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;}.job-item .figure .caption .location ul li{padding-left:0;}.job-item .figure .caption .location ul li+li{display:-webkit-box;display:-ms-flexbox;display:flex;}.job-item .figure .caption .location ul li+li:before{margin:0;margin-right:8px;margin-left:8px;content:"|";}.job-item .figure .top-icon{display:none;z-index:11;position:absolute;top:0;right:0;}.job-item .figure .top-icon span{margin-bottom:2px;}.job-item .figure .top-icon .top{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;display:flex;align-items:center;justify-content:center;width:32px;height:16px;padding:1.5px 4.5px;border-top-right-radius:4px;border-bottom-left-radius:4px;background:#f7a334;color:#ffffff;font-size:12px;line-height:1;text-transform:uppercase;}.job-item .figure .top-icon .new{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;width:32px;height:16px;padding:1.5px 4.5px;border-top-right-radius:4px;border-bottom-left-radius:4px;background:none;color:#ff0000;font-size:12px;font-weight:600;line-height:1;text-transform:uppercase;}@media (max-width:1200px){.job-item .figure .top-icon{display:-webkit-box;display:-ms-flexbox;display:flex;top:2px;}.job-item .figure .top-icon span{margin-bottom:0;margin-left:2px;}}.job-item .figure .premium-icon{position:absolute;top:-15px;right:-15px;}.job-item .figure .timeago{font-size:12px;font-weight:700;text-transform:uppercase;}.job-item .figure .timeago span{color:red;}.job-item .bottom-right-icon, .job-item .bottom-right-icon-new-2{position:absolute;right:30px;bottom:25px;}.job-item .bottom-right-icon .applied-icon, .job-item .bottom-right-icon-new-2 .applied-icon{max-width:92px;margin-left:auto;padding:1.5px 3px;border-radius:0 4px 0 4px;background:#287ab9;color:#fff;font-size:12px;text-align:center;}.job-item .bottom-right-icon ul, .job-item .bottom-right-icon-new-2 ul{display:-webkit-box;display:-ms-flexbox;display:flex;margin-top:10px;}.job-item .bottom-right-icon ul li a, .job-item .bottom-right-icon-new-2 ul li a{-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;color:inherit;text-decoration:none;}.job-item .bottom-right-icon ul li a span, .job-item .bottom-right-icon-new-2 ul li a span{margin-right:8px;}.job-item .bottom-right-icon ul li a:hover, .job-item .bottom-right-icon-new-2 ul li a:hover{color:#fb9104;}.job-item .bottom-right-icon ul li a.saved, .job-item .bottom-right-icon-new-2 ul li a.saved{color:rgba(93, 103, 122, 0.5);}.job-item .bottom-right-icon ul li+li, .job-item .bottom-right-icon-new-2 ul li+li{-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;margin-left:15px;}.job-item .bottom-right-icon ul li+li:before, .job-item .bottom-right-icon-new-2 ul li+li:before{margin-right:15px;content:"|";}.job-item .bottom-right-icon.check-box .check, .job-item .bottom-right-icon-new-2.check-box .check{-webkit-box-pack:end;-ms-flex-pack:end;display:-webkit-box;display:-ms-flexbox;display:flex;justify-content:flex-end;}.job-item .bottom-right-icon.check-box .check label, .job-item .bottom-right-icon-new-2.check-box .check label{position:relative;padding-left:25px;cursor:pointer;}.job-item .bottom-right-icon.check-box .check label:before, .job-item .bottom-right-icon-new-2.check-box .check label:before{position:absolute;top:-22px;left:0;color:#5d677a;font-family:"Material Design Icons";font-size:24px;content:"\f131";}.job-item .bottom-right-icon.check-box .check input, .job-item .bottom-right-icon-new-2.check-box .check input{display:none;}.job-item .bottom-right-icon.check-box .check input:checked, .job-item .bottom-right-icon-new-2.check-box .check input:checked{background:black;}.job-item .bottom-right-icon.check-box .check input:checked~label:before, .job-item .bottom-right-icon-new-2.check-box .check input:checked~label:before{color:#5d677a;content:"\f132";}.job-item.has-background{margin-bottom:10px;background:#ebf8ff;}.job-item.has-background .figure{border-top:0;}.job-item.active{border:1px solid #009B74;}@media (max-width:1025px){.job-item .figure .caption .welfare{display:none;}}@media (max-width:576px){.job-item .figure{padding:20px 15px 10px 15px;}.job-item .figure .title h3{-o-text-overflow:ellipsis;-webkit-line-clamp:1;-webkit-box-orient:vertical;display:-webkit-box;overflow:hidden;text-overflow:ellipsis;}.job-item .bottom-right-icon, .job-item .bottom-right-icon-new-2{position:static;width:100%;margin-top:10px;padding:0 15px 20px 15px;text-align:right;}.job-item .bottom-right-icon ul, .job-item .bottom-right-icon-new-2 ul{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;}}.job-found{-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;padding-bottom:5px;border-bottom:1px solid #e5e5e5;}.job-found .job-found-amout p, .job-found .job-found-amout h1{color:#172642;font-size:1.125rem;font-weight:700;}.job-found .job-found-sort{font-size:14px;}.job-found .job-found-sort .sort-title{margin-right:5px;cursor:pointer;}.job-found .job-found-sort a{-webkit-box-align:center;-ms-flex-align:center;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;align-items:center;color:inherit;}.job-found .job-found-sort a.active{font-weight:700;}.job-found .job-found-sort a+a:before{margin:0 5px;content:"|";}.job-found .job-found-sort .dropdown-menu{min-width:-webkit-max-content;min-width:-moz-max-content;min-width:max-content;padding-top:10px;}.jobs-side-list{max-height:calc(100vh - 210px);padding-right:10px;overflow-y:auto;}.jobs-side-list::-webkit-scrollbar{width:6px;background:#eaeaea;}.jobs-side-list::-webkit-scrollbar-thumb{background:#7fcb42;}.jobs-side-list .job-item .figure{border-right:0;border-radius:0;}.jobs-side-list .jobs-list .job-item:first-child .figure{padding-top:10px;border-top:0;}.jobs-side-list .load-more a{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-transition:0.3s all;-o-transition:0.3s all;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;width:80%;max-width:18.875rem;height:46px;margin:30px auto;border:2px solid #287ab9;border-radius:5px;color:#287ab9;font-weight:700;letter-spacing:0.1rem;text-decoration:none;text-transform:uppercase;transition:0.3s all;}.jobs-side-list .load-more a span{margin-left:8px;}.jobs-side-list .load-more a:hover{background:#287ab9;color:#fff;}@media screen and (max-width:1023px){.jobs-side-list{max-height:none;overflow-y:visible;}}.apply-now-banner{-webkit-box-align:end;-ms-flex-align:end;display:-webkit-box;display:-ms-flexbox;display:flex;position:relative;align-items:flex-end;height:310px;}.apply-now-banner .image{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;width:100%;height:100%;}.apply-now-banner .image img{-o-object-fit:cover;width:100%;height:100%;object-fit:cover;}.apply-now-banner .apply-now-content{position:absolute;bottom:0;left:0;width:100%;}@media (max-width:1200px){.apply-now-banner{position:relative;padding-bottom:50px;}.apply-now-banner .apply-now-content{-webkit-box-shadow:0 0 10px 2px rgba(0, 0, 0, 0.1);-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-box-align:center;-ms-flex-align:center;position:absolute;bottom:0;bottom:0;left:0;align-items:center;justify-content:space-between;width:calc(100% - 30px);margin:0 15px;border-radius:5px;background:#ffffff;box-shadow:0 0 10px 2px rgba(0, 0, 0, 0.1);}.apply-now-banner .apply-now-content .job-desc .title{text-align:left;}.apply-now-banner .apply-now-content .job-desc .employer{text-align:left;}.apply-now-banner .apply-now-content .job-desc .salary{text-align:center;}.apply-now-banner .apply-now-content .apply-now-btn{text-align:center;}}@media (max-width:1024px){.apply-now-banner{height:auto !important;}.apply-now-banner .image img{-o-object-fit:contain;object-fit:contain;}}@media (max-width:576px){.apply-now-banner{padding-bottom:90px;}.apply-now-banner .apply-now-content .job-desc .title{text-align:center;}.apply-now-banner .apply-now-content .job-desc .employer{display:block;text-align:center;}}@media (max-width:340px){.apply-now-banner{padding-bottom:110px;}}.apply-now-content{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:justify;-ms-flex-pack:justify;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:space-between;width:100%;padding:20px 30px;background:rgba(255, 255, 255, 0.85);}.apply-now-content .job-desc .title{color:#172642;font-size:1.25rem;font-weight:700;line-height:1.25rem;}.apply-now-content .job-desc .title a{color:#172642;font-size:1.25rem;font-weight:700;line-height:1.25rem;}.apply-now-content .job-desc .title a:hover{text-decoration:none;}@media (max-width:1440px){.apply-now-content .job-desc .title{font-size:0.875rem !important;}.apply-now-content .job-desc .title a{font-size:0.875rem !important;}}.apply-now-content .job-desc .employer{color:#5d677a;font-weight:700;line-height:1.25rem;}.apply-now-content .job-desc .salary{font-size:0.875rem;line-height:1.25rem;}.apply-now-btn a{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;width:15.9375rem;height:35px;border-radius:5px;background-image:-webkit-gradient(linear, right top, left top, from(#169b74), color-stop(#86cb49), to(#169b74));background-image:-o-linear-gradient(right, #169b74, #86cb49, #169b74);background-image:linear-gradient(to left, #169b74, #86cb49, #169b74);color:#fff;font-weight:700;text-decoration:none;text-transform:uppercase;}@media (max-width:1440px){.apply-now-btn a{font-size:14px;}}.apply-now-btn.success a{background:#dcdcdc !important;color:#169b74;}@media screen and (max-width:576px){.apply-now-content{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;-webkit-box-align:start;-ms-flex-align:start;flex-direction:column;align-items:flex-start;}.apply-now-btn{margin-top:10px;}}.job-result-nav{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:justify;-ms-flex-pack:justify;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:space-between;margin-top:15px;margin-bottom:15px;padding-bottom:5px;border-bottom:1px solid #eaeaea;}.job-result-nav>ul{-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;}.job-result-nav>ul li{-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;position:relative;font-weight:400;transition:0.4s ease-in-out all;}.job-result-nav>ul li+li{margin-left:40px;}.job-result-nav>ul li a{color:#5d677a;font-size:15px;text-decoration:none;}.job-result-nav>ul li:before{-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;position:absolute;bottom:-8px;left:0;width:0;height:4px;background:#287ab9;content:"";transition:0.4s ease-in-out all;}.job-result-nav>ul li.active a{color:#182642;font-size:15px;font-weight:700;}.job-result-nav>ul li.active::before{width:100%;}.job-result-nav>ul li:hover a{color:#182642;}.job-result-nav>ul li:hover::before{width:100%;}.job-result-nav .job-detail-tool .tabs-saved li{display:inline-block;}.job-result-nav .job-detail-tool .tabs-saved li+li{margin-left:10px;}.job-result-nav .job-detail-tool .tabs-saved li a, .job-result-nav .job-detail-tool .tabs-saved li .mdi, .job-result-nav .job-detail-tool .tabs-saved li .fa{color:inherit;font-size:1.25rem;text-decoration:none;cursor:pointer;}.job-result-nav .job-detail-tool .tabs-saved li a:hover, .job-result-nav .job-detail-tool .tabs-saved li .mdi:hover, .job-result-nav .job-detail-tool .tabs-saved li .fa:hover{color:#fb9104;}.job-result-nav .job-detail-tool .tabs-saved li a.saved, .job-result-nav .job-detail-tool .tabs-saved li .mdi.saved, .job-result-nav .job-detail-tool .tabs-saved li .fa.saved{color:#fb9104;}.job-result-nav .job-detail-tool .tabs-saved li .toollips .toolip{-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);z-index:111;left:50%;transform:translateX(-50%);}.job-result-nav .job-detail-tool .tabs-saved li .toollips .toolip:before{top:-7.5px;}.job-result-nav .job-detail-tool .tabs-saved li .toollips .toolip:after{top:-5px;}.job-result-nav .job-detail-tool .tabs-saved li .dropdown .dropdown-menu{min-width:180px;padding-top:10px;}.job-result-nav .job-detail-tool .tabs-saved li .dropdown .dropdown-menu .social-list{-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:space-between;padding:15px;}.job-detail-content .mdi-home-city:before{content:"\fcf1";}.job-detail-content .mdi-update:before{content:"\f6af";}.job-detail-content .mdi-briefcase:before{content:"\f0d6";}.job-detail-content .mdi-briefcase-edit:before{content:"\fa97";}.job-detail-content .bg-blue{background:#f1f9fc;}.job-detail-content .bg-blue .row>*{margin-bottom:0;}.job-detail-content .row{margin:0 -10px -20px;}.job-detail-content .row>*{margin-bottom:20px;padding:0 10px;}.job-detail-content .banner-ad{display:none;}@media (max-width:800px){.job-detail-content .banner-ad{display:block;width:30%;float:right;}}@media (max-width:599px){.job-detail-content .banner-ad{display:none;}}.job-detail-content .detail-box{padding:15px;}.job-detail-content .detail-box strong, .job-detail-content .detail-box b{display:-webkit-box;display:-ms-flexbox;display:flex;color:#182642;font-size:16px;}.job-detail-content .detail-box strong em, .job-detail-content .detail-box b em{width:20px;padding-right:5px;line-height:1.5;}.job-detail-content .detail-box p, .job-detail-content .detail-box li{font-size:14px;}.job-detail-content .detail-box .salary, .job-detail-content .detail-box .update-date, .job-detail-content .detail-box .form-of-work, .job-detail-content .detail-box .industry{margin-top:1.25rem;}.job-detail-content .detail-box .update-date, .job-detail-content .detail-box .form-of-work, .job-detail-content .detail-box .industry{padding-left:15px;}@media (min-width:1025px){.job-detail-content .detail-box .update-date{margin-top:0;}}.job-detail-content .detail-box .update-date ul{padding-left:21px;}.job-detail-content .detail-box .update-date p{padding-left:21px;}.job-detail-content .detail-box .update-date time{padding-left:21px;}.job-detail-content .detail-box .industry p{padding-left:21px;}.job-detail-content .detail-box .industry ul{padding-left:21px;}.job-detail-content .detail-box .form-of-work p{padding-left:21px;}.job-detail-content .detail-box .form-of-work ul{padding-left:21px;}.job-detail-content .detail-box .map p{padding-left:21px;}.job-detail-content .detail-box .map ul{padding-left:21px;}.job-detail-content .detail-box .map p a{position:relative;padding-right:10px;}.job-detail-content .detail-box .map p a:before{-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);position:absolute;top:50%;right:3px;transform:translateY(-50%);font-size:16px;content:"|";}.job-detail-content .detail-box .map p a:last-child{padding-right:0;}.job-detail-content .detail-box .map p a:last-child:before{display:none;}.job-detail-content .detail-box .type-of-work{margin-top:1.25rem;}.job-detail-content .detail-box .type-of-work ul{-ms-flex-wrap:wrap;display:-webkit-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;padding-left:21px;}.job-detail-content .detail-box .type-of-work li{-webkit-box-orient:vertical;-o-text-overflow:ellipsis;-webkit-line-clamp:1;display:-webkit-box;height:21px;padding-left:0;overflow:hidden;text-overflow:ellipsis;}.job-detail-content .detail-box .type-of-work li+li{display:-webkit-box;display:-ms-flexbox;display:flex;}.job-detail-content .detail-box .type-of-work li+li:before{margin:0;margin-right:8px;margin-left:8px;content:"|";}@media (max-width:800px){.job-detail-content .detail-box .type-of-work{position:relative;}.job-detail-content .detail-box .type-of-work:before{position:absolute;bottom:-15px;left:0;width:100%;height:1px;background:#e9e9e9;content:"";}}.job-detail-content .detail-box .map strong{display:block;}.job-detail-content .detail-box .map b, .job-detail-content .detail-box .map p{display:block;margin-bottom:0.625rem;}.job-detail-content .detail-box .map a{display:-webkit-box;display:-ms-flexbox;display:flex;z-index:111;height:100%;overflow:hidden;pointer-events:auto;}.job-detail-content .detail-box .map a img{height:85px;}.job-detail-content .detail-box .map iframe{width:100%;height:143px;pointer-events:none;}.job-detail-content .detail-box .map svg{width:100%;height:100%;}@media (max-width:576px){.job-detail-content .detail-box .map{padding-top:15px;}.job-detail-content .detail-box .map a img{-o-object-fit:cover;height:100%;object-fit:cover;}}.job-detail-content .detail-box.has-background ul li{padding-bottom:5px;}.job-detail-content .detail-box.has-background ul li strong{-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;}.job-detail-content .detail-box.has-background ul li strong i{width:16px;margin-right:5px;}.job-detail-content .detail-box.has-background ul li strong i.fa{font-size:12px;}.job-detail-content .detail-box.has-background ul li strong em{width:16px;margin-right:5px;}.job-detail-content .detail-box.has-background ul li strong em.mdi{font-size:12px;}.job-detail-content .detail-box.has-background ul li p{padding-left:21px;}.job-detail-content .detail-box.has-background ul li+li{padding-top:8px;border-top:1px solid #e9e9e9;}@media (max-width:1440px){.job-detail-content .detail-box strong{font-size:15px;}}@media (max-width:576px){.job-detail-content .detail-box strong{font-size:16px;}}.job-detail-content .detail-row{margin-top:40px;}.job-detail-content .detail-row .detail-title{margin-bottom:1.25rem;font-size:1.125rem;font-weight:700;text-transform:uppercase;color:#172642;}@media (max-width:1440px){.job-detail-content .detail-row .detail-title{font-size:15px;}}@media (max-width:576px){.job-detail-content .detail-row .detail-title{font-size:1.125rem;}}.job-detail-content .detail-row .welfare-list{-ms-flex-wrap:wrap;display:-webkit-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;padding-left:0;}.job-detail-content .detail-row .welfare-list li{display:-webkit-box;display:-ms-flexbox;display:flex;width:33.33%;font-size:15px;}.job-detail-content .detail-row .welfare-list li .mdi, .job-detail-content .detail-row .welfare-list li .fa{width:17px;height:15px;margin-right:8px;padding-top:2px;}.job-detail-content .detail-row ol{padding-left:2rem;}.job-detail-content .detail-row ul{padding-left:2rem;list-style:disc;}.job-detail-content .detail-row p{margin-bottom:10px;}.job-detail-content .detail-row p+p{margin-top:10px;}.job-detail-content .detail-row ul, .job-detail-content .detail-row ol{margin-bottom:20px;}.job-detail-content .detail-row ul+ul, .job-detail-content .detail-row ul ol, .job-detail-content .detail-row ol+ul, .job-detail-content .detail-row ol ol{margin-top:10px;}@media (max-width:1440px){.job-detail-content .detail-row p, .job-detail-content .detail-row li, .job-detail-content .detail-row a, .job-detail-content .detail-row td{font-size:15px;}}@media (max-width:576px){.job-detail-content .detail-row p, .job-detail-content .detail-row li, .job-detail-content .detail-row a, .job-detail-content .detail-row td{font-size:16px;}}.job-detail-content .table-salary table{width:100%;}.job-detail-content .salary-range{-ms-flex-wrap:wrap;display:-webkit-box;display:-ms-flexbox;display:flex;position:relative;flex-wrap:wrap;padding-top:125px;padding-bottom:40px;clear:both;}.job-detail-content .salary-range .progress-salary{-ms-flex-wrap:wrap;display:-webkit-box;display:-ms-flexbox;display:flex;position:relative;flex-wrap:wrap;width:100%;}.job-detail-content .salary-range .square-min, .job-detail-content .salary-range .square-max{-webkit-box-flex:0;-ms-flex:0 0 55px;position:relative;flex:0 0 55px;max-width:55px;height:47px;background:#f2f2f2;}.job-detail-content .salary-range .square-min .value-text-medium, .job-detail-content .salary-range .square-max .value-text-medium{z-index:11;position:absolute;top:100%;width:80px;padding:5px 0;padding-bottom:0;}.job-detail-content .salary-range .square-min .value-text-medium p, .job-detail-content .salary-range .square-max .value-text-medium p{margin-bottom:0;color:#999999;font-size:14px;font-weight:500;line-height:1.2;text-align:center;}.job-detail-content .salary-range .square-min .value-text-medium span, .job-detail-content .salary-range .square-max .value-text-medium span{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;color:#999999;font-size:14px;font-weight:500;line-height:1.2;}.job-detail-content .salary-range .square-min .value-text-medium{right:-45px;}.job-detail-content .salary-range .square-max .value-text-medium{left:-45px;}.job-detail-content .salary-range .square-real{-webkit-box-flex:0;-ms-flex:0 0 calc(100% - 110px);flex:0 0 calc(100% - 110px);max-width:calc(100% - 110px);height:47px;background:#71d2fa;}.job-detail-content .salary-range .rectangle-color{z-index:11;position:absolute;left:30%;width:96px;height:100%;background:#15a1db;}.job-detail-content .salary-range .rectangle-color .value-point-medium{-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);z-index:12;position:absolute;left:50%;width:2px;height:100%;transform:translateX(-50%);background:#fdb816;}.job-detail-content .salary-range .rectangle-color .value-text-medium{-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);z-index:11;position:absolute;top:100%;left:50%;width:100%;padding:5px 0;padding-bottom:0;transform:translateX(-50%);text-align:center;}.job-detail-content .salary-range .rectangle-color .value-text-medium p{margin-bottom:0;color:#999999;font-size:14px;font-weight:500;line-height:1.2;text-align:center;}.job-detail-content .salary-range .rectangle-color .value-text-medium span{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;color:#999999;font-size:14px;font-weight:500;line-height:1.2;}.job-detail-content .salary-range .rectangle-color .value-point-popular{z-index:11;position:absolute;bottom:100%;width:80px;}.job-detail-content .salary-range .rectangle-color .value-point-popular.value-point-popular-min{left:-40px;}.job-detail-content .salary-range .rectangle-color .value-point-popular.value-point-popular-max{right:-40px;}.job-detail-content .salary-range .rectangle-color .value-point-popular .value-text-medium{top:initial;bottom:0;width:100%;padding:0;}.job-detail-content .salary-range .rectangle-color .value-point-popular .value-text-medium p{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;width:-webkit-max-content;width:-moz-max-content;width:max-content;margin-bottom:3px;padding:1px 12.5px;border-radius:3px;background:#009a74;color:#ffffff;font-size:15px;font-weight:400;}.job-detail-content .salary-range .rectangle-color .value-point-popular .value-text-medium span{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;color:#999999;font-size:14px;font-weight:500;}.job-detail-content .salary-range .salary-of-you{z-index:22;position:absolute;bottom:18px;left:70%;}.job-detail-content .salary-range .salary-of-you .text{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);display:-webkit-box;display:-ms-flexbox;display:flex;position:absolute;bottom:100%;left:50%;align-items:center;justify-content:center;width:-webkit-max-content;width:-moz-max-content;width:max-content;padding:1px 7px;transform:translateX(-50%);border-radius:5px;background:#fdb816;}.job-detail-content .salary-range .salary-of-you .text p{margin-bottom:0;color:#ffffff;font-size:15px;font-weight:400;}.job-detail-content .share-this-job{-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;margin-top:1.25rem;padding:7px 15px;background:#f1f1f1;}.job-detail-content .share-this-job>span{margin-right:15px;font-size:14px;}.job-detail-content .share-this-job a{color:inherit;}.job-detail-content .share-this-job a+a{margin-left:15px;}.job-detail-content .share-this-job a:hover{color:#fb9104;}.job-detail-content .share-this-job .zalo-share-button{margin-left:15px;}.job-detail-content .share-this-job .zalo-share-button:before{top:3px;}.job-detail-content .job-detail-bottom{position:relative;}.job-detail-content .job-detail-bottom.sticky{z-index:222;position:-webkit-sticky;position:sticky;bottom:5px;}.job-detail-content .job-detail-bottom .apply-now-content{padding:10px 15px !important;}.job-detail-content .job-detail-bottom .job-detail-bottom-wrapper{position:relative;margin-top:40px;margin-bottom:20px;background:#fff;}.job-detail-content .job-detail-bottom .job-detail-bottom-wrapper:before{-webkit-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);-webkit-transition:0.3s ease-in-out all;-o-transition:0.3s ease-in-out all;z-index:-1;position:absolute;top:50%;left:50%;width:calc(100% + 2px);height:calc(100% + 2px);transform:translate(-50%, -50%);border-radius:4px;background:-webkit-gradient(linear, left top, right top, from(#86cb49), color-stop(#169b74), to(#86cb49));background:-o-linear-gradient(left, #86cb49, #169b74, #86cb49);background:linear-gradient(to right, #86cb49, #169b74, #86cb49);content:"";transition:0.3s ease-in-out all;}@media (max-width:576px){.job-detail-content .job-detail-bottom .job-detail-bottom-wrapper{margin-bottom:0;}}.job-detail-content .job-detail-bottom .title{-o-text-overflow:ellipsis;-webkit-line-clamp:2;-webkit-box-orient:vertical;display:-webkit-box;overflow:hidden;text-overflow:ellipsis;}.job-detail-content .job-detail-bottom .employer{-o-text-overflow:ellipsis;-webkit-line-clamp:1;-webkit-box-orient:vertical;display:-webkit-box;overflow:hidden;text-overflow:ellipsis;}@media (min-width:1025px){.job-detail-content .job-detail-bottom .job-desc .save-job, .job-detail-content .job-detail-bottom .job-desc .email, .job-detail-content .job-detail-bottom .job-desc .report-job{position:relative;}.job-detail-content .job-detail-bottom .job-desc .save-job:hover .toolip, .job-detail-content .job-detail-bottom .job-desc .email:hover .toolip, .job-detail-content .job-detail-bottom .job-desc .report-job:hover .toolip,{opacity:1;}.job-detail-content .job-detail-bottom .job-desc .save-job:hover .toolip:before, .job-detail-content .job-detail-bottom .job-desc .email:hover .toolip:before, .job-detail-content .job-detail-bottom .job-desc .report-job:hover .toolip:before{z-index:11;top:initial;bottom:100%;}.job-detail-content .job-detail-bottom .job-desc .save-job:hover .toolip:after, .job-detail-content .job-detail-bottom .job-desc .email:hover .toolip:after, .job-detail-content .job-detail-bottom .job-desc .report-job:hover .toolip:after{top:initial;bottom:100%;}}.job-detail-content .job-detail-bottom:after{position:absolute;top:0;left:0;width:6px;height:100%;background:rgba(133, 203, 73, 0.85);content:"";}.job-detail-content .job-detail-bottom .apply-now-right{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:end;-ms-flex-pack:end;-ms-flex-wrap:wrap;display:-webkit-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;}.job-detail-content .job-detail-bottom .apply-now-right>a{display:-webkit-box;display:-ms-flexbox;display:flex;color:inherit;font-size:14px;}.job-detail-content .job-detail-bottom .apply-now-right>a i{padding-right:8px;line-height:1.5;}.job-detail-content .job-detail-bottom .apply-now-right>a.saved{color:#fb9104;}.job-detail-content .job-detail-bottom-banner{margin-top:40px;}.job-detail-content .job-detail-bottom-banner img{width:100%;}.job-detail-content .job-tags{margin-top:0;}.job-detail-content .job-tags ul{padding-left:0;}@media (max-width:800px){.job-detail-content .job-tags{width:70%;}}@media (max-width:599px){.job-detail-content .job-tags{width:100%;}}.job-detail-content .apply-now-btn{-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;transition:0.4s ease-in-out all;}.job-detail-content .apply-now-btn a{-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;height:35px !important;padding:0 15px;transition:0.4s ease-in-out all;}.job-detail-content .apply-now-btn a:hover{-webkit-box-shadow:0 0 5px 1px rgba(0, 0, 0, 0.1);box-shadow:0 0 5px 1px rgba(0, 0, 0, 0.1);}@media screen and (max-width:768px){.job-detail-content .job-detail-bottom{margin-top:30px;}.job-detail-content .job-detail-bottom .apply-now-right{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;margin-top:10px;margin-left:-25px;}.job-detail-content .detail-row{margin-top:30px;}.job-detail-content .detail-row .welfare-list li{width:50%;}.job-detail-content .job-detail-bottom-banner{margin-top:30px;}}@media screen and (max-width:576px){.job-detail-content .detail-box{padding:15px;}.job-detail-content .detail-row .welfare-list li{width:100%;}.job-detail-content .apply-now-btn{width:100%;}.job-detail-content .apply-now-btn a{width:100%;}.job-detail-content .job-detail-bottom-wrapper{margin-right:2px;}.job-detail-content .job-detail-bottom{z-index:11;position:-webkit-sticky;position:sticky;bottom:0;}.job-detail-content .job-detail-bottom .apply-now-content{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-orient:initial;-webkit-box-direction:initial;-ms-flex-direction:initial;display:-webkit-box;display:-ms-flexbox;display:flex;flex-direction:initial;align-items:center;}.job-detail-content .job-detail-bottom .apply-now-content .job-desc{display:-webkit-box;display:-ms-flexbox;display:flex;width:auto;}.job-detail-content .job-detail-bottom .apply-now-content .job-desc a{width:100%;margin-top:0;}.job-detail-content .job-detail-bottom .apply-now-content .job-desc a span{display:none;}.job-detail-content .job-detail-bottom .apply-now-content .apply-now-right{margin-top:0;margin-left:0;}.job-detail-content .job-detail-bottom .apply-now-content .apply-now-right .apply-now-btn{margin:0;}.job-detail-content .job-detail-bottom .apply-now-content .apply-now-right .apply-now-btn a{width:-webkit-max-content;width:-moz-max-content;width:max-content;}}@media (max-width:800px){.job-detail-content .bg-blue .item-blue:first-child{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1;}.job-detail-content .bg-blue .item-blue:first-child .detail-box .type-of-work{display:none;}.job-detail-content .bg-blue .item-blue:nth-child(2){-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3;}.job-detail-content .bg-blue .item-blue:nth-child(2) .detail-box{display:none;}.job-detail-content .bg-blue .item-blue:last-child{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2;}.job-detail-content .bg-blue .item-blue:last-child .type-of-work{margin-top:0;margin-bottom:8px;padding-bottom:5px;border-bottom:1px solid #e9e9e9;}.job-detail-content .bg-blue .item-blue:last-child .type-of-work:before{display:none;}.job-detail-content .bg-blue .item-blue:last-child .type-of-work ul li{padding:0;border:none;}}@media (max-width:576px){.job-detail-content .bg-blue .item-blue:first-child{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1;}.job-detail-content .bg-blue .item-blue:first-child .detail-box .type-of-work{display:block;}.job-detail-content .bg-blue .item-blue:first-child .detail-box.has-background{display:none;}.job-detail-content .bg-blue .item-blue:nth-child(2){-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2;}.job-detail-content .bg-blue .item-blue:nth-child(2) .detail-box{display:block;}.job-detail-content .bg-blue .item-blue:last-child{-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3;}.job-detail-content .bg-blue .item-blue:last-child .type-of-work{display:none;}}.feedback-modal{width:560px;}.feedback-modal .logo{margin-bottom:20px;text-align:center;}.feedback-modal .text{margin-bottom:20px;}.feedback-modal .text p{font-size:14px;}.feedback-modal .text p+p{margin-top:10px;}.feedback-modal .text p strong{font-size:18px;}.feedback-modal .form-group+.form-group{margin-top:15px;}.feedback-modal .form-group label{display:block;margin-bottom:5px;}.feedback-modal .form-group input[type=text], .feedback-modal .form-group textarea{width:100%;}.feedback-modal .form-group input[type=text]{height:40px;padding:0 15px;}.feedback-modal .form-group textarea{height:120px;padding:5px 15px;}.feedback-modal .form-group span{color:red;font-size:12px;font-style:italic;font-weight:400;}.feedback-modal .form-group .note{font-size:12px;}.feedback-modal .form-group.form-submit{margin-top:30px;text-align:center;}.feedback-modal .form-group.form-submit input{-webkit-transition:0.3s all;-o-transition:0.3s all;width:80px;height:36px;border:0;background:#f79d25;color:#fff;font-size:14px;transition:0.3s all;}.feedback-modal .form-group.form-submit input:hover{background:#e18408;}.feedback-modal .fancybox-close-small{background:#f7a334;opacity:1;}.feedback-modal .fancybox-close-small svg path{fill:#fff;}.apply-job-modal{width:620px;}.apply-job-modal h3{color:#f79d25;font-size:18px;}.apply-job-modal h3 span{color:#5d677a;}.apply-job-modal h4{font-size:14px;font-weight:normal;}.apply-job-modal .note{font-size:12px;}.apply-job-modal .login-form{margin-top:20px;}.apply-job-modal .login-form .note{margin-bottom:8px;}.apply-job-modal .form-group+.form-group{margin-top:15px;}.apply-job-modal .form-group label{display:block;margin-bottom:5px;}.apply-job-modal .form-group input[type=text], .apply-job-modal .form-group input[type=password]{width:100%;height:40px;padding:0 15px;}.apply-job-modal .form-group span{color:red;font-size:12px;font-style:italic;font-weight:400;}.apply-job-modal .form-group.form-submit input{-webkit-transition:0.3s all;-o-transition:0.3s all;height:36px;padding:0 15px;border:0;background:#f79d25;color:#fff;font-size:14px;transition:0.3s all;}.apply-job-modal .form-group.form-submit input:hover{background:#e18408;}.apply-job-modal .apply-not-login{margin-top:30px;padding-top:30px;border-top:1px solid #bababa;}.apply-job-modal .apply-not-login>strong{font-size:14px;}.apply-job-modal .apply-not-login .note{margin-bottom:15px;}.apply-job-modal .btn-group{-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;}.apply-job-modal .btn-group a{-webkit-box-align:center;-ms-flex-align:center;-webkit-transition:0.3s all;-o-transition:0.3s all;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;height:40px;border-radius:4px;color:#fff;font-size:12px;text-decoration:none;transition:0.3s all;}.apply-job-modal .btn-group a.btn-apply-non-member{padding:0 15px;background:#52a318;}.apply-job-modal .btn-group a.btn-apply-non-member:hover{background:#3c7711;}.apply-job-modal .btn-group a.btn-apply-facebook{padding-left:15px;background:#3b5998;}.apply-job-modal .btn-group a.btn-apply-facebook strong{margin-left:2.5px;font-size:12px;}.apply-job-modal .btn-group a.btn-apply-facebook i{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;margin-left:15px;border-left:1px solid rgba(255, 255, 255, 0.25);font-size:16px;}.apply-job-modal .btn-group a.btn-apply-facebook:hover{background:#2d4373;}.apply-job-modal .btn-group .or-text{margin:0 15px;font-size:12px;}@media (max-width:576px){.apply-job-modal .btn-group{-ms-flex-wrap:wrap;flex-wrap:wrap;}.apply-job-modal .btn-group a{margin-top:15px;}.apply-job-modal .btn-group a.btn-apply-non-member{padding:0 10px;}.apply-job-modal .btn-group a.btn-apply-facebook{padding-left:10px;}.apply-job-modal .btn-group .or-text{margin-top:15px;}}.apply-job-modal .fancybox-close-small{background:#f7a334;opacity:1;}.apply-job-modal .fancybox-close-small svg path{fill:#fff;}.maps-modal{width:100%;padding:15px;}.maps-modal .box-modal{-ms-flex-wrap:wrap;display:-webkit-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;height:100%;}.maps-modal .map{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;margin-bottom:20px;}.maps-modal .map iframe{width:100%;height:100%;min-height:700px;}@media (min-width:1025px){.maps-modal .map{-webkit-box-flex:0;-ms-flex:0 0 65%;flex:0 0 65%;max-width:65%;margin-bottom:0;}}.maps-modal .info{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;padding-left:20px;}.maps-modal .info .tab-content{max-height:600px;padding-right:10px;overflow:auto;}.maps-modal .info .tab-content::-webkit-scrollbar{width:6px;background:#eaeaea;}.maps-modal .info .tab-content::-webkit-scrollbar-thumb{background:#7fcb42;}@media (min-width:1025px){.maps-modal .info{-webkit-box-flex:0;-ms-flex:0 0 35%;flex:0 0 35%;max-width:35%;}}.maps-modal .tabs-toggle{-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;margin-bottom:25px;}.maps-modal .tabs-toggle .item{-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;position:relative;font-weight:400;cursor:pointer;transition:0.4s ease-in-out all;}.maps-modal .tabs-toggle .item+.item{margin-left:40px;}.maps-modal .tabs-toggle .item:before{-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;position:absolute;bottom:-8px;left:0;width:0;height:4px;background:#287ab9;content:"";transition:0.4s ease-in-out all;}.maps-modal .tabs-toggle .item.active a{color:#182642;}.maps-modal .tabs-toggle .item.active::before{width:100%;}.maps-modal .tabs-toggle .item:hover a{color:#182642;}.maps-modal .tabs-toggle .item:hover::before{width:100%;}.maps-modal .job-item .figure:hover{-webkit-box-shadow:none;box-shadow:none;}.maps-modal .job-item .figure .caption .salary em{width:15px;text-align:center;}.maps-modal .job-item .figure .caption .location{display:-webkit-box;display:-ms-flexbox;display:flex;}.maps-modal .job-item .figure .caption .location em{width:15px;}.maps-modal .main-content .tab-content{display:none;}.maps-modal .main-content .tab-content.active{display:block;}.maps-modal .title-h4 h4{margin-bottom:0.5rem;font-size:1.125rem;font-weight:700;text-transform:uppercase;}.maps-modal .box-about{padding-bottom:15px;border-bottom:1px solid #cccccc;}.maps-modal .box-about .figure{-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;}.maps-modal .box-about .figure .image{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;width:70px;height:70px;padding:5px;border:1px solid #f1f1f1;}.maps-modal .box-about .figure .figcaption{padding-left:20px;}.maps-modal .box-about .figure .figcaption h5{font-size:1rem;font-weight:700;}.maps-modal .box-info{padding-top:15px;padding-bottom:15px;border-bottom:1px solid #cccccc;}.maps-modal .box-info .content p{font-size:16px;font-weight:400;}.maps-modal .box-info .content p.blue{color:#0056b3;}.maps-modal .box-info .content table{width:100%;}.maps-modal .box-info .content table tr td{font-size:14px;font-weight:400;}.maps-modal .box-info .content table tr td:first-child{width:130px;}.maps-modal .box-local{padding-top:15px;padding-bottom:15px;border-bottom:1px solid #cccccc;}.maps-modal .box-local .content em{padding-right:5px;}.maps-modal .box-local .content a{font-size:16px;font-weight:400;}.maps-modal .box-apply{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;padding-top:15px;}.maps-modal .box-apply a{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;width:15.9375rem;height:44px;border-radius:5px;background-image:-webkit-gradient(linear, right top, left top, from(#169b74), color-stop(#86cb49), to(#169b74));background-image:-o-linear-gradient(right, #169b74, #86cb49, #169b74);background-image:linear-gradient(to left, #169b74, #86cb49, #169b74);color:#fff;font-weight:700;text-decoration:none;text-transform:uppercase;}.maps-modal .box-apply.success a{background:#dcdcdc !important;color:#169b74;}.maps-modal .box-contact{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;padding-top:15px;}.maps-modal .box-contact ul{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;}.maps-modal .box-contact ul li{margin:0 10px;}.maps-modal .box-contact ul li a{color:inherit;}.maps-modal .box-contact ul li a.saved{color:#fb9104;}@media (min-width:1200px){.maps-modal{height:679px;}}.company-overview>*{margin-top:40px;}.company-overview .company-heading-title{margin-bottom:10px;color:#182642;font-size:18px;text-transform:uppercase;}.company-overview .company-introduction{padding:20px;background:#f1f9fd;}.company-overview .company-introduction .title-company .new{font-weight:700;text-transform:uppercase;}.company-overview .company-info .name{-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;color:#182642;font-size:18px;font-weight:700;text-transform:uppercase;transition:0.4s ease-in-out all;}.company-overview .company-info .info .img{-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;float:left;}.company-overview .company-info .info .img .logo-company{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;display:flex;align-items:center;align-items:center;justify-content:center;justify-content:center;width:100%;width:8.625rem;height:100%;height:9.0625rem;border:1px solid #e5e5e5;border-radius:4px;background:#fff;}.company-overview .company-info .info .content{width:calc(100% - 8.625rem);padding-left:1.875rem;float:left;}.company-overview .company-info .info .content hr{margin:5px 0;border:0;border-top:1px solid #e9e9e9;}.company-overview .company-info .info .content strong{padding-right:5px;color:#182642;}.company-overview .company-info .info .content p, .company-overview .company-info .info .content ul{font-size:14px;}.company-overview .company-info .info .content ul li{display:-webkit-box;display:-ms-flexbox;display:flex;}.company-overview .company-info .info .content ul li a{color:inherit;}.company-overview .company-info .info .content ul li span{margin-right:5px;font-size:16px;line-height:16px;}@media (min-width:1200px){.company-overview .company-info .info .content ul{-ms-flex-wrap:wrap;display:-webkit-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;}.company-overview .company-info .info .content ul li{margin-top:5px;padding-right:20px;}.company-overview .company-info .info .content ul li:last-child{padding-right:0;}}@media (min-width:1440px){.company-overview .company-info .info .content ul li{padding-right:30px;}}@media (min-width:576px){.company-overview .company-info .info{-ms-flex-wrap:wrap;display:-webkit-box;display:-ms-flexbox;display:flex;position:relative;flex-wrap:wrap;margin-top:10px;padding-top:27px;}.company-overview .company-info .info .img{-webkit-box-flex:0;-ms-flex:0 0 8.625rem;-webkit-box-align:start;-ms-flex-align:start;flex:0 0 8.625rem;align-items:flex-start;width:100%;max-width:8.625rem;}.company-overview .company-info .info .img .title-company{position:absolute;top:0;}.company-overview .company-info .info .content{-webkit-box-flex:0;-ms-flex:0 0 calc( 100% - 8.625rem);flex:0 0 calc( 100% - 8.625rem);width:100%;max-width:calc( 100% - 8.625rem);}}.company-overview .company-info:after{display:block;clear:both;content:"";}.company-overview .company-follow{-webkit-box-align:center;-ms-flex-align:center;-ms-flex-wrap:wrap;-webkit-box-pack:end;-ms-flex-pack:end;display:-webkit-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;margin-top:15px;}.company-overview .company-follow .follower-number{color:#287ab9;font-size:18px;}.company-overview .company-follow .btn-follow{padding-left:15px;}.company-overview .company-follow .btn-follow a{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;width:180px;height:35px;border-radius:5px;background-image:-webkit-gradient(linear, left top, right top, from(#2d7bb7), to(#1e9bd3));background-image:-o-linear-gradient(left, #2d7bb7 0%, #1e9bd3 100%);background-image:linear-gradient(to right, #2d7bb7 0%, #1e9bd3 100%);color:#fff;font-weight:700;text-decoration:none;text-transform:uppercase;}.company-overview .company-follow .btn-follow.icon-follow a{position:relative;background-image:-webkit-gradient(linear, left top, right top, from(#2d7bb7), to(#1e9bd3));background-image:-o-linear-gradient(left, #2d7bb7 0%, #1e9bd3 100%);background-image:linear-gradient(to right, #2d7bb7 0%, #1e9bd3 100%);}.company-overview .company-follow .btn-follow.icon-follow a:before{color:#ffffff;content:"Follow";opacity:1;}.company-overview .company-follow .btn-follow.icon-follow a span{display:none;}.company-overview .company-follow .btn-follow.icon-follow a em{display:none;}.company-overview .company-follow .btn-follow.icon-follow.followed a{position:relative;}.company-overview .company-follow .btn-follow.icon-follow.followed a:before{color:#ffffff;content:"Unfollow";opacity:0;}.company-overview .company-follow .btn-follow.icon-follow.followed a em{-webkit-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);display:block;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);font-size:25px;}.company-overview .company-follow .btn-follow.icon-follow.followed a:hover{background:#cacaca;}.company-overview .company-follow .btn-follow.icon-follow.followed a:hover:before{opacity:1;}.company-overview .company-follow .btn-follow.icon-follow.followed a:hover em{opacity:0;}.company-overview .company-follow .btn-join{padding-top:15px;padding-left:15px;}.company-overview .company-follow .btn-join a{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;height:35px;padding:0 15px;border-radius:5px;background:-webkit-gradient(linear, left top, right top, from(#86cb49), color-stop(#169b74), to(#86cb49));background:-o-linear-gradient(left, #86cb49, #169b74, #86cb49);background:linear-gradient(to right, #86cb49, #169b74, #86cb49);background-size:200% 100%;color:#fff;font-weight:700;text-decoration:none;text-transform:uppercase;}.company-overview .company-follow .btn-join a:hover{background-position:100% 0;text-decoration:none;}@media (min-width:576px){.company-overview .company-follow .btn-join{padding-top:0;}}@media (min-width:1025px){.company-overview .company-follow .btn-join{padding-top:15px;}}@media (min-width:1200px){.company-overview .company-follow .btn-join{padding-top:0;}}@media (max-width:1440px){.company-overview .company-follow .btn-follow a, .company-overview .company-follow .btn-join a{width:-webkit-max-content;width:-moz-max-content;width:max-content;padding:0 15px;font-size:14px !important;}.company-overview .company-follow .follower-number{font-size:14px;}}.company-overview .company-jobs-opening .row{margin-bottom:0;}.company-overview .company-jobs-opening .row>*{margin-bottom:0;}.company-overview .company-jobs-opening .job-item{padding:10px 0;border-bottom:1px solid #e5e5e5;}.company-overview .company-jobs-opening .job-item .figure{-webkit-box-shadow:none !important;padding:0;border:0;box-shadow:none !important;}.company-overview .company-jobs-opening .job-item .figcaption{padding:0;}.company-overview .company-jobs-opening .view-more{margin-top:30px;}.company-overview .company-jobs-opening .view-more a{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;width:240px;height:40px;margin:0 auto;border-radius:5px;background-image:-webkit-gradient(linear, left top, right top, from(#2d7bb7), to(#1e9bd3));background-image:-o-linear-gradient(left, #2d7bb7 0%, #1e9bd3 100%);background-image:linear-gradient(to right, #2d7bb7 0%, #1e9bd3 100%);color:#fff;font-weight:700;text-decoration:none;text-transform:uppercase;}.company-overview .company-content ul, .company-overview .company-content ol{padding-left:1rem;}.company-overview .company-content p{font-size:14px;}.company-overview .company-content p+p{margin-top:15px;}@media (min-width:1440px){.company-overview .company-content p{font-size:15px;}.company-overview .company-content p+p{margin-top:20px;}}.company-overview .company-photo .album{position:relative;}.company-overview .company-photo .album:before{-webkit-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);z-index:3;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);color:#fff;font-family:Material Design Icons;font-size:1.875rem;content:"\f2e9";pointer-events:none;}.company-overview .company-photo .album:after{z-index:2;position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0, 0, 0, 0.2);content:"";pointer-events:none;}.company-overview .company-photo .album a{display:block;position:relative;padding-top:63.829787234%;}.company-overview .company-photo .album a img{-o-object-fit:cover;position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;}.company-overview .company-photo .swiper-navigation{-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-box;display:-ms-flexbox;display:flex;justify-content:center;margin-top:30px;}.company-overview .company-photo .swiper-navigation .swiper-nav{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-transition:0.3s all;-o-transition:0.3s all;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;width:30px;height:30px;border:1px solid #e5e5e5;border-radius:50%;font-size:18px;cursor:pointer;transition:0.3s all;}.company-overview .company-photo .swiper-navigation .swiper-nav:hover{border:1px solid transparent;background:-webkit-gradient(linear, left top, right top, from(#2d7bb7), color-stop(#1e9bd3), to(#2d7bb7));background:-o-linear-gradient(left, #2d7bb7, #1e9bd3, #2d7bb7);background:linear-gradient(to right, #2d7bb7, #1e9bd3, #2d7bb7);color:#fff;}.company-overview .company-photo .swiper-navigation .swiper-nav+.swiper-nav{margin-left:10px;}.company-overview .company-photo .swiper-navigation .swiper-nav span{height:18px;}@media screen and (max-width:768px){.company-overview .company-introduction{-ms-flex-wrap:wrap;flex-wrap:wrap;}.company-overview .company-info{width:100%;}.company-overview .company-info .info .img .logo-company{width:80px;height:80px;padding:5px;}.company-overview .company-info .info .content{width:calc(100% - 80px);}.company-overview .company-follow{-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%;margin-top:10px;padding-left:0;}.company-overview .company-follow .btn-follow{margin:0;}.company-overview .company-follow .btn-follow a{width:120px;}.company-overview .company-follow .btn-follow.followed a{background:#f1f1f1;}.company-overview .company-follow .btn-join{padding-top:10px;}}@media screen and (max-width:576px){.company-overview .company-info .info .img{position:relative;float:none;}.company-overview .company-info .info .content{width:100%;padding-top:20px;padding-left:0;float:none;}.company-overview .company-info{position:relative;}.company-overview .company-info .title-company{-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);z-index:11;position:absolute;top:50%;right:0;width:calc( 100% - 90px);transform:translateY(-50%);}.company-overview .company-info .title-company a{width:100%;font-size:16px;}.company-overview .company-follow{-webkit-box-pack:start;-ms-flex-pack:start;-ms-flex-wrap:wrap;flex-wrap:wrap;justify-content:flex-start;padding-left:0;}.company-overview .company-follow>*{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;padding-left:0;}.company-overview .company-follow .btn-follow{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1;}.company-overview .company-follow .follower-number{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2;padding-top:10px;}.company-overview .company-follow .btn-join{-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3;padding-top:10px;}.company-overview .company-follow .btn-follow, .company-overview .company-follow .btn-join{padding-left:0;}}.company-overview .job-item .figure .title{display:-webkit-box;display:-ms-flexbox;display:flex;}.company-overview .job-item .figure .title a{-webkit-transition:0.4s ease-in-out all;-o-transition:0.4s ease-in-out all;transition:0.4s ease-in-out all;}.company-overview .job-item .figure .title .new{padding-left:5px;font-size:14px;font-weight:700;text-transform:uppercase;}.company-overview .job-item:hover .figure .title a{color:#f7a334;}.advanced-search-modal{width:620px;}.advanced-search-modal h3{color:#f79d25;font-size:18px;}.advanced-search-modal h3 span{color:#5d677a;}.advanced-search-modal h4{font-size:14px;font-weight:normal;}.advanced-search-modal .note{font-size:12px;}.advanced-search-modal .search-form{margin-top:20px;}.advanced-search-modal .search-form .note{margin-bottom:8px;}.advanced-search-modal .form-group+.form-group{margin-top:15px;}.advanced-search-modal .form-group label{display:block;margin-bottom:5px;}.advanced-search-modal .form-group input[type=text]{width:100%;height:40px;padding:0 15px;}.advanced-search-modal .form-group span{color:red;font-size:12px;font-style:italic;font-weight:400;}.advanced-search-modal .form-group.form-submit button{-webkit-transition:0.3s all;-o-transition:0.3s all;height:36px;padding:0 15px;border:0;background:#f79d25;color:#fff;font-size:14px;transition:0.3s all;}.advanced-search-modal .form-group.form-submit button:hover{background:#e18408;}.advanced-search-modal .form-group.form-select-chosen select{display:none;}.advanced-search-modal .form-group.form-select-chosen label{margin-bottom:5px;}.advanced-search-modal .form-group.form-select-chosen .chosen-container{width:100% !important;min-height:40px !important;}.advanced-search-modal .form-group.form-select-chosen .chosen-container .chosen-choices{height:100%;padding:5px;padding-left:0;border:none;border-bottom:1px solid #93bcdc;background-image:none;}.advanced-search-modal .form-group.form-select-chosen .chosen-container .chosen-choices .search-choice{-webkit-box-pack:center !important;-ms-flex-pack:center !important;-webkit-box-align:center !important;-ms-flex-align:center !important;display:-webkit-box !important;display:-ms-flexbox !important;display:flex !important;align-items:center !important;justify-content:center !important;height:26px !important;border:none !important;background:#ebf8ff !important;}.advanced-search-modal .form-group.form-select-chosen .chosen-container .chosen-choices .search-choice span{color:#333333;font-size:14px;font-style:normal;}.advanced-search-modal .form-group.form-select-chosen .chosen-container .chosen-choices .search-choice .search-choice-close{background:none !important;}.advanced-search-modal .form-group.form-select-chosen .chosen-container .chosen-choices .search-choice .search-choice-close:before{color:#5d677a;font-family:"Material Design Icons";font-size:11px;content:"\f156";}.advanced-search-modal .form-group.form-select-chosen .chosen-container .chosen-choices .search-choice .search-choice-close:hover:before{color:#fc0821;}.advanced-search-modal .form-group.form-select-chosen .chosen-container .chosen-choices .search-field input{font-family:"Roboto", sans-serif !important;}.advanced-search-modal .form-group.form-select-chosen .chosen-container .chosen-choices .search-field .chosen-search-input{color:#172642;font-size:16px;font-weight:700;}.advanced-search-modal .form-group.form-select-chosen .chosen-container .chosen-drop .chosen-results::-webkit-scrollbar{width:6px !important;}.advanced-search-modal .form-group.form-select-chosen .chosen-container .chosen-drop .chosen-results::-webkit-scrollbar-track{background:#eaeaea !important;}.advanced-search-modal .form-group.form-select-chosen .chosen-container .chosen-drop .chosen-results::-webkit-scrollbar-thumb{background:#7fcb42 !important;}.advanced-search-modal .form-group.form-select-chosen .chosen-container .chosen-drop .chosen-results::-webkit-scrollbar-thumb:hover{background:#7fcb42 !important;}.advanced-search-modal .form-group.form-select-chosen .chosen-container .chosen-drop .active-result{position:relative;padding-left:43px;color:#182642;}.advanced-search-modal .form-group.form-select-chosen .chosen-container .chosen-drop .active-result::after{position:absolute;top:2px;left:20px;color:#5d677a;font:normal normal normal 24px/1 Material Design Icons;font-size:18px;content:"\f131";}.advanced-search-modal .form-group.form-select-chosen .chosen-container .chosen-drop .active-result:hover{color:#ffffff;}.advanced-search-modal .form-group.form-select-chosen .chosen-container .chosen-drop .active-result:hover::after{color:#ffffff;}.advanced-search-modal .form-group.form-select-chosen .chosen-container .chosen-drop .active-result.highlighted{color:#ffffff;}.advanced-search-modal .form-group.form-select-chosen .chosen-container .chosen-drop .active-result.highlighted::after{color:#ffffff;}.advanced-search-modal .form-group.form-select-chosen .chosen-container .chosen-drop .result-selected{position:relative;padding-left:43px;color:#182642;}.advanced-search-modal .form-group.form-select-chosen .chosen-container .chosen-drop .result-selected::after{position:absolute;top:2px;left:20px;color:#287ab9;font:normal normal normal 24px/1 Material Design Icons;font-size:18px;content:"\f132";opacity:1;}.advanced-search-modal .form-group.form-select-chosen .chosen-container .chosen-drop .result-selected:hover{color:#182642;cursor:pointer;}.advanced-search-modal .form-group.form-select-chosen .chosen-container .chosen-drop .result-selected:hover::after{color:#287ab9;}.no-search .image{padding-top:20px;}.no-search .image figure{margin:0;text-align:center;}.no-search .image img{max-width:300px;}.no-search .image figcaption{padding-top:10px;color:#F7A334;font-size:18px;font-weight:600;}@media (min-width:1025px){.no-search .image{padding-bottom:25px;}.no-search .image figcaption{padding-top:15px;}}@media (min-width:1200px){.no-search .image{padding-bottom:35px;}}.no-search .job-search-suggestions{text-align:center;}.no-search .job-search-suggestions h3{margin-bottom:10px;color:#7CC74D;font-size:17px;font-weight:700;}.no-search .job-search-suggestions>*{margin-bottom:7px;line-height:1.3;}@media (min-width:1025px){.no-search .job-search-suggestions h3{margin-bottom:15px;}}.no-search .job-tags ul{text-align:center;}.no-search .apply-now-banner{display:none !important;}.no-jobs .image{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;padding-top:15px;}@media (min-width:1025px){.no-jobs .image{padding-top:150px;}.no-jobs .image img{min-width:300px;}}@media (min-width:1200px){.no-jobs .image{padding-top:150px;}.no-jobs .image img{min-width:500px;max-width:400px;}}.cb-job-hunt{border-bottom:1px solid #e9e9e9;}.cb-job-hunt .cb-title h2{margin-bottom:10px;color:#00b72f;}.cb-job-hunt .cb-title a:hover{text-decoration:none;}.cb-job-hunt .cb-description{margin-bottom:20px;color:#5d677a;font-size:16px;font-weight:400;text-align:center;}.cb-job-hunt .cb-description bold{color:#287ab9;font-size:16px;font-weight:700;}@media (min-width:1025px){.cb-job-hunt .cb-description{margin-bottom:27px;}}.cb-job-hunt .company-introduction{-webkit-box-pack:justify;-ms-flex-pack:justify;display:-webkit-box;display:-ms-flexbox;display:flex;justify-content:space-between;padding:20px;background:#f1f9fd;}.cb-job-hunt .company-info{width:100%;padding-right:10px;}.cb-job-hunt .company-info .name{color:#182642;font-size:18px;font-weight:700;text-transform:uppercase;}.cb-job-hunt .company-info .name a{color:#182642;font-size:18px;font-weight:700;text-transform:uppercase;}.cb-job-hunt .company-info .name a:hover{text-decoration:none;}.cb-job-hunt .company-info .info .img{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;width:10rem;height:10rem;padding:15px;float:left;border-radius:4px;background:#fff;}.cb-job-hunt .company-info .info .content{width:calc(100% - 160px);padding-left:36px;float:left;}.cb-job-hunt .company-info .info .content .name{margin-bottom:2px;font-size:18px;font-weight:700;}.cb-job-hunt .company-info .info .content hr{margin:10px 0;margin-top:20px;border:0;border-top:1px solid #e9e9e9;}.cb-job-hunt .company-info .info .content strong{color:#182642;}.cb-job-hunt .company-info .info .content p, .cb-job-hunt .company-info .info .content ul{font-size:14px;}.cb-job-hunt .company-info .info .content ul li{-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;}.cb-job-hunt .company-info .info .content ul li a{color:inherit;}.cb-job-hunt .company-info .info .content ul li span{margin-right:5px;font-size:16px;line-height:16px;}.cb-job-hunt .company-info:after{display:block;clear:both;content:"";}.cb-job-hunt .company-follow{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:start;-ms-flex-pack:start;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:flex-start;}.cb-job-hunt .company-follow .follower-number{color:#287ab9;font-size:18px;}.cb-job-hunt .company-follow .btn-follow{margin-top:10px;margin-right:24px;}.cb-job-hunt .company-follow .btn-follow a{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;width:180px;height:40px;border-radius:5px;background-image:-webkit-gradient(linear, left top, right top, from(#2d7bb7), to(#1e9bd3));background-image:-o-linear-gradient(left, #2d7bb7 0%, #1e9bd3 100%);background-image:linear-gradient(to right, #2d7bb7 0%, #1e9bd3 100%);color:#fff;font-weight:700;text-decoration:none;text-transform:uppercase;}.cb-job-hunt .company-follow .btn-follow.icon-follow a{position:relative;background-image:-webkit-gradient(linear, left top, right top, from(#2d7bb7), to(#1e9bd3));background-image:-o-linear-gradient(left, #2d7bb7 0%, #1e9bd3 100%);background-image:linear-gradient(to right, #2d7bb7 0%, #1e9bd3 100%);}.cb-job-hunt .company-follow .btn-follow.icon-follow a:before{color:#ffffff;content:"Follow";opacity:1;}.cb-job-hunt .company-follow .btn-follow.icon-follow a span{display:none;}.cb-job-hunt .company-follow .btn-follow.icon-follow a em{display:none;}.cb-job-hunt .company-follow .btn-follow.icon-follow.followed a{position:relative;}.cb-job-hunt .company-follow .btn-follow.icon-follow.followed a:before{color:#ffffff;content:"Unfollow";opacity:0;}.cb-job-hunt .company-follow .btn-follow.icon-follow.followed a em{-webkit-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);display:block;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);font-size:25px;}.cb-job-hunt .company-follow .btn-follow.icon-follow.followed a:hover{background:#cacaca;}.cb-job-hunt .company-follow .btn-follow.icon-follow.followed a:hover:before{opacity:1;}.cb-job-hunt .company-follow .btn-follow.icon-follow.followed a:hover em{opacity:0;}@media screen and (max-width:768px){.cb-job-hunt .company-introduction{-ms-flex-wrap:wrap;flex-wrap:wrap;}.cb-job-hunt .company-info{width:100%;}.cb-job-hunt .company-info .info .img{width:80px;height:80px;padding:5px;}.cb-job-hunt .company-info .info .content{width:calc(100% - 80px);}.cb-job-hunt .company-follow{-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%;margin-top:10px;}.cb-job-hunt .company-follow .btn-follow{margin:0;margin-right:24px;}.cb-job-hunt .company-follow .btn-follow a{width:120px;}}@media screen and (max-width:576px){.cb-job-hunt .company-info .info{position:relative;}.cb-job-hunt .company-info .info .img{float:none;}.cb-job-hunt .company-info .info .content{width:100%;padding-top:20px;padding-left:0;float:none;}.cb-job-hunt hr{display:none;}.cb-job-hunt .company-follow{-ms-flex-wrap:wrap;display:-webkit-box;display:-ms-flexbox;display:flex;position:absolute;top:0;right:-15px;flex-wrap:wrap;width:150px;margin-top:0;padding-left:0;pointer-events:none;}.cb-job-hunt .company-follow .btn-follow{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2;}.cb-job-hunt .company-follow .follower-number{-webkit-box-ordinal-group:2;-ms-flex-order:1;-webkit-box-pack:end;-ms-flex-pack:end;display:-webkit-box;display:-ms-flexbox;display:flex;justify-content:flex-end;order:1;}.cb-job-hunt .company-follow .btn-follow, .cb-job-hunt .company-follow .follower-number{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;margin-right:0;margin-bottom:10px;pointer-events:auto;}.cb-job-hunt .company-follow .btn-follow a, .cb-job-hunt .company-follow .follower-number a{margin-right:0;margin-left:auto;}}.cb-recommended-jobs-hunt{border-bottom:1px solid #e9e9e9;}.cb-recommended-jobs-hunt .recommended-jobs .row>*{margin-bottom:0;}.cb-recommended-jobs-hunt .job-item{border-bottom:1px solid #e9e9e9;}.cb-recommended-jobs-hunt .job-item .figure{border:none;}.cb-recommended-jobs-hunt .job-item .figure .caption .salary{color:#00b72f;}.cb-recommended-jobs-hunt .job-item .figure .caption .salary em{width:15px;text-align:center;}.cb-recommended-jobs-hunt .job-item .figure .caption .location{display:-webkit-box;display:-ms-flexbox;display:flex;}.cb-recommended-jobs-hunt .job-item .figure .caption .location em{width:15px;}@media (max-width:576px){.cb-recommended-jobs-hunt .job-item .figure .title{padding-right:65px;}}.cb-recommended-jobs-hunt .job-item .already-icon{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;max-width:92px;height:16px;margin-top:2px;border-top-right-radius:4px;border-bottom-left-radius:4px;background:#287ab9;}.cb-recommended-jobs-hunt .job-item .already-icon span{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;color:#ffffff;font-size:12px;font-weight:700;}.cb-recommended-jobs-hunt .job-item .apply-now{color:#287ab9;font-size:16px;font-weight:400;}.cb-recommended-jobs-hunt .cus-col:last-child .job-item{border-bottom:none;}@media (min-width:576px){.cb-recommended-jobs-hunt .cus-col:last-child .job-item{border-bottom:1px solid #e9e9e9;}}@media (min-width:1025px){.cb-recommended-jobs-hunt .cus-col{padding:0 45px;}.cb-recommended-jobs-hunt .job-item .figure{border-radius:0;}.cb-recommended-jobs-hunt .job-item .figure .top-icon{top:10px;right:10px;}.cb-recommended-jobs-hunt .job-item .figure .figcaption{padding-left:20px;}.cb-recommended-jobs-hunt .job-item .figure:hover .figcaption .title a{text-decoration:none;}.cb-recommended-jobs-hunt .job-item .apply-now:hover{color:#fb9104;text-decoration:underline;}}@media (min-width:1200px){.cb-recommended-jobs-hunt{padding-bottom:90px;}}@media (min-width:1450px){.cb-recommended-jobs-hunt .cus-row{margin:0 -45px;}}.search-result-list-detail-page .job-item .figure:hover{-webkit-box-shadow:none;box-shadow:none;}.search-result-list-detail-page .job-item .figure .title a:hover{color:#f7a334;}.search-result-list-detail-page .job-item .figure .caption .salary em{padding-right:5px;padding-left:3px;}.search-result-list-detail-page .job-item .figure .caption .location{display:-webkit-box;display:-ms-flexbox;display:flex;}.search-result-list-detail-page .job-item .figure .caption .location em{padding-right:2px;line-height:1.5;}.search-result-list-detail{padding:40px 0;}.search-result-list-detail .side-wrapper{padding-left:1.875rem;}.search-result-list-detail .side-wrapper .banner-ad{margin-bottom:20px;}@media (max-width:576px){.search-result-list-detail .side-wrapper{-ms-flex-wrap:wrap;display:-webkit-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;}.search-result-list-detail .side-wrapper .banner-ad, .search-result-list-detail .side-wrapper .similar-jobs, .search-result-list-detail .side-wrapper .jobs-side-list{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;}.search-result-list-detail .side-wrapper .banner-ad{-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3;margin-bottom:0;}}.search-result-list-detail .job-item .figure .image{padding:0;}.search-result-list-detail .job-item .figure .image a{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;width:100%;height:100%;padding:5px;}.search-result-list-detail .job-item .figure .bottom-right-icon{right:10px;}.search-result-list-detail .job-item .figure .figcaption .caption .location{display:-webkit-box;display:-ms-flexbox;display:flex;}.search-result-list-detail .job-item .figure .figcaption .caption .location em{padding-right:2px;line-height:1.5;}.search-result-list-detail .similar-jobs{margin-bottom:10px;}.search-result-list-detail .similar-jobs p{color:#5d677a;font-size:15px;font-weight:700;text-transform:uppercase;}@media (min-width:1025px){.search-result-list-detail .similar-jobs p{font-size:15px;font-weight:700;text-transform:uppercase;}}.search-result-list-detail .apply-now-banner{height:360px;background-repeat:no-repeat;background-size:cover;}.search-result-list-detail .job-result-nav{margin-top:0;}@media (max-width:1440px){.search-result-list-detail .job-result-nav{margin-bottom:15px;}}@media (max-width:576px){.search-result-list-detail .job-result-nav{margin-bottom:20px;}}@media (max-width:1024px){.search-result-list-detail .feedback-btn{display:none !important;}}@media (max-width:800px){.search-result-list-detail .feedback-btn{display:none;}}@media (max-width:1023px){.search-result-list-detail .side-wrapper{padding-left:0;}}@media (max-width:800px){.search-result-list-detail .side-wrapper .banner-ad{display:none;}}@media (max-width:599px){.search-result-list-detail .side-wrapper .banner-ad{display:block;}}@media (min-width:1025px){.search-result-list-detail .apply-now-banner .apply-now-btn a{width:390px;}}.search-result-list-detail .jobs-side-list{max-height:100%;padding-right:0;overflow-y:hidden;}.search-result-list-detail .jobs-side-list .job-item .figure:hover{-webkit-box-shadow:none;box-shadow:none;}.search-result-list-detail .jobs-side-list .job-item .figure:hover .title a{color:#f7a334;}.search-result-list-detail .cb-recommended-jobs-hunt{border-bottom:none;}.search-result-list-detail .cb-recommended-jobs-hunt{padding-bottom:40px;}.search-result-list-detail .apply-form-success-image{padding:0;}.search-result-list-detail .apply-form-success-image .image img{max-width:100%;height:auto;}.page-heading-tool .filters-wrapper .switch-group{margin-top:15px;}@keyframes opacity{0%{opacity:0;}90%{opacity:0;}100%{opacity:1;}}@media (min-width:1025px){.search-result-list-detail .cb-recommended-jobs-hunt .cus-row{margin:0 -15px;}.search-result-list-detail .cb-recommended-jobs-hunt .cus-col{padding:0 15px;}.search-result-list-detail .job-item .figure:hover .caption .company-name{display:block;}}@media (min-width:1024px){.search-result-list-detail .col-custom-xxl-9{-webkit-box-flex:0;-ms-flex:0 0 calc(100% - 275px);flex:0 0 calc(100% - 275px);max-width:calc(100% - 275px);}.search-result-list-detail .col-custom-xxl-3{-webkit-box-flex:0;-ms-flex:0 0 275px;flex:0 0 275px;max-width:275px;}.filters-wrapper .col-lg-2{-ms-flex:0 0 20%;-webkit-box-flex:0;flex:0 0 20%;max-width:20%;}}@media (max-width:576px){.search-result-list-detail .job-detail-content .job-detail-bottom{z-index:111;position:sticky;position:-webkit-sticky;bottom:2px;left:0;width:100%;margin-top:0;}.search-result-list-detail .job-detail-content .job-detail-bottom:after{width:3px;}.search-result-list-detail .job-detail-content .job-detail-bottom .job-detail-bottom-wrapper{margin-top:0;}}@media (max-width:768px){.search-result-list-detail .job-detail-content .job-tags{margin-top:0;}}.search-result-list-detail .mb-15{margin-bottom:15px;}.search-result-list-detail .job-detail-bottom-banner img{width:100%;}.search-result-list-detail .job-detail-content .job-detail-bottom .apply-now-content{-ms-flex-wrap:wrap;flex-wrap:wrap;}.chat-with-us{bottom:75px;}@media (max-width:1024px){.search-result-list-detail .apply-now-banner{height:100% !important;}}.login-modal{width:100%;max-width:730px;}.is-browser-IE .job-item .figure .image img{width:100%;}.is-browser-IE .job-detail-content .salary-range .square-real{-webkit-box-flex:0;-ms-flex:0 0 80%;flex:0 0 80%;}.is-browser-IE .job-detail-content .salary-range .square-min, .is-browser-IE .job-detail-content .salary-range .square-max{-webkit-box-flex:0;-ms-flex:0 0 10%;flex:0 0 10%;}.is-browser-IE .job-detail-content .salary-range .salary-of-you .text{width:100px;}.is-browser-IE .job-detail-content .salary-range .rectangle-color .value-point-popular .value-text-medium{top:auto;}.is-browser-IE .job-detail-content .job-detail-bottom .job-desc .save-job .toolip{width:120px;}.is-browser-IE .job-detail-content .job-detail-bottom .job-detail-bottom-wrapper{border-right:1px solid #86cb49;}.is-browser-IE .maps-tooltip .image img{width:100%;}.is-browser-IE .login-modal .modal-title{padding:15px 30px;}.edit-multiselect button.ui-multiselect{height:34px;padding:6px 12px;font-size:14px;border:1px solid #ccc;border-radius:4px;background:#fff;}.edit-multiselect .ui-multiselect-open .ui-icon{background-image:url("https://static.careerbuilder.vn/themes/careerbuilder/img/sl.png");width:8px;height:5px;background-position:0 0;margin:0 -2px 0 0;display:inline-block;z-index:1111;position:relative;top:-2px;}.edit-multiselect .ui-multiselect-menu{top:62px!important;left:15px!important;}.ui-multiselect-menu{z-index:1111;padding:0;}.ui-multiselect-header{padding:0;margin-bottom:0;}.ui-multiselect-checkboxes{width:100%;background:#fff;padding:3px;}.ui-multiselect-checkboxes li label span{margin-left:5px;}.ui-multiselect-header ul li:first-child{color:#fff;font-size:12px;padding:3px;}.ui-multiselect-header .ui-helper-reset{overflow:hidden;background:#009b74!important;}.ui-widget-content{border:1px solid #009b74;}.ui-multiselect-close .ui-icon-circle-close{background-image:url("https://static.careerbuilder.vn/themes/careerbuilder/images/ui-icons_ffffff_256x240.png");width:16px;height:16px;background-position:-32px -192px;position:relative;top:2px;right:2px;}@media (max-width:1023px){.edit-multiselect .ui-multiselect-menu{top:60px!important;}}
-
-</style>
-<style>/*common-job-detail.css*/
-#job-detail-template .search-result{padding-top:0}.search-result-list-detail{padding-top:10px}.apply-now-banner, .search-result-list-detail .apply-now-banner{height:290px}.apply-now-banner.nobanner{height:auto;padding-bottom:0}.apply-now-banner.nobanner .apply-now-content{padding:15px;background-color:#FFF;border:1px solid #E9E9E9;border-radius:5px;border-top:4px solid #009B74;margin-bottom:0;color:#5D677A;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-box-shadow:0 2px 9px 0 rgba(46,46,46,0.15);-moz-box-shadow:0 2px 9px 0 rgba(46,46,46,0.15);box-shadow:0 2px 9px 0 rgba(46,46,46,0.15)}.apply-now-content{padding:15px 30px}.apply-now-content .job-desc .title{font-size:1rem}.apply-now-content .job-desc .employer{font-size:14px}.job-detail-bottom .apply-now-content{padding:15px}.job-detail-bottom .job-desc, .job-detail-bottom .job-desc > a{display:flex;align-items:center;}.job-detail-bottom .job-desc > a{color:inherit;font-size:14px;margin-right:20px}.job-detail-bottom .job-desc > a i{padding-right:8px;line-height:1.5;font-size:20px;}.job-detail-bottom .job-desc > a.saved{color:#fb9104}.job-detail-bottom .apply-now-right .apply-now-btn a{height:40px}.job-detail-content .detail-box .map p a{display:inline-block;}.job-detail-content .job-detail-bottom{clear:both;position:sticky;bottom:0;z-index:111;}.job-detail-content .share-this-job{margin-top:20px}.content_fck{line-height:1.5!important;font-size:16px!important;word-wrap:break-word}.content_fck ul{list-style:inherit!important}.content_fck ul li{list-style:disc}.content_fck ul li, .content_fck ol li{padding-bottom:5px!important}.content_fck ul, .content_fck ol, .job_content .content_fck ul, .job_content .content_fck ol{padding-left:26px!important}.job-tags, .job-detail-content .share-this-job{float:left;width:100%;margin-bottom:30px;margin-top:0}.job-tags h2{margin-bottom:10px;font-size:15px;color:#172642;text-transform:uppercase}.recommended-jobs-template{float:left;width:100%;margin-bottom:30px;}.ViewRecommendJob{float:left;width:100%;margin-bottom:15px;}@media screen and (max-width:576px){.recommended-jobs-template{margin-bottom:25px;}}.recommended-jobs-template .cb-section{padding:0}.recommended-jobs-template .cb-title.cb-title-center{text-align:left}.recommended-jobs-template .cb-title h2, .ViewRecommendJob h2{font-size:15px;color:#172642;margin-bottom:10px;text-transform:uppercase;}.ViewRecommendJob{font-size:14px;margin-bottom:40px}.ViewRecommendJob ul li{padding:5px 0;border-bottom:1px dotted #ebeaea}.photo-jobdetail{float:left;width:100%;position:relative}.photo-jobdetail .company-heading-title{color:#172642;font-size:15px;text-transform:uppercase;padding-bottom:10px}.photo-jobdetail .album{position:relative}.photo-jobdetail .album:before{z-index:3;position:absolute;top:50%;left:50%;color:#fff;font-family:Material Design Icons;font-size:1.875rem;content:"\f2e9";transform:translate(-50%, -50%);-webkit-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);pointer-events:none}.photo-jobdetail .album:after{z-index:2;position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0, 0, 0, 0.2);content:"";pointer-events:none}.photo-jobdetail .album a{display:block;position:relative;padding-top:63.829787234%}.photo-jobdetail .album a img{-o-object-fit:cover;position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover}.photo-jobdetail .album.video:before{content:"\f40d"}.photo-jobdetail .swiper-navigation{justify-content:center;z-index:11;position:absolute;margin-top:0}.photo-jobdetail .swiper-navigation .swiper-nav{width:30px;height:30px;border:1px solid #e5e5e5;font-size:18px;text-align:center;border-radius:50%;-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-transition:0.3s all;-o-transition:0.3s all;display:-webkit-box;display:-ms-flexbox;display:inline-block;align-items:center;justify-content:center;cursor:pointer;transition:0.3s all;}.photo-jobdetail .swiper-navigation .swiper-nav:hover{color:#fff;border:1px solid transparent;background:-webkit-gradient(linear, left top, right top, from(#2d7bb7), color-stop(#1e9bd3), to(#2d7bb7));background:-o-linear-gradient(left, #2d7bb7, #1e9bd3, #2d7bb7);background:linear-gradient(to right, #2d7bb7, #1e9bd3, #2d7bb7);}.photo-jobdetail .swiper-navigation .swiper-nav + .swiper-nav{margin-left:5px}.photo-jobdetail .swiper-navigation .swiper-nav span{height:18px}@media (max-width:1200px){.job-detail-bottom .job-desc > a > span{display:none;}}@media (max-width:576px){.job-detail-bottom .job-desc > a i{font-size:14px;}.apply-now-banner .apply-now-content{flex-direction:column;}.apply-now-banner .apply-now-content .apply-now-btn{margin-top:10px;}}@media (max-width:350px){.job-detail-bottom .job-desc > a{margin-right:10px;}.job-detail-bottom .job-desc > a:last-child{margin-right:0;}.job-detail-bottom .job-desc > a:last-child i{padding-right:0;}.job-detail-bottom .apply-now-btn a{font-size:12px;height:30px!important;padding:0 12px;}}@media (max-width:300px){.job-detail-bottom .job-desc > a{margin-right:5px;}}.info-company .text-job a, .text-break-all{word-break:break-all;}.apply-now-banner .image{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;width:100%;height:100%;}.apply-now-banner .image img{-o-object-fit:cover;width:100%;height:100%;object-fit:cover;}.apply-now-banner .apply-now-content{position:absolute;bottom:0;left:0;z-index:1;}.info-company .text-job a{word-break:break-all;}.apply-now-banner.nobanner .apply-now-content{position:static!important;width:100%!important;margin-left:0!important;margin-right:0!important;}.photo-jobdetail .swiper-navigation{display:flex;align-content:center;}.photo-jobdetail .swiper-nav{outline:none;}.photo-jobdetail .swiper-nav.swiper-button-disabled, .photo-jobdetail .swiper-nav.swiper-button-disabled:hover, .photo-jobdetail .swiper-nav.swiper-button-disabled:focus{background:#dcdcdc!important;border:1px solid #e5e5e5!important;cursor:auto!important;outline:none;}.photo-jobdetail .swiper-nav.swiper-button-disabled:hover{color:#5d677a;}.photo-jobdetail .swiper-nav.swiper-button-disabled span, .photo-jobdetail .swiper-nav.swiper-button-disabled:hover span{display:inline-block!important;}@media (max-width:1024px){.apply-now-banner{height:auto !important;}}@media (max-width:767px){.template-201 .left-col, .template-201 .right-col{width:100%!important;}}@media (max-width:360px){.job-detail-content .detail-row .welfare-list li{width:100%!important;}}.ifm-chart{width:100%;height:250px;border:0;}@media (max-width:1199px){.ifm-chart{height:430px}}@media (max-width:1023px){.ifm-chart{height:250px}}@media screen and (min-device-width:769px) and (max-device-width:799px){.ifm-chart{height:430px}}@media (max-width:768px){.ifm-chart{height:430px}}@media (max-width:496px){.ifm-chart{height:430px}}@media (max-width:375px){.vnsalary-widget{display:none}}
-
-</style>
-    	<section class="find-jobs-form">
-    <div class="container">
-        <div class="main-form">
-            <div class="close-input-filter"><em class="lnr lnr-cross"></em></div>
-            <form>
-                <div class="advanced-search">
-                    <div class="form-group form-keyword">
-                        <input type="search" class="keyword" name="keyword" id="keyword" placeholder="Chức danh, Kỹ năng, Tên công ty">
-                        <div class="cleartext"><em class="mdi mdi-close-circle"></em></div>
+    </section>
+    <div class="login-modal" style="display: none">
+        <div class="modal-title">
+            <p>Vui lòng đăng nhập để thực hiện chức năng này</p>
+        </div>
+        <div class="modal-body">
+            <form method="POST" id="popup_login_form" action="https://careerbuilder.vn/vi/jobseekers/member/login" autocomplete="off">
+                <div class="row">
+                    <div class="form-group col-12">
+                        <input type="text" id="username" name="username" placeholder="Username / Email" autocomplete="off">
                     </div>
-                    <div class="form-group form-select-chosen">
-                        <select id="industry" name="industry" class="chosen-select chosen-select-max-three" data-placeholder="Tất cả ngành nghề" multiple>
-                            <option value="">Chọn ngành nghề</option>
-                            <option value="an-ninh-bao-ve_51">An Ninh / Bảo Vệ</option>
-                            <option value="an-toan-lao-dong_58">An toàn lao động</option>
-                            <option value="ban-hang-kinh-doanh_31">Bán hàng / Kinh doanh</option>
-                            <option value="ban-le-ban-si_30">Bán lẻ / Bán sỉ</option>
-                            <option value="bao-hiem_23">Bảo hiểm</option>
-                            <option value="bat-dong-san_28">Bất động sản</option>
-                            <option value="bien-phien-dich_38">Biên phiên dịch</option>
-                            <option value="buu-chinh-vien-thong_32">Bưu chính viễn thông</option>
-                            <option value="chan-nuoi-thu-y_52">Chăn nuôi / Thú y</option>
-                            <option value="chung-khoan_46">Chứng khoán</option>
-                            <option value="cntt-phan-cung-mang_63">CNTT - Phần cứng / Mạng</option>
-                            <option value="cntt-phan-mem_1">CNTT - Phần mềm</option>
-                            <option value="cong-nghe-sinh-hoc_69">Công nghệ sinh học</option>
-                            <option value="cong-nghe-thuc-pham-dinh-duong_70">Công nghệ thực phẩm / Dinh dưỡng</option>
-                            <option value="co-khi-o-to-tu-dong-hoa_14">Cơ khí / Ô tô / Tự động hóa</option>
-                            <option value="dau-khi_26">Dầu khí</option>
-                            <option value="det-may-da-giay-thoi-trang_39">Dệt may / Da giày / Thời trang</option>
-                            <option value="dich-vu-khach-hang_12">Dịch vụ khách hàng</option>
-                            <option value="du-lich_34">Du lịch</option>
-                            <option value="duoc-pham_7">Dược phẩm</option>
-                            <option value="dien-dien-tu-dien-lanh_48">Điện / Điện tử / Điện lạnh</option>
-                            <option value="do-go_35">Đồ gỗ</option>
-                            <option value="giai-tri_15">Giải trí</option>
-                            <option value="giao-duc-dao-tao_13">Giáo dục / Đào tạo</option>
-                            <option value="hang-gia-dung-cham-soc-ca-nhan_10">Hàng gia dụng / Chăm sóc cá nhân</option>
-                            <option value="hang-hai_61">Hàng hải</option>
-                            <option value="hang-khong_60">Hàng không</option>
-                            <option value="hanh-chinh-thu-ky_3">Hành chính / Thư ký</option>
-                            <option value="hoa-hoc_41">Hóa học</option>
-                            <option value="in-an-xuat-ban_64">In ấn / Xuất bản</option>
-                            <option value="ke-toan-kiem-toan_2">Kế toán / Kiểm toán</option>
-                            <option value="khoang-san_65">Khoáng sản</option>
-                            <option value="kien-truc_6">Kiến trúc</option>
-                            <option value="lao-dong-pho-thong_44">Lao động phổ thông</option>
-                            <option value="lam-nghiep_50">Lâm Nghiệp</option>
-                            <option value="luat-phap-ly_24">Luật / Pháp lý</option>
-                            <option value="moi-truong_16">Môi trường</option>
-                            <option value="moi-tot-nghiep-thuc-tap_45">Mới tốt nghiệp / Thực tập</option>
-                            <option value="my-thuat-nghe-thuat-thiet-ke_11">Mỹ thuật / Nghệ thuật / Thiết kế</option>
-                            <option value="ngan-hang_19">Ngân hàng</option>
-                            <option value="nha-hang-khach-san_29">Nhà hàng / Khách sạn</option>
-                            <option value="nhan-su_22">Nhân sự</option>
-                            <option value="noi-ngoai-that_47">Nội ngoại thất</option>
-                            <option value="nong-nghiep_5">Nông nghiệp</option>
-                            <option value="phi-chinh-phu-phi-loi-nhuan_20">Phi chính phủ / Phi lợi nhuận</option>
-                            <option value="quan-ly-chat-luong-qa-qc_42">Quản lý chất lượng (QA/QC)</option>
-                            <option value="quan-ly-dieu-hanh_17">Quản lý điều hành</option>
-                            <option value="quang-cao-doi-ngoai-truyen-thong_67">Quảng cáo / Đối ngoại / Truyền Thông</option>
-                            <option value="san-xuat-van-hanh-san-xuat_25">Sản xuất / Vận hành sản xuất</option>
-                            <option value="tai-chinh-dau-tu_59">Tài chính / Đầu tư</option>
-                            <option value="thong-ke_36">Thống kê</option>
-                            <option value="thu-mua-vat-tu_43">Thu mua / Vật tư</option>
-                            <option value="thuy-loi_53">Thủy lợi</option>
-                            <option value="thuy-san-hai-san_49">Thủy sản / Hải sản</option>
-                            <option value="thu-vien_57">Thư viện</option>
-                            <option value="thuc-pham-do-uong_21">Thực phẩm &amp; Đồ uống</option>
-                            <option value="tiep-thi-marketing_4">Tiếp thị / Marketing</option>
-                            <option value="tiep-thi-truc-tuyen_37">Tiếp thị trực tuyến</option>
-                            <option value="to-chuc-su-kien_68">Tổ chức sự kiện</option>
-                            <option value="trac-dia-dia-chat_54">Trắc địa / Địa Chất</option>
-                            <option value="truyen-hinh-bao-chi-bien-tap_66">Truyền hình / Báo chí / Biên tập</option>
-                            <option value="tu-van_9">Tư vấn</option>
-                            <option value="van-chuyen-giao-nhan-kho-van_33">Vận chuyển / Giao nhận /  Kho vận</option>
-                            <option value="xay-dung_8">Xây dựng</option>
-                            <option value="xuat-nhap-khau_18">Xuất nhập khẩu</option>
-                            <option value="y-te-cham-soc-suc-khoe_56">Y tế / Chăm sóc sức khỏe</option>
-                            <option value="bao-tri-sua-chua_71">Bảo trì / Sửa chữa</option>
-                            <option value="nganh-khac_27">Ngành khác</option>
-                        </select>
+                    <div class="form-group col-8">
+                        <input type="password" name="password" id="password"  placeholder="Mật khẩu" autocomplete="off">
                     </div>
-                    <div class="form-group form-select-chosen">
-                        <select id="location" name="location" class="chosen-select chosen-select-max-three" data-placeholder="Tất cả địa điểm" multiple>
-                            <option value="">Chọn địa điểm</option>
-                            <option value="ha-noi_4">Hà Nội</option>
-                            <option value="ho-chi-minh_8">Hồ Chí Minh</option>
-                            <option value="an-giang_76">An Giang</option>
-                            <option value="ba-ria-vung-tau_64">Bà Rịa - Vũng Tàu</option>
-                            <option value="bac-lieu_781">Bạc Liêu</option>
-                            <option value="bac-can_281">Bắc Cạn</option>
-                            <option value="bac-giang_240">Bắc Giang</option>
-                            <option value="bac-ninh_241">Bắc Ninh</option>
-                            <option value="ben-tre_75">Bến Tre</option>
-                            <option value="binh-duong_650">Bình Dương</option>
-                            <option value="binh-dinh_56">Bình Định</option>
-                            <option value="binh-phuoc_651">Bình Phước</option>
-                            <option value="binh-thuan_62">Bình Thuận</option>
-                            <option value="ca-mau_78">Cà Mau</option>
-                            <option value="cao-bang_26">Cao Bằng</option>
-                            <option value="can-tho_71">Cần Thơ</option>
-                            <option value="dak-lak_50">Dak Lak</option>
-                            <option value="dak-nong_1042">Dak Nông</option>
-                            <option value="da-nang_511">Đà Nẵng</option>
-                            <option value="dien-bien_900">Điện Biên</option>
-                            <option value="dong-bang-song-cuu-long_1064">Đồng Bằng Sông Cửu Long</option>
-                            <option value="dong-nai_61">Đồng Nai</option>
-                            <option value="dong-thap_67">Đồng Tháp</option>
-                            <option value="gia-lai_59">Gia Lai</option>
-                            <option value="ha-giang_19">Hà Giang</option>
-                            <option value="ha-nam_351">Hà Nam</option>
-                            <option value="ha-tinh_39">Hà Tĩnh</option>
-                            <option value="hai-duong_320">Hải Dương</option>
-                            <option value="hai-phong_31">Hải Phòng</option>
-                            <option value="hau-giang_780">Hậu Giang</option>
-                            <option value="hoa-binh_18">Hòa Bình</option>
-                            <option value="hung-yen_321">Hưng Yên</option>
-                            <option value="khac_901">Khác</option>
-                            <option value="khanh-hoa_58">Khánh Hòa</option>
-                            <option value="kien-giang_77">Kiên Giang</option>
-                            <option value="kon-tum_60">Kon Tum</option>
-                            <option value="kv-bac-trung-bo_1071">KV Bắc Trung Bộ</option>
-                            <option value="kv-dong-nam-bo_1069">KV Đông Nam Bộ</option>
-                            <option value="kv-nam-trung-bo_1070">KV Nam Trung Bộ</option>
-                            <option value="kv-tay-nguyen_1072">KV Tây Nguyên</option>
-                            <option value="lai-chau_23">Lai Châu</option>
-                            <option value="lang-son_25">Lạng Sơn</option>
-                            <option value="lao-cai_20">Lào Cai</option>
-                            <option value="lam-dong_63">Lâm Đồng</option>
-                            <option value="long-an_72">Long An</option>
-                            <option value="nam-dinh_350">Nam Định</option>
-                            <option value="nghe-an_38">Nghệ An</option>
-                            <option value="ninh-binh_30">Ninh Bình</option>
-                            <option value="ninh-thuan_68">Ninh Thuận</option>
-                            <option value="phu-tho_210">Phú Thọ</option>
-                            <option value="phu-yen_57">Phú Yên</option>
-                            <option value="quang-binh_52">Quảng Bình</option>
-                            <option value="quang-nam_510">Quảng Nam</option>
-                            <option value="quang-ngai_55">Quảng Ngãi</option>
-                            <option value="quang-ninh_33">Quảng Ninh</option>
-                            <option value="quang-tri_53">Quảng Trị</option>
-                            <option value="soc-trang_79">Sóc Trăng</option>
-                            <option value="son-la_22">Sơn La</option>
-                            <option value="tay-ninh_66">Tây Ninh</option>
-                            <option value="thai-binh_36">Thái Bình</option>
-                            <option value="thai-nguyen_280">Thái Nguyên</option>
-                            <option value="thanh-hoa_37">Thanh Hóa</option>
-                            <option value="thua-thien-hue_54">Thừa Thiên- Huế</option>
-                            <option value="tien-giang_73">Tiền Giang</option>
-                            <option value="toan-quoc_1065">Toàn quốc</option>
-                            <option value="tra-vinh_74">Trà Vinh</option>
-                            <option value="tuyen-quang_27">Tuyên Quang</option>
-                            <option value="vinh-long_70">Vĩnh Long</option>
-                            <option value="vinh-phuc_211">Vĩnh Phúc</option>
-                            <option value="yen-bai_29">Yên Bái</option>
-                            <option value="banteay-meanchey_1098">Banteay Meanchey</option>
-                            <option value="battambang_1096">Battambang</option>
-                            <option value="kampong-chhnang_1092">Kampong Chhnang</option>
-                            <option value="kampong-speu_1090">Kampong Speu</option>
-                            <option value="kampot_1085">Kampot</option>
-                            <option value="kandal_1088">Kandal</option>
-                            <option value="kampong-thum-cambodia_1094">Kâmpóng Thum, Cambodia</option>
-                            <option value="kep_1084">Kep</option>
-                            <option value="koh-kong_1091">Koh Kong</option>
-                            <option value="kratie_1093">Kratie</option>
-                            <option value="mondulkiri_1102">Mondulkiri</option>
-                            <option value="otdar-meanchey_1104">Otdar Meanchey</option>
-                            <option value="pailin_1103">Pailin</option>
-                            <option value="phnompenh_1041">Phnompenh</option>
-                            <option value="preah-sihanouk_1105">Preah Sihanouk</option>
-                            <option value="preah-vihear_1099">Preah Vihear</option>
-                            <option value="prey-veng_1089">Prey Veng</option>
-                            <option value="pursat_1095">Pursat</option>
-                            <option value="rotanak-kiri_1101">Rotanak Kiri</option>
-                            <option value="siem-reap_1097">Siem Reap</option>
-                            <option value="sihanoukville_1083">Sihanoukville</option>
-                            <option value="stung-treng_1100">Stung Treng</option>
-                            <option value="svay-rieng_1087">Svay Rieng</option>
-                            <option value="tbong-khmum_1082">Tbong Khmum</option>
-                            <option value="seoul_1018">Seoul</option>
-                            <option value="chicago_1034">Chicago</option>
-                            <option value="florida_1077">Florida</option>
-                            <option value="miami_1033">Miami</option>
-                            <option value="san-diego_1039">San Diego</option>
-                            <option value="hong-kong_1079">Hồng Kông</option>
-                            <option value="khac_1318">Khác</option>
-                            <option value="attapeu_1106">Attapeu</option>
-                            <option value="bokeo_1107">Bokeo</option>
-                            <option value="bolikhamsai_1108">Bolikhamsai</option>
-                            <option value="champasak_1109">Champasak</option>
-                            <option value="houaphanh_1110">Houaphanh</option>
-                            <option value="khammouane_1111">Khammouane</option>
-                            <option value="louang-namtha_1112">Louang Namtha</option>
-                            <option value="luang-prabang_1113">Luang Prabang</option>
-                            <option value="phongsaly_1115">Phongsaly</option>
-                            <option value="sekong_1119">Sekong</option>
-                            <option value="vientiane_1059">Vientiane</option>
-                            <option value="xiangkhouang_1120">Xiangkhouang</option>
-                            <option value="kuala-lumpur_1019">Kuala Lumpur</option>
-                            <option value="malaysia_1078">Malaysia</option>
-                            <option value="yangon_1320">Yangon</option>
-                            <option value="aichi_1319">Aichi</option>
-                            <option value="hokkaido_1043">Hokkaido</option>
-                            <option value="osaka_1000">Osaka</option>
-                            <option value="tokyo_1001">Tokyo</option>
-                            <option value="yokohama_1002">Yokohama</option>
-                            <option value="qatar_1055">Qatar</option>
-                            <option value="quoc-te_1073">Quốc tế</option>
-                            <option value="singapore_1040">Singapore</option>
-                            <option value="melbourne_1004">Melbourne</option>
-                            <option value="sydney_1005">Sydney</option>
-                            <option value="kharkiv_1053">Kharkiv</option>
-                        </select>
+                    <div class="form-group col-4">
+                        <input type="hidden" name="csrf_token" value= "e57f5b8fd1a24dcf6fb904aba69d2bfa002775400a2d77104213ffdb8beb76d9" />  
+                        <button type="submit">Đăng nhập</button>
                     </div>
-                    <div class="form-group find-jobs">
-                        <button class="btn-gradient" onClick="return validDatasearchJobsByKeyword('vi');">
-                            <p>Tìm Ngay</p>
-                            <span class="mdi mdi-magnify"></span> 
-                        </button>
+                    <div class="form-group form-check col-12">
+                        <input type="checkbox" name="chkSave" value="1" />
+                        <label>Tự động đăng nhập</label>
                     </div>
-                    <div class="form-group animation">
-                        <button class="btn-gradient" onClick="return validDatasearchJobsByKeyword('vi');">
-                            <p>Tìm Ngay</p>
-                            <span class="mdi mdi-magnify"></span> 
-                        </button>
-                    </div>
+                </div>
+                <a class="register" href="https://careerbuilder.vn/vi/jobseekers/register" title="Đăng ký">Đăng ký </a><a class="forget-password" href="https://careerbuilder.vn/vi/jobseekers/forgotpassword" title="Quên mật khẩu?" rel="nofollow">Quên mật khẩu?</a>
+            </form>
+            <div class="sign-in-by">
+                <span>Đăng nhập bằng:</span>
+                <ul>
+                    <li><a href="javascript:void(0);" onclick="popupapi('facebook','aHR0cHM6Ly9jYXJlZXJidWlsZGVyLnZuL3ZpL2pvYnNlZWtlcnMvbG9naW5mYWNlYm9vaw==');"><i class="fa fa-facebook-official"></i></a></li>
+                    <li><a href="javascript:void(0);" onclick="popupapi('linkedin','aHR0cHM6Ly9jYXJlZXJidWlsZGVyLnZuL3ZpL2pvYnNlZWtlcnMvbG9naW5saW5rZWRpbg==');"><i class="fa fa-linkedin-square"></i></a></li>
+                    <li><a href="javascript:void(0);" onclick="popupapi('google','aHR0cHM6Ly9jYXJlZXJidWlsZGVyLnZuL3ZpL2pvYnNlZWtlcnMvbG9naW5nb29nbGU=');"><i class="fa fa-google-plus-square"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="{{ asset('js/jquery-validate.js') }}"></script>
+    <script>
+        $(document).ready(function(){
+          $("#popup_login_form").validate({
+            rules: {
+                username: {
+                  required: true,
+                },
+                password: {
+                  required: true,
+                }
+            },
+            errorPlacement: function(error, element) {
+        return true;
+            },
+            success: function (error) {
+              error.remove();
+            }
+          });
+        });
+    </script>
+    <div class="apply-job-modal" id="apply-job-modal" style="display: none">
+        <h3>Apply for: <span class="job-title" id="span_title">Nhân Viên Tuyển Dụng</span></h3>
+        <h4>Công Ty TNHH May Thêu Giày An Phước</h4>
+        <div class="login-form">
+            <form id="frmLogin" name="frmLogin" method="POST" action="https://careerbuilder.vn/vi/jobseekers/member/login" >
+                <p class="note"> Thành viên đăng nhập <span class="note" style="font-weight:100">(Nếu bạn đã có hồ sơ tại CareerBuilder)</span></p>
+                <div class="form-group">
+                    <input type="text" placeholder="Email" name="username" value=""  title="Email">
+                    <span class="error_username"></span>
+                </div>
+                <div class="form-group">
+                    <input type="password" name="password" placeholder="Mật khẩu">
+                    <span class="error_password"></span>
+                </div>
+                <div class="form-group form-submit">
+                    <input type="hidden" name="csrf_token_apply" value= "f42d61ec3a243618e076913f21732e37bdc1bd79da25322bd98a4f0233b81614" />
+                    <input type="submit" value="Sign in and Apply">
                 </div>
             </form>
         </div>
-    </div>
-</section>
-<section class="search-result-list-detail template-2">
-<div class="container">
-<div class="row no-gutters">
-<div class="col-12 mb-15">
-    <section class="apply-now-banner  ">
-        <div class="image"><img src="https://images.careerbuilder.vn/content/news/1.jpg" alt=""></div>
-        <div class="apply-now-content">
-            <div class="job-desc">
-                <h1 class="title">Nhân Viên Tuyển Dụng</h1>
-                <a class="employer job-company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-may-theu-giay-an-phuoc.35A4F400.html">Công Ty TNHH May Thêu Giày An Phước</a>  
-            </div>
-            <div class="apply-now-btn ">        <a href="javascript:void(0);" class="btn-gradient btnApplyClick"> Nộp Đơn Ứng Tuyển </a>        </div>
-        </div>
-    </section>
-</div>
-<div class="col-lg-7 col-custom-xxl-9">
-<div class="tabs">
-<nav class="job-result-nav">
-    <ul class="tabs-toggle">
-        <li id="tabs-job-detail"><a href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html" data-href="#tab-1">Chi tiết</a></li>
-        <li id="tabs-job-company"><a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-may-theu-giay-an-phuoc.35A4F400.html" data-href="#tab-2">Tổng quan công ty</a></li>
-    </ul>
-    <div class="job-detail-tool">
-        <ol class="tabs-saved">
-            <li>
-                <a class="toollips save-job chk_save_35B9A7C0 " href="javascript:void(0);" data-id="35B9A7C0"  onclick="popuplogin()">
-                    <i class="mdi mdi-heart-outline"></i>
-                    <div class="toolip">
-                        <p>Lưu việc làm</p>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <div class="dropdown">
-                    <i class="mdi mdi-share-variant"></i>
-                    <div class="dropdown-menu">
-                        <div class="social-list">
-                            <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0"><i class="fa fa-facebook"></i></a>
-                            <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0"><i class="fa fa-linkedin"></i></a>
-                            <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/email/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0"><i class="fa fa-envelope"></i></a>
-                            <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/gmail/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0"><i class="fa fa-google"></i></a>
-                            <div class="zalo-share-button" data-href="" data-oaid="579745863508352884" data-layout="2" data-color="white" data-customize=false></div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <a class="report-job toollips" href="javascript:void(0)">
-                    <i class="fa fa-flag-o"></i>
-                    <div class="toolip">
-                        <p> Báo xấu </p>
-                    </div>
-                </a>
-            </li>
-        </ol>
-    </div>
-</nav>
-<div class="tab-content" id="tab-1">
-<section class="job-detail-content">
-<div class="bg-blue">
-    <div class="row">
-        <div class="col-lg-4 col-sm-6 item-blue">
-            <div class="detail-box">
-                <div class="map">
-                    <strong><em class="mdi mdi-map-marker"></em>Địa điểm</strong>
-                    <p><a href="https://careerbuilder.vn/viec-lam/ho-chi-minh-l8-vi.html">Hồ Chí Minh</a></p>
-                    <a href="javascript:void(0)" onclick="show_map_detail_job();"><img src="img/icon-map.svg"></a>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 item-blue">
-            <div class="detail-box has-background">
-                <ul>
-                    <li>
-                        <strong><em class="mdi mdi-update"> </em>Ngày cập nhật</strong>
-                        <p>{{ $data->updated_at->format('d/m/Y') }}</p>
-                    </li>
-                    <li>
-                        <strong> <em class="mdi mdi-briefcase"></em>Ngành nghề</strong>
-                        <p>                <a href="https://careerbuilder.vn/viec-lam/nhan-su-c22-vi.html" >
-                            Nhân sự
-                            </a>
-                            ,                                 <a href="https://careerbuilder.vn/viec-lam/det-may-da-giay-thoi-trang-c39-vi.html" >
-                            Dệt may / Da giày / Thời trang
-                            </a>
-                            ,                                 <a href="https://careerbuilder.vn/viec-lam/hanh-chinh-thu-ky-c3-vi.html" >
-                            Hành chính / Thư ký
-                            </a>
-                        </p>
-                    </li>
-                    <li>
-                        <strong><em class="mdi mdi-briefcase-edit"> </em>Hình thức</strong>
-                        <p>Nhân viên chính thức</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 item-blue">
-            <div class="detail-box has-background">
-                <ul>
-                    <li>
-                        <strong><i class="fa fa-usd"></i>Lương</strong>
-                        <p>Cạnh tranh</p>
-                    </li>
-                    <li>
-                        <strong><i class="fa fa-briefcase"></i>Kinh nghiệm</strong>
-                        <p>
-                            0 - 5 Năm
-                        </p>
-                    </li>
-                    <li>
-                        <strong><i class="mdi mdi-account"></i>Cấp bậc</strong>
-                        <p>Nhân viên</p>
-                    </li>
-                    <li>
-                        <strong><i class="mdi mdi-calendar-check"></i>Hết hạn nộp</strong>
-                        <p>15/07/2022</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="detail-row">
-    <h3 class="detail-title">Phúc lợi </h3>
-    <ul class="welfare-list">
-        <li><span class="fa fa-medkit"></span> Chế độ bảo hiểm</li>
-        <li><span class="fa fa-money"></span> Phụ cấp</li>
-        <li><span class="fa fa-black-tie"></span> Đồng phục</li>
-        <li><span class="fa fa-usd"></span> Chế độ thưởng</li>
-        <li><span class="fa fa-line-chart"></span> Tăng lương</li>
-        <li><span class="fa fa-credit-card"></span> Công tác phí</li>
-        <li><span class="fa fa-money"></span> Phụ cấp thâm niên</li>
-        <li><span class="fa fa-briefcase"></span> Nghỉ phép năm</li>
-    </ul>
-</div>
-<div class="detail-row">
-    <h3 class="detail-title">Mô tả Công việc</h3>
-   	{!! $data->detail  !!}
-</div>
-<div class="detail-row">
-    <h3 class="detail-title">Yêu Cầu Công Việc</h3>
-   {!! $data->requirements  !!}
-</div>
-<div class="detail-row">
-    <h3 class="detail-title">Thông tin khác</h3>
-    <!-----
-        <div class="content_fck ">
-          ------>
-    <div class="content_fck ">
-        <ul>
-            <li> Bằng cấp:
-                Cao đẳng
-            </li>
-            <li> Phụ cấp khác: Cơm trưa và CTP </li>
-            <li> Thời gian thử việc: 02 tháng </li>
-            <li> Cơ hội huấn luyện: cơ hội huấn luyện cao </li>
-            <li> Độ tuổi:
-                28 - 35
-            </li>
-            <li> Thời gian làm việc: 8 giờ </li>
-            <li> Đồng nghiệp: Thân thiện </li>
-            <li> Phúc lợi: chế dộ theo luật </li>
-            <li> Ngày nghỉ: chủ nhật </li>
-        </ul>
-    </div>
-</div>
-<div class="share-this-job">
-    <span>Chia sẻ việc làm này:</span> 
-    <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0"> <i class="fa fa-facebook"></i> </a>
-    <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0">  <i class="fa fa-linkedin"></i></a>
-    <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/email/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0">  <i class="fa fa-envelope"></i></a> 
-    <a target="_blank" href="https://api.addthis.com/oexchange/0.8/forward/gmail/offer?url=https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html&pubid=ra-559220ee7f9c15d6&title=Nhân Viên Tuyển Dụng&ct=1&pco=tbxnj-1.0">  <i class="fa fa-google"></i></a>
-    <div class="zalo-share-button" data-href="" data-oaid="579745863508352884" data-layout="2" data-color="white" data-customize=false></div>
-</div>
-<div class="job-detail-bottom">
-<div class="job-detail-bottom-wrapper">
-<div class="apply-now-content">
-<div class="job-desc">
-<a class="toollips save-job chk_save_35B9A7C0 " href="javascript:void(0);" data-id="35B9A7C0"  onclick="popuplogin()">
-<i class="mdi mdi-heart-outline"></i>
-<span class="text">Lưu việc làm</span>
-</a>
-<a href="javascript:void(0);" onclick="showboxJobalert()"><i class="mdi mdi-email-outline"></i><span class="text">Gửi tôi việc làm tương tự</span></a>
-<a class="report-job toollips" href="javascript:void(0)">
-    <i class="fa fa-flag-o"></i><span>Báo xấu</span>
-    <div class="toolip">
-        <p> Báo xấu </p>
-    </div>
-</a>
-<div class="report-modal" style="display: none">
-    <div class="modal-title">
-        <p>Vì sao bạn muốn báo xấu nhà tuyển dụng này? </p>
-    </div>
-    <div class="modal-body">
-        <form name="feedback_job" id="feedback_job" method="POST" autocomplete="off">
-            <input type="hidden" name="job_url" id="job_url" value="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html" />
-            <div class="form-group">
-                <input type="text" id="email" name="email" placeholder="Nhập địa chỉ email " onkeyup="this.setAttribute('value', this.value);" value="">
-                <p class="text-validate error_email" > </p>
-            </div>
-            <div class="list-radio" id="reason" name='reason'>
-                <input type="radio" id="reason-1" name="reason" value="1">
-                <label for="reason-1"> Việc làm không hợp pháp </label>
-                <br>
-                <input type="radio" id="reason-2" name="reason" value="2">
-                <label for="reason-2"> Không cung cấp đủ thông tin </label>
-                <br>
-                <input type="radio" id="reason-3" name="reason" value="3">
-                <label for="reason-3"> Khác </label>
-                <p class="text-validate error_reason" ></p>
-            </div>
-            <div class="box-reason form-group">
-                <input type="text" id="box_reason" name="box_reason">
-                <p class="text-validate error_box_reason" > </p>
-            </div>
-            <div class="form-group">
-                <input type="text" name="captcha" id="captcha" autocomplete="off" placeholder="Mã xác nhận" onkeyup="this.setAttribute('value', this.value);" value="">
-                <p class="text-validate error_captcha" ></p>
-            </div>
-            <div id="captchaim"  style="float:left" class="form-group" ><img width="150" height="50" alt="" src="https://images.careerbuilder.vn/rws/captcha/af07d8ff32512a92e980182265b1a4a6.png" class="img_code" /><input type="hidden" name="key_captcha" id="key_captcha" value="af07d8ff32512a92e980182265b1a4a6"></div>
-            <a style="padding-left: 10px" onclick="refeshImgCaptcha('captchaim');" href="javascript:void(0);" class="line_bot" id="trynewcode">Thử mã mới</a> 
-            <div class="form-group" style="clear:left">
-                <button class="btn-send-report" onclick="saveFeedbackJob();return false;"> Báo xấu </button>
-            </div>
-        </form>
-    </div>
-</div>
-
-<script>
-var language_fbjob = {
-	send_report_success:"Gửi báo xấu thành công",
-	send_report_unsuccess:"Không thành công, vui lòng kiểm tra lại thông tin đã điền"
-};
-if(typeof language === 'undefined')	var language = language_fbjob;
-else	$.extend(language, language_fbjob);
-function saveFeedbackJob() {
-	if ($("#feedback_job").validate({
-			ignore: ":hidden",
-			onkeyup: false,
-			rules: {
-				email:{required: true, email: true,isemail:true},
-				box_reason:	{required: true},
-				reason:{ required:true },
-				captcha:{ required:true }
-			},
-			errorPlacement: function(error, element) {
-				var name = element.attr('name');
-				var errorSelector = '.error_'+name;
-				var $element = $(errorSelector);
-				$(errorSelector).html(error.html());
-			},
-			success: function(element) {
-				element.remove();
-			},
-			messages: {
-				email: {
-					required: language.js_alert_nodata,
-					email: language.js_alert_email_invalid,
-					isemail: language.js_alert_email_invalid
-				},
-				box_reason:	{
-					required: language.js_alert_nodata
-				},
-				reason:	{
-					required: language.js_alert_nodata
-				},
-				captcha:{
-					required: language.js_alert_nodata
-				}
-			},
-		}).form() == false) return false;
-	$.ajax({
-		type: "POST",
-		url: PATH_KIEMVIEC + 'jobs/feedbackjob',
-		data: $('#feedback_job').serialize(),
-		success: function(rs) {
-			if (rs == 1) {
-				show_noti(1, language.send_report_success);
-			} else {
-				show_noti(2, language.send_report_unsuccess);
-			}
-			refeshImgCaptcha('captchaim');
-		}
-	});
-}
-function refeshImgCaptcha(id){
-	$.ajax({
-		type:'POST',
-		url:PATH_KIEMVIEC+'jobseekers/index/imagecaptchanew',
-		success:function(data){
-			$('#'+id).html(data)
-		}
-	});
-}
-$(document).ready(function() {
-	$('input[type="radio"]').click(function() {
-		if ($(this).attr("value") == "3") {
-			$('.box-reason').show(500);
-		} else {
-			$('.box-reason').hide(500);
-		}
-	});
-	$('.report-job').on('click', function (e) {
-		e.preventDefault();
-		$.fancybox.open($('.report-modal'))
-	})
-});
-</script>
-
-     </div>
-<div class="apply-now-right">
-    <div class="apply-now-btn  ">            <a href="javascript:void(0);" class="btn-gradient btnApplyClick"> Nộp Đơn Ứng Tuyển </a>            </div>
-</div>
-</div>
-</div>
-</div>
-<input type="hidden" id="salary_taskbar" name="salary_taskbar" value="0" />
-<input type="hidden" id="industry_taskbar" name="industry_taskbar" value="22,39,3" />
-<input type="hidden" id="location_taskbar" name="location_taskbar" value="8" />
-<input type="hidden" id="keyword_taskbar" name="keyword_taskbar" value="Nhân Viên Tuyển Dụng" />
-<input type="hidden" id="title_alert" value="Nhân Viên Tuyển Dụng" />
-<script>
-    $(document).on('click', '.btnApplyClick', function(){
-        
-                $('#apply_url').attr('href', "https://careerbuilder.vn/vi/jobseekers/jobs/apply?job_id=35B9A7C0&s=cbnon");
-            $('#span_title').html("Nhân Viên Tuyển Dụng");
-            $.fancybox.close('all');
-            $.fancybox.open($("#apply-job-modal"));
-            
-    });
-</script>
-<div class="job-detail-bottom-banner " id="">
-    <div class="adsBannerOA" data-id="852"></div>
-</div>
-<script type="text/javascript">
-    $(document).ready(function () { loadBannerOA(); });
-</script>
-</section>
-<div class="maps-modal" style="display: none">
-    <div class="d-flex box-modal">
-        <div class="map" id="jobMap" style="display: none;"></div>
-        <div class="info">
-            <div class="tabs-toggle">
-                <a href="javascript:void(0);" class="item active" data-tab="1">Thông Tin Tuyển Dụng</a>
-                <a href="javascript:void(0);" class="item" data-tab="2">Các công việc tương tự</a>
-            </div>
-            <div class="main-content">
-                <div class="tab-content active" id="maps-tab-1">
-                    <div class="box-about">
-                        <div class="title-h4">
-                            <h4>Giới thiệu về công ty</h4>
-                        </div>
-                        <div class="figure">
-                            <div class="image">
-                                <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-may-theu-giay-an-phuoc.35A4F400.html" target="_blank">
-                                <img
-                                    class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot6/2816/110x55/74705logoap.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công Ty TNHH May Thêu Giày An Phước">
-                                </a>
-                            </div>
-                            <div class="figcaption">
-                                <h5>Công Ty TNHH May Thêu Giày An Phước</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box-info">
-                        <div class="title-h4">
-                            <h4>Thông Tin Tuyển Dụng</h4>
-                        </div>
-                        <div class="content">
-                            <p class="blue">Nhân Viên Tuyển Dụng</p>
-                            <table>
-                                <tbody>
-                                    <tr>
-                                        <td>Cấp bậc</td>
-                                        <td>Nhân viên</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Lương</td>
-                                        <td>$
-                                            Cạnh tranh
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Hết hạn nộp</td>
-                                        <td>15/07/2022</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Ngành nghề</td>
-                                        <td>
-                                            <a href="https://careerbuilder.vn/viec-lam/nhan-su-c22-vi.html" >
-                                            Nhân sự
-                                            ,                                                </a>
-                                            <a href="https://careerbuilder.vn/viec-lam/det-may-da-giay-thoi-trang-c39-vi.html" >
-                                            Dệt may / Da giày / Thời trang
-                                            ,                                                </a>
-                                            <a href="https://careerbuilder.vn/viec-lam/hanh-chinh-thu-ky-c3-vi.html" >
-                                            Hành chính / Thư ký
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Kinh nghiệm</td>
-                                        <td>
-                                            0 - 5 Năm
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="box-local">
-                        <div class="title-h4">
-                            <h4>Địa điểm</h4>
-                        </div>
-                        <div class="content">
-                            <p>Hồ Chí Minh</p>
-                            <ul class="clearall">
-                                <li>
-                                    <em class="mdi mdi-map-marker"></em>
-                                    <a href="javascript:void(0);" onclick="movetoCenter(0)">100 An Dương Vương, phường 9, Quận 5, Hồ Chí Minh</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="box-apply ">
-                        <a href="javascript:void(0);" class="btn-gradient btnApplyClick">
-                        Nộp Đơn Ứng Tuyển
-                        </a>
-                    </div>
-                    <div class="box-contact">
-                        <ul>
-                            <li>
-                                <a class="toollips save-job chk_save_35B9A7C0 " href="javascript:void(0);" data-id="35B9A7C0"  onclick="popuplogin()">
-                                    <i class="mdi mdi-heart-outline"></i>
-                                    <div class="toolip">
-                                        <p>Lưu việc làm</p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li> <a class="email" href="javascript:void(0);" onclick="showboxJobalert()"><i class="mdi mdi-email"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="tab-content" id="maps-tab-2">
-                    <section class="jobs-side-list"></section>
-                    <div class="jobs-list">
-                        <div class="job-item">
-                            <div class="figure">
-                                <div class="image">
-                                    <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/he-thong-nha-hang-nhat-tokyo-deli.35A77DB7.html" target="_blank"  title="Hệ thống nhà hàng Nhật Tokyo Deli">
-                                    <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot3/169143/67x67/141234standardlogo_001.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Hệ thống nhà hàng Nhật Tokyo Deli">
-                                    </a>
-                                </div>
-                                <div class="figcaption">
-                                    <div class="timeago"></div>
-                                    <div class="title"><a target="_blank" title="Nhân Viên Tuyển Dụng" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B99B3A.html?s=rec">Nhân Viên Tuyển Dụng</a></div>
-                                    <div class="caption">
-                                        <p class="company-name">Hệ thống nhà hàng Nhật Tokyo Deli</p>
-                                        <p class="salary">$ 7 Tr - 8,5 Tr VND</p>
-                                        <div class="location">
-                                            <ul>
-                                                <li>Hồ Chí Minh</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="job-item">
-                            <div class="figure">
-                                <div class="image">
-                                    <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-dau-tu-dich-vu-hum-viet-nam.35A87FA0.html" target="_blank"  title="CÔNG TY TNHH ĐẦU TƯ DỊCH VỤ HUM VIỆT NAM">
-                                    <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot8/235168/67x67/13580310974373.png" src="../kiemviecv32/images/graphics/blank.gif" alt="CÔNG TY TNHH ĐẦU TƯ DỊCH VỤ HUM VIỆT NAM">
-                                    </a>
-                                </div>
-                                <div class="figcaption">
-                                    <div class="timeago"></div>
-                                    <div class="title"><a target="_blank" title="Nhân viên Tuyển dụng" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B99BD8.html?s=rec">Nhân viên Tuyển dụng</a></div>
-                                    <div class="caption">
-                                        <p class="company-name">CÔNG TY TNHH ĐẦU TƯ DỊCH VỤ HUM VIỆT NAM</p>
-                                        <p class="salary">$ Cạnh tranh</p>
-                                        <div class="location">
-                                            <ul>
-                                                <li>Hồ Chí Minh</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="job-item">
-                            <div class="figure">
-                                <div class="image">
-                                    <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/mf-viet-nam-information-technology-co-ltd.35A80ECC.html" target="_blank"  title="MF Viet Nam Information Technology Co.,Ltd">
-                                    <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot4/206284/67x67/90857logomf.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="MF Viet Nam Information Technology Co.,Ltd">
-                                    </a>
-                                </div>
-                                <div class="figcaption">
-                                    <div class="timeago"></div>
-                                    <div class="title"><a target="_blank" title="NHÂN VIÊN TUYỂN DỤNG" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B929B8.html?s=rec">NHÂN VIÊN TUYỂN DỤNG</a></div>
-                                    <div class="caption">
-                                        <p class="company-name">MF Viet Nam Information Technology Co.,Ltd</p>
-                                        <p class="salary">$ 10 Tr - 20 Tr VND</p>
-                                        <div class="location">
-                                            <ul>
-                                                <li>Hà Nội | Hồ Chí Minh</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="job-item">
-                            <div class="figure">
-                                <div class="image">
-                                    <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-dtsx-bao-ngoc.35A8F06A.html" target="_blank"  title="Công Ty Cổ Phần ĐTSX Bảo Ngọc">
-                                    <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot2/264042/67x67/161921bnagroup.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công Ty Cổ Phần ĐTSX Bảo Ngọc">
-                                    </a>
-                                </div>
-                                <div class="figcaption">
-                                    <div class="timeago"></div>
-                                    <div class="title"><a target="_blank" title="Nhân viên tuyển dụng" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B98BD0.html?s=rec">Nhân viên tuyển dụng</a></div>
-                                    <div class="caption">
-                                        <p class="company-name">Công Ty Cổ Phần ĐTSX Bảo Ngọc</p>
-                                        <p class="salary">$ 10 Tr - 15 Tr VND</p>
-                                        <div class="location">
-                                            <ul>
-                                                <li>Hồ Chí Minh</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="job-item">
-                            <div class="figure">
-                                <div class="image">
-                                    <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-binh-viet-duc-bivid.35A8D45E.html" target="_blank"  title="Công ty TNHH Bình Việt Đức (BIVID)">
-                                    <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot2/256862/67x67/121241logo-bivid_chuan.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Công ty TNHH Bình Việt Đức (BIVID)">
-                                    </a>
-                                </div>
-                                <div class="figcaption">
-                                    <div class="timeago"></div>
-                                    <div class="title"><a target="_blank" title="Nhân Viên Tuyển Dụng" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B98C34.html?s=rec">Nhân Viên Tuyển Dụng</a></div>
-                                    <div class="caption">
-                                        <p class="company-name">Công ty TNHH Bình Việt Đức (BIVID)</p>
-                                        <p class="salary">$ 9 Tr - 11 Tr VND</p>
-                                        <div class="location">
-                                            <ul>
-                                                <li>Hồ Chí Minh</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="job-item">
-                            <div class="figure">
-                                <div class="image">
-                                    <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-lien-doanh-vinh-hung-tmi-viet-nam.35A8E27D.html" target="_blank"  title="Công ty TNHH, Liên Doanh Vĩnh Hưng (TMI Việt Nam)">
-                                    <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot7/260477/67x67/94530logocty.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công ty TNHH, Liên Doanh Vĩnh Hưng (TMI Việt Nam)">
-                                    </a>
-                                </div>
-                                <div class="figcaption">
-                                    <div class="timeago"></div>
-                                    <div class="title"><a target="_blank" title="Nhân viên tuyển dụng" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B95596.html?s=rec">Nhân viên tuyển dụng</a></div>
-                                    <div class="caption">
-                                        <p class="company-name">Công ty TNHH, Liên Doanh Vĩnh Hưng (TMI Việt Nam)</p>
-                                        <p class="salary">$ 10 Tr - 13 Tr VND</p>
-                                        <div class="location">
-                                            <ul>
-                                                <li>Hồ Chí Minh</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="job-item">
-                            <div class="figure">
-                                <div class="image">
-                                    <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-bat-dong-san-grandland.35A8B759.html" target="_blank"  title="CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN GRANDLAND">
-                                    <img class="lazy-hidden" data-src="https://static.careerbuilder.vn/themes/kiemviecv32/images/graphics/logo-default.png" src="../kiemviecv32/images/graphics/blank.gif" alt="CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN GRANDLAND">
-                                    </a>
-                                </div>
-                                <div class="figcaption">
-                                    <div class="timeago"></div>
-                                    <div class="title"><a target="_blank" title="Nhân Viên Tuyển Dụng" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9592D.html?s=rec">Nhân Viên Tuyển Dụng</a></div>
-                                    <div class="caption">
-                                        <p class="company-name">CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN GRANDLAND</p>
-                                        <p class="salary">$ 8 Tr - 13 Tr VND</p>
-                                        <div class="location">
-                                            <ul>
-                                                <li>Hồ Chí Minh</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="job-item">
-                            <div class="figure">
-                                <div class="image">
-                                    <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-thoi-trang-an-viet-vm-style.35A8D54D.html" target="_blank"  title="Công ty TNHH Thời trang An Việt (VM STYLE)">
-                                    <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot1/257101/67x67/170850logotrang.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công ty TNHH Thời trang An Việt (VM STYLE)">
-                                    </a>
-                                </div>
-                                <div class="figcaption">
-                                    <div class="timeago"></div>
-                                    <div class="title"><a target="_blank" title="Nhân viên tuyển dụng" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B971F0.html?s=rec">Nhân viên tuyển dụng</a></div>
-                                    <div class="caption">
-                                        <p class="company-name">Công ty TNHH Thời trang An Việt (VM STYLE)</p>
-                                        <p class="salary">$ 8 Tr - 10 Tr VND</p>
-                                        <div class="location">
-                                            <ul>
-                                                <li>Hồ Chí Minh</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="job-item">
-                            <div class="figure">
-                                <div class="image">
-                                    <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/tap-doan-ktg.35A882DE.html" target="_blank"  title="Tập đoàn KTG">
-                                    <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot8/235998/67x67/80145logoktg.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Tập đoàn KTG">
-                                    </a>
-                                </div>
-                                <div class="figcaption">
-                                    <div class="timeago"></div>
-                                    <div class="title"><a target="_blank" title="NHÂN VIÊN TUYỂN DỤNG" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B95692.html?s=rec">NHÂN VIÊN TUYỂN DỤNG</a></div>
-                                    <div class="caption">
-                                        <p class="company-name">Tập đoàn KTG</p>
-                                        <p class="salary">$ 9 Tr - 12 Tr VND</p>
-                                        <div class="location">
-                                            <ul>
-                                                <li>Hồ Chí Minh</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="job-item">
-                            <div class="figure">
-                                <div class="image">
-                                    <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-tap-doan-dau-tu-quoc-te-newa-group.35A8F2CC.html" target="_blank"  title="Công Ty Cổ Phần Tập Đoàn Đầu Tư Quốc Tế Newa Group">
-                                    <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot2/264652/67x67/91204hinhanhnewa.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công Ty Cổ Phần Tập Đoàn Đầu Tư Quốc Tế Newa Group">
-                                    </a>
-                                </div>
-                                <div class="figcaption">
-                                    <div class="timeago"></div>
-                                    <div class="title"><a target="_blank" title="Nhân Viên Tuyển Dụng" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B96BD6.html?s=rec">Nhân Viên Tuyển Dụng</a></div>
-                                    <div class="caption">
-                                        <p class="company-name">Công Ty Cổ Phần Tập Đoàn Đầu Tư Quốc Tế Newa Group</p>
-                                        <p class="salary">$ 7 Tr - 10 Tr VND</p>
-                                        <div class="location">
-                                            <ul>
-                                                <li>Hồ Chí Minh</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<script src='https://cdn.jsdelivr.net/npm/@goongmaps/goong-js@1.0.6/dist/goong-js.js'></script>
-<link href='https://cdn.jsdelivr.net/npm/@goongmaps/goong-js@1.0.6/dist/goong-js.css' rel='stylesheet' />  
-
-<script>
-var map_container = 'jobMap';
-var option_zoom = 14;
-var strMapGoongAccess = 'KxinmQjfV9bpwUkrhqJuIrkq00hataFG2LVS13yY#cb';
-var strMapGoongApi = 'LDLS1XzFyZxDWcxOJgXnU9DhFl2UnrOZp0qAymJG';
-var arrPostion = [10.7574202,106.6705781];
-var init_map = false;
-var pinData = [
-	
-																											{
-								address: "100 An Dương Vương, phường 9, Quận 5, Hồ Chí Minh",
-								location_id : '8',
-								position:'10.7574202,106.6705781',
-								title : '<div class="maps-tooltip"><div class="figure"><div class="image"><img src="https://images.careerbuilder.vn/employer_folders/lot6/2816/110x55/74705logoap.jpg" alt="Performance Marketing Specialist" style="max-height: 50px"></div><div class="caption"><p class="title">Nhân Viên Tuyển Dụng</p><p class="company"><a href="javascript:void(0);"">Công Ty TNHH May Thêu Giày An Phước</a></p></div></div><p class="location">100 An Dương Vương, phường 9, Quận 5, Hồ Chí Minh</p><p class="salary">$ \
-								 Cạnh tranh \
-								</p></div>'
-							},
-																					
-
-];
-
-</script>
-
-<script>
-$(document).ready(function(){
-    $("div .map a").click(function(){
-        $("#jobMap").fadeIn("fast");
-        init_map = true;
-        $.getScript(DOMAIN_STATIC+"/themes/careerbuilder/js/maps.js");
-    });
-});
-</script>
-
-<script>/*maps.js*/
-
-if(typeof strMapGoongAccess!=='undefined'&&typeof strMapGoongApi!=='undefined'){goongjs.accessToken=strMapGoongAccess;if(typeof map_container==='undefined')
-map_container='map';if(typeof opt_draggable==='undefined')
-opt_draggable=true;if(typeof option_zoom==='undefined')
-option_zoom=14;if(isNaN(option_zoom))
-option_zoom=14;var map_api="https://rsapi.goong.io/Place/[FUNCTION]?api_key="+strMapGoongApi;if(typeof arrPostion==='undefined'){arrPostion=[10.783353464561465,106.69269561767578];}
-var position=[parseFloat(arrPostion[1]),parseFloat(arrPostion[0])];if(typeof init_map==='undefined')
-init_map=true;if(init_map==true){var map=new goongjs.Map({container:map_container,style:'https://tiles.goong.io/assets/goong_map_web.json',center:position,zoom:option_zoom});}
-if(typeof pinData!=='undefined'&&init_map==true){var marker=new goongjs.Marker({draggable:false});var arrData=[];$.each(pinData,function(key,val){var strPosition=val.position;var arrPosition=strPosition.split(",");var objData={'type':'Feature','properties':{'description':val.title},'geometry':{'type':'Point','coordinates':[$.trim(arrPosition[1]),$.trim(arrPosition[0])]}};arrData.push(objData);});map.on('load',function(){map.loadImage('https://images.careerbuilder.vn/content/images/icon/custom_marker.png',function(error,image){if(error)throw error;map.addImage('custom-marker',image);map.addSource('places',{'type':'geojson','data':{'type':'FeatureCollection','features':arrData}});map.addLayer({'id':'places','type':'symbol','source':'places','layout':{'icon-image':'custom-marker','icon-allow-overlap':true}});});var popup=new goongjs.Popup({closeButton:false,closeOnClick:false});map.on('mouseenter','places',function(e){var coordinates=e.features[0].geometry.coordinates.slice();var description=e.features[0].properties.description;while(Math.abs(e.lngLat.lng-coordinates[0])>180){coordinates[0]+=e.lngLat.lng>coordinates[0]?360:-360;}
-new goongjs.Popup().setLngLat(coordinates).setHTML(description).addTo(map);});map.on('mouseleave','places',function(){});});$.each(pinData,function(key,val){var strPosition=val.position;var arrPosition=strPosition.split(",");var coordinates=[$.trim(arrPosition[1]),$.trim(arrPosition[0])];new goongjs.Popup().setLngLat(coordinates).setHTML(val.title).addTo(map);});}else if(init_map==true){var marker=new goongjs.Marker({draggable:opt_draggable}).setLngLat(position).addTo(map);function onDragEnd(){var lngLat=marker.getLngLat();$("#lng").val(lngLat.lng);$("#lat").val(lngLat.lat);}
-marker.on('dragend',onDragEnd);var strAddress=$("#address").val();if(typeof strAddress!=='undefined'&&strAddress!='')
-callListGoongmap($("#address").val());}}
-function movetoCenter(i){if(typeof pinData[i].position!="undefined"&&typeof map!="undefined"){var strPosition=pinData[i].position;var arrPosition=strPosition.split(",");position=[$.trim(arrPosition[1]),$.trim(arrPosition[0])];marker.setLngLat(position).addTo(map);map.setCenter(position);map.setZoom(14);}}
-function autoSuggest(){let address=$("#address").val();callListGoongmap(address);}
-function callListGoongmap(addr){let funcname="AutoComplete";let suggest_addr_api=map_api.replace("[FUNCTION]",funcname)+"&input="+encodeURI(addr);$.get(suggest_addr_api,function(resp){if(resp.status=="OK"){displayList(resp.predictions);}},"json");}
-function displayList(data){var matched=[];var matchedID=[];for(var i=0;i<data.length;i++){matched.push(data[i].description);matchedID[data[i].description]=data[i].place_id;}
-if(data.length>0){$("#address").autocomplete({source:function(request,response){response(matched);},focus:function(event,ui){return false;},select:function(event,ui){$("#address").val(ui.item.value);pointListMapTile(matchedID[ui.item.value]);return false;},create:function(){$(this).data('ui-autocomplete')._renderItem=function(ul,item){return $("<li></li>").data("item.autocomplete",item).append("<a>"+item.value+"</a>").appendTo(ul);};}});}}
-function pointListMapTile(id){let funcname="Detail";let detail_addr_api=map_api.replace("[FUNCTION]",funcname)+"&place_id="+encodeURI(id);$.get(detail_addr_api,function(resp){if(resp.status=="OK"&&typeof resp.result.geometry!="undefined"){initListMap(resp.result.geometry.location);}},'json')}
-function initListMap(location){$("#lng").val(location.lng);$("#lat").val(location.lat);position=[location.lng,location.lat];marker.setLngLat(position).addTo(map);map.setCenter(position);map.setZoom(14);}
-</script>
-<script src="https://sp.zalo.me/plugins/sdk.js"></script>
-                    </div>
-                    <div class="tab-content" id="tab-2"></div>
-                </div>
-                        </div>
-            <div class="col-lg-5 col-custom-xxl-3">
-                <div class="side-wrapper">
-    <div class="banner-ad">
-  <script type='text/javascript'>OA_show(854);</script>
-</div>
-<div class="similar-jobs">
-    <p>Các công việc tương tự</p>
-</div>
-<section class="jobs-side-list">
-    <div class="jobs-list">
-        <div class="job-item">
-            <div class="figure">
-                <div class="image"> <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/he-thong-nha-hang-nhat-tokyo-deli.35A77DB7.html" target="_blank" title="Hệ thống nhà hàng Nhật Tokyo Deli"> <img  class="lazy-bg" data-src="https://images.careerbuilder.vn/employer_folders/lot3/169143/67x67/141234standardlogo_001.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Hệ thống nhà hàng Nhật Tokyo Deli"> </a> </div>
-                <div class="figcaption">
-                    <div class="timeago"></div>
-                    <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B99B3A.html" target="_blank" title="Nhân Viên Tuyển Dụng"> Nhân Viên Tuyển Dụng </a> </div>
-                    <div class="caption">
-                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/he-thong-nha-hang-nhat-tokyo-deli.35A77DB7.html" title="Hệ thống nhà hàng Nhật Tokyo Deli">Hệ thống nhà hàng Nhật Tokyo Deli</a>
-                        <p class="salary"><em class="fa fa-usd"></em>Lương: 7 Tr - 8,5 Tr VND</p>
-                        <div class="location">
-                            <em class="mdi mdi-map-marker"></em>
-                            <ul>
-                                <li>Hồ Chí Minh</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="top-icon"></div>
-            </div>
-        </div>
-        <div class="job-item">
-            <div class="figure">
-                <div class="image"> <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-dau-tu-dich-vu-hum-viet-nam.35A87FA0.html" target="_blank" title="CÔNG TY TNHH ĐẦU TƯ DỊCH VỤ HUM VIỆT NAM"> <img  class="lazy-bg" data-src="https://images.careerbuilder.vn/employer_folders/lot8/235168/67x67/13580310974373.png" src="../kiemviecv32/images/graphics/blank.gif" alt="CÔNG TY TNHH ĐẦU TƯ DỊCH VỤ HUM VIỆT NAM"> </a> </div>
-                <div class="figcaption">
-                    <div class="timeago"></div>
-                    <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B99BD8.html" target="_blank" title="Nhân viên Tuyển dụng"> Nhân viên Tuyển dụng </a> </div>
-                    <div class="caption">
-                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-dau-tu-dich-vu-hum-viet-nam.35A87FA0.html" title="CÔNG TY TNHH ĐẦU TƯ DỊCH VỤ HUM VIỆT NAM">CÔNG TY TNHH ĐẦU TƯ DỊCH VỤ HUM VIỆT NAM</a>
-                        <p class="salary"><em class="fa fa-usd"></em>Lương:Cạnh tranh</p>
-                        <div class="location">
-                            <em class="mdi mdi-map-marker"></em>
-                            <ul>
-                                <li>Hồ Chí Minh</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="top-icon"></div>
-            </div>
-        </div>
-        <div class="job-item">
-            <div class="figure">
-                <div class="image"> <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/mf-viet-nam-information-technology-co-ltd.35A80ECC.html" target="_blank" title="MF Viet Nam Information Technology Co.,Ltd"> <img  class="lazy-bg" data-src="https://images.careerbuilder.vn/employer_folders/lot4/206284/67x67/90857logomf.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="MF Viet Nam Information Technology Co.,Ltd"> </a> </div>
-                <div class="figcaption">
-                    <div class="timeago"></div>
-                    <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B929B8.html" target="_blank" title="NHÂN VIÊN TUYỂN DỤNG"> NHÂN VIÊN TUYỂN DỤNG </a> </div>
-                    <div class="caption">
-                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/mf-viet-nam-information-technology-co-ltd.35A80ECC.html" title="MF Viet Nam Information Technology Co.,Ltd">MF Viet Nam Information Technology Co.,Ltd</a>
-                        <p class="salary"><em class="fa fa-usd"></em>Lương: 10 Tr - 20 Tr VND</p>
-                        <div class="location">
-                            <em class="mdi mdi-map-marker"></em>
-                            <ul>
-                                <li>Hà Nội</li>
-                                <li> Hồ Chí Minh</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="top-icon"></div>
-            </div>
-        </div>
-        <div class="job-item">
-            <div class="figure">
-                <div class="image"> <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-dtsx-bao-ngoc.35A8F06A.html" target="_blank" title="Công Ty Cổ Phần ĐTSX Bảo Ngọc"> <img  class="lazy-bg" data-src="https://images.careerbuilder.vn/employer_folders/lot2/264042/67x67/161921bnagroup.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công Ty Cổ Phần ĐTSX Bảo Ngọc"> </a> </div>
-                <div class="figcaption">
-                    <div class="timeago"></div>
-                    <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B98BD0.html" target="_blank" title="Nhân viên tuyển dụng"> Nhân viên tuyển dụng </a> </div>
-                    <div class="caption">
-                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-dtsx-bao-ngoc.35A8F06A.html" title="Công Ty Cổ Phần ĐTSX Bảo Ngọc">Công Ty Cổ Phần ĐTSX Bảo Ngọc</a>
-                        <p class="salary"><em class="fa fa-usd"></em>Lương: 10 Tr - 15 Tr VND</p>
-                        <div class="location">
-                            <em class="mdi mdi-map-marker"></em>
-                            <ul>
-                                <li>Hồ Chí Minh</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="top-icon"></div>
-            </div>
-        </div>
-        <div class="job-item">
-            <div class="figure">
-                <div class="image"> <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-binh-viet-duc-bivid.35A8D45E.html" target="_blank" title="Công ty TNHH Bình Việt Đức (BIVID)"> <img  class="lazy-bg" data-src="https://images.careerbuilder.vn/employer_folders/lot2/256862/67x67/121241logo-bivid_chuan.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Công ty TNHH Bình Việt Đức (BIVID)"> </a> </div>
-                <div class="figcaption">
-                    <div class="timeago"></div>
-                    <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B98C34.html" target="_blank" title="Nhân Viên Tuyển Dụng"> Nhân Viên Tuyển Dụng </a> </div>
-                    <div class="caption">
-                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-binh-viet-duc-bivid.35A8D45E.html" title="Công ty TNHH Bình Việt Đức (BIVID)">Công ty TNHH Bình Việt Đức (BIVID)</a>
-                        <p class="salary"><em class="fa fa-usd"></em>Lương: 9 Tr - 11 Tr VND</p>
-                        <div class="location">
-                            <em class="mdi mdi-map-marker"></em>
-                            <ul>
-                                <li>Hồ Chí Minh</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="top-icon"></div>
-            </div>
-        </div>
-        <div class="job-item">
-            <div class="figure">
-                <div class="image"> <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-lien-doanh-vinh-hung-tmi-viet-nam.35A8E27D.html" target="_blank" title="Công ty TNHH, Liên Doanh Vĩnh Hưng (TMI Việt Nam)"> <img  class="lazy-bg" data-src="https://images.careerbuilder.vn/employer_folders/lot7/260477/67x67/94530logocty.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công ty TNHH, Liên Doanh Vĩnh Hưng (TMI Việt Nam)"> </a> </div>
-                <div class="figcaption">
-                    <div class="timeago"></div>
-                    <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B95596.html" target="_blank" title="Nhân viên tuyển dụng"> Nhân viên tuyển dụng </a> </div>
-                    <div class="caption">
-                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-lien-doanh-vinh-hung-tmi-viet-nam.35A8E27D.html" title="Công ty TNHH, Liên Doanh Vĩnh Hưng (TMI Việt Nam)">Công ty TNHH, Liên Doanh Vĩnh Hưng (TMI Việt Nam)</a>
-                        <p class="salary"><em class="fa fa-usd"></em>Lương: 10 Tr - 13 Tr VND</p>
-                        <div class="location">
-                            <em class="mdi mdi-map-marker"></em>
-                            <ul>
-                                <li>Hồ Chí Minh</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="top-icon"></div>
-            </div>
-        </div>
-        <div class="job-item">
-            <div class="figure">
-                <div class="image"> <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-bat-dong-san-grandland.35A8B759.html" target="_blank" title="CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN GRANDLAND"> <img  class="lazy-bg" data-src="https://static.careerbuilder.vn/themes/kiemviecv32/images/graphics/logo-default.png" src="../kiemviecv32/images/graphics/blank.gif" alt="CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN GRANDLAND"> </a> </div>
-                <div class="figcaption">
-                    <div class="timeago"></div>
-                    <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9592D.html" target="_blank" title="Nhân Viên Tuyển Dụng"> Nhân Viên Tuyển Dụng </a> </div>
-                    <div class="caption">
-                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-bat-dong-san-grandland.35A8B759.html" title="CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN GRANDLAND">CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN GRANDLAND</a>
-                        <p class="salary"><em class="fa fa-usd"></em>Lương: 8 Tr - 13 Tr VND</p>
-                        <div class="location">
-                            <em class="mdi mdi-map-marker"></em>
-                            <ul>
-                                <li>Hồ Chí Minh</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="top-icon"></div>
-            </div>
-        </div>
-        <div class="job-item">
-            <div class="figure">
-                <div class="image"> <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-thoi-trang-an-viet-vm-style.35A8D54D.html" target="_blank" title="Công ty TNHH Thời trang An Việt (VM STYLE)"> <img  class="lazy-bg" data-src="https://images.careerbuilder.vn/employer_folders/lot1/257101/67x67/170850logotrang.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công ty TNHH Thời trang An Việt (VM STYLE)"> </a> </div>
-                <div class="figcaption">
-                    <div class="timeago"></div>
-                    <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B971F0.html" target="_blank" title="Nhân viên tuyển dụng"> Nhân viên tuyển dụng </a> </div>
-                    <div class="caption">
-                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-thoi-trang-an-viet-vm-style.35A8D54D.html" title="Công ty TNHH Thời trang An Việt (VM STYLE)">Công ty TNHH Thời trang An Việt (VM STYLE)</a>
-                        <p class="salary"><em class="fa fa-usd"></em>Lương: 8 Tr - 10 Tr VND</p>
-                        <div class="location">
-                            <em class="mdi mdi-map-marker"></em>
-                            <ul>
-                                <li>Hồ Chí Minh</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="top-icon"></div>
-            </div>
-        </div>
-        <div class="job-item">
-            <div class="figure">
-                <div class="image"> <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/tap-doan-ktg.35A882DE.html" target="_blank" title="Tập đoàn KTG"> <img  class="lazy-bg" data-src="https://images.careerbuilder.vn/employer_folders/lot8/235998/67x67/80145logoktg.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Tập đoàn KTG"> </a> </div>
-                <div class="figcaption">
-                    <div class="timeago"></div>
-                    <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B95692.html" target="_blank" title="NHÂN VIÊN TUYỂN DỤNG"> NHÂN VIÊN TUYỂN DỤNG </a> </div>
-                    <div class="caption">
-                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/tap-doan-ktg.35A882DE.html" title="Tập đoàn KTG">Tập đoàn KTG</a>
-                        <p class="salary"><em class="fa fa-usd"></em>Lương: 9 Tr - 12 Tr VND</p>
-                        <div class="location">
-                            <em class="mdi mdi-map-marker"></em>
-                            <ul>
-                                <li>Hồ Chí Minh</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="top-icon"></div>
-            </div>
-        </div>
-        <div class="job-item">
-            <div class="figure">
-                <div class="image"> <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-tap-doan-dau-tu-quoc-te-newa-group.35A8F2CC.html" target="_blank" title="Công Ty Cổ Phần Tập Đoàn Đầu Tư Quốc Tế Newa Group"> <img  class="lazy-bg" data-src="https://images.careerbuilder.vn/employer_folders/lot2/264652/67x67/91204hinhanhnewa.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công Ty Cổ Phần Tập Đoàn Đầu Tư Quốc Tế Newa Group"> </a> </div>
-                <div class="figcaption">
-                    <div class="timeago"></div>
-                    <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B96BD6.html" target="_blank" title="Nhân Viên Tuyển Dụng"> Nhân Viên Tuyển Dụng </a> </div>
-                    <div class="caption">
-                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-tap-doan-dau-tu-quoc-te-newa-group.35A8F2CC.html" title="Công Ty Cổ Phần Tập Đoàn Đầu Tư Quốc Tế Newa Group">Công Ty Cổ Phần Tập Đoàn Đầu Tư Quốc Tế Newa Group</a>
-                        <p class="salary"><em class="fa fa-usd"></em>Lương: 7 Tr - 10 Tr VND</p>
-                        <div class="location">
-                            <em class="mdi mdi-map-marker"></em>
-                            <ul>
-                                <li>Hồ Chí Minh</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="top-icon"></div>
-            </div>
-        </div>
-    </div>
-    <div class="load-more"><a href="https://careerbuilder.vn/viec-lam-tuong-tu/Nhân-Viên-Tuyển-Dụng-tai-ho-chi-minh-kl8-vi.html" title="jobs recommend">Xem tất cả</a></div>
-</section>
-</div>            </div>
-</div>
-</div>
-</section>
-<div class="login-modal" style="display: none">
-    <div class="modal-title">
-        <p>Vui lòng đăng nhập để thực hiện chức năng này</p>
-    </div>
-    <div class="modal-body">
-        <form method="POST" id="popup_login_form" action="https://careerbuilder.vn/vi/jobseekers/member/login" autocomplete="off">
-            <div class="row">
-                <div class="form-group col-12">
-                    <input type="text" id="username" name="username" placeholder="Username / Email" autocomplete="off">
-                </div>
-                <div class="form-group col-8">
-                    <input type="password" name="password" id="password"  placeholder="Mật khẩu" autocomplete="off">
-                </div>
-                <div class="form-group col-4">
-                    <input type="hidden" name="csrf_token" value= "e57f5b8fd1a24dcf6fb904aba69d2bfa002775400a2d77104213ffdb8beb76d9" />  
-                    <button type="submit">Đăng nhập</button>
-                </div>
-                <div class="form-group form-check col-12">
-                    <input type="checkbox" name="chkSave" value="1" />
-                    <label>Tự động đăng nhập</label>
-                </div>
-            </div>
-            <a class="register" href="https://careerbuilder.vn/vi/jobseekers/register" title="Đăng ký">Đăng ký </a><a class="forget-password" href="https://careerbuilder.vn/vi/jobseekers/forgotpassword" title="Quên mật khẩu?" rel="nofollow">Quên mật khẩu?</a>
-        </form>
-        <div class="sign-in-by">
-            <span>Đăng nhập bằng:</span>
-            <ul>
-                <li><a href="javascript:void(0);" onclick="popupapi('facebook','aHR0cHM6Ly9jYXJlZXJidWlsZGVyLnZuL3ZpL2pvYnNlZWtlcnMvbG9naW5mYWNlYm9vaw==');"><i class="fa fa-facebook-official"></i></a></li>
-                <li><a href="javascript:void(0);" onclick="popupapi('linkedin','aHR0cHM6Ly9jYXJlZXJidWlsZGVyLnZuL3ZpL2pvYnNlZWtlcnMvbG9naW5saW5rZWRpbg==');"><i class="fa fa-linkedin-square"></i></a></li>
-                <li><a href="javascript:void(0);" onclick="popupapi('google','aHR0cHM6Ly9jYXJlZXJidWlsZGVyLnZuL3ZpL2pvYnNlZWtlcnMvbG9naW5nb29nbGU=');"><i class="fa fa-google-plus-square"></i></a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-<script>/*jquery.validate_vi.js*/
-
-(function($){$.extend($.fn,{validate:function(options){if(!this.length){options&&options.debug&&window.console&&console.warn("nothing selected, can't validate, returning nothing");return;}
-var validator=$.data(this[0],'validator');if(validator){return validator;}
-validator=new $.validator(options,this[0]);$.data(this[0],'validator',validator);if(validator.settings.onsubmit){this.find("input, button").filter(".cancel").click(function(){validator.cancelSubmit=true;});if(validator.settings.submitHandler){this.find("input, button").filter(":submit").click(function(){validator.submitButton=this;});}
-this.submit(function(event){if(validator.settings.debug)
-event.preventDefault();function handle(){if(validator.settings.submitHandler){if(validator.submitButton){var hidden=$("<input type='hidden'/>").attr("name",validator.submitButton.name).val(validator.submitButton.value).appendTo(validator.currentForm);}
-validator.settings.submitHandler.call(validator,validator.currentForm);if(validator.submitButton){hidden.remove();}
-return false;}
-return true;}
-if(validator.cancelSubmit){validator.cancelSubmit=false;return handle();}
-if(validator.form()){if(validator.pendingRequest){validator.formSubmitted=true;return false;}
-return handle();}else{validator.focusInvalid();return false;}});}
-return validator;},valid:function(){if($(this[0]).is('form')){return this.validate().form();}else{var valid=true;var validator=$(this[0].form).validate();this.each(function(){valid&=validator.element(this);});return valid;}},removeAttrs:function(attributes){var result={},$element=this;$.each(attributes.split(/\s/),function(index,value){result[value]=$element.attr(value);$element.removeAttr(value);});return result;},rules:function(command,argument){var element=this[0];if(command){var settings=$.data(element.form,'validator').settings;var staticRules=settings.rules;var existingRules=$.validator.staticRules(element);switch(command){case"add":$.extend(existingRules,$.validator.normalizeRule(argument));staticRules[element.name]=existingRules;if(argument.messages)
-settings.messages[element.name]=$.extend(settings.messages[element.name],argument.messages);break;case"remove":if(!argument){delete staticRules[element.name];return existingRules;}
-var filtered={};$.each(argument.split(/\s/),function(index,method){filtered[method]=existingRules[method];delete existingRules[method];});return filtered;}}
-var data=$.validator.normalizeRules($.extend({},$.validator.metadataRules(element),$.validator.classRules(element),$.validator.attributeRules(element),$.validator.staticRules(element)),element);if(data.required){var param=data.required;delete data.required;data=$.extend({required:param},data);}
-return data;}});$.extend($.expr[":"],{blank:function(a){return!$.trim(""+a.value);},filled:function(a){return!!$.trim(""+a.value);},unchecked:function(a){return!a.checked;}});$.validator=function(options,form){this.settings=$.extend(true,{},$.validator.defaults,options);this.currentForm=form;this.init();};$.validator.format=function(source,params){if(arguments.length==1)
-return function(){var args=$.makeArray(arguments);args.unshift(source);return $.validator.format.apply(this,args);};if(arguments.length>2&&params.constructor!=Array){params=$.makeArray(arguments).slice(1);}
-if(params.constructor!=Array){params=[params];}
-$.each(params,function(i,n){source=source.replace(new RegExp("\\{"+i+"\\}","g"),n);});return source;};$.extend($.validator,{defaults:{messages:{},groups:{},rules:{},errorClass:"error",validClass:"valid",errorElement:"label",focusInvalid:true,errorContainer:$([]),errorLabelContainer:$([]),onsubmit:true,ignore:[],ignoreTitle:false,onfocusin:function(element){this.lastActive=element;if(this.settings.focusCleanup&&!this.blockFocusCleanup){this.settings.unhighlight&&this.settings.unhighlight.call(this,element,this.settings.errorClass,this.settings.validClass);this.addWrapper(this.errorsFor(element)).hide();}},onfocusout:function(element){if(!this.checkable(element)&&(element.name in this.submitted||!this.optional(element))){this.element(element);}},onkeyup:function(element){if(element.name in this.submitted||element==this.lastElement){this.element(element);}},onclick:function(element){if(element.name in this.submitted)
-this.element(element);else if(element.parentNode.name in this.submitted)
-this.element(element.parentNode);},highlight:function(element,errorClass,validClass){if(element.type==='radio'){this.findByName(element.name).addClass(errorClass).removeClass(validClass);}else{$(element).addClass(errorClass).removeClass(validClass);}},unhighlight:function(element,errorClass,validClass){if(element.type==='radio'){this.findByName(element.name).removeClass(errorClass).addClass(validClass);}else{$(element).removeClass(errorClass).addClass(validClass);}}},setDefaults:function(settings){$.extend($.validator.defaults,settings);},messages:{required:"Không được để trống.",remote:"Please fix this field.",email:"Địa chỉ email không hợp lệ.",url:"Please enter a valid URL.",date:"Please enter a valid date.",dateISO:"Please enter a valid date (ISO).",dateDE:"Bitte geben Sie ein gültiges Datum ein.",number:"Vui lòng nhập số.",numberDE:"Bitte geben Sie eine Nummer ein.",digits:"Please enter only digits",creditcard:"Please enter a valid credit card number.",equalTo:"Please enter the same value again.",accept:"Vui lòng chọn đúng định dạng file cho phép.",maxlength:$.validator.format("Không được nhập quá {0} ký tự."),minlength:$.validator.format("Không được nhập it hơn {0} ký tự."),rangelength:$.validator.format("Vui lòng nhập trong khoảng từ {0} đến {1} ký tự."),range:$.validator.format("Vui lòng nhập giá trị trong khoảng {0} - {1}."),max:$.validator.format("Vui lòng nhập giá trị nhỏ hơn hoặc bằng {0}."),min:$.validator.format("Vui lòng nhập giá trị lớn hơn hoặc bằng {0}.")},autoCreateRanges:false,prototype:{init:function(){this.labelContainer=$(this.settings.errorLabelContainer);this.errorContext=this.labelContainer.length&&this.labelContainer||$(this.currentForm);this.containers=$(this.settings.errorContainer).add(this.settings.errorLabelContainer);this.submitted={};this.valueCache={};this.pendingRequest=0;this.pending={};this.invalid={};this.reset();var groups=(this.groups={});$.each(this.settings.groups,function(key,value){$.each(value.split(/\s/),function(index,name){groups[name]=key;});});var rules=this.settings.rules;$.each(rules,function(key,value){rules[key]=$.validator.normalizeRule(value);});function delegate(event){var validator=$.data(this[0].form,"validator"),eventType="on"+event.type.replace(/^validate/,"");validator.settings[eventType]&&validator.settings[eventType].call(validator,this[0]);}
-$(this.currentForm).validateDelegate(":text, :password, :file, select, textarea","focusin focusout keyup",delegate).validateDelegate(":radio, :checkbox, select, option","click",delegate);if(this.settings.invalidHandler)
-$(this.currentForm).bind("invalid-form.validate",this.settings.invalidHandler);},form:function(){this.checkForm();$.extend(this.submitted,this.errorMap);this.invalid=$.extend({},this.errorMap);if(!this.valid())
-$(this.currentForm).triggerHandler("invalid-form",[this]);this.showErrors();return this.valid();},checkForm:function(){this.prepareForm();for(var i=0,elements=(this.currentElements=this.elements());elements[i];i++){this.check(elements[i]);}
-return this.valid();},element:function(element){element=this.clean(element);this.lastElement=element;this.prepareElement(element);this.currentElements=$(element);var result=this.check(element);if(result){delete this.invalid[element.name];}else{this.invalid[element.name]=true;}
-if(!this.numberOfInvalids()){this.toHide=this.toHide.add(this.containers);}
-this.showErrors();return result;},showErrors:function(errors){if(errors){$.extend(this.errorMap,errors);this.errorList=[];for(var name in errors){this.errorList.push({message:errors[name],element:this.findByName(name)[0]});}
-this.successList=$.grep(this.successList,function(element){return!(element.name in errors);});}
-this.settings.showErrors?this.settings.showErrors.call(this,this.errorMap,this.errorList):this.defaultShowErrors();},resetForm:function(){if($.fn.resetForm)
-$(this.currentForm).resetForm();this.submitted={};this.prepareForm();this.hideErrors();this.elements().removeClass(this.settings.errorClass);},numberOfInvalids:function(){return this.objectLength(this.invalid);},objectLength:function(obj){var count=0;for(var i in obj)
-count++;return count;},hideErrors:function(){this.addWrapper(this.toHide).hide();},valid:function(){return this.size()==0;},size:function(){return this.errorList.length;},focusInvalid:function(){if(this.settings.focusInvalid){try{$(this.findLastActive()||this.errorList.length&&this.errorList[0].element||[]).filter(":visible").focus().trigger("focusin");}catch(e){}}},findLastActive:function(){var lastActive=this.lastActive;return lastActive&&$.grep(this.errorList,function(n){return n.element.name==lastActive.name;}).length==1&&lastActive;},elements:function(){var validator=this,rulesCache={};return $(this.currentForm).find("input, select, textarea").not(":submit, :reset, :image, [disabled]").not(this.settings.ignore).filter(function(){!this.name&&validator.settings.debug&&window.console&&console.error("%o has no name assigned",this);if(this.name in rulesCache||!validator.objectLength($(this).rules()))
-return false;rulesCache[this.name]=true;return true;});},clean:function(selector){return $(selector)[0];},errors:function(){return $(this.settings.errorElement+"."+this.settings.errorClass,this.errorContext);},reset:function(){this.successList=[];this.errorList=[];this.errorMap={};this.toShow=$([]);this.toHide=$([]);this.currentElements=$([]);},prepareForm:function(){this.reset();this.toHide=this.errors().add(this.containers);},prepareElement:function(element){this.reset();this.toHide=this.errorsFor(element);},check:function(element){element=this.clean(element);if(this.checkable(element)){element=this.findByName(element.name).not(this.settings.ignore)[0];}
-var rules=$(element).rules();var dependencyMismatch=false;for(var method in rules){var rule={method:method,parameters:rules[method]};try{var result=$.validator.methods[method].call(this,element.value.replace(/\r/g,""),element,rule.parameters);if(result=="dependency-mismatch"){dependencyMismatch=true;continue;}
-dependencyMismatch=false;if(result=="pending"){this.toHide=this.toHide.not(this.errorsFor(element));return;}
-if(!result){this.formatAndAdd(element,rule);return false;}}catch(e){this.settings.debug&&window.console&&console.log("exception occured when checking element "+element.id
-+", check the '"+rule.method+"' method",e);throw e;}}
-if(dependencyMismatch)
-return;if(this.objectLength(rules))
-this.successList.push(element);return true;},customMetaMessage:function(element,method){if(!$.metadata)
-return;var meta=this.settings.meta?$(element).metadata()[this.settings.meta]:$(element).metadata();return meta&&meta.messages&&meta.messages[method];},customMessage:function(name,method){var m=this.settings.messages[name];return m&&(m.constructor==String?m:m[method]);},findDefined:function(){for(var i=0;i<arguments.length;i++){if(arguments[i]!==undefined)
-return arguments[i];}
-return undefined;},defaultMessage:function(element,method){return this.findDefined(this.customMessage(element.name,method),this.customMetaMessage(element,method),!this.settings.ignoreTitle&&element.title||undefined,$.validator.messages[method],"<strong>Warning: No message defined for "+element.name+"</strong>");},formatAndAdd:function(element,rule){var message=this.defaultMessage(element,rule.method),theregex=/\$?\{(\d+)\}/g;if(typeof message=="function"){message=message.call(this,rule.parameters,element);}else if(theregex.test(message)){message=jQuery.format(message.replace(theregex,'{$1}'),rule.parameters);}
-this.errorList.push({message:message,element:element});this.errorMap[element.name]=message;this.submitted[element.name]=message;},addWrapper:function(toToggle){if(this.settings.wrapper)
-toToggle=toToggle.add(toToggle.parent(this.settings.wrapper));return toToggle;},defaultShowErrors:function(){for(var i=0;this.errorList[i];i++){var error=this.errorList[i];this.settings.highlight&&this.settings.highlight.call(this,error.element,this.settings.errorClass,this.settings.validClass);this.showLabel(error.element,error.message);}
-if(this.errorList.length){this.toShow=this.toShow.add(this.containers);}
-if(this.settings.success){for(var i=0;this.successList[i];i++){this.showLabel(this.successList[i]);}}
-if(this.settings.unhighlight){for(var i=0,elements=this.validElements();elements[i];i++){this.settings.unhighlight.call(this,elements[i],this.settings.errorClass,this.settings.validClass);}}
-this.toHide=this.toHide.not(this.toShow);this.hideErrors();this.addWrapper(this.toShow).show();},validElements:function(){return this.currentElements.not(this.invalidElements());},invalidElements:function(){return $(this.errorList).map(function(){return this.element;});},showLabel:function(element,message){var label=this.errorsFor(element);if(label.length){label.removeClass().addClass(this.settings.errorClass);label.attr("generated")&&label.html(message);}else{label=$("<"+this.settings.errorElement+"/>").attr({"for":this.idOrName(element),generated:true}).addClass(this.settings.errorClass).html(message||"");if(this.settings.wrapper){label=label.hide().show().wrap("<"+this.settings.wrapper+"/>").parent();}
-if(!this.labelContainer.append(label).length)
-this.settings.errorPlacement?this.settings.errorPlacement(label,$(element)):label.insertAfter(element);}
-if(!message&&this.settings.success){label.text("");typeof this.settings.success=="string"?label.addClass(this.settings.success):this.settings.success(label);}
-this.toShow=this.toShow.add(label);},errorsFor:function(element){var name=this.idOrName(element);return this.errors().filter(function(){return $(this).attr('for')==name;});},idOrName:function(element){return this.groups[element.name]||(this.checkable(element)?element.name:element.id||element.name);},checkable:function(element){return/radio|checkbox/i.test(element.type);},findByName:function(name){var form=this.currentForm;return $(document.getElementsByName(name)).map(function(index,element){return element.form==form&&element.name==name&&element||null;});},getLength:function(value,element){switch(element.nodeName.toLowerCase()){case'select':return $("option:selected",element).length;case'input':if(this.checkable(element))
-return this.findByName(element.name).filter(':checked').length;}
-return value.length;},depend:function(param,element){return this.dependTypes[typeof param]?this.dependTypes[typeof param](param,element):true;},dependTypes:{"boolean":function(param,element){return param;},"string":function(param,element){return!!$(param,element.form).length;},"function":function(param,element){return param(element);}},optional:function(element){return!$.validator.methods.required.call(this,$.trim(element.value),element)&&"dependency-mismatch";},startRequest:function(element){if(!this.pending[element.name]){this.pendingRequest++;this.pending[element.name]=true;}},stopRequest:function(element,valid){this.pendingRequest--;if(this.pendingRequest<0)
-this.pendingRequest=0;delete this.pending[element.name];if(valid&&this.pendingRequest==0&&this.formSubmitted&&this.form()){$(this.currentForm).submit();this.formSubmitted=false;}else if(!valid&&this.pendingRequest==0&&this.formSubmitted){$(this.currentForm).triggerHandler("invalid-form",[this]);this.formSubmitted=false;}},previousValue:function(element){return $.data(element,"previousValue")||$.data(element,"previousValue",{old:null,valid:true,message:this.defaultMessage(element,"remote")});}},classRuleSettings:{required:{required:true},email:{email:true},url:{url:true},date:{date:true},dateISO:{dateISO:true},dateDE:{dateDE:true},number:{number:true},numberDE:{numberDE:true},digits:{digits:true},creditcard:{creditcard:true}},addClassRules:function(className,rules){className.constructor==String?this.classRuleSettings[className]=rules:$.extend(this.classRuleSettings,className);},classRules:function(element){var rules={};var classes=$(element).attr('class');classes&&$.each(classes.split(' '),function(){if(this in $.validator.classRuleSettings){$.extend(rules,$.validator.classRuleSettings[this]);}});return rules;},attributeRules:function(element){var rules={};var $element=$(element);for(var method in $.validator.methods){var value=$element.attr(method);if(value){rules[method]=value;}}
-if(rules.maxlength&&/-1|2147483647|524288/.test(rules.maxlength)){delete rules.maxlength;}
-return rules;},metadataRules:function(element){if(!$.metadata)return{};var meta=$.data(element.form,'validator').settings.meta;return meta?$(element).metadata()[meta]:$(element).metadata();},staticRules:function(element){var rules={};var validator=$.data(element.form,'validator');if(validator.settings.rules){rules=$.validator.normalizeRule(validator.settings.rules[element.name])||{};}
-return rules;},normalizeRules:function(rules,element){$.each(rules,function(prop,val){if(val===false){delete rules[prop];return;}
-if(val.param||val.depends){var keepRule=true;switch(typeof val.depends){case"string":keepRule=!!$(val.depends,element.form).length;break;case"function":keepRule=val.depends.call(element,element);break;}
-if(keepRule){rules[prop]=val.param!==undefined?val.param:true;}else{delete rules[prop];}}});$.each(rules,function(rule,parameter){rules[rule]=$.isFunction(parameter)?parameter(element):parameter;});$.each(['minlength','maxlength','min','max'],function(){if(rules[this]){rules[this]=Number(rules[this]);}});$.each(['rangelength','range'],function(){if(rules[this]){rules[this]=[Number(rules[this][0]),Number(rules[this][1])];}});if($.validator.autoCreateRanges){if(rules.min&&rules.max){rules.range=[rules.min,rules.max];delete rules.min;delete rules.max;}
-if(rules.minlength&&rules.maxlength){rules.rangelength=[rules.minlength,rules.maxlength];delete rules.minlength;delete rules.maxlength;}}
-if(rules.messages){delete rules.messages;}
-return rules;},normalizeRule:function(data){if(typeof data=="string"){var transformed={};$.each(data.split(/\s/),function(){transformed[this]=true;});data=transformed;}
-return data;},addMethod:function(name,method,message){$.validator.methods[name]=method;$.validator.messages[name]=message!=undefined?message:$.validator.messages[name];if(method.length<3){$.validator.addClassRules(name,$.validator.normalizeRule(name));}},methods:{required:function(value,element,param){if(!this.depend(param,element))
-return"dependency-mismatch";switch(element.nodeName.toLowerCase()){case'select':var val=$(element).val();return val&&val.length>0;case'input':if(this.checkable(element))
-return this.getLength(value,element)>0;default:return $.trim(value).length>0;}},remote:function(value,element,param){if(this.optional(element))
-return"dependency-mismatch";var previous=this.previousValue(element);if(!this.settings.messages[element.name])
-this.settings.messages[element.name]={};previous.originalMessage=this.settings.messages[element.name].remote;this.settings.messages[element.name].remote=previous.message;param=typeof param=="string"&&{url:param}||param;if(this.pending[element.name]){return"pending";}
-if(previous.old===value){return previous.valid;}
-previous.old=value;var validator=this;this.startRequest(element);var data={};data[element.name]=value;$.ajax($.extend(true,{url:param,mode:"abort",port:"validate"+element.name,dataType:"json",data:data,success:function(response){validator.settings.messages[element.name].remote=previous.originalMessage;var valid=response===true;if(valid){var submitted=validator.formSubmitted;validator.prepareElement(element);validator.formSubmitted=submitted;validator.successList.push(element);validator.showErrors();}else{var errors={};var message=response||validator.defaultMessage(element,"remote");errors[element.name]=previous.message=$.isFunction(message)?message(value):message;validator.showErrors(errors);}
-previous.valid=valid;validator.stopRequest(element,valid);}},param));return"pending";},minlength:function(value,element,param){return this.optional(element)||this.getLength($.trim(value),element)>=param;},maxlength:function(value,element,param){return this.optional(element)||this.getLength($.trim(value),element)<=param;},rangelength:function(value,element,param){var length=this.getLength($.trim(value),element);return this.optional(element)||(length>=param[0]&&length<=param[1]);},min:function(value,element,param){return this.optional(element)||value>=param;},max:function(value,element,param){return this.optional(element)||value<=param;},range:function(value,element,param){return this.optional(element)||(value>=param[0]&&value<=param[1]);},email:function(value,element){return this.optional(element)||/^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?$/i.test(value);},url:function(value,element){return this.optional(element)||/^(https?|ftp):\/\/(((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:)*@)?(((\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5]))|((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?)(:\d*)?)(\/((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)+(\/(([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)*)*)?)?(\?((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)|[\uE000-\uF8FF]|\/|\?)*)?(\#((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)|\/|\?)*)?$/i.test(value);},date:function(value,element){return this.optional(element)||!/Invalid|NaN/.test(new Date(value));},dateISO:function(value,element){return this.optional(element)||/^\d{4}[\/-]\d{1,2}[\/-]\d{1,2}$/.test(value);},number:function(value,element){return this.optional(element)||/^-?(?:\d+|\d{1,3}(?:,\d{3})+)(?:\.\d+)?$/.test(value);},digits:function(value,element){return this.optional(element)||/^\d+$/.test(value);},creditcard:function(value,element){if(this.optional(element))
-return"dependency-mismatch";if(/[^0-9-]+/.test(value))
-return false;var nCheck=0,nDigit=0,bEven=false;value=value.replace(/\D/g,"");for(var n=value.length-1;n>=0;n--){var cDigit=value.charAt(n);var nDigit=parseInt(cDigit,10);if(bEven){if((nDigit*=2)>9)
-nDigit-=9;}
-nCheck+=nDigit;bEven=!bEven;}
-return(nCheck%10)==0;},accept:function(value,element,param){param=typeof param=="string"?param.replace(/,/g,'|'):"png|jpe?g|gif";return this.optional(element)||value.match(new RegExp(".("+param+")$","i"));},equalTo:function(value,element,param){var target=$(param).unbind(".validate-equalTo").bind("blur.validate-equalTo",function(){$(element).valid();});return value==target.val();}}});$.format=$.validator.format;})(jQuery);;(function($){var pendingRequests={};if($.ajaxPrefilter){$.ajaxPrefilter(function(settings,_,xhr){var port=settings.port;if(settings.mode=="abort"){if(pendingRequests[port]){pendingRequests[port].abort();}
-pendingRequests[port]=xhr;}});}else{var ajax=$.ajax;$.ajax=function(settings){var mode=("mode"in settings?settings:$.ajaxSettings).mode,port=("port"in settings?settings:$.ajaxSettings).port;if(mode=="abort"){if(pendingRequests[port]){pendingRequests[port].abort();}
-return(pendingRequests[port]=ajax.apply(this,arguments));}
-return ajax.apply(this,arguments);};}})(jQuery);;(function($){if(!jQuery.event.special.focusin&&!jQuery.event.special.focusout&&document.addEventListener){$.each({focus:'focusin',blur:'focusout'},function(original,fix){$.event.special[fix]={setup:function(){this.addEventListener(original,handler,true);},teardown:function(){this.removeEventListener(original,handler,true);},handler:function(e){arguments[0]=$.event.fix(e);arguments[0].type=fix;return $.event.handle.apply(this,arguments);}};function handler(e){e=$.event.fix(e);e.type=fix;return $.event.handle.call(this,e);}});};$.extend($.fn,{validateDelegate:function(delegate,type,handler){return this.bind(type,function(event){var target=$(event.target);if(target.is(delegate)){return handler.apply(target,arguments);}});}});})(jQuery);
-</script>
-
-  <script>
-    $(document).ready(function(){
-      $("#popup_login_form").validate({
-        rules: {
-            username: {
-              required: true,
-            },
-            password: {
-              required: true,
-            }
-        },
-        errorPlacement: function(error, element) {
-			return true;
-        },
-        success: function (error) {
-          error.remove();
-        }
-      });
-    });
-  </script>
-<div class="apply-job-modal" id="apply-job-modal" style="display: none">
-    <h3>Apply for: <span class="job-title" id="span_title">Nhân Viên Tuyển Dụng</span></h3>
-        <h4>Công Ty TNHH May Thêu Giày An Phước</h4>
-        
-    <div class="login-form">
-        <form id="frmLogin" name="frmLogin" method="POST" action="https://careerbuilder.vn/vi/jobseekers/member/login" >
-            <p class="note"> Thành viên đăng nhập <span class="note" style="font-weight:100">(Nếu bạn đã có hồ sơ tại CareerBuilder)</span></p>
-            <div class="form-group">
-                <input type="text" placeholder="Email" name="username" value=""  title="Email">
-                <span class="error_username"></span>
-            </div>
-            <div class="form-group">
-                <input type="password" name="password" placeholder="Mật khẩu">
-                <span class="error_password"></span>
-            </div>
-            <div class="form-group form-submit">
-                <input type="hidden" name="csrf_token_apply" value= "f42d61ec3a243618e076913f21732e37bdc1bd79da25322bd98a4f0233b81614" />
-                <input type="submit" value="Sign in and Apply">
-            </div>
-        </form>
-    </div>
-    <div class="apply-not-login">
-        <strong>Nộp đơn ứng tuyển nhanh không cần đăng ký tài khoản</strong>
-        <p class="note">Bạn có thể nộp đơn ứng tuyển không cần đăng nhập hoặc chưa là thành viên của CareerBuilder.</p>
-    <div class="btn-group">
-        <a class="btn-apply-non-member"  id="apply_url" href="https://careerbuilder.vn/vi/jobseekers/jobs/apply?s=cbnon&job_id=35B9A7C0"  rel="nofollow" >Ứng Tuyển Ngay</a>
-        <span class="or-text">hoặc</span>
+        <div class="apply-not-login">
+            <strong>Nộp đơn ứng tuyển nhanh không cần đăng ký tài khoản</strong>
+            <p class="note">Bạn có thể nộp đơn ứng tuyển không cần đăng nhập hoặc chưa là thành viên của CareerBuilder.</p>
+            <div class="btn-group">
+                <a class="btn-apply-non-member"  id="apply_url" href="https://careerbuilder.vn/vi/jobseekers/jobs/apply?s=cbnon&job_id=35B9A7C0"  rel="nofollow" >Ứng Tuyển Ngay</a>
+                <span class="or-text">hoặc</span>
                 <a class="btn-apply-facebook" href="javascript:void(0);" onclick="popupapi('facebook','aHR0cHM6Ly9jYXJlZXJidWlsZGVyLnZuL3ZpL2pvYnNlZWtlcnMvbG9naW5mYWNlYm9vaz9hcHBseV91cmw9aHR0cHM6Ly9jYXJlZXJidWlsZGVyLnZuL3ZpL2pvYnNlZWtlcnMvam9icy9hcHBseT9qb2JfaWQ9MzVCOUE3QzA=');" rel="nofollow"> Apply with <strong>Facebook</strong><i class="fa fa-facebook"></i></a>
             </div>
+        </div>
     </div>
-</div>
-
     <script>
         var language_plogin = {
                             LANG_ERROR_P_PASSWORD_NULL:"Vui lòng nhập mật khẩu!",
@@ -1635,9 +1085,9 @@ return ajax.apply(this,arguments);};}})(jQuery);;(function($){if(!jQuery.event.s
                             LANG_ERROR_P_USERNAME_NULL:"Vui lòng nhập email!",
                             job_index_username:"Email"
                         };
-
-        if(typeof language === 'undefined')	var language = language_plogin;
-        else	$.extend(language, language_plogin);
+        
+        if(typeof language === 'undefined') var language = language_plogin;
+        else    $.extend(language, language_plogin);
         $(document).ready(function(){
             $("#frmLogin").validate({
                 rules: {
@@ -1650,8 +1100,8 @@ return ajax.apply(this,arguments);};}})(jQuery);;(function($){if(!jQuery.event.s
                     }
                 },
                 messages: {
-                    username: {required: language.LANG_ERROR_P_USERNAME_NULL}	,
-				    password: {required: language.LANG_ERROR_P_PASSWORD_NULL,rangelength:language.LANG_ERROR_P_PASSWORD_LENGTH}
+                    username: {required: language.LANG_ERROR_P_USERNAME_NULL}   ,
+        password: {required: language.LANG_ERROR_P_PASSWORD_NULL,rangelength:language.LANG_ERROR_P_PASSWORD_LENGTH}
                 },
                 errorPlacement: function(error, element) {
                     var name = element.attr('name');
@@ -1665,410 +1115,99 @@ return ajax.apply(this,arguments);};}})(jQuery);;(function($){if(!jQuery.event.s
             });
         });
     </script>
-
-<script>
-	function showboxJobalert() {
-        var win = window.open('https://careerbuilder.vn/thong-bao-viec-lam', '_blank');
-        if (win) {
-            win.focus();
-        } else {
-            console.log('error open tab');
+    <script>
+        function showboxJobalert() {
+               var win = window.open('https://careerbuilder.vn/thong-bao-viec-lam', '_blank');
+               if (win) {
+                   win.focus();
+               } else {
+                   console.log('error open tab');
+               }
+               return false;
+            //$.fancybox.open($("#popup-jobalert"));
         }
-        return false;
-		//$.fancybox.open($("#popup-jobalert"));
-	}
-</script>
-
-<input type="hidden" value="" name="from_action" id="from_action" />
-<script src="{{ asset('js/footer2.js') }}">/*jquery.tabslet.js*/
-
-</script>
-
-<script type="text/javascript">
-    var flag_load_company = 0;
-    $(document).ready(function () {
-        $(".search-result .tabs, .search-result-list-detail .tabs").on("_before", function(event){
-            if(event.target.id == 'tabs-job-company'){
-                if(flag_load_company == 0){
-                    var link_company = $(".apply-now-content a.job-company-name").attr('href');
-                    load_company(link_company);
-                }
-            }
-        });
-    });
-    $(document).on('click', 'a.job-company-name', function(e){
-        e.preventDefault();
-        var link_company = $(this).attr('href');
-        load_company(link_company);
-    });
-    function load_company(link){
-        if(flag_load_company == 0){
-            if($.trim(link) != '' && $.trim(link) != '#'){
-                $("#tab-2").html('Loading....');
-				var from_action = $("#from_action").val();
-                $.ajax({
-                url: link+'?ajax=1&from_action='+from_action,
-                type: 'POST',
-                dataType: 'json',
-                }).done(function(data){
-                    if(data.layout_profile == 1){
-                        var win = window.open(link, '_blank');
-                        $("#tabs-job-detail").click();
-                        $("#tab-2").html('');
-                    }else{
-                        flag_load_company = 1;
-                        $("#tab-2").html(data.html_detail);
-                        companyPhotoSlide();
-                        $("#tabs-job-company").click();
+    </script>
+    <input type="hidden" value="" name="from_action" id="from_action" />
+    <script src="{{ asset('js/footer2.js') }}">/*jquery.tabslet.js*/</script>
+    <script type="text/javascript">
+        var flag_load_company = 0;
+        $(document).ready(function () {
+            $(".search-result .tabs, .search-result-list-detail .tabs").on("_before", function(event){
+                if(event.target.id == 'tabs-job-company'){
+                    if(flag_load_company == 0){
+                        var link_company = $(".apply-now-content a.job-company-name").attr('href');
+                        load_company(link_company);
                     }
-                });
+                }
+            });
+        });
+        $(document).on('click', 'a.job-company-name', function(e){
+            e.preventDefault();
+            var link_company = $(this).attr('href');
+            load_company(link_company);
+        });
+        function load_company(link){
+            if(flag_load_company == 0){
+                if($.trim(link) != '' && $.trim(link) != '#'){
+                    $("#tab-2").html('Loading....');
+        var from_action = $("#from_action").val();
+                    $.ajax({
+                    url: link+'?ajax=1&from_action='+from_action,
+                    type: 'POST',
+                    dataType: 'json',
+                    }).done(function(data){
+                        if(data.layout_profile == 1){
+                            var win = window.open(link, '_blank');
+                            $("#tabs-job-detail").click();
+                            $("#tab-2").html('');
+                        }else{
+                            flag_load_company = 1;
+                            $("#tab-2").html(data.html_detail);
+                            companyPhotoSlide();
+                            $("#tabs-job-company").click();
+                        }
+                    });
+                }
+            }else{
+                $("#tabs-job-company").click();
             }
-        }else{
-            $("#tabs-job-company").click();
+            $('html,body').animate({
+                scrollTop: 0
+            }, 700);
         }
-        $('html,body').animate({
-            scrollTop: 0
-        }, 700);
-    }
-</script>
-
-
-<script type="text/javascript">
-  var language_pdetail = {
-	  job_chk_save_jobs_saved:"Việc làm đã lưu",
-	  job_chk_save_jobs_save:"Lưu việc làm"
-  };
-  if(typeof language === 'undefined')	var language = language_pdetail;
-  else	$.extend(language, language_pdetail);
-</script>
-
-
-
-<script>
-if ($.isFunction(window.smartech)) {
-	smartech('dispatch', 'p_detail_page', {
-			"job_title_id"		: '1359552',
-			"job_title"			: 'Nhân Viên Tuyển Dụng',
-			"job_location_id"	: '8',
-			"job_location"		: 'Hồ Chí Minh',
-			"employer_name_id"	: '2816',
-			"employer_name"		: "Công Ty TNHH May Thêu Giày An Phước",
-			"job_level_id"		: '3',
-			"job_level"			: 'Nhân viên',
-			"salary"			: 'cạnh tranh',
-			"from_salary"		: 0,
-			"to_salary"			: 0,
-			"unit_salary"		: 'VND',
-			"member"			: 'no'
-		}
-	);
-}
-var product = {
-	identifier: '35B9A7C0'
-};
-</script>
-<script type="application/ld+json">{"@context": "http://schema.org","@type": "JobPosting","baseSalary" : {"@type": "MonetaryAmount","currency": "VND","value": {"@type": "QuantitativeValue","value":"Cạnh tranh","unitText":"MONTH"}},"industry": "Nhân sự, Dệt may / Da giày / Thời trang, Hành chính / Thư ký","jobBenefits": "Chế độ bảo hiểm, Phụ cấp, Đồng phục, Chế độ thưởng, Tăng lương, Công tác phí, Phụ cấp thâm niên, Nghỉ phép năm","datePosted": "2022-06-14","validThrough": "2022-07-15","occupationalCategory": "Nhân viên","description": "<p>Đề xuất các kênh tuyển dụng phù hợp nhằm đáp ứng nhu cầu nhân sự cho nhà máy<br/>Triển khai các kế hoạch tuyển mộ, tuyển chọn ứng viên<br/>Phỏng vấn, đánh giá, tham vấn ra quyết định tuyển chọn ứng viên<br/>Xây dựng và cải tiến quy trình tuyển dụng<br/>Thực hiện các hoạt động hướng dẫn và đào tạo hội nhập cho nhân viên mới</p><p>Một số công việc khác trao đổi trong phỏng vấn</p>","experienceRequirements": {"@type": "OccupationalExperienceRequirements","monthsOfExperience": "60","description":"<p>Nam, nữ kinh nghiệm 05 năm tuyển dụng hệ thống, td lao động số lượng lớn<br/>Ngoại hình khá, nhanh nhẹn, giao tiếp tốt.<br/>Thông thạo các kênh tuyển dụng<br/>Có kinh nghiệm quản lý nhân sự công ty quy mô 1000 lđ trở lên</p>"},"qualifications": "Cao đẳng","identifier": {"@type":"PropertyValue","name":"Công Ty TNHH May Thêu Giày An Phước","value":"35A4F400"},"hiringOrganization" : {"@type" : "Organization","name" : "Công Ty TNHH May Thêu Giày An Phước","sameAs":"https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-may-theu-giay-an-phuoc.35A4F400.html","logo":"https://images.careerbuilder.vn/employer_folders/lot6/2816/110x55/74705logoap.jpg"},"employmentType": ["FULL_TIME"],"jobLocation" : {"@type": "Place","address": {"@type": "PostalAddress","streetAddress": "Hồ Chí Minh","addressLocality": "Hồ Chí Minh","addressRegion": "Hồ Chí Minh","addressCountry": "Việt Nam","postalCode": "70000"}},"title" : "Nhân Viên Tuyển Dụng","skills" : "","workHours" : "8 giờ"}</script>
-<div class="back-drop"></div>
+    </script>
+    <script type="text/javascript">
+        var language_pdetail = {
+         job_chk_save_jobs_saved:"Việc làm đã lưu",
+         job_chk_save_jobs_save:"Lưu việc làm"
+        };
+        if(typeof language === 'undefined') var language = language_pdetail;
+        else    $.extend(language, language_pdetail);
+    </script>
+    <script>
+        if ($.isFunction(window.smartech)) {
+            smartech('dispatch', 'p_detail_page', {
+                    "job_title_id"      : '1359552',
+                    "job_title"         : 'Nhân Viên Tuyển Dụng',
+                    "job_location_id"   : '8',
+                    "job_location"      : 'Hồ Chí Minh',
+                    "employer_name_id"  : '2816',
+                    "employer_name"     : "Công Ty TNHH May Thêu Giày An Phước",
+                    "job_level_id"      : '3',
+                    "job_level"         : 'Nhân viên',
+                    "salary"            : 'cạnh tranh',
+                    "from_salary"       : 0,
+                    "to_salary"         : 0,
+                    "unit_salary"       : 'VND',
+                    "member"            : 'no'
+                }
+            );
+        }
+        var product = {
+            identifier: '35B9A7C0'
+        };
+    </script>
+    <script type="application/ld+json">{"@context": "http://schema.org","@type": "JobPosting","baseSalary" : {"@type": "MonetaryAmount","currency": "VND","value": {"@type": "QuantitativeValue","value":"Cạnh tranh","unitText":"MONTH"}},"industry": "Nhân sự, Dệt may / Da giày / Thời trang, Hành chính / Thư ký","jobBenefits": "Chế độ bảo hiểm, Phụ cấp, Đồng phục, Chế độ thưởng, Tăng lương, Công tác phí, Phụ cấp thâm niên, Nghỉ phép năm","datePosted": "2022-06-14","validThrough": "2022-07-15","occupationalCategory": "Nhân viên","description": "<p>Đề xuất các kênh tuyển dụng phù hợp nhằm đáp ứng nhu cầu nhân sự cho nhà máy<br/>Triển khai các kế hoạch tuyển mộ, tuyển chọn ứng viên<br/>Phỏng vấn, đánh giá, tham vấn ra quyết định tuyển chọn ứng viên<br/>Xây dựng và cải tiến quy trình tuyển dụng<br/>Thực hiện các hoạt động hướng dẫn và đào tạo hội nhập cho nhân viên mới</p><p>Một số công việc khác trao đổi trong phỏng vấn</p>","experienceRequirements": {"@type": "OccupationalExperienceRequirements","monthsOfExperience": "60","description":"<p>Nam, nữ kinh nghiệm 05 năm tuyển dụng hệ thống, td lao động số lượng lớn<br/>Ngoại hình khá, nhanh nhẹn, giao tiếp tốt.<br/>Thông thạo các kênh tuyển dụng<br/>Có kinh nghiệm quản lý nhân sự công ty quy mô 1000 lđ trở lên</p>"},"qualifications": "Cao đẳng","identifier": {"@type":"PropertyValue","name":"Công Ty TNHH May Thêu Giày An Phước","value":"35A4F400"},"hiringOrganization" : {"@type" : "Organization","name" : "Công Ty TNHH May Thêu Giày An Phước","sameAs":"https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-may-theu-giay-an-phuoc.35A4F400.html","logo":"https://images.careerbuilder.vn/employer_folders/lot6/2816/110x55/74705logoap.jpg"},"employmentType": ["FULL_TIME"],"jobLocation" : {"@type": "Place","address": {"@type": "PostalAddress","streetAddress": "Hồ Chí Minh","addressLocality": "Hồ Chí Minh","addressRegion": "Hồ Chí Minh","addressCountry": "Việt Nam","postalCode": "70000"}},"title" : "Nhân Viên Tuyển Dụng","skills" : "","workHours" : "8 giờ"}</script>
+    <div class="back-drop"></div>
 </main>
-<footer>
-    <div class="container">
-        <section class="top-footer cb-section cb-section-border-bottom">
-            <div class="row">
-                <div class="col-lg-12 logo"><img class="lazy-bg" data-src="./img/logo.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Tuyển dụng & Tìm kiếm việc làm nhanh"></div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="footer-links">
-                        <h3>Dành Cho Ứng Viên</h3>
-                        <ul>
-                            <li><a target="_blank" href="https://careerbuilder.vn/viec-lam/tat-ca-viec-lam-vi.html" title="Việc làm mới nhất">Việc làm mới nhất</a></li>
-                            <li><a target="_blank" href="https://careerbuilder.vn/cv-hay/" title="CV Hay">CV Hay</a></li>
-                            <li><a target="_blank" href="https://vietnamsalary.careerbuilder.vn/" title="VietnamSalary">VietnamSalary</a></li>
-                            <li><a target="_blank" href="https://careerbuilder.vn/careermap" title="CareerMap">CareerMap</a></li>
-                            <li><a target="_blank" href="https://careerbuilder.vn/vi/talentcommunity" title="Cẩm Nang">Cẩm Nang</a></li>
-                            <li><a target="_blank" href="https://vieclamit.careerbuilder.vn/advices" title="IT Blogs">IT Blogs</a></li>
-                            <li><a target="_blank" href="https://careerbuilder.vn/vi/mobile" title="Ứng Dụng Di Động">Ứng Dụng Di Động</a></li>
-                            <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/sitemap" title="Sơ Đồ Trang Web">Sơ Đồ Trang Web</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="footer-links">
-                        <h3>Nhà Tuyển Dụng</h3>
-                        <ul>
-                            <li><a target="_blank" href="https://careerbuilder.vn/vi/employers/postjobs" title="Đăng Tuyển Dụng">Đăng Tuyển Dụng</a></li>
-                            <li><a target="_blank" href="https://careerbuilder.vn/vi/resume-search.html" title="Tìm Hồ Sơ">Tìm Hồ Sơ</a></li>
-                            <li><a target="_blank" href="https://careerbuilder.vn/vi/talentnetwork">Giải Pháp Talent Solution</a></li>
-                            <li><a target="_blank" href="https://careerbuilder.vn/vi/employers/products-and-services" title="Sản Phẩm Dịch Vụ">Sản Phẩm Dịch Vụ</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="footer-links">
-                        <h3>Trung tâm trợ giúp</h3>
-                        <ul>
-                            <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/about" title="Về CareerBuilder.vn">Về CareerBuilder.vn</a></li>
-                            <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/regulations" title="Chính Sách BV Thông Tin">Chính Sách BV Thông Tin</a></li>
-                            <li><a target="_blank" href="https://advertising.careerbuilder.vn/html/customer/cbvn/GDPR.PDF" title="Chính sách GDPR">Chính sách GDPR</a></li>
-                            <li><a target="_blank" href="https://images.careerbuilder.vn/regulations.pdf" title="Quy chế sàn giao dịch">Quy chế sàn giao dịch</a></li>
-                            <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/use" title="Thỏa thuận sử dụng">Thỏa thuận sử dụng</a></li>
-                            <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/security" title="Quy định bảo mật">Quy định bảo mật</a></li>
-                            <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/process" title="QT Giải Quyết Tranh Chấp">QT Giải Quyết Tranh Chấp</a></li>
-                            <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/faq" title="Trợ giúp">Trợ giúp</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="footer-links">
-                        <h3>Website Đối Tác</h3>
-                        <ul>
-                            <li><a target="_blank" href="https://vieclam.tuoitre.vn/">Vieclam.Tuoitre.vn</a></li>
-                            <li><a target="_blank" href="https://vieclam.vietnamnet.vn/">Vieclam.Vietnamnet.vn</a></li>
-                            <li><a target="_blank" href="https://vieclam.thanhnien.vn/">Vieclam.Thanhnien.vn</a></li>
-                            <li><a target="_blank" href="https://vieclamit.careerbuilder.vn/">VieclamIT.vn</a></li>
-                            <li><a target="_blank" href="https://careerbuilder.vn/vi/jobseekers/contact">Liên Hệ</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-12">
-                    <div class="footer-app-links">
-                        <h3>Tìm Kiếm Mọi Lúc Mọi Nơi</h3>
-                        <div class="app-links"> <a href="https://itunes.apple.com/vn/app/careerbuilder.vn-job-search/id882391884?l=vi&mt=8" target="_blank" rel="nofollow,noreferrer" title="careerbuilder.vn-job-search"> <img class="lazy-bg" data-src="./img/apple.png" src="../kiemviecv32/images/graphics/blank.gif" alt="app"> </a> <a href="https://play.google.com/store/apps/details?id=vn.careerbuilder.android.app" target="_blank" rel="nofollow,noreferrer" title="careerbuilder.vn-job-search"> <img class="lazy-bg" data-src="./img/android.png" src="../kiemviecv32/images/graphics/blank.gif" alt="app"> </a> </div>
-                    </div>
-                    <div class="footer-social-links">
-                        <h3>Kết nối với CareerBuilder.vn</h3>
-                        <ul>
-                            <li><a rel="nofollow,noreferrer" title="Facebook" target="_blank" href="https://www.facebook.com/pages/CareerBuilder-Vietnam/265321726945679?ref=tn_tnmn"> <span class="fa fa-facebook"></span></a></li>
-                            <li><a rel="nofollow,noreferrer" title="Linkedin" target="_blank" href="https://www.linkedin.com/company/careerbuilder-vietnam"> <span class="fa fa-linkedin"></span></a></li>
-                            <li><a rel="nofollow,noreferrer" title="Youtube" target="_blank" href="https://www.youtube.com/user/CareerBuilderVietnam"> <span class="fa fa-youtube-play"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="bottom-footer">
-            <div class="left-bottom-footer">
-                <p>Trụ sở chính: Tầng 6, Tòa nhà Pasteur, 139 Pasteur, Phường 6, Quận 3, TP. Hồ Chí Minh  - Tel: (84.28) 3822 6060 </p>
-                <p>Văn phòng Hà Nội: Tầng 17, Tòa nhà VIT, 519 Kim Mã, Quận Ba Đình, Hà Nội - Tel: (84.24) 7305 6060 </p>
-                <p>Email: contact@careerbuilder.vn</p>
-                <p>Copyright © CareerBuilder Vietnam.</p>
-            </div>
-            <div class="right-bottom-footer"><a target="_blank"  rel="nofollow,noreferrer" href="http://online.gov.vn/Home/WebDetails/22254?AspxAutoDetectCookieSupport=1"><img class="lazy-bg" data-src="./img/dk.png" src="../kiemviecv32/images/graphics/blank.gif" alt="bct"></a></div>
-        </section>
-    </div>
-</footer>
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTKWM2" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
-<script type="text/javascript">
-	<!-- Google Tag Manager -->
-(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KTKWM2');
-
-</script>
-
-<style>/*common.css*/
-.mdi-history:before{content:"\f02da";}.job-item .bottom-right-icon ul li a i, .job-item .bottom-right-icon-new-2 ul li a i{margin-right:8px;}#popup_overlay{background:rgb(30, 30, 30)!important;opacity:0.9!important}#popup_container.custom-jalert{border:0;font-size:14px;color:#5d677a;width:480px!important;max-width:100% !important;}#popup_container.custom-jalert #popup_title{min-height:48px;background:#eee;text-align:center;font-size:16px;color:#5d677a;text-transform:uppercase;border:0;-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center}#popup_container.custom-jalert #popup_content{padding:20px}#popup_container.custom-jalert #popup_message{background:url("https://static.careerbuilder.vn/themes/careerbuilder/img/icon-confirm.png") top center no-repeat;padding-top:120px}#popup_container.custom-jalert #popup_panel{margin-top:30px}#popup_container.custom-jalert #popup_ok, #popup_container.custom-jalert #popup_cancel{padding:5px 10px;border-radius:5px;-webkit-transition:all 0.4s ease-in-out;-o-transition:all 0.4s ease-in-out;transition:all 0.4s ease-in-out;border:0;font-size:14px;text-decoration:none;text-transform:uppercase;margin-bottom:10px;}#popup_container.custom-jalert #popup_ok{background:-webkit-gradient(linear, left top, right top, from(#2d7bb7), color-stop(#1e9bd3), to(#2d7bb7));background:-o-linear-gradient(left, #2d7bb7, #1e9bd3, #2d7bb7);background:linear-gradient(to right, #2d7bb7, #1e9bd3, #2d7bb7);background-size:200% 100%;color:#fff}#popup_container.custom-jalert #popup_ok:hover{background-position:100% 0}#popup_container.custom-jalert #popup_cancel{color:#5d677a}header .main-menu .menu li a{font-size:14px}.page-heading-tool{padding:10px 0}.page-heading-tool .change-display{width:auto;padding:0;margin-right:-13px}.page-heading-tool .change-display ul li + li{padding-left:10px}.search-result, .search-result-list{padding-top:10px}.search-result .side-wrapper{top:150px}.job-item .figure .image{background-color:#fff}.job-item .figure .caption .welfare li{font-size:13px}.job-item .bottom-right-icon{bottom:33px}.job-item .bottom-right-icon ul{float:left;width:100%;display:block}.search-result-list .jobs-side-list{padding:0}.search-result-list .job-item .figure{padding:15px}.search-result-list .job-item:first-child .figure{border-top:0}footer{clear:both}.search-result-list .job-item .figure .caption, .job-item .bottom-right-icon{font-size:15px}.search-result-list .job-item .figure .title{margin-top:5px}.search-result-list .job-item .figure .title span.new{font-size:12px;color:red;text-transform:uppercase}.search-result-list .job-item .figure .caption .welfare{margin-top:10px}.job-item .bottom-right-icon ul li a{display:block}.job-item .bottom-right-icon ul li a span{margin-right:0;margin-left:8px}.job-item .bottom-right-icon ul li + li{display:block;margin-left:0}.job-item .bottom-right-icon ul li + li:before{content:"";margin-right:0}.chosen-container .search-choice span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}.job-detail-content .job-detail-bottom{clear:both}#popup_login_form input.error{border:1px solid red}#popup_login_form input.error::placeholder{color:red}#popup_login_form input.error:focus,#popup_login_form input.error:active{outline:none;}.main-job-alert .information{height:100%}.dtpicker-twoButtons a:not([href]):not([tabindex]), .dtpicker-twoButtons a:not([href]):not([tabindex]):hover, .dtpicker-twoButtons a:not([href]):not([tabindex]):focus{color:#ffffff;}.job-detail-bottom-banner img,.job-bottom-banner img,.banner-ad img{height:auto!important}.search-result-list .job-item .figure .image a{display:flex;width:100%;height:100%;align-items:center;justify-content:center}.job-detail-content .detail-box .map p a{display:inline-block;}.maps-modal .tabs-toggle .item{color:#5d677a;text-decoration:none;}.main-box.active{background-color:#FFFFFF;-webkit-transition:background-color 1000ms linear;-moz-transition:background-color 1000ms linear;-o-transition:background-color 1000ms linear;-ms-transition:background-color 1000ms linear;transition:background-color 1000ms linear}.swiper-nav.swiper-button-disabled,.swiper-nav.swiper-button-disabled:hover,.swiper-nav.swiper-button-disabled:focus{background:none!important;border:0!important;cursor:auto!important;outline:none}.swiper-nav.swiper-button-disabled span,.swiper-nav.swiper-button-disabled:hover span{display:none!important;border:0!important;cursor:auto!important}.swiper-nav.swiper-button-disabled span,.swiper-nav.swiper-button-disabled:hover span{display:none!important;border:0!important;cursor:auto!important}.searchable-cv-widget a{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}.jobalert-cv-widget a{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.switch-status{display:-ms-flexbox;display:flex;background-color:#fff;border:4px solid #fff;border-radius:26px;margin-bottom:20px}.switch-status a{display:inline-block;padding:10px 0;color:#5d677a;text-align:center;border-radius:26px;font-size:14px;font-weight:bold}.switch-status a:hover{text-decoration:none}.switch-status .inactive:hover, .switch-status .inactive.focus{background-color:#f5f6f7;color:#000}.switch-status .passive:hover, .switch-status .passive.focus{background-color:#109ed9;color:#fff}.switch-status .actives:hover, .switch-status .actives.focus{background-color:#32dba3;color:#fff}@media (min-width:768px){.search-result-list .job-item .figure .image{height:135px}.search-result-list .job-item .figure .figcaption{max-width:calc(100% - 310px)}.job-item .bottom-right-icon ul li{float:left;width:100%;display:block;text-align:right}}@media (max-width:768px){.container{padding:0 15px;}.job-item .bottom-right-icon ul{float:none;display:flex;justify-content:center;}}.non-member-form .save-and-allow{margin-bottom:30px}.non-member-form .form-captcha, .member-form .form-captcha{float:left;width:100%}.non-member-form .form-submit, .member-form .form-submit{clear:both;padding-top:0!important}.cb-box-find .reset-form, .cb-box-find .main-box .toggle-search{float:left;width:50%}.cb-box-find .reset-form{font-size:14px;margin-top:10px}.cb-box-find .reset-form a{color:#5d677a;}.cb-box-find .reset-form i.fa{display:inline-block;padding-right:5px}.cb-box-find .main-box .find-jobs{clear:both}#tooltip-copy{display:none;margin-left:150px;padding:5px 10px;background-color:#2aba2a;border-radius:4px;color:#fff;top:110px;position:absolute;z-index:99999}
-
-</style>
-<script>/*jskcommon.js*/
-
-jQuery.fn.indexOf=function(e){for(var i=0;i<this.length;i++){if(this[i]==e){return i}}
-return-1};$.fn.ForceNumericOnly=function(){$(this).keydown(function(e){var key=e.charCode||e.keyCode||0;return(key==8||key==9||key==46||(key>=37&&key<=40)||(key>=48&&key<=57)||(key>=96&&key<=105)||key==231);})}
-if(($.alerts)){$.alerts.dialogClass="custom-jalert";}
-function popupapi(network,url){var height=430,width=600,left=($(window).width()/2)-(width/2),top=($(window).height()/2)-(height/2),path;if(network=='google'){path=DOMAIN_KV+'/index/getrequestgoogle?network='+network+'&method=opener&redirect_url='+url;}else{path=PATH_KIEMVIEC+'service/index/getrequestsocial?network='+network+'&method=opener&redirect_url='+url;}
-popup=window.open(path,network,'height='+height+',width='+width+',top='+top+',left='+left+',resizable=1');}
-function popuplogin(){return $.fancybox.open($(".login-modal"));}
-function getCookie(Name){var re=new RegExp(Name+"=[^;]+","i");if(document.cookie.match(re)){return document.cookie.match(re)[0].split("=")[1];}
-return"";}
-function setCookie(name,value,expiredays,Units){if(typeof(Units)==="undefined")Units='day';var exdate=new Date();if(Units=='day')
-exdate.setDate(exdate.getDate()+expiredays);else if(Units=='hour')
-exdate.setTime(exdate.getTime()+expiredays*3600000);var c_value=value+((expiredays==null)?"":"; expires="+exdate.toUTCString());document.cookie=name+"="+c_value+";path=/;SameSite=Strict";}
-function logMissApplyJob(job_id,status){$.ajax({url:PATH_KIEMVIEC+'jobseekers/ajax/logmissapply',async:false,type:'POST',data:{job_id:job_id,status:status},}).done(function(data){console.log("Write log status: "+data);});}
-function parserValueSearch(stringValue){var string=stringValue+"";var arrValue=new Array();arrValue=string.split(',');for(i=0;i<arrValue.length;i++){var value=arrValue[i];arrValue[i]=value.split("_");}
-return arrValue;}
-function strip_tags_input(str,allowed){allowed=(((allowed||'')+'').toLowerCase().match(/<[a-z][a-z0-9]*>/g)||[]).join('')
-var tags=/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi
-var commentsAndPhpTags=/<!--[\s\S]*?-->|<\?(?:php)?[\s\S]*?\?>/gi
-return str.replace(commentsAndPhpTags,'').replace(tags,function($0,$1){return allowed.indexOf('<'+$1.toLowerCase()+'>')>-1?$0:''})}
-function validDatasearchJobs(lang){var keyword=strip_tags_input($('#keyword').val().replace(/\//g,""));var keyword=keyword.replace(/\s/g,"-");var keyword=keyword.replace(/#/g,"");var industry=$("#industry").val();var location=$("#location").val();var salary=$("#salary").val();if(typeof salary==="undefined")
-salary="";var level=$("#level").val();if(typeof level==="undefined")
-level="";var days=$("#days").val();if(typeof days==="undefined")
-days="";var emp_id=$("#emp_id").val();if(typeof emp_id==="undefined")
-emp_id="";var emp_name=$("#emp_name").val();if(typeof emp_name==="undefined")
-emp_name="";var homework=($("#work-home-fli").is(':checked'))?1:0;var recommend=$("#recommend").val();if(typeof recommend==="undefined")
-recommend=0;var benefit=$("#benefit").val();if(typeof benefit==="undefined")
-benefit='';var job_type=$("#job_type").val();if(typeof job_type==="undefined")
-job_type='';var ulr=mapKeywords.job+"/";if(keyword!=""){if(location!=null&&location!=""){arrLocation=parserValueSearch(location);ulr+=keyword+"-"+mapKeywords.tai+"-"+arrLocation[0][0]+"-k";}else{ulr+=keyword+"-k";}
-if(industry!=null&&industry!=""){arrIndustry=parserValueSearch(industry);ulr+="c"+arrIndustry[0][1];for(i=1;i<arrIndustry.length;i++){ulr+=","+arrIndustry[i][1];}}
-if(location!=null&&location!=""){arrLocation=parserValueSearch(location);ulr+="l"+arrLocation[0][1];for(i=1;i<arrLocation.length;i++){ulr+=","+arrLocation[i][1];}}
-if(salary!=""&&salary!=null){ulr+="s"+salary;}
-if(level!=""&&level!=null){arrLevel=parserValueSearch(level);ulr+="e"+arrLevel[0][1];}
-if(emp_id!=""){ulr+="p"+emp_id;}
-if(days!=""){ulr+="d"+days;}
-if(job_type!=""){arrJobType=parserValueSearch(job_type);ulr+="t"+arrJobType[0][1];}
-if(benefit!=""){arrBenefit=parserValueSearch(benefit);ulr+="b"+arrBenefit[0][1];for(i=1;i<arrBenefit.length;i++){ulr+=","+arrBenefit[i][1];}}}else if(industry!=null&&industry!=""){arrIndustry=parserValueSearch(industry);if(location!=""&&location!=null){arrLocation=parserValueSearch(location);ulr+=arrIndustry[0][0]+"-"+mapKeywords.tai+"-"+arrLocation[0][0]+"-c"+arrIndustry[0][1];for(i=1;i<arrIndustry.length;i++){ulr+=","+arrIndustry[i][1];}
-ulr+="l"+arrLocation[0][1];for(i=1;i<arrLocation.length;i++){ulr+=","+arrLocation[i][1];}}else{strId="c";for(i=0;i<arrIndustry.length;i++){ulr+=arrIndustry[i][0]+"-";strId+=arrIndustry[i][1]+",";}
-strId=strId.substr(0,strId.length-1);ulr+=strId;}
-if(salary!=""&&salary!=null){ulr+="s"+salary;}
-if(level!=""&&level!=null){arrLevel=parserValueSearch(level);ulr+="e"+arrLevel[0][1];}
-if(emp_id!=""){ulr+="p"+emp_id;}
-if(days!=""){ulr+="d"+days;}
-if(job_type!=""){arrJobType=parserValueSearch(job_type);ulr+="t"+arrJobType[0][1];}
-if(benefit!=""){arrBenefit=parserValueSearch(benefit);ulr+="b"+arrBenefit[0][1];for(i=1;i<arrBenefit.length;i++){ulr+=","+arrBenefit[i][1];}}}else if(location!=null&&location!=""){arrLocation=parserValueSearch(location);strId="l";for(i=0;i<arrLocation.length;i++){ulr+=arrLocation[i][0]+"-";strId+=arrLocation[i][1]+",";}
-strId=strId.substr(0,strId.length-1);ulr+=strId;if(salary!=""&&salary!=null){ulr+="s"+salary;}
-if(level!=""&&level!=null){arrLevel=parserValueSearch(level);ulr+="e"+arrLevel[0][1];}
-if(emp_id!=""){ulr+="p"+emp_id;}
-if(days!=""){ulr+="d"+days;}
-if(job_type!=""){arrJobType=parserValueSearch(job_type);ulr+="t"+arrJobType[0][1];}
-if(benefit!=""){arrBenefit=parserValueSearch(benefit);ulr+="b"+arrBenefit[0][1];for(i=1;i<arrBenefit.length;i++){ulr+=","+arrBenefit[i][1];}}}else if(salary!=""){ulr+=mapKeywords.salary+"-"+salary+"trvnd-s"+salary;if(level!=""&&level!=null){arrLevel=parserValueSearch(level);ulr+="e"+arrLevel[0][1];}
-if(days!=""){ulr+="d"+days;}
-if(job_type!=""){arrJobType=parserValueSearch(job_type);ulr+="t"+arrJobType[0][1];}
-if(benefit!=""){arrBenefit=parserValueSearch(benefit);ulr+="b"+arrBenefit[0][1];for(i=1;i<arrBenefit.length;i++){ulr+=","+arrBenefit[i][1];}}}else if(level!=""){arrLevel=parserValueSearch(level);strId="e";ulr+=arrLevel[0][0]+"-";strId+=arrLevel[0][1]+",";strId=strId.substr(0,strId.length-1);ulr+=strId;if(days!=""){ulr+="d"+days;}
-if(job_type!=""){arrJobType=parserValueSearch(job_type);ulr+="t"+arrJobType[0][1];}
-if(benefit!=""){arrBenefit=parserValueSearch(benefit);ulr+="b"+arrBenefit[0][1];for(i=1;i<arrBenefit.length;i++){ulr+=","+arrBenefit[i][1];}}}else if(days!=""){ulr+=mapKeywords.ngay_cap_nhat+"-d"+days;if(job_type!=""){arrJobType=parserValueSearch(job_type);ulr+="t"+arrJobType[0][1];}
-if(benefit!=""){arrBenefit=parserValueSearch(benefit);ulr+="b"+arrBenefit[0][1];for(i=1;i<arrBenefit.length;i++){ulr+=","+arrBenefit[i][1];}}}else if(job_type!=""){arrJobType=parserValueSearch(job_type);ulr+=arrJobType[0][0]+"-t"+arrJobType[0][1];if(benefit!=""){arrBenefit=parserValueSearch(benefit);ulr+="b"+arrBenefit[0][1];for(i=1;i<arrBenefit.length;i++){ulr+=","+arrBenefit[i][1];}}}else if(benefit!=""){arrBenefit=parserValueSearch(benefit);ulr+=arrBenefit[0][0]+"-b"+arrBenefit[0][1];for(i=1;i<arrBenefit.length;i++){ulr+=","+arrBenefit[i][1];}}else if(emp_id!=""&&emp_name!=""){ulr+=emp_name+"-p"+emp_id;}else if(recommend==1){ulr+=mapKeywords.recommend+"-m1";}else{ulr+=mapKeywords.all_jobs;}
-if(typeof arrLocation==='undefined')arrLocation=[];if(typeof arrIndustry==='undefined')arrIndustry=[];if(typeof salary==='undefined')salary='';if(typeof arrLevel==='undefined')arrLevel=[];tracking_btn_search_click(keyword,arrLocation,arrIndustry,salary,arrLevel,3);return ulr;}
-function clearFilter(){if($("#salary").length)
-$("#salary").val('');if($("#level").length)
-$("#level").val('');if($("#days").length)
-$("#days").val('');if($("#job_type").length)
-$("#job_type").val('');if($("#benefit").length){$("#benefit option:selected").each(function(){$(this).prop("selected",false);});$('.multiselect2').multiselect("refresh");}}
-function validDatasearchJobsByKeyword(lang){if($("#recommend").length)
-$("#recommend").val(0);clearFilter();var ulr=validDatasearchJobs(lang);ulr+="-"+lang+".html";window.location=ROOT_KIEMVIEC+ulr;return false;}
-function validataSearchHomePage(lang){if($("#recommend").length)
-$("#recommend").val(0);var ulr=validDatasearchJobs(lang);ulr+="-"+lang+".html";window.location=ROOT_KIEMVIEC+ulr;return false;}
-function validataSearchJobEmp(){var ulr=validDatasearchJobs(CURRENT_LANGUAGE);ulr+="-"+CURRENT_LANGUAGE+".html";window.location=ROOT_KIEMVIEC+ulr;return false;}
-function checkEmail(stringIn){var re=/^([A-Za-z0-9\_\-]+\.)*[A-Za-z0-9\_\-]+@[A-Za-z0-9\_\-]+(\.[A-Za-z0-9\_\-]+)+$/;var sEMail=stringIn;if((sEMail=="")||(sEMail.search(re)==-1)){return(false)}
-return(true)};function func_strip_tags_input(e,allowed){var str=e.val();if(typeof str!='undefined'){allowed=(((allowed||'')+'').toLowerCase().match(/<[a-z][a-z0-9]*>/g)||[]).join('')
-var tags=/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi
-var commentsAndPhpTags=/<!--[\s\S]*?-->|<\?(?:php)?[\s\S]*?\?>/gi
-str=str.replace(commentsAndPhpTags,'').replace(tags,function($0,$1){return allowed.indexOf('<'+$1.toLowerCase()+'>')>-1?$0:''});e.val(str);}}
-function tracking_btn_search_click(keyword,arrLocation,arrIndustry,salary,arrLevel,group){var smartech_job_location_id='',smartech_job_location='',smartech_category_name_id='',smartech_category_name='',smartech_search_keyword='',smartech_job_level_id='',smartech_job_level='';var smartech_from_salary=0,smartech_to_salary=0,smartech_unit_salary='VND',smartech_expected_salary=0;if(group==1){var id_industry='#industry';var id_location='#location';var id_level='';var id_salary='';}else if(group==2){var id_industry='#industry';var id_location='#location';var id_level='';var id_salary='';}else if(group==3){var id_industry='#industry';var id_location='#location';var id_level='#level';var id_salary='#salary';}
-if(typeof arrLocation!=='undefined'&&arrLocation.length>0){var arr_location_new_id=[];var arr_location_new_text=[];$.each(arrLocation,function(k,v){arr_location_new_id.push(v[1]);});$(id_location+" option:selected").each(function(){arr_location_new_text.push($(this).html());});smartech_job_location_id=arr_location_new_id.join(',');smartech_job_location=arr_location_new_text.join(',');}
-if(typeof arrIndustry!=='undefined'&&arrIndustry.length>0){var arr_industry_new_id=[];var arr_industry_new_text=[];$.each(arrIndustry,function(k,v){arr_industry_new_id.push(v[1]);});$(id_industry+" option:selected").each(function(){arr_industry_new_text.push($(this).html());});smartech_category_name_id=arr_industry_new_id.join(',');smartech_category_name=arr_industry_new_text.join(',');}
-if(typeof keyword!=='undefined'){smartech_search_keyword=keyword.replace(/-/g," ");}
-if(typeof arrLevel!=='undefined'&&arrLevel.length>0&&arrLevel!=''){var arr_level_new_id=[];var arr_level_new_text=[];$.each(arrLevel,function(k,v){arr_level_new_id.push(v[1]);});$(id_level+" option:selected").each(function(){arr_level_new_text.push($(this).html());});smartech_job_level_id=arr_level_new_id.join(',');smartech_job_level=arr_level_new_text.join(',');}
-if(typeof salary!=='undefined'&&salary!=-1&&salary!=''){var str_salary=$(id_salary+" option:selected").html();var arr_salary_text=str_salary.split(" ").filter(Boolean);arr_salary_text_end=arr_salary_text.pop();smartech_expected_salary=arr_salary_text.join(" ");smartech_from_salary=arr_salary_text[1].replace(/\.|\,/g,"");smartech_to_salary=0;smartech_unit_salary='VND'}
-if($.isFunction(window.smartech)){smartech('dispatch','bt_search_job',{"job_location_id":smartech_job_location_id,"job_location":smartech_job_location,"category_name_id":smartech_category_name_id,"category_name":smartech_category_name,"search_keyword":smartech_search_keyword,"expected_salary":smartech_expected_salary,"from__salary":parseFloat(smartech_from_salary),"to__salary":parseFloat(smartech_to_salary),"unit_salary":smartech_unit_salary,"job_level_id":smartech_job_level_id,"job_level":smartech_job_level,"member":memberLogin});}}
-function searchJobView(val){setCookie('search_job_view',val,365);var url=$("#url_page_search").val();window.location.href=url;}
-function mapIndustryFUrl(e){if($(e).is(':checked')){strIndustryFID=$('#strIndustryFID').val();if(strIndustryFID!=''){arrIndustryID=strIndustryFID.split(',');indexElement=$.inArray($(e).val(),arrIndustryID);if(indexElement>=0)
-arrIndustryID.splice(indexElement,1);else
-arrIndustryID.push($(e).val());if(arrIndustryID.length>1)
-$('#strIndustryFID').val(arrIndustryID.join(","));else if(arrIndustryID.length==1)
-$('#strIndustryFID').val(arrIndustryID[0]);else
-$('#strIndustryFID').val('');}else{$('#strIndustryFID').val($(e).val());}}else{strIndustryFID=$('#strIndustryFID').val();arrIndustryID=strIndustryFID.split(',');indexElement=$.inArray($(e).val(),arrIndustryID);arrIndustryID.splice(indexElement,1);if(arrIndustryID.length>1)
-$('#strIndustryFID').val(arrIndustryID.join(","));else if(arrIndustryID.length==1)
-$('#strIndustryFID').val(arrIndustryID[0]);else
-$('#strIndustryFID').val('');}}
-function mapLevelFUrl(e){if($(e).is(':checked')){strLevelFID=$('#strLevelFID').val();if(strLevelFID!=''){arrLevelFID=strLevelFID.split(',');indexElement=$.inArray($(e).val(),arrLevelFID);if(indexElement>=0)
-arrLevelFID.splice(indexElement,1);else
-arrLevelFID.push($(e).val());if(arrLevelFID.length>1)
-$('#strLevelFID').val(arrLevelFID.join(","));else if(arrLevelFID.length==1)
-$('#strLevelFID').val(arrLevelFID[0]);else
-$('#strLevelFID').val('');}else{$('#strLevelFID').val($(e).val());}}else{strLevelFID=$('#strLevelFID').val();arrLevelFID=strLevelFID.split(',');indexElement=$.inArray($(e).val(),arrLevelFID);arrLevelFID.splice(indexElement,1);if(arrLevelFID.length>1)
-$('#strLevelFID').val(arrLevelFID.join(","));else if(arrLevelFID.length==1)
-$('#strLevelFID').val(arrLevelFID[0]);else
-$('#strLevelFID').val('');}}
-function mapLocationFUrl(e){if($(e).is(':checked')){strLocationFID=$('#strLocationFID').val();if(strLocationFID!=''){arrLocationFID=strLocationFID.split(',');indexElement=$.inArray($(e).val(),arrLocationFID);if(indexElement>=0)
-arrLocationFID.splice(indexElement,1);else
-arrLocationFID.push($(e).val());if(arrLocationFID.length>1)
-$('#strLocationFID').val(arrLocationFID.join(","));else if(arrLocationFID.length==1)
-$('#strLocationFID').val(arrLocationFID[0]);else
-$('#strLocationFID').val('');}else{$('#strLocationFID').val($(e).val());}}else{strLocationFID=$('#strLocationFID').val();arrLocationFID=strLocationFID.split(',');indexElement=$.inArray($(e).val(),arrLocationFID);arrLocationFID.splice(indexElement,1);if(arrLocationFID.length>1)
-$('#strLocationFID').val(arrLocationFID.join(","));else if(arrLocationFID.length==1)
-$('#strLocationFID').val(arrLocationFID[0]);else
-$('#strLocationFID').val('');}}
-function validFilterdataSearch(lang,type,e){var ulr=validDatasearchJobs(lang);if(type=='location')
-mapLocationFUrl(e);var locationF=$("#strLocationFID").val();if(type=='industry')
-mapIndustryFUrl(e);var industryF=$("#strIndustryFID").val();var salaryF=$('#strSalaryFID').val();if(type=='salary')
-salaryF=$(e).val();if(type=='level')
-mapLevelFUrl(e);var levelF=$("#strLevelFID").val();var dateF=$('#strDateFID').val();if(type=='date')
-dateF=$(e).val();var homeworkF=$('#work-home-fli').val();if(type=='homework'){if($("#work-home-fli").is(':checked'))
-homeworkF=1;}
-if(locationF){ulr+="-f"+"l"+locationF;if(industryF)
-ulr+="c"+industryF;if(salaryF>0)
-ulr+="s"+salaryF;if(levelF>0)
-ulr+="e"+levelF;if(dateF>0)
-ulr+="d"+dateF;if(homeworkF==1)
-ulr+="h"+homeworkF;}else if(industryF){ulr+="-f"+"c"+industryF;if(salaryF>0)
-ulr+="s"+salaryF;if(levelF>0)
-ulr+="e"+levelF;if(dateF>0)
-ulr+="d"+dateF;if(homeworkF==1)
-ulr+="h"+homeworkF;}else if(salaryF>0){ulr+="-f"+"s"+salaryF;if(levelF>0)
-ulr+="e"+levelF;if(dateF>0)
-ulr+="d"+dateF;if(homeworkF==1)
-ulr+="h"+homeworkF;}else if(levelF>0){ulr+="-f"+"e"+levelF;if(dateF>0)
-ulr+="d"+dateF;if(homeworkF==1)
-ulr+="h"+homeworkF;}else if(dateF>0){ulr+="-f"+"d"+dateF;if(homeworkF==1)
-ulr+="h"+homeworkF;}else if(homeworkF==1){ulr+="-f"+"h"+homeworkF;}
-ulr+="-"+lang+".html";window.location=ROOT_KIEMVIEC+ulr;return false;}
-function lazy_loadimg_list(){$(".jobs-side-list img.lazy-img").lazy({appendScroll:$(".jobs-side-list")});}
-function fixWidthChosen(){$(".chosen-select-max-three").each(function(){var ow_defaul=wit_defaul=it_defaul=0;var id_default='#'+$(this).attr('id')+'_chosen';var w_default=$(id_default).width()-35;$(id_default+' li.search-choice').each(function(){$(this).find("span").removeAttr("style");ow_defaul+=$(this).width()+30;it_defaul++;});if(w_default<ow_defaul){wit_defaul=Math.round(w_default/it_defaul)-35;$(id_default+' li.search-choice span').css('width',wit_defaul+'px');}});if($(window).width()<1025){$('.search-choice-close').on('touchend',function(){$(this).trigger('click');})
-$('.search-choice-close').on('tap',function(){$(this).trigger('click');})}}
-$(document).on("click",".btn-close-modal",function(){$.fancybox.close();});function show_noti(type,content,more_link,icon,multi){if(type==1){var class_type='success-modal';if(typeof(content)==="undefined")content=language.popup_msg_success;}else{var class_type='remove-modal';if(typeof(content)==="undefined")content=language.popup_msg_error;}
-if(typeof(icon)!=="undefined"&&icon!=""){var txt_icon=icon;}else{if(type==1){var txt_icon='./img/icon-success.png';}else{var txt_icon='./img/icon-error.png';}}
-if(typeof(more_link)==="undefined"){var more_link='';}
-var txt_multi=0;if(typeof(multi)!=="undefined"){var txt_multi=1;}
-if(txt_multi==0)
-$.fancybox.close('all');var html_popup='<div class="'+class_type+'"><div class="modal-title"><p>'+language.title_popup+'</p></div><div class="modal-body"><div class="icon"><img src="'+txt_icon+'" alt=""></div><p>'+content+'</p>'+more_link+'<a class="btn-close-modal" href="javascript:;">'+language.popup_close_popup+'</a></div></div>';$.fancybox.open(html_popup);}
-function savejob(job_id){if($(".chk_save_"+job_id).hasClass('saved')){var type=1;}else{var type=0;}
-$.ajax({type:"POST",url:PATH_KIEMVIEC+'jobseekers/ajax/savedelete',data:'job_id='+job_id+'&type='+type,dataType:'json'}).done(function(data){if(data.status==1){show_noti(1,language.job_message_save_job_succ);$(".chk_save_"+data.id).find('.text').html(language.job_chk_save_jobs_saved);$(".chk_save_"+data.id).find('.toolip p').html(language.job_chk_save_jobs_saved);$(".chk_save_"+data.id).addClass('saved');if($.isFunction(window.callSmartech_SaveUnSave_Jobs))
-callSmartech_SaveUnSave_Jobs(job_id);}else if(data.status==2){show_noti(2,language.job_message_delete_job_succ);$(".chk_save_"+data.id).find('.text').html(language.job_chk_save_jobs_save);$(".chk_save_"+data.id).find('.toolip p').html(language.job_chk_save_jobs_save);$(".chk_save_"+data.id).removeClass('saved');if($.isFunction(window.callSmartech_SaveUnSave_Jobs))
-callSmartech_SaveUnSave_Jobs(job_id);}else{show_noti(2,language.job_message_error);}});}
-$("#header_login").validate({onkeyup:false,onfocusout:false,rules:{username:{required:true},password:{required:true},},errorPlacement:function(error,element){return;},invalidHandler:function(form,validator){if(validator.numberOfInvalids()){show_noti(2,language.popup_login_error);}},submitHandler:function(form){$("header .main-login .title-login").trigger("click");form.submit();},});function searchResultTabs(){$(".search-result-list-detail .tabs, .search-result .tabs").tabslet({attribute:'data-href',});}
-function companyPhotoSlide(){return new Swiper('.company-photo .swiper-container',{slidesPerView:4,spaceBetween:6,lazy:true,breakpoints:{1200:{slidesPerView:2}},navigation:{prevEl:'.company-photo .swiper-prev',nextEl:'.company-photo .swiper-next'}})}
-function follow_act(){$('#follow_act').click(function(){if(member_id<0){return popuplogin();}else{var type=$('#follow_act').attr('rel');var isTS=$('#isTS').val();var emp_webts=$('#emp_websitets').val();$.ajax({type:"POST",url:PATH_KIEMVIEC+'jobseekers/mykiemviec/follow',data:'emp_id='+emp_id+'&jsk_id='+jsk_id+'&type='+type+'&isTS='+isTS+'&emp_webts='+emp_webts,dataType:'json',success:function(obj){if(obj.total>49){$('#totalFollowers').css('display','block');$('#countFollowers').html(obj.total).formatCurrency({digitGroupSymbol:','});}
-if(type==1){$("#follow_act").attr('rel',0);var more_link='<a class="view-saved-job" href="'+language.followed_link+'">'+language.followed_link_txt+'</a>'
-show_noti(1,language.follow_success,more_link);$(".btn-follow").addClass("followed");if($.isFunction(window.smartech)){smartech('dispatch','bt_follow_company',{"employer_id":empIdDec});}}else{$("#follow_act").attr('rel',1);$(".btn-follow").removeClass("followed");show_noti(2,language.follow_delete_success);}}});}});}
-$(document).ready(function(){$.validator.addMethod('isemail',function(value,element){var valemail=$.trim(value);return checkEmail(valemail);},language.message_common);if(is_mobile==1){$("a[target=\"_blank\"]").removeAttr("target");}
-$(window).resize(function(){if($(".chosen-select-max-three").length>0){fixWidthChosen();}
-if(window.matchMedia("(max-width: 767px)").matches){document.cookie="search_job_view=list; path=/";}});if(window.matchMedia("(max-width: 767px)").matches){document.cookie="search_job_view=list; path=/";}
-$('#follow_act').click(function(){if(member_id<0){return popuplogin();}else{var type=$('#follow_act').attr('rel');var isTS=$('#isTS').val();var emp_webts=$('#emp_websitets').val();$.ajax({type:"POST",url:PATH_KIEMVIEC+'jobseekers/mykiemviec/follow',data:'emp_id='+emp_id+'&jsk_id='+jsk_id+'&type='+type+'&isTS='+isTS+'&emp_webts='+emp_webts,dataType:'json',success:function(obj){if(obj.total>49){$('#totalFollowers').css('display','block');$('#countFollowers').html(obj.total).formatCurrency({digitGroupSymbol:','});}
-if(type==1){$("#follow_act").attr('rel',0);var more_link='';show_noti(1,language.follow_success,more_link);$(".btn-follow").addClass("followed");if($.isFunction(window.smartech)){smartech('dispatch','bt_follow_company',{"employer_id":empIdDec});}}else{$("#follow_act").attr('rel',1);$(".btn-follow").removeClass("followed");show_noti(2,language.follow_delete_success);}}});}});loadAllChoosen();if($(".keyword").length>0){$('.keyword').blur();$('.keyword').keyup(function(){if(is_mobile==1&&$("div.row div.form-keyword").length>0)
-$("html, body").animate({scrollTop:$("div.row div.form-keyword").offset().top-60},600);$(".advanced-search-btn a").click();});$('.keyword').focus(function(){if(is_mobile==1&&$("div.row div.form-keyword").length>0)
-$("html, body").animate({scrollTop:$("div.row div.form-keyword").offset().top-60},600);$(".advanced-search-btn a").click();});var link_ajax=PATH_KIEMVIEC+'jobseekers/index/getlistkeyword?typedata=json';$('.keyword').autoComplete({minChars:3,source:function(term,response){term=term.toLowerCase();$.getJSON(link_ajax,{q:term,limit:10},function(data){response(data);});}});}
-if($(".keyword_careermap").length>0){var link_ajax=PATH_KIEMVIEC+"salary/index/getlistkeyword";$('.keyword_careermap').autoComplete({minChars:0,source:function(term,response){term=term.toLowerCase();$.getJSON(link_ajax,{q:term,limit:10},function(data){response(data);});}});}
-if(typeof arrData==="undefined")
-arrData=new Array();if(arrData.KEYWORD){$(".keyword").val(arrData.KEYWORD.replace(/[-]/g,' '));}
-if(arrData.strIndustry){var industry=arrData.strIndustry;var arrIndustry=industry.split(",");$.each(arrIndustry,function(index,value){$("#industry option[value="+value+"]").attr("selected","selected");});$("#industry").trigger("chosen:updated");}
-if(arrData.strLocation){var location=arrData.strLocation;var arrLocation=location.split(",");$.each(arrLocation,function(index,value){$("#location option[value="+value+"]").attr("selected","selected");});$("#location").trigger("chosen:updated");}
-if(arrData.SALARY_FROM){$("#salary option[value="+parseInt(arrData.SALARY_FROM/1000000)+"]").attr("selected","selected");$("#salary").trigger("chosen:updated");}
-if(arrData.LEVEL){$("#level option[value="+arrData.strLevel+"]").attr("selected","selected");$("#level").trigger("chosen:updated");}
-setTimeout(function(){fixWidthChosen();},1000);if(memberLogin=="no"){setTimeout(function(){$("#header_login input[name=username]","#header_login input[name=password]").val("");},1000);}});$(".lazy-bg").lazy();function jobdetailPhotoSlide(){return new Swiper('.photo-jobdetail .swiper-container',{slidesPerView:4,spaceBetween:6,lazy:true,breakpoints:{1200:{slidesPerView:2}},navigation:{prevEl:'.photo-jobdetail .swiper-prev',nextEl:'.photo-jobdetail .swiper-next'}})}
-function loadBannerOA(){loadBannerPage=1;if($(".adsBannerOA").length){$(".adsBannerOA").each(function(){var id=$(this).data("id");if(typeof(OA_output[id])!=="undefined"){$(this).html(OA_output[id]);}});}}
-function adVanceJobalert(){var urlRedirect=ROOT_KIEMVIEC+mapKeywords.jobalert+"?";var keyword=strip_tags_input($('#keyword').val().replace(/\//g,""));var keyword=keyword.replace(/#/g,"");var industry=$("#industry").val();var location=$("#location").val();var salary=$("#salary").val();var level=$("#level").val();var days=$("#days").val();if(keyword!=""){urlRedirect+='&keyword='+keyword;}
-if(industry!=""){arrIndustry=parserValueSearch(industry);urlRedirect+="&industry="+arrIndustry[0][1];for(i=1;i<arrIndustry.length;i++){urlRedirect+=","+arrIndustry[i][1];}}
-if(location!=""){arrLocation=parserValueSearch(location);urlRedirect+="&location="+arrLocation[0][1];for(i=1;i<arrLocation.length;i++){urlRedirect+=","+arrLocation[i][1];}}
-if(salary!=""){urlRedirect+="&salary="+salary*1000000;}
-window.location.href=urlRedirect;return false;}
-function strip_tags(str){t=str.replace(/<(\/)?(html|head|title|body|h1|h2|h3|h4|h5|h6|hr|pre|em|code|a|dl|dd|table|tr|th|td|span|div|img|label|u)([^>]*)>/gi,"");t=t.replace(/<(\/)?(iframe|frameset|form|input|select|option|textarea|blackquote|address|object|script)([^>]*)>/gi,"");return t;}
-function emailExistsInContent(str){str=removeHTMLTags(str);str=str.replace(/\s+|-|\./g,'');var patt=/([a-z0-9_\.\-])+\@\w+[\.\w+]+\b/gi;var result=str.match(patt);if(result==null)return false;else return true;}
-function phoneExistsInContent(str){str=removeHTMLTags(str);str=str.replace(/\s|\./g,'');var str2="[0-9]{8,12}";var re=new RegExp(str2);var m=re.exec(str);if(m==null)return false;else return true;}
-function removeHTMLTags(strInputCode){strInputCode=strInputCode.replace(/&(lt|gt);/g,function(strMatch,p1){return(p1=="lt")?"<":">";});var strTagStrippedText=strInputCode.replace(/<\/?[^>]+(>|$)/g,"");return strTagStrippedText;}
-function reload_js(src){$('script[src="'+DOMAIN_STATIC+src+'"]').remove();$('<script>').attr('src',DOMAIN_STATIC+src).appendTo('head');}
-function checkApply(){var apply_job_id=[];$('.chk_apply').each(function(){apply_job_id.push($(this).data('id'));});if(apply_job_id.length>0){var check_apply=$.ajax({url:ROOT_KIEMVIEC+'jobseekers/check-apply-job',dataType:'json',data:'lst_id='+apply_job_id.join()});var finish_apply=check_apply.then(function(data){$.each(data,function(i,item){if(item.status==1){$(".apply_"+item.id).removeAttr("data-id style").removeClass("chk_apply apply_"+item.id);}else{$(".apply_"+item.id).remove();}});});}}
-function copyToClipboard(text){navigator.clipboard.writeText(text);$("#tooltip-copy").css('display','block');setTimeout(function(){$("#tooltip-copy").hide();},1000);}
-function loadAllChoosen(){if($(".chosen-select-max-three").length>0){$(".chosen-select-max-three").chosen({max_selected_options:3}).change(function(e,params){if(params.selected==""){$(this).find('option[value=""]').prop('selected',false);$(this).trigger("chosen:updated");}
-var id='#'+$(this).attr('id')+'_chosen';ow=it=0;var w=$(id).width()-35;var k=0;var e=0;if($(this).val()!=null)
-e=parseInt($(this).val().length);else
-e=0;$(id+' li.search-choice').each(function(){$(this).find('span').css('width','100%');if(k<e){ow+=$(this).width()+30;it++;}
-k++;});if(w<ow){$(id+' ul').addClass('shortags');wit=Math.round(w/it)-35;$(id+' li.search-choice span').css('width',wit+'px');}else{$(id+' ul').removeClass('shortags');$(id+' li.search-choice span').css('width','calc()');}
-if($(window).width()<1025){$(document).trigger('click')
-$('.search-choice-close').on('touchend',function(){$(this).trigger('click');})
-$('.search-choice-close').on('tap',function(){$(this).trigger('click');})}});}
-if($(".chosen-select-max-five").length>0){$(".chosen-select-max-five").chosen({max_selected_options:3}).change(function(e,params){if(params.selected==""){$(this).find('option[value=""]').prop('selected',false);$(this).trigger("chosen:updated");}
-var id='#'+$(this).attr('id')+'_chosen';ow=it=0;var w=$(id).width()-35;var k=0;var e=0;if($(this).val()!=null)
-e=parseInt($(this).val().length);else
-e=0;$(id+' li.search-choice').each(function(){$(this).find('span').css('width','100%');if(k<e){ow+=$(this).width()+30;it++;}
-k++;});if(w<ow){$(id+' ul').addClass('shortags');wit=Math.round(w/it)-35;$(id+' li.search-choice span').css('width',wit+'px');}else{$(id+' ul').removeClass('shortags');$(id+' li.search-choice span').css('width','calc()');}
-if($(window).width()<1025){$(document).trigger('click')
-$('.search-choice-close').on('touchend',function(){$(this).trigger('click');})
-$('.search-choice-close').on('tap',function(){$(this).trigger('click');})}});}
-if($(".chosen-select-max-one").length>0){$(".chosen-select-max-one").chosen({max_selected_options:1}).change(function(e,params){if(params.selected==""){$(this).find('option[value=""]').prop('selected',false);$(this).trigger("chosen:updated");}
-if($(window).width()<1025){$(document).trigger('click')
-$('.search-choice-close').on('touchend',function(){$(this).trigger('click');})
-$('.search-choice-close').on('tap',function(){$(this).trigger('click');})}});}}
-if(memberLogin=='no'){window.onload=function(){google.accounts.id.initialize({client_id:client_id,callback:function(credentialResponse){var response=credentialResponse;$.ajax({type:'POST',url:PATH_KIEMVIEC+'jobseekers/logingoogleonetap',data:{'jwt':response.credential}}).done(function(status){if(status==1){location.reload();}else{show_noti(2,language.popup_login_error);}});}});google.accounts.id.prompt((notification)=>{if(notification.isNotDisplayed()||notification.isSkippedMoment()){console.log(notification.getNotDisplayedReason());}});};}
-</script>
-
-				<a class="feedback-btn" data-fancybox data-type="ajax" data-src="https://careerbuilder.vn/vi/jobseekers/index/sendfeedback?from=jobseeker&newlayout=1" title="Feedback" href="javascript:void(0);"><span>Feedback</span></a>
-			</body>
-</html>
-<!--End New Layout CB -->
+@endsection
