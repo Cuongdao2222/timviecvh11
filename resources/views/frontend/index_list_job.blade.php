@@ -314,7 +314,7 @@ Start New Layout CB -->
                             <div class="swiper-wrapper" id="pc-swiper-wrapper">
                                 <div class="swiper-slide">
                                     <a href="https://careerbuilder.vn/vi/jobseekers/ajax/counterbannerclick?url=aHR0cDovL2xkcC50by82a2o2bw==&id=273" rel="nofollow;noreferrer" target="_blank">
-                                        <div class="image"> <img src="https://images.careerbuilder.vn/background/novaland_1900x570_2022_05_18_1652849793.jpg" alt="Banner"> </div>
+                                        <div class="image"> <img src="{{ asset('images/novaland_1900x570_2022_05_18_1652849793.jpg')}} " alt="Banner"> </div>
                                     </a>
                                 </div>
                             </div>
@@ -327,8 +327,8 @@ Start New Layout CB -->
                         <div class="swiper-container">
                             <div class="swiper-wrapper" id="mobile-swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="https://careerbuilder.vn/vi/jobseekers/ajax/counterbannerclick?url=aHR0cDovL2xkcC50by82a2o2bw==&id=273" rel="nofollow;noreferrer" target="_blank">
-                                        <div class="image"> <img src="https://images.careerbuilder.vn/background/novaland_640x430_2022_05_18_1653037681.jpg" alt="Banner"> </div>
+                                    <a href="#" rel="nofollow;noreferrer" target="_blank">
+                                        <div class="image"> <img src="{{  asset('images/novaland_640x430_2022_05_18_1653037681.jpg')}} " alt="Banner"> </div>
                                     </a>
                                 </div>
                             </div>
@@ -597,6 +597,7 @@ Start New Layout CB -->
                                             </div>
                                         </div>
                                     </div>
+                                    {{  asset('images/novaland_640x430_2022_05_18_1653037681')}}
                                     <div class="reset-form"><a href="javascript:void(0);" onclick="resetForm();"><i class="fa fa-rotate-right"></i> Reset</a></div>
                                     <div class="toggle-search">
                                         <div class="advanced-search-btn"><a href="javascript:;"><span class="mdi mdi-magnify-plus-outline"></span>Tìm kiếm nâng cao</a></div>
@@ -693,9 +694,8 @@ Start New Layout CB -->
 
                                                         $job= DB::table('employer_registers')->join('job', 'employer_registers.id', '=', 'job.employer_id')->join('employ_info', 'employer_registers.id', '=', 'employ_info.employ_id')->get();
 
+                                                        dd($job);
 
-
-                                                      
                                                     ?>
 
                                                     @foreach($job as $jobs)
@@ -890,7 +890,7 @@ Start New Layout CB -->
                                     <div class="item">
                                         <div class="image">
                                             <a href="https://tapdoanhoangminh.talentnetwork.vn" target="_blank" title="Hoàng Minh Group" rel="nofollow">
-                                            <img class="lazy-bg" data-src="https://images.careerbuilder.vn/logotalent/173x90/logo_hoangminh_1642759446.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Hoàng Minh Group" title="Hoàng Minh Group">
+                                            <img class="lazy-bg" data-src="{{ asset('') }}" src="../kiemviecv32/images/graphics/blank.gif" alt="Hoàng Minh Group" title="Hoàng Minh Group">
                                             </a>
                                         </div>
                                     </div>
