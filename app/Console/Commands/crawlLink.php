@@ -41,6 +41,6 @@ class crawlLink extends Command
     {
         $crawl = new crawlController();
 
-        $crawl->updateCrawl();
+        $crawl->getPostJob();
     }
 }

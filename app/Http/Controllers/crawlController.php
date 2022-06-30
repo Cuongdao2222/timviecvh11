@@ -12,6 +12,8 @@ use App\cpn;
 
 use App\Models\employ_info;
 
+use App\Models\linkpost;
+
 class crawlController extends Controller
 {
 
@@ -176,13 +178,17 @@ class crawlController extends Controller
 
             $job->rights =  @html_entity_decode($html->find('.box_quyenloi', 0));
 
+            $job->salary = @html_entity_decode($html->find('.dd_tuyen', 2));
+
             $job->career = 4;
+
+            $job->linkCrawl = 'https://timviec365.vn'.trim($value->link);
 
             $job->address = 4;
 
-             $job->employer_id = 16;
+            $job->employer_id = 16;
 
-            $job->salary = '25000000 vnd-30000000';
+           
 
             $job->deadline = '28/6/2022';
 
@@ -193,8 +199,32 @@ class crawlController extends Controller
        }
 
        
+    }
 
-      
+    public function getPostJob()
+    {
+        $link = 'https://timviec365.vn/cau-hoi-tuyen-dung/tl5/bo-cau-hoi-theo-vi-tri-lam-viec';
+
+        $html = file_get_html($link);
+
+        $links = $html->find('.cate_bv .title a');
+
+        foreach ($links as $key => $value) {
+
+            $linkpost = new linkpost();
+
+            $linkpost->link = trim($value->href);
+
+            $linkpost->save();
+          
+        }
+       
+
+    }
+
+    public function getPostDetails()
+    {
+        $link  =  new linkpost()
     }
 
 
