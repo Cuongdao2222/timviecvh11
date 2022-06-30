@@ -5,6 +5,13 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('css/jquery.auto-complete.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/index.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/common.css') }}">
+        <style type="text/css">
+            
+            .hot-jobs-list .main-pagination {
+
+                width: 417px;
+            }    
+        </style>
      
         <div class="cb-main-search">
             <section class="cb-banner-home">
@@ -402,7 +409,7 @@
                                                 <div class="col-lg-6 ">
                                                     <div class="job-item">
                                                         <div class="figure">
-                                                            <div class="image"><a target="_blank" href="{{ route('job_details', [$jobs->link, $jobs->id]) }}" title="{{ $jobs->title }}"><img src="{{ asset($jobs->logo) }}" class="swiper-lazy" data-src="{{ asset($jobs->logo) }}" alt="{{ $jobs->title }} " /></a></div>
+                                                            <div class="image"><a target="_blank" href="{{ route('job_details', [$jobs->link, $jobs->id]) }}" title="{{ $jobs->title }}"><img src="{{ asset(str_replace('..','',$jobs->logo)) }}" class="swiper-lazy" data-src="{{ asset(str_replace('..','',$jobs->logo)) }}" alt="{{ $jobs->title }} " /></a></div>
                                                             <div class="figcaption">
                                                                 <div class="title"><a target="_blank" href="{{ route('job_details', [$jobs->link, $jobs->id]) }}" title="{{ $jobs->title  }}">{{ $jobs->title  }}</a></div>
 
@@ -436,7 +443,45 @@
                                         <div class="swiper-navigation">
                                             <div class="swiper-prev"><span class="mdi mdi-chevron-left"></span></div>
                                             <div class="main-pagination">
-                                                <div class="swiper-pagination"></div>
+                                                <div class="swiper-pagination">
+                                                    <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets" style="transform: translateX(2px);">
+                                                        <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1" style="transform: translateX(0px);">1</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2" style="transform: translateX(0px);">2</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3" style="transform: translateX(0px);">3</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4" style="transform: translateX(0px);">4</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5" style="transform: translateX(0px);">5</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6" style="transform: translateX(0px);">6</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 7" style="transform: translateX(0px);">7</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 8" style="transform: translateX(0px);">8</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 9" style="transform: translateX(0px);">9</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 10" style="transform: translateX(0px);">10</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 11" style="transform: translateX(0px);">11</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 12" style="transform: translateX(0px);">12</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 13" style="transform: translateX(0px);">13</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 14" style="transform: translateX(0px);">14</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 15" style="transform: translateX(0px);">15</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 16" style="transform: translateX(0px);">16</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 17" style="transform: translateX(0px);">17</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 18" style="transform: translateX(0px);">18</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 19" style="transform: translateX(0px);">19</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 20" style="transform: translateX(0px);">20</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 21" style="transform: translateX(0px);">21</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 22" style="transform: translateX(0px);">22</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 23" style="transform: translateX(0px);">23</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 24" style="transform: translateX(0px);">24</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 25" style="transform: translateX(0px);">25</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 26" style="transform: translateX(0px);">26</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 27" style="transform: translateX(0px);">27</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 28" style="transform: translateX(0px);">28</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 29" style="transform: translateX(0px);">29</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 30" style="transform: translateX(0px);">30</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 31" style="transform: translateX(0px);">31</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 32" style="transform: translateX(0px);">32</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 33" style="transform: translateX(0px);">33</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 34" style="transform: translateX(0px);">34</span>
+                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 35" style="transform: translateX(0px);">35</span>
+                                                    </div>
+                                                </div>
                                             </div>
                                             <div class="swiper-next"><span class="mdi mdi-chevron-right"></span></div>
                                         </div>
