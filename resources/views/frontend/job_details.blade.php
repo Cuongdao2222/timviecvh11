@@ -377,21 +377,15 @@
                                 </div>
                                 <div class="detail-row">
                                     <h3 class="detail-title">Mô tả Công việc</h3>
-                                    {!!  str_replace('
-                                    <h2>Mô tả công việc</h2>
-                                    ', '', $data->detail)!!}
+                                    {!!  str_replace('<h2>Mô tả công việc</h2>', '', $data->detail)!!}
                                 </div>
                                 <div class="detail-row">
                                     <h3 class="detail-title">Yêu Cầu Công Việc</h3>
-                                    {!!  str_replace('
-                                    <h2>Yêu cầu công việc</h2>
-                                    ', '', $data->requirements)!!}
+                                    {!!  str_replace('<h2>Yêu cầu công việc</h2>', '', $data->requirements)!!}
                                 </div>
                                 <div class="detail-row">
                                     <h3 class="detail-title">Quyền lợi được hưởng</h3>
-                                    {!!str_replace('
-                                    <h2>Quyền lợi được hưởng</h2>
-                                    ', '', $data->rights)!!}
+                                    {!!str_replace('<h2>Quyền lợi được hưởng</h2>', '', $data->rights)!!}
                                 </div>
                                 <div class="share-this-job">
                                     <span>Chia sẻ việc làm này:</span> 
