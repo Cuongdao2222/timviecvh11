@@ -303,7 +303,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{  asset('images/novaland_640x430_2022_05_18_1653037681')}}
+                               
                                 <div class="reset-form"><a href="javascript:void(0);" onclick="resetForm();"><i class="fa fa-rotate-right"></i> Reset</a></div>
                                 <div class="toggle-search">
                                     <div class="advanced-search-btn"><a href="javascript:;"><span class="mdi mdi-magnify-plus-outline"></span>Tìm kiếm nâng cao</a></div>
@@ -634,7 +634,7 @@
                                 <div class="item">
                                     <div class="image">
                                         <a href="https://tapdoanhoangminh.talentnetwork.vn" target="_blank" title="Hoàng Minh Group" rel="nofollow">
-                                        <img class="lazy-bg" data-src="{{ asset('') }}" src="../kiemviecv32/images/graphics/blank.gif" alt="Hoàng Minh Group" title="Hoàng Minh Group">
+                                        <img class="lazy-bg" data-src="" src="../kiemviecv32/images/graphics/blank.gif" alt="Hoàng Minh Group" title="Hoàng Minh Group">
                                         </a>
                                     </div>
                                 </div>
@@ -829,7 +829,8 @@
                             <h3>Bạn có vị trí cần đăng tuyển?</h3>
                             <p>Chúng tôi có những giải pháp tối ưu phù hợp với<br> nhiều loại hình công ty và tiêu chuẩn riêng</p>
                         </div>
-                        <div class="post-a-job-btn"><a class="btn-gradient" href="https://careerbuilder.vn/vi/employers/postjobs" target="_blank">Đăng tin Tuyển dụng
+                        <div class="post-a-job-btn">
+                            <a class="btn-gradient" href="{{ route('form_recruit') }}" target="_blank">Đăng tin Tuyển dụng
                             </a>
                         </div>
                     </div>
