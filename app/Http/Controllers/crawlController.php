@@ -14,6 +14,8 @@ use App\Models\employ_info;
 
 use App\Models\linkpost;
 
+use Illuminate\Support\Facades\Storage;
+
 class crawlController extends Controller
 {
 
@@ -222,9 +224,25 @@ class crawlController extends Controller
 
     }
 
-    public function getPostDetails()
+    // public function getPostDetails()
+    // {
+    //     $link  =  new linkpost()
+    // }
+
+    public function getImageJobCrawl()
     {
-        $link  =  new linkpost()
+        // $employ_info = employ_info::select('logo')->get();
+
+        $logo =  file_get_contents('https://timviec365.vn/pictures/2022/06/24/upo1656054698.jpg');
+
+    
+        file_put_contents(public_path(), $logo);
+
+        echo "thanh cong";
+
+        // foreach ($employ_info as $key => $value) {
+        //    Storage::disk('local')->put('avatars/1', $fileContents);
+        // }
     }
 
 

@@ -1,5 +1,15 @@
 @extends('frontend.layout.appfe')
 @section('content')
+
+    <style type="text/css">
+        @media only screen and (max-width: 767px) {
+            .top-employers-list .item a{
+                top: 0;
+                transform: translateY(50%);
+                left: 0;
+            }
+        }
+    </style>
     <main>
         <link rel="stylesheet" type="text/css" href="{{ asset('css/swiper.css') }}">    
         <link rel="stylesheet" type="text/css" href="{{ asset('css/jquery.auto-complete.css') }}">
