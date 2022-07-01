@@ -231,18 +231,21 @@ class crawlController extends Controller
 
     public function getImageJobCrawl()
     {
-        // $employ_info = employ_info::select('logo')->get();
+        $employ_info = employ_info::select('logo')->get();
 
-        $logo =  file_get_contents('https://timviec365.vn/pictures/2022/06/24/upo1656054698.jpg');
+       
 
-    
-        file_put_contents(public_path(), $logo);
+        foreach ($employ_info as $key => $value) {
 
+            $values = str_replace('..','', $value->logo);
+
+            $logo =  file_get_contents('https://timviec365.vn/'. $values);
+
+            file_put_contents(public_path().'/picture/'.basename($values), $logo);
+
+           
+        }
         echo "thanh cong";
-
-        // foreach ($employ_info as $key => $value) {
-        //    Storage::disk('local')->put('avatars/1', $fileContents);
-        // }
     }
 
 
