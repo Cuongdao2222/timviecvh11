@@ -71,7 +71,7 @@ Start New Layout CB -->
                 <div class="main-wrap">
                     <div class="left-wrap">
                         <div class="button-hambuger"><span class="mdi mdi-menu"></span></div>
-                        <div class="logo"><a href="https://careerbuilder.vn/vi/" title="Tuyển dụng & Tìm kiếm việc làm nhanh" ><img src="./img/logo.png" alt="Tuyển dụng & Tìm kiếm việc làm nhanh"></a></div>
+                        <div class="logo"><a href="https://careerbuilder.vn/vi/" title="Tuyển dụng & Tìm kiếm việc làm nhanh" ><img src="{{ asset('images/template/logo/logo.png') }}" alt="Tuyển dụng & Tìm kiếm việc làm nhanh"></a></div>
                         <div class="main-menu">
                             <ul class="menu">
                                 <li class="dropdown">

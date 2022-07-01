@@ -434,7 +434,7 @@
 
                                                                 <div class="caption">
                                                                     <a class="company-name" href="/nha-tuyen-dung/{{ $jobs->links }}" title="{{ $jobs->links }}" target="_blank">{{ $jobs->name }} </a>
-                                                                    <p class="salary"><em class="fa fa-usd"></em>Lương: Cạnh Tranh</p>
+                                                                    <p class="salary">{!! $jobs->salary  !!}</p>
                                                                     <div class="location">
                                                                         <em class="mdi mdi-map-marker"></em>
                                                                         <p> Hà Nội</p>

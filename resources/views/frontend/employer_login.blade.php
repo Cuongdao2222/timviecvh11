@@ -48,9 +48,9 @@
                 <div class="col-xl-7">
                     <div class="box-info-signup">
                         <div class="title">
-                            <h2>Đăng Ký Tài Khoản Nhà Tuyển Dụng</h2>
+                            <h2>Đăng Nhập Tài Khoản Nhà Tuyển Dụng</h2>
                         </div>
-                        <form name="frmRegister" id="frmRegister" method="post" autocomplete="off" action="{{ route('employer-register') }}">
+                        <form name="frmRegister" id="frmRegister" method="post" autocomplete="off" action="{{ route('loginEmployer') }}">
                             @csrf
                             <div class="step-1" id="step-1">
                                 <!--  <div class="step-title d-flex">
@@ -64,7 +64,7 @@
                                     <div class="form-group d-flex">
                                         <div class="form-info"> <span>Email đăng nhập</span> </div>
                                         <div class="form-input">
-                                            <input type="text" name="email" id="email" value="" autocomplete="off" class="form-control" placeholder="Vui lòng nhập thông tin">
+                                            <input type="text" name="email" id="email" value="" autocomplete="off" class="form-control">
                                             <span class="form-error error_email" id="error_email" >  </span> 
                                         </div>
                                     </div>
@@ -75,15 +75,9 @@
                                             <span class="form-error error_password">  </span> 
                                         </div>
                                     </div>
-                                    <div class="form-group d-flex">
-                                        <div class="form-info"> <span>Xác nhận mật khẩu</span> </div>
-                                        <div class="form-input">
-                                            <input name="re_password" id="re_password" type="password" value="" class="form-control">
-                                            <span class="form-error error_re_password">  </span> 
-                                        </div>
-                                    </div>
+                                   
                                     <div class="btn-area">
-                                        <button type="submit" class="btn-action ">Đăng ký</button><!-- next-tab2 -->
+                                        <button type="submit" class="btn-action ">Đăng Nhập</button><!-- next-tab2 -->
                                     </div>
                                 </div>
                             </div>

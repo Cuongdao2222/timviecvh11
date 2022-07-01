@@ -194,7 +194,7 @@
                                                 <label>Tự động đăng nhập</label>
                                             </div>
                                         </div>
-                                        <a class="forget-password" href="https://careerbuilder.vn/vi/jobseekers/forgotpassword">Quên mật khẩu?</a>
+                                        <a class="forget-password" href="#">Quên mật khẩu?</a>
                                     </form>
                                     <div class="sign-in-by">
                                         <span>Đăng nhập bằng</span>
@@ -213,7 +213,7 @@
                             </div>
                             <div class="dropdown-menu">
                                 <div class="item active"><a class="dropdown-item" href="javascript:;" title="Change language">VI</a></div>
-                                <div class="item"><a class="dropdown-item" href="https://careerbuilder.vn/en" title="Change language">EN</a></div>
+                               
                             </div>
                         </div>
 
@@ -226,10 +226,10 @@
                             </a>
                             <div class="dropdown-menu">
                                 <ul>
-                                    <li><a href="#" title="Đăng nhập">Đăng nhập</a></li>
-                                    <li><a href="#" title="Đăng Tuyển Dụng">Đăng Tuyển Dụng</a></li>
-                                    <li><a href="#" title="Tìm Ứng Viên">Tìm Ứng Viên</a></li>
-                                    <li><a href="#" title="Sản phẩm và Dịch vụ">Sản phẩm và Dịch vụ</a></li>
+                                    <li><a href="{{ route('employers_login_fe') }}" title="Đăng nhập">Đăng nhập</a></li>
+                                    <li><a href="{{ route('form_recruit') }}" title="Đăng Tuyển Dụng">Đăng Tuyển Dụng</a></li>
+                                   <!--  <li><a href="#" title="Tìm Ứng Viên">Tìm Ứng Viên</a></li>
+                                    <li><a href="#" title="Sản phẩm và Dịch vụ">Sản phẩm và Dịch vụ</a></li> -->
                                 </ul>
                             </div>
                         </div>
@@ -257,7 +257,7 @@
                                              </div>
                                           </div>
                                           <a class="forget-password" href="https://careerbuilder.vn/vi/employers/forgetpassword.html">Quên mật khẩu</a>
-                                          <a class="forget-password register" href="https://careerbuilder.vn/vi/employers/register">Đăng ký</a>
+                                          <a class="forget-password register" href="">Đăng ký</a>
                                        </form>
                                     </div>
                                  </div>
@@ -266,20 +266,20 @@
 
                           @endif
 
-                            <div class="main-register"><a href="https://careerbuilder.vn/vi/employers/register">Đăng ký</a></div>
+                            <div class="main-register"><a href="{{ route('register_employer') }}">Đăng ký</a></div>
                             <div class="main-noti" style="display: none"><a href="javascript:void(0);"> <span class="mdi mdi-cart"></span></a></div>
                             <div class="main-language dropdown">
-                                <div class="dropdown-toggle">
+                                <!-- <div class="dropdown-toggle">
                                     <p>VI<em class="mdi mdi-chevron-down"></em></p>
-                                </div>
-                                <div class="dropdown-menu">
+                                </div> -->
+                                <!-- <div class="dropdown-menu">
                                     <div class="item active">
                                        <a class="dropdown-item" href="javascript:void(0);" title="Change language">VI</a>
                                     </div>
                                     <div class="item">
                                        <a class="dropdown-item" href="https://careerbuilder.vn/en/employers/register" title="Change language">EN</a>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="main-candidates">
                                 <a href="{{ route('registerClientUser') }}">
