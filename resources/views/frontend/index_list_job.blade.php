@@ -8,6 +8,12 @@
                 transform: translateY(50%);
                 left: 0;
             }
+            .job-item .figure{
+                padding-right: 0 !important;
+            }
+            .job-item .figure .figcaption{
+                max-width: calc(100% - 100px) !important;
+            }
         }
     </style>
     <main>
@@ -421,7 +427,9 @@
                                                         <div class="figure">
                                                             <div class="image"><a target="_blank" href="{{ route('job_details', [$jobs->link, $jobs->id]) }}" title="{{ $jobs->title }}"><img src="{{ asset('picture/'.basename(str_replace('..','',$jobs->logo))) }}" class="swiper-lazy" data-src="{{ asset('picture/'.basename(str_replace('..','',$jobs->logo))) }}" alt="{{ $jobs->title }} " /></a></div>
                                                             <div class="figcaption">
-                                                                <div class="title"><a target="_blank" href="{{ route('job_details', [$jobs->link, $jobs->id]) }}" title="{{ $jobs->title  }}">{{ $jobs->title  }}</a></div>
+                                                                <div class="title">
+                                                                    <a target="_blank" href="{{ route('job_details', [$jobs->link, $jobs->id]) }}" title="{{ $jobs->title  }}">{{ $jobs->title  }}</a>
+                                                                </div>
 
 
                                                                 <div class="caption">
