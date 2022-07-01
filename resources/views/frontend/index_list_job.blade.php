@@ -15,6 +15,9 @@
                 max-width: calc(100% - 100px) !important;
             }
         }
+         .job-item .figure .figcaption{
+                max-width: calc(100% - 100px) !important;
+            }
     </style>
     <main>
         <link rel="stylesheet" type="text/css" href="{{ asset('css/swiper.css') }}">    
@@ -349,8 +352,26 @@
                 <div class="cb-title cb-title-center">
                     <h2>NHÀ TUYỂN DỤNG HÀNG ĐẦU</h2>
                 </div>
-                <div class="top-employers-list">
-                    <script>if(typeof cb_homepage_logo_vip_home_cb !== 'undefined'){BannerADLOGO15(cb_homepage_logo_vip_home_cb, "class='item'", "class='image'");}</script>
+               <div class="top-employers-list">
+                    
+                    <div class="item">
+                        <div class="image"><a href="https://careerbuilder.vn/banner/7641/" target="_blank" title="" rel="nofollow"><img src="https://ads1.careerbuilder.vn/images/202112/Tavico_88x50_2021_12_31.jpg" alt="" title=""></a></div>
+                    </div>
+                    <div class="item">
+                        <div class="image"><a href="https://careerbuilder.vn/banner/7638/" target="_blank" title="" rel="nofollow"><img src="https://ads1.careerbuilder.vn/images/202110/KSG_KSFinance_88x50_2021_10_22.gif" alt="" title=""></a></div>
+                    </div>
+                    <div class="item">
+                        <div class="image"><a href="https://careerbuilder.vn/banner/7634/" target="_blank" title="" rel="nofollow"><img src="https://ads1.careerbuilder.vn/images/202105/BigC_88x50_2021_05_21.gif" alt="" title=""></a></div>
+                    </div>
+                    <div class="item">
+                        <div class="image"><a href="https://careerbuilder.vn/banner/7630/" target="_blank" title="" rel="nofollow"><img src="https://ads1.careerbuilder.vn/images/202104/MM_Mega_Market_88x50_2021_04_01.gif" alt="" title=""></a></div>
+                    </div>
+                    <div class="item">
+                        <div class="image"><a href="https://careerbuilder.vn/banner/7640/" target="_blank" title="" rel="nofollow"><img src="https://ads1.careerbuilder.vn/images/202011/Jotun_88x50_2020_11_09.gif" alt="" title=""></a></div>
+                    </div>
+                    <div class="item">
+                        <div class="image"><a href="https://careerbuilder.vn/banner/7645/" target="_blank" title="" rel="nofollow"><img src="https://ads1.careerbuilder.vn/images/202205/DAT_Tech_88x50_2022_05_16.gif" alt="" title=""></a></div>
+                    </div>
                 </div>
                 <div class="top-employers-banner">
                     <div class="row">
