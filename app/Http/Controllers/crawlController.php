@@ -161,7 +161,7 @@ class crawlController extends Controller
 
     public function crawlJobDetail()
     {
-       $link = crawl::get();
+        $link = crawl::get();
 
 
         foreach ($link as $key => $value) {
@@ -201,6 +201,23 @@ class crawlController extends Controller
        }
 
        
+    }
+
+    public function changeGroupJob()
+    {
+        $job = job::get();
+
+        foreach ($job as $key => $value) {
+
+            $jobs = job::find($value->id);
+
+            $jobs->career = rand(1,4);
+
+            $jobs->save();
+           
+        }
+
+        
     }
 
     public function getPostJob()

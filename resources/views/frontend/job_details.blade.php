@@ -957,17 +957,26 @@
                         <div class="similar-jobs">
                             <p>Các công việc tương tự</p>
                         </div>
+
+                        <?php  
+
+                         
+                            $jobtt= DB::table('employer_registers')->join('job', 'employer_registers.id', '=', 'job.employer_id')->join('employ_info', 'employer_registers.id', '=', 'employ_info.employ_id')->where('job.career', $data->career)->take(3)->get();
+                        ?>
                         <section class="jobs-side-list">
                             <div class="jobs-list">
+
+                                @foreach($jobtt as $val)
+
                                 <div class="job-item">
                                     <div class="figure">
-                                        <div class="image"> <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/he-thong-nha-hang-nhat-tokyo-deli.35A77DB7.html" target="_blank" title="Hệ thống nhà hàng Nhật Tokyo Deli"> <img  class="lazy-bg" data-src="https://images.careerbuilder.vn/employer_folders/lot3/169143/67x67/141234standardlogo_001.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Hệ thống nhà hàng Nhật Tokyo Deli"> </a> </div>
+                                        <div class="image"> <a href="{{ route('job_details', [$val->link, $val->id]) }}" target="_blank" title="Hệ thống nhà hàng Nhật Tokyo Deli"> <img  class="lazy-bg" data-src="{{ asset('picture/'.basename(str_replace('..','',$val->logo))) }}" src="{{ asset('picture/'.basename(str_replace('..','',$val->logo))) }}" alt="{{ $val->title }}"> </a> </div>
                                         <div class="figcaption">
                                             <div class="timeago"></div>
-                                            <div class="title"> <a class="job_link" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B99B3A.html" target="_blank" title="Nhân Viên Tuyển Dụng"> Nhân Viên Tuyển Dụng </a> </div>
+                                            <div class="title"> <a class="job_link" href="{{ route('job_details', [$val->link, $val->id]) }}" target="_blank" title="{{ $val->title }}"> {{ $val->title }}</a> </div>
                                             <div class="caption">
-                                                <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/he-thong-nha-hang-nhat-tokyo-deli.35A77DB7.html" title="Hệ thống nhà hàng Nhật Tokyo Deli">Hệ thống nhà hàng Nhật Tokyo Deli</a>
-                                                <p class="salary"><em class="fa fa-usd"></em>Lương: 7 Tr - 8,5 Tr VND</p>
+                                                <a class="company-name" href="/nha-tuyen-dung/{{ $val->links }}" title="{{ $val->name }}">{{ $val->name }}</a>
+                                                <p class="salary"><em class="fa fa-usd"></em>thương lượng</p>
                                                 <div class="location">
                                                     <em class="mdi mdi-map-marker"></em>
                                                     <ul>
@@ -979,6 +988,8 @@
                                         <div class="top-icon"></div>
                                     </div>
                                 </div>
+
+                                @endforeach
                             </div>
                             <div class="load-more"><a href="https://careerbuilder.vn/viec-lam-tuong-tu/Nhân-Viên-Tuyển-Dụng-tai-ho-chi-minh-kl8-vi.html" title="jobs recommend">Xem tất cả</a></div>
                         </section>

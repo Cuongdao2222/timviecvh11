@@ -41,6 +41,6 @@ class crawlLink extends Command
     {
         $crawl = new crawlController();
 
-        $crawl->getImageJobCrawl();
+        $crawl->changeGroupJob();
     }
 }
