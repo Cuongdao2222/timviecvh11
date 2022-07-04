@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, maximum-scale=1"/>
         <base href="https://static.careerbuilder.vn/themes/careerbuilder/"/>
         <meta name="theme-color" content="#1e5c8b"/>
-        <title>Tuyển dụng &amp; Tìm kiếm việc làm nhanh - CareerBuilder.vn</title>
+        <title>Tuyển dụng &amp; Tìm kiếm việc làm nhanh </title>
         <meta name="keywords" content="Việc làm, kiếm việc, tìm việc làm, tuyển dụng, ứng viên,  mạng tuyển dụng, việc làm online, HR, nghành nghề hot, công ty hàng đầu Việt Nam, việc làm bán thời gian" />
         <meta name="description" content="CareerBuilder Mạng Việc Làm &amp; Tuyển Dụng hàng đầu thế giới với hơn 300.000 cơ hội &quot;Việc Tốt - Lương Cao&quot;, được tin dùng bởi hơn 14.000 doanh nghiệp hàng đầu tại Việt Nam. Khám phá ngay!" />
         <link href="javascript:void(0)" hreflang="vi-vn" rel="alternate"/>
@@ -112,8 +112,8 @@
                                     </div>
                                 </li>
                                 <li> <a href="javascript:void(0)"  title="CV Hay">CV Hay</a></li>
-                                <li> <a href="javascript:void(0)"  title="VietnamSalary">VietnamSalary</a></li>
-                                <li> <a href="javascript:void(0)" title="CareerMap">CareerMap</a></li>
+                               <!--  <li> <a href="javascript:void(0)"  title="VietnamSalary">VietnamSalary</a></li> -->
+                                <!-- <li> <a href="javascript:void(0)" title="CareerMap">CareerMap</a></li> -->
                                 <li> <a href="javascript:void(0)" title="Cẩm Nang">Cẩm Nang</a></li>
                                 <li> <a href="javascript:void(0)" title="Tính Lương">Tính Lương</a></li>
                             </ul>
@@ -256,7 +256,7 @@
                                                 <button type="submit">Đăng nhập</button>
                                              </div>
                                           </div>
-                                          <a class="forget-password" href="https://careerbuilder.vn/vi/employers/forgetpassword.html">Quên mật khẩu</a>
+                               
                                           <a class="forget-password register" href="">Đăng ký</a>
                                        </form>
                                     </div>
@@ -303,7 +303,7 @@
                             <div class="profile">
                                 <div class="avatar"><img class="lazy-bg" data-src="./img/user_circle.png" src="../kiemviecv32/images/graphics/blank.gif" alt="user circle"></div>
                                 <div class="username">
-                                    <p>welcome to careerbuilder</p>
+                                    <p>welcome to vieclamngon.vn</p>
                                 </div>
                                 <div class="back-menu-normal"><em class="mdi mdi-arrow-left"></em></div>
                             </div>
@@ -321,7 +321,7 @@
                                     </li>
                                     <li><a href="javascript:void(0)" title="CV Hay"> <i class="mdi mdi-file-document-edit-outline"></i>CV Hay</a></li>
                                     <li><a href="javascript:void(0)" title="VietnamSalary"> <i class="mdi mdi-currency-usd"></i>VietnamSalary</a></li>
-                                    <li><a href="javascript:void(0)" title="CareerMap"> <i class="mdi mdi-chart-line-variant"></i>CareerMap</a></li>
+                      
                                     <li><a href="javascript:void(0)" title="Cẩm Nang"> <i class="mdi mdi-lightbulb-on-outline"></i>Cẩm Nang</a></li>
                                     <li><a href="javascript:void(0)" title="Tính Lương"> <i class="mdi mdi-calculator"></i>Tính Lương</a></li>
                                 </ul>
@@ -369,7 +369,7 @@
                                     <li><a  href="javascript:void(0)" title="Việc làm mới nhất">Việc làm mới nhất</a></li>
                                     <li><a  href="javascript:void(0)" title="CV Hay">CV Hay</a></li>
                                     <li><a  href="javascript:void(0)" title="VietnamSalary">VietnamSalary</a></li>
-                                    <li><a  href="javascript:void(0)" title="CareerMap">CareerMap</a></li>
+             
                                     <li><a  href="javascript:void(0)" title="Cẩm Nang">Cẩm Nang</a></li>
                                     <li><a  href="javascript:void(0)" title="IT Blogs">IT Blogs</a></li>
                                     <li><a  href="javascript:void(0)" title="Ứng Dụng Di Động">Ứng Dụng Di Động</a></li>
