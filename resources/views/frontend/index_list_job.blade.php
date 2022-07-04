@@ -21,6 +21,17 @@
             padding: 0;
         }
 
+        #box-job-suggest {
+
+            padding-top: 80px;
+
+        }    
+
+        .cb-section.cb-section-border-bottom {
+
+            border: none !important;
+        }    
+
         .owl-carousel .item h4 {
             color: red;
             font-weight: 400;
@@ -30,9 +41,9 @@
         .cb-content{
 
             position: absolute;
-            top: 10%;
+            top: 100%;
             left: 50%;
-            transform: translateX(-50%, -45%);
+            transform: translate(-50%, -45%);
             z-index: 999;
         }
 
