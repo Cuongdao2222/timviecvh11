@@ -43,4 +43,19 @@ class ajaxController extends Controller
         return view('ajax.job_apply', compact('data'));
 
     }
+
+    public function getJobData(Request $request)
+    {
+        $page = $request->id;
+
+
+        $job =  $job= DB::table('employer_registers')->join('job', 'employer_registers.id', '=', 'job.employer_id')->join('employ_info', 'employer_registers.id', '=', 'employ_info.employ_id')->paginate(8,['*'], 'page', $page);
+
+    
+
+
+        return view('ajax.job_home', compact('job'));
+       
+
+    }
 }

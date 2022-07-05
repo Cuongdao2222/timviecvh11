@@ -439,19 +439,9 @@
                 <div class="col-lg-8 col-custom-xxl-9">
                     <div class="job-found">
                         <div class="job-found-amout">
-                            <h1>35,479 việc làm</h1>
+                            <h1>{{ $job->count() }} việc làm</h1>
                         </div>
-                        <div class="job-found-sort">
-                            <span class="sort-title dropdown">
-                                Sắp xếp theo<em class="mdi mdi-chevron-down"></em>
-                                <div class="dropdown-menu">
-                                    <ul>
-                                        <li> <a title="Cập nhật" class="active" href="https://careerbuilder.vn/viec-lam/tat-ca-viec-lam-sortdv-vi.html">Cập nhật</a></li>
-                                        <li><a title="Mức lương"  href="https://careerbuilder.vn/viec-lam/tat-ca-viec-lam-sortlg-vi.html">Mức lương</a></li>
-                                    </ul>
-                                </div>
-                            </span>
-                        </div>
+                        
                     </div>
                     <div class="main-slide">
                         <div class="swiper-container">
@@ -459,45 +449,39 @@
                                 <div class="swiper-slide">
                                     <div class="jobs-side-list">
 
-                                        <?php 
-                                            $job= DB::table('employer_registers')->join('job', 'employer_registers.id', '=', 'job.employer_id')->join('employ_info', 'employer_registers.id', '=', 'employ_info.employ_id')->paginate(12);
-
-                                        ?>
-
+                                        @if(isset($job))
                                         @foreach($job as $jobs)
-                                               
-                                            <div class="job-item">
-                                                <div class="figure">
-                                                    <div class="image"><a target="_blank" href="{{ route('job_details', [$jobs->link, $jobs->id]) }}" title="{{ $jobs->title }}"><img src="{{ asset('picture/'.basename(str_replace('..','',$jobs->logo))) }}" class="swiper-lazy" data-src="{{ asset('picture/'.basename(str_replace('..','',$jobs->logo))) }}" alt="{{ $jobs->title }} " /></a></div>
-                                                    <div class="figcaption">
-                                                        <div class="title">
-                                                            <a target="_blank" href="{{ route('job_details', [$jobs->link, $jobs->id]) }}" title="{{ $jobs->title  }}">{{ $jobs->title  }}</a>
-                                                        </div>
 
-
-                                                        <div class="caption">
-                                                            <a class="company-name" href="/nha-tuyen-dung/{{ $jobs->links }}" title="{{ $jobs->links }}" target="_blank">{{ $jobs->name }} </a>
-                                                            <p class="salary">{!! $jobs->salary  !!}</p>
-                                                            <div class="location">
-                                                                <em class="mdi mdi-map-marker"></em>
-                                                                <p> Hà Nội</p>
-                                                            </div>
-                                                        </div>
+                                        <div class="job-item">
+                                            <div class="figure">
+                                                <div class="image"><a target="_blank" href="{{ route('job_details', [$jobs->link, $jobs->id]) }}" title="{{ $jobs->title }}"><img src="{{ asset('picture/'.basename(str_replace('..','',$jobs->logo))) }}" class="swiper-lazy" data-src="{{ asset('picture/'.basename(str_replace('..','',$jobs->logo))) }}" alt="{{ $jobs->title }} " /></a></div>
+                                                <div class="figcaption">
+                                                    <div class="title">
+                                                        <a target="_blank" href="{{ route('job_details', [$jobs->link, $jobs->id]) }}" title="{{ $jobs->title  }}">{{ $jobs->title  }}</a>
                                                     </div>
 
-                                                    @if (Auth::check()) 
-                                                    <div class="top-icon"> <span class="top apply-job" onclick="apply('{{ $jobs->id }}')">Apply</span> </div>
 
-                                                   
-
-                                                    <div class="saves-icon"> <span class="top save-job" onclick="saveJob('{{ $jobs->id }}')">Save</span> </div>
-                                                    @endif
+                                                    <div class="caption">
+                                                        <a class="company-name" href="/nha-tuyen-dung/{{ $jobs->links }}" title="{{ $jobs->links }}" target="_blank">{{ $jobs->name }} </a>
+                                                        <p class="salary">{!! $jobs->salary  !!}</p>
+                                                        <div class="location">
+                                                            <em class="mdi mdi-map-marker"></em>
+                                                            <p> Hà Nội</p>
+                                                        </div>
+                                                    </div>
                                                 </div>
+
+                                                @if (Auth::check()) 
+                                                <div class="top-icon"> <span class="top apply-job" onclick="apply('{{ $jobs->id }}')">Apply</span> </div>
+
+                                               
+
+                                                <div class="saves-icon"> <span class="top save-job" onclick="saveJob('{{ $jobs->id }}')">Save</span> </div>
+                                                @endif
                                             </div>
-                                        
+                                        </div>
                                         @endforeach
-
-
+                                        @endif
                                        
                                         <script>
                                             $(document).ready(function(){
@@ -507,16 +491,7 @@
                                             });
                                         </script>
                                     </div>
-                                    <!-- <div class="pagination">
-                                        <ul>
-                                            <li class="active"><a href="javascript:void(0);">1</a></li>
-                                            <li><a href=https://careerbuilder.vn/viec-lam/tat-ca-viec-lam-trang-2-vi.html>2</a></li>
-                                            <li><a href=https://careerbuilder.vn/viec-lam/tat-ca-viec-lam-trang-3-vi.html>3</a></li>
-                                            <li><a href=https://careerbuilder.vn/viec-lam/tat-ca-viec-lam-trang-4-vi.html>4</a></li>
-                                            <li><a href=https://careerbuilder.vn/viec-lam/tat-ca-viec-lam-trang-5-vi.html>5</a></li>
-                                            <li class="next-page"><a href="https://careerbuilder.vn/viec-lam/tat-ca-viec-lam-trang-2-vi.html"> <span class="mdi mdi-chevron-right"></span></a></li>
-                                        </ul>
-                                    </div> -->
+                                   
                                 </div>
                             </div>
                         </div>

@@ -22,6 +22,11 @@ Route::get('/crawl', 'crawlController@getImageJobCrawl')->name('homes');
  Route::get('/job-details/{link}/{id}.html','Backend\jobController@jobDetails')->name('job_details');
 
 
+ Route::get('/filter','filterController@filter')->name('filter');
+
+
+
+
 
  Route::group(['prefix' => 'ajax'], function() {
 
@@ -29,27 +34,47 @@ Route::get('/crawl', 'crawlController@getImageJobCrawl')->name('homes');
 
     Route::get('apply-job', 'ajaxController@saveApply_job')->name('apply-job'); 
 
-     Route::get('view-apply-job', 'ajaxController@getInfoDataCV')->name('view-apply-job'); 
+    Route::get('view-apply-job', 'ajaxController@getInfoDataCV')->name('view-apply-job'); 
+
+    Route::get('getJobData-ajax','ajaxController@getJobData')->name('get-job-home');
 
     
 
 });
 
 Route::get('/alljob', function () {
+
     return view('frontend.all_job');
+
 })->name('all_job'); 
+
+
+
+
+Route::get('/quick-register-user', function () {
+
+    return view('frontend.regiter-fast-form');
+    
+})->name('regiter-fast-form'); 
+
+
 
 
 Route::get('employers/register', 'Backend\employerController@index')->name('register_employer'); 
 
 Route::get('employers_info', 'Backend\employerController@info_employer')->name('employers_info');
 
+Route::get('employers-login', function () {
 
+    return view('frontend.employer_login');
 
+})->name('employers_login_fe'); 
 
- Route::get('employers-login', function () {
-        return view('frontend.employer_login');
-    })->name('employers_login_fe'); 
+Route::get('employers-login', function () {
+
+    return view('frontend.employer_login');
+
+})->name('employers_login_fe'); 
 
 
 Route::group(['prefix' => 'employer','middleware' => 'Checkemploy'], function() {

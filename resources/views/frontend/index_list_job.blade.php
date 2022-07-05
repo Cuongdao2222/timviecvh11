@@ -6,6 +6,11 @@
 
     <style type="text/css">
 
+        .job-item{
+            background: #fff;
+            border: 1px  solid #ddd;
+        }
+
          .owl-carousel .item {
             height: 10rem ;
             background: #4DC7A0;
@@ -79,6 +84,46 @@
         
         } 
 
+        #owl-example .owl-nav button {
+            background: #fff !important;
+            height: 44px;
+            position: absolute;
+            width: 44px;
+            opacity: .7;
+            border-radius: 100% !important;
+            border: #e1e1e1;
+          
+            filter: drop-shadow(0 4px 7px rgba(0,0,0,.15));
+           
+            
+        }
+
+        #owl-example{
+            position: relative;
+        }
+
+        
+
+        #owl-example .owl-prev  {
+            left: -22px;
+            top: 50%;
+            transform: translateY(-50%);
+           
+        }
+
+         #owl-example .owl-next  {
+            right: -22px;
+            top: 50%;
+            transform: translateY(-50%);
+           
+        }
+
+        .cb-box-find .main-box .main-form .form-group label{
+            position: relative !important;
+            top: 34px !important;
+        }
+
+
        
     </style>
     <main>
@@ -133,18 +178,90 @@
             <div class="section">
                 <section class="cb-section cb-section-border-bottom container cb-content">
                     <div id="owl-example" class="owl-carousel">
-                       <div class="item">
-                            <h4>1</h4>
+
+                        <div class="job-item">
+                           <div class="figure">
+                              <div class="image"><a target="_blank" href="http://localhost:8000/job-details/nhan-vien-thiet-ke-cong-trinh-giao-thong-thu-nhap-hap-dan/46.html" title="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN"><img src="http://localhost:8000/picture/upo1656054698.jpg" class="swiper-lazy" data-src="http://localhost:8000/picture/upo1656054698.jpg" alt="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN "></a></div>
+                              <div class="figcaption">
+                                 <div class="title">
+                                    <a target="_blank" href="http://localhost:8000/job-details/nhan-vien-thiet-ke-cong-trinh-giao-thong-thu-nhap-hap-dan/46.html" title="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN">NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN</a>
+                                 </div>
+                                 <div class="caption">
+                                    <a class="company-name" href="/nha-tuyen-dung/cong-ty-co-phan-coninco-may-xay-dung-va-cong-trinh-cong-nghiep" title="cong-ty-co-phan-coninco-may-xay-dung-va-cong-trinh-cong-nghiep" target="_blank">Công Ty Cổ Phần Coninco Máy Xây Dựng Và Công Trình Công Nghiệp </a>
+                                    <p class="salary"></p>
+                                    <p class="dd_tuyen">Mức lương: <span style="color: #FF4D43">Từ 15.000.000 VNĐ Đến 20.000.000 VNĐ</span></p>
+                                    <p></p>
+                                    <div class="location">
+                                       <em class="mdi mdi-map-marker"></em>
+                                       <p> Hà Nội</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
                         </div>
 
-                        <div class="item">
-                            <h4>2</h4>
+                        <div class="job-item">
+                           <div class="figure">
+                              <div class="image"><a target="_blank" href="http://localhost:8000/job-details/nhan-vien-thiet-ke-cong-trinh-giao-thong-thu-nhap-hap-dan/46.html" title="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN"><img src="http://localhost:8000/picture/upo1656054698.jpg" class="swiper-lazy" data-src="http://localhost:8000/picture/upo1656054698.jpg" alt="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN "></a></div>
+                              <div class="figcaption">
+                                 <div class="title">
+                                    <a target="_blank" href="http://localhost:8000/job-details/nhan-vien-thiet-ke-cong-trinh-giao-thong-thu-nhap-hap-dan/46.html" title="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN">NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN</a>
+                                 </div>
+                                 <div class="caption">
+                                    <a class="company-name" href="/nha-tuyen-dung/cong-ty-co-phan-coninco-may-xay-dung-va-cong-trinh-cong-nghiep" title="cong-ty-co-phan-coninco-may-xay-dung-va-cong-trinh-cong-nghiep" target="_blank">Công Ty Cổ Phần Coninco Máy Xây Dựng Và Công Trình Công Nghiệp </a>
+                                    <p class="salary"></p>
+                                    <p class="dd_tuyen">Mức lương: <span style="color: #FF4D43">Từ 15.000.000 VNĐ Đến 20.000.000 VNĐ</span></p>
+                                    <p></p>
+                                    <div class="location">
+                                       <em class="mdi mdi-map-marker"></em>
+                                       <p> Hà Nội</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
                         </div>
 
-                        <div class="item">
-                            <h4>3</h4>
+                        <div class="job-item">
+                           <div class="figure">
+                              <div class="image"><a target="_blank" href="http://localhost:8000/job-details/nhan-vien-thiet-ke-cong-trinh-giao-thong-thu-nhap-hap-dan/46.html" title="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN"><img src="http://localhost:8000/picture/upo1656054698.jpg" class="swiper-lazy" data-src="http://localhost:8000/picture/upo1656054698.jpg" alt="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN "></a></div>
+                              <div class="figcaption">
+                                 <div class="title">
+                                    <a target="_blank" href="http://localhost:8000/job-details/nhan-vien-thiet-ke-cong-trinh-giao-thong-thu-nhap-hap-dan/46.html" title="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN">NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN</a>
+                                 </div>
+                                 <div class="caption">
+                                    <a class="company-name" href="/nha-tuyen-dung/cong-ty-co-phan-coninco-may-xay-dung-va-cong-trinh-cong-nghiep" title="cong-ty-co-phan-coninco-may-xay-dung-va-cong-trinh-cong-nghiep" target="_blank">Công Ty Cổ Phần Coninco Máy Xây Dựng Và Công Trình Công Nghiệp </a>
+                                    <p class="salary"></p>
+                                    <p class="dd_tuyen">Mức lương: <span style="color: #FF4D43">Từ 15.000.000 VNĐ Đến 20.000.000 VNĐ</span></p>
+                                    <p></p>
+                                    <div class="location">
+                                       <em class="mdi mdi-map-marker"></em>
+                                       <p> Hà Nội</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
                         </div>
-         
+
+                        <div class="job-item">
+                           <div class="figure">
+                              <div class="image"><a target="_blank" href="http://localhost:8000/job-details/nhan-vien-thiet-ke-cong-trinh-giao-thong-thu-nhap-hap-dan/46.html" title="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN"><img src="http://localhost:8000/picture/upo1656054698.jpg" class="swiper-lazy" data-src="http://localhost:8000/picture/upo1656054698.jpg" alt="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN "></a></div>
+                              <div class="figcaption">
+                                 <div class="title">
+                                    <a target="_blank" href="http://localhost:8000/job-details/nhan-vien-thiet-ke-cong-trinh-giao-thong-thu-nhap-hap-dan/46.html" title="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN">NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN</a>
+                                 </div>
+                                 <div class="caption">
+                                    <a class="company-name" href="/nha-tuyen-dung/cong-ty-co-phan-coninco-may-xay-dung-va-cong-trinh-cong-nghiep" title="cong-ty-co-phan-coninco-may-xay-dung-va-cong-trinh-cong-nghiep" target="_blank">Công Ty Cổ Phần Coninco Máy Xây Dựng Và Công Trình Công Nghiệp </a>
+                                    <p class="salary"></p>
+                                    <p class="dd_tuyen">Mức lương: <span style="color: #FF4D43">Từ 15.000.000 VNĐ Đến 20.000.000 VNĐ</span></p>
+                                    <p></p>
+                                    <div class="location">
+                                       <em class="mdi mdi-map-marker"></em>
+                                       <p> Hà Nội</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
 
                     </div>
 
@@ -152,12 +269,6 @@
             </div>
                 
         </div>
-
-       
-       
-
-
-        
        
         <section class="cb-section cb-section-border-bottom" id="box-job-suggest">
             
@@ -168,16 +279,16 @@
                         <div class="title">
                             <h1>Đón lấy thành công với <span> 37,062  cơ hội nghề nghiệp </span></h1>
                         </div>
-                        <form onsubmit="return false;">
+                        <form method="get", action="{{ route('filter') }}">
                             <div class="main-form">
                                 <div class="row">
                                     <div class="form-group col-12 form-keyword">
                                         <label><span class="mdi mdi-magnify"></span></label>
-                                        <input type="search" class="prompt keyword" autofocus name="keyword" id="keyword" placeholder="Chức danh, Kỹ năng, Tên công ty">
+                                        <input type="search" class="prompt keyword"  name="keyword" id="keywords" placeholder="Chức danh, Kỹ năng, Tên công ty" required>
                                         <div class="cleartext"><em class="mdi mdi-close-circle"></em></div>
                                     </div>
                                 </div>
-                                <div class="advanced-search">
+                               <!--  <div class="advanced-search">
                                     <div class="row">
                                         <div class="form-group col-sm-6">
                                             <label><span class="mdi mdi-map-marker"></span></label>
@@ -417,12 +528,12 @@
                                             </select>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                            
                             <div class="reset-form"><a href="javascript:void(0);" onclick="resetForm();"><i class="fa fa-rotate-right"></i> Reset</a></div>
                             <div class="toggle-search">
-                                <div class="advanced-search-btn"><a href="javascript:;"><span class="mdi mdi-magnify-plus-outline"></span>Tìm kiếm nâng cao</a></div>
+                                <!-- <div class="advanced-search-btn"><a href="javascript:;"><span class="mdi mdi-magnify-plus-outline"></span>Tìm kiếm nâng cao</a></div> -->
                                 <div class="expend-less-btn"> <a href="javascript:;"><span class="mdi mdi-chevron-up"></span>Thu gọn</a></div>
                             </div>
                             <div class="find-jobs">
@@ -434,7 +545,7 @@
                         <div class="content">
                             <p>Đăng hồ sơ nghề nghiệp để dễ dàng ứng tuyển nhanh</p>
                         </div>
-                        <div class="upload-resume">             <button class="btn-gradient" onclick="window.location='https://careerbuilder.vn/vi/jobseekers/quick_upload_resume'">ĐĂNG NGAY</button>
+                        <div class="upload-resume">             <button class="btn-gradient" onclick="window.location='{{ route("regiter-fast-form") }}'">ĐĂNG NGAY</button>
                         </div>
                     </div>
                 </div>
@@ -522,19 +633,7 @@
                                         <div class="swiper-slide">
                                             <div class="row">
 
-                                                <?php 
-
-                                                    
-
-                                                    // $job = DB::table('job')->join('employ_info', 'employ_info.employ_id', '=', 'job.employer_id')->select('job.id', 'job.title', 'job.link','employ_info.logo', 'employ_info.name', 'employ_info.links')->distinct()->get();
-
-
-                                                    $job= DB::table('employer_registers')->join('job', 'employer_registers.id', '=', 'job.employer_id')->join('employ_info', 'employer_registers.id', '=', 'employ_info.employ_id')->get();
-
-                                                   
-
-                                                ?>
-
+                                         
                                                 @foreach($job as $jobs)
 
                                                 <div class="col-lg-6 ">
@@ -577,48 +676,28 @@
                                             <div class="swiper-prev"><span class="mdi mdi-chevron-left"></span></div>
                                             <div class="main-pagination">
                                                 <div class="swiper-pagination">
+                                                    <?php  
+                                                        
+                                                        $page = $job->hasMorePages();
+                                                        $page = $page+1;
+
+                                                    ?> 
+
+                                                   
                                                     <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets" style="transform: translateX(2px);">
-                                                        <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1" style="transform: translateX(0px);">1</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2" style="transform: translateX(0px);">2</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3" style="transform: translateX(0px);">3</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4" style="transform: translateX(0px);">4</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5" style="transform: translateX(0px);">5</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6" style="transform: translateX(0px);">6</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 7" style="transform: translateX(0px);">7</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 8" style="transform: translateX(0px);">8</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 9" style="transform: translateX(0px);">9</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 10" style="transform: translateX(0px);">10</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 11" style="transform: translateX(0px);">11</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 12" style="transform: translateX(0px);">12</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 13" style="transform: translateX(0px);">13</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 14" style="transform: translateX(0px);">14</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 15" style="transform: translateX(0px);">15</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 16" style="transform: translateX(0px);">16</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 17" style="transform: translateX(0px);">17</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 18" style="transform: translateX(0px);">18</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 19" style="transform: translateX(0px);">19</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 20" style="transform: translateX(0px);">20</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 21" style="transform: translateX(0px);">21</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 22" style="transform: translateX(0px);">22</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 23" style="transform: translateX(0px);">23</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 24" style="transform: translateX(0px);">24</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 25" style="transform: translateX(0px);">25</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 26" style="transform: translateX(0px);">26</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 27" style="transform: translateX(0px);">27</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 28" style="transform: translateX(0px);">28</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 29" style="transform: translateX(0px);">29</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 30" style="transform: translateX(0px);">30</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 31" style="transform: translateX(0px);">31</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 32" style="transform: translateX(0px);">32</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 33" style="transform: translateX(0px);">33</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 34" style="transform: translateX(0px);">34</span>
-                                                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 35" style="transform: translateX(0px);">35</span>
+                                                        @for($i = 1; $i<=$page; $i++)
+                                                        <span class="swiper-pagination-bullet {{  $i == 1?'swiper-pagination-bullet-active':'' }} page_paginate{{ $i }}" tabindex="0" role="button" aria-label="Go to slide 1" style="transform: translateX(0px);" onclick="paginate_job({{ $i }})">{{ $i }}</span>
+                                                        @endfor
+
+                                                        
+                                                       
+                                                       
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="swiper-next"><span class="mdi mdi-chevron-right"></span></div>
                                         </div>
-                                        <div class="view-more"><a href="https://careerbuilder.vn/viec-lam/tat-ca-viec-lam-vi.html">Xem việc làm mới cập nhật<span class="mdi mdi-arrow-right"></span></a></div>
+                                        <div class="view-more"><a href="{{ route('all_job') }}">Xem việc làm mới cập nhật<span class="mdi mdi-arrow-right"></span></a></div>
                                     </div>
                                 </div>
                             </div>
@@ -973,6 +1052,36 @@
 
         <script type="text/javascript" src="{{ asset('js/owl.carousel.js') }}"></script>
 
+        <script type="text/javascript">
+
+            function paginate_job(id) {
+                
+                 $.ajax({
+                    type: 'GET',
+                    url: "{{ route('get-job-home') }}",
+                    data: {
+                        id: id,
+                           
+                    },
+                    success: function(result){
+
+                        $('.cb-section .swiper-container .row ').html('');
+
+                        $('.cb-section .swiper-container .row ').append(result).show('normal');
+
+                        $('.swiper-pagination-bullet').removeClass('swiper-pagination-bullet-active');
+
+                        $('.page_paginate'+id).addClass('swiper-pagination-bullet-active');
+
+                        // $('.cb-section .swiper-container .swiper-slide').animate({"right": "1408px"}, 200);
+        
+                    }
+                });
+
+            }
+            
+        </script>
+
 
 
         <script type="text/javascript">
@@ -1007,31 +1116,7 @@
             fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));
         </script>
-        <div class="fb-customerchat"
-            attribution=setup_tool
-            page_id="265321726945679"
-            theme_color="#ff7e29"></div>
-        <script>
-            var boolSecurityCode = false;
-            $(document).ready(function() {
-            	$('#sendtofriend, #various_kq').fancybox();
-            	$('#tab_vip_job').click(function(){$('#tab_hot_job').parent().parent().removeClass('active');$(this).parent().parent().addClass('active');$('#cont1, #cont11').hide();$('#cont2, #cont22').show();})
-            	$('#tab_hot_job').click(function(){$('#tab_vip_job').parent().parent().removeClass('active');$(this).parent().parent().addClass('active');$('#cont2, #cont22').hide();$('#cont1, #cont11').show();});
-            	if(0 == 1 && -1 <= 0){
-            		$.fancybox({
-            			'href':PATH_KIEMVIEC + 'jobseekers/member/popuplogout',
-            			'onClosed':function () {
-            				if(history.pushState)
-            					history.pushState({'url':PATH_KIEMVIEC}, null, PATH_KIEMVIEC);
-            				else
-            					window.location.href = PATH_KIEMVIEC;
-            			},
-            			'transitionOut' : 'elastic',
-            			'onComplete' : function() {$("#fancybox-wrap").unbind('mousewheel.fb');} 
-            		});
-            	}
-            })
-        </script>
+       
         <div class="back-drop"></div>
     </main>        
 @endsection

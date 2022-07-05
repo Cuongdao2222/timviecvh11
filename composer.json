@@ -40,7 +40,8 @@
         ],
          "files": [
            
-            "app/lib/Lib/simpledom/simple_html_dom.php"
+            "app/lib/Lib/simpledom/simple_html_dom.php",
+             "bootstrap/constants.php"
         ]
     },
     "autoload-dev": {
