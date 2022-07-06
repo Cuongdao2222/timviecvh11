@@ -716,31 +716,35 @@
         <section class="banner-promo cb-section cb-section-border-bottom">
             <div class="container">
                 <div class="row">
+                    <!-- <div class="col-sm-6 col-lg-3">
+                        <div class="item">
+                            <div class="image loadAds" id="850"><a href="javascript:void(0)"><img src="https://ads.careerbuilder.vn/www/images/712be9f37048b8c1722ec70de2a08384.jpg" width="330" height="290" alt="" title="" border="0"></a><div id="beacon_a26fba6e0c" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://ads.careerbuilder.vn/www/delivery/lg.php?bannerid=5921&amp;campaignid=1701&amp;zoneid=850&amp;loc=http%3A%2F%2Flocalhost%3A8000%2F&amp;cb=a26fba6e0c" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
+                            </div>
+                        </div>
+                    </div> -->
+
                     <div class="col-sm-6 col-lg-3">
                         <div class="item">
-                            <div class="image loadAds" id="848">
-                                <!--<script>OA_show(848);</script>-->
+                            <div class="image loadAds" id="850"><a href="javascript:void(0)"><img src="https://ads.careerbuilder.vn/www/images/712be9f37048b8c1722ec70de2a08384.jpg" width="330" height="290" alt="" title="" border="0"></a><div id="beacon_a26fba6e0c" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://ads.careerbuilder.vn/www/delivery/lg.php?bannerid=5921&amp;campaignid=1701&amp;zoneid=850&amp;loc=http%3A%2F%2Flocalhost%3A8000%2F&amp;cb=a26fba6e0c" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="item">
+                            <div class="image loadAds" id="850"><a href="javascript:void(0)"><img src="https://ads.careerbuilder.vn/www/images/712be9f37048b8c1722ec70de2a08384.jpg" width="330" height="290" alt="" title="" border="0"></a><div id="beacon_a26fba6e0c" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://ads.careerbuilder.vn/www/delivery/lg.php?bannerid=5921&amp;campaignid=1701&amp;zoneid=850&amp;loc=http%3A%2F%2Flocalhost%3A8000%2F&amp;cb=a26fba6e0c" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-3">
                         <div class="item">
-                            <div class="image loadAds" id="849">
-                                <!--<script>OA_show(849);</script>-->
+                            <div class="image loadAds" id="850"><a href="javascript:void(0)"><img src="https://ads.careerbuilder.vn/www/images/712be9f37048b8c1722ec70de2a08384.jpg" width="330" height="290" alt="" title="" border="0"></a><div id="beacon_a26fba6e0c" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://ads.careerbuilder.vn/www/delivery/lg.php?bannerid=5921&amp;campaignid=1701&amp;zoneid=850&amp;loc=http%3A%2F%2Flocalhost%3A8000%2F&amp;cb=a26fba6e0c" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-3">
                         <div class="item">
-                            <div class="image loadAds" id="850">
-                                <!--<script>OA_show(850);</script>-->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="item">
-                            <div class="image loadAds" id="851">
-                                <!--<script>OA_show(851);</script>-->
+                            <div class="image loadAds" id="850"><a href="javascript:void(0)"><img src="https://ads.careerbuilder.vn/www/images/712be9f37048b8c1722ec70de2a08384.jpg" width="330" height="290" alt="" title="" border="0"></a><div id="beacon_a26fba6e0c" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://ads.careerbuilder.vn/www/delivery/lg.php?bannerid=5921&amp;campaignid=1701&amp;zoneid=850&amp;loc=http%3A%2F%2Flocalhost%3A8000%2F&amp;cb=a26fba6e0c" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
                             </div>
                         </div>
                     </div>
@@ -761,80 +765,56 @@
                     </div>
                     <div class="col-lg-7">
                         <div class="row">
+                          
+
                             <div class="col-6 col-sm-4 col-lg-3 col-app-intro">
                                 <div class="item">
-                                    <div class="image">
-                                        <a href="https://nekoglobal.talentnetwork.vn" target="_blank" title="Neko global" rel="nofollow">
-                                        <img class="lazy-bg" data-src="https://images.careerbuilder.vn/logotalent/173x90/logo_1652779932.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Neko global" title="Neko global">
-                                        </a>
+                                    <div class="image adsTopBanner">
+                                        <div class="image adsTopBanner">
+                                            <a href="javascript:void(0)" target="_blank"><img src="https://ads.careerbuilder.vn/www/images/8038e22595ece70fbfe0a75e7020f355.jpg" width="690" height="250" alt="" title="" border="0"></a>
+                                            <div id="beacon_3b99765e4e" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://ads.careerbuilder.vn/www/delivery/lg.php?bannerid=5711&amp;campaignid=1671&amp;zoneid=846&amp;loc=http%3A%2F%2Flocalhost%3A8000%2F&amp;referer=http%3A%2F%2Flocalhost%3A8000%2Ffilter%3Fkeyword%3Ddfgdfgfdgd&amp;cb=3b99765e4e" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="col-6 col-sm-4 col-lg-3 col-app-intro">
                                 <div class="item">
-                                    <div class="image">
-                                        <a href="https://finhay.talentnetwork.vn" target="_blank" title="Finhay" rel="nofollow">
-                                        <img class="lazy-bg" data-src="https://images.careerbuilder.vn/logotalent/173x90/logo_finhay_1651804999.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Finhay" title="Finhay">
-                                        </a>
+                                    <div class="image adsTopBanner">
+                                        <div class="image adsTopBanner">
+                                            <a href="javascript:void(0)" target="_blank"><img src="https://ads.careerbuilder.vn/www/images/8038e22595ece70fbfe0a75e7020f355.jpg" width="690" height="250" alt="" title="" border="0"></a>
+                                            <div id="beacon_3b99765e4e" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://ads.careerbuilder.vn/www/delivery/lg.php?bannerid=5711&amp;campaignid=1671&amp;zoneid=846&amp;loc=http%3A%2F%2Flocalhost%3A8000%2F&amp;referer=http%3A%2F%2Flocalhost%3A8000%2Ffilter%3Fkeyword%3Ddfgdfgfdgd&amp;cb=3b99765e4e" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="col-6 col-sm-4 col-lg-3 col-app-intro">
                                 <div class="item">
-                                    <div class="image">
-                                        <a href="https://career.vanphu.vn" target="_blank" title="Văn Phú - Invest" rel="nofollow">
-                                        <img class="lazy-bg" data-src="https://images.careerbuilder.vn/logotalent/173x90/vanphu_1648778182.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Văn Phú - Invest" title="Văn Phú - Invest">
-                                        </a>
+                                    <div class="image adsTopBanner">
+                                        <div class="image adsTopBanner">
+                                            <a href="javascript:void(0)" target="_blank"><img src="https://ads.careerbuilder.vn/www/images/8038e22595ece70fbfe0a75e7020f355.jpg" width="690" height="250" alt="" title="" border="0"></a>
+                                            <div id="beacon_3b99765e4e" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://ads.careerbuilder.vn/www/delivery/lg.php?bannerid=5711&amp;campaignid=1671&amp;zoneid=846&amp;loc=http%3A%2F%2Flocalhost%3A8000%2F&amp;referer=http%3A%2F%2Flocalhost%3A8000%2Ffilter%3Fkeyword%3Ddfgdfgfdgd&amp;cb=3b99765e4e" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="col-6 col-sm-4 col-lg-3 col-app-intro">
                                 <div class="item">
-                                    <div class="image">
-                                        <a href="https://risuntek.talentnetwork.vn" target="_blank" title="RISUNTEK VIỆT NAM" rel="nofollow">
-                                        <img class="lazy-bg" data-src="https://images.careerbuilder.vn/logotalent/173x90/resuntek_1648778094.png" src="../kiemviecv32/images/graphics/blank.gif" alt="RISUNTEK VIỆT NAM" title="RISUNTEK VIỆT NAM">
-                                        </a>
+                                    <div class="image adsTopBanner">
+                                        <div class="image adsTopBanner">
+                                            <a href="javascript:void(0)" target="_blank"><img src="https://ads.careerbuilder.vn/www/images/8038e22595ece70fbfe0a75e7020f355.jpg" width="690" height="250" alt="" title="" border="0"></a>
+                                            <div id="beacon_3b99765e4e" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://ads.careerbuilder.vn/www/delivery/lg.php?bannerid=5711&amp;campaignid=1671&amp;zoneid=846&amp;loc=http%3A%2F%2Flocalhost%3A8000%2F&amp;referer=http%3A%2F%2Flocalhost%3A8000%2Ffilter%3Fkeyword%3Ddfgdfgfdgd&amp;cb=3b99765e4e" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-6 col-sm-4 col-lg-3 col-app-intro">
-                                <div class="item">
-                                    <div class="image">
-                                        <a href="https://tapdoanhoangminh.talentnetwork.vn" target="_blank" title="Hoàng Minh Group" rel="nofollow">
-                                        <img class="lazy-bg" data-src="" src="../kiemviecv32/images/graphics/blank.gif" alt="Hoàng Minh Group" title="Hoàng Minh Group">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6 col-sm-4 col-lg-3 col-app-intro">
-                                <div class="item">
-                                    <div class="image">
-                                        <a href="https://careers.himlamis.edu.vn" target="_blank" title="Trường Quốc tế Him Lam" rel="nofollow">
-                                        <img class="lazy-bg" data-src="https://images.careerbuilder.vn/logotalent/173x90/geet_1641798683.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Trường Quốc tế Him Lam" title="Trường Quốc tế Him Lam">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6 col-sm-4 col-lg-3 col-app-intro">
-                                <div class="item">
-                                    <div class="image">
-                                        <a href="https://eastwest.talentnetwork.vn" target="_blank" title="East West Industries" rel="nofollow">
-                                        <img class="lazy-bg" data-src="https://images.careerbuilder.vn/logotalent/173x90/east-west_logo_1641371141.png" src="../kiemviecv32/images/graphics/blank.gif" alt="East West Industries" title="East West Industries">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6 col-sm-4 col-lg-3 col-app-intro">
-                                <div class="item">
-                                    <div class="image">
-                                        <a href="https://corsairmarine.talentnetwork.vn" target="_blank" title="Corsair Marine" rel="nofollow">
-                                        <img class="lazy-bg" data-src="https://images.careerbuilder.vn/logotalent/173x90/logo_-corsair-marine_1641370484.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Corsair Marine" title="Corsair Marine">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="view-more"><a target="_blank" href="https://careerbuilder.vn/vi/talentnetwork">Xem thêm<span class="mdi mdi-arrow-right"></span></a></div>
+
+
+
+                         
+                        <div class="view-more"><a target="_blank" href="javascript:void(0)">Xem thêm<span class="mdi mdi-arrow-right"></span></a></div>
                     </div>
                 </div>
             </div>
