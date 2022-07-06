@@ -14,6 +14,9 @@ class jobController extends Controller
         $findID = job::findOrFail($id);
 
         $data = job::find($findID->id);
-        return view('frontend.job_details', compact('data'));
+
+        $meta =  $data->title;
+
+        return view('frontend.job_details', compact('data', 'meta'));
     }
 }
