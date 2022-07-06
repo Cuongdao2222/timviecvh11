@@ -27,6 +27,8 @@
         .cb-content{
 
             padding: 0;
+
+            width: 80vw;
         }
 
         #box-job-suggest {
@@ -126,6 +128,11 @@
             top: 34px !important;
         }
 
+        .section{
+            width: 100%;
+
+        }
+
 
        
     </style>
@@ -179,7 +186,7 @@
             </div>
 
             <div class="section">
-                <section class="cb-section cb-section-border-bottom container cb-content">
+                <div class="cb-section cb-section-border-bottom container cb-content">
                     <div id="owl-example" class="owl-carousel">
                          @foreach($job as $jobs)
                         <div class="job-item">
@@ -216,7 +223,7 @@
 
                     </div>
 
-                 </section>   
+                 </div>   
             </div>
                 
         </div>
@@ -729,7 +736,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-sm-6 col-lg-3">
                         <div class="item">
                             <div class="image loadAds" id="850"><a href="javascript:void(0)"><img src="https://ads.careerbuilder.vn/www/images/712be9f37048b8c1722ec70de2a08384.jpg" width="330" height="290" alt="" title="" border="0"></a><div id="beacon_a26fba6e0c" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://ads.careerbuilder.vn/www/delivery/lg.php?bannerid=5921&amp;campaignid=1701&amp;zoneid=850&amp;loc=http%3A%2F%2Flocalhost%3A8000%2F&amp;cb=a26fba6e0c" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
