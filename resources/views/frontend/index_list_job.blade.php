@@ -11,6 +11,9 @@
             border: 1px  solid #ddd;
         }
 
+        .top-employers-banner .item .image {
+            padding: 50px !important;
+        }
          .owl-carousel .item {
             height: 10rem ;
             background: #4DC7A0;
@@ -582,15 +585,19 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="item">
-                                <div class="image adsTopBanner" id="846">
-                                    <!--<script>OA_show(846);</script>-->
+                                <div class="image adsTopBanner">
+                                    <div class="image adsTopBanner">
+                                        <a href="javascript:void(0)" target="_blank"><img src="https://ads.careerbuilder.vn/www/images/8038e22595ece70fbfe0a75e7020f355.jpg" width="690" height="250" alt="" title="" border="0"></a>
+                                        <div id="beacon_3b99765e4e" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://ads.careerbuilder.vn/www/delivery/lg.php?bannerid=5711&amp;campaignid=1671&amp;zoneid=846&amp;loc=http%3A%2F%2Flocalhost%3A8000%2F&amp;referer=http%3A%2F%2Flocalhost%3A8000%2Ffilter%3Fkeyword%3Ddfgdfgfdgd&amp;cb=3b99765e4e" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="item">
-                                <div class="image adsTopBanner" id="847">
-                                    <!--<script>OA_show(847);</script>-->
+                                <div class="image adsTopBanner">
+                                    <div class="image adsTopBanner"><a href="javascript:void(0)" target="_blank"><img src="https://ads.careerbuilder.vn/www/images/22992aee146e2c1e3bb3c8dabe3d7fa9.jpg" width="690" height="250" alt="" title="" border="0"></a><div id="beacon_b01d6aa9af" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://ads.careerbuilder.vn/www/delivery/lg.php?bannerid=5924&amp;campaignid=1701&amp;zoneid=847&amp;loc=http%3A%2F%2Flocalhost%3A8000%2F&amp;referer=http%3A%2F%2Flocalhost%3A8000%2Ffilter%3Fkeyword%3Ddfgdfgfdgd&amp;cb=b01d6aa9af" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
