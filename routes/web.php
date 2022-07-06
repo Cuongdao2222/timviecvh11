@@ -48,6 +48,12 @@ Route::get('/alljob', function () {
 
 })->name('all_job'); 
 
+Route::get('/employ-details', function () {
+
+    return view('frontend.employ-detail-job');
+
+})->name('employ-details');
+
 
 
 
