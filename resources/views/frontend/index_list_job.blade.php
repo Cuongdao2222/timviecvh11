@@ -524,7 +524,7 @@
                     ?>
                     @foreach($topct as $top)
                     <div class="item">
-                        <div class="image"><a href="javascript:void(0)" target="_blank" title="" rel="nofollow"><img src="{{ asset('picture/'.basename(str_replace('..','',$jobs->logo))) }}" alt="" title=""></a></div>
+                        <div class="image"><a href="javascript:void(0)"  title="" rel="nofollow"><img src="{{ asset('picture/'.basename(str_replace('..','',$jobs->logo))) }}" alt="" title=""></a></div>
                     </div>
                     @endforeach
                    
