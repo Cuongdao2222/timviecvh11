@@ -181,90 +181,38 @@
             <div class="section">
                 <section class="cb-section cb-section-border-bottom container cb-content">
                     <div id="owl-example" class="owl-carousel">
-
+                         @foreach($job as $jobs)
                         <div class="job-item">
-                           <div class="figure">
-                              <div class="image"><a target="_blank" href="http://localhost:8000/job-details/nhan-vien-thiet-ke-cong-trinh-giao-thong-thu-nhap-hap-dan/46.html" title="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN"><img src="http://localhost:8000/picture/upo1656054698.jpg" class="swiper-lazy" data-src="http://localhost:8000/picture/upo1656054698.jpg" alt="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN "></a></div>
-                              <div class="figcaption">
-                                 <div class="title">
-                                    <a target="_blank" href="http://localhost:8000/job-details/nhan-vien-thiet-ke-cong-trinh-giao-thong-thu-nhap-hap-dan/46.html" title="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN">NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN</a>
-                                 </div>
-                                 <div class="caption">
-                                    <a class="company-name" href="/nha-tuyen-dung/cong-ty-co-phan-coninco-may-xay-dung-va-cong-trinh-cong-nghiep" title="cong-ty-co-phan-coninco-may-xay-dung-va-cong-trinh-cong-nghiep" target="_blank">Công Ty Cổ Phần Coninco Máy Xây Dựng Và Công Trình Công Nghiệp </a>
-                                    <p class="salary"></p>
-                                    <p class="dd_tuyen">Mức lương: <span style="color: #FF4D43">Từ 15.000.000 VNĐ Đến 20.000.000 VNĐ</span></p>
-                                    <p></p>
-                                    <div class="location">
-                                       <em class="mdi mdi-map-marker"></em>
-                                       <p> Hà Nội</p>
+                            <div class="figure">
+                                <div class="image"><a target="_blank" href="{{ route('job_details', [$jobs->link, $jobs->id]) }}" title="{{ $jobs->title }}"><img src="{{ asset('picture/'.basename(str_replace('..','',$jobs->logo))) }}" class="swiper-lazy" data-src="{{ asset('picture/'.basename(str_replace('..','',$jobs->logo))) }}" alt="{{ $jobs->title }} " /></a></div>
+                                <div class="figcaption">
+                                    <div class="title">
+                                        <a target="_blank" href="{{ route('job_details', [$jobs->link, $jobs->id]) }}" title="{{ $jobs->title  }}">{{ $jobs->title  }}</a>
                                     </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
 
-                        <div class="job-item">
-                           <div class="figure">
-                              <div class="image"><a target="_blank" href="http://localhost:8000/job-details/nhan-vien-thiet-ke-cong-trinh-giao-thong-thu-nhap-hap-dan/46.html" title="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN"><img src="http://localhost:8000/picture/upo1656054698.jpg" class="swiper-lazy" data-src="http://localhost:8000/picture/upo1656054698.jpg" alt="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN "></a></div>
-                              <div class="figcaption">
-                                 <div class="title">
-                                    <a target="_blank" href="http://localhost:8000/job-details/nhan-vien-thiet-ke-cong-trinh-giao-thong-thu-nhap-hap-dan/46.html" title="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN">NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN</a>
-                                 </div>
-                                 <div class="caption">
-                                    <a class="company-name" href="/nha-tuyen-dung/cong-ty-co-phan-coninco-may-xay-dung-va-cong-trinh-cong-nghiep" title="cong-ty-co-phan-coninco-may-xay-dung-va-cong-trinh-cong-nghiep" target="_blank">Công Ty Cổ Phần Coninco Máy Xây Dựng Và Công Trình Công Nghiệp </a>
-                                    <p class="salary"></p>
-                                    <p class="dd_tuyen">Mức lương: <span style="color: #FF4D43">Từ 15.000.000 VNĐ Đến 20.000.000 VNĐ</span></p>
-                                    <p></p>
-                                    <div class="location">
-                                       <em class="mdi mdi-map-marker"></em>
-                                       <p> Hà Nội</p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
 
-                        <div class="job-item">
-                           <div class="figure">
-                              <div class="image"><a target="_blank" href="http://localhost:8000/job-details/nhan-vien-thiet-ke-cong-trinh-giao-thong-thu-nhap-hap-dan/46.html" title="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN"><img src="http://localhost:8000/picture/upo1656054698.jpg" class="swiper-lazy" data-src="http://localhost:8000/picture/upo1656054698.jpg" alt="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN "></a></div>
-                              <div class="figcaption">
-                                 <div class="title">
-                                    <a target="_blank" href="http://localhost:8000/job-details/nhan-vien-thiet-ke-cong-trinh-giao-thong-thu-nhap-hap-dan/46.html" title="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN">NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN</a>
-                                 </div>
-                                 <div class="caption">
-                                    <a class="company-name" href="/nha-tuyen-dung/cong-ty-co-phan-coninco-may-xay-dung-va-cong-trinh-cong-nghiep" title="cong-ty-co-phan-coninco-may-xay-dung-va-cong-trinh-cong-nghiep" target="_blank">Công Ty Cổ Phần Coninco Máy Xây Dựng Và Công Trình Công Nghiệp </a>
-                                    <p class="salary"></p>
-                                    <p class="dd_tuyen">Mức lương: <span style="color: #FF4D43">Từ 15.000.000 VNĐ Đến 20.000.000 VNĐ</span></p>
-                                    <p></p>
-                                    <div class="location">
-                                       <em class="mdi mdi-map-marker"></em>
-                                       <p> Hà Nội</p>
+                                    <div class="caption">
+                                        <a class="company-name" href="/nha-tuyen-dung/{{ $jobs->links }}" title="{{ $jobs->links }}" target="_blank">{{ $jobs->name }} </a>
+                                        <p class="salary">{!! $jobs->salary  !!}</p>
+                                        <div class="location">
+                                            <em class="mdi mdi-map-marker"></em>
+                                            <p> Hà Nội</p>
+                                        </div>
                                     </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
+                                </div>
 
-                        <div class="job-item">
-                           <div class="figure">
-                              <div class="image"><a target="_blank" href="http://localhost:8000/job-details/nhan-vien-thiet-ke-cong-trinh-giao-thong-thu-nhap-hap-dan/46.html" title="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN"><img src="http://localhost:8000/picture/upo1656054698.jpg" class="swiper-lazy" data-src="http://localhost:8000/picture/upo1656054698.jpg" alt="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN "></a></div>
-                              <div class="figcaption">
-                                 <div class="title">
-                                    <a target="_blank" href="http://localhost:8000/job-details/nhan-vien-thiet-ke-cong-trinh-giao-thong-thu-nhap-hap-dan/46.html" title="NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN">NHÂN VIÊN THIẾT KẾ CÔNG TRÌNH GIAO THÔNG THU NHẬP HẤP DẪN</a>
-                                 </div>
-                                 <div class="caption">
-                                    <a class="company-name" href="/nha-tuyen-dung/cong-ty-co-phan-coninco-may-xay-dung-va-cong-trinh-cong-nghiep" title="cong-ty-co-phan-coninco-may-xay-dung-va-cong-trinh-cong-nghiep" target="_blank">Công Ty Cổ Phần Coninco Máy Xây Dựng Và Công Trình Công Nghiệp </a>
-                                    <p class="salary"></p>
-                                    <p class="dd_tuyen">Mức lương: <span style="color: #FF4D43">Từ 15.000.000 VNĐ Đến 20.000.000 VNĐ</span></p>
-                                    <p></p>
-                                    <div class="location">
-                                       <em class="mdi mdi-map-marker"></em>
-                                       <p> Hà Nội</p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
+                                @if (Auth::check()) 
+                                <div class="top-icon"> <span class="top apply-job" onclick="apply('{{ $jobs->id }}')">Apply</span> </div>
+
+                               
+
+                                <div class="saves-icon"> <span class="top save-job" onclick="saveJob('{{ $jobs->id }}')">Save</span> </div>
+                                @endif
+                            </div>
                         </div>
+                        @endforeach
+
+                       
 
                     </div>
 
