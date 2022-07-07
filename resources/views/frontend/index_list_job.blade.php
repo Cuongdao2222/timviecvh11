@@ -639,12 +639,8 @@
                                             <div class="main-pagination">
                                                 <div class="swiper-pagination">
                                                     <?php  
-                                                        
-                                                        $page = $job->hasMorePages();
-                                                       
-                                                        $page = $page+1;
 
-
+                                                        $page = (int)($job->total()/8);
 
                                                     ?> 
 
