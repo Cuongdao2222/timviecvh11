@@ -641,7 +641,7 @@
                                                     <?php  
                                                         
                                                         $page = $job->hasMorePages();
-                                                        print_r($page);
+                                                       
                                                         $page = $page+1;
 
 
