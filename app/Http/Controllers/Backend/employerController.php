@@ -48,6 +48,7 @@ class employerController extends Controller
     public function registerEmployer(Request $request)
     {
 
+        
          $messages = [
             'required' => 'Trường :attribute bắt buộc nhập.',
             'email'    => 'Trường :attribute phải có định dạng email',
@@ -60,6 +61,8 @@ class employerController extends Controller
 
       
         if ($validator->fails()) {
+
+
             return redirect()->back()->withErrors($validator);
         }
        
@@ -84,7 +87,6 @@ class employerController extends Controller
         $employ_info->employ_id = $employer_register['id'];
 
         $employ_info->save();
-
 
 
         return redirect()->back()->with('success', 'Bạn đã đăng ký thành công vui lòng đăng nhập'); 

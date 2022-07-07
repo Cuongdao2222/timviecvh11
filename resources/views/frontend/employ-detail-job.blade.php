@@ -96,7 +96,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6 cus-col">
+                       <!--  <div class="col-sm-6 cus-col">
                             <div class="job-item">
                                 <div class="figure">
                                     <div class="figcaption">
@@ -175,7 +175,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="main-about-us">

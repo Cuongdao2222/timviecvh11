@@ -1,6 +1,13 @@
     @extends('frontend.layout.appfe')
     @section('content')
     <main>
+        <style type="text/css">
+            .alert-danger{
+                color: red;
+                text-align: center;
+            }
+
+        </style>
         <link href="https://careerbuilder.vn/vi/jobseekers/register" rel="canonical" />
         <link rel="stylesheet" type="text/css" href="{{ asset('css/global.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/global1.css') }}">
@@ -117,7 +124,7 @@
                                         </div>
                                         <div class="form-group form-checkbox">
                                             <input type="checkbox" checked="checked" name="chkAgree" id="chkAgree" value="1">
-                                            <label for="chkAgree">Đồng ý với <a href="https://careerbuilder.vn/vi/jobseekers/security">Quy định bảo mật</a> và <a href="https://careerbuilder.vn/vi/jobseekers/use">Thỏa thuận sử dụng</a> của CareerBuilder.vn</label>
+                                           
                                             <span class="error_chkAgree" style="display:none"></span>
                                         </div>
                                         <button class="btn-gradient">Đăng ký</button>
@@ -153,7 +160,58 @@
                 </div>
             </div>
         </section>
+
+        <?php 
+
+            $check_action = \Request::session()->pull('keys', 'default');
+
+            
+        ?>
         <script language="javascript" >
+
+
+            $('.login-user a').click(function () {
+                $('.login-user').addClass('active');
+                $('.register-user').removeClass('active');
+                $('.login-form').show();
+                $('.register-form').hide();
+            })
+
+            $('.register-user a').click(function () {
+
+                $('.login-user ').removeClass('active');
+                $('.login-form').hide();
+                $('.register-form').show();
+
+                $('.login-form').hide();
+                $('.register-user').addClass('active');
+
+            })    
+
+            @if(empty($check_action))
+            $('.login-form').hide();
+            @else
+                @if($check_action=='login')
+                     $('.register-user').removeClass('active');
+                    $('.login-form').show();    
+                    $('.register-form').hide();
+                    $('.login-user').addClass('active');
+                    $('.register-form').hide();
+
+                @else
+                     $('.login-user ').removeClass('active');
+                    $('.login-form').hide();
+                    $('.register-form').show();
+
+                    $('.login-form').hide();
+                    $('.register-user').addClass('active');
+
+                @endif
+            @endif
+
+
+
+
             var language_register = {member_register_write_lastname:"Họ và tên lót", 
                     
                     js_register_email_not_exist:"Bạn có thể sử dụng địa chỉ email này.", 

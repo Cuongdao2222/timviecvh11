@@ -24,6 +24,8 @@ Route::get('/crawl', 'crawlController@getImageJobCrawl')->name('homes');
 
  Route::get('/filter','filterController@filter')->name('filter');
 
+Route::post('register-field', 'Backend\employerController@registerEmployer')->name('employer-register');
+
 
 
 
@@ -48,11 +50,7 @@ Route::get('/alljob', function () {
 
 })->name('all_job'); 
 
-Route::get('/employ-details', function () {
-
-    return view('frontend.employ-detail-job');
-
-})->name('employ-details');
+Route::get('employ-details/{link}', 'employerController@employDetails')->name('employ-details');
 
 
 
@@ -100,7 +98,7 @@ Route::group(['prefix' => 'employer','middleware' => 'Checkemploy'], function() 
         return view('frontend.form_recruit');
     })->name('form_recruit'); 
 
-    Route::post('register-field', 'Backend\employerController@registerEmployer')->name('employer-register');
+
 
     Route::get('logout', 'Backend\employerController@logout')->name('employer-logout');
 

@@ -10,12 +10,31 @@ use App\Models\application;
 use DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Validator;
 
 
 class UserLoginController extends Controller
 {
     public function registerUser(Request $request)
     {
+        $request->session()->put('keys', 'register');
+
+         $messages = [
+            'required' => 'Trường :attribute bắt buộc nhập.',
+            'email'    => 'Trường :attribute phải có định dạng email',
+            'unique'    => ':attribute đã tồn tại xin kiểm tra lại',
+        ];
+         $validator = Validator::make($request->all(), [
+            'email' => 'required|unique:users',
+           
+        ], $messages);
+
+        if ($validator->fails()) {
+
+            return redirect()->back()->withErrors($validator);
+        }
+
+
         $input = $request->All();
 
         $user = new User();
@@ -40,6 +59,8 @@ class UserLoginController extends Controller
     public function loginUser(Request $request)
     {
          
+         $request->session()->put('keys', 'login');
+
        $email =  strip_tags(trim($request->emails), '@') ;
 
         $password = $request->passwords;
