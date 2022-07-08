@@ -1,6 +1,8 @@
 @extends('frontend.layout.appfe')
 @section('content')
 
+
+
     <main>
         <link rel="stylesheet" type="text/css" href="{{ asset('css/swiper.css') }}">
 
@@ -28,6 +30,8 @@
                     <div class="company-info">
                         <div class="info">
                             <div class="img">
+
+                               
                                 <img src="{{ asset('picture/'.basename(str_replace('..','',$findID->logo))) }}" alt="{{ @$findID->name }}" / style="width: 125px;">
                             </div>
                             <div class="content">
@@ -58,15 +62,21 @@
                 <div class="company-jobs-opening">
                     <h2 class="company-heading-title">Việc làm đang tuyển</h2>
                     <div class="row cus-row">
+
+                        
+
+                        @foreach($data as $value)
+
+
                         <div class="col-sm-6 cus-col">
                             <div class="job-item">
                                 <div class="figure">
                                     <div class="figcaption">
-                                        <div class="timeago"> <span><font color="FF0000">(Mới)</font></span>  </div>
-                                        <h3 class="title"><a href="https://careerbuilder.vn/vi/tim-viec-lam/production-planner-nhan-vien-ke-hoach-san-xuat.35B9CF21.html" title="Production Planner (Nhân Viên Kế Hoạch Sản Xuất)">Production Planner (Nhân Viên Kế Hoạch Sản Xuất)</a></h3>
+                                   <!--      <div class="timeago"> <span><font color="FF0000">(Mới)</font></span>  </div> -->
+                                        <h3 class="title"><a href="{{ route('job_details', [$value->link, $value->id]) }}" title="{{ $value->title }}">{{ $value->title }}</a></h3>
                                         <div class="caption">
-                                            <p class="company-name">{{ $data->name }}</p>
-                                            <p class="salary">{{ $data->salary }}</p>
+                                            <p class="company-name">{{ $value->name }}</p>
+                                            <p class="salary">{!! $value->salary !!}</p>
                                             <div class="location">
                                                 <ul>
                                                     <li>Hà Nội</li>
@@ -77,6 +87,8 @@
                                 </div>
                             </div>
                         </div>
+
+                        @endforeach
                         
                        <!--  <div class="col-sm-6 cus-col">
                             <div class="job-item">
