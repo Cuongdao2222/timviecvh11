@@ -2,6 +2,13 @@
 @extends('frontend.layout.appfe')
 @section('content')
 <main>
+
+    <?php 
+
+        $careers = LIST_JOB;
+
+        $address = ADDRESS;
+    ?>
     <link rel="stylesheet" type="text/css" href="{{ asset('css/common-job-detail.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/chosen.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/search-result-list-detail.css') }}">
@@ -304,7 +311,7 @@
                                             <div class="detail-box">
                                                 <div class="map">
                                                     <strong><em class="mdi mdi-map-marker"></em>Địa điểm</strong>
-                                                    <p><a href="https://careerbuilder.vn/viec-lam/ho-chi-minh-l8-vi.html">Hồ Chí Minh</a></p>
+                                                    <p><a href="https://careerbuilder.vn/viec-lam/ho-chi-minh-l8-vi.html">{{ $address[$data->address_job] }}</a></p>
                                                     <a href="javascript:void(0)" onclick="show_map_detail_job();"><img src="img/icon-map.svg"></a>
                                                 </div>
                                             </div>
@@ -318,15 +325,12 @@
                                                     </li>
                                                     <li>
                                                         <strong> <em class="mdi mdi-briefcase"></em>Ngành nghề</strong>
-                                                        <p>                <a href="https://careerbuilder.vn/viec-lam/nhan-su-c22-vi.html" >
-                                                            Nhân sự
+                                                        <p>  
+                                                                     
+                                                            <a href="https://careerbuilder.vn/viec-lam/nhan-su-c22-vi.html" >
+                                                             {{ $careers[$data->career] }}
                                                             </a>
-                                                            ,                                 <a href="https://careerbuilder.vn/viec-lam/det-may-da-giay-thoi-trang-c39-vi.html" >
-                                                            Dệt may / Da giày / Thời trang
-                                                            </a>
-                                                            ,                                 <a href="https://careerbuilder.vn/viec-lam/hanh-chinh-thu-ky-c3-vi.html" >
-                                                            Hành chính / Thư ký
-                                                            </a>
+
                                                         </p>
                                                     </li>
                                                     <li>
@@ -341,7 +345,7 @@
                                                 <ul>
                                                     <li>
                                                         <strong><i class="fa fa-usd"></i>Lương</strong>
-                                                        <p>Cạnh tranh</p>
+                                                        {!! $data->salary   !!}
                                                     </li>
                                                     <li>
                                                         <strong><i class="fa fa-briefcase"></i>Kinh nghiệm</strong>
@@ -634,13 +638,13 @@
                                                         <h4>Địa điểm</h4>
                                                     </div>
                                                     <div class="content">
-                                                        <p>Hồ Chí Minh</p>
-                                                        <ul class="clearall">
+                                                        <p>{{ $address[$data->address_job] }}</p>
+                                                       <!--  <ul class="clearall">
                                                             <li>
                                                                 <em class="mdi mdi-map-marker"></em>
                                                                 <a href="javascript:void(0);" onclick="movetoCenter(0)">100 An Dương Vương, phường 9, Quận 5, Hồ Chí Minh</a>
                                                             </li>
-                                                        </ul>
+                                                        </ul> -->
                                                     </div>
                                                 </div>
                                                 <div class="box-apply ">

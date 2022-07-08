@@ -332,6 +332,10 @@
                             <div class="find-jobs">
                                 <button class="btn-gradient" onClick="return validataSearchHomePage('vi');">TÌM VIỆC NGAY</button>
                             </div>
+
+                            <input type="hidden" name="address" id="address_form">
+                            <input type="hidden" name="industry" id="industry_form">
+
                         </form>
                     </div>
                     <!-- <div class="box-footer">
@@ -858,19 +862,20 @@
 
             }
 
-            
+
 
             $('#industry').change(function () {
                
                 
                 $('.select-job').text($('#industry  option:selected').text());
+                $('#industry_form').val($('#industry  option:selected').val());
 
             })
 
             $('#location').change(function () {
                
-                
                 $('.all-address').text($('#location  option:selected').text());
+                $('#address_form').val($('#location  option:selected').val());
 
             })
 

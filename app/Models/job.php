@@ -13,7 +13,7 @@ class job extends Model
         'detail',
         'requirements',
         'career',
-        'address',
+        'address_job',
         'salary',
         'deadline',
         'employer_id',

@@ -1,8 +1,6 @@
 @extends('frontend.layout.appfe')
 @section('content')
 
-
-
     <main>
         <link rel="stylesheet" type="text/css" href="{{ asset('css/swiper.css') }}">
 
