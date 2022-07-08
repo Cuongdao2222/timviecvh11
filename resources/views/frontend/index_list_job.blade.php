@@ -199,7 +199,7 @@
 
 
                                     <div class="caption">
-                                        <a class="company-name" href="/nha-tuyen-dung/{{ $jobs->links }}" title="{{ $jobs->links }}" target="_blank">{{ $jobs->name }} </a>
+                                        <a class="company-name" href="{{ route('employ-details',  $jobs->links) }}" title="{{ $jobs->links }}" target="_blank">{{ $jobs->name }} </a>
                                         <p class="salary">{!! $jobs->salary  !!}</p>
                                         <div class="location">
                                             <em class="mdi mdi-map-marker"></em>
@@ -750,8 +750,10 @@
                         $topct = App\Models\employ_info::take(6)->orderBy('id', 'desc')->get();
                     ?>
                     @foreach($topct as $top)
+
+                   
                     <div class="item">
-                        <div class="image"><a href="javascript:void(0)"  title="" rel="nofollow"><img src="{{ asset('picture/'.basename(str_replace('..','',$top->logo))) }}" alt="" title=""></a></div>
+                        <div class="image"><a href="{{ route('employ-details', $top->links??'') }}"  title="" rel="nofollow"><img src="{{ asset('picture/'.basename(str_replace('..','',$top->logo))) }}" alt="" title=""></a></div>
                     </div>
                     @endforeach
                    
@@ -829,7 +831,7 @@
 
 
                                                                 <div class="caption">
-                                                                    <a class="company-name" href="/nha-tuyen-dung/{{ $jobs->links }}" title="{{ $jobs->links }}" target="_blank">{{ $jobs->name }} </a>
+                                                                    <a class="company-name" href="{{ route('employ-details',  $jobs->links) }}" title="{{ $jobs->links }}" target="_blank">{{ $jobs->name }} </a>
                                                                     <p class="salary">{!! $jobs->salary  !!}</p>
                                                                     <div class="location">
                                                                         <em class="mdi mdi-map-marker"></em>

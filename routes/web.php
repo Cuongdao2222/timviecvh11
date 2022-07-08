@@ -27,10 +27,7 @@ Route::get('/crawl', 'crawlController@getImageJobCrawl')->name('homes');
 Route::post('register-field', 'Backend\employerController@registerEmployer')->name('employer-register');
 
 
-
-
-
- Route::group(['prefix' => 'ajax'], function() {
+Route::group(['prefix' => 'ajax'], function() {
 
     Route::get('saveJob', 'ajaxController@getSaveJob')->name('getSaveJob'); 
 
@@ -39,8 +36,6 @@ Route::post('register-field', 'Backend\employerController@registerEmployer')->na
     Route::get('view-apply-job', 'ajaxController@getInfoDataCV')->name('view-apply-job'); 
 
     Route::get('getJobData-ajax','ajaxController@getJobData')->name('get-job-home');
-
-    
 
 });
 

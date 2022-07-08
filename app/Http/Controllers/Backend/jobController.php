@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\job;
+use DB;
 
 class jobController extends Controller
 {
@@ -13,7 +14,10 @@ class jobController extends Controller
 
         $findID = job::findOrFail($id);
 
-        $data = job::find($findID->id);
+        $data =   DB::table('job')->join('employ_info', 'employ_info.employ_id', '=', 'job.employer_id')->where('job.id', $findID->id)->first(); 
+
+       
+
 
         $meta =  $data->title;
 

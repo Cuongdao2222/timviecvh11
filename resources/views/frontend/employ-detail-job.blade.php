@@ -28,21 +28,21 @@
                     <div class="company-info">
                         <div class="info">
                             <div class="img">
-                                <img src="https://images.careerbuilder.vn/employer_folders/lot6/83506/148x148/174210jotun_12483_29072011.gif" alt="Jotun Paints Vietnam Company Limited" />
+                                <img src="{{ asset('picture/'.basename(str_replace('..','',$findID->logo))) }}" alt="{{ @$findID->name }}" / style="width: 125px;">
                             </div>
                             <div class="content">
-                                <h1 class="name">Jotun Paints Vietnam Company Limited</h1>
+                                <h1 class="name">{{ @$findID->name }}</h1>
                                 <strong>Địa điểm</strong>
-                                <p>Number 1, Street 10, Song Than 1 IZ, Di An Ward, Di An City, Binh Duong Province </p>
+                                {!!  @$findID->address !!}
                                 <hr>
-                                <strong>Thông tin công ty</strong>
+                                <!-- <strong>Thông tin công ty</strong>
                                 <ul>
                                     <li> <span class="mdi mdi-account-supervisor"></span> Qui mô công ty: 100 - 499 </li>
                                     <li> <span class="mdi mdi-gavel"></span> Loại hình hoạt động:
                                         Trách nhiệm hữu hạn 
                                     </li>
-                                    <li> <span class="mdi mdi-link"></span> Website: www.jotun.com </li>
-                                </ul>
+                                    <li> <span class="mdi mdi-link"></span>{{ @$findID->website }} </li>
+                                </ul> -->
                             </div>
                         </div>
                     </div>
@@ -53,6 +53,8 @@
                         <div class="btn-follow  icon-follow"><a class="btn-gradient" href="javascript:void(0);" id="follow_act"  rel="1" title="Follow"><em class="fa fa-check-circle-o"></em></a></div>
                     </div>
                 </div>
+
+                @if(!$data->isEmpty())
                 <div class="company-jobs-opening">
                     <h2 class="company-heading-title">Việc làm đang tuyển</h2>
                     <div class="row cus-row">
@@ -63,12 +65,11 @@
                                         <div class="timeago"> <span><font color="FF0000">(Mới)</font></span>  </div>
                                         <h3 class="title"><a href="https://careerbuilder.vn/vi/tim-viec-lam/production-planner-nhan-vien-ke-hoach-san-xuat.35B9CF21.html" title="Production Planner (Nhân Viên Kế Hoạch Sản Xuất)">Production Planner (Nhân Viên Kế Hoạch Sản Xuất)</a></h3>
                                         <div class="caption">
-                                            <p class="company-name">Jotun Paints Vietnam Company Limited</p>
-                                            <p class="salary">$                   Cạnh tranh
-                                            </p>
+                                            <p class="company-name">{{ $data->name }}</p>
+                                            <p class="salary">{{ $data->salary }}</p>
                                             <div class="location">
                                                 <ul>
-                                                    <li>Hồ Chí Minh</li>
+                                                    <li>Hà Nội</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -76,26 +77,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6 cus-col">
-                            <div class="job-item">
-                                <div class="figure">
-                                    <div class="figcaption">
-                                        <div class="timeago"> </div>
-                                        <h3 class="title"><a href="https://careerbuilder.vn/vi/tim-viec-lam/ky-su-ban-hang-du-an-cong-trinh-xay-dung-sales-engineer.35B97825.html" title="Kỹ Sư Bán Hàng Dự Án (Công Trình Xây Dựng) / Sales Engineer">Kỹ Sư Bán Hàng Dự Án (Công Trình Xây Dựng) / Sales Engineer</a></h3>
-                                        <div class="caption">
-                                            <p class="company-name">Jotun Paints Vietnam Company Limited</p>
-                                            <p class="salary">$                   Cạnh tranh
-                                            </p>
-                                            <div class="location">
-                                                <ul>
-                                                    <li>Hồ Chí Minh</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
                        <!--  <div class="col-sm-6 cus-col">
                             <div class="job-item">
                                 <div class="figure">
@@ -178,20 +160,19 @@
                         </div> -->
                     </div>
                 </div>
+                @endif
+
                 <div class="main-about-us">
                     <h3 class="company-heading-title">Giới thiệu về công ty</h3>
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="content">
-                                <p>&nbsp;</p>
-                                <p>Jotun, headquartered in Sandefjord, Norway, is one of the world's leading manufacturers of decorative paints, marine, protective and powder coatings. The Jotun Group, with 65 companies and 39 production facilities, employs more than 10,000 people globally. Across four segments and seven geographical regions, the Jotun Group is represented in more than 100 countries through its subsidiaries, joint ventures, agents, branch offices and expansive network of distributors. The Jotun Group’s sales in 2019 was NOK 19.652 billion.</p>
-                                <p>Seeing a prominent market in south east Asia, Jotun opened its first factory in Thailand in 1968. Rapid economic development in the region led to new companies and factories in countries such as Singapore, Malaysia, Indonesia, Vietnam, Philippines, Myanmar, Cambodia and Australia. Jotun SEAP has been awarded a Korn Ferry Engaged Performance Award for year 2019, in recognition of achieving a best-in-class level of “Enablement”. We are proud to have an incredibly diversified region with more than 2,000 employees that come from different nationality and background, working together in delivering profitable growth. Throughout our history, we have focused in providing our employees with meaningful and challenging work, rewarding them through continued learning and development, underpinned by our values of Care, Loyalty, Respect and Boldness.</p>
-                                <p>Jotun Vietnam has been established since 1994, with its first production facility from 1998. As one of the most visible Norwegian brands with long establishment, Jotun Vietnam operates in 4 segments with high and consistent quality products including Decorative Paints with unique Multicolor technology, and Performance Coatings comprising of Marine, Protective and Powder Coatings. Our major strength is providing customers with a Single Source Solution for all their coating needs. The largest single abroad investment by Jotun Group which is the new and modern factory, will come into operation in year 2021; demonstrating Jotun's long-term development strategy in the market. At Jotun Vietnam, we believe that people are our most important asset and therefore, we have been focusing on developing our employees’ competence and offering them opportunities to make differences and make their marks.</p>
+                               {!!  @$findID->desc  !!}
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="main-company-photo">
+               <!--  <div class="main-company-photo">
                     <h3 class="company-heading-title">Hình ảnh công ty</h3>
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
@@ -219,7 +200,7 @@
                             <div class="swiper-next swiper-nav"><span class="mdi mdi-chevron-right"></span></div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
         <div class="login-modal" style="display: none">

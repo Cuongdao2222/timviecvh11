@@ -246,7 +246,7 @@
                         <div class="apply-now-content">
                             <div class="job-desc">
                                 <h1 class="title">{{ @$data->title }}</h1>
-                                <a class="employer job-company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-may-theu-giay-an-phuoc.35A4F400.html">Công Ty TNHH May Thêu Giày An Phước</a>  
+                                <a class="employer job-company-name" href="{{ route('employ-details',  $data->links) }}">{{ @$data->name }}</a>  
                             </div>
                             <div class="apply-now-btn ">        
                                 <a href="javascript:void(0);" class="btn-gradient btnApplyClick"> Nộp Đơn Ứng Tuyển </a>        
@@ -258,8 +258,8 @@
                     <div class="tabs">
                         <nav class="job-result-nav">
                             <ul class="tabs-toggle">
-                                <li id="tabs-job-detail"><a href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tuyen-dung.35B9A7C0.html" data-href="#tab-1">Chi tiết</a></li>
-                                <li id="tabs-job-company"><a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-may-theu-giay-an-phuoc.35A4F400.html" data-href="#tab-2">Tổng quan công ty</a></li>
+                                <li id="tabs-job-detail"><a href="javascript:void(0)" data-href="#tab-1">Chi tiết</a></li>
+                                <li id="tabs-job-company"><a href="javascript:void(0)" data-href="#tab-2">Tổng quan công ty</a></li>
                             </ul>
                             <div class="job-detail-tool">
                                 <ol class="tabs-saved">
@@ -314,7 +314,7 @@
                                                 <ul>
                                                     <li>
                                                         <strong><em class="mdi mdi-update"> </em>Ngày cập nhật</strong>
-                                                        <p>{{ $data->updated_at->format('d/m/Y') }}</p>
+                                                        <p>{{ $data->updated_at }}</p>
                                                     </li>
                                                     <li>
                                                         <strong> <em class="mdi mdi-briefcase"></em>Ngành nghề</strong>

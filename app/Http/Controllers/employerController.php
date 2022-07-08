@@ -21,10 +21,6 @@ class employerController extends Controller
 
         $data = DB::table('job')->join('employ_info', 'employ_info.employ_id', '=', 'job.employer_id')->where('employ_info.id', $id_employ)->get();
 
-       
-
-        return view('frontend.employ-detail-job', compact('data'));
-
-
+        return view('frontend.employ-detail-job', compact('data', 'findID'));
     }
 }
