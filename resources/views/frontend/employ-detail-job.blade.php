@@ -63,10 +63,7 @@
                     <h2 class="company-heading-title">Việc làm đang tuyển</h2>
                     <div class="row cus-row">
 
-                        
-
                         @foreach($data as $value)
-
 
                         <div class="col-sm-6 cus-col">
                             <div class="job-item">
@@ -90,86 +87,7 @@
 
                         @endforeach
                         
-                       <!--  <div class="col-sm-6 cus-col">
-                            <div class="job-item">
-                                <div class="figure">
-                                    <div class="figcaption">
-                                        <div class="timeago"> </div>
-                                        <h3 class="title"><a href="https://careerbuilder.vn/vi/tim-viec-lam/sales-executive-–-decorative-paints-project-south-dieu-hanh-ban-hang-du-an-son-trang-tri.35B975D9.html" title="Sales Executive – Decorative Paints/ Project/ South ( Điều Hành Bán Hàng Dự Án - Sơn Trang Trí)">Sales Executive – Decorative Paints/ Project/ South ( Điều Hành Bán Hàng Dự Án - Sơn Trang Trí)</a></h3>
-                                        <div class="caption">
-                                            <p class="company-name">Jotun Paints Vietnam Company Limited</p>
-                                            <p class="salary">$                   Cạnh tranh
-                                            </p>
-                                            <div class="location">
-                                                <ul>
-                                                    <li>Hồ Chí Minh</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 cus-col">
-                            <div class="job-item">
-                                <div class="figure">
-                                    <div class="figcaption">
-                                        <div class="timeago"> </div>
-                                        <h3 class="title"><a href="https://careerbuilder.vn/vi/tim-viec-lam/sales-executive-protective-coatings-dieu-hanh-ban-hang-son-cong-nghiep.35B975D1.html" title="Sales Executive - Protective Coatings (Điều Hành Bán Hàng - Sơn Công Nghiệp)">Sales Executive - Protective Coatings (Điều Hành Bán Hàng - Sơn Công Nghiệp)</a></h3>
-                                        <div class="caption">
-                                            <p class="company-name">Jotun Paints Vietnam Company Limited</p>
-                                            <p class="salary">$                   Cạnh tranh
-                                            </p>
-                                            <div class="location">
-                                                <ul>
-                                                    <li>Hồ Chí Minh</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 cus-col">
-                            <div class="job-item">
-                                <div class="figure">
-                                    <div class="figcaption">
-                                        <div class="timeago"> </div>
-                                        <h3 class="title"><a href="https://careerbuilder.vn/vi/tim-viec-lam/senior-sales-executive-–-marine-coatings-south-chuyen-vien-ban-hang-son-hang-hai.35B9936F.html" title="Senior Sales Executive – Marine Coatings (South) (Chuyên Viên Bán Hàng Sơn Hàng Hải)">Senior Sales Executive – Marine Coatings (South) (Chuyên Viên Bán Hàng Sơn Hàng Hải)</a></h3>
-                                        <div class="caption">
-                                            <p class="company-name">Jotun Paints Vietnam Company Limited</p>
-                                            <p class="salary">$                   Cạnh tranh
-                                            </p>
-                                            <div class="location">
-                                                <ul>
-                                                    <li>Hồ Chí Minh</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 cus-col">
-                            <div class="job-item">
-                                <div class="figure">
-                                    <div class="figcaption">
-                                        <div class="timeago"> </div>
-                                        <h3 class="title"><a href="https://careerbuilder.vn/vi/tim-viec-lam/key-account-manager-marine-coatings-south-truong-phong-ban-hang-son-hang-hai.35B995D6.html" title="Key Account Manager - Marine Coatings (South) (Trưởng Phòng Bán Hàng Sơn Hàng Hải)">Key Account Manager - Marine Coatings (South) (Trưởng Phòng Bán Hàng Sơn Hàng Hải)</a></h3>
-                                        <div class="caption">
-                                            <p class="company-name">Jotun Paints Vietnam Company Limited</p>
-                                            <p class="salary">$                   Cạnh tranh
-                                            </p>
-                                            <div class="location">
-                                                <ul>
-                                                    <li>Hồ Chí Minh</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
+                      
                     </div>
                 </div>
                 @endif
@@ -184,35 +102,7 @@
                         </div>
                     </div>
                 </div>
-               <!--  <div class="main-company-photo">
-                    <h3 class="company-heading-title">Hình ảnh công ty</h3>
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="album video"><a href="https://www.youtube.com/embed/0BWCymmUxTs?autoplay=1" data-fancybox="album"> <img class="swiper-lazy" data-src="https://img.youtube.com/vi/0BWCymmUxTs/0.jpg"> </a></div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="album"><a href="https://images.careerbuilder.vn/employer_photo/83506/dsc_8448_1529535019.jpg" data-fancybox="album"> <img class="swiper-lazy" data-src="https://images.careerbuilder.vn/employer_photo/83506/dsc_8448_1529535019.jpg"></a></div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="album"><a href="https://images.careerbuilder.vn/employer_photo/83506/dsc00185_1529535033.jpg" data-fancybox="album"> <img class="swiper-lazy" data-src="https://images.careerbuilder.vn/employer_photo/83506/dsc00185_1529535033.jpg"></a></div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="album"><a href="https://images.careerbuilder.vn/employer_photo/83506/image_20today_207_38_57_20pm_1529535041.jpg" data-fancybox="album"> <img class="swiper-lazy" data-src="https://images.careerbuilder.vn/employer_photo/83506/image_20today_207_38_57_20pm_1529535041.jpg"></a></div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="album"><a href="https://images.careerbuilder.vn/employer_photo/83506/img_1181_1529535051.jpg" data-fancybox="album"> <img class="swiper-lazy" data-src="https://images.careerbuilder.vn/employer_photo/83506/img_1181_1529535051.jpg"></a></div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="album"><a href="https://images.careerbuilder.vn/employer_photo/83506/dsc_9036_1529535134.jpg" data-fancybox="album"> <img class="swiper-lazy" data-src="https://images.careerbuilder.vn/employer_photo/83506/dsc_9036_1529535134.jpg"></a></div>
-                            </div>
-                        </div>
-                        <div class="swiper-navigation">
-                            <div class="swiper-prev swiper-nav"><span class="mdi mdi-chevron-left"></span></div>
-                            <div class="swiper-next swiper-nav"><span class="mdi mdi-chevron-right"></span></div>
-                        </div>
-                    </div>
-                </div> -->
+              
             </div>
         </section>
         <div class="login-modal" style="display: none">
