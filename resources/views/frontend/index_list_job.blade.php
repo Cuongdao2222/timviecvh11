@@ -189,7 +189,7 @@
                             <div class="swiper-wrapper" id="pc-swiper-wrapper">
                                 <div class="swiper-slide">
                                     <a href="https://careerbuilder.vn/vi/jobseekers/ajax/counterbannerclick?url=aHR0cDovL2xkcC50by82a2o2bw==&id=273" rel="nofollow;noreferrer" target="_blank">
-                                        <div class="image"> <img src="{{ asset('images/novaland_1900x570_2022_05_18_1652849793.jpg')}} " alt="Banner"> </div>
+                                        <div class="image"> <img src="{{ asset('images/banner1.png')}} " alt="Banner"> </div>
                                     </a>
                                 </div>
                             </div>
