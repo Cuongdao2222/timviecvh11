@@ -16,21 +16,35 @@
          
         <section class="cb-section">
             <div class="container">
-
-                @if (session('error'))
-                    <div class="alert alert-danger" role="alert">
-                            {{ session('error') }}
-                    </div>
-                @endif
-
+            
                 @if (session('success'))
+
+                    <script type="text/javascript">
+                        
+                        alert('{{ session("success") }}');
+                    </script>
                     <div class="alert alert-success" role="alert">
-                        {{ session('success') }}
+                       
                     </div>
                 @endif
                 <div class="cb-title cb-title-center">
                     <h2>Tham gia ngay hôm nay</h2>
                 </div>
+
+                 @foreach ($errors->all() as $error)
+
+                    <div class="alert alert-danger" role="alert">
+                        <li>{{ $error }}</li>
+                    </div>
+                   
+                @endforeach 
+
+                @if (session('error'))
+
+                    <div class="alert alert-danger" role="alert">
+                            {{ session('error') }}
+                    </div>
+                @endif
                 <div class="box-shadown">
                     <div class="row">
                         <div class="col-md-6">
@@ -84,7 +98,7 @@
                                     <li class="login-user"><a href="javascript:void(0)" title="Đăng Nhập ">Đăng Nhập </a></li>
                                     <li class="active register-user"> <a href="javascript:void(0)" title="Đăng ký">Đăng ký</a></li>
                                 </ul>
-                                <div class="choose-follow">
+                                <!-- <div class="choose-follow">
                                     <p>Đăng nhập bằng</p>
                                     <ul class="list-follow">
                                         <li>
@@ -95,7 +109,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="or-line"><span>hoặc </span></div>
+                                <div class="or-line"><span>hoặc </span></div> -->
 
 
                                 <div class="register-form">

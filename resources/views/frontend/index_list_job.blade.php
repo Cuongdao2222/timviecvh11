@@ -188,7 +188,7 @@
                         <div class="swiper-container">
                             <div class="swiper-wrapper" id="pc-swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="https://careerbuilder.vn/vi/jobseekers/ajax/counterbannerclick?url=aHR0cDovL2xkcC50by82a2o2bw==&id=273" rel="nofollow;noreferrer" target="_blank">
+                                    <a href="javascript:void(0)" rel="nofollow;noreferrer">
                                         <div class="image"> <img src="{{ asset('images/banner1.png')}} " alt="Banner"> </div>
                                     </a>
                                 </div>
@@ -250,8 +250,6 @@
                         </div>
                         @endforeach
 
-                       
-
                     </div>
 
                  </div>   
@@ -260,6 +258,9 @@
         </div>
 
         
+
+
+
        
         <section class="cb-section cb-section-border-bottom" id="box-job-suggest">
             
