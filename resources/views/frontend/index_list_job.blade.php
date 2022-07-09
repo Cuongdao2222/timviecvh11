@@ -366,7 +366,7 @@
 
                     <?php 
 
-                        $topct = App\Models\employ_info::take(6)->orderBy('id', 'desc')->get();
+                        $topct = App\Models\employ_info::take(6)->orderBy('id', 'asc')->get();
                     ?>
                     @foreach($topct as $top)
 

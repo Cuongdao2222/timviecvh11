@@ -64,7 +64,7 @@
                         <div class="title">
                             <h2>Đăng Ký Tài Khoản Nhà Tuyển Dụng</h2>
                         </div>
-                        <form name="frmRegister" id="frmRegister" method="post" autocomplete="off" action="{{ route('employer-register') }}">
+                        <form name="frmRegister" id="frmRegister" method="post" autocomplete="off" action="{{ route('employer-register') }}" onsubmit="submitForm(event)">
                             @csrf
                             <div class="step-1" id="step-1">
                                 <!--  <div class="step-title d-flex">
@@ -319,6 +319,14 @@
         $(document).ready(function() {
           $("#email").blur(function(event) {checkEmailExist();});
         });
+
+        function submitForm(event){
+            if($('#password').val() != $('#re_password').val()){
+                alert('Mật khẩu xác nhận không đúng, xin vui lòng kiểm tra lại');
+                event.preventDefault();
+            }
+
+        }
     </script>
 </main>
 @endsection
