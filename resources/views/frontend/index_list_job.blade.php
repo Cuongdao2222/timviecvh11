@@ -203,7 +203,7 @@
                             <div class="swiper-wrapper" id="mobile-swiper-wrapper">
                                 <div class="swiper-slide">
                                     <a href="#" rel="nofollow;noreferrer" target="_blank">
-                                        <div class="image"> <img src="{{  asset('images/novaland_640x430_2022_05_18_1653037681.jpg')}} " alt="Banner"> </div>
+                                        <div class="image"> <img src="{{  asset('images/novaland_640x430_2022_05_18_1653037681.png')}} " alt="Banner"> </div>
                                     </a>
                                 </div>
                             </div>

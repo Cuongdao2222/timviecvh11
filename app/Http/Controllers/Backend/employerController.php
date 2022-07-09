@@ -214,7 +214,6 @@ class employerController extends Controller
 
         }
 
-       
 
 
         return redirect()->back();
