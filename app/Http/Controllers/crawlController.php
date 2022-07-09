@@ -16,9 +16,29 @@ use App\Models\linkpost;
 
 use Illuminate\Support\Facades\Storage;
 
+use DB;
+
 class crawlController extends Controller
 {
 
+
+    public function FunctionName($id)
+    {
+
+        $data = DB::table('linkpost')->get();
+
+        foreach ($data as $key => $value) {
+            
+            print_r($value->link);
+
+        }
+        
+       //  $link =  file_get_html(trim($url));
+
+       // summary p-summar
+
+       //  content-detail  
+    }
 
     public function updateCrawl()
     {

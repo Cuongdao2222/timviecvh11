@@ -56,6 +56,7 @@ class employerController extends Controller
         ];
          $validator = Validator::make($request->all(), [
             'email' => 'required|unique:employer_registers',
+            'password'=>'required',
            
         ], $messages);
 
