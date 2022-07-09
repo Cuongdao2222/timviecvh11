@@ -374,9 +374,7 @@
 
 
 
-            .btn
-
-            .fa-search:before{
+            .btn.fa-search:before{
                 color: #fff;
             }
             .btn-submit-search{
@@ -388,7 +386,7 @@
                 border-left: 1px solid #ddd;
             }
             .form-sm form{
-                width: 49%;    
+                width: 80%;    
             }
 
             .back-menu-normal{
@@ -536,9 +534,7 @@
             
             <div class="form-sm">
 
-                <div class="back-menu-normal">
-                    
-                </div>
+             
                 <form method="get", action="{{ route('filter') }}">
                     <?php 
 
@@ -622,7 +618,7 @@
                                 </span>
                             </div>
                         </li>
-                       <!--  <li class="btn-list-search"><a class="btn btn-advanced-search" href="/viec-lam/tim-kiem-nang-cao?">Tìm nâng cao</a></li> -->
+                        <li class="btn-list-search"><a class="btn btn-advanced-search" href="javascript:void(0)">Tìm nâng cao</a></li>
                         <li class="search-button"><button type="submit" class="btn btn-submit-search"><i class="icon-search-w icon-search fas fa-search"></i> </button></li>
                     </ul>
 
@@ -776,7 +772,7 @@
             }
             .input-search {
                 height: 40px;
-                width: 262px;
+                width: 323px;
                 border-radius: 0;
                 border-top-left-radius: 3px;
                 border-bottom-left-radius: 3px;
