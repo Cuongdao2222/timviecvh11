@@ -392,13 +392,9 @@
             }
 
             .back-menu-normal{
-                 width: 52%;  
+                 width: 68%;  
                  background: red;
             }
-
-
-
-
 
             .select2____menu-list {
                 width: 100%;
@@ -543,7 +539,7 @@
                 <div class="back-menu-normal">
                     
                 </div>
-                <form>
+                <form method="get", action="{{ route('filter') }}">
                     <?php 
 
                         $listDefineJob = LIST_JOB;
@@ -553,14 +549,14 @@
 
                    
                     <ul class="d-flex">
-                        <li><input type="text" name="q" class="form-control input-search" placeholder="Nhập vị trí, tên công ty, địa điểm..."></li>
+                        <li><input type="text" name="keyword" id="keywords" class="form-control input-search" placeholder="Nhập vị trí, tên công ty, địa điểm..."></li>
                        <li>
                             <div class="sl-action">
                                 <span class="select2-container w-100 select2-container--default false ">
                                     <span class="select2-selection select2-selection--single">
                                         <span class="select2-selection__rendered">
 
-                                            <select class="select__menu-list sl-hover-color">
+                                            <select class="select__menu-list sl-hover-color" id="industry" name="industry">
                                                 <option class="css-1n7v3ny-option" value="">Tất cả ngành nghề</option>
 
                                                 @foreach($listDefineJob as $key => $value)
@@ -613,7 +609,7 @@
                                 <span class="select2-container w-100 select2-container--default false ">
                                     <span class="select2-selection select2-selection--single">
                                         <span class="select2-selection__rendered">
-                                            <select class="select__menu-list sl-hover-color">
+                                            <select class="select__menu-list sl-hover-color" id="location" name="location">
                                                 <option class="css-1n7v3ny-option">Tất cả tỉnh thành</option>
 
                                                 @foreach($address as $key => $value)
@@ -626,9 +622,13 @@
                                 </span>
                             </div>
                         </li>
-                        <li class="btn-list-search"><a class="btn btn-advanced-search" href="/viec-lam/tim-kiem-nang-cao?">Tìm nâng cao</a></li>
+                       <!--  <li class="btn-list-search"><a class="btn btn-advanced-search" href="/viec-lam/tim-kiem-nang-cao?">Tìm nâng cao</a></li> -->
                         <li class="search-button"><button type="submit" class="btn btn-submit-search"><i class="icon-search-w icon-search fas fa-search"></i> </button></li>
                     </ul>
+
+                    <input type="hidden" name="address" id="address_form">
+                    <input type="hidden" name="industry" id="industry_form">
+
                 </form>
             </div>    
         </div>
@@ -1244,15 +1244,17 @@
             $('#industry').change(function () {
                
                 
-                $('.select-job').text($('#industry  option:selected').text());
+                // $('.select-job').text($('#industry  option:selected').text());
                 $('#industry_form').val($('#industry  option:selected').val());
 
             })
 
             $('#location').change(function () {
                
-                $('.all-address').text($('#location  option:selected').text());
+                // $('.all-address').text($('#location  option:selected').text());
                 $('#address_form').val($('#location  option:selected').val());
+
+                // alert($('#location  option:selected').val());
 
             })
 
