@@ -3,6 +3,7 @@
 
     <link rel="stylesheet" type="text/css" href="{{ asset('css/owl.carousel.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/owl.theme.default.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
 
     <style type="text/css">
 
@@ -260,6 +261,8 @@
                 
                /* background: red;*/
 
+               border: 1px solid #ddd;
+
                 display: flex;
 
                 margin-top: 95px;
@@ -267,22 +270,364 @@
             .d-flex{
                 display: flex;
             }
+
+            .select2-selection__rendered {
+                display: block;
+                /*padding-left: 8px;
+                padding-right: 20px;*/
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                line-height: 40px;
+                color: #000;
+                border-left: 1px solid #ddd
+            }
+
+            .sl-action {
+                width: 145px;
+            }
+
+            .btn-advanced-search {
+                background-color: #f5f5f5;
+                height: 40px;
+                line-height: 40px;
+                border: none;
+                border-left: 1px solid #e0e0e0;
+                font-size: 12px;
+                color: #939393;
+                padding: 0;
+                border-radius: 0;
+                width: 100px;
+            }
+
+            .select2-selection__placeholder {
+                color: #999!important;
+            }
+
+            .select2-selection--single {
+                width: 100%;
+                height: 40px;
+                border-radius: 0;
+                border: none;
+               /* border-left: 1px solid #e0e0e0;*/
+                background-color: #f5f5f5;
+                font-size: 12px;
+            }
+
+            .select2-container {
+                box-sizing: border-box;
+                display: inline-block;
+                margin: 0;
+                position: relative;
+                vertical-align: middle;
+            }
+
+            .w-100 {
+                width: 100%!important;
+            }
+
+            .input-search {
+                height: 40px;
+                width: 262px;
+                border-radius: 0;
+                border-top-left-radius: 3px;
+                border-bottom-left-radius: 3px;
+                padding: 0 12px;
+                border: none;
+                box-shadow: none;
+                font-size: 12px;
+                color: #000;
+            }
+
+            .top-header ul {
+                list-style: none;
+                padding: 0;
+                margin-bottom: 0;
+            }
+
+            .select2-selection__arrow {
+                height: 40px;
+                position: absolute;
+                top: 1px;
+                right: 1px;
+                width: 20px;
+            }
+            .search-button{
+                line-height: 40px;
+                width: 40px;
+                background: red;
+                text-align: center;
+            }
+
+            .btn-advanced-search {
+                background-color: #f5f5f5;
+                height: 40px;
+                line-height: 40px;
+                border: none;
+                border-left: 1px solid #e0e0e0;
+                font-size: 12px;
+                color: #939393;
+                padding: 0;
+                border-radius: 0;
+                width: 100px;
+            }
+
+
+
+            .btn
+
+            .fa-search:before{
+                color: #fff;
+            }
+            .btn-submit-search{
+                background: red;
+            }
+            .btn-list-search{
+                width: 89px;
+                padding: 0 7px;
+                border-left: 1px solid #ddd;
+            }
+            .form-sm form{
+                width: 49%;    
+            }
+
+            .back-menu-normal{
+                 width: 52%;  
+                 background: red;
+            }
+
+
+
+
+
+            .select2____menu-list {
+                width: 100%;
+                border-radius: 0 0 4px 4px;
+                border: 1px solid #aaa;
+                background-color: #fff;
+                box-shadow: 0 2px 9px 1px rgb(0 0 0 / 25%);
+                position: absolute;
+                z-index: 2;
+            }
+
+            .select2____menu-list {
+                width: 100%;
+                right: 0;
+                top: 102%;
+            }
+
+            .css-2b097c-container {
+                position: relative;
+                box-sizing: border-box;
+            }
+
+            .css-1jyyht9-control {
+                -webkit-box-align: center;
+                align-items: center;
+                background-color: rgb(245, 245, 245);
+                cursor: default;
+                display: flex;
+                flex-wrap: wrap;
+                -webkit-box-pack: justify;
+                justify-content: space-between;
+                min-height: 30px;
+                position: relative;
+                transition: all 100ms ease 0s;
+                box-sizing: border-box;
+                margin: 4px;
+                border: 1px solid rgb(170, 170, 170);
+                height: 25px;
+                border-radius: 0px !important;
+                outline: 0px !important;
+            }
+
+            .css-1hwfws3 {
+                -webkit-box-align: center;
+                align-items: center;
+                display: flex;
+                flex: 1 1 0%;
+                flex-wrap: wrap;
+                padding: 2px 8px;
+                position: relative;
+                overflow: hidden;
+                box-sizing: border-box;
+            }
+
+            .css-1wy0on6 {
+                -webkit-box-align: center;
+                align-items: center;
+                align-self: stretch;
+                display: flex;
+                flex-shrink: 0;
+                box-sizing: border-box;
+            }
+
+            .css-1wa3eu0-placeholder {
+                color: rgb(128, 128, 128);
+                margin-left: 2px;
+                margin-right: 2px;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                box-sizing: border-box;
+            }
+
+            .css-uiymxs {
+                margin: 2px;
+                padding-bottom: 2px;
+                padding-top: 2px;
+                visibility: visible;
+                color: rgb(51, 51, 51);
+                box-sizing: border-box;
+                height: 15px;
+            }
+
+            .css-1n7v3ny-option {
+                background-color: rgb(222, 235, 255);
+                color: inherit;
+                cursor: default;
+                display: block;
+                font-size: inherit;
+                padding: 0px 12px;
+                width: 100%;
+                user-select: none;
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                box-sizing: border-box;
+            }
+
+            .select__menu-list {
+                height: auto!important;
+                max-height: 200px;
+                width: 100%;
+            }
+
+            .css-yt9ioa-option {
+                background-color: transparent;
+                color: inherit;
+                cursor: default;
+                display: block;
+                font-size: inherit;
+                padding: 8px 12px;
+                width: 100%;
+                user-select: none;
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                box-sizing: border-box;
+            }
+
+            .sl-hover-color{
+                color: #827975;
+            }
+
+            .sl-hover-color>div:hover {
+                color: #fff;
+                background-color: #5897fb;
+            }
+
+            button, input {
+                overflow: visible;
+            }
+
+            .css-1jyyht9-control{
+                display: none;
+            }
+
+            .select__menu-list{
+                border: 0 !important;
+            }
         </style>
 
         <div class="container">
             
             <div class="form-sm">
+
+                <div class="back-menu-normal">
+                    
+                </div>
                 <form>
+                    <?php 
+
+                        $listDefineJob = LIST_JOB;
+
+                        $address = ADDRESS;
+                    ?>
+
+                   
                     <ul class="d-flex">
                         <li><input type="text" name="q" class="form-control input-search" placeholder="Nhập vị trí, tên công ty, địa điểm..."></li>
-                        <li>
-                            <div class="sl-action"><span class="select2-container w-100 select2-container--default false "><span class="select2-selection select2-selection--single"><span class="select2-selection__rendered"><span class="select2-selection__placeholder">Tất cả ngành nghề</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span></div>
+                       <li>
+                            <div class="sl-action">
+                                <span class="select2-container w-100 select2-container--default false ">
+                                    <span class="select2-selection select2-selection--single">
+                                        <span class="select2-selection__rendered">
+
+                                            <select class="select__menu-list sl-hover-color">
+                                                <option class="css-1n7v3ny-option" value="">Tất cả ngành nghề</option>
+
+                                                @foreach($listDefineJob as $key => $value)
+
+                                                    <option class="css-1n7v3ny-option" value="{{ $key }}">{{ $value }}</option>
+
+                                                @endforeach
+
+                                            </select>
+                                          <!--   <span class="select2-selection__placeholder">Tất cả ngành nghề</span>
+                                            <div class="select2____menu-list">
+                                                <div class=" css-2b097c-container">
+                                                    <div class=" css-1jyyht9-control">
+                                                        <div class=" css-1hwfws3">
+                                                            <div class=" css-1wa3eu0-placeholder"></div>
+                                                            <div class="css-uiymxs">
+                                                                <div class="" style="display: inline-block;">
+                                                                    <input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-24-input" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;">
+                                                                    <div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 12px; font-family: Arial; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class=" css-1wy0on6">
+                                                            <div style="height: 27px; width: 20px;">
+                                                                <svg width="16" height="16" viewBox="0 0 22 22" focusable="false" role="presentation">
+                                                                    <path d="M16.436 15.085l3.94 4.01a1 1 0 0 1-1.425 1.402l-3.938-4.006a7.5 7.5 0 1 1 1.423-1.406zM10.5 16a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11z" fill="#9e9e9e" fill-rule="evenodd"></path>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class=" css-1se6jq4">
+
+                                                        <select class="select__menu-list sl-hover-color">
+                                                            <option class="css-1n7v3ny-option">Tất cả ngành nghề</option>
+                                                        </select>
+                                                       
+                                                    </div>
+                                                    <input name="field_ids" type="hidden" value="">
+                                                </div>
+                                            </div> -->
+                                        </span>
+                                        <span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span>
+                                    </span>
+                                </span>
+                            </div>
                         </li>
+
                         <li>
-                            <div class="sl-action"><span class="select2-container w-100 select2-container--default false "><span class="select2-selection select2-selection--single"><span class="select2-selection__rendered"><span class="select2-selection__placeholder">Tất cả tỉnh thành</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span></div>
+                            <div class="sl-action">
+                                <span class="select2-container w-100 select2-container--default false ">
+                                    <span class="select2-selection select2-selection--single">
+                                        <span class="select2-selection__rendered">
+                                            <select class="select__menu-list sl-hover-color">
+                                                <option class="css-1n7v3ny-option">Tất cả tỉnh thành</option>
+
+                                                @foreach($address as $key => $value)
+                                                    <option value="{{ $key }}">{{ $value }}</option>
+                                                @endforeach
+                                            </select>
+                                        </span>
+                                        
+                                    </span>
+                                </span>
+                            </div>
                         </li>
-                        <li><a class="btn btn-advanced-search" href="/viec-lam/tim-kiem-nang-cao?">Tìm nâng cao</a></li>
-                        <li><button type="submit" class="btn btn-submit-search"><i class="icon-search-w icon-search"></i></button></li>
+                        <li class="btn-list-search"><a class="btn btn-advanced-search" href="/viec-lam/tim-kiem-nang-cao?">Tìm nâng cao</a></li>
+                        <li class="search-button"><button type="submit" class="btn btn-submit-search"><i class="icon-search-w icon-search fas fa-search"></i> </button></li>
                     </ul>
                 </form>
             </div>    
@@ -315,17 +660,7 @@
 
                                              <select id="industry" name="industry" class="chosen-select chosen-select-max-three" data-placeholder="Tất cả ngành nghề" multiple>
                                                     <option value="">Chọn ngành nghề</option>
-                                                    <?php 
-
-                                                        $listDefineJob = LIST_JOB;
-
-                                                        $address = ADDRESS;
-                                                    ?>
-
-                                                    @foreach($listDefineJob as $key => $value)
-                                                    <option value="{{ $key }}">{{ $value }}</option>
-
-                                                    @endforeach
+                                                    
                                                    
                                                 </select>
 
