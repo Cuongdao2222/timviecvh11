@@ -203,7 +203,7 @@
                             <div class="swiper-wrapper" id="mobile-swiper-wrapper">
                                 <div class="swiper-slide">
                                     <a href="#" rel="nofollow;noreferrer" target="_blank">
-                                        <div class="image"> <img src="{{  asset('images/novaland_640x430_2022_05_18_1653037681.png')}} " alt="Banner"> </div>
+                                        <div class="image"> <img src="{{ asset('images/banner1.png')}} " alt="Banner"> </div>
                                     </a>
                                 </div>
                             </div>
@@ -242,8 +242,6 @@
                                 @if (Auth::check()) 
                                 <div class="top-icon"> <span class="top apply-job" onclick="apply('{{ $jobs->id }}')">Apply</span> </div>
 
-                               
-
                                 <div class="saves-icon"> <span class="top save-job" onclick="saveJob('{{ $jobs->id }}')">Save</span> </div>
                                 @endif
                             </div>
@@ -256,102 +254,121 @@
             </div>
                 
         </div>
+        <style type="text/css">
+            .form-sm{
+                width: 100%;
+                
+               /* background: red;*/
 
-        
+                display: flex;
 
+                margin-top: 95px;
+            }
+            .d-flex{
+                display: flex;
+            }
+        </style>
 
-
-       
-        <section class="cb-section cb-section-border-bottom" id="box-job-suggest">
+        <div class="container">
             
-            <div class="cb-box-find">
-            <div class="container">
-                <div class="main-box">
-                    <div class="box-body">
-                        <div class="title">
-                            <h1>Đón lấy thành công với <span> Vô số cơ hội nghề nghiệp </span>  </h1>
-                        </div>
-                        <form method="get", action="{{ route('filter') }}">
-                            <div class="main-forms">
-                                <div class="row">
-                                    <div class="form-group col-12 form-keyword">
-                                       <!--  <label><span class="mdi mdi-magnify"></span></label> -->
-                                        <input type="search" class="prompt keyword"  name="keyword" id="keywords" placeholder="Chức danh, Kỹ năng, Tên công ty" required>
-                                       <!--  <div class="cleartext"><em class="mdi mdi-close-circle"></em></div> -->
-                                    </div>
-
-                                     <button class="select-job">Chọn ngành nghề</button>
-                                       
-                                    <div class="form-group col-12 form-keyword">
-
-                                         <select id="industry" name="industry" class="chosen-select chosen-select-max-three" data-placeholder="Tất cả ngành nghề" multiple>
-                                                <option value="">Chọn ngành nghề</option>
-                                                <?php 
-
-                                                    $listDefineJob = LIST_JOB;
-
-                                                    $address = ADDRESS;
-                                                ?>
-
-                                                @foreach($listDefineJob as $key => $value)
-                                                <option value="{{ $key }}">{{ $value }}</option>
-
-                                                @endforeach
-                                               
-                                            </select>
-
-                                    </div>
-
-                                    <button class="all-address">Tất cả địa điểm</button>
-
-                                    <div class="form-group col-12 form-keyword">
-
-                                        
-
-                                         <select id="location" name="location"  data-placeholder="Tất cả địa điểm" multiple>
-                                                <option value="">Chọn địa điểm</option>
-                                                
-                                                @foreach($address as $key => $value)
-                                                <option value="{{ $key }}">{{ $value }}</option>
-                                                @endforeach
-                                                
-                                        </select>
-                                    </div>
-
-                                    
-                                </div>
-
-
-                              
-                            </div>
-                           
-                           <!--  <div class="reset-form"><a href="javascript:void(0);" onclick="resetForm();"><i class="fa fa-rotate-right"></i> Reset</a></div> -->
-                            <div class="toggle-search">
-                                <!-- <div class="advanced-search-btn"><a href="javascript:;"><span class="mdi mdi-magnify-plus-outline"></span>Tìm kiếm nâng cao</a></div> -->
-                                <div class="expend-less-btn"> <a href="javascript:;"><span class="mdi mdi-chevron-up"></span>Thu gọn</a></div>
-                            </div>
-                            <div class="find-jobs">
-                                <button class="btn-gradient" onClick="return validataSearchHomePage('vi');">TÌM VIỆC NGAY</button>
-                            </div>
-
-                            <input type="hidden" name="address" id="address_form">
-                            <input type="hidden" name="industry" id="industry_form">
-
-                        </form>
-                    </div>
-                    <!-- <div class="box-footer">
-                        <div class="content">
-                            <p>Đăng hồ sơ nghề nghiệp để dễ dàng ứng tuyển nhanh</p>
-                        </div>
-                        <div class="upload-resume">             <button class="btn-gradient" onclick="window.location='{{ route("regiter-fast-form") }}'">ĐĂNG NGAY</button>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
+            <div class="form-sm">
+                <form>
+                    <ul class="d-flex">
+                        <li><input type="text" name="q" class="form-control input-search" placeholder="Nhập vị trí, tên công ty, địa điểm..."></li>
+                        <li>
+                            <div class="sl-action"><span class="select2-container w-100 select2-container--default false "><span class="select2-selection select2-selection--single"><span class="select2-selection__rendered"><span class="select2-selection__placeholder">Tất cả ngành nghề</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span></div>
+                        </li>
+                        <li>
+                            <div class="sl-action"><span class="select2-container w-100 select2-container--default false "><span class="select2-selection select2-selection--single"><span class="select2-selection__rendered"><span class="select2-selection__placeholder">Tất cả tỉnh thành</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span></div>
+                        </li>
+                        <li><a class="btn btn-advanced-search" href="/viec-lam/tim-kiem-nang-cao?">Tìm nâng cao</a></li>
+                        <li><button type="submit" class="btn btn-submit-search"><i class="icon-search-w icon-search"></i></button></li>
+                    </ul>
+                </form>
+            </div>    
         </div>
 
-        </section>
+        
+            
 
+
+        <!-- <section class="cb-section cb-section-border-bottom" id="box-job-suggest">
+            <div class="cb-box-find">
+                <div class="container">
+                    <div class="main-box">
+                        <div class="box-body">
+                            <div class="title">
+                                <h1>Đón lấy thành công với <span> Vô số cơ hội nghề nghiệp </span>  </h1>
+                            </div>
+                            <form method="get", action="{{ route('filter') }}">
+                                <div class="main-forms">
+                                    <div class="row">
+                                        <div class="form-group col-12 form-keyword">
+                                          
+                                            <input type="search" class="prompt keyword"  name="keyword" id="keywords" placeholder="Chức danh, Kỹ năng, Tên công ty" required>
+                                         
+                                        </div>
+
+                                         <button class="select-job">Chọn ngành nghề</button>
+                                           
+                                        <div class="form-group col-12 form-keyword">
+
+                                             <select id="industry" name="industry" class="chosen-select chosen-select-max-three" data-placeholder="Tất cả ngành nghề" multiple>
+                                                    <option value="">Chọn ngành nghề</option>
+                                                    <?php 
+
+                                                        $listDefineJob = LIST_JOB;
+
+                                                        $address = ADDRESS;
+                                                    ?>
+
+                                                    @foreach($listDefineJob as $key => $value)
+                                                    <option value="{{ $key }}">{{ $value }}</option>
+
+                                                    @endforeach
+                                                   
+                                                </select>
+
+                                        </div>
+
+                                        <button class="all-address">Tất cả địa điểm</button>
+
+                                        <div class="form-group col-12 form-keyword">
+
+                                             <select id="location" name="location"  data-placeholder="Tất cả địa điểm" multiple>
+                                                    <option value="">Chọn địa điểm</option>
+                                                    
+                                                    @foreach($address as $key => $value)
+                                                    <option value="{{ $key }}">{{ $value }}</option>
+                                                    @endforeach
+                                                    
+                                            </select>
+                                        </div>
+                                        
+                                    </div>
+                                  
+                                </div>
+                               
+                              
+                                <div class="toggle-search">
+                                   
+                                    <div class="expend-less-btn"> <a href="javascript:;"><span class="mdi mdi-chevron-up"></span>Thu gọn</a></div>
+                                </div>
+                                <div class="find-jobs">
+                                    <button class="btn-gradient" onClick="return validataSearchHomePage('vi');">TÌM VIỆC NGAY</button>
+                                </div>
+
+                                <input type="hidden" name="address" id="address_form">
+                                <input type="hidden" name="industry" id="industry_form">
+
+                            </form>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+ -->
         <script src='{{ asset("js/caree/cb_homepage.js") }}'></script>
         <script src='{{ asset("js/caree/library_v2.0.4.js") }}'></script>
 
@@ -402,6 +419,8 @@
                 </div>
             </div>
         </section>
+
+        
         <style type="text/css">
             
             .apply-job{
@@ -419,6 +438,23 @@
 
                 z-index: 11;
                 position: absolute;
+            }
+            .input-search {
+                height: 40px;
+                width: 262px;
+                border-radius: 0;
+                border-top-left-radius: 3px;
+                border-bottom-left-radius: 3px;
+                padding: 0 12px;
+                border: none;
+                box-shadow: none;
+                font-size: 12px;
+                color: #000;
+            }
+
+            .action-header .action-lst {
+                background-color: #f5f5f5;
+                border-radius: 2px;
             }
         </style>
         <section class="cb-section">
@@ -548,17 +584,22 @@
                 <div class="cb-title cb-title-center cb-title-white">
                     <h2>Đăng ký theo dõi để nhận cập nhật về cơ hội việc làm mới và phù hợp nhất</h2>
                 </div>
-                <form method="get" id="home_page_created_jobalert" action="https://careerbuilder.vn/thong-bao-viec-lam">
-                    <div class="row">
-                        <div class="col-xl-6">
-                            <div class="form-group">
-                                <input type="text" name="email" placeholder="Nhập địa chỉ email của bạn">
-                                <button type="submit" class="btn-gradient"><span class="mdi mdi-pencil"></span>ĐĂNG KÝ NGAY</button>
-                                <div id="email_validate"></div>
+
+
+                    
+                    <form method="get" id="home_page_created_jobalert" action="https://careerbuilder.vn/thong-bao-viec-lam">
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="form-group">
+                                    <input type="text" name="email" placeholder="Nhập địa chỉ email của bạn">
+                                    <button type="submit" class="btn-gradient"><span class="mdi mdi-pencil"></span>ĐĂNG KÝ NGAY</button>
+                                    <div id="email_validate"></div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </form>
+                    </form>
+                
+                
             </div>
         </section>
         <section class="banner-promo cb-section cb-section-border-bottom">

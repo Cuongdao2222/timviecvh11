@@ -23,52 +23,9 @@
     <script type="text/javascript" src="https://careerbuilder.vn/cv-hay/init-cv-building"></script>
     <div class="page-content d-flex align-items-stretch">
     <div class="default-sidebar sticky">
-        <nav class="side-navbar">
-            <div class="head-nav">
-                <div class="my-cb-center">
-                    <h2>My CareerBuilder Center</h2>
-                </div>
-                <?php  
 
-                    $routeName = \Request::route()->getName();
-                ?>
+        @include('frontend.layout.sidebar.sidebar1')
 
-
-                <ul class="list-unstyled">
-                    <li> <a  class="{{ $routeName==='user-dashboard'?'active':'' }}" href="{{ route('user-dashboard') }}" title="Quản lý hồ sơ"> <em class="material-icons">color_lens</em><span>Quản lý hồ sơ</span></a></li>
-                    <li style="display:none"> <a href="{{ route('my-profile') }}"> <em class="material-icons">person</em><span>Hồ sơ Careerbuilder</span></a></li>
-                    <li> <a href="{{ route('my-profile') }}"  class="{{ $routeName==='my-profile'?'active':'' }}"> <em class="material-icons">person</em><span>Hồ sơ Careerbuilder</span></a></li>
-                   
-                    <li>
-                        <a class="collapse {{ $routeName=='work-save'||$routeName=='work-apply'?'active':'' }}" href="javascript:;"><em class="material-icons">edit</em><span>Việc làm của tôi</span></a>
-                        <ul class="list-unstyled collapse {{ $routeName=='work-save'||$routeName=='work-apply'?'display':'' }}"  >
-                            <li><a href="{{ route('work-save') }}" class="{{ $routeName =='work-save'?'active':'' }}">Việc làm đã lưu</a></li>
-                            <li><a href="{{ route('work-apply') }}"  class="{{ $routeName =='work-apply'?'active':'' }}">Việc làm đã nộp</a></li>
-                        </ul>
-                    </li>
-                    <li> <a href="{{ route('notification-user') }}" class="{{ $routeName=='notification-user'?'active':'' }}"><em class="material-icons">notifications</em><span>Thông Báo Việc Làm</span></a></li>
-                   <!--  <li>
-                        <a class="collapse " href="javascript:;"><em class="material-icons">remove_red_eye</em><span>Nhà tuyển dụng của tôi</span></a>
-                        <ul class="list-unstyled collapse" >
-                            <li> <a href="https://careerbuilder.vn/vi/jobseekers/myresume/viewbyemp" >Nhà tuyển dụng xem hồ sơ của tôi</a></li>
-                            <li> <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/following" >Following</a></li>
-                            <li> <a href="https://careerbuilder.vn/vi/jobseekers/blacklist" >Nhà tuyển dụng được cài đặt hạn chế xem hồ sơ của tôi</a></li>
-                            <li> <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/feedback" >Phản hồi từ nhà tuyển dụng</a></li>
-                        </ul>
-                    </li> -->
-                   <!--  <li> <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/notify"  title="Xem tất cả thông báo"> <em class="material-icons">textsms</em><span>Xem tất cả thông báo</span></a></li> -->
-                    <li>
-                        <a class="collapse " href="javascript:;"><em class="material-icons">settings</em><span>Cài đặt</span></a>
-                        <ul class="list-unstyled collapse" >
-                            <li> <a href="https://careerbuilder.vn/vi/jobseekers/member/myaccount"  title="Tài Khoản">Tài Khoản</a></li>
-                            <li> <a href="https://careerbuilder.vn/vi/jobseekers/member/emailmanagement"  title="Cài Đặt Thông Báo">Cài Đặt Thông Báo</a></li>
-                        </ul>
-                    </li>
-                    <li> <a href="https://careerbuilder.vn/vi/jobseekers/logout" title="Thoát"> <em class="material-icons">power_settings_new</em><span>Thoát</span></a></li>
-                </ul>
-            </div>
-            <div class="toggle-nav"><em class="material-icons">menu_open</em></div>
-        </nav>
     </div>
     <div class="content-inner">
         <div class="container-fluid">
@@ -78,7 +35,7 @@
                         <div class="widget widget-2 widget-11" id="widget-11">
                             <div class="widget-head">
                                 <div class="cb-title-h3">
-                                    <h3>Careerbuilder Profile</h3>
+                                    <h3>Profile</h3>
                                 </div>
                             </div>
                             <div class="widget-body">
@@ -259,6 +216,8 @@
                                             <?php 
 
                                                 $checkTitle = App\Models\application::where('users_id', Auth::user()->id)->first();
+
+
                                               
                                             ?>
                                             @if(!empty(json_decode($checkTitle->title)))
@@ -524,8 +483,8 @@
                                                 <td>Cấp bậc hiện tại</td>
                                                 <?php 
 
-
-                                                    if((json_decode($checkTitle->experience))->levelcurrent_id != null){
+                                                    $int_num_levelcurrent_id = '';
+                                                    if(!empty(json_decode($checkTitle->experience))&&(json_decode($checkTitle->experience))->levelcurrent_id != null){
 
                                                         $int_num_levelcurrent_id = (int)(json_decode($checkTitle->experience))->levelcurrent_id;
 
@@ -597,6 +556,8 @@
                                     <table>
                                         <tbody>
                                             <?php 
+
+
                                                 if(!empty(json_decode($checkTitle->education))){
 
                                                     $redu_degree = (json_decode($checkTitle->education))->redu_degree??'';
@@ -612,7 +573,7 @@
                                                 <td>Bằng cấp cao nhất</td>
                                                 <td>
                                                     <div class="box-edit-degree" id="cbprofile_degree_name">
-                                                        {{ $exp[$redu_degree] }}                  
+                                                        {{ @$exp[$redu_degree] }}                  
                                                         <div class="link-edit link-highest-degree"><a href="javascript:void(0);"> <em class="material-icons">create</em></a></div>
                                                     </div>
                                                     <div class="highest-degree">
@@ -1135,7 +1096,7 @@
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <div class="cb-title-h3">
-                                            <h3>Hồ sơ CareerBuilder 4</h3>
+                                            <h3>Hồ sơ  </h3>
                                         </div>
                                         <div class="content">
                                             <p>Phông chữ trong CV phần nào thể hiện phong thái của bạn khi làm
@@ -1806,6 +1767,8 @@
                                 <div class="col-lg-4">
                                     <label for="">Tốt nghiệp</label>
                                 </div>
+
+                                @if(!empty(json_decode($checkTitle)->education))
                                 <div class="col-lg-8">
                                     <div class="select-graduating">
                                         <div class="select-group">
@@ -1814,9 +1777,11 @@
                                             <select name="redu_month" id="redu_month">
 
                                                 <option value="">Tháng</option>
+                                              
                                                  @for($i =1; $i <13; $i++)
                                                 <option value="{{ $i }}" {{ json_decode($checkTitle->education)->redu_month==$i?'selected':''}}>{{ $i }}</option>
                                                 @endfor
+                                               
                                                
                                             </select>
                                         </div>
@@ -1834,6 +1799,7 @@
                                     </div>
                                     <div class="form-error"><span class="err_redu_month" style="display:block"></span></div>
                                 </div>
+                                @endif
                             </div>
                             <div class="form-group row">
                                 <div class="col-lg-4">
