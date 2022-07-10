@@ -95,7 +95,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="searchable-cv-widget status-area attached-status-area">
+                                            <!-- <div class="searchable-cv-widget status-area attached-status-area">
                                                 <div class="switch-status group_searchable" id="cv_searchable_16167824" data-id="16167824" data-complete="0">
                                                     <a href="javascript:void(0);" data-type="2" class="lock active"><em class="mdi mdi-lock"></em>Khóa</a>
                                                     <a href="javascript:void(0);" data-type="1" class="public "><em class="mdi mdi-web"></em>Công khai</a>
@@ -110,7 +110,7 @@
                                                 <p class="text-notes text-notes-3 d-none">
                                                     CV của bạn đang ở trạng thái "Khẩn cấp", NTD sẽ tìm thấy CV của bạn với hashtag #Opentonewjob.
                                                 </p>
-                                            </div>
+                                            </div> -->
                                             <div class="check-box">
                                                 <div class="form-group form-check-box job-alerts">
                                                     <label for="cv_jobalert_16167824">Nhận thông báo việc làm
@@ -878,7 +878,7 @@
                             </div>
                         </div> -->
                     </div>
-                    <div class="col-lg-4 col-xl-3 main-menu">
+                    <!-- <div class="col-lg-4 col-xl-3 main-menu">
                         <div class="menu-shortchut">
                             <div class="list-button">
                                 <ul>
@@ -894,23 +894,9 @@
                                 <div class="name-shortchut"><a class="active" href="javascript:void(0);">Careerbuilder Profile</a></div>
                                 <div class="toggle-menu"><em class="material-icons">list</em></div>
                             </div>
-                            <ul class="list-shortchut">
-                                <li><a class="active" href="javascript:void(0);" data-href="#widget-11">Careerbuilder Profile</a></li>
-                                <li><a href="javascript:void(0);" data-href="#t-resume-section">Tiêu đề hồ sơ</a></li>
-                                <li><a href="javascript:void(0);" data-href="#personalinfo-section">Thông tin cá nhân</a></li>
-                                <li><a href="javascript:void(0);" data-href="#widget-14">Mục tiêu nghề nghiệp</a></li>
-                                <li><a href="javascript:void(0);" data-href="#widget-18">Thông tin nghề nghiệp</a></li>
-                                <li><a href="javascript:void(0);" data-href="#widget-15">Kinh nghiệm làm việc</a></li>
-                                <li><a href="javascript:void(0);" data-href="#widget-16">Học vấn</a></li>
-                                <li><a href="javascript:void(0);" data-href="#certificate-section">Chứng chỉ khác</a></li>
-                                <li><a href="javascript:void(0);" data-href="#language-section">Ngôn ngữ</a></li>
-                                <li><a href="javascript:void(0);" data-href="#widget-17">Kỹ năng chuyên môn</a></li>
-                                <li><a href="javascript:void(0);" data-href="#widget-19">Thành tích nổi bật</a></li>
-                                <li><a href="javascript:void(0);" data-href="#other-activity-section">Hoạt động khác</a></li>
-                                <li><a href="javascript:void(0);" data-href="#widget-20">Người tham khảo</a></li>
-                            </ul>
+                           
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="hidden-edit-modal edit-modal-dashboard" style="display: none">
@@ -1030,7 +1016,7 @@
                     </form>
                 </div>
             </div>
-            <div id="popup-modal" class="popup-modal intro-modal edit-modal-dashboard" style="display: none">
+           <!--  <div id="popup-modal" class="popup-modal intro-modal edit-modal-dashboard" style="display: none">
                 <div class="modal-title">
                     <h3>TÍNH NĂNG "CHIA SẺ HỒ SƠ" ĐÃ SẴN SÀNG!</h3>
                 </div>
@@ -1055,8 +1041,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <script>
+            </div> -->
+            <!-- <script>
                 $(document).ready(function() {
                     $.fancybox.open($(".popup-modal"), {});
                     var sppopup = getCookie(sppopup);
@@ -1081,7 +1067,7 @@
                         })
                     }
                 });
-            </script>
+            </script> -->
             <div class="tips-modal" id="tip_cvsetting" style="display: none">
                 <div class="head-modal">
                     <div class="icon"><em class="mdi mdi-lightbulb-outline"></em></div>
@@ -2007,13 +1993,6 @@
         </div>
     </div>
 
-
-
-
-
-
-
-<input type="hidden" name="csrf_token" id="csrf_token" value= "67003cae5bbcd65ecb01c0f4c5b2e459432d20081b15af45ed7974a300893282" />
 
 <script type="text/javascript">
 var numListExp = 0;

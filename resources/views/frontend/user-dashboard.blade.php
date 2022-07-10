@@ -240,11 +240,11 @@
     <div class="container-fluid">
         <div class="dash-board-wrap">
             <div class="row mergebox">
-                <div class="col-lg-8">
+                <div class="col-lg-12">
                     <div class="widget widget-2">
                         <div class="widget-head">
                             <div class="cb-title-h3">
-                                <h3>Careerbuilder Profile</h3>
+                                <h3>Profile</h3>
                             </div>
                         </div>
                         <div class="widget-body">
@@ -332,150 +332,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-12 cvcht-slide">
-                                    <div class="swiper-container">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/my-profile#t-resume-section">
-                                                    <div class="item-cvcht">
-                                                        <div class="col-sm-3 icon">
-                                                            <img src="img/dash-board/i14.png" alt="">
-                                                        </div>
-                                                        <div class="col-sm-9 txt">
-                                                            Vị trí/Chức danh (Tiêu đề hồ sơ)
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/my-profile#personalinfo-section">
-                                                    <div class="item-cvcht">
-                                                        <div class="col-sm-3 icon">
-                                                            <img src="img/dash-board/i2.png" alt="">
-                                                        </div>
-                                                        <div class="col-sm-9 txt">
-                                                            Thông tin cá nhân
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/my-profile#widget-14">
-                                                    <div class="item-cvcht">
-                                                        <div class="col-sm-3 icon">
-                                                            <img src="img/dash-board/i3.png" alt="">
-                                                        </div>
-                                                        <div class="col-sm-9 txt">
-                                                            Mục tiêu nghề nghiệp
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/my-profile#widget-18">
-                                                    <div class="item-cvcht">
-                                                        <div class="col-sm-3 icon">
-                                                            <img src="img/dash-board/i5.png" alt="">
-                                                        </div>
-                                                        <div class="col-sm-9 txt">
-                                                            Công việc mong muốn
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/my-profile#widget-15">
-                                                    <div class="item-cvcht">
-                                                        <div class="col-sm-3 icon">
-                                                            <img src="img/dash-board/i4.png" alt="">
-                                                        </div>
-                                                        <div class="col-sm-9 txt">
-                                                            Kinh nghiệm làm việc
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/my-profile#widget-16">
-                                                    <div class="item-cvcht">
-                                                        <div class="col-sm-3 icon">
-                                                            <img src="img/dash-board/i7.png" alt="">
-                                                        </div>
-                                                        <div class="col-sm-9 txt">
-                                                            Học vấn
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/my-profile#certificate-section">
-                                                    <div class="item-cvcht">
-                                                        <div class="col-sm-3 icon">
-                                                            <img src="img/dash-board/i10.png" alt="">
-                                                        </div>
-                                                        <div class="col-sm-9 txt">
-                                                            Chứng chỉ
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/my-profile#widget-17">
-                                                    <div class="item-cvcht">
-                                                        <div class="col-sm-3 icon">
-                                                            <img src="img/dash-board/i9.png" alt="">
-                                                        </div>
-                                                        <div class="col-sm-9 txt">
-                                                            Kỹ năng
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/my-profile#widget-19">
-                                                    <div class="item-cvcht">
-                                                        <div class="col-sm-3 icon">
-                                                            <img src="img/dash-board/i6.png" alt="">
-                                                        </div>
-                                                        <div class="col-sm-9 txt">
-                                                            Thành tích
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/my-profile#other-activity-section">
-                                                    <div class="item-cvcht">
-                                                        <div class="col-sm-3 icon">
-                                                            <img src="img/dash-board/i13.png" alt="">
-                                                        </div>
-                                                        <div class="col-sm-9 txt">
-                                                            Hoạt động khác
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/my-profile#widget-20">
-                                                    <div class="item-cvcht">
-                                                        <div class="col-sm-3 icon">
-                                                            <img src="img/dash-board/i8.png" alt="">
-                                                        </div>
-                                                        <div class="col-sm-9 txt">
-                                                            Người tham khảo
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-next">
-                                        <span class="lnr lnr-chevron-right"></span>
-                                    </div>
-                                    <div class="swiper-prev">
-                                        <span class="lnr lnr-chevron-left"></span>
-                                    </div>
-                                </div>
+                                
                                 <div class="col-lg-12 function-bottom">
                                     <div class="button-list">
                                         <div class="item">
@@ -497,104 +354,16 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="edit-profile">
-                                        <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/changetemplate">Chỉnh mẫu hồ sơ</a>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="widget-b searchable-cv-widget">
-                        <h4>
-                            Cho phép tìm kiếm hồ sơ CareerBuilder
-                            <div class="tips p1" data-type="1">
-                                <div class="icon">
-                                    <em class="mdi mdi-lightbulb"></em>
-                                </div>
-                                <p>Tips</p>
-                            </div>
-                        </h4>
-                        <div class="switch-status group_searchable" id="cv_searchable_16167824" data-id="16167824" data-complete="0">
-                            <a href="javascript:void(0);" data-type="2" class="lock  active ">
-                            <em class="mdi mdi-lock"></em>Khóa
-                            </a>
-                            <a href="javascript:void(0);" data-type="1" class="public ">
-                            <em class="mdi mdi-web"></em>Công khai
-                            </a>
-                            <a href="javascript:void(0);" data-type="3" class="flash ">
-                            <em class="mdi mdi-flash"></em>Khẩn cấp
-                            </a>
-                        </div>
-                        <p>Bạn có thể cho phép nhà tuyển dụng tìm kiếm hồ sơ CareerBuilder hoặc hồ sơ đính kèm </p>
-                    </div>
-                    <div class="widget-b jobalert-cv-widget">
-                        <h4>
-                            Nhận thông báo việc làm
-                            <div class="tips p2" data-type="2">
-                                <div class="icon">
-                                    <em class="mdi mdi-lightbulb"></em>
-                                </div>
-                                <p>Tips</p>
-                            </div>
-                        </h4>
-                        <div class="switch-status group_jobalert_top" id="cv_jobalert_16167824" data-id="16167824"  data-complete="0">
-                            <a href="javascript:void(0);" data-type="0" class="inactive  active ">Không nhận</a>
-                            <a href="javascript:void(0);" data-type="1" class="actives ">Nhận</a>
-                        </div>
-                        <p>Nhận thông báo việc làm phù hợp với hồ sơ này mỗi 2 tuần</p>
-                    </div>
-                </div>
+                
             </div>
             <div class="row">
-                <div class="col-sm-6 col-lg-3">
-                    <div class="widget-1 b1">
-                        <div class="widget-head">
-                            <p>0</p>
-                            <p>Nhà tuyển dụng xem hồ sơ của tôi</p>
-                        </div>
-                        <div class="widget-body">
-                            <div class="item">
-                                <div class="number">
-                                    <a href="https://careerbuilder.vn/vi/jobseekers/myresume/viewbyemp" class="x1">
-                                    0
-                                    </a>
-                                </div>
-                                <p>
-                                    <a href="https://careerbuilder.vn/vi/jobseekers/myresume/viewbyemp">
-                                    NTD xem qua hồ sơ CB
-                                    </a>
-                                </p>
-                            </div>
-                            <div class="item">
-                                <div class="number">
-                                    <a href="https://careerbuilder.vn/vi/jobseekers/myresume/viewbyemp" class="x2">
-                                    0
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="https://careerbuilder.vn/vi/jobseekers/myresume/viewbyemp">
-                                    NTD xem qua hồ sơ việc làm khẩn cấp
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="widget-1 b2">
-                        <div class="widget-head">
-                            <p>0</p>
-                            <p>Nhà tuyển dụng được cài đặt hạn chế xem hồ sơ</p>
-                        </div>
-                        <div class="widget-body">
-                            <div class="item">
-                                <div class="nonum"><a href="https://careerbuilder.vn/vi/jobseekers/blacklist">Xem thêm</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="col-sm-6 col-lg-3">
                     <div class="widget-1 b3">
                         <div class="widget-head">
@@ -603,7 +372,7 @@
                         </div>
                         <div class="widget-body">
                             <div class="item">
-                                <div class="nonum"><a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/jobsaved">Xem thêm</a></div>
+                                <div class="nonum"><a href="javascript:void(0)">Xem thêm</a></div>
                             </div>
                         </div>
                     </div>
@@ -614,35 +383,18 @@
                             <p>0</p>
                             <p>Việc làm đã nộp</p>
                         </div>
-                        <div class="widget-body">
-                            <div class="item">
-                                <div class="number">
-                                    <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/jobapplied" class="x3">
-                                    0
-                                    </a>
-                                </div>
-                                <div><a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/jobapplied">Nộp ở trạng thái bình thường</a></div>
-                            </div>
-                            <div class="item">
-                                <div class="number">
-                                    <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/jobapplied" class="x4">
-                                    0
-                                    </a>
-                                </div>
-                                <div><a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/jobapplied">Nộp ở trạng thái Tìm việc khẩn cấp</a></div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-12">
                     <div class="widget widget-4 attached-resume">
                         <div class="widget-head">
                             <div class="cb-title-h3">
                                 <h3>Hồ sơ đính kèm</h3>
                             </div>
-                            <p>Ngoài hồ sơ CareerBuilder, bạn có thể tạo hồ sơ đính kèm để ứng tuyển và  tìm kiếm bởi nhà tuyển dụng</p>
+                            <p>Ngoài hồ sơ, bạn có thể tạo hồ sơ đính kèm để ứng tuyển và  tìm kiếm bởi nhà tuyển dụng</p>
                         </div>
                         <div class="widget-body">
                             <div class="box-text">
@@ -653,41 +405,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="widget widget-5">
-                        <div class="widget-head">
-                            <div class="cb-title-h3">
-                                <h3>Cài đặt hạn chế nhà tuyển dụng</h3>
-                            </div>
-                        </div>
-                        <div class="widget-body">
-                            <div class="main-form">
-                                <div class="form-group form-text">
-                                    <div class="form-group form-keyword">
-                                        <input type="text" name="company_name_blacklist" placeholder="Nhập tên công ty" class="company_name" id="company_name_blacklist">
-                                        <div class="cleartext"><em class="mdi mdi-close-circle"></em></div>
-                                    </div>
-                                    <div class="form-group form-submit"><a class="btn-gradient" href="javascript:void(0);" onclick="addBlackListDashboard();">Thêm</a></div>
-                                </div>
-                            </div>
-                            <div class="top-employers-list">
-                            </div>
-                            <div class="main-form">
-                                <div class="form-group form-text">
-                                    <div class="form-group form-keyword">
-                                        <input type="text" name="company_domain_blacklist" placeholder="Nhập domain công ty" class="company_domain" id="company_domain_blacklist">
-                                        <div class="cleartext active-clear"><em class="mdi mdi-close-circle"></em></div>
-                                    </div>
-                                    <div class="form-group form-submit"><a class="btn-gradient" href="javascript:void(0);" onclick="addBlackListDomain();">Thêm</a></div>
-                                </div>
-                            </div>
-                            <div class="domain-saved">
-                            </div>
-                            <div class="view-more"><a href="https://careerbuilder.vn/vi/jobseekers/blacklist-domain">Xem thêm <span class="mdi mdi-arrow-right"></span></a></div>
-                            <form action="" method="post" id="frmAddBlacklist"><input type="hidden" value="0" name="jblacklist_id[]" id="company_id_blacklist"></form>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
             <div class="row">
                 <div class="col-12">
@@ -726,81 +444,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="item">
-                                            <div class="ckb-item">
-                                                <label class="container-ckb">
-                                                <input type="checkbox" checked="checked" name="jobchk[]" value="35B8B9CE">
-                                                <span class="checkmark"></span>
-                                                </label>
-                                            </div>
-                                            <div class="job-item" id="job-item-35B8B9CE">
-                                                <div class="figure">
-                                                    <div class="image"><a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-diana-unicharm.35A6E11B.html" target="_blank" title="Công Ty Cổ Phần Diana Unicharm"><img  class="lazy-bg" data-src="https://images.careerbuilder.vn/employer_folders/lot1/129051/79x79/140745logodianaunicharm-2017-english.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công Ty Cổ Phần Diana Unicharm"></a></div>
-                                                    <div class="figcaption">
-                                                        <div class="title"><a class="job_link" data-id="35B8B9CE" href="https://careerbuilder.vn/vi/tim-viec-lam/ha-noi-sales-planning-officer-can-bo-ke-hoach-ban-hang.35B8B9CE.html" title="[Hà Nội] Sales Planning Officer/ Cán bộ Kế hoạch Bán hàng" target="_blank">[Hà Nội] Sales Planning Officer/ Cán bộ Kế hoạch Bán hàng</a></div>
-                                                        <div class="caption">
-                                                            <a class="company-name" target="_blank" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-diana-unicharm.35A6E11B.html" title="Công Ty Cổ Phần Diana Unicharm">Công Ty Cổ Phần Diana Unicharm</a>
-                                                            <p class="salary"><em class="fa fa-usd"></em> Cạnh Tranh</p>
-                                                            <div class="location">
-                                                                <ul>
-                                                                    <li>Hà Nội</li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="ckb-item">
-                                                <label class="container-ckb">
-                                                <input type="checkbox" checked="checked" name="jobchk[]" value="35B90B57">
-                                                <span class="checkmark"></span>
-                                                </label>
-                                            </div>
-                                            <div class="job-item" id="job-item-35B90B57">
-                                                <div class="figure">
-                                                    <div class="image"><a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-diana-unicharm.35A6E11B.html" target="_blank" title="Công Ty Cổ Phần Diana Unicharm"><img  class="lazy-bg" data-src="https://images.careerbuilder.vn/employer_folders/lot1/129051/79x79/140745logodianaunicharm-2017-english.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công Ty Cổ Phần Diana Unicharm"></a></div>
-                                                    <div class="figcaption">
-                                                        <div class="title"><a class="job_link" data-id="35B90B57" href="https://careerbuilder.vn/vi/tim-viec-lam/ha-noi-sales-planning-officer-can-bo-ke-hoach-ban-hang.35B90B57.html" title="[Hà Nội] Sales Planning Officer/ Cán bộ Kế hoạch Bán hàng" target="_blank">[Hà Nội] Sales Planning Officer/ Cán bộ Kế hoạch Bán hàng</a></div>
-                                                        <div class="caption">
-                                                            <a class="company-name" target="_blank" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-diana-unicharm.35A6E11B.html" title="Công Ty Cổ Phần Diana Unicharm">Công Ty Cổ Phần Diana Unicharm</a>
-                                                            <p class="salary"><em class="fa fa-usd"></em> Cạnh Tranh</p>
-                                                            <div class="location">
-                                                                <ul>
-                                                                    <li>Hà Nội</li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="ckb-item">
-                                                <label class="container-ckb">
-                                                <input type="checkbox" checked="checked" name="jobchk[]" value="35B87FFC">
-                                                <span class="checkmark"></span>
-                                                </label>
-                                            </div>
-                                            <div class="job-item" id="job-item-35B87FFC">
-                                                <div class="figure">
-                                                    <div class="image"><a href="https://careerbuilder.vn/vi/nha-tuyen-dung/tcl-vietnam-corporation-limited.35A67A64.html" target="_blank" title="TCL (Vietnam) Corporation Limited"><img  class="lazy-bg" data-src="https://images.careerbuilder.vn/employer_folders/lot6/102756/79x79/174459logomoi.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="TCL (Vietnam) Corporation Limited"></a></div>
-                                                    <div class="figcaption">
-                                                        <div class="title"><a class="job_link" data-id="35B87FFC" href="https://careerbuilder.vn/vi/tim-viec-lam/thuc-tap-sinh-bo-phan-gtm-go-to-market-gtm-trainee.35B87FFC.html" title="Thực Tập Sinh Bộ Phận GTM (Go To Market) - GTM Trainee" target="_blank">Thực Tập Sinh Bộ Phận GTM (Go To Market) - GTM Trainee</a></div>
-                                                        <div class="caption">
-                                                            <a class="company-name" target="_blank" href="https://careerbuilder.vn/vi/nha-tuyen-dung/tcl-vietnam-corporation-limited.35A67A64.html" title="TCL (Vietnam) Corporation Limited">TCL (Vietnam) Corporation Limited</a>
-                                                            <p class="salary"><em class="fa fa-usd"></em> Cạnh Tranh</p>
-                                                            <div class="location">
-                                                                <ul>
-                                                                    <li>Hà Nội</li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                       
                                         <script>
                                             var check_all = "Chọn tất cả"
                                             var uncheck_all = "Bỏ chọn tất cả"
@@ -1059,7 +703,7 @@
                                     </div>
                                     <div class="detail-content"></div>
                                     <div class="follow-area">
-                                        <a href="https://careerbuilder.vn/vi/jobs/recommended" class="left-follow">Xem thêm</a>
+                                        <a href="javascript:void(0)" class="left-follow">Xem thêm</a>
                                         <div class="right-follow">
                                             <a href="javascript:void(0)" class="btn-apply-all btn-gradient-1">
                                             Ứng tuyển các vị trí đã chọn&nbsp;<span id="countjob"></span>

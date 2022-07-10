@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, maximum-scale=1"/>
         <base href="https://static.careerbuilder.vn/themes/careerbuilder/"/>
         <meta name="theme-color" content="#1e5c8b"/>
-        <title>Tuyển dụng và tìm kiếm việc làm nhanh | CareerBuilder.vn</title>
+        <title>Tuyển dụng và tìm kiếm việc làm nhanh</title>
         <meta name="keywords" content="Việc làm, kiếm việc, tìm việc làm, tuyển dụng, ứng viên,  mạng tuyển dụng, việc làm online, HR, nghành nghề hot, công ty hàng đầu Việt Nam, việc làm bán thời gian" />
         <meta name="description" content="CareerBuilder.vn - Mạng việc làm và tuyển dụng lớn nhất Việt Nam. Cho phép tìm kiếm việc làm nhanh và hiệu quả với hơn 10.000 việc làm mới và hấp dẫn mỗi tuần từ các công ty hàng đầu" />
         <link href="https://careerbuilder.vn/vi/jobseekers/dashboard" hreflang="vi-vn" rel="alternate"/>
@@ -106,17 +106,17 @@
                                         </ul>
                                     </div>
                                 </li>
-                                <li> <a href="https://careerbuilder.vn/cv-hay/" target="_blank" title="CV Hay">CV Hay</a></li>
-                                <li> <a href="https://vietnamsalary.careerbuilder.vn/" target="_blank" title="VietnamSalary">VietnamSalary</a></li>
-                                <li> <a href="https://careerbuilder.vn/careermap" target="_blank" title="CareerMap">CareerMap</a></li>
-                                <li> <a href="https://careerbuilder.vn/vi/talentcommunity" title="Cẩm Nang">Cẩm Nang</a></li>
-                                <li> <a href="https://careerbuilder.vn/tinh-luong-gross-net" title="Tính Lương">Tính Lương</a></li>
+                                <li> <a href="javascript:void(0)" target="_blank" title="CV Hay">CV Hay</a></li>
+                                <li> <a href="javascript:void(0)" target="_blank" title="VietnamSalary">VietnamSalary</a></li>
+                                <li> <a href="javascript:void(0)" target="_blank" title="CareerMap">CareerMap</a></li>
+                                <li> <a href="javascript:void(0)" title="Cẩm Nang">Cẩm Nang</a></li>
+                                <li> <a href="javascript:void(0)" title="Tính Lương">Tính Lương</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="right-wrap">
                         <div class="main-noti dropdown">
-                            <a href="https://careerbuilder.vn/thong-bao-viec-lam" title="Thông Báo Việc Làm"> <span class="mdi mdi-bell"></span></a>
+                            <a href="javascript:void(0)" title="Thông Báo Việc Làm"> <span class="mdi mdi-bell"></span></a>
                             <div class="dropdown-menu">
                                 <div class="noti">
                                     <p>
