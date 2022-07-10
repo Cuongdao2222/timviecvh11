@@ -1,6 +1,28 @@
 @extends('admin.layout.app')
 @section('content') 
 
+<?php 
+    
+    $option = 0;
+
+    $banners = App\Models\banners::where('option', $option)->paginate(10);
+
+    $option = [];
+
+    $option[0] = ['name'=>'Banner slide home', 'size'=>'1920px x 630px'];
+    $option[1] = ['name'=>'Banner top', 'size'=>'1920px x 44px'];
+    $option[2] = ['name'=>'Banner bên phải slider home', 'size'=>'254px x 254px'];
+    $option[3] = ['name'=>'Banner dưới slider home', 'size'=>'690px x 305px'];
+    $option[4] = ['name'=>'Banner category', 'size'=>'1200 x 200px'];
+    $option[5] = ['name'=>'Banner trên phần sale home', 'size'=>'1200 x 90'];
+
+     $optionss = $_GET['option']??'';
+
+    $i =0 ;
+
+
+?>
+
 <section class="content">
     <section class="content-header">
         <div class="container-fluid">
@@ -21,12 +43,10 @@
         <div class="card">
             <div class="card-body p-0">
                 <select name="option" onchange="location = this.value;">
-                    <option value="https://dienmaynguoiviet.vn/admins/banners?option=0">Banner slide home</option>
-                    <option value="https://dienmaynguoiviet.vn/admins/banners?option=1" selected="">Banner top</option>
-                    <option value="https://dienmaynguoiviet.vn/admins/banners?option=2">Banner bên phải slider home</option>
-                    <option value="https://dienmaynguoiviet.vn/admins/banners?option=3">Banner dưới slider home</option>
-                    <option value="https://dienmaynguoiviet.vn/admins/banners?option=4">Banner category</option>
-                    <option value="https://dienmaynguoiviet.vn/admins/banners?option=5">Banner trên phần sale home</option>
+                    @foreach($option as $key => $options)
+                    <option value="#" {{ $key == $optionss?'selected':''  }}>{{ $options['name'] }}</option>
+                 
+                    @endforeach
                 </select>
                 <table id="tb_padding" border="1" bordercolor="#CCCCCC" width="100%">
                     <tbody>
@@ -37,51 +57,62 @@
                             <td style="width:60px">Click</td>
                             <td style="width:130px">Chỉnh sửa</td>
                         </tr>
-                        <tr id="row_402" onmouseover="this.className='row-hover'" onmouseout="this.className=''" class="">
-                            <td>1</td>
+
+                        @foreach($banners as $banner)
+                         <?php 
+
+                            $i++;
+                         ?>
+                        <tr id="row_402" onmouseover="this.className='row-hover'" onmouseout="this.className=''" class="row-hover">
+                            <td>{{ $i }}</td>
                             <!--<td><a class='preview_media' href="javascript:;">Xem nhanh <span></span></a></td>-->    
                             <td>
-                                <div class="peek-view-banner"><img border="0" src="https://dienmaynguoiviet.vn/uploads/banner/1656900873_65UP7720.jpg" width="200"></div>
+                                <div class="peek-view-banner"><img border="0" src="{{ asset($banner->image) }}" width="200" ></div>
                                 <b style="color:#F00">Thông tin</b><br>
                                 <table cellpadding="0" cellspacing="0">
                                     <tbody>
                                         <tr>
                                             <td>Tên gọi</td>
-                                            <td>: <b>banner top</b></td>
+                                            <td>: <b>{{ $banner->title }}</b></td>
                                         </tr>
+                                       
                                         <tr>
                                             <td>File</td>
                                             <td>: <input type="text" readonly="" size="80" value="/media/banner/15_Aprd99119ca42e35bfa7fbc7fba9ab1d88a.jpg"></td>
                                         </tr>
                                         <tr>
                                             <td>Kích thước</td>
-                                            <td>: Rộng x Cao (Width x Height) = 1920px x 44px </td>
+                                            <td>: Rộng x Cao (Width x Height) = {{ $option[$banner->option]['size']  }} </td>
                                         </tr>
                                         <tr>
                                             <td>Link</td>
-                                            <td>: <input type="text" readonly="" size="35" value="#"></td>
+                                            <td>: <input type="text" readonly="" size="35" value="{{ $banner->link }}"></td>
                                         </tr>
                                         <tr>
                                             <td>Thời gian</td>
-                                            <td>23/05/2022</td>
+                                            <td>{{ @$banner->updated_at->format('d/m/Y')  }}</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </td>
                             <td>
-                                <input id="stt12" type="text" size="5" value="0" onchange="update_banner_order('12')">
-                                <span id="order_12"></span>
+                               
+                                <input id="stt{{ $banner->id }}" type="text" size="5" value="{{ $banner->stt }}" onchange="update_banner_order('{{ $banner->id }}')">
+                                 <span id="order_{{ $banner->id }}"></span>
+                                
                             </td>
                             <td>0</td>
                             <td>
                                 <span id="status_402">
-                                <a href="https://dienmaynguoiviet.vn/admins/activeBanner?id=12&amp;active=1">Bật lên</a>
+                                <a href="#">{{ $banner->active==0?'Bật lên':'Hạ xuống' }}</a>
                                 </span> 
                                 <br> 
-                                <a href="https://dienmaynguoiviet.vn/admins/banners/12/edit">Sửa lại</a> <br>
+                                <a href="#">Sửa lại</a> <br>
                                 <!-- <a href="javascript:void(0);" onclick="delete_this('402')">Xóa</a> -->
                             </td>
                         </tr>
+                        @endforeach
+                        
                     </tbody>
                 </table>
                 <script type="text/javascript">
