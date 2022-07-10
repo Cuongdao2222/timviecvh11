@@ -150,6 +150,8 @@
                                </div>
                            @endif
 
+                            @if(!empty(@session()->get('error')))
+
                            <div class="alert alert-danger">
                                    <ul>
                                       
@@ -157,7 +159,7 @@
                                       
                                    </ul>
                                </div>
-
+                            @endif   
                             
 
 
