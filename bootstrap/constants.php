@@ -205,3 +205,28 @@ define('LIST_JOB', [
 	 "27"=>"Ngành khác",
 ]);
 
+define('SALARY', [
+    'Dưới 3 triệu',
+   '3 - 5 triệu',
+   '5 - 7 triệu',
+   '7 - 10 triệu',
+   '10 - 12 triệu',
+   '12 - 15 triệu',
+   '15 - 20 triệu',
+   '20 - 25 triệu',
+   '25 - 30 triệu',
+    '30 - 40 triệu',
+    '40 - 50 triệu',
+    'Trên 50 triệu',
+]);
+define('LEVEL', [
+    'Tất cả trình độ',
+   'Cao học',
+   'Đại học',
+   'Cao đẳng',
+   'Trung cấp',
+   'Trung học',
+   'Chứng chỉ',
+   'Lao động phổ thông',
+   'Không yêu cầu',
+]);

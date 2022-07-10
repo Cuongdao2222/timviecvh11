@@ -24,6 +24,8 @@ Route::get('/crawl', 'crawlController@getImageJobCrawl')->name('homes');
 
  Route::get('/filter','filterController@filter')->name('filter');
 
+  Route::get('/filters','filterController@filterHight')->name('filters');
+
 Route::post('register-field', 'Backend\employerController@registerEmployer')->name('employer-register');
 
 

@@ -34,6 +34,12 @@ class adminController extends Controller
         return view('admin.register');
     }
 
+    public function banner()
+    {
+
+        return view('admin.banner');
+    }
+
     public function Listboard()
     {
         return view('admin.listUv');

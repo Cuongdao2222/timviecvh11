@@ -1,6 +1,17 @@
 @extends('frontend.layout.appfe')
 @section('content')
 
+        <?php 
+             $listDefineJob = LIST_JOB;
+
+            $address = ADDRESS;
+
+            $salary = SALARY;
+
+            $level  = LEVEL;
+            
+        ?>
+
     <link rel="stylesheet" type="text/css" href="{{ asset('css/owl.carousel.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/owl.theme.default.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
@@ -173,6 +184,7 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('css/jquery.auto-complete.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/index.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/common.css') }}">
+        <<!-- link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"> -->
         <style type="text/css">
             
             .hot-jobs-list .main-pagination {
@@ -269,6 +281,8 @@
             }
             .d-flex{
                 display: flex;
+                margin: 0 !important;
+               
             }
 
             .select2-selection__rendered {
@@ -435,6 +449,10 @@
                 outline: 0px !important;
             }
 
+            .inputs-customn{
+                width: 100% !important;
+            }
+
             .css-1hwfws3 {
                 -webkit-box-align: center;
                 align-items: center;
@@ -550,16 +568,9 @@
 
                 <div class="filter">
                     <form method="get", action="{{ route('filter') }}">
-                        <?php 
-
-                            $listDefineJob = LIST_JOB;
-
-                            $address = ADDRESS;
-                        ?>
-
                        
                         <ul class="d-flex">
-                            <li class="btn-input-search"><input type="text" name="keyword" id="keywords" class="form-control input-search" placeholder="Nhập vị trí, tên công ty, địa điểm..."></li>
+                            <li class="btn-input-search"><input type="text" name="keyword" id="keywords" class="form-controls input-search" placeholder="Nhập vị trí, tên công ty, địa điểm..."></li>
                            <li class="btn-selected">
                                 <div class="sl-action">
                                     <span class="select2-container w-100 select2-container--default false ">
@@ -632,7 +643,7 @@
                                     </span>
                                 </div>
                             </li>
-                            <li class="btn-list-search"><a class="btn btn-advanced-search" href="javascript:void(0)">Tìm nâng cao</a></li>
+                            <li class="btn-list-search"><a class="btn-advanced-search" href="javascript:void(0)">Tìm nâng cao</a></li>
                             <li class="search-button"><button type="submit" class="btn btn-submit-search"><i class="icon-search-w icon-search fas fa-search"></i> </button></li>
                         </ul>
 
@@ -643,6 +654,88 @@
                 
             </div>    
         </div>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="modal-filter" tabindex="-1" role="dialog" aria-labelledby="modal-filter" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Tìm  nâng cao</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row mb-5">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="bg-white p-5 rounded shadow">
+                                    <form method="get" action="{{route('filters') }}" class="form-group">
+                                        <div class="input-group mb-4 border rounded-pill p-1 inputs-customn">
+                                            <input type="search" placeholder="Nhập vị trí, tên công ty, địa điểm..." class="form-control bg-none border-0" name="keyword">
+                                            
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="sel1">Tất cả địa điểm</label>
+                                            <select class="form-control" id="locals" name="local">
+                                                @foreach($address as $key => $value)
+                                                    <option value="{{ $key }}">{{ $value }}</option>
+                                                @endforeach
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="sel1">Tất cả ngành nghề</label>
+                                            <select class="form-control" id="industrys" name="industry">
+                                               @foreach($listDefineJob as $key => $value)
+
+                                                    <option class="css-1n7v3ny-option" value="{{ $key }}">{{ $value }}</option>
+
+                                                @endforeach
+                                            </select>
+                                        </div>
+                                         
+                                        <div class="form-group">
+                                            <label for="sel1">Mức lương</label>
+                                            <select class="form-control" id="salarys">
+                                                @foreach($salary as $key => $value)
+
+                                                    <option  value="{{ $key }}">{{ $value }}</option>
+
+                                                @endforeach
+                                               
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="sel1">Trình độ</label>
+                                            <select class="form-control" id="levels">
+                                                @foreach($level as $key => $value)
+
+                                                    <option  value="{{ $key }}">{{ $value }}</option>
+
+                                                @endforeach
+                                               
+                                            </select>
+                                        </div>
+
+                                         <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+                                        </div>
+                                       
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+
+        
 
         
             
@@ -1269,6 +1362,12 @@
 
             })
 
+            $('.btn-advanced-search').click(function () {
+
+
+                $('#modal-filter').modal('show');
+            })
+
 
             
             
@@ -1309,6 +1408,10 @@
             fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));
         </script>
+
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script -->>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
        
         <div class="back-drop"></div>
     </main>        

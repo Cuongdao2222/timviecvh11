@@ -12,6 +12,8 @@ Route::group(['middleware' => 'checkad'], function() {
 
 	Route::get('list-user', 'adminController@index')->name('list-user');
 
+	Route::get('banner', 'adminController@banner')->name('list-user')->name('admin-banner');
+
 	Route::get('delete-user', 'adminController@remove_user')->name('Remove-user');
 
 	
@@ -26,8 +28,6 @@ Route::group(['middleware' => 'checkad'], function() {
 	Route::get('showApplyJob', 'adminController@showApplyJob')->name('showApplyJob-ad');
 
 	Route::get('delete-employ/{id}', 'adminController@removeEmploy')->name('delete-employ');
-
-	
 
 });
 

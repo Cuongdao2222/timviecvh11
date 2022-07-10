@@ -197,9 +197,9 @@
                                 
                             </script>
                             <li class="nav-item">
-                                <a href="https://dienmaynguoiviet.vn/admins/gifts"
+                                <a href="/admin/banner"
                                     class="nav-link ">
-                                    <p>Gifts</p>
+                                    <p>Banner</p>
                                 </a>
                             </li>
                         </ul>
