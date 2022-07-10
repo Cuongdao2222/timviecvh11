@@ -256,7 +256,7 @@
                                 <a class="employer job-company-name" href="{{ route('employ-details',  $data->links) }}">{{ @$data->name }}</a>  
                             </div>
                             <div class="apply-now-btn ">        
-                                <a href="javascript:void(0);" class="btn-gradient btnApplyClick"> Nộp Đơn Ứng Tuyển </a>        
+                                <a href="javascript:void(0);" class="btn-gradient " onclick="apply('{{ $data->id }}')"> Nộp Đơn Ứng Tuyển </a>        
                             </div>
                         </div>
                     </section>

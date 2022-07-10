@@ -1155,9 +1155,9 @@
                 <div class="career-development-slide">
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide">
+                            <!-- <div class="swiper-slide">
                                 <div class="item bg-tips">
-                                    <div class="img"><a target="_blank" href="https://careerbuilder.vn/vi/talentcommunity/khong-tru-ty-le-huong-luong-huu-voi-lao-dong-doi-du-nghi-huu-truoc-tuoi.35A51EEE.html" title="Không trừ tỷ lệ hưởng lương hưu với lao động dôi dư nghỉ hưu trước tuổi"><img class="swiper-lazy" data-src="https://images.careerbuilder.vn/tintuc/career/20220527/crop/319x319/1653634974_7.jpeg" src="../kiemviecv32/images/graphics/blank.gif" alt="Không trừ tỷ lệ hưởng lương hưu với lao động dôi dư nghỉ hưu trước tuổi">
+                                    <div class="img"><a target="_blank" href="{{ route('blog_detail') }}"><img class="swiper-lazy" data-src="https://images.careerbuilder.vn/tintuc/career/20220527/crop/319x319/1653634974_7.jpeg" src="../kiemviecv32/images/graphics/blank.gif" alt="Không trừ tỷ lệ hưởng lương hưu với lao động dôi dư nghỉ hưu trước tuổi">
                                         </a>
                                     </div>
                                     <div class="caption">
@@ -1165,134 +1165,36 @@
                                         <a target="_blank" class="title" href="https://careerbuilder.vn/vi/talentcommunity/khong-tru-ty-le-huong-luong-huu-voi-lao-dong-doi-du-nghi-huu-truoc-tuoi.35A51EEE.html" title="Không trừ tỷ lệ hưởng lương hưu với lao động dôi dư nghỉ hưu trước tuổi">Không trừ tỷ lệ hưởng lương hưu với lao động dôi dư nghỉ hưu trước tuổi</a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="swiper-slide">
                                 <div class="item bg-default">
-                                    <div class="img"><a target="_blank" href="https://careerbuilder.vn/vi/talentcommunity/kham-pha-cong-viec-data-analyst-nghe-cua-thoi-dai-so.35A51EE0.html" title="Khám phá công việc Data Analyst - Nghề của &quot;thời đại số&quot;"><img class="swiper-lazy" data-src="https://images.careerbuilder.vn/tintuc/career/20220524/crop/319x319/1653372151_data-analyst-careerbuilder.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Khám phá công việc Data Analyst - Nghề của &quot;thời đại số&quot;">
+                                    <div class="img"><a target="_blank" href="{{ route('blog_detail') }}" title="Khám phá công việc Data Analyst - Nghề của &quot;thời đại số&quot;"><img class="swiper-lazy" data-src="https://images.careerbuilder.vn/tintuc/career/20220524/crop/319x319/1653372151_data-analyst-careerbuilder.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Khám phá công việc Data Analyst - Nghề của &quot;thời đại số&quot;">
                                         </a>
                                     </div>
                                     <div class="caption">
                                         <p class="category-title">Wiki Career</p>
-                                        <a target="_blank" class="title" href="https://careerbuilder.vn/vi/talentcommunity/kham-pha-cong-viec-data-analyst-nghe-cua-thoi-dai-so.35A51EE0.html" title="Khám phá công việc Data Analyst - Nghề của &quot;thời đại số&quot;">Khám phá công việc Data Analyst - Nghề của &quot;thời đại số&quot;</a>
+                                        <a target="_blank" class="title" href="{{ route('blog_detail') }}" title="Khám phá công việc Data Analyst - Nghề của &quot;thời đại số&quot;">Khám phá công việc Data Analyst - Nghề của &quot;thời đại số&quot;</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="item bg-tips">
-                                    <div class="img"><a target="_blank" href="https://careerbuilder.vn/vi/talentcommunity/tu-2022-nguoi-lao-dong-can-bao-nhieu-nam-dong-bhxh-de-co-luong-huu-toi-da.35A51EEF.html" title="Từ 2022, người lao động cần bao nhiêu năm đóng BHXH để có lương hưu tối đa?"><img class="swiper-lazy" data-src="https://images.careerbuilder.vn/tintuc/career/20220527/crop/319x319/1653635094_8.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Từ 2022, người lao động cần bao nhiêu năm đóng BHXH để có lương hưu tối đa?">
+                                    <div class="img"><a target="_blank" href="{{ route('blog_detail') }}" title="Từ 2022, người lao động cần bao nhiêu năm đóng BHXH để có lương hưu tối đa?"><img class="swiper-lazy" data-src="https://images.careerbuilder.vn/tintuc/career/20220527/crop/319x319/1653635094_8.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Từ 2022, người lao động cần bao nhiêu năm đóng BHXH để có lương hưu tối đa?">
                                         </a>
                                     </div>
                                     <div class="caption">
                                         <p class="category-title">Thị trường lao động</p>
-                                        <a target="_blank" class="title" href="https://careerbuilder.vn/vi/talentcommunity/tu-2022-nguoi-lao-dong-can-bao-nhieu-nam-dong-bhxh-de-co-luong-huu-toi-da.35A51EEF.html" title="Từ 2022, người lao động cần bao nhiêu năm đóng BHXH để có lương hưu tối đa?">Từ 2022, người lao động cần bao nhiêu năm đóng BHXH để có lương hưu tối đa?</a>
+                                        <a target="_blank" class="title" href="{{ route('blog_detail') }}" title="Từ 2022, người lao động cần bao nhiêu năm đóng BHXH để có lương hưu tối đa?">Từ 2022, người lao động cần bao nhiêu năm đóng BHXH để có lương hưu tối đa?</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="item bg-default">
-                                    <div class="img"><a target="_blank" href="https://careerbuilder.vn/vi/talentcommunity/lam-the-nao-de-tro-thanh-mot-digital-marketing-manager-chuyen-nghiep.35A51EDE.html" title="Làm thế nào để trở thành một Digital Marketing Manager chuyên nghiệp?"><img class="swiper-lazy" data-src="https://images.careerbuilder.vn/tintuc/career/20220524/crop/319x319/1653368180_lam-the-nao-de-tro-thanh-digital-marketing-manager-chuyen-nghiep-careerbuilder.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Làm thế nào để trở thành một Digital Marketing Manager chuyên nghiệp?">
-                                        </a>
-                                    </div>
-                                    <div class="caption">
-                                        <p class="category-title">Wiki Career</p>
-                                        <a target="_blank" class="title" href="https://careerbuilder.vn/vi/talentcommunity/lam-the-nao-de-tro-thanh-mot-digital-marketing-manager-chuyen-nghiep.35A51EDE.html" title="Làm thế nào để trở thành một Digital Marketing Manager chuyên nghiệp?">Làm thế nào để trở thành một Digital Marketing Manager chuyên nghiệp?</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="item bg-default">
-                                    <div class="img"><a target="_blank" href="https://careerbuilder.vn/vi/talentcommunity/giam-doc-dieu-hanh-ceo-lam-gi-vai-tro-cua-ceo-trong-doanh-nghiep.35A51EDF.html" title="Giám đốc điều hành (CEO) làm gì? Vai trò của CEO trong doanh nghiệp"><img class="swiper-lazy" data-src="https://images.careerbuilder.vn/tintuc/career/20220524/crop/319x319/1653369017_giam-doc-dieu-hanh-la-ai-careerbuilder.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Giám đốc điều hành (CEO) làm gì? Vai trò của CEO trong doanh nghiệp">
-                                        </a>
-                                    </div>
-                                    <div class="caption">
-                                        <p class="category-title">Wiki Career</p>
-                                        <a target="_blank" class="title" href="https://careerbuilder.vn/vi/talentcommunity/giam-doc-dieu-hanh-ceo-lam-gi-vai-tro-cua-ceo-trong-doanh-nghiep.35A51EDF.html" title="Giám đốc điều hành (CEO) làm gì? Vai trò của CEO trong doanh nghiệp">Giám đốc điều hành (CEO) làm gì? Vai trò của CEO trong doanh nghiệp</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="item bg-default">
-                                    <div class="img"><a target="_blank" href="https://careerbuilder.vn/vi/talentcommunity/hse-staff-la-gi-tim-hieu-cong-viec-cua-hse-staff-trong-doanh-nghiep.35A51EE1.html" title="HSE Staff là gì? Tìm hiểu công việc của HSE Staff trong doanh nghiệp"><img class="swiper-lazy" data-src="https://images.careerbuilder.vn/tintuc/career/20220526/crop/319x319/1653546234_hse-staff-la-gi-careerbuilder.png" src="../kiemviecv32/images/graphics/blank.gif" alt="HSE Staff là gì? Tìm hiểu công việc của HSE Staff trong doanh nghiệp">
-                                        </a>
-                                    </div>
-                                    <div class="caption">
-                                        <p class="category-title">Wiki Career</p>
-                                        <a target="_blank" class="title" href="https://careerbuilder.vn/vi/talentcommunity/hse-staff-la-gi-tim-hieu-cong-viec-cua-hse-staff-trong-doanh-nghiep.35A51EE1.html" title="HSE Staff là gì? Tìm hiểu công việc của HSE Staff trong doanh nghiệp">HSE Staff là gì? Tìm hiểu công việc của HSE Staff trong doanh nghiệp</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="item bg-default">
-                                    <div class="img"><a target="_blank" href="https://careerbuilder.vn/vi/talentcommunity/android-developer-va-tat-tan-tat-thong-tin-can-biet-ve-nghe.35A51EE3.html" title="Android Developer và tất tần tật thông tin cần biết về nghề"><img class="swiper-lazy" data-src="https://images.careerbuilder.vn/tintuc/career/20220526/crop/319x319/1653547057_android-developer-careerbuilder.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Android Developer và tất tần tật thông tin cần biết về nghề">
-                                        </a>
-                                    </div>
-                                    <div class="caption">
-                                        <p class="category-title">Wiki Career</p>
-                                        <a target="_blank" class="title" href="https://careerbuilder.vn/vi/talentcommunity/android-developer-va-tat-tan-tat-thong-tin-can-biet-ve-nghe.35A51EE3.html" title="Android Developer và tất tần tật thông tin cần biết về nghề">Android Developer và tất tần tật thông tin cần biết về nghề</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="item bg-tips">
-                                    <div class="img"><a target="_blank" href="https://careerbuilder.vn/vi/talentcommunity/co-phai-thu-viec-khi-quay-lai-cong-ty-cu-lam-viec.35A51EE6.html" title="Có phải thử việc khi quay lại công ty cũ làm việc?"><img class="swiper-lazy" data-src="https://images.careerbuilder.vn/tintuc/career/20220527/crop/319x319/1653617401_1.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Có phải thử việc khi quay lại công ty cũ làm việc?">
-                                        </a>
-                                    </div>
-                                    <div class="caption">
-                                        <p class="category-title">Thị trường lao động</p>
-                                        <a target="_blank" class="title" href="https://careerbuilder.vn/vi/talentcommunity/co-phai-thu-viec-khi-quay-lai-cong-ty-cu-lam-viec.35A51EE6.html" title="Có phải thử việc khi quay lại công ty cũ làm việc?">Có phải thử việc khi quay lại công ty cũ làm việc?</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="item bg-default">
-                                    <div class="img"><a target="_blank" href="https://careerbuilder.vn/vi/talentcommunity/chuyen-vien-tu-van-bao-hiem-lam-cong-viec-gi-luong-cao-khong.35A51EE2.html" title="Chuyên viên tư vấn bảo hiểm làm công việc gì? Lương cao không?"><img class="swiper-lazy" data-src="https://images.careerbuilder.vn/tintuc/career/20220526/crop/319x319/1653546658_chuyen-vien-tu-van-bao-hiem-lam-cong-viec-gi-luong-cao-khong-careerbuilder.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Chuyên viên tư vấn bảo hiểm làm công việc gì? Lương cao không?">
-                                        </a>
-                                    </div>
-                                    <div class="caption">
-                                        <p class="category-title">Wiki Career</p>
-                                        <a target="_blank" class="title" href="https://careerbuilder.vn/vi/talentcommunity/chuyen-vien-tu-van-bao-hiem-lam-cong-viec-gi-luong-cao-khong.35A51EE2.html" title="Chuyên viên tư vấn bảo hiểm làm công việc gì? Lương cao không?">Chuyên viên tư vấn bảo hiểm làm công việc gì? Lương cao không?</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="item bg-tips">
-                                    <div class="img"><a target="_blank" href="https://careerbuilder.vn/vi/talentcommunity/het-thu-viec-co-duong-nhien-chuyen-sang-hop-dong-chinh-thuc.35A51EE7.html" title="Hết thử việc có đương nhiên chuyển sang hợp đồng chính thức?"><img class="swiper-lazy" data-src="https://images.careerbuilder.vn/tintuc/career/20220527/crop/319x319/1653617752_2.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Hết thử việc có đương nhiên chuyển sang hợp đồng chính thức?">
-                                        </a>
-                                    </div>
-                                    <div class="caption">
-                                        <p class="category-title">Thị trường lao động</p>
-                                        <a target="_blank" class="title" href="https://careerbuilder.vn/vi/talentcommunity/het-thu-viec-co-duong-nhien-chuyen-sang-hop-dong-chinh-thuc.35A51EE7.html" title="Hết thử việc có đương nhiên chuyển sang hợp đồng chính thức?">Hết thử việc có đương nhiên chuyển sang hợp đồng chính thức?</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="item bg-tips">
-                                    <div class="img"><a target="_blank" href="https://careerbuilder.vn/vi/talentcommunity/khong-tang-luong-cho-nguoi-lao-dong-nhu-thoa-thuan-cong-ty-co-bi-xu-phat.35A51EEC.html" title="Không tăng lương cho người lao động như thoả thuận, công ty có bị xử phạt?"><img class="swiper-lazy" data-src="https://images.careerbuilder.vn/tintuc/career/20220527/crop/319x319/1653635105_5.jpeg" src="../kiemviecv32/images/graphics/blank.gif" alt="Không tăng lương cho người lao động như thoả thuận, công ty có bị xử phạt?">
-                                        </a>
-                                    </div>
-                                    <div class="caption">
-                                        <p class="category-title">Thị trường lao động</p>
-                                        <a target="_blank" class="title" href="https://careerbuilder.vn/vi/talentcommunity/khong-tang-luong-cho-nguoi-lao-dong-nhu-thoa-thuan-cong-ty-co-bi-xu-phat.35A51EEC.html" title="Không tăng lương cho người lao động như thoả thuận, công ty có bị xử phạt?">Không tăng lương cho người lao động như thoả thuận, công ty có bị xử phạt?</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="item bg-default">
-                                    <div class="img"><a target="_blank" href="https://careerbuilder.vn/vi/talentcommunity/cam-nang-nghe-nghiep-chi-tiet-nhat-ve-nhan-vien-phat-trien-kinh-doanh.35A51EE4.html" title="Cẩm nang nghề nghiệp chi tiết nhất về nhân viên phát triển kinh doanh"><img class="swiper-lazy" data-src="https://images.careerbuilder.vn/tintuc/career/20220526/crop/319x319/1653547140_cam-nang-chi-tiet-nhat-ve-nhan-vien-phat-trien-kinh-doannh-careerbuilder.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Cẩm nang nghề nghiệp chi tiết nhất về nhân viên phát triển kinh doanh">
-                                        </a>
-                                    </div>
-                                    <div class="caption">
-                                        <p class="category-title">Wiki Career</p>
-                                        <a target="_blank" class="title" href="https://careerbuilder.vn/vi/talentcommunity/cam-nang-nghe-nghiep-chi-tiet-nhat-ve-nhan-vien-phat-trien-kinh-doanh.35A51EE4.html" title="Cẩm nang nghề nghiệp chi tiết nhất về nhân viên phát triển kinh doanh">Cẩm nang nghề nghiệp chi tiết nhất về nhân viên phát triển kinh doanh</a>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                     <div class="swiper-prev"><span class="lnr lnr-chevron-left"></span></div>
                     <div class="swiper-next"><span class="lnr lnr-chevron-right"></span></div>
                 </div>
-                <div class="view-more"><a target="_blank" href="https://careerbuilder.vn/vi/talentcommunity">Xem thêm<span class="mdi mdi-arrow-right"></span></a></div>
+                <div class="view-more"><a href="javascript:void(0)">Xem thêm<span class="mdi mdi-arrow-right"></span></a></div>
             </div>
         </section>
         <section class="post-a-job lazy-bg" data-src="https://images.careerbuilder.vn/content/Product/bg-3_3.jpg">
