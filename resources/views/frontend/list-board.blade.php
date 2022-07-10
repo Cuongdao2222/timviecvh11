@@ -12,6 +12,16 @@
 
     $slMarritial =['Độc thân', 'Đã kết hôn'];
 
+    $checkTitle = App\Models\application::where('users_id', Auth::user()->id)->first();
+
+    if(!empty(json_decode($checkTitle->title)) &&!empty(json_decode($checkTitle->experience))&&!empty(json_decode($checkTitle->objective)) && !empty(json_decode($checkTitle->info)) && !empty(json_decode($checkTitle->education))&&!empty(json_decode($checkTitle->experience_details))){
+        $checksucess = true;
+    }
+    else{
+        $checksucess = false;
+    }
+
+
 
     ?>
     <link rel="stylesheet" type="text/css" href="{{ asset('css/employ/index.css') }}">
@@ -50,7 +60,16 @@
                                                     <h2>{{ Auth::user()->name }}</h2>
                                                 </div>
                                                 <div class="information">
-                                                    <div class="assistant" id="titleresume_16167824" >Chưa cập nhật</div>
+
+                                                    @if($checksucess===true)
+                                                    <div class="assistant">Đã cập nhật</div>
+
+                                                    @else
+
+                                                    <div class="assistant">Chưa cập nhật</div>
+
+                                                    @endif
+                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -69,17 +88,27 @@
                                             <h2 id="section_name">{{ Auth::user()->name }}</h2>
                                         </div>
                                         <div class="information">
-                                            <div class="assistant" >Chưa cập nhật</div>
+                                             @if($checksucess===true)
+                                            <div class="assistant">Đã cập nhật</div>
+
+                                            @else
+
+                                            <div class="assistant">Chưa cập nhật</div>
+
+                                            @endif
                                         </div>
                                         <div id="complete_section">
                                             <div class="progress-bar-status incomplete">
                                                 <div class="profile-strength">
-                                                    <p>Mức độ hoàn thành: <span>Chưa Hoàn Tất</span></p>
+                                                    <p>Mức độ hoàn thành:<span> {{ ($checksucess===true)?'Đã hoàn tất':'Chưa Hoàn Tất'}}</span></p>
                                                 </div>
+
+                                                @if($checksucess===false)
                                                 <div class="noti">
                                                     <em class="mdi mdi-alert-circle-outline"></em>
                                                     <p>Chưa hoàn thành. Bạn vui lòng cập nhật và hoàn thành hồ sơ</p>
                                                 </div>
+                                                @endif
                                                 <div class="progress-bar">
                                                     <div class="progress">
                                                         <progress class="progress-main" max="7" value="0"></progress>
@@ -213,13 +242,7 @@
                                         <div class="figcaption">
                                             <h3>Tiêu đề hồ sơ *</h3>
 
-                                            <?php 
-
-                                                $checkTitle = App\Models\application::where('users_id', Auth::user()->id)->first();
-
-
-                                              
-                                            ?>
+                                           
                                             @if(!empty(json_decode($checkTitle->title)))
                                             <div class="status success">
                                                 <p>Đã hoàn thành</p>
