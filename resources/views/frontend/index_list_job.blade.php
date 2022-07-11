@@ -72,10 +72,46 @@
         .cb-box-find .main-box .box-body {
             background: #E8F6FD;
         }    
+
+       
+        
+         @media only screen and (min-width: 768px) {    
+
+            .job-item .figure .figcaption {
+
+                max-width: auto !important;
+            }
+        }    
+
         @media only screen and (max-width: 767px) {
+
+            .job-item .figure .title p, .job-item .figure .title a {
+
+                font-size: 12px !important;
+            }   
+            .job-item .figure .caption .company-name {
+                font-size: 12px !important;
+            } 
+
+            .content-mb{
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+
+            .job-item .figure{
+                padding: 5px 0 0 0  !important;
+            }
+
+            .job-item .figure .caption .company-name{
+                -webkit-line-clamp: 1 !important;
+            }
+
+            .form-sm form{
+                overflow: hidden;
+            }
             .top-employers-list .item a{
                 top: 0;
-                transform: translateY(50%);
+               /* transform: translateY(50%);*/
                 left: 0;
             }
             .job-item .figure{
@@ -84,10 +120,40 @@
             .job-item .figure .figcaption{
                 max-width: calc(100% - 100px) !important;
             }
-        }
+            .d-flex{
+                display: block !important;
+            }
+
             .job-item .figure .figcaption{
                 max-width: calc(100% - 100px) !important;
             }
+            .btn-selected, .btn-input-search{
+                width: 100% !important;
+            }
+            .sl-action {
+                 width: auto !important; 
+            }
+            .btn-list-search{
+                width: 100% !important;
+            }
+             .search-button{
+
+                width: auto !important;
+             } 
+
+             .top-employers-banner .item .image {
+                padding: 35px 0 35px 0 !important;
+            }
+
+
+
+           /*  .top-employers-banner .item .image {
+                padding: 0 !important;
+             }  */
+
+
+        }
+        
 
         @media (min-width: 1200px){
 
@@ -175,6 +241,11 @@
             font-weight: 400;
             transition: 0.5s;
         }
+        .top-employers-list .image {
+            min-height: 137px !important;
+        }    
+
+
 
 
        
@@ -184,7 +255,7 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('css/jquery.auto-complete.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/index.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/common.css') }}">
-        <<!-- link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"> -->
+        <!-- link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"> -->
         <style type="text/css">
             
             .hot-jobs-list .main-pagination {
@@ -244,7 +315,7 @@
 
                                     <div class="caption">
                                         <a class="company-name" href="{{ route('employ-details',  $jobs->links) }}" title="{{ $jobs->links }}" target="_blank">{{ $jobs->name }} </a>
-                                        <p class="salary">{!! $jobs->salary  !!}</p>
+                                        <p class="salary">{!! str_replace(['.000.000', 'VNĐ', 'Đến', 'Mức lương: '],[' triệu', '','-', '$ :'], $jobs->salary) !!}</p>
                                         <div class="location">
                                             <em class="mdi mdi-map-marker"></em>
                                             <p> Hà Nội</p>
@@ -279,6 +350,9 @@
 
                 margin-top: 95px;
             }
+            .btn-selected select {
+                background-image: none !important;
+            }    
             .d-flex{
                 display: flex;
                 margin: 0 !important;
@@ -371,6 +445,7 @@
                 width: 40px;
                 background: red;
                 text-align: center;
+                color: #fff;
             }
 
             .btn-advanced-search {
@@ -560,9 +635,10 @@
             .btn-selected{
                 width: 17%;
             }
+
         </style>
 
-        <div class="container">
+        <div class="container content-mb">
             
             <div class="form-sm">
 
@@ -587,37 +663,7 @@
                                                     @endforeach
 
                                                 </select>
-                                              <!--   <span class="select2-selection__placeholder">Tất cả ngành nghề</span>
-                                                <div class="select2____menu-list">
-                                                    <div class=" css-2b097c-container">
-                                                        <div class=" css-1jyyht9-control">
-                                                            <div class=" css-1hwfws3">
-                                                                <div class=" css-1wa3eu0-placeholder"></div>
-                                                                <div class="css-uiymxs">
-                                                                    <div class="" style="display: inline-block;">
-                                                                        <input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-24-input" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;">
-                                                                        <div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 12px; font-family: Arial; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;"></div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class=" css-1wy0on6">
-                                                                <div style="height: 27px; width: 20px;">
-                                                                    <svg width="16" height="16" viewBox="0 0 22 22" focusable="false" role="presentation">
-                                                                        <path d="M16.436 15.085l3.94 4.01a1 1 0 0 1-1.425 1.402l-3.938-4.006a7.5 7.5 0 1 1 1.423-1.406zM10.5 16a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11z" fill="#9e9e9e" fill-rule="evenodd"></path>
-                                                                    </svg>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class=" css-1se6jq4">
-
-                                                            <select class="select__menu-list sl-hover-color">
-                                                                <option class="css-1n7v3ny-option">Tất cả ngành nghề</option>
-                                                            </select>
-                                                           
-                                                        </div>
-                                                        <input name="field_ids" type="hidden" value="">
-                                                    </div>
-                                                </div> -->
+                                             
                                             </span>
                                             <span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span>
                                         </span>
@@ -1282,7 +1328,7 @@
                 loop:true,
                 margin:10,
                 nav:true,
-                autoplay:true,
+                autoplay:false,
                 responsive:{
                     0:{
                         items:1
@@ -1312,7 +1358,7 @@
         </script>
 
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script -->>
+<!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
        
         <div class="back-drop"></div>
