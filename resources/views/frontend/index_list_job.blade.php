@@ -65,7 +65,7 @@
             position: absolute;
             top: 100%;
             left: 50%;
-            transform: translate(-50%, -45%);
+            transform: translate(-50%, -30%);
             z-index: 999;
         }
 
@@ -1328,7 +1328,7 @@
                 loop:true,
                 margin:10,
                 nav:true,
-                autoplay:false,
+                autoplay:true,
                 responsive:{
                     0:{
                         items:1
