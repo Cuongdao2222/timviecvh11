@@ -13,7 +13,7 @@ class indexController extends Controller
     public function Home()
     {
         $meta = 'Trang chủ';
-        $job= DB::table('employer_registers')->join('job', 'employer_registers.id', '=', 'job.employer_id')->join('employ_info', 'employer_registers.id', '=', 'employ_info.employ_id')->paginate(8);
+        $job= DB::table('job')->join('employ_info', 'job.employer_id', '=', 'employ_info.employ_id')->select('job.title', 'job.id', 'employ_info.name', 'employ_info.logo', 'employ_info.links', 'job.link', 'job.salary', 'job.address_job')->paginate(8);
 
         return view('frontend.index_list_job', compact('job', 'meta'));
     }
