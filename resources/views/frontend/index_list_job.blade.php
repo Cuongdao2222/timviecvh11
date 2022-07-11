@@ -348,7 +348,7 @@
 
                 display: flex;
 
-                margin-top: 95px;
+                margin-top: 110px;
             }
             .btn-selected select {
                 background-image: none !important;
