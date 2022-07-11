@@ -12,7 +12,11 @@ Route::group(['middleware' => 'checkad'], function() {
 
 	Route::get('list-user', 'adminController@index')->name('list-user');
 
-	Route::get('banner', 'adminController@banner')->name('list-user')->name('admin-banner');
+	Route::get('banner', 'adminController@banner')->name('admin-banner');
+
+	Route::post('postEditBanner/{id}', 'adminController@postEditBanner')->name('postEditBanner');
+
+	Route::get('banner/{id}', 'adminController@bannerviewedit')->name('admin-banner-edit');
 
 	Route::get('delete-user', 'adminController@remove_user')->name('Remove-user');
 

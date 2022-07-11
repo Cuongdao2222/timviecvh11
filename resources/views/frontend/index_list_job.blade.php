@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/owl.carousel.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/owl.theme.default.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 
     <style type="text/css">
 
@@ -244,10 +245,6 @@
         .top-employers-list .image {
             min-height: 137px !important;
         }    
-
-
-
-
        
     </style>
     <main>
@@ -257,12 +254,20 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('css/common.css') }}">
         <!-- link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"> -->
         <style type="text/css">
-            
             .hot-jobs-list .main-pagination {
 
                 width: 417px;
             }    
         </style>
+
+        <?php 
+
+            $banners = App\Models\banners::where('option','=',0)->take(6)->OrderBy('stt', 'asc')->where('active','=',1)->select('title', 'image', 'title', 'link')->get();
+
+            $banners1 = App\Models\banners::where('option','=',2)->take(2)->OrderBy('stt', 'asc')->where('active','=',1)->select('title', 'image', 'title', 'link')->get();
+
+            $banners2 = App\Models\banners::where('option','=',3)->take(4)->OrderBy('stt', 'asc')->where('active','=',1)->select('title', 'image', 'title', 'link')->get();
+        ?>
 
         <div class="section-over">
 
@@ -270,18 +275,34 @@
                 <section class="cb-banner-home">
                     <div class="banner-pc">
                         <div class="swiper-container">
-                            <div class="swiper-wrapper" id="pc-swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <a href="javascript:void(0)" rel="nofollow;noreferrer">
-                                        <div class="image"> <img src="{{ asset('images/banner1.png')}} " alt="Banner"> </div>
-                                    </a>
+                            <!-- Swiper -->
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+
+                                    @if(isset($banners))
+
+                                    @foreach($banners as $value)
+                                   <div class="swiper-slide">
+                                        <a href="{{ $value->link }}">
+                                            <div class="image"> <img src="{{ asset($value->image) }}" alt="{{ $value->title }}"> </div>
+                                        </a>
+                                    </div>
+                                    @endforeach
+                                    @endif
+
+                                  
+                                   
                                 </div>
+                                <div class="swiper-pagination"></div>
                             </div>
+                            <!-- Swiper JS -->
                         </div>
-                        <div class="main-page">
+                        <!-- <div class="main-page">
                             <div class="swiper-pagination"></div>
-                        </div>
+                        </div> -->
                     </div>
+
+
                     <div class="banner-mobile">
                         <div class="swiper-container">
                             <div class="swiper-wrapper" id="mobile-swiper-wrapper">
@@ -297,8 +318,21 @@
                         </div>
                     </div>
                 </section>
-                <script>$(window).bind("load",function(){var timeoutBn = setTimeout(function(){loadBannerHome();},3e3);});</script> 
+              <!--   <script>$(window).bind("load",function(){var timeoutBn = setTimeout(function(){loadBannerHome();},3e3);});</script>  -->
             </div>
+
+             <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                  pagination: {
+                    el: ".swiper-pagination",
+                    dynamicBullets: true,
+                  },
+                });
+            </script>
+
+          
 
             <div class="section">
                 <div class="cb-section cb-section-border-bottom container cb-content">
@@ -882,24 +916,25 @@
                 </div>
                 <div class="top-employers-banner">
                     <div class="row">
+
+                        @if(isset($banners1))
+
+                        @foreach($banners1 as $value)
                         <div class="col-lg-6">
                             <div class="item">
                                 <div class="image adsTopBanner">
                                     <div class="image adsTopBanner">
-                                        <a href="javascript:void(0)" target="_blank"><img src="https://ads.careerbuilder.vn/www/images/8038e22595ece70fbfe0a75e7020f355.jpg" width="690" height="250" alt="" title="" border="0"></a>
-                                        <div id="beacon_3b99765e4e" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://ads.careerbuilder.vn/www/delivery/lg.php?bannerid=5711&amp;campaignid=1671&amp;zoneid=846&amp;loc=http%3A%2F%2Flocalhost%3A8000%2F&amp;referer=http%3A%2F%2Flocalhost%3A8000%2Ffilter%3Fkeyword%3Ddfgdfgfdgd&amp;cb=3b99765e4e" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
+                                        <a href="javascript:void(0)" target="_blank">
+                                            <img src="{{ asset($value->image) }}" width="690" height="250" alt="" title="{{ asset($value->title) }}" border="0"></a>
+                                        <div id="beacon_3b99765e4e" style="position: absolute; left: 0px; top: 0px; visibility: hidden;">
+                                            <img src="{{ asset($value->image) }}" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="item">
-                                <div class="image adsTopBanner">
-                                    <div class="image adsTopBanner"><a href="javascript:void(0)" target="_blank"><img src="https://ads.careerbuilder.vn/www/images/22992aee146e2c1e3bb3c8dabe3d7fa9.jpg" width="690" height="250" alt="" title="" border="0"></a><div id="beacon_b01d6aa9af" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://ads.careerbuilder.vn/www/delivery/lg.php?bannerid=5924&amp;campaignid=1701&amp;zoneid=847&amp;loc=http%3A%2F%2Flocalhost%3A8000%2F&amp;referer=http%3A%2F%2Flocalhost%3A8000%2Ffilter%3Fkeyword%3Ddfgdfgfdgd&amp;cb=b01d6aa9af" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        @endforeach
+                        @endif
+                        
                     </div>
                 </div>
             </div>
@@ -1090,38 +1125,22 @@
         <section class="banner-promo cb-section cb-section-border-bottom">
             <div class="container">
                 <div class="row">
-                    <!-- <div class="col-sm-6 col-lg-3">
-                        <div class="item">
-                            <div class="image loadAds" id="850"><a href="javascript:void(0)"><img src="https://ads.careerbuilder.vn/www/images/712be9f37048b8c1722ec70de2a08384.jpg" width="330" height="290" alt="" title="" border="0"></a><div id="beacon_a26fba6e0c" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://ads.careerbuilder.vn/www/delivery/lg.php?bannerid=5921&amp;campaignid=1701&amp;zoneid=850&amp;loc=http%3A%2F%2Flocalhost%3A8000%2F&amp;cb=a26fba6e0c" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
-                            </div>
-                        </div>
-                    </div> -->
+                
+                    @if(isset($banners2))
 
+                    @foreach($banners2 as $value)
+                       
                     <div class="col-sm-6 col-lg-3">
                         <div class="item">
-                            <div class="image loadAds" id="850"><a href="javascript:void(0)"><img src="https://ads.careerbuilder.vn/www/images/712be9f37048b8c1722ec70de2a08384.jpg" width="330" height="290" alt="" title="" border="0"></a><div id="beacon_a26fba6e0c" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://ads.careerbuilder.vn/www/delivery/lg.php?bannerid=5921&amp;campaignid=1701&amp;zoneid=850&amp;loc=http%3A%2F%2Flocalhost%3A8000%2F&amp;cb=a26fba6e0c" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
+                            <div class="image loadAds" id="850"><a href="javascript:void(0)"><img src="{{ asset($value->image) }}" width="330" height="290" alt="{{ asset($value->title) }}" title="{{ asset($value->title) }}" border="0"></a>
+                                <div id="beacon_a26fba6e0c" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="{{ asset($value->image) }}" width="0" height="0" alt="{{ asset($value->title) }}" style="width: 0px; height: 0px;"></div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="item">
-                            <div class="image loadAds" id="850"><a href="javascript:void(0)"><img src="https://ads.careerbuilder.vn/www/images/712be9f37048b8c1722ec70de2a08384.jpg" width="330" height="290" alt="" title="" border="0"></a><div id="beacon_a26fba6e0c" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://ads.careerbuilder.vn/www/delivery/lg.php?bannerid=5921&amp;campaignid=1701&amp;zoneid=850&amp;loc=http%3A%2F%2Flocalhost%3A8000%2F&amp;cb=a26fba6e0c" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="item">
-                            <div class="image loadAds" id="850"><a href="javascript:void(0)"><img src="https://ads.careerbuilder.vn/www/images/712be9f37048b8c1722ec70de2a08384.jpg" width="330" height="290" alt="" title="" border="0"></a><div id="beacon_a26fba6e0c" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://ads.careerbuilder.vn/www/delivery/lg.php?bannerid=5921&amp;campaignid=1701&amp;zoneid=850&amp;loc=http%3A%2F%2Flocalhost%3A8000%2F&amp;cb=a26fba6e0c" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="item">
-                            <div class="image loadAds" id="850"><a href="javascript:void(0)"><img src="https://ads.careerbuilder.vn/www/images/712be9f37048b8c1722ec70de2a08384.jpg" width="330" height="290" alt="" title="" border="0"></a><div id="beacon_a26fba6e0c" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://ads.careerbuilder.vn/www/delivery/lg.php?bannerid=5921&amp;campaignid=1701&amp;zoneid=850&amp;loc=http%3A%2F%2Flocalhost%3A8000%2F&amp;cb=a26fba6e0c" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
-                            </div>
-                        </div>
-                    </div>
+                    @endforeach
+                    @endif
+                  
                 </div>
             </div>
         </section>
@@ -1198,42 +1217,32 @@
                 <div class="cb-title cb-title-center">
                     <h2><span>Cẩm nang nghề nghiệp</span></h2>
                 </div>
+
+                <?php 
+
+                    $post =  App\Models\post::take(5)->get();
+                ?>
                 <div class="career-development-slide">
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
-                            <!-- <div class="swiper-slide">
-                                <div class="item bg-tips">
-                                    <div class="img"><a target="_blank" href="{{ route('blog_detail') }}"><img class="swiper-lazy" data-src="https://images.careerbuilder.vn/tintuc/career/20220527/crop/319x319/1653634974_7.jpeg" src="../kiemviecv32/images/graphics/blank.gif" alt="Không trừ tỷ lệ hưởng lương hưu với lao động dôi dư nghỉ hưu trước tuổi">
-                                        </a>
-                                    </div>
-                                    <div class="caption">
-                                        <p class="category-title">Thị trường lao động</p>
-                                        <a target="_blank" class="title" href="https://careerbuilder.vn/vi/talentcommunity/khong-tru-ty-le-huong-luong-huu-voi-lao-dong-doi-du-nghi-huu-truoc-tuoi.35A51EEE.html" title="Không trừ tỷ lệ hưởng lương hưu với lao động dôi dư nghỉ hưu trước tuổi">Không trừ tỷ lệ hưởng lương hưu với lao động dôi dư nghỉ hưu trước tuổi</a>
-                                    </div>
-                                </div>
-                            </div> -->
+                            
+
+                            @foreach($post as $posts)
+
+                           
                             <div class="swiper-slide">
                                 <div class="item bg-default">
-                                    <div class="img"><a target="_blank" href="{{ route('blog_detail') }}" title="Khám phá công việc Data Analyst - Nghề của &quot;thời đại số&quot;"><img class="swiper-lazy" data-src="https://images.careerbuilder.vn/tintuc/career/20220524/crop/319x319/1653372151_data-analyst-careerbuilder.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Khám phá công việc Data Analyst - Nghề của &quot;thời đại số&quot;">
+                                    <div class="img"><a target="_blank" href="{{ route('blog_detail', $posts->link??'') }}" title="{{ $posts->title }}"><img class="swiper-lazy" data-src="https://images.careerbuilder.vn/tintuc/career/20220524/crop/319x319/1653372151_data-analyst-careerbuilder.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="{{ $posts->title }}">
                                         </a>
                                     </div>
                                     <div class="caption">
                                         <p class="category-title">Wiki Career</p>
-                                        <a target="_blank" class="title" href="{{ route('blog_detail') }}" title="Khám phá công việc Data Analyst - Nghề của &quot;thời đại số&quot;">Khám phá công việc Data Analyst - Nghề của &quot;thời đại số&quot;</a>
+                                        <a target="_blank" class="title" href="{{ route('blog_detail', $posts->link) }}" title={{ $posts->title }}">{{ $posts->title }}</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="item bg-tips">
-                                    <div class="img"><a target="_blank" href="{{ route('blog_detail') }}" title="Từ 2022, người lao động cần bao nhiêu năm đóng BHXH để có lương hưu tối đa?"><img class="swiper-lazy" data-src="https://images.careerbuilder.vn/tintuc/career/20220527/crop/319x319/1653635094_8.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Từ 2022, người lao động cần bao nhiêu năm đóng BHXH để có lương hưu tối đa?">
-                                        </a>
-                                    </div>
-                                    <div class="caption">
-                                        <p class="category-title">Thị trường lao động</p>
-                                        <a target="_blank" class="title" href="{{ route('blog_detail') }}" title="Từ 2022, người lao động cần bao nhiêu năm đóng BHXH để có lương hưu tối đa?">Từ 2022, người lao động cần bao nhiêu năm đóng BHXH để có lương hưu tối đa?</a>
-                                    </div>
-                                </div>
-                            </div>
+                            @endforeach
+                           
                             
                         </div>
                     </div>

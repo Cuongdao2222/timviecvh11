@@ -58,14 +58,7 @@ Route::get('/quick-register-user', function () {
     
 })->name('regiter-fast-form'); 
 
-Route::get('/blog-details', function () {
-
-    return view('frontend.blog_detail');
-    
-})->name('blog_detail'); 
-
-
-
+Route::get('blog-details/{link}', 'blogController@viewBlog')->name('blog_detail'); 
 
 
 Route::get('employers/register', 'Backend\employerController@index')->name('register_employer'); 

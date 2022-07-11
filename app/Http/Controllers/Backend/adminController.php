@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\admin;
 use App\User;
 use App\Models\job;
+use App\Models\banners;
 
 use App\Models\employ_info;
 
@@ -152,5 +153,39 @@ class adminController extends Controller
         $employ = employ_info::findOrFail($id);
         $delete = $employ->delete();
         return redirect()->back();
-    }    
+    } 
+
+    public function bannerviewedit($id)
+    {
+        $bannerId = banners::findOrFail($id);
+
+        return view('admin.bannerEdit', compact('bannerId'));
+    }  
+
+    public function postEditBanner(Request $request, $id){
+
+        $banner = banners::find($id);
+
+        $input = $request->All();
+
+        if ($request->hasFile('image')) {
+
+            $file_upload = $request->file('image');
+
+            $name = time() . '_' . $file_upload->getClientOriginalName();
+
+            $path = 'images/upload/banner';
+
+            $request->file('image')->move($path, $name, 'local');
+
+            $filePath = $path. '/'.$name;
+
+            $input['image'] = $filePath;
+        }   
+      
+
+        $banner->update($input);
+
+        return redirect(route('admin-banner'));
+    }
 }

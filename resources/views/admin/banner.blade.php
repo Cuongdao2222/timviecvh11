@@ -107,7 +107,7 @@
                                 <a href="#">{{ $banner->active==0?'Bật lên':'Hạ xuống' }}</a>
                                 </span> 
                                 <br> 
-                                <a href="#">Sửa lại</a> <br>
+                                <a href="{{ route('admin-banner-edit', $banner->id) }}">Sửa lại</a> <br>
                                 <!-- <a href="javascript:void(0);" onclick="delete_this('402')">Xóa</a> -->
                             </td>
                         </tr>
