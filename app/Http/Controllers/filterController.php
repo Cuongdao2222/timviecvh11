@@ -9,9 +9,6 @@ use App\Models\job;
 use DB;
 
 
-
-
-
 class filterController extends Controller
 {
     public function filter(Request $request)
@@ -23,7 +20,14 @@ class filterController extends Controller
 
         $industry = $request->industry;
 
-        $job = DB::table('employer_registers')->join('job', 'employer_registers.id', '=', 'job.employer_id')->join('employ_info', 'employer_registers.id', '=', 'employ_info.employ_id')->where('job.title','LIKE', '%'. $datas .'%')->where('job.address_job', $address)->where('career', $industry)->OrWhere('employ_info.name', 'LIKE', '%' . $datas . '%')->where('job.address_job', $address)->where('career', $industry)->get();
+        if(!empty($address)||!empty($industry)){
+
+            $job = DB::table('employer_registers')->join('job', 'employer_registers.id', '=', 'job.employer_id')->join('employ_info', 'employer_registers.id', '=', 'employ_info.employ_id')->where('job.title','LIKE', '%'. $datas .'%')->where('job.address_job', $address)->where('career', $industry)->OrWhere('employ_info.name', 'LIKE', '%' . $datas . '%')->where('job.address_job', $address)->where('career', $industry)->get();
+
+        }
+        else{
+             $job = DB::table('employer_registers')->join('job', 'employer_registers.id', '=', 'job.employer_id')->join('employ_info', 'employer_registers.id', '=', 'employ_info.employ_id')->where('job.title','LIKE', '%'. $datas .'%')->OrWhere('employ_info.name', 'LIKE', '%' . $datas . '%')->get();
+        }
 
         return view('frontend.filter', compact('job'));
     }
