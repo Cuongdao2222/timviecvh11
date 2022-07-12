@@ -124,11 +124,13 @@
 
                                         @endif
                                         <ul class="desired">
+                                            @if(!empty(json_decode($checkTitle->experience)))
                                             <li>
                                                 <em class="material-icons">star</em>
                                                 Kinh nghiệm:
                                                 <p>{{ (json_decode($checkTitle->experience))->yearOfExperience.' năm'??'Chưa có kinh nghiệm' }}</p>
                                             </li>
+                                            @endif
                                            <!--  <li>
                                                 <em class="material-icons">person</em>
                                                 <p>Cấp bậc mong muốn: <span>Chưa cập nhật</span></p>

@@ -211,7 +211,7 @@
                             </div>
                         </div>
                         <div class="main-register"><a href="{{ route('registerClientUser') }}" title="Đăng ký">Đăng ký</a></div>
-                        <div class="main-language dropdown">
+                        <!-- <div class="main-language dropdown">
                             <div class="dropdown-toggle">
                                 <p>VI<em class="mdi mdi-chevron-down"></em></p>
                             </div>
@@ -219,7 +219,7 @@
                                 <div class="item active"><a class="dropdown-item" href="javascript:;" title="Change language">VI</a></div>
                                
                             </div>
-                        </div>
+                        </div> -->
 
                         <div class="main-employer dropdown">
                             <a href="{{ route('register_employer') }}" title="Đăng tuyển, Tìm ứng viên">
