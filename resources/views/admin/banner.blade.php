@@ -3,20 +3,21 @@
 
 <?php 
     
-    $option = 0;
+   
+    $options = $_GET['option']??0;
 
-    $banners = App\Models\banners::where('option', $option)->paginate(10);
+    $banners = App\Models\banners::where('option', $options)->paginate(10);
 
     $option = [];
 
     $option[0] = ['name'=>'Banner slide home', 'size'=>'1920px x 630px'];
-    $option[1] = ['name'=>'Banner top', 'size'=>'1920px x 44px'];
-    $option[2] = ['name'=>'Banner bên phải slider home', 'size'=>'254px x 254px'];
-    $option[3] = ['name'=>'Banner dưới slider home', 'size'=>'690px x 305px'];
+    $option[1] = ['name'=>'Banner ', 'size'=>'1920px x 44px'];
+    $option[2] = ['name'=>'Banner trên phần việc làm nổi bật', 'size'=>'1900 x 570px'];
+    $option[3] = ['name'=>'Banner quảng cáo trên cẩm nang nghề nghiệp', 'size'=>'330px x 290px'];
     $option[4] = ['name'=>'Banner category', 'size'=>'1200 x 200px'];
     $option[5] = ['name'=>'Banner trên phần sale home', 'size'=>'1200 x 90'];
 
-     $optionss = $_GET['option']??'';
+    $optionss = $_GET['option']??'';
 
     $i =0 ;
 
@@ -44,7 +45,7 @@
             <div class="card-body p-0">
                 <select name="option" onchange="location = this.value;">
                     @foreach($option as $key => $options)
-                    <option value="#" {{ $key == $optionss?'selected':''  }}>{{ $options['name'] }}</option>
+                    <option value="{{ route('admin-banner') }}?option={{ $key }}" {{ $key == $optionss?'selected':''  }}>{{ $options['name'] }}</option>
                  
                     @endforeach
                 </select>

@@ -82,9 +82,21 @@
 
                 max-width: auto !important;
             }
+
+            .cb-section{
+                padding: 0 !important;
+            }
+            .filter{
+                padding: 30px 0;
+            }
+              .top-employers-banner{
+                margin-bottom: 50px !important;
+            }
         }    
 
         @media only screen and (max-width: 767px) {
+
+
 
             .job-item .figure .title p, .job-item .figure .title a {
 
