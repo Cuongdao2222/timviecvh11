@@ -301,7 +301,7 @@
             </div>
             <div class="mobile-menu">
                 <div class="mobile-wrap">
-                    <div class="header-logo"><a href="javascript:void(0)" title="Tuyển dụng & Tìm kiếm việc làm nhanh"><img class="lazy-bg" data-src="./img/logo.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Tuyển dụng & Tìm kiếm việc làm nhanh"></a></div>
+                    <div class="header-logo"><a href="javascript:void(0)" title="Tuyển dụng & Tìm kiếm việc làm nhanh"><img class="lazy-bg" data-src="" src="{{ asset('images/template/logo/logo.png') }}" alt="Tuyển dụng & Tìm kiếm việc làm nhanh"></a></div>
                     <div class="header-bottom">
                         <div class="header-bottom-top">
                             <div class="profile">
