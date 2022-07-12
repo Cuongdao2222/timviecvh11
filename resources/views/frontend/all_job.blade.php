@@ -1,6 +1,7 @@
 @extends('frontend.layout.appfe')
 @section('content')
 <main>
+    
     <link rel="stylesheet" type="text/css" href="{{ asset('css/common-job-detail.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/chosen.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/search-result-list-detail.css') }}">

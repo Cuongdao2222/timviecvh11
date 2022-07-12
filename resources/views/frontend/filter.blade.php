@@ -1,6 +1,23 @@
 @extends('frontend.layout.appfe')
 @section('content')
 <main>
+    <style type="text/css">
+        @media only screen and (max-width: 768px) {
+            .job-item .figure .figcaption{
+                width: 70%;
+            }
+
+        }
+        .toollips{
+            display: none;
+        }
+        .mobile-filter{
+            display: none !important;
+        }
+        .page-heading-tool .search-job .form-group button{
+            background: #E90026 !important;
+        }
+    </style>
     <link rel="stylesheet" type="text/css" href="{{ asset('css/common-job-detail.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/chosen.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/search-result-list-detail.css') }}">
@@ -9,7 +26,7 @@
             <div class="tool-wrapper">
                 <div class="close-input-filter"><em class="lnr lnr-cross"></em></div>
                 <div class="search-job">
-                    <form>
+                    <form method="GET" action="{{ route('filter') }}">
                         <div class="form-wrap">
                             <div class="form-group form-keyword">
                                 <input type="search" class="keyword" name="keyword" id="keyword" placeholder="Chức danh, Kỹ năng, Tên công ty">
