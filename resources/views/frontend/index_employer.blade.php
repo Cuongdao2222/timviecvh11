@@ -206,7 +206,7 @@
                                                     <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20220718/2861868_1658117803_111720.jpg" alt="avatar ung vien">  </div>
                                                 </div>
                                                 <div class="topresume-info">
-                                                    <p> <a href="https://careerbuilder.vn/vi/employers/popup/resumeinfo/35A4E900/35A4E900/ehs-hse-safety-environment/35BE47AA.html" class="tuv" target="_blank"> ĐỖTHỊ PHƯƠNGTHẢO </a> <em class="date">(Ngày: 21-07-2022 11:17:13)</em> </p>
+                                                    <p> <a href="#" class="tuv" target="_blank"> ĐỖTHỊ PHƯƠNGTHẢO </a> <em class="date">(Ngày: 21-07-2022 11:17:13)</em> </p>
                                                     <p><span>EHS, HSE, Safety, Environment</span></p>
                                                     <p><span>Năm kinh nghiệm:</span> Trên 10 năm</p>
                                                     <p><span>Bằng cấp cao nhất:</span> Đại học</p>
@@ -222,7 +222,7 @@
                                                     <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20180911/80500_1536639433_111841.jpg" alt="avatar ung vien">  </div>
                                                 </div>
                                                 <div class="topresume-info">
-                                                    <p> <a href="https://careerbuilder.vn/vi/employers/popup/resumeinfo/35A4E900/35A4E900/developer/35A59312.html" class="tuv" target="_blank"> Đỗ Như Thành </a> <em class="date">(Ngày: 21-07-2022 11:00:53)</em> </p>
+                                                    <p> <a href="#" class="tuv" target="_blank"> Đỗ Như Thành </a> <em class="date">(Ngày: 21-07-2022 11:00:53)</em> </p>
                                                     <p><span>Developer</span></p>
                                                     <p><span>Năm kinh nghiệm:</span> 5 năm</p>
                                                     <p><span>Bằng cấp cao nhất:</span> Đại học</p>
