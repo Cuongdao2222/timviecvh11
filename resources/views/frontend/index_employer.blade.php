@@ -238,7 +238,7 @@
                                                     <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20220226/325308_1645848227_110401.jpg" alt="avatar ung vien">  </div>
                                                 </div>
                                                 <div class="topresume-info">
-                                                    <p> <a href="https://careerbuilder.vn/vi/employers/popup/resumeinfo/35A4E900/35A4E900/quan-ly/3608BF3E.html" class="tuv" target="_blank"> Lương Hoàng Minh Dũng </a> <em class="date">(Ngày: 21-07-2022 11:21:03)</em> </p>
+                                                    <p> <a href="#" class="tuv" target="_blank"> Lương Hoàng Minh Dũng </a> <em class="date">(Ngày: 21-07-2022 11:21:03)</em> </p>
                                                     <p><span>Quản lý</span></p>
                                                     <p><span>Năm kinh nghiệm:</span> Trên 10 năm</p>
                                                     <p><span>Bằng cấp cao nhất:</span> Sau đại học</p>
@@ -254,7 +254,7 @@
                                                     <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20190824/351461_1566623949_121955.jpg" alt="avatar ung vien">  </div>
                                                 </div>
                                                 <div class="topresume-info">
-                                                    <p> <a href="https://careerbuilder.vn/vi/employers/popup/resumeinfo/35A4E900/35A4E900/giam-doc-tai-chinh-ke-toan-truong/35A8C742.html" class="tuv" target="_blank"> lê thu </a> <em class="date">(Ngày: 21-07-2022 11:20:56)</em> </p>
+                                                    <p> <a href="#" class="tuv" target="_blank"> lê thu </a> <em class="date">(Ngày: 21-07-2022 11:20:56)</em> </p>
                                                     <p><span>Giám đốc Tài chinh - Kế toán trưởng</span></p>
                                                     <p><span>Năm kinh nghiệm:</span> Trên 10 năm</p>
                                                     <p><span>Bằng cấp cao nhất:</span> Đại học</p>
@@ -270,7 +270,7 @@
                                                     <div class="topresume-image">  <img src="https://static.careerbuilder.vn/themes/careerbuilder/img/dash-board/1.png" alt="avatar ung vien">  </div>
                                                 </div>
                                                 <div class="topresume-info">
-                                                    <p> <a href="https://careerbuilder.vn/vi/employers/popup/resumeinfo/35A4E900/35A4E900/giam-sat-bao-tri/35A8AAAA.html" class="tuv" target="_blank"> LÊ TOÀN TRUNG </a> <em class="date">(Ngày: 21-07-2022 11:22:50)</em> </p>
+                                                    <p> <a href="#" class="tuv" target="_blank"> LÊ TOÀN TRUNG </a> <em class="date">(Ngày: 21-07-2022 11:22:50)</em> </p>
                                                     <p><span>Giám sát Bảo Trì</span></p>
                                                     <p><span>Năm kinh nghiệm:</span> Trên 10 năm</p>
                                                     <p><span>Bằng cấp cao nhất:</span> Trung cấp</p>
@@ -286,7 +286,7 @@
                                                     <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20220721/1011980_1658373516_101853.jpg" alt="avatar ung vien">  </div>
                                                 </div>
                                                 <div class="topresume-info">
-                                                    <p> <a href="https://careerbuilder.vn/vi/employers/popup/resumeinfo/35A4E900/35A4E900/nhan-vien-mua-hang-chuyen-vien-thiet-ke-nhan-vien-van-phong/35A9C5AA.html" class="tuv" target="_blank"> Nguyễn Thị Lệ </a> <em class="date">(Ngày: 21-07-2022 11:28:18)</em> </p>
+                                                    <p> <a href="#" class="tuv" target="_blank"> Nguyễn Thị Lệ </a> <em class="date">(Ngày: 21-07-2022 11:28:18)</em> </p>
                                                     <p><span>NHÂN VIÊN MUA HÀNG- CHUYÊN VIÊN THIẾT KẾ- NHÂN VIÊN VĂN PHÒNG</span></p>
                                                     <p><span>Năm kinh nghiệm:</span> 9 năm</p>
                                                     <p><span>Bằng cấp cao nhất:</span> Đại học</p>
@@ -302,7 +302,7 @@
                                                     <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20220706/1056782_1657118607_214407.jpg" alt="avatar ung vien">  </div>
                                                 </div>
                                                 <div class="topresume-info">
-                                                    <p> <a href="https://careerbuilder.vn/vi/employers/popup/resumeinfo/35A4E900/35A4E900/truong-phong-kinh-doanh-chuyen-vien-kinh-doanh/35CB1DB8.html" class="tuv" target="_blank"> Huỳnh Kỳ Bảo </a> <em class="date">(Ngày: 21-07-2022 10:58:32)</em> </p>
+                                                    <p> <a href="#" class="tuv" target="_blank"> Huỳnh Kỳ Bảo </a> <em class="date">(Ngày: 21-07-2022 10:58:32)</em> </p>
                                                     <p><span>Trưởng phòng kinh doanh/ Chuyên viên kinh doanh</span></p>
                                                     <p><span>Năm kinh nghiệm:</span> 10 năm</p>
                                                     <p><span>Bằng cấp cao nhất:</span> Đại học</p>
@@ -318,7 +318,7 @@
                                                     <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20130524/1292142_1369396436.jpg" alt="avatar ung vien">  </div>
                                                 </div>
                                                 <div class="topresume-info">
-                                                    <p> <a href="https://careerbuilder.vn/vi/employers/popup/resumeinfo/35A4E900/35A4E900/truong-phong-ban-kiem-soat-kiem-toan-quan-tri-rui-ro-he-thong-quan-ly/35CB37E7.html" class="tuv" target="_blank"> Đào Tấn Lực </a> <em class="date">(Ngày: 21-07-2022 10:58:45)</em> </p>
+                                                    <p> <a href="#" class="tuv" target="_blank"> Đào Tấn Lực </a> <em class="date">(Ngày: 21-07-2022 10:58:45)</em> </p>
                                                     <p><span>Trưởng Phòng/Ban Kiểm Soát - Kiểm Toán/Quản Trị Rủi Ro/Hệ thống Quản lý</span></p>
                                                     <p><span>Năm kinh nghiệm:</span> 10 năm</p>
                                                     <p><span>Bằng cấp cao nhất:</span> Đại học</p>
@@ -334,7 +334,7 @@
                                                     <div class="topresume-image">  <img src="https://static.careerbuilder.vn/themes/careerbuilder/img/dash-board/1.png" alt="avatar ung vien">  </div>
                                                 </div>
                                                 <div class="topresume-info">
-                                                    <p> <a href="https://careerbuilder.vn/vi/employers/popup/resumeinfo/35A4E900/35A4E900/ke-toan-truong/360860B2.html" class="tuv" target="_blank"> Nguyễn Thị Hồng Hạnh </a> <em class="date">(Ngày: 21-07-2022 11:05:12)</em> </p>
+                                                    <p> <a href="#" class="tuv" target="_blank"> Nguyễn Thị Hồng Hạnh </a> <em class="date">(Ngày: 21-07-2022 11:05:12)</em> </p>
                                                     <p><span>Kế toán trưởng</span></p>
                                                     <p><span>Năm kinh nghiệm:</span> Trên 10 năm</p>
                                                     <p><span>Bằng cấp cao nhất:</span> Đại học</p>
@@ -366,7 +366,7 @@
                                                     <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20220718/2861868_1658117803_111720.jpg" alt="avatar ung vien">  </div>
                                                 </div>
                                                 <div class="topresume-info">
-                                                    <p> <a href="https://careerbuilder.vn/vi/employers/popup/resumeinfo/35A4E900/35A4E900/ehs-hse-safety-environment/35BE47AA.html" class="tuv" target="_blank"> ĐỖTHỊ PHƯƠNGTHẢO </a> <em class="date">(Ngày: 21-07-2022 11:17:13)</em> </p>
+                                                    <p> <a href="#" class="tuv" target="_blank"> ĐỖTHỊ PHƯƠNGTHẢO </a> <em class="date">(Ngày: 21-07-2022 11:17:13)</em> </p>
                                                     <p><span>EHS, HSE, Safety, Environment</span></p>
                                                     <p><span>Năm kinh nghiệm:</span> Trên 10 năm</p>
                                                     <p><span>Bằng cấp cao nhất:</span> Đại học</p>
@@ -382,7 +382,7 @@
                                                     <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20180911/80500_1536639433_111841.jpg" alt="avatar ung vien">  </div>
                                                 </div>
                                                 <div class="topresume-info">
-                                                    <p> <a href="https://careerbuilder.vn/vi/employers/popup/resumeinfo/35A4E900/35A4E900/developer/35A59312.html" class="tuv" target="_blank"> Đỗ Như Thành </a> <em class="date">(Ngày: 21-07-2022 11:00:53)</em> </p>
+                                                    <p> <a href="#" class="tuv" target="_blank"> Đỗ Như Thành </a> <em class="date">(Ngày: 21-07-2022 11:00:53)</em> </p>
                                                     <p><span>Developer</span></p>
                                                     <p><span>Năm kinh nghiệm:</span> 5 năm</p>
                                                     <p><span>Bằng cấp cao nhất:</span> Đại học</p>
