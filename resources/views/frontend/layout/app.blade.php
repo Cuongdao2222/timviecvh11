@@ -132,11 +132,12 @@
                             <div class="dropdown-menu">
                                 <ul>
                                     <li> <a href="{{ route('user-dashboard') }}" rel="nofollow">Quản Lý Hồ Sơ</a></li>
-                                    <li> <a href="{{ route('my-profile') }}" rel="nofollow">Hồ sơ CareerBuilder</a></li>
-                                    <li> <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/jobsaved" rel="nofollow">Việc làm đã lưu</a></li>
+                                    <li> <a href="{{ route('my-profile') }}" rel="nofollow">Hồ sơ </a></li>
+                                    
+                                   <!--  <li> <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/jobsaved" rel="nofollow">Việc làm đã lưu</a></li>
                                     <li> <a href="https://careerbuilder.vn/vi/jobseekers/jobalert" rel="nofollow">Thông Báo Việc Làm</a></li>
-                                    <li> <a href="https://careerbuilder.vn/vi/jobseekers/myresume/viewbyemp" rel="nofollow">Nhà tuyển dụng xem hồ sơ của tôi</a></li>
-                                    <li> <a href="https://careerbuilder.vn/vi/jobseekers/mykiemviec/notify" rel="nofollow">Xem tất cả thông báo</a></li>
+                                    <li> <a href="https://careerbuilder.vn/vi/jobseekers/myresume/viewbyemp" rel="nofollow">Nhà tuyển dụng xem hồ sơ của tôi</a></li> -->
+                                   
                                     <li> <a href="https://careerbuilder.vn/vi/jobseekers/member/emailmanagement" rel="nofollow">Cài đặt</a></li>
                                     <li> <a href="{{ route('logoutUser') }}" rel="nofollow">Thoát</a></li>
                                 </ul>
