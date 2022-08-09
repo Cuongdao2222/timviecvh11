@@ -66,22 +66,22 @@
                             </div>
                             <div class="body">
                                 <div class="image">
-                                    <a href="https://careerbuilder.vn/careerbuilder-rewards" title="CareerBuilder Rewards 2022" target="_blank">
+                                    <a href="#" title="CareerBuilder Rewards 2022" target="_blank">
                                     <img src="https://images.careerbuilder.vn/content/images/01BinhMKT/member_cbr_vi_cb.png" alt="">
                                     </a>
                                 </div>
                                 <ul class="list-account-information">
                                     <li>
                                         <p class="number intNumPostNoUse">0</p>
-                                        <a class="title" href="https://careerbuilder.vn/vi/employers/hrcentral/reports/orders_available">Vị trí chưa sử dụng</a>
+                                        <a class="title" href="#">Vị trí chưa sử dụng</a>
                                     </li>
                                     <li>
                                         <p class="number orderNew">0</p>
-                                        <a class="title" href="https://careerbuilder.vn/vi/employers/hrcentral/reports/orders_available">Đơn hàng đang sử dụng</a>
+                                        <a class="title" href="#">Đơn hàng đang sử dụng</a>
                                     </li>
                                     <li>
                                         <p class="number JskNew">0</p>
-                                        <a class="title" href="https://careerbuilder.vn/vi/employers/hrcentral/manageresume">Ứng viên ứng tuyển</a>
+                                        <a class="title" href="#">Ứng viên ứng tuyển</a>
                                     </li>
                                 </ul>
                             </div>
@@ -153,7 +153,7 @@
                             <div class="body">
                                 <ul class="list-operation-management">
                                 </ul>
-                                <div class="view-more"><a class="btn-view-more" href="https://careerbuilder.vn/vi/employers/hrcentral/accounts/report_task_log">Xem thêm</a></div>
+                                <div class="view-more"><a class="btn-view-more" href="#">Xem thêm</a></div>
                             </div>
                         </div>
                     </div>
