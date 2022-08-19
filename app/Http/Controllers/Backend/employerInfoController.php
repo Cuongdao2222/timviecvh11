@@ -12,7 +12,7 @@ class employerInfoController extends Controller
     public function index()
     {
         $id = Auth::guard('employer_register')->user()->id;
-        $job = job::where('employer_id', $id)->get();
+        $job = job::where('employer_id', $id)->orderBy('id','desc')->get();
 
         return view('frontend.jobs_employ_list',compact('job'));
     }
