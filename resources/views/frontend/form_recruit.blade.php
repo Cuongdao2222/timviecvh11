@@ -109,8 +109,8 @@
         <div class="main-wrap">
             <div class="left-wrap">
                 <div class="button-hambuger"><span class="mdi mdi-menu"></span></div>
-                                <div class="logo"><a href="https://careerbuilder.vn/vi/employers" title="homepage-employers">
-                    <img src="./img/logo.png" alt="https://images.careerbuilder.vn/logo/logo_1482896879_1489026739.png" title="https://images.careerbuilder.vn/logo/logo_1482896879_1489026739.png" /></a></div>
+                                <div class="logo"><a href="#" title="homepage-employers">
+                    <img src="{{ asset('images/template/logo/logo.png') }}" alt="https://images.careerbuilder.vn/logo/logo_1482896879_1489026739.png" title="https://images.careerbuilder.vn/logo/logo_1482896879_1489026739.png" /></a></div>
                <!--  <div class="main-menu">
                     <ul class="menu">
                         <li class=""><a href="https://careerbuilder.vn/vi/employers" alt="Trang chủ" title="Trang chủ">Trang Chủ</a></li>
