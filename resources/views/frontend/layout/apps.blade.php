@@ -109,7 +109,7 @@
         <div class="main-wrap">
             <div class="left-wrap">
                 <div class="button-hambuger"><span class="mdi mdi-menu"></span></div>
-                                <div class="logo"><a href="vieclamngon.vn" title="homepage-employers">
+                                <div class="logo"><a href="http://vieclamngon.vn/" title="homepage-employers">
                     <img src="{{ asset('images/template/logo/logo.png') }}" alt="vieclamngon.vn" title="https://images.careerbuilder.vn/logo/logo_1482896879_1489026739.png" /></a></div>
                 <div class="main-menu">
                     <ul class="menu">
@@ -126,7 +126,7 @@
                                     <li><a href="https://careerbuilder.vn/vi/employers/postjobs">Đăng Tuyển Dụng</a></li>
                                     <li><a href="https://careerbuilder.vn/vi/resume-search.html">Tìm Hồ Sơ</a></li>
 
-                                                                                                                        <li><a href="https://careerbuilder.vn/vi/employers/careerbuilder-rewards">CareerBuilder Rewards</a></li>
+                                    <li><a href="https://careerbuilder.vn/vi/employers/careerbuilder-rewards">CareerBuilder Rewards</a></li>
                                                                                                             </ul>
                             </div>
                         </li>
