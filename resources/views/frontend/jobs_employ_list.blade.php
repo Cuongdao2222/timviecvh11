@@ -189,7 +189,7 @@
                                            
                                         </td>
                                         <td >
-                                            {{ $jobs->title}}
+                                            <a href="{{ route('job_details', $jobs->link) }}">{{ $jobs->title}}</a>
                                         </td>
                                         <td >
                                             {{ $jobs->created_at}}
