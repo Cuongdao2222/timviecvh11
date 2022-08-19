@@ -112,6 +112,9 @@
                             <div class="body">
                                 <ul class="list-post-management">
                                     <li>
+                                        <a href="{{ route('form_recruit') }}">Đăng việc làm mới</a>
+                                    </li>
+                                    <li>
                                         <a href="{{ route('employers-info-list') }}">
                                         <span class="number green">{{ $job }}</span>
                                         <span class="title">Việc làm đang đăng</span>
