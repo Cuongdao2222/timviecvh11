@@ -10,7 +10,7 @@
                 <h1 class="title-manage">Quản Lý Tuyển Dụng</h1>
                 <div class="button"><a class="btn-gradient" href="{{ route('form_recruit') }}"><em class="material-icons">create</em>Tạo Mẫu Tuyển Dụng</a></div>
             </div>
-            <div class="right-heading"><a href="https://careerbuilder.vn/vi/employers/faq" target="_blank" class="support">Hướng dẫn</a></div>
+            <!-- <div class="right-heading"><a href="https://careerbuilder.vn/vi/employers/faq" target="_blank" class="support">Hướng dẫn</a></div> -->
         </div>
         <!-- <div class="main-form-posting">
             <form name="frmSearchJob" id="frmSearchJob" action="" method="post" onsubmit="return validateSearch();">
