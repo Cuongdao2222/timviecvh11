@@ -204,7 +204,7 @@ body.compensate-for-scrollbar{overflow:hidden;}.fancybox-active{height:auto;}.fa
     </div>
     <div class="mobile-menu">
         <div class="mobile-wrap">
-            <div class="header-logo"><a href="https://careerbuilder.vn/vi/employers" title="homepage-employers"><img src="https://images.careerbuilder.vn/logo/logo_1644552010.png" alt="Chúc Mừng Năm Mới!" title="Chúc Mừng Năm Mới!" /></a></div>
+            <div class="header-logo"><a href="#" title="homepage-employers"><img src="https://images.careerbuilder.vn/logo/logo_1644552010.png" alt="Chúc Mừng Năm Mới!" title="Chúc Mừng Năm Mới!" /></a></div>
             <div class="header-bottom">
                 <div class="header-bottom-top">
                                         <div class="profile">
