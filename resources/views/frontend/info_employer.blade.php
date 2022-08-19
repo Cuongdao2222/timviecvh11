@@ -149,7 +149,7 @@ body.compensate-for-scrollbar{overflow:hidden;}.fancybox-active{height:auto;}.fa
             <div class="left-wrap">
                 <div class="button-hambuger"><span class="mdi mdi-menu"></span></div>
                                 <div class="logo"><a href="https://careerbuilder.vn/vi/employers" title="homepage-employers">
-                    <img src="./img/logo.png" alt="Chúc Mừng Năm Mới!" title="Chúc Mừng Năm Mới!" /></a></div>
+                    <img src="{{ asset('images/template/logo/logo.png') }}" alt="Chúc Mừng Năm Mới!" title="Chúc Mừng Năm Mới!" /></a></div>
                 <div class="main-menu">
                     <ul class="menu">
                         <li class=""><a href="https://careerbuilder.vn/vi/employers" alt="Trang chủ" title="Trang chủ">Trang Chủ</a></li>
