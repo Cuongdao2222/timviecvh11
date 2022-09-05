@@ -1802,7 +1802,9 @@
                                                 <option value="">Năm</option>
 
                                                 @for($k = 1975; $k <2023; $k++)
+                                                @if(!empty(json_decode($checkTitle->education)) && !empty(json_decode($checkTitle->education)->redu_year))
                                                 <option value="{{ $k }}" {{ json_decode($checkTitle->education)->redu_year==$k?'selected':'' }}>{{ $k }}</option>
+                                                @endif
                                                 @endfor
                                                
                                                 
