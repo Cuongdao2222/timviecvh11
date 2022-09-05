@@ -1787,8 +1787,11 @@
 
                                                 <option value="">Tháng</option>
                                               
-                                                 @for($i =1; $i <13; $i++)
+                                                @for($i =1; $i <13; $i++)
+
+                                                @if(!empty(json_decode($checkTitle->education)) && !empty(json_decode($checkTitle->education)->redu_month))
                                                 <option value="{{ $i }}" {{ json_decode($checkTitle->education)->redu_month==$i?'selected':''}}>{{ $i }}</option>
+                                                @endif
                                                 @endfor
                                                
                                                
