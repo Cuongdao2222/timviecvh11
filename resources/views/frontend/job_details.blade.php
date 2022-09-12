@@ -8,11 +8,15 @@
         $careers = LIST_JOB;
 
         $address = ADDRESS;
+
+
     ?>
     <link rel="stylesheet" type="text/css" href="{{ asset('css/common-job-detail.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/chosen.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/search-result-list-detail.css') }}">
     @include('frontend.layout.search')
+
+   
     <section class="search-result-list-detail template-2">
         <div class="container">
             <div class="row no-gutters">
@@ -22,7 +26,7 @@
                         <div class="apply-now-content">
                             <div class="job-desc">
                                 <h1 class="title">{{ @$data->title }}</h1>
-                                <a class="employer job-company-name" href="{{ route('employ-details',  $data->links) }}">{{ @$data->name }}</a>  
+                                <a class="employer job-company-name" href="{{ route('employ-details',  $data->link) }}">{{ @$data->name }}</a>  
                             </div>
                             <div class="apply-now-btn ">        
                                 <a href="javascript:void(0);" class="btn-gradient " onclick="apply('{{ $data->id }}')"> Nộp Đơn Ứng Tuyển </a>        
@@ -30,6 +34,8 @@
                         </div>
                     </section>
                 </div>
+
+
                 <div class="col-lg-7 col-custom-xxl-9">
                     <div class="tabs">
                         <nav class="job-result-nav">

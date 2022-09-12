@@ -19,6 +19,8 @@ class employerController extends Controller
         }
         $id_employ = $findID->id;
 
+
+
         $data = DB::table('job')->join('employ_info', 'employ_info.employ_id', '=', 'job.employer_id')->where('employ_info.id', $id_employ)->select('job.id','job.title', 'job.salary', 'job.link', 'employ_info.name', 'employ_info.links')->get();
        
 

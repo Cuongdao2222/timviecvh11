@@ -15,14 +15,21 @@
 
     $address = ADDRESS;
 
-    $checkTitle = App\Models\application::where('users_id', Auth::user()->id)->first();
+    $checkTitle = App\Models\application::where('users_id', 6)->first();
 
-    if(!empty(json_decode($checkTitle->title)) &&!empty(json_decode($checkTitle->experience))&&!empty(json_decode($checkTitle->objective)) && !empty(json_decode($checkTitle->info)) && !empty(json_decode($checkTitle->education))&&!empty(json_decode($checkTitle->experience_details))){
-        $checksucess = true;
+   
+    if(!empty($checkTitle)){
+
+        if(!empty(json_decode($checkTitle->title)) &&!empty(json_decode($checkTitle->experience))&&!empty(json_decode($checkTitle->objective)) && !empty(json_decode($checkTitle->info)) && !empty(json_decode($checkTitle->education))&&!empty(json_decode($checkTitle->experience_details))){
+            $checksucess = true;
+        }
+        else{
+            $checksucess = false;
+        }
+
     }
-    else{
-        $checksucess = false;
-    }
+
+    
 ?>
 
 

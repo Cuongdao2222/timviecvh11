@@ -13,7 +13,7 @@ class applicationController extends Controller
     {
         $user_id = Auth::user()->id;
         $id = application::where('users_id', $user_id)->first();
-        if(!empty($id )){
+        if(!empty($id)){
             $application = application::find($id->id);
             $data = $request->all();
             unset($data['_token']);
@@ -24,6 +24,7 @@ class applicationController extends Controller
                 $application->save();
 
             }
+
         }
       
         return redirect()->back();
