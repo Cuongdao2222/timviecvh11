@@ -1,6 +1,8 @@
 
 @extends('frontend.layout.appfe')
 @section('content')
+
+<!-- route job-details -->
 <main>
 
     <?php 
@@ -28,6 +30,7 @@
                                 <h1 class="title">{{ @$data->title }}</h1>
                                 <a class="employer job-company-name" href="{{ route('employ-details',  $data->link) }}">{{ @$data->name }}</a>  
                             </div>
+
                             <div class="apply-now-btn ">        
                                 <a href="javascript:void(0);" class="btn-gradient " onclick="apply('{{ $data->id }}')"> Nộp Đơn Ứng Tuyển </a>        
                             </div>
@@ -670,8 +673,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <script src='https://cdn.jsdelivr.net/npm/@goongmaps/goong-js@1.0.6/dist/goong-js.js'></script>
-                            <link href='https://cdn.jsdelivr.net/npm/@goongmaps/goong-js@1.0.6/dist/goong-js.css' rel='stylesheet' />
+                            <!-- <script src='https://cdn.jsdelivr.net/npm/@goongmaps/goong-js@1.0.6/dist/goong-js.js'></script>
+                            <link href='https://cdn.jsdelivr.net/npm/@goongmaps/goong-js@1.0.6/dist/goong-js.css' rel='stylesheet' /> -->
                             <script>
                                 var map_container = 'jobMap';
                                 var option_zoom = 14;
@@ -770,7 +773,7 @@
 
                                 @endforeach
                             </div>
-                            <div class="load-more"><a href="https://careerbuilder.vn/viec-lam-tuong-tu/Nhân-Viên-Tuyển-Dụng-tai-ho-chi-minh-kl8-vi.html" title="jobs recommend">Xem tất cả</a></div>
+                            <div class="load-more"><a href="javascript:void(0)">Xem tất cả</a></div>
                         </section>
                     </div>
                 </div>

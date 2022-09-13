@@ -152,7 +152,7 @@
 
                             @if(!empty(@session()->get('error')))
 
-                           <div class="alert alert-danger">
+                                <div class="alert alert-danger">
                                    <ul>
                                       
                                         <li style="color: red">{{ @session()->get('error') }}</li>
@@ -160,10 +160,8 @@
                                    </ul>
                                </div>
                             @endif   
-                            
 
-
-
+                           
 
                             @if (Auth::check()) 
                             
@@ -239,11 +237,22 @@
                         </div>
 
                         @else
-
-
+                            
                             @if(!Auth::guard('employer_register')->check())
                             <div class="main-login dropdown">
-                                <div class="title-login"><a href="javascript:void(0);"> <span class="mdi mdi-account-circle"></span>Đăng nhập</a></div>
+                                @if (Auth::guard('employer_register')->check()) 
+                            
+                                <div class="titles-login"><a href="{{ route('user-dashboard') }}">Xin chào {{ Auth::guard('employer_register')->name }}</a></div>
+
+                            
+                                @else
+
+                                    <div class="title-login"><a href="javascript:;" title="Đăng nhập"> <span class="mdi mdi-account-circle"></span>Đăng nhập</a></div>
+
+                                
+                                @endif
+
+                               
                                  <div class="dropdown-menu">
                                     <div class="login-wrapper">
                                        <form method="post" action="{{ route('loginEmployer') }}" id="frm_login_header">
@@ -266,9 +275,7 @@
                                     </div>
                                  </div>
                             </div>
-                          
-
-                          @endif
+                            @endif
 
                             <div class="main-register"><a href="{{ route('register_employer') }}">Đăng ký</a></div>
                             <div class="main-noti" style="display: none"><a href="javascript:void(0);"> <span class="mdi mdi-cart"></span></a></div>

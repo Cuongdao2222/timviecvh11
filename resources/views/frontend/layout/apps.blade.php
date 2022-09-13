@@ -136,7 +136,7 @@
                 </div>
             </div>
             <div class="right-wrap">
-                                <div class="main-login dropdown logged"><a href="https://careerbuilder.vn/vi/employers/hrcentral/accounts" title="cuong"> <span class="mdi mdi-account-circle"></span>Hi, <span class="name">cuong</span></a>
+                                <div class="main-login dropdown logged"><a href="javascript:void(0)" title="cuong"> </a>
                     <div class="dropdown-menu">
                         <ul>
                             <li> <a href="https://careerbuilder.vn/vi/employers/hrcentral/accounts"> <em class="fa fa-cog"></em>Tài khoản</a></li>
@@ -778,9 +778,9 @@ $(document).ready(function(){
 </script>
 
                             </div>
-                            <div class="form-group form-submit form-continue form-back-continue">
+                           <!--  <div class="form-group form-submit form-continue form-back-continue">
                                 <a class="btn-gradient btn-save" href="javascript:void(0);" onclick="is_Filter_Form2()">Tiếp tục</a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="tabslet-content" id="tab-3">
