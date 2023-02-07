@@ -2,8 +2,8 @@
 <html lang="vi">
     <head>
         <META HTTP-EQUIV="Content-language" CONTENT="vi">
-        <link href="https://career.eurowindow.biz/vi" hreflang="vi" rel="alternate" />
-        <link href="https://career.eurowindow.biz/en" hreflang="en" rel="alternate" />
+        <link href="vi" hreflang="vi" rel="alternate" />
+        <link href="en" hreflang="en" rel="alternate" />
         <base href="https://static.talentnetwork.vn/talentnetwork/source/eurowindow/"/>
         <link rel="shortcut icon" href="https://static.talentnetwork.vn/talentnetwork/source/favicon_eurowindow.ico?t=1"/>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -13,9 +13,9 @@
         <meta property="og:type" content="website"/>
         <meta property="og:site_name" content="Công Ty Cổ Phần Eurowindow"/>
         <meta property="og:title" content="Tuyển dụng và tìm kiếm việc làm nhanh | Công Ty Cổ Phần Eurowindow"/>
-        <meta property="og:url" content="https://career.eurowindow.biz/vi"/>
+        <meta property="og:url" content="vi"/>
         <meta property="og:image:type" content="image/jpeg"/>
-        <meta property="og:image" content="https://career.eurowindow.biz/sharefb?file=/rws/banner_thang_9-01_1569921859_1570440395.jpg"/>
+        <meta property="og:image" content="sharefb?file=/rws/banner_thang_9-01_1569921859_1570440395.jpg"/>
         <meta property="og:image:width" content="600"/>
         <meta property="og:image:height" content="315"/>
         <meta property="og:description" content="Tìm việc làm, tuyển dụng Eurowindow,viec lam tai Eurowindow, Eurowindow tuyển dụng"/>
@@ -65,7 +65,7 @@
             var Action = 'index';
                 var Layout_Template = 'P11';
                 var EMP_NAME = 'Công Ty Cổ Phần Eurowindow';
-                var LINK_FORGOT = 'https://career.eurowindow.biz/quen-mat-khau/vi';
+                var LINK_FORGOT = 'quen-mat-khau/vi';
             function checkIos(){
                 return /webOS|iPhone|iPad|iPod/i.test(navigator.userAgent)
             }
@@ -118,24 +118,24 @@
                 <div id="header-menu-links">
                     <ul>
                         <li id="header-menu-authentication-links">
-                            <div class="col-xs-6"><a href="https://career.eurowindow.biz/dang-nhap/vi" class="btn">Đăng nhập</a></div>
-                            <div class="col-xs-6"><a href="https://career.eurowindow.biz/join-talent-network/vi?url=https://career.eurowindow.biz/vi" class="btn">Đăng ký</a> </div>
+                            <div class="col-xs-6"><a href="dang-nhap/vi" class="btn">Đăng nhập</a></div>
+                            <div class="col-xs-6"><a href="join-talent-network/vi?url=vi" class="btn">Đăng ký</a> </div>
                         </li>
-                        <li><a href="https://career.eurowindow.biz/en"><span class="en"></span>English</a></li>
-                        <li><a href="https://career.eurowindow.biz/gioi-thieu-35A517C6/vi">Giới Thiệu</a>
+                        <li><a href="en"><span class="en"></span>English</a></li>
+                        <li><a href="gioi-thieu-35A517C6/vi">Giới Thiệu</a>
                         </li>
                         <li>
-                            <a href="https://career.eurowindow.biz/viec-lam/tat-ca-viec-lam/vi">Cơ Hội Nghề Nghiệp</a>
+                            <a href="viec-lam/tat-ca-viec-lam/vi">Cơ Hội Nghề Nghiệp</a>
                             <ul class="submenu">
-                                <li><a href="https://career.eurowindow.biz/tim-viec-lam/tat-ca-viec-lam/vi" target="_self">Tin tuyển dụng</a></li>
-                                <li><a href="https://career.eurowindow.biz/quy-trinh-tuyen-dung-35A5182A/vi" target="_self">Quy Trình Tuyển Dụng</a></li>
+                                <li><a href="tim-viec-lam/tat-ca-viec-lam/vi" target="_self">Tin tuyển dụng</a></li>
+                                <li><a href="quy-trinh-tuyen-dung-35A5182A/vi" target="_self">Quy Trình Tuyển Dụng</a></li>
                             </ul>
                         </li>
-                        <li><a href="https://career.eurowindow.biz/phuc-loi-35A517C8/vi">Phúc Lợi</a>
+                        <li><a href="phuc-loi-35A517C8/vi">Phúc Lợi</a>
                         </li>
-                        <li><a href="https://career.eurowindow.biz/tin-tuc-35A517C9/vi">Tin Tức</a>
+                        <li><a href="tin-tuc-35A517C9/vi">Tin Tức</a>
                         </li>
-                        <li><a href="https://career.eurowindow.biz/lien-he/vi">Liên Hệ</a>
+                        <li><a href="lien-he/vi">Liên Hệ</a>
                         </li>
                     </ul>
                 </div>
@@ -157,30 +157,30 @@
                     <div id="show-menu"><span class="fa fa-bars"></span></div>
                 </div>
                 <div class="container">
-                    <div class="logo"><a href="https://career.eurowindow.biz/vi"><img alt="Công Ty Cổ Phần Eurowindow" src="https://image.talentnetwork.vn/eurowindow//rws//logo_euro_1592_1592455215.png" /></a></div>
+                    <div class="logo"><a href="vi"><img alt="Công Ty Cổ Phần Eurowindow" src="https://image.talentnetwork.vn/eurowindow//rws//logo_euro_1592_1592455215.png" /></a></div>
                     <div class="menu">
                         <ul>
-                            <li class=" "><a href="https://career.eurowindow.biz/vi/#11974" id="menu_11974"  target="_self">Giới Thiệu </a>
+                            <li class=" "><a href="vi/#11974" id="menu_11974"  target="_self">Giới Thiệu </a>
                             </li>
                             <li class="parent ">
-                                <a href="https://career.eurowindow.biz/vi/#11975" id="menu_11975"  target="_self">Cơ Hội Nghề Nghiệp <i class="fa fa-chevron-down"></i></a>
+                                <a href="vi/#11975" id="menu_11975"  target="_self">Cơ Hội Nghề Nghiệp <i class="fa fa-chevron-down"></i></a>
                                 <ul class="submenu">
-                                    <li><a href="https://career.eurowindow.biz/tim-viec-lam/tat-ca-viec-lam/vi" target="_self">Tin tuyển dụng</a></li>
-                                    <li><a href="https://career.eurowindow.biz/quy-trinh-tuyen-dung-35A5182A/vi" target="_self">Quy Trình Tuyển Dụng</a></li>
+                                    <li><a href="tim-viec-lam/tat-ca-viec-lam/vi" target="_self">Tin tuyển dụng</a></li>
+                                    <li><a href="quy-trinh-tuyen-dung-35A5182A/vi" target="_self">Quy Trình Tuyển Dụng</a></li>
                                 </ul>
                             </li>
-                            <li class=" "><a href="https://career.eurowindow.biz/vi/#11976" id="menu_11976"  target="_self">Phúc Lợi </a>
+                            <li class=" "><a href="vi/#11976" id="menu_11976"  target="_self">Phúc Lợi </a>
                             </li>
-                            <li class=" "><a href="https://career.eurowindow.biz/vi/#11977" id="menu_11977"  target="_self">Tin Tức </a>
+                            <li class=" "><a href="vi/#11977" id="menu_11977"  target="_self">Tin Tức </a>
                             </li>
-                            <li class=" "><a href="https://career.eurowindow.biz/lien-he/vi" id="menu_11979"  target="_self">Liên Hệ </a>
+                            <li class=" "><a href="lien-he/vi" id="menu_11979"  target="_self">Liên Hệ </a>
                             </li>
                         </ul>
                     </div>
                     <div class="navbar-right">
                         <ul>
-                            <li><a href="https://career.eurowindow.biz/dang-nhap/vi" class="showDialogD">Đăng nhập</a></li>
-                            <li><span class="en"></span><a href="https://career.eurowindow.biz/en">English</a></li>
+                            <li><a href="dang-nhap/vi" class="showDialogD">Đăng nhập</a></li>
+                            <li><span class="en"></span><a href="en">English</a></li>
                         </ul>
                     </div>
                 </div>
@@ -199,10 +199,10 @@
                             <li>Cập nhật các thông tin mới nhất về công ty</li>
                             <li>Chia sẻ cơ hội việc làm với gia đình, bạn bè thông qua mạng xã hội hoặc email</li>
                         </ul>
-                        <p><a href="https://career.eurowindow.biz/join-talent-network/vi?url=https://career.eurowindow.biz/vi" class="showDialogD"><strong>Hãy gia nhập Talent Network của chúng tôi ngay hôm nay!</strong></a></p>
+                        <p><a href="join-talent-network/vi?url=vi" class="showDialogD"><strong>Hãy gia nhập Talent Network của chúng tôi ngay hôm nay!</strong></a></p>
                     </div>
                     <div class="clearall mar_top10">
-                        <div class="btnContinute"><a href="https://career.eurowindow.biz/join-talent-network/vi?url=https://career.eurowindow.biz/vi" class="showDialogD">Tiếp Tục</a></div>
+                        <div class="btnContinute"><a href="join-talent-network/vi?url=vi" class="showDialogD">Tiếp Tục</a></div>
                     </div>
                 </div>
             </div>
@@ -214,7 +214,7 @@
                     <div class="slogan">
                         <h1>CÙNG KIẾN TẠO MỘT SỰ NGHIỆP THÀNH CÔNG</h1>
                     </div>
-                    <div class="join-talent-onclip"><a href="https://career.eurowindow.biz/join-talent-network/vi" class="showDialogD">Gia nhập cùng Eurowindow</a></div>
+                    <div class="join-talent-onclip"><a href="join-talent-network/vi" class="showDialogD">Gia nhập cùng Eurowindow</a></div>
                 </div>
                 <div id="banner-video">
                     <div class="filter-video"></div>
@@ -225,7 +225,7 @@
                 </div>
                 <div class="container-search">
                     <div class="search-jobs-main">
-                        <form method="get" action="https://career.eurowindow.biz/tim-viec-lam/vi" onsubmit="return validateSearch(this);" id="frmSearchJob">
+                        <form method="get" action="tim-viec-lam/vi" onsubmit="return validateSearch(this);" id="frmSearchJob">
                             <input name="q" type="text" class="brOrgane h15 width_545" onblur="if(this.value=='') this.value='Tìm việc';" onfocus="javascript:if(this.value=='Tìm việc') this.value='';" value="Tìm việc" />
                             <select name="cat" class="chosen slc-mb">
                                 <option value="">Ngành nghề</option>
@@ -321,34 +321,34 @@
                     <div class="container-fluid container-narrow">
                         <ul class="flex-row jobs">
                             <li class="col-xs-6 col-sm-6 col-md-4 job">
-                                <a href="https://career.eurowindow.biz/tim-viec-lam/nganh-sales-business-development.31/vi"><img src="images/job1.png" /></a>
-                                <h3 class="job-title"><a href="https://career.eurowindow.biz/tim-viec-lam/nganh-sales-business-development.31/vi">Bán hàng / Kinh doanh</a></h3>
+                                <a href="tim-viec-lam/nganh-sales-business-development.31/vi"><img src="images/job1.png" /></a>
+                                <h3 class="job-title"><a href="tim-viec-lam/nganh-sales-business-development.31/vi">Bán hàng / Kinh doanh</a></h3>
                             </li>
                             <li class="col-xs-6 col-sm-6 col-md-4 job">
-                                <a href="https://career.eurowindow.biz/tim-viec-lam/nganh-accounting-auditing-tax.2/vi"><img src="images/job2.png" /></a>
-                                <h3 class="job-title"><a href="https://career.eurowindow.biz/tim-viec-lam/nganh-accounting-auditing-tax.2/vi">Kế toán / Kiểm toán</a></h3>
+                                <a href="tim-viec-lam/nganh-accounting-auditing-tax.2/vi"><img src="images/job2.png" /></a>
+                                <h3 class="job-title"><a href="tim-viec-lam/nganh-accounting-auditing-tax.2/vi">Kế toán / Kiểm toán</a></h3>
                             </li>
                             <li class="col-xs-6 col-sm-6 col-md-4 job">
-                                <a href="https://career.eurowindow.biz/tim-viec-lam/nganh-architect.6/vi"><img src="images/job3.png" /></a>
-                                <h3 class="job-title"><a href="https://career.eurowindow.biz/tim-viec-lam/nganh-architect.6/vi">Kiến trúc</a></h3>
+                                <a href="tim-viec-lam/nganh-architect.6/vi"><img src="images/job3.png" /></a>
+                                <h3 class="job-title"><a href="tim-viec-lam/nganh-architect.6/vi">Kiến trúc</a></h3>
                             </li>
                             <li class="col-xs-6 col-sm-6 col-md-4 job">
-                                <a href="https://career.eurowindow.biz/tim-viec-lam/nganh-purchasing-merchandising.43/vi"><img src="images/job4.png" /></a>
-                                <h3 class="job-title"><a href="https://career.eurowindow.biz/tim-viec-lam/nganh-purchasing-merchandising.43/vi">Thu mua / Vật tư</a></h3>
+                                <a href="tim-viec-lam/nganh-purchasing-merchandising.43/vi"><img src="images/job4.png" /></a>
+                                <h3 class="job-title"><a href="tim-viec-lam/nganh-purchasing-merchandising.43/vi">Thu mua / Vật tư</a></h3>
                             </li>
                             <li class="col-xs-6 col-sm-6 col-md-4 job">
-                                <a href="https://career.eurowindow.biz/tim-viec-lam/nganh-freight-logistics-warehouse.33/vi"><img src="images/job5.png" /></a>
-                                <h3 class="job-title"><a href="https://career.eurowindow.biz/tim-viec-lam/nganh-freight-logistics-warehouse.33/vi">Vận chuyển / Giao nhận / Kho vận</a></h3>
+                                <a href="tim-viec-lam/nganh-freight-logistics-warehouse.33/vi"><img src="images/job5.png" /></a>
+                                <h3 class="job-title"><a href="tim-viec-lam/nganh-freight-logistics-warehouse.33/vi">Vận chuyển / Giao nhận / Kho vận</a></h3>
                             </li>
                             <li class="col-xs-6 col-sm-6 col-md-4 job">
-                                <a href="https://career.eurowindow.biz/tim-viec-lam/nganh-civil-construction.8/vi"><img src="images/job6.png" /></a>
-                                <h3 class="job-title"><a href="https://career.eurowindow.biz/tim-viec-lam/nganh-civil-construction.8/vi">Xây dựng</a></h3>
+                                <a href="tim-viec-lam/nganh-civil-construction.8/vi"><img src="images/job6.png" /></a>
+                                <h3 class="job-title"><a href="tim-viec-lam/nganh-civil-construction.8/vi">Xây dựng</a></h3>
                             </li>
                         </ul>
                     </div>
                     <div class="row">
                         <div class="col-xs-3 btn-viewmore">
-                            <a href="https://career.eurowindow.biz/viec-lam/tat-ca-viec-lam/vi" class="btn btn-block btn-primary">Xem thêm</a>
+                            <a href="viec-lam/tat-ca-viec-lam/vi" class="btn btn-block btn-primary">Xem thêm</a>
                         </div>
                     </div>
                 </div>
@@ -447,7 +447,7 @@
                         </div>
                         <div class="row">
                             <div class="col-sm-2 col-sm-offset-5 btn-viewmore">
-                                <a class="btn btn-block btn-primary" href="https://career.eurowindow.biz/tin-tuc-35A517C9/vi" class="btn btn-block btn-primary weight-bold">Xem thêm</a>
+                                <a class="btn btn-block btn-primary" href="tin-tuc-35A517C9/vi" class="btn btn-block btn-primary weight-bold">Xem thêm</a>
                             </div>
                         </div>
                     </div>
@@ -487,13 +487,13 @@
                 <div class="col-xs-12 col-sm-3 powerby"><a href="https://VieclamIT.vn/" target="_blank" style="color:inherit">Talent </a><a href="https://careerbuilder.vn/careermap" target="_blank" style="color:inherit">Solution</a> <a href="https://VietnamSalary.vn/" target="_blank" style="color:inherit">by </a> <a href="https://careerbuilder.vn/viec-lam/tat-ca-viec-lam-vi.html" title="Tìm việc làm nhanh" target="_blank" style="color:inherit">CareerBuilder</a></div>
                 <div class="col-xs-12 col-sm-9 menu-footer">
                     <ul>
-                        <li><a href="https://career.eurowindow.biz/vi" >Trang Chủ</a></li>
-                        <li><a href="https://career.eurowindow.biz/vi/#11974" >Giới Thiệu</a></li>
-                        <li><a href="https://career.eurowindow.biz/vi/#11975" >Cơ Hội Nghề Nghiệp</a></li>
-                        <li><a href="https://career.eurowindow.biz/vi/#11976" >Phúc Lợi</a></li>
-                        <li><a href="https://career.eurowindow.biz/vi/#11977" >Tin Tức</a></li>
-                        <li><a href="https://career.eurowindow.biz/vi/#11978" >Tất Cả Việc Làm</a></li>
-                        <li><a href="https://career.eurowindow.biz/lien-he/vi" >Liên Hệ</a></li>
+                        <li><a href="vi" >Trang Chủ</a></li>
+                        <li><a href="vi/#11974" >Giới Thiệu</a></li>
+                        <li><a href="vi/#11975" >Cơ Hội Nghề Nghiệp</a></li>
+                        <li><a href="vi/#11976" >Phúc Lợi</a></li>
+                        <li><a href="vi/#11977" >Tin Tức</a></li>
+                        <li><a href="vi/#11978" >Tất Cả Việc Làm</a></li>
+                        <li><a href="lien-he/vi" >Liên Hệ</a></li>
                     </ul>
                 </div>
             </div>
@@ -517,7 +517,7 @@
                 <div class="container">
                     <h2>Cảm ơn bạn   gia nhập mạng lưới nhân tài của chúng tôi,</h2>
                     <p>Bằng cách tham gia mạng lưới nhân tài của chúng tôi, bạn chưa thực sự ứng tuyển vào các vị trí tuyển dụng.</p>
-                    <p>Hãy ứng tuyển ngay để trở thành ứng viên sáng giá cho <a href="https://career.eurowindow.biz/viec-lam/tat-ca-viec-lam/vi"><span style="color:#26a2d6">vị trí tuyển dụng</span></a> của chúng tôi hoặc tiếp tục <a href="https://career.eurowindow.biz/vi/resume"><span style="color:#26a2d6">cập nhật hồ sơ.</span></a></p>
+                    <p>Hãy ứng tuyển ngay để trở thành ứng viên sáng giá cho <a href="viec-lam/tat-ca-viec-lam/vi"><span style="color:#26a2d6">vị trí tuyển dụng</span></a> của chúng tôi hoặc tiếp tục <a href="vi/resume"><span style="color:#26a2d6">cập nhật hồ sơ.</span></a></p>
                 </div>
             </div>
         </div>
@@ -564,10 +564,10 @@
                     if(LANGUAGE != 'vi' && LANGUAGE != 'en') prep[LANGUAGE] = prep['en'];
                 
                 if(!keyword && !category && !location){
-                    searchLink = 'https://career.eurowindow.biz/tim-viec-lam/tat-ca-viec-lam/vi';
+                    searchLink = 'tim-viec-lam/tat-ca-viec-lam/vi';
                 }
                 else{
-                    searchLink = 'https://career.eurowindow.biz/tim-viec-lam';  
+                    searchLink = 'tim-viec-lam';  
                     if(keyword != ''){
                         searchLink += '/'+ keyword;
                     }
