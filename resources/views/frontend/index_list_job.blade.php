@@ -1,1389 +1,602 @@
-@extends('frontend.layout.appfe')
-@section('content')
-
-        <?php 
-             $listDefineJob = LIST_JOB;
-
-            $address = ADDRESS;
-
-            $salary = SALARY;
-
-            $level  = LEVEL;
-            
-        ?>
-
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/owl.carousel.min.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/owl.theme.default.css') }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-
-    <style type="text/css">
-
-        .job-item{
-            background: #fff;
-            border: 1px  solid #ddd;
-        }
-
-        .top-employers-banner .item .image {
-            padding: 50px !important;
-        }
-         .owl-carousel .item {
-            height: 10rem ;
-            background: #4DC7A0;
-            padding: 1rem;
-        } 
-
-        .section-over{
-            position: relative;
-        }
-
-        .cb-content{
-
-            padding: 0;
-
-            width: 80vw;
-        }
-
-        #box-job-suggest {
-
-            padding-top: 80px;
-
-        }    
-
-        .cb-section.cb-section-border-bottom {
-
-            border: none !important;
-        }    
-
-        .owl-carousel .item h4 {
-            color: red;
-            font-weight: 400;
-            margin-top: 0rem;
-        }
-
-        .cb-content{
-
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            transform: translate(-50%, -30%);
-            z-index: 999;
-        }
-
-        .cb-box-find .main-box .box-body {
-            background: #E8F6FD;
-        }    
-
-       
-        
-         @media only screen and (min-width: 768px) {    
-
-            .job-item .figure .figcaption {
-
-                max-width: auto !important;
-            }
-
-            .cb-section{
-                padding: 0 !important;
-            }
-            .filter{
-                padding: 30px 0;
-            }
-              .top-employers-banner{
-                margin-bottom: 50px !important;
-            }
-        }    
-
-        @media only screen and (max-width: 767px) {
-
-
-
-            .job-item .figure .title p, .job-item .figure .title a {
-
-                font-size: 12px !important;
-            }   
-            .job-item .figure .caption .company-name {
-                font-size: 12px !important;
-            } 
-
-            .content-mb{
-                padding: 0 !important;
-                margin: 0 !important;
-            }
-
-            .job-item .figure{
-                padding: 5px 0 0 0  !important;
-            }
-
-            .job-item .figure .caption .company-name{
-                -webkit-line-clamp: 1 !important;
-            }
-
-            .form-sm form{
-                overflow: hidden;
-            }
-            .top-employers-list .item a{
-                top: 0;
-               /* transform: translateY(50%);*/
-                left: 0;
-            }
-            .job-item .figure{
-                padding-right: 0 !important;
-            }
-            .job-item .figure .figcaption{
-                max-width: calc(100% - 100px) !important;
-            }
-            .d-flex{
-                display: block !important;
-            }
-
-            .job-item .figure .figcaption{
-                max-width: calc(100% - 100px) !important;
-            }
-            .btn-selected, .btn-input-search{
-                width: 100% !important;
-            }
-            .sl-action {
-                 width: auto !important; 
-            }
-            .btn-list-search{
-                width: 100% !important;
-            }
-             .search-button{
-
-                width: auto !important;
-             } 
-
-             .top-employers-banner .item .image {
-                padding: 35px 0 35px 0 !important;
-            }
-
-
-
-           /*  .top-employers-banner .item .image {
-                padding: 0 !important;
-             }  */
-
-
-        }
-        
-
-        @media (min-width: 1200px){
-
-            .cb-box-find .main-box {
-                position: relative !important;
-
-                top: 0 !important;
-                transform: translateY(-0%) !important;
-
-            } 
-        
-        } 
-
-        #owl-example .owl-nav button {
-            background: #fff !important;
-            height: 44px;
-            position: absolute;
-            width: 44px;
-            opacity: .7;
-            border-radius: 100% !important;
-            border: #e1e1e1;
-          
-            filter: drop-shadow(0 4px 7px rgba(0,0,0,.15));
-           
-            
-        }
-
-        #owl-example{
-            position: relative;
-        }
-
-        
-
-        #owl-example .owl-prev  {
-            left: -22px;
-            top: 50%;
-            transform: translateY(-50%);
-           
-        }
-
-         #owl-example .owl-next  {
-            right: -22px;
-            top: 50%;
-            transform: translateY(-50%);
-           
-        }
-
-        .cb-box-find .main-box .main-form .form-group label{
-            position: relative !important;
-            top: 34px !important;
-        }
-
-        .section{
-            width: 100%;
-
-        }
-
-        .cb-box-find .main-forms .form-group input, .cb-box-find .main-box .main-form .form-group .chosen-container {
-            -webkit-appearance: none;
-            -moz-appearance: none;
-            appearance: none;
-            width: 100% !important;
-            height: 40px;
-            padding: 5px 10px;
-            padding-left: 40px;
-            border: 1px solid #cccccc;
-            border-radius: 4px;
-            background: #fff;
-            color: #172642;
-            font-size: 16px;
-            font-weight: 400;
-        }
-
-        .main-forms .form-group label span {
-            font-size: 14px;
-        }
-
-        .main-forms .form-group label span {
-            -webkit-transition: 0.5s;
-            -o-transition: 0.5s;
-            display: initial;
-            color: #999999;
-            font-size: 12px;
-            font-style: normal;
-            font-weight: 400;
-            transition: 0.5s;
-        }
-        .top-employers-list .image {
-            min-height: 137px !important;
-        }    
-       
-    </style>
-    <main>
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/swiper.css') }}">    
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/jquery.auto-complete.css') }}">
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/index.css') }}">
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/common.css') }}">
-        <!-- link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"> -->
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <META HTTP-EQUIV="Content-language" CONTENT="vi">
+        <link href="https://career.eurowindow.biz/vi" hreflang="vi" rel="alternate" />
+        <link href="https://career.eurowindow.biz/en" hreflang="en" rel="alternate" />
+        <base href="https://static.talentnetwork.vn/talentnetwork/source/eurowindow/"/>
+        <link rel="shortcut icon" href="https://static.talentnetwork.vn/talentnetwork/source/favicon_eurowindow.ico?t=1"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="index,follow" />
+        <title>Tuyển dụng và tìm kiếm việc làm nhanh | Công Ty Cổ Phần Eurowindow</title>
+        <!-- tag share 4 -->
+        <meta property="og:type" content="website"/>
+        <meta property="og:site_name" content="Công Ty Cổ Phần Eurowindow"/>
+        <meta property="og:title" content="Tuyển dụng và tìm kiếm việc làm nhanh | Công Ty Cổ Phần Eurowindow"/>
+        <meta property="og:url" content="https://career.eurowindow.biz/vi"/>
+        <meta property="og:image:type" content="image/jpeg"/>
+        <meta property="og:image" content="https://career.eurowindow.biz/sharefb?file=/rws/banner_thang_9-01_1569921859_1570440395.jpg"/>
+        <meta property="og:image:width" content="600"/>
+        <meta property="og:image:height" content="315"/>
+        <meta property="og:description" content="Tìm việc làm, tuyển dụng Eurowindow,viec lam tai Eurowindow, Eurowindow tuyển dụng"/>
+        <script type="text/javascript" src="{{ asset('download/js/jquery.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('download/js/hoverIntent.js')}}"></script>
+        <meta name="keywords" content="_seo_index_index_keywords_" />
+        <meta name="description" content="Tìm việc làm, tuyển dụng Eurowindow,viec lam tai Eurowindow, Eurowindow tuyển dụng"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+        <link href="{{  asset('download/css/bootstrap.css')}}" rel="stylesheet" type="text/css" media="screen"/>
+        <!--[if lt IE 9]>
+    
+        <script type="text/javascript" src="{{ asset('download/js/html5shiv.min.js')}}"></script>
+        <script type="text/javascript" src="{{ asset('download/js/respond.min.js')}}"></script>
+        <![endif]-->
         <style type="text/css">
-            .hot-jobs-list .main-pagination {
-
-                width: 417px;
-            }    
+            .wrapDialog .container { width: 100% }
+            .jc-bs3-container, .jc-bs3-row {width:100% !important}
+            .jconfirm-content{line-height: 22px}
         </style>
-
-        <?php 
-
-            $banners = App\Models\banners::where('option','=',0)->take(6)->OrderBy('stt', 'asc')->where('active','=',1)->select('title', 'image', 'title', 'link')->get();
-
-            $banners1 = App\Models\banners::where('option','=',2)->take(2)->OrderBy('stt', 'asc')->where('active','=',1)->select('title', 'image', 'title', 'link')->get();
-
-            $banners2 = App\Models\banners::where('option','=',3)->take(4)->OrderBy('stt', 'asc')->where('active','=',1)->select('title', 'image', 'title', 'link')->get();
-        ?>
-
-        <div class="section-over">
-
-            <div class="cb-main-search">
-                <section class="cb-banner-home">
-                    <div class="banner-pc">
-                        <div class="swiper-container">
-                            <!-- Swiper -->
-                            <div class="swiper mySwiper">
-                                <div class="swiper-wrapper">
-
-                                    @if(isset($banners))
-
-                                    @foreach($banners as $value)
-                                   <div class="swiper-slide">
-                                        <a href="{{ $value->link }}">
-                                            <div class="image"> <img src="{{ asset($value->image) }}" alt="{{ $value->title }}"> </div>
-                                        </a>
-                                    </div>
-                                    @endforeach
-                                    @endif
-
-                                  
-                                   
-                                </div>
-                                <div class="swiper-pagination"></div>
-                            </div>
-                            <!-- Swiper JS -->
-                        </div>
-                        <!-- <div class="main-page">
-                            <div class="swiper-pagination"></div>
-                        </div> -->
-                    </div>
-
-
-                    <div class="banner-mobile">
-                        <div class="swiper-container">
-                            <div class="swiper-wrapper" id="mobile-swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <a href="#" rel="nofollow;noreferrer" target="_blank">
-                                        <div class="image"> <img src="{{ asset('images/banner1.png')}} " alt="Banner"> </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="main-page">
-                            <div class="swiper-pagination"></div>
-                        </div>
-                    </div>
-                </section>
-              <!--   <script>$(window).bind("load",function(){var timeoutBn = setTimeout(function(){loadBannerHome();},3e3);});</script>  -->
-            </div>
-
-             <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-            <script>
-                var swiper = new Swiper(".mySwiper", {
-                  pagination: {
-                    el: ".swiper-pagination",
-                    dynamicBullets: true,
-                  },
+        <link href="{{ asset('download/css/general.css')}}" rel="stylesheet" type="text/css" media="screen"/>
+        <link href="{{ asset('download/css/core.css?t=20171010')}}" rel="stylesheet" type="text/css" media="screen"/>
+        <link href="{{ asset('download/css/theme_default.css')}}" rel="stylesheet" type="text/css" media="screen"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+        <link href="{{ asset('download/css/TNredirect.css')}}" rel="stylesheet" type="text/css" media="screen"/>
+        <link href="{{ asset('download/css/premium.css')}}" rel="stylesheet" type="text/css" media="screen"/>
+        <link href="css/themes.css" rel="stylesheet" type="text/css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="css/nav_vi.css?t=12032015" media="screen"/>
+        <link href="{{ asset('download/js/jquery.multiselect.css')}}" rel="stylesheet" type="text/css"/>
+        <link href="{{ asset('download/js/jquery-ui.css')}}" rel="stylesheet" type="text/css"/>
+        <link href="{{ asset('download/css/jquery.fancybox-1.3.4.css')}}" rel="stylesheet" type="text/css"/>
+        <link href="{{ asset('download/css/jquery-confirm.min.css')}}" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="{{ asset('download/js/jquery-ui.min.js')}}"></script>
+        <script type="text/javascript" src="{{ asset('download/js/jquery.multiselect.js')}}"></script>
+        <script type="text/javascript" src="{{ asset('download/js/jquery.formatcurrency.js')}}"></script>
+        <script language="javascript" src="{{ asset('download/js/jquery-confirm.min.js')}}"></script>
+        <script type="text/javascript">
+            var DOMAIN = 'career.eurowindow.biz';
+            var TN = 'https://career.eurowindow.biz';
+            var CKEDITOR_BASEPATH = 'https://static.talentnetwork.vn/talentnetwork/source//js/ckeditor/';
+            var LANGUAGE = 'vi';
+            var OWNER = 'eurowindow';
+            var IMAGES_TN = 'https://image.talentnetwork.vn/eurowindow/'; 
+            var STATIC_TN = 'https://static.talentnetwork.vn/talentnetwork/source/';
+            var FILESUPPORT = '*.doc, *.docx, *.pdf';
+                var FILESUPPORT = '*.doc, *.docx, *.pdf';
+            var Controller = 'index';
+            var Action = 'index';
+                var Layout_Template = 'P11';
+                var EMP_NAME = 'Công Ty Cổ Phần Eurowindow';
+                var LINK_FORGOT = 'https://career.eurowindow.biz/quen-mat-khau/vi';
+            function checkIos(){
+                return /webOS|iPhone|iPad|iPod/i.test(navigator.userAgent)
+            }
+            function windowsPhone(){
+                    return /windows phone/i.test(navigator.userAgent)
+            }
+        </script>
+        <link href="https://static.talentnetwork.vn/talentnetwork/source/js/chosen/chosen.css" rel="stylesheet" type="text/css" />
+        <script src="https://static.talentnetwork.vn/talentnetwork/source/js/chosen/chosen.jquery.js?t=28042016')}}"></script>
+        <script type="text/javascript">
+            $( window ).load(function() {
+              // Search
+                if($('.chosen').is(":visible")){
+                    $(".chosen").chosen({no_results_text: language.msg_no_results_matched});
+                }
+                $( window ).resize(function() {
+                    widthWindowChosen = $(window).width();
+                    if(widthWindowChosen > 973){
+                        //$(".chosen").show();
+                        //setTimeout(function(){ $(".chosen").trigger("chosen:updated") }, 3000);
+                        //$(".chosen").hide();
+                        if($('.chosen').is(":visible"))
+                            $(".chosen").chosen({no_results_text: language.msg_no_results_matched});
+                    }
                 });
-            </script>
-
-          
-
-            <div class="section">
-                <div class="cb-section cb-section-border-bottom container cb-content">
-                    <div id="owl-example" class="owl-carousel">
-                         @foreach($job as $jobs)
-                        <div class="job-item">
-                            <div class="figure">
-                                <div class="image"><a target="_blank" href="{{ route('job_details', [$jobs->link, $jobs->id]) }}" title="{{ $jobs->title }}"><img src="{{ asset('picture/'.basename(str_replace('..','',$jobs->logo))) }}" class="swiper-lazy" data-src="{{ asset('picture/'.basename(str_replace('..','',$jobs->logo))) }}" alt="{{ $jobs->title }} " /></a></div>
-                                <div class="figcaption">
-                                    <div class="title">
-                                        <a target="_blank" href="{{ route('job_details', [$jobs->link, $jobs->id]) }}" title="{{ $jobs->title  }}">{{ $jobs->title  }}</a>
-                                    </div>
-
-
-                                    <div class="caption">
-                                        <a class="company-name" href="{{ route('employ-details',  $jobs->links) }}" title="{{ $jobs->links }}" target="_blank">{{ $jobs->name }} </a>
-                                        <p class="salary">{!! str_replace(['.000.000', 'VNĐ', 'Đến', 'Mức lương: '],[' triệu', '','-', '$ :'], $jobs->salary) !!}</p>
-                                        <div class="location">
-                                            <em class="mdi mdi-map-marker"></em>
-                                            <p> Hà Nội</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                @if (Auth::check()) 
-                                <div class="top-icon"> <span class="top apply-job" onclick="apply('{{ $jobs->id }}')">Apply</span> </div>
-
-                                <div class="saves-icon"> <span class="top save-job" onclick="saveJob('{{ $jobs->id }}')">Save</span> </div>
-                                @endif
-                            </div>
-                        </div>
-                        @endforeach
-
+            });
+            
+        </script> 
+        <script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" data-app-key="fa9yyto5llvqw2b" id="dropboxjs')}}"></script>
+    </head>
+    <!-- End Landing Page -->
+    <body class="frontend_clients indexclass_index ">
+        <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+        <!-- Your customer chat code -->
+        <div class="fb-customerchat"
+            attribution=setup_tool
+            page_id="1686228198272519"
+            theme_color="#0060af"
+            logged_in_greeting="Xin chào! Chúng tôi có thể giúp gì cho bạn?"
+            logged_out_greeting="Xin chào! Chúng tôi có thể giúp gì cho bạn?">
+        </div>
+        <div id="header-menu-mobile">
+            <div class="col-xs-12 c1">
+                <div id="header-menu-greeting">
+                    <div class="col-xs-12">
+                        <h2>Welcome To Talentnetwork</h2>
                     </div>
-
-                 </div>   
+                </div>
+                <div id="header-menu-links">
+                    <ul>
+                        <li id="header-menu-authentication-links">
+                            <div class="col-xs-6"><a href="https://career.eurowindow.biz/dang-nhap/vi" class="btn">Đăng nhập</a></div>
+                            <div class="col-xs-6"><a href="https://career.eurowindow.biz/join-talent-network/vi?url=https://career.eurowindow.biz/vi" class="btn">Đăng ký</a> </div>
+                        </li>
+                        <li><a href="https://career.eurowindow.biz/en"><span class="en"></span>English</a></li>
+                        <li><a href="https://career.eurowindow.biz/gioi-thieu-35A517C6/vi">Giới Thiệu</a>
+                        </li>
+                        <li>
+                            <a href="https://career.eurowindow.biz/viec-lam/tat-ca-viec-lam/vi">Cơ Hội Nghề Nghiệp</a>
+                            <ul class="submenu">
+                                <li><a href="https://career.eurowindow.biz/tim-viec-lam/tat-ca-viec-lam/vi" target="_self">Tin tuyển dụng</a></li>
+                                <li><a href="https://career.eurowindow.biz/quy-trinh-tuyen-dung-35A5182A/vi" target="_self">Quy Trình Tuyển Dụng</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="https://career.eurowindow.biz/phuc-loi-35A517C8/vi">Phúc Lợi</a>
+                        </li>
+                        <li><a href="https://career.eurowindow.biz/tin-tuc-35A517C9/vi">Tin Tức</a>
+                        </li>
+                        <li><a href="https://career.eurowindow.biz/lien-he/vi">Liên Hệ</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-                
         </div>
         <style type="text/css">
-            .form-sm{
-                width: 100%;
-                
-               /* background: red;*/
-
-               /*border: 1px solid #ddd;*/
-
-                display: flex;
-
-                margin-top: 110px;
-            }
-            .btn-selected select {
-                background-image: none !important;
-            }    
-            .d-flex{
-                display: flex;
-                margin: 0 !important;
-               
-            }
-
-            .select2-selection__rendered {
-                display: block;
-                /*padding-left: 8px;
-                padding-right: 20px;*/
-                overflow: hidden;
-                text-overflow: ellipsis;
-                white-space: nowrap;
-                line-height: 40px;
-                color: #000;
-                border-left: 1px solid #ddd
-            }
-
-            .sl-action {
-                width: 145px;
-            }
-
-            .btn-advanced-search {
-                background-color: #f5f5f5;
-                height: 40px;
-                line-height: 40px;
-                border: none;
-                border-left: 1px solid #e0e0e0;
-                font-size: 12px;
-                color: #939393;
-                padding: 0;
-                border-radius: 0;
-                width: 100px;
-            }
-
-            .select2-selection__placeholder {
-                color: #999!important;
-            }
-
-            .select2-selection--single {
-                width: 100%;
-                height: 40px;
-                border-radius: 0;
-                border: none;
-               /* border-left: 1px solid #e0e0e0;*/
-                background-color: #f5f5f5;
-                font-size: 12px;
-            }
-
-            .select2-container {
-                box-sizing: border-box;
-                display: inline-block;
-                margin: 0;
-                position: relative;
-                vertical-align: middle;
-            }
-
-            .w-100 {
-                width: 100%!important;
-            }
-
-            .input-search {
-                height: 40px;
-                /*width: 425px;*/
-                border-radius: 0;
-                border-top-left-radius: 3px;
-                border-bottom-left-radius: 3px;
-                padding: 0 12px;
-                border: none;
-                box-shadow: none;
-                font-size: 12px;
-                color: #000;
-            }
-
-            .top-header ul {
-                list-style: none;
-                padding: 0;
-                margin-bottom: 0;
-            }
-
-            .select2-selection__arrow {
-                height: 40px;
-                position: absolute;
-                top: 1px;
-                right: 1px;
-                width: 20px;
-            }
-            .search-button{
-                line-height: 40px;
-                width: 40px;
-                background: red;
-                text-align: center;
-                color: #fff;
-            }
-
-            .btn-advanced-search {
-                background-color: #f5f5f5;
-                height: 40px;
-                line-height: 40px;
-                border: none;
-                border-left: 1px solid #e0e0e0;
-                font-size: 12px;
-                color: #939393;
-                padding: 0;
-                border-radius: 0;
-                width: 100px;
-            }
-
-
-
-            .btn.fa-search:before{
-                color: #fff;
-            }
-            .btn-submit-search{
-                background: red;
-            }
-            .btn-list-search{
-                width: 17%;
-                padding: 0 7px;
-                border-left: 1px solid #ddd;
-            }
-            .form-sm form{
-                width: 100%;    
-            }
-
-            .back-menu-normal{
-                 width: 68%;  
-                 background: red;
-            }
-
-            .select2____menu-list {
-                width: 100%;
-                border-radius: 0 0 4px 4px;
-                border: 1px solid #aaa;
-                background-color: #fff;
-                box-shadow: 0 2px 9px 1px rgb(0 0 0 / 25%);
-                position: absolute;
-                z-index: 2;
-            }
-
-            .select2____menu-list {
-                width: 100%;
-                right: 0;
-                top: 102%;
-            }
-
-            .css-2b097c-container {
-                position: relative;
-                box-sizing: border-box;
-            }
-
-            .css-1jyyht9-control {
-                -webkit-box-align: center;
-                align-items: center;
-                background-color: rgb(245, 245, 245);
-                cursor: default;
-                display: flex;
-                flex-wrap: wrap;
-                -webkit-box-pack: justify;
-                justify-content: space-between;
-                min-height: 30px;
-                position: relative;
-                transition: all 100ms ease 0s;
-                box-sizing: border-box;
-                margin: 4px;
-                border: 1px solid rgb(170, 170, 170);
-                height: 25px;
-                border-radius: 0px !important;
-                outline: 0px !important;
-            }
-
-            .inputs-customn{
-                width: 100% !important;
-            }
-
-            .css-1hwfws3 {
-                -webkit-box-align: center;
-                align-items: center;
-                display: flex;
-                flex: 1 1 0%;
-                flex-wrap: wrap;
-                padding: 2px 8px;
-                position: relative;
-                overflow: hidden;
-                box-sizing: border-box;
-            }
-
-            .css-1wy0on6 {
-                -webkit-box-align: center;
-                align-items: center;
-                align-self: stretch;
-                display: flex;
-                flex-shrink: 0;
-                box-sizing: border-box;
-            }
-
-            .css-1wa3eu0-placeholder {
-                color: rgb(128, 128, 128);
-                margin-left: 2px;
-                margin-right: 2px;
-                position: absolute;
-                top: 50%;
-                transform: translateY(-50%);
-                box-sizing: border-box;
-            }
-
-            .css-uiymxs {
-                margin: 2px;
-                padding-bottom: 2px;
-                padding-top: 2px;
-                visibility: visible;
-                color: rgb(51, 51, 51);
-                box-sizing: border-box;
-                height: 15px;
-            }
-
-            .css-1n7v3ny-option {
-                background-color: rgb(222, 235, 255);
-                color: inherit;
-                cursor: default;
-                display: block;
-                font-size: inherit;
-                padding: 0px 12px;
-                width: 100%;
-                user-select: none;
-                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-                box-sizing: border-box;
-            }
-
-            .select__menu-list {
-                height: auto!important;
-                max-height: 200px;
-                width: 100%;
-            }
-
-            .css-yt9ioa-option {
-                background-color: transparent;
-                color: inherit;
-                cursor: default;
-                display: block;
-                font-size: inherit;
-                padding: 8px 12px;
-                width: 100%;
-                user-select: none;
-                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-                box-sizing: border-box;
-            }
-
-            .sl-hover-color{
-                color: #827975;
-            }
-
-            .sl-hover-color>div:hover {
-                color: #fff;
-                background-color: #5897fb;
-            }
-
-            button, input {
-                overflow: visible;
-            }
-
-            .css-1jyyht9-control{
-                display: none;
-            }
-
-            .select__menu-list{
-                border: 0 !important;
-            }
-            .form-sm form{
-                width: 80%;
-                margin: 0 auto;
-                border: 1px solid #ddd;
-            }
-            .filter{
-                width: 100%;
-            }
-            .btn-input-search{
-                width: 50%;
-            }
-            .btn-selected{
-                width: 17%;
-            }
-
+            #fancybox-close{right:50px !important}
         </style>
-
-        <div class="container content-mb">
-            
-            <div class="form-sm">
-
-                <div class="filter">
-                    <form method="get", action="{{ route('filter') }}">
-                       
-                        <ul class="d-flex">
-                            <li class="btn-input-search"><input type="text" name="keyword" id="keywords" class="form-controls input-search" placeholder="Nhập vị trí, tên công ty, địa điểm..."></li>
-                           <li class="btn-selected">
-                                <div class="sl-action">
-                                    <span class="select2-container w-100 select2-container--default false ">
-                                        <span class="select2-selection select2-selection--single">
-                                            <span class="select2-selection__rendered">
-
-                                                <select class="select__menu-list sl-hover-color" id="industry" name="industry">
-                                                    <option class="css-1n7v3ny-option" value="">Tất cả ngành nghề</option>
-
-                                                    @foreach($listDefineJob as $key => $value)
-
-                                                        <option class="css-1n7v3ny-option" value="{{ $key }}">{{ $value }}</option>
-
-                                                    @endforeach
-
-                                                </select>
-                                             
-                                            </span>
-                                            <span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span>
-                                        </span>
-                                    </span>
-                                </div>
-                            </li>
-
-                            <li class="btn-selected">
-                                <div class="sl-action">
-                                    <span class="select2-container w-100 select2-container--default false ">
-                                        <span class="select2-selection select2-selection--single">
-                                            <span class="select2-selection__rendered">
-                                                <select class="select__menu-list sl-hover-color" id="location" name="location">
-                                                    <option class="css-1n7v3ny-option">Tất cả tỉnh thành</option>
-
-                                                    @foreach($address as $key => $value)
-                                                        <option value="{{ $key }}">{{ $value }}</option>
-                                                    @endforeach
-                                                </select>
-                                            </span>
-                                            
-                                        </span>
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="btn-list-search"><a class="btn-advanced-search" href="javascript:void(0)">Tìm nâng cao</a></li>
-                            <li class="search-button"><button type="submit" class="btn btn-submit-search"><i class="icon-search-w icon-search fas fa-search"></i> </button></li>
-                        </ul>
-
-                        <input type="hidden" name="address" id="address_form">
-                        <input type="hidden" name="industry" id="industry_form">
-                    </form>
-                </div>
-                
-            </div>    
-        </div>
-
-
-        <!-- Modal -->
-        <div class="modal fade" id="modal-filter" tabindex="-1" role="dialog" aria-labelledby="modal-filter" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Tìm  nâng cao</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="row mb-5">
-                            <div class="col-lg-8 mx-auto">
-                                <div class="bg-white p-5 rounded shadow">
-                                    <form method="get" action="{{route('filters') }}" class="form-group">
-                                        <div class="input-group mb-4 border rounded-pill p-1 inputs-customn">
-                                            <input type="search" placeholder="Nhập vị trí, tên công ty, địa điểm..." class="form-control bg-none border-0" name="keyword">
-                                            
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label for="sel1">Tất cả địa điểm</label>
-                                            <select class="form-control" id="locals" name="local">
-                                                @foreach($address as $key => $value)
-                                                    <option value="{{ $key }}">{{ $value }}</option>
-                                                @endforeach
-                                            </select>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label for="sel1">Tất cả ngành nghề</label>
-                                            <select class="form-control" id="industrys" name="industry">
-                                               @foreach($listDefineJob as $key => $value)
-
-                                                    <option class="css-1n7v3ny-option" value="{{ $key }}">{{ $value }}</option>
-
-                                                @endforeach
-                                            </select>
-                                        </div>
-                                         
-                                        <div class="form-group">
-                                            <label for="sel1">Mức lương</label>
-                                            <select class="form-control" id="salarys">
-                                                @foreach($salary as $key => $value)
-
-                                                    <option  value="{{ $key }}">{{ $value }}</option>
-
-                                                @endforeach
-                                               
-                                            </select>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label for="sel1">Trình độ</label>
-                                            <select class="form-control" id="levels">
-                                                @foreach($level as $key => $value)
-
-                                                    <option  value="{{ $key }}">{{ $value }}</option>
-
-                                                @endforeach
-                                               
-                                            </select>
-                                        </div>
-
-                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                            <button type="submit" class="btn btn-primary">Tìm kiếm</button>
-                                        </div>
-                                       
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                   
-                </div>
-            </div>
-        </div>
-
-        
-
-        
-            
-
-
-        <!-- <section class="cb-section cb-section-border-bottom" id="box-job-suggest">
-            <div class="cb-box-find">
+        <div class="section-header" id="section-header">
+            <div id="my-download">
                 <div class="container">
-                    <div class="main-box">
-                        <div class="box-body">
-                            <div class="title">
-                                <h1>Đón lấy thành công với <span> Vô số cơ hội nghề nghiệp </span>  </h1>
-                            </div>
-                            <form method="get", action="{{ route('filter') }}">
-                                <div class="main-forms">
-                                    <div class="row">
-                                        <div class="form-group col-12 form-keyword">
-                                          
-                                            <input type="search" class="prompt keyword"  name="keyword" id="keywords" placeholder="Chức danh, Kỹ năng, Tên công ty" required>
-                                         
-                                        </div>
-
-                                         <button class="select-job">Chọn ngành nghề</button>
-                                           
-                                        <div class="form-group col-12 form-keyword">
-
-                                             <select id="industry" name="industry" class="chosen-select chosen-select-max-three" data-placeholder="Tất cả ngành nghề" multiple>
-                                                    <option value="">Chọn ngành nghề</option>
-                                                    
-                                                   
-                                                </select>
-
-                                        </div>
-
-                                        <button class="all-address">Tất cả địa điểm</button>
-
-                                        <div class="form-group col-12 form-keyword">
-
-                                             <select id="location" name="location"  data-placeholder="Tất cả địa điểm" multiple>
-                                                    <option value="">Chọn địa điểm</option>
-                                                    
-                                                    @foreach($address as $key => $value)
-                                                    <option value="{{ $key }}">{{ $value }}</option>
-                                                    @endforeach
-                                                    
-                                            </select>
-                                        </div>
-                                        
-                                    </div>
-                                  
-                                </div>
-                               
-                              
-                                <div class="toggle-search">
-                                   
-                                    <div class="expend-less-btn"> <a href="javascript:;"><span class="mdi mdi-chevron-up"></span>Thu gọn</a></div>
-                                </div>
-                                <div class="find-jobs">
-                                    <button class="btn-gradient" onClick="return validataSearchHomePage('vi');">TÌM VIỆC NGAY</button>
-                                </div>
-
-                                <input type="hidden" name="address" id="address_form">
-                                <input type="hidden" name="industry" id="industry_form">
-
-                            </form>
-                        </div>
-                       
+                    <div class="download_form_premium">
+                        <a href="http://advertising.careerbuilder.vn/html/customer/eurowindow/BM06_QT08EW_To khai ung vien.doc">Tải mẫu thông tin ứng viên</a>
                     </div>
                 </div>
             </div>
-        </section>
- -->
-        <script src='{{ asset("js/caree/cb_homepage.js") }}'></script>
-        <script src='{{ asset("js/caree/library_v2.0.4.js") }}'></script>
-
-
-        
-
-        <section class="cb-section cb-section-border-bottom">
-            <div class="container">
-                <div class="cb-title cb-title-center">
-                    <h2>NHÀ TUYỂN DỤNG HÀNG ĐẦU</h2>
+            <div id="header-pre">
+                <div class="columns hidden">
+                    <div id="show-menu"><span class="fa fa-bars"></span></div>
                 </div>
-               <div class="top-employers-list">
-
-                    <?php 
-
-                        $topct = App\Models\employ_info::take(6)->orderBy('id', 'asc')->get();
-                    ?>
-                    @foreach($topct as $top)
-
-                   
-                    <div class="item">
-                        <div class="image"><a href="{{ route('employ-details', $top->links??'') }}"  title="" rel="nofollow"><img src="{{ asset('picture/'.basename(str_replace('..','',$top->logo))) }}" alt="" title=""></a></div>
-                    </div>
-                    @endforeach
-                   
-                </div>
-                <div class="top-employers-banner">
-                    <div class="row">
-
-                        @if(isset($banners1))
-
-                        @foreach($banners1 as $value)
-                        <div class="col-lg-6">
-                            <div class="item">
-                                <div class="image adsTopBanner">
-                                    <div class="image adsTopBanner">
-                                        <a href="javascript:void(0)" target="_blank">
-                                            <img src="{{ asset($value->image) }}" width="690" height="250" alt="" title="{{ asset($value->title) }}" border="0"></a>
-                                        <div id="beacon_3b99765e4e" style="position: absolute; left: 0px; top: 0px; visibility: hidden;">
-                                            <img src="{{ asset($value->image) }}" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        @endforeach
-                        @endif
-                        
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        
-        <style type="text/css">
-            
-            .apply-job{
-                cursor: pointer;
-                width: 65px !important;
-            }
-            .save-job{
-                background: #00640E !important;
-                color: #fff;
-            }
-            .saves-icon{
-                top: 35px;
-                right: 10px;
-                cursor: pointer;
-
-                z-index: 11;
-                position: absolute;
-            }
-            .input-search {
-                height: 40px;
-                width: 425px;
-                border-radius: 0;
-                border-top-left-radius: 3px;
-                border-bottom-left-radius: 3px;
-                padding: 0 12px;
-                border: none;
-                box-shadow: none;
-                font-size: 12px;
-                color: #000;
-            }
-
-            .action-header .action-lst {
-                background-color: #f5f5f5;
-                border-radius: 2px;
-            }
-        </style>
-        <section class="cb-section">
-            <div class="container">
-                <div class="hot-jobs-list">
-                    <div class="tabs">
-                        <ul class="tabs-toggle">
-                            <li><a href="#tab-1">Việc Làm Nổi Bật</a></li>
-                           <!--  <li><a href="#tab-2">Việc Làm VIP ($1000+)</a></li>
-                            <li><a href="#tab-3">Việc Làm Từ Top Headhunter</a></li> -->
+                <div class="container">
+                    <div class="logo"><a href="https://career.eurowindow.biz/vi"><img alt="Công Ty Cổ Phần Eurowindow" src="https://image.talentnetwork.vn/eurowindow//rws//logo_euro_1592_1592455215.png" /></a></div>
+                    <div class="menu">
+                        <ul>
+                            <li class=" "><a href="https://career.eurowindow.biz/vi/#11974" id="menu_11974"  target="_self">Giới Thiệu </a>
+                            </li>
+                            <li class="parent ">
+                                <a href="https://career.eurowindow.biz/vi/#11975" id="menu_11975"  target="_self">Cơ Hội Nghề Nghiệp <i class="fa fa-chevron-down"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="https://career.eurowindow.biz/tim-viec-lam/tat-ca-viec-lam/vi" target="_self">Tin tuyển dụng</a></li>
+                                    <li><a href="https://career.eurowindow.biz/quy-trinh-tuyen-dung-35A5182A/vi" target="_self">Quy Trình Tuyển Dụng</a></li>
+                                </ul>
+                            </li>
+                            <li class=" "><a href="https://career.eurowindow.biz/vi/#11976" id="menu_11976"  target="_self">Phúc Lợi </a>
+                            </li>
+                            <li class=" "><a href="https://career.eurowindow.biz/vi/#11977" id="menu_11977"  target="_self">Tin Tức </a>
+                            </li>
+                            <li class=" "><a href="https://career.eurowindow.biz/lien-he/vi" id="menu_11979"  target="_self">Liên Hệ </a>
+                            </li>
                         </ul>
-                        <div class="tab-content" id="tab-1">
-                            <div class="hot-jobs-slide" id="hot-jobs-slide">
-                                <div class="swiper-container">
-                                    <div class="swiper-wrapper" >
-                                        <div class="swiper-slide">
-                                            <div class="row">
-
-                                         
-                                                @foreach($job as $jobs)
-
-                                                <div class="col-lg-6 ">
-                                                    <div class="job-item">
-                                                        <div class="figure">
-                                                            <div class="image"><a target="_blank" href="{{ route('job_details', [$jobs->link, $jobs->id]) }}" title="{{ $jobs->title }}"><img src="{{ asset('picture/'.basename(str_replace('..','',$jobs->logo))) }}" class="swiper-lazy" data-src="{{ asset('picture/'.basename(str_replace('..','',$jobs->logo))) }}" alt="{{ $jobs->title }} " /></a></div>
-                                                            <div class="figcaption">
-                                                                <div class="title">
-                                                                    <a target="_blank" href="{{ route('job_details', [$jobs->link, $jobs->id]) }}" title="{{ $jobs->title  }}">{{ $jobs->title  }}</a>
-                                                                </div>
-
-
-                                                                <div class="caption">
-                                                                    <a class="company-name" href="{{ route('employ-details',  $jobs->links) }}" title="{{ $jobs->links }}" target="_blank">{{ $jobs->name }} </a>
-                                                                    <p class="salary">{!! $jobs->salary  !!}</p>
-                                                                    <div class="location">
-                                                                        <em class="mdi mdi-map-marker"></em>
-                                                                        <p> Hà Nội</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                            @if (Auth::check()) 
-                                                            <div class="top-icon"> <span class="top apply-job" onclick="apply('{{ $jobs->id }}')">Apply</span> </div>
-
-                                                           
-
-                                                            <div class="saves-icon"> <span class="top save-job" onclick="saveJob('{{ $jobs->id }}')">Save</span> </div>
-                                                            @endif
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                @endforeach
-                                               
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-bottom">
-                                        <div class="swiper-navigation">
-                                            <div class="swiper-prev"><span class="mdi mdi-chevron-left"></span></div>
-                                            <div class="main-pagination">
-                                                <div class="swiper-pagination">
-                                                    <?php  
-
-                                                        $page = (int)($job->total()/8);
-
-                                                    ?> 
-
-                                                   
-                                                    <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets" style="transform: translateX(2px);">
-                                                        @for($i = 1; $i<=$page; $i++)
-                                                        <span class="swiper-pagination-bullet {{  $i == 1?'swiper-pagination-bullet-active':'' }} page_paginate{{ $i }}" tabindex="0" role="button" aria-label="Go to slide 1" style="transform: translateX(0px);" onclick="paginate_job({{ $i }})">{{ $i }}</span>
-                                                        @endfor
-
-                                                        
-                                                       
-                                                       
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-next"><span class="mdi mdi-chevron-right"></span></div>
-                                        </div>
-                                        <div class="view-more"><a href="{{ route('all_job') }}">Xem việc làm mới cập nhật<span class="mdi mdi-arrow-right"></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-content" id="tab-2">
-                            <div class="hot-jobs-slide" id="vip-jobs-slide">
-                                <div class="swiper-container">
-                                    <div class="swiper-wrapper"></div>
-                                    <div class="swiper-bottom">
-                                        <div class="swiper-navigation">
-                                            <div class="swiper-prev"><span class="mdi mdi-chevron-left"></span></div>
-                                            <div class="main-pagination">
-                                                <div class="swiper-pagination"></div>
-                                            </div>
-                                            <div class="swiper-next"><span class="mdi mdi-chevron-right"></span></div>
-                                        </div>
-                                        <div class="view-more"><a href="https://careerbuilder.vn/viec-lam/muc-luong-20trvnd-s20-vi.html">Xem việc làm mới cập nhật<span class="mdi mdi-arrow-right"></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-content" id="tab-3">
-                            <div class="hot-jobs-slide" id="topheadhunt-jobs-slide">
-                                <div class="swiper-container">
-                                    <div class="swiper-wrapper"></div>
-                                    <div class="swiper-bottom">
-                                        <div class="swiper-navigation">
-                                            <div class="swiper-prev"><span class="mdi mdi-chevron-left"></span></div>
-                                            <div class="main-pagination">
-                                                <div class="swiper-pagination"></div>
-                                            </div>
-                                            <div class="swiper-next"><span class="mdi mdi-chevron-right"></span></div>
-                                        </div>
-                                        <div class="view-more"><a href="https://careerbuilder.vn/top-headhunt?utm_source=Home_TopHeadhunt&utm_medium=TopHeadhunt&utm_campaign=Promote_TopHeadhunt" target="_blank">Việc Làm Từ Top Headhunter<span class="mdi mdi-arrow-right"></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
+                    </div>
+                    <div class="navbar-right">
+                        <ul>
+                            <li><a href="https://career.eurowindow.biz/dang-nhap/vi" class="showDialogD">Đăng nhập</a></li>
+                            <li><span class="en"></span><a href="https://career.eurowindow.biz/en">English</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: none">
+            <div id="WhyJoin" class="wrapDialog msgbox">
+                <div class="container">
+                    <h3 class="col_theme">Join Our Talent Network</h3>
+                    <div class="content_why_join">
+                        <h4>Talent Network là gì?</h4>
+                        <p>Gia nhập Talent Network của chúng tôi sẽ giúp bạn nâng cao khả năng tìm kiếm việc làm. Cho dù bạn ứng tuyển một công việc nào đó hoặc đơn giản là cập nhật thông tin của mình, chúng tôi cũng luôn mong muốn được kết nối cùng bạn.</p>
+                        <h4>Vì sao bạn nên gia nhập Talent Network?</h4>
+                        <ul style="list-style: disc">
+                            <li>Nhận thông báo việc làm mới phù hợp với sự quan tâm của bạn</li>
+                            <li>Cập nhật các thông tin mới nhất về công ty</li>
+                            <li>Chia sẻ cơ hội việc làm với gia đình, bạn bè thông qua mạng xã hội hoặc email</li>
+                        </ul>
+                        <p><a href="https://career.eurowindow.biz/join-talent-network/vi?url=https://career.eurowindow.biz/vi" class="showDialogD"><strong>Hãy gia nhập Talent Network của chúng tôi ngay hôm nay!</strong></a></p>
+                    </div>
+                    <div class="clearall mar_top10">
+                        <div class="btnContinute"><a href="https://career.eurowindow.biz/join-talent-network/vi?url=https://career.eurowindow.biz/vi" class="showDialogD">Tiếp Tục</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="wrapper">
+            <script language="javascript" src="https://static.talentnetwork.vn/talentnetwork/source/js/jquery.cycle.all.2.74.js"></script>
+            <div id="photo-area">
+                <div class="texton">
+                    <div class="slogan">
+                        <h1>CÙNG KIẾN TẠO MỘT SỰ NGHIỆP THÀNH CÔNG</h1>
+                    </div>
+                    <div class="join-talent-onclip"><a href="https://career.eurowindow.biz/join-talent-network/vi" class="showDialogD">Gia nhập cùng Eurowindow</a></div>
+                </div>
+                <div id="banner-video">
+                    <div class="filter-video"></div>
+                    <video  muted="" autoplay playsinline loop id="bgvid" class="video">
+                        <source type="video/mp4" src="https://image.talentnetwork.vn/eurowindow/rws/eurowindow.mp4">
+                        </source>Your browser does not support
+                    </video>
+                </div>
+                <div class="container-search">
+                    <div class="search-jobs-main">
+                        <form method="get" action="https://career.eurowindow.biz/tim-viec-lam/vi" onsubmit="return validateSearch(this);" id="frmSearchJob">
+                            <input name="q" type="text" class="brOrgane h15 width_545" onblur="if(this.value=='') this.value='Tìm việc';" onfocus="javascript:if(this.value=='Tìm việc') this.value='';" value="Tìm việc" />
+                            <select name="cat" class="chosen slc-mb">
+                                <option value="">Ngành nghề</option>
+                                <option value="31">Bán hàng / Kinh doanh</option>
+                                <option value="30">Bán lẻ / Bán sỉ</option>
+                                <option value="28">Bất động sản</option>
+                                <option value="74">Bộ phận pháp lý</option>
+                                <option value="63">CNTT - Phần cứng / Mạng</option>
+                                <option value="1">CNTT - Phần mềm</option>
+                                <option value="81">Chưa có kinh nghiệm</option>
+                                <option value="14">Cơ khí / Ô tô / Tự động hóa</option>
+                                <option value="3">Hành chính / Thư ký</option>
+                                <option value="2">Kế toán / Kiểm toán</option>
+                                <option value="6">Kiến trúc</option>
+                                <option value="44">Lao động phổ thông</option>
+                                <option value="24">Luật / Pháp lý</option>
+                                <option value="45">Mới tốt nghiệp / Thực tập</option>
+                                <option value="11">Mỹ thuật / Nghệ thuật / Thiết kế</option>
+                                <option value="22">Nhân sự</option>
+                                <option value="47">Nội ngoại thất</option>
+                                <option value="42">Quản lý chất lượng (QA/QC)</option>
+                                <option value="17">Quản lý điều hành</option>
+                                <option value="67">Quảng cáo / Đối ngoại / Truyền Thông</option>
+                                <option value="25">Sản xuất / Vận hành sản xuất</option>
+                                <option value="59">Tài chính / Đầu tư</option>
+                                <option value="36">Thống kê</option>
+                                <option value="43">Thu mua / Vật tư</option>
+                                <option value="4">Tiếp thị</option>
+                                <option value="68">Tổ chức sự kiện</option>
+                                <option value="9">Tư vấn</option>
+                                <option value="33">Vận chuyển / Giao nhận / Kho vận</option>
+                                <option value="8">Xây dựng</option>
+                                <option value="18">Xuất nhập khẩu</option>
+                            </select>
+                            <select name="loc" class="chosen slc-mb">
+                                <option value="">Nơi làm việc</option>
+                                <optgroup label="Việt Nam" >
+                                    <option value="8">Hồ Chí Minh</option>
+                                    <option value="4">Hà Nội</option>
+                                    <option value="76">An Giang</option>
+                                    <option value="240">Bắc Giang</option>
+                                    <option value="781">Bạc Liêu</option>
+                                    <option value="56">Bình Định</option>
+                                    <option value="650">Bình Dương</option>
+                                    <option value="511">Đà Nẵng</option>
+                                    <option value="31">Hải Phòng</option>
+                                    <option value="780">Hậu Giang</option>
+                                    <option value="77">Kiên Giang</option>
+                                    <option value="25">Lạng Sơn</option>
+                                    <option value="52">Quảng Bình</option>
+                                    <option value="55">Quảng Ngãi</option>
+                                    <option value="37">Thanh Hóa</option>
+                                    <option value="54">Thừa Thiên Huế</option>
+                                </optgroup>
+                            </select>
+                            <button class="searchvt1" onclick="$('#frmSearchJob').submit();">
+                            <i class="fa fa-search"></i>
+                            <span>Tìm kiếm</span>
+                            </button>
+                        </form>
+                    </div>
+                    <style type="text/css">
+                        .chosen-container{float:left}
+                    </style>
+                </div>
+            </div>
+            <style>
+                #bgvid, #bgvid1 {width: 100%;object-fit: cover;transform: translateY(-50%);top:50%;}
+                #bgvid1 { position: absolute; min-height:100%; height:auto; }
+            </style>
+            <div id="11974" class="section-page page-content-pre bg-odd" >
+                <header class="container-fluid">
+                    <h2 class="section-title" >Giới thiệu</h2>
+                </header>
+                <div class="container">
+                    <div class="col-xs-12">
+                        <div class="content_fck text-intro">
+                            <p style="text-align:justify">
+                                <img src="https://image.talentnetwork.vn/eurowindow///news/2019/10/07/1570440136_1568967007-20180619-01-1.jpg" style="float:right; height:264px; margin-left:15px; margin-right:15px; width:450px" />Với những thành tích trong hoạt động sản xuất và kinh doanh, Eurowindow đã được Chủ tịch nước tặng thưởng Huân chương Lao động hạng Ba, Thủ tướng Chính phủ tặng Bằng khen và được công nhận là Thương hiệu Quốc gia. Sản phẩm và thương hiệu Eurowindow nhiều năm liền đạt Giải vàng chất lượng Việt Nam của Bộ Khoa học Công nghệ &amp; Môi trường, Top 10 doanh nghiệp đạt Giải thưởng Sao vàng đất Việt của Hội doanh nghiệp trẻ Việt Nam, Top 10 thương hiệu nổi tiếng Quốc gia, giải thưởng Rồng Vàng, Hàng Việt Nam chất lượng cao và nhiều giải thưởng uy tín khác.
+                            </p>
+                            <p style="text-align:justify">Với chất lượng sản phẩm và phong cách phục vụ không ngừng được nâng cao, gắn lợi ích của doanh nghiệp với lợi ích chung của xã hội và góp phần bảo vệ môi trường, Eurowindow cam kết cung cấp cho khách hàng những sản phẩm có chất lượng tốt nhất.</p>
+                            <p style="text-align:justify">Sản phẩm chất lượng tốt, đội ngũ nhân viên có chuyên môn cao, phong cách phục vụ chuyên nghiệp, đó là các yếu tố quyết định sự thành công của thương hiệu Eurowindow.&nbsp;</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="form-email-get-job lazy-bg" data-src="https://images.careerbuilder.vn/content/Product/bg-4_3.jpg">
-            <div class="container form-email">
-                <div class="cb-title cb-title-center cb-title-white">
-                    <h2>Đăng ký theo dõi để nhận cập nhật về cơ hội việc làm mới và phù hợp nhất</h2>
+            <div id="11975" class="section-page section-grid-career " >
+                <div class="container">
+                    <header class="container-fluid">
+                        <h2 class="section-title" >Cơ Hội Nghề Nghiệp</h2>
+                        <!--<p>Here are our openings. Think you're the right fit? Apply today!</p>-->
+                    </header>
+                    <div class="container-fluid container-narrow">
+                        <ul class="flex-row jobs">
+                            <li class="col-xs-6 col-sm-6 col-md-4 job">
+                                <a href="https://career.eurowindow.biz/tim-viec-lam/nganh-sales-business-development.31/vi"><img src="images/job1.png" /></a>
+                                <h3 class="job-title"><a href="https://career.eurowindow.biz/tim-viec-lam/nganh-sales-business-development.31/vi">Bán hàng / Kinh doanh</a></h3>
+                            </li>
+                            <li class="col-xs-6 col-sm-6 col-md-4 job">
+                                <a href="https://career.eurowindow.biz/tim-viec-lam/nganh-accounting-auditing-tax.2/vi"><img src="images/job2.png" /></a>
+                                <h3 class="job-title"><a href="https://career.eurowindow.biz/tim-viec-lam/nganh-accounting-auditing-tax.2/vi">Kế toán / Kiểm toán</a></h3>
+                            </li>
+                            <li class="col-xs-6 col-sm-6 col-md-4 job">
+                                <a href="https://career.eurowindow.biz/tim-viec-lam/nganh-architect.6/vi"><img src="images/job3.png" /></a>
+                                <h3 class="job-title"><a href="https://career.eurowindow.biz/tim-viec-lam/nganh-architect.6/vi">Kiến trúc</a></h3>
+                            </li>
+                            <li class="col-xs-6 col-sm-6 col-md-4 job">
+                                <a href="https://career.eurowindow.biz/tim-viec-lam/nganh-purchasing-merchandising.43/vi"><img src="images/job4.png" /></a>
+                                <h3 class="job-title"><a href="https://career.eurowindow.biz/tim-viec-lam/nganh-purchasing-merchandising.43/vi">Thu mua / Vật tư</a></h3>
+                            </li>
+                            <li class="col-xs-6 col-sm-6 col-md-4 job">
+                                <a href="https://career.eurowindow.biz/tim-viec-lam/nganh-freight-logistics-warehouse.33/vi"><img src="images/job5.png" /></a>
+                                <h3 class="job-title"><a href="https://career.eurowindow.biz/tim-viec-lam/nganh-freight-logistics-warehouse.33/vi">Vận chuyển / Giao nhận / Kho vận</a></h3>
+                            </li>
+                            <li class="col-xs-6 col-sm-6 col-md-4 job">
+                                <a href="https://career.eurowindow.biz/tim-viec-lam/nganh-civil-construction.8/vi"><img src="images/job6.png" /></a>
+                                <h3 class="job-title"><a href="https://career.eurowindow.biz/tim-viec-lam/nganh-civil-construction.8/vi">Xây dựng</a></h3>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3 btn-viewmore">
+                            <a href="https://career.eurowindow.biz/viec-lam/tat-ca-viec-lam/vi" class="btn btn-block btn-primary">Xem thêm</a>
+                        </div>
+                    </div>
                 </div>
-
-
-                    
-                    <form method="get" id="home_page_created_jobalert" action="https://careerbuilder.vn/thong-bao-viec-lam">
+            </div>
+            <div class="visible-xs visible-sm">
+            </div>
+            <div class="hidden-xs hidden-sm">
+                <div class="ads-pre slidebg" style="height:350px">
+                    <div id="slidehr">
+                        <div class="bgimage" style="background-image:url(https://image.talentnetwork.vn/eurowindow//rws//banner_thang_9-03_1569921859_1570440395.jpg)"></div>
+                        <div class="bgimage" style="background-image:url(https://image.talentnetwork.vn/eurowindow//rws//banner_thang_9-04_1569921859_1570440395.jpg)"></div>
+                        <div class="bgimage" style="background-image:url(https://image.talentnetwork.vn/eurowindow//rws//banner_thang_9-05_1569921859_1570440395.jpg)"></div>
+                    </div>
+                    <ul id="pager">
+                        <li><a href="javascript:void(0);"></a></li>
+                        <li><a href="javascript:void(0);"></a></li>
+                        <li><a href="javascript:void(0);"></a></li>
+                        <li><a href="javascript:void(0);"></a></li>
+                    </ul>
+                    <script type="text/javascript">
+                        $(document).ready(function(){
+                                $('#slidehr').cycle({
+                                        fx: 'fade',
+                                        timeout: 5000,
+                                        pauseOnPagerHover: true,
+                                        pager: '#pager',
+                                        pagerAnchorBuilder: function(idx, slide) { return '#pager li:eq(' + (idx) + ')'; }
+                                });
+                        });
+                        $(window).load(function(){
+                                var posPage = ($(window).width() - $('#pager').width())/2;
+                                $('#pager').css({'left':posPage+'px'});
+                                $(window).resize(function(){
+                                        posPage = ($(window).width() - $('#pager').width())/2;
+                                        $('#pager').css({'left':posPage+'px'});
+                                });
+                        });
+                    </script>
+                </div>
+            </div>
+            <div id="11976" class="section-page page-content-pre bg-odd" >
+                <header class="container-fluid">
+                    <h2 class="section-title" >Chính sách nhân sự</h2>
+                </header>
+                <div class="container">
+                    <div class="col-xs-12">
+                        <div class="content_fck text-intro">
+                            <p><span style="color:#0000FF"><strong>PHÁT TRIỂN NGHỀ NGHIỆP</strong></span></p>
+                            <p>80% cán bộ quản lý của Eurowindow được phát triển từ nội bộ. Công ty có chính sách xây dựng cho mỗi CBNV một lộ trình nghề nghiệp rõ ràng ngay từ những ngày đầu tiên làm việc. Gia nhập Eurowindow để cùng <strong>“Kiến tạo một sự nghiệp thành công”.</strong></p>
+                            <p><span style="color:#0000FF"><strong>ĐÀO TẠO VÀ PHÁT TRIỂN</strong></span></p>
+                            <p>Eurowindow quan niệm: Nhân tài là nguyên khí của doanh nghiệp. Ban lãnh đạo công ty luôn dành sự quan tâm đặc biệt và ngân sách lớn hàng năm cho công tác đào tạo, phát triển nguồn nhân lực. Tại Eurowindow, CBNV được “may đo” một bản đồ đào tạo cho riêng mình. Bạn sẽ được tham gia các chương trình đào tạo nội bộ, được công ty đài thọ 100% chi phí để tham dự các khóa đào tạo thuê ngoài của các chuyên gia nổi tiếng và các chương trình huấn luyện, kèm cặp và luân chuyển công việc để phát triển năng lực bản thân.</p>
+                            <p><span style="color:#0000FF"><strong>HOẠT ĐỘNG VĂN HÓA</strong></span></p>
+                            <p>Văn hóa doanh nghiệp là chất keo gắn kết người lao động với công ty. Tại Eurowindow, CBNV được sống trong ngôi nhà thứ 2 của mình thông qua các hoạt động văn hóa hàng ngày. Các chương trình Teambuilding, CLB Bóng đá, Bóng bàn, Yoga,... nhằm đem đến đời sống tinh thần phong phú và tâm lý thoải mái cho nhân viên sau những giờ làm việc căng thẳng.</p>
+                            <p><span style="color:#0000FF"><strong>MÔI TRƯỜNG LÀM VIỆC</strong></span></p>
+                            <p>Với 18 năm phát triển và đổi mới – Eurowindow đã vươn mình trở thành 1 trong 500 Tập đoàn, Doanh nghiệp tư nhân lớn nhất Việt Nam. Đồng thời liên tục từ năm 2016 – 2018 được công nhận TOP 100 Nơi làm việc tốt nhất Việt Nam. Ở Eurowindow, CBNV được làm việc trong môi trường năng động, sáng tạo, chuyên nghiệp và an toàn. Eurowindow luôn mở rộng cơ hội phát triển bản thân, phát triển nghề nghiệp cho toàn thể nhân viên.</p>
+                            <p><span style="color:#0000FF"><strong>LƯƠNG THƯỞNG VÀ PHÚC LỢI</strong></span></p>
+                            <p>Với mục tiêu thu hút và phát triên nhân tài, Eurowindow đánh giá lương, thưởng dựa theo năng lực của nhân viên. Nếu bạn khẳng định được giá trị bản thân, bạn sẽ được đãi ngộ thích đáng với các chính sách: Thưởng các ngày Lễ, Tết, thưởng thi đua, thưởng sáng kiến cải tiến, thưởng kinh doanh, thưởng cuối năm</p>
+                            <p>Bên cạnh đó, CBNV được hưởng các chế độ phúc lợi như chăm sóc sức khỏe định kỳ, thăm hỏi ốm đau, hiếu hỉ đối với người lao động và gia đình, chế độ BHXH, BHYT và du lịch thường niên…</p>
+                            <p>&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="11977" class="section-page " >
+                <div class="news-five-items">
+                    <div class="container">
+                        <header class="container-fluid">
+                            <h2 class="section-title" >Tin Tức</h2>
+                        </header>
                         <div class="row">
-                            <div class="col-xl-6">
-                                <div class="form-group">
-                                    <input type="text" name="email" placeholder="Nhập địa chỉ email của bạn">
-                                    <button type="submit" class="btn-gradient"><span class="mdi mdi-pencil"></span>ĐĂNG KÝ NGAY</button>
-                                    <div id="email_validate"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                
-                
-            </div>
-        </section>
-        <section class="banner-promo cb-section cb-section-border-bottom">
-            <div class="container">
-                <div class="row">
-                
-                    @if(isset($banners2))
 
-                    @foreach($banners2 as $value)
-                       
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="item">
-                            <div class="image loadAds" id="850"><a href="javascript:void(0)"><img src="{{ asset($value->image) }}" width="330" height="290" alt="{{ asset($value->title) }}" title="{{ asset($value->title) }}" border="0"></a>
-                                <div id="beacon_a26fba6e0c" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="{{ asset($value->image) }}" width="0" height="0" alt="{{ asset($value->title) }}" style="width: 0px; height: 0px;"></div>
-                            </div>
-                        </div>
-                    </div>
+                            <?php 
 
-                    @endforeach
-                    @endif
-                  
-                </div>
-            </div>
-        </section>
-        <section class="talent-network cb-section cb-section-border-bottom">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-lg-5">
-                        <div class="title-wrap lazy-bg" data-src="./img/home/bg-2.png">
-                            <div class="title">
-                                <div class="quote-left"><img src="./img/home/quote1.png" alt="careerbuilder"></div>
-                                <h2>Gia tăng cơ hội nghề nghiệp <span>khi kết nối cùng các công ty hàng đầu tại TalentNetwork</span></h2>
-                                <div class="quote-right"><img src="./img/home/quote2.png" alt="careerbuilder"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="row">
-                          
+                                $post =  App\Models\post::take(5)->get();
+                            ?>
 
-                            <div class="col-6 col-sm-4 col-lg-3 col-app-intro">
-                                <div class="item">
-                                    <div class="image adsTopBanner">
-                                        <div class="image adsTopBanner">
-                                            <a href="javascript:void(0)" target="_blank"><img src="https://ads.careerbuilder.vn/www/images/8038e22595ece70fbfe0a75e7020f355.jpg" width="690" height="250" alt="" title="" border="0"></a>
-                                            <div id="beacon_3b99765e4e" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://ads.careerbuilder.vn/www/delivery/lg.php?bannerid=5711&amp;campaignid=1671&amp;zoneid=846&amp;loc=http%3A%2F%2Flocalhost%3A8000%2F&amp;referer=http%3A%2F%2Flocalhost%3A8000%2Ffilter%3Fkeyword%3Ddfgdfgfdgd&amp;cb=3b99765e4e" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
-                                        </div>
+                            @if($post->count()>0)
+
+                             @foreach($post as $posts)
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <div class="box bg-size-cover" style="background-image:url(https://images.careerbuilder.vn/tintuc/career/20220524/crop/319x319/1653372151_data-analyst-careerbuilder.jpg);">
+                                    <div class="blurb">
+                                        <p><a href="{{ route('blog_detail', $posts->link??'') }}">{{ $posts->title }}</a></p>
                                     </div>
-                                </div>
-                            </div>
-
-                            <div class="col-6 col-sm-4 col-lg-3 col-app-intro">
-                                <div class="item">
-                                    <div class="image adsTopBanner">
-                                        <div class="image adsTopBanner">
-                                            <a href="javascript:void(0)" target="_blank"><img src="https://ads.careerbuilder.vn/www/images/8038e22595ece70fbfe0a75e7020f355.jpg" width="690" height="250" alt="" title="" border="0"></a>
-                                            <div id="beacon_3b99765e4e" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://ads.careerbuilder.vn/www/delivery/lg.php?bannerid=5711&amp;campaignid=1671&amp;zoneid=846&amp;loc=http%3A%2F%2Flocalhost%3A8000%2F&amp;referer=http%3A%2F%2Flocalhost%3A8000%2Ffilter%3Fkeyword%3Ddfgdfgfdgd&amp;cb=3b99765e4e" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-6 col-sm-4 col-lg-3 col-app-intro">
-                                <div class="item">
-                                    <div class="image adsTopBanner">
-                                        <div class="image adsTopBanner">
-                                            <a href="javascript:void(0)" target="_blank"><img src="https://ads.careerbuilder.vn/www/images/8038e22595ece70fbfe0a75e7020f355.jpg" width="690" height="250" alt="" title="" border="0"></a>
-                                            <div id="beacon_3b99765e4e" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://ads.careerbuilder.vn/www/delivery/lg.php?bannerid=5711&amp;campaignid=1671&amp;zoneid=846&amp;loc=http%3A%2F%2Flocalhost%3A8000%2F&amp;referer=http%3A%2F%2Flocalhost%3A8000%2Ffilter%3Fkeyword%3Ddfgdfgfdgd&amp;cb=3b99765e4e" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-6 col-sm-4 col-lg-3 col-app-intro">
-                                <div class="item">
-                                    <div class="image adsTopBanner">
-                                        <div class="image adsTopBanner">
-                                            <a href="javascript:void(0)" target="_blank"><img src="https://ads.careerbuilder.vn/www/images/8038e22595ece70fbfe0a75e7020f355.jpg" width="690" height="250" alt="" title="" border="0"></a>
-                                            <div id="beacon_3b99765e4e" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://ads.careerbuilder.vn/www/delivery/lg.php?bannerid=5711&amp;campaignid=1671&amp;zoneid=846&amp;loc=http%3A%2F%2Flocalhost%3A8000%2F&amp;referer=http%3A%2F%2Flocalhost%3A8000%2Ffilter%3Fkeyword%3Ddfgdfgfdgd&amp;cb=3b99765e4e" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                         
-                        <div class="view-more"><a target="_blank" href="javascript:void(0)">Xem thêm<span class="mdi mdi-arrow-right"></span></a></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="cb-section career-development">
-            <div class="container">
-                <div class="cb-title cb-title-center">
-                    <h2><span>Cẩm nang nghề nghiệp</span></h2>
-                </div>
-
-                <?php 
-
-                    $post =  App\Models\post::take(5)->get();
-                ?>
-                <div class="career-development-slide">
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            
-
-                            @foreach($post as $posts)
-
-                           
-                            <div class="swiper-slide">
-                                <div class="item bg-default">
-                                    <div class="img"><a target="_blank" href="{{ route('blog_detail', $posts->link??'') }}" title="{{ $posts->title }}"><img class="swiper-lazy" data-src="https://images.careerbuilder.vn/tintuc/career/20220524/crop/319x319/1653372151_data-analyst-careerbuilder.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="{{ $posts->title }}">
-                                        </a>
-                                    </div>
-                                    <div class="caption">
-                                        <p class="category-title">Wiki Career</p>
-                                        <a target="_blank" class="title" href="{{ route('blog_detail', $posts->link) }}" title={{ $posts->title }}">{{ $posts->title }}</a>
+                                    <div class="excerpt">
+                                        <p class="title"><a href="{{ route('blog_detail', $posts->link??'') }}">{{ $posts->title }}</a></p>
+                                        <p class="note"></p>
+                                        <p class="viewmore"><a href="{{ route('blog_detail', $posts->link??'') }}">Xem chi tiết</a></p>
                                     </div>
                                 </div>
                             </div>
                             @endforeach
-                           
-                            
+
+                            @endif
+
                         </div>
-                    </div>
-                    <div class="swiper-prev"><span class="lnr lnr-chevron-left"></span></div>
-                    <div class="swiper-next"><span class="lnr lnr-chevron-right"></span></div>
-                </div>
-                <div class="view-more"><a href="javascript:void(0)">Xem thêm<span class="mdi mdi-arrow-right"></span></a></div>
-            </div>
-        </section>
-        <section class="post-a-job lazy-bg" data-src="https://images.careerbuilder.vn/content/Product/bg-3_3.jpg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="text">
-                            <span>Dành cho nhà tuyển dụng</span>
-                            <h3>Bạn có vị trí cần đăng tuyển?</h3>
-                            <p>Chúng tôi có những giải pháp tối ưu phù hợp với<br> nhiều loại hình công ty và tiêu chuẩn riêng</p>
-                        </div>
-                        <div class="post-a-job-btn">
-                            <a class="btn-gradient" href="{{ route('form_recruit') }}" target="_blank">Đăng tin Tuyển dụng
-                            </a>
+                        <div class="row">
+                            <div class="col-sm-2 col-sm-offset-5 btn-viewmore">
+                                <a class="btn btn-block btn-primary" href="https://career.eurowindow.biz/tin-tuc-35A517C9/vi" class="btn btn-block btn-primary weight-bold">Xem thêm</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <script type="text/javascript" src="{{ asset('js/owl.carousel.js') }}"></script>
-
-        <script type="text/javascript">
-
-            function paginate_job(id) {
-                
-                 $.ajax({
-                    type: 'GET',
-                    url: "{{ route('get-job-home') }}",
-                    data: {
-                        id: id,
-                           
-                    },
-                    success: function(result){
-
-                        $('.cb-section .swiper-container .row ').html('');
-
-                        $('.cb-section .swiper-container .row ').append(result).show('normal');
-
-                        $('.swiper-pagination-bullet').removeClass('swiper-pagination-bullet-active');
-
-                        $('.page_paginate'+id).addClass('swiper-pagination-bullet-active');
-
-                        // $('.cb-section .swiper-container .swiper-slide').animate({"right": "1408px"}, 200);
-        
-                    }
+            <div id="media_section" class="section-page ImageService-pre"></div>
+            <script type="text/javascript">
+                $(function(){
+                    loadMediaSection('media_section', 'index', 'index');
                 });
-
-            }
-
-
-
-            $('#industry').change(function () {
-               
-                
-                // $('.select-job').text($('#industry  option:selected').text());
-                $('#industry_form').val($('#industry  option:selected').val());
-
-            })
-
-            $('#location').change(function () {
-               
-                // $('.all-address').text($('#location  option:selected').text());
-                $('#address_form').val($('#location  option:selected').val());
-
-                // alert($('#location  option:selected').val());
-
-            })
-
-            $('.btn-advanced-search').click(function () {
-
-
-                $('#modal-filter').modal('show');
-            })
-
-
-            
-            
-        </script>
-
-
-
+            </script>
+        </div>
+        <div class="section-page social-pre bg-odd">
+            <header class="container-fluid">
+                <h2 class="section-title">Kết nối với Eurowindow</h2>
+            </header>
+            <div class="col-sm-6 col-md-3 socialWrapper setfive">
+                <div class="col-xs-2 col-sm-2">
+                    <a class="socialIcon hvr-float-shadow" href="https://www.facebook.com/eurowindow.tuyendung/?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>
+                </div>
+                <div class="col-xs-2 col-sm-2">
+                    <a class="socialIcon hvr-float-shadow" href="https://www.linkedin.com/in/tuyen-dung-eurowindow-b0974538/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <div class="col-xs-2 col-sm-2">
+                    <a class="socialIcon hvr-float-shadow" href="https://www.youtube.com/watch?v=2Cd0a7YlMiA" target="_blank"><i class="fa fa-youtube"></i></a>
+                </div>
+                <div class="col-xs-2 col-sm-2">
+                    <a class="socialIcon hvr-float-shadow" href="" target="_blank"><i class="fa fa-twitter"></i></a>
+                </div>
+                <div class="col-xs-2 col-sm-2">
+                    <a class="socialIcon hvr-float-shadow" href="" target="_blank"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div id="footer-pre">
+            <div class="container">
+                <div class="col-xs-12 col-sm-3 powerby"><a href="https://VieclamIT.vn/" target="_blank" style="color:inherit">Talent </a><a href="https://careerbuilder.vn/careermap" target="_blank" style="color:inherit">Solution</a> <a href="https://VietnamSalary.vn/" target="_blank" style="color:inherit">by </a> <a href="https://careerbuilder.vn/viec-lam/tat-ca-viec-lam-vi.html" title="Tìm việc làm nhanh" target="_blank" style="color:inherit">CareerBuilder</a></div>
+                <div class="col-xs-12 col-sm-9 menu-footer">
+                    <ul>
+                        <li><a href="https://career.eurowindow.biz/vi" >Trang Chủ</a></li>
+                        <li><a href="https://career.eurowindow.biz/vi/#11974" >Giới Thiệu</a></li>
+                        <li><a href="https://career.eurowindow.biz/vi/#11975" >Cơ Hội Nghề Nghiệp</a></li>
+                        <li><a href="https://career.eurowindow.biz/vi/#11976" >Phúc Lợi</a></li>
+                        <li><a href="https://career.eurowindow.biz/vi/#11977" >Tin Tức</a></li>
+                        <li><a href="https://career.eurowindow.biz/vi/#11978" >Tất Cả Việc Làm</a></li>
+                        <li><a href="https://career.eurowindow.biz/lien-he/vi" >Liên Hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="back-top" class="" style="display: none;"><a class="bgcolor_theme" id="topToPage" href="javascript:void(0);">_Top_</a></div>
+        <div style="display: none">
+            <div id="NoticePost" class="msgbox">
+                <div class="msg_content">
+                    <div class="i_alert"></div>
+                    <h2 id="notice_title"></h2>
+                    <div id="notice_desc"></div>
+                    <div class="clear cp">
+                        <input id="notice_ok" type="button" value="_Ok_" class="fl_left ui_btnCb" onClick="$.fancybox.close();">&nbsp;
+                        <input id="notice_cancel" type="button" value="Bỏ qua" class="ui_btnCb" onClick="$.fancybox.close();"> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: none;">
+            <div id="Join_Success" class="wrapDialog msgbox">
+                <div class="container">
+                    <h2>Cảm ơn bạn   gia nhập mạng lưới nhân tài của chúng tôi,</h2>
+                    <p>Bằng cách tham gia mạng lưới nhân tài của chúng tôi, bạn chưa thực sự ứng tuyển vào các vị trí tuyển dụng.</p>
+                    <p>Hãy ứng tuyển ngay để trở thành ứng viên sáng giá cho <a href="https://career.eurowindow.biz/viec-lam/tat-ca-viec-lam/vi"><span style="color:#26a2d6">vị trí tuyển dụng</span></a> của chúng tôi hoặc tiếp tục <a href="https://career.eurowindow.biz/vi/resume"><span style="color:#26a2d6">cập nhật hồ sơ.</span></a></p>
+                </div>
+            </div>
+        </div>
+        <link href="https://static.talentnetwork.vn/talentnetwork/source/css/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="https://static.talentnetwork.vn/talentnetwork/source/js/fancybox/jquery.fancybox-1.3.4.js"></script>
         <script type="text/javascript">
-            $('#owl-example').owlCarousel({
-                loop:true,
-                margin:10,
-                nav:true,
-                autoplay:true,
-                responsive:{
-                    0:{
-                        items:1
-                    },
-                    600:{
-                        items:2
-                    },
-                    1000:{
-                        items:2
-                    }
+            $(document).ready(function(){
+                var popup_success = ''; 
+                if(popup_success == 1){
+                    ga('send', 'event', 'jobseekers', 'register', 'join success', 1);
+                    $.fancybox({
+                        'href' : '#Join_Success',
+                        'type' : 'inline',
+                        'padding':0,
+                        onComplete:(function(){
+                            $("#fancybox-wrap").css({'width':($("#fancybox-content").width()+40)+"px", 'padding':0});
+                        })
+                    });     
                 }
-            })
+            });
         </script>
-        <script>
-            var submit_error_jobalert_empty = 'Vui lòng nhập email của bạn!';
-            var submit_error_jobalert_email = 'Email của bạn không hợp lệ';
+        <script type="text/javascript">
+            if (typeof checkMobile!='undefined'){
+                if (checkMobile()){
+                    
+                                            
+                }
+            }
+            var arrCates = new Array();
+            arrCates[31] = 'Bán hàng / Kinh doanh';arrCates[30] = 'Bán lẻ / Bán sỉ';arrCates[28] = 'Bất động sản';arrCates[74] = 'Bộ phận pháp lý';arrCates[63] = 'CNTT - Phần cứng / Mạng';arrCates[1] = 'CNTT - Phần mềm';arrCates[81] = 'Chưa có kinh nghiệm';arrCates[14] = 'Cơ khí / Ô tô / Tự động hóa';arrCates[3] = 'Hành chính / Thư ký';arrCates[2] = 'Kế toán / Kiểm toán';arrCates[6] = 'Kiến trúc';arrCates[44] = 'Lao động phổ thông';arrCates[24] = 'Luật / Pháp lý';arrCates[45] = 'Mới tốt nghiệp / Thực tập';arrCates[11] = 'Mỹ thuật / Nghệ thuật / Thiết kế';arrCates[22] = 'Nhân sự';arrCates[47] = 'Nội ngoại thất';arrCates[42] = 'Quản lý chất lượng (QA/QC)';arrCates[17] = 'Quản lý điều hành';arrCates[67] = 'Quảng cáo / Đối ngoại / Truyền Thông';arrCates[25] = 'Sản xuất / Vận hành sản xuất';arrCates[59] = 'Tài chính / Đầu tư';arrCates[36] = 'Thống kê';arrCates[43] = 'Thu mua / Vật tư';arrCates[4] = 'Tiếp thị';arrCates[68] = 'Tổ chức sự kiện';arrCates[9] = 'Tư vấn';arrCates[33] = 'Vận chuyển / Giao nhận / Kho vận';arrCates[8] = 'Xây dựng';arrCates[18] = 'Xuất nhập khẩu';
+            var arrLocs = new Array();
+            arrLocs[8] = 'Hồ Chí Minh';arrLocs[4] = 'Hà Nội';arrLocs[76] = 'An Giang';arrLocs[64] = 'Bà Rịa và Vũng Tàu';arrLocs[240] = 'Bắc Giang';arrLocs[281] = 'Bắc Kạn';arrLocs[781] = 'Bạc Liêu';arrLocs[241] = 'Bắc Ninh';arrLocs[75] = 'Bến Tre';arrLocs[56] = 'Bình Định';arrLocs[650] = 'Bình Dương';arrLocs[651] = 'Bình Phước';arrLocs[62] = 'Bình Thuận';arrLocs[78] = 'Cà Mau';arrLocs[71] = 'Cần Thơ';arrLocs[26] = 'Cao Bằng';arrLocs[511] = 'Đà Nẵng';arrLocs[50] = 'Đắk Lắk';arrLocs[1042] = 'Đắk Nông';arrLocs[900] = 'Điện Biên';arrLocs[61] = 'Đồng Nai';arrLocs[67] = 'Đồng Tháp';arrLocs[59] = 'Gia Lai';arrLocs[19] = 'Hà Giang';arrLocs[351] = 'Hà Nam';arrLocs[39] = 'Hà Tĩnh';arrLocs[320] = 'Hải Dương';arrLocs[31] = 'Hải Phòng';arrLocs[780] = 'Hậu Giang';arrLocs[18] = 'Hòa Bình';arrLocs[321] = 'Hưng Yên';arrLocs[58] = 'Khánh Hòa';arrLocs[77] = 'Kiên Giang';arrLocs[60] = 'Kon Tum';arrLocs[23] = 'Lai Châu';arrLocs[63] = 'Lâm Đồng';arrLocs[25] = 'Lạng Sơn';arrLocs[20] = 'Lào Cai';arrLocs[72] = 'Long An';arrLocs[350] = 'Nam Định';arrLocs[38] = 'Nghệ An';arrLocs[30] = 'Ninh Bình';arrLocs[68] = 'Ninh Thuận';arrLocs[210] = 'Phú Thọ';arrLocs[57] = 'Phú Yên';arrLocs[52] = 'Quảng Bình';arrLocs[510] = 'Quảng Nam';arrLocs[55] = 'Quảng Ngãi';arrLocs[33] = 'Quảng Ninh';arrLocs[53] = 'Quảng Trị';arrLocs[79] = 'Sóc Trăng';arrLocs[22] = 'Sơn La';arrLocs[66] = 'Tây Ninh';arrLocs[36] = 'Thái Bình';arrLocs[280] = 'Thái Nguyên';arrLocs[37] = 'Thanh Hóa';arrLocs[54] = 'Thừa Thiên Huế';arrLocs[73] = 'Tiền Giang';arrLocs[1065] = 'Toàn quốc';arrLocs[74] = 'Trà Vinh';arrLocs[27] = 'Tuyên Quang';arrLocs[70] = 'Vĩnh Long';arrLocs[211] = 'Vĩnh Phúc';arrLocs[29] = 'Yên Bái';
+            function validateSearch(form){
+                if($('input[name="q"]').val()=='Tìm việc'){
+                    $('input[name="q"]').val('');
+                }   
+                var keyword = createKeyword($('input[name="q"]').val()),
+                    category = parseInt($('select[name="cat"]').val()),
+                    location = parseInt($('select[name="loc"]').val()),
+                    
+                    prep = new Array('en', 'vi');
+                    prep['en'] = new Array('category', 'at');
+                    prep['vi'] = new Array('nganh', 'tai');
+                    if(LANGUAGE != 'vi' && LANGUAGE != 'en') prep[LANGUAGE] = prep['en'];
+                
+                if(!keyword && !category && !location){
+                    searchLink = 'https://career.eurowindow.biz/tim-viec-lam/tat-ca-viec-lam/vi';
+                }
+                else{
+                    searchLink = 'https://career.eurowindow.biz/tim-viec-lam';  
+                    if(keyword != ''){
+                        searchLink += '/'+ keyword;
+                    }
+                    if(keyword && category){
+                        searchLink += '/'+prep[LANGUAGE][0]+'-'+ createKeyword(stripVietnamese(arrCates[category])) + '.' + category;   
+                    }
+                    else if(category){
+                        searchLink += '/'+ createKeyword(stripVietnamese(arrCates[category])) + '.' + category; 
+                    }
+                    if(location){
+                        searchLink += '/'+prep[LANGUAGE][1]+'-'+ createKeyword(stripVietnamese(arrLocs[location])) + '.' + location;
+                    }
+                    searchLink += '/'+ LANGUAGE;
+                }
+                window.location=searchLink;
+                return false;
+            }
+            function checkIos(){
+                    return /webOS|iPhone|iPad|iPod/i.test(navigator.userAgent)
+            }
+            function windowsPhone(){
+                    return /windows phone/i.test(navigator.userAgent)
+            }
         </script>
-        <script src="{{ asset('js/footer2.js') }}">/*swiper.js*/</script>
-        <div id="fb-root"></div>
-        <script>(function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
-            fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-        </script>
-
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-       
-        <div class="back-drop"></div>
-    </main>        
-@endsection
-
-
+        <script type="text/javascript" src="{{ asset('download/js/jquery.fancybox-1.3.4.js')}}"></script>
+        <script type="text/javascript" src="{{ asset('download/js/jquery.validate.js')}}"></script>
+        <script type="text/javascript" src="{{ asset('download/js/additional-methods.js')}}"></script>
+        <script type="text/javascript" src="{{ asset('download/js/tn-validate-methods.js')}}"></script>
+        <script type="text/javascript" src="{{ asset('download/js/common.js?27062018')}}"></script>
+        <script type="text/javascript" src="{{ asset('download/js/common_premium.js?v=1')}}"></script>
+    </body>
+</html>
