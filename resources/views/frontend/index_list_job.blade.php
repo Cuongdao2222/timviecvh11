@@ -145,13 +145,13 @@
             #fancybox-close{right:50px !important}
         </style>
         <div class="section-header" id="section-header">
-            <div id="my-download">
+            <!-- <div id="my-download">
                 <div class="container">
                     <div class="download_form_premium">
                         <a href="http://advertising.careerbuilder.vn/html/customer/eurowindow/BM06_QT08EW_To khai ung vien.doc">Tải mẫu thông tin ứng viên</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div id="header-pre">
                 <div class="columns hidden">
                     <div id="show-menu"><span class="fa fa-bars"></span></div>
