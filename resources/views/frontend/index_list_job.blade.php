@@ -169,12 +169,12 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="navbar-right">
+                    <!-- <div class="navbar-right">
                         <ul>
                             <li><a href="dang-nhap/vi" class="showDialogD">Đăng nhập</a></li>
                            
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
