@@ -4,8 +4,6 @@
         <META HTTP-EQUIV="Content-language" CONTENT="vi">
         <link href="vi" hreflang="vi" rel="alternate" />
         <link href="en" hreflang="en" rel="alternate" />
-        <base href="https://static.talentnetwork.vn/talentnetwork/source/eurowindow/"/>
-        <link rel="shortcut icon" href="https://static.talentnetwork.vn/talentnetwork/source/favicon_eurowindow.ico?t=1"/>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="robots" content="index,follow" />
         <title>Tuyển dụng và tìm kiếm việc làm nhanh | Công Ty Cổ Phần Eurowindow</title>
@@ -171,7 +169,7 @@
                     <div class="logo"><a href="vi"><img alt="Công Ty Cổ Phần Eurowindow" src="{{ asset('images/logo.png') }}" /></a></div>
                     <div class="menu">
                         <ul>
-                            <li class=" "><a href="vi/#11974" id="menu_11974"  target="_self">Giới Thiệu </a>
+                            <li class=" "><a href="#" id="menu_11974"  target="_self">Giới Thiệu </a>
                             </li>
                             <li class="parent ">
                                 <a href="vi/#11975" id="menu_11975"  target="_self">Cơ Hội Nghề Nghiệp <i class="fa fa-chevron-down"></i></a>
