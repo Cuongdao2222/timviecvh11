@@ -246,7 +246,7 @@
                                 @endforeach
                 
                             </select>
-                            
+
                             <select id="location" name="location" class="chosen slc-mb">
                                 <option value="">Nơi làm việc</option>
                                 <optgroup label="Việt Nam" >
@@ -255,7 +255,7 @@
                                     @endforeach
                                 </optgroup>
                             </select>
-                            <button type="submit">
+                            <button class="searchvt1" type="submit">
                             <i class="fa fa-search"></i>
                             <span>Tìm kiếm</span>
                             </button>
