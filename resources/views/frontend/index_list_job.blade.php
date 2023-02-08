@@ -162,20 +162,10 @@
                     <div class="logo"><a href="vi"><img alt="Công Ty Cổ Phần Eurowindow" src="{{ asset('images/logo.png') }}" /></a></div>
                     <div class="menu">
                         <ul>
-                            <li class=" "><a href="#" id="menu_11974"  target="_self">Giới Thiệu </a>
+                            <li class=" "><a href="#" id="menu_11974"  target="_self">Đăng nhập </a>
                             </li>
-                            <li class="parent ">
-                                <a href="vi/#11975" id="menu_11975"  target="_self">Cơ Hội Nghề Nghiệp <i class="fa fa-chevron-down"></i></a>
-                                <ul class="submenu">
-                                    <li><a href="tim-viec-lam/tat-ca-viec-lam/vi" target="_self">Tin tuyển dụng</a></li>
-                                    <li><a href="quy-trinh-tuyen-dung-35A5182A/vi" target="_self">Quy Trình Tuyển Dụng</a></li>
-                                </ul>
-                            </li>
-                            <li class=" "><a href="vi/#11976" id="menu_11976"  target="_self">Phúc Lợi </a>
-                            </li>
-                            <li class=" "><a href="vi/#11977" id="menu_11977"  target="_self">Tin Tức </a>
-                            </li>
-                            <li class=" "><a href="lien-he/vi" id="menu_11979"  target="_self">Liên Hệ </a>
+                            
+                            <li class=" "><a href="lien-he/vi" id="menu_11979"  target="_self">Đăng tin tuyển dụng </a>
                             </li>
                         </ul>
                     </div>
