@@ -4,6 +4,8 @@
         <META HTTP-EQUIV="Content-language" CONTENT="vi">
         <link href="vi" hreflang="vi" rel="alternate" />
         <link href="en" hreflang="en" rel="alternate" />
+        <base href="https://static.talentnetwork.vn/talentnetwork/source/eurowindow/"/>
+        <link rel="shortcut icon" href="https://static.talentnetwork.vn/talentnetwork/source/favicon_eurowindow.ico?t=1"/>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="robots" content="index,follow" />
         <title>Tuyển dụng và tìm kiếm việc làm nhanh | Công Ty Cổ Phần Eurowindow</title>
@@ -131,21 +133,12 @@
                             <div class="col-xs-6"><a href="join-talent-network/vi?url=vi" class="btn">Đăng ký</a> </div>
                         </li>
                         
-                        <li><a href="gioi-thieu-35A517C6/vi">Giới Thiệu</a>
+                        <li><a href="gioi-thieu-35A517C6/vi">Đăng nhập</a>
                         </li>
-                        <li>
-                            <a href="viec-lam/tat-ca-viec-lam/vi">Cơ Hội Nghề Nghiệp</a>
-                            <ul class="submenu">
-                                <li><a href="tim-viec-lam/tat-ca-viec-lam/vi" target="_self">Tin tuyển dụng</a></li>
-                                <li><a href="quy-trinh-tuyen-dung-35A5182A/vi" target="_self">Quy Trình Tuyển Dụng</a></li>
-                            </ul>
+                       
+                        <li><a href="phuc-loi-35A517C8/vi">Tìm việc làm</a>
                         </li>
-                        <li><a href="phuc-loi-35A517C8/vi">Phúc Lợi</a>
-                        </li>
-                        <li><a href="tin-tuc-35A517C9/vi">Tin Tức</a>
-                        </li>
-                        <li><a href="lien-he/vi">Liên Hệ</a>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>
