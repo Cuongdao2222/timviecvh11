@@ -96,6 +96,17 @@
         </script> 
         <script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" data-app-key="fa9yyto5llvqw2b" id="dropboxjs')}}"></script>
     </head>
+
+    <?php 
+            $listDefineJob = LIST_JOB;
+
+            $address = ADDRESS;
+
+            $salary = SALARY;
+
+            $level  = LEVEL;
+            
+        ?>
     <!-- End Landing Page -->
     <body class="frontend_clients indexclass_index ">
         <!-- Load Facebook SDK for JavaScript -->
@@ -157,7 +168,7 @@
                     <div id="show-menu"><span class="fa fa-bars"></span></div>
                 </div>
                 <div class="container">
-                    <div class="logo"><a href="vi"><img alt="Công Ty Cổ Phần Eurowindow" src="https://image.talentnetwork.vn/eurowindow//rws//logo_euro_1592_1592455215.png" /></a></div>
+                    <div class="logo"><a href="vi"><img alt="Công Ty Cổ Phần Eurowindow" src="{{ asset('images/logo.png') }}" /></a></div>
                     <div class="menu">
                         <ul>
                             <li class=" "><a href="vi/#11974" id="menu_11974"  target="_self">Giới Thiệu </a>
@@ -225,63 +236,26 @@
                 </div>
                 <div class="container-search">
                     <div class="search-jobs-main">
-                        <form method="get" action="tim-viec-lam/vi" onsubmit="return validateSearch(this);" id="frmSearchJob">
-                            <input name="q" type="text" class="brOrgane h15 width_545" onblur="if(this.value=='') this.value='Tìm việc';" onfocus="javascript:if(this.value=='Tìm việc') this.value='';" value="Tìm việc" />
-                            <select name="cat" class="chosen slc-mb">
+                        <form method="get" action="{{route('filters') }}" onsubmit="return validateSearch(this);" id="frmSearchJob">
+                            <input name="keyword"  id="keywords" type="text" class="brOrgane h15 width_545" onblur="if(this.value=='') this.value='Tìm việc';" onfocus="javascript:if(this.value=='Tìm việc') this.value='';" value="Tìm việc" />
+                            <select id="industry" name="industry" class="chosen slc-mb">
                                 <option value="">Ngành nghề</option>
-                                <option value="31">Bán hàng / Kinh doanh</option>
-                                <option value="30">Bán lẻ / Bán sỉ</option>
-                                <option value="28">Bất động sản</option>
-                                <option value="74">Bộ phận pháp lý</option>
-                                <option value="63">CNTT - Phần cứng / Mạng</option>
-                                <option value="1">CNTT - Phần mềm</option>
-                                <option value="81">Chưa có kinh nghiệm</option>
-                                <option value="14">Cơ khí / Ô tô / Tự động hóa</option>
-                                <option value="3">Hành chính / Thư ký</option>
-                                <option value="2">Kế toán / Kiểm toán</option>
-                                <option value="6">Kiến trúc</option>
-                                <option value="44">Lao động phổ thông</option>
-                                <option value="24">Luật / Pháp lý</option>
-                                <option value="45">Mới tốt nghiệp / Thực tập</option>
-                                <option value="11">Mỹ thuật / Nghệ thuật / Thiết kế</option>
-                                <option value="22">Nhân sự</option>
-                                <option value="47">Nội ngoại thất</option>
-                                <option value="42">Quản lý chất lượng (QA/QC)</option>
-                                <option value="17">Quản lý điều hành</option>
-                                <option value="67">Quảng cáo / Đối ngoại / Truyền Thông</option>
-                                <option value="25">Sản xuất / Vận hành sản xuất</option>
-                                <option value="59">Tài chính / Đầu tư</option>
-                                <option value="36">Thống kê</option>
-                                <option value="43">Thu mua / Vật tư</option>
-                                <option value="4">Tiếp thị</option>
-                                <option value="68">Tổ chức sự kiện</option>
-                                <option value="9">Tư vấn</option>
-                                <option value="33">Vận chuyển / Giao nhận / Kho vận</option>
-                                <option value="8">Xây dựng</option>
-                                <option value="18">Xuất nhập khẩu</option>
+                                 @foreach($listDefineJob as $key => $value)
+
+                                     <option value="{{ $key }}">{{ $value }}</option>
+                                @endforeach
+                
                             </select>
-                            <select name="loc" class="chosen slc-mb">
+                            
+                            <select id="location" name="location" class="chosen slc-mb">
                                 <option value="">Nơi làm việc</option>
                                 <optgroup label="Việt Nam" >
-                                    <option value="8">Hồ Chí Minh</option>
-                                    <option value="4">Hà Nội</option>
-                                    <option value="76">An Giang</option>
-                                    <option value="240">Bắc Giang</option>
-                                    <option value="781">Bạc Liêu</option>
-                                    <option value="56">Bình Định</option>
-                                    <option value="650">Bình Dương</option>
-                                    <option value="511">Đà Nẵng</option>
-                                    <option value="31">Hải Phòng</option>
-                                    <option value="780">Hậu Giang</option>
-                                    <option value="77">Kiên Giang</option>
-                                    <option value="25">Lạng Sơn</option>
-                                    <option value="52">Quảng Bình</option>
-                                    <option value="55">Quảng Ngãi</option>
-                                    <option value="37">Thanh Hóa</option>
-                                    <option value="54">Thừa Thiên Huế</option>
+                                    @foreach($address as $key => $value)
+                                        <option value="{{ $key }}">{{ $value }}</option>
+                                    @endforeach
                                 </optgroup>
                             </select>
-                            <button class="searchvt1" onclick="$('#frmSearchJob').submit();">
+                            <button type="submit">
                             <i class="fa fa-search"></i>
                             <span>Tìm kiếm</span>
                             </button>
