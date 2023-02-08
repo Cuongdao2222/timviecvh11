@@ -236,7 +236,7 @@
                 </div>
                 <div class="container-search">
                     <div class="search-jobs-main">
-                        <form method="get" action="{{route('filters') }}" onsubmit="return validateSearch(this);" id="frmSearchJob">
+                        <form method="get" action="{{route('filters') }}"  id="frmSearchJob">
                             <input name="keyword"  id="keywords" type="text" class="brOrgane h15 width_545" onblur="if(this.value=='') this.value='Tìm việc';" onfocus="javascript:if(this.value=='Tìm việc') this.value='';" value="Tìm việc" />
                             <select id="industry" name="industry" class="chosen slc-mb">
                                 <option value="">Ngành nghề</option>
@@ -255,7 +255,7 @@
                                     @endforeach
                                 </optgroup>
                             </select>
-                            <button class="searchvt1" type="submit">
+                            <button class="searchvt1s" type="submit">
                             <i class="fa fa-search"></i>
                             <span>Tìm kiếm</span>
                             </button>
