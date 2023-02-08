@@ -121,7 +121,7 @@
                             <div class="col-xs-6"><a href="dang-nhap/vi" class="btn">Đăng nhập</a></div>
                             <div class="col-xs-6"><a href="join-talent-network/vi?url=vi" class="btn">Đăng ký</a> </div>
                         </li>
-                        <li><a href="en"><span class="en"></span>English</a></li>
+                        
                         <li><a href="gioi-thieu-35A517C6/vi">Giới Thiệu</a>
                         </li>
                         <li>
@@ -180,7 +180,7 @@
                     <div class="navbar-right">
                         <ul>
                             <li><a href="dang-nhap/vi" class="showDialogD">Đăng nhập</a></li>
-                            <li><span class="en"></span><a href="en">English</a></li>
+                           
                         </ul>
                     </div>
                 </div>
