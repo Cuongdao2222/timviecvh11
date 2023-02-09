@@ -99,6 +99,9 @@
             #banner-video{
                 background: #ddd;
             }
+            #banner-video .img{
+                width: 100%;
+            }
         </style>
     </head>
 
