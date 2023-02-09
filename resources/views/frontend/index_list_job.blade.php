@@ -95,6 +95,11 @@
             
         </script> 
         <script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" data-app-key="fa9yyto5llvqw2b" id="dropboxjs')}}"></script>
+        <style type="text/css">
+            #banner-video{
+                background: #ddd;
+            }
+        </style>
     </head>
 
     <?php 
@@ -206,14 +211,13 @@
                     <div class="slogan">
                         <h1>CÙNG KIẾN TẠO MỘT SỰ NGHIỆP THÀNH CÔNG</h1>
                     </div>
-                    <div class="join-talent-onclip"><a href="join-talent-network/vi" class="showDialogD">Gia nhập cùng Eurowindow</a></div>
+                    <!-- <div class="join-talent-onclip"><a href="join-talent-network/vi" class="showDialogD">Gia nhập cùng Eurowindow</a></div> -->
                 </div>
                 <div id="banner-video">
-                    <div class="filter-video"></div>
-                    <video  muted="" autoplay playsinline loop id="bgvid" class="video">
-                        <source type="video/mp4" src="https://image.talentnetwork.vn/eurowindow/rws/eurowindow.mp4">
-                        </source>Your browser does not support
-                    </video>
+                    <div class="filter-videos"></div>
+
+                    <img src="{{ asset('images/banner1.png') }}">
+                    
                 </div>
                 <div class="container-search">
                     <div class="search-jobs-main">
