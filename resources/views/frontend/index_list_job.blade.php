@@ -424,7 +424,7 @@
         </div>
         <div class="section-page social-pre bg-odd">
             <header class="container-fluid">
-                <h2 class="section-title">Kết nối với Eurowindow</h2>
+                <h2 class="section-title">Kết nối với vieclamngon</h2>
             </header>
             <div class="col-sm-6 col-md-3 socialWrapper setfive">
                 <div class="col-xs-2 col-sm-2">
