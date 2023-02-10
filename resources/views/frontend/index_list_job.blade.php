@@ -170,10 +170,10 @@
                     <div class="logo"><a href="vi"><img alt="Công Ty Cổ Phần Eurowindow" src="{{ asset('images/logo.png') }}" /></a></div>
                     <div class="menu">
                         <ul>
-                            <li class=" "><a href="#" id="menu_11974"  target="_self">Đăng nhập </a>
+                            <li class="{{ route('employers_login_fe') }}"><a href="#" id="menu_11974"  target="_self">Đăng nhập </a>
                             </li>
                             
-                            <li class=" "><a href="lien-he/vi" id="menu_11979"  target="_self">Đăng tin tuyển dụng </a>
+                            <li class="{{ route('form_recruit') }}"><a href="lien-he/vi" id="menu_11979"  target="_self">Đăng tin tuyển dụng </a>
                             </li>
                         </ul>
                     </div>
