@@ -407,11 +407,11 @@
                             @endif
 
                         </div>
-                        <div class="row">
+                       <!--  <div class="row">
                             <div class="col-sm-2 col-sm-offset-5 btn-viewmore">
                                 <a class="btn btn-block btn-primary" href="tin-tuc-35A517C9/vi" class="btn btn-block btn-primary weight-bold">Xem thêm</a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
