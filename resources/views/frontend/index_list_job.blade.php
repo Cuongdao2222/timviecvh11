@@ -243,7 +243,7 @@
                                     @endforeach
                                 </optgroup>
                             </select>
-                            <button class="searchvt1s" type="submit">
+                            <button class="searchvt1" type="submit">
                             <i class="fa fa-search"></i>
                             <span>Tìm kiếm</span>
                             </button>
