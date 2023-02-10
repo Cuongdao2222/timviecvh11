@@ -444,7 +444,7 @@
                 </div>
             </div>
         </div>
-        <div id="footer-pre">
+        <!-- <div id="footer-pre">
             <div class="container">
                 <div class="col-xs-12 col-sm-3 powerby"><a href="https://VieclamIT.vn/" target="_blank" style="color:inherit">Talent </a><a href="https://careerbuilder.vn/careermap" target="_blank" style="color:inherit">Solution</a> <a href="https://VietnamSalary.vn/" target="_blank" style="color:inherit">by </a> <a href="https://careerbuilder.vn/viec-lam/tat-ca-viec-lam-vi.html" title="Tìm việc làm nhanh" target="_blank" style="color:inherit">CareerBuilder</a></div>
                 <div class="col-xs-12 col-sm-9 menu-footer">
@@ -459,7 +459,7 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div id="back-top" class="" style="display: none;"><a class="bgcolor_theme" id="topToPage" href="javascript:void(0);">_Top_</a></div>
         <div style="display: none">
             <div id="NoticePost" class="msgbox">
