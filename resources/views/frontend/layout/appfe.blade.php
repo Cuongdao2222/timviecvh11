@@ -72,7 +72,7 @@
         <script src="{{ asset('js//global2.js') }}"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.4/jquery.validate.min.js"></script>
         <script src='//cdnt.netcoresmartech.com/smartechclient.js'></script>
-        <script src='https://ads.careerbuilder.vn/www/delivery/spcjs.php?id=23'></script>
+        
         <script>
             $.fancybox.defaults.hash=false;
             $.fancybox.defaults.backFocus=false;
@@ -312,7 +312,7 @@
                     <div class="header-bottom">
                         <div class="header-bottom-top">
                             <div class="profile">
-                                <div class="avatar"><img class="lazy-bg" data-src="./img/user_circle.png" src="../kiemviecv32/images/graphics/blank.gif" alt="user circle"></div>
+                                <!-- <div class="avatar"><img class="lazy-bg" data-src="./img/user_circle.png" src="../kiemviecv32/images/graphics/blank.gif" alt="user circle"></div> -->
                                 <div class="username">
                                     <p>welcome to vieclamngon.vn</p>
                                 </div>
@@ -372,7 +372,7 @@
             <div class="container">
                 <section class="top-footer cb-section cb-section-border-bottom">
                     <div class="row">
-                        <div class="col-lg-12 logo"><img class="lazy-bg" data-src="{{ asset('images/template/logo/logo.png') }}" src="../kiemviecv32/images/graphics/blank.gif" alt="Tuyển dụng & Tìm kiếm việc làm nhanh"></div>
+                        <div class="col-lg-12 logo"><img class="lazy-bg" data-src="{{ asset('images/template/logo/logo.png') }}" src="{{ asset('images/template/logo/logo.png') }}" alt="Tuyển dụng & Tìm kiếm việc làm nhanh"></div>
                         <div class="col-lg-2 col-sm-6">
                             <div class="footer-links">
                                 <h3>Dành Cho Ứng Viên</h3>

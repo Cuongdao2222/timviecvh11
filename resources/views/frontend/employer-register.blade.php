@@ -57,7 +57,7 @@
         <div class="container">
             <div class="row row-sp">
                 <div class="col-xl-5">
-                    <div class="box-img"> <img src="https://images.careerbuilder.vn/content/images/Banner/pic-laptop.png" alt=""> </div>
+                    <!-- <div class="box-img"> <img src="https://images.careerbuilder.vn/content/images/Banner/pic-laptop.png" alt=""> </div> -->
                 </div>
                 <div class="col-xl-7">
                     <div class="box-info-signup">
@@ -250,25 +250,25 @@
             <div class="row row-intro">
                 <div class="col-12 col-xl-4">
                     <div class="box-intro box-intro-1 d-flex align-center">
-                        <img src="https://static.careerbuilder.vn/themes/employer/img/signup-new/icon-folder.png">
+                        <!-- <img src="https://static.careerbuilder.vn/themes/employer/img/signup-new/icon-folder.png"> -->
                         <p>Hơn <strong>50.000</strong> hồ sơ cập nhật mỗi tháng</p>
                     </div>
                 </div>
                 <div class="col-12 col-xl-4">
                     <div class="box-intro box-intro-2 d-flex align-center">
-                        <img src="https://static.careerbuilder.vn/themes/employer/img/signup-new/icon-link.png">
+                        <!-- <img src="https://static.careerbuilder.vn/themes/employer/img/signup-new/icon-link.png"> -->
                         <p>Website tuyển dụng toàn cầu <strong>duy nhất</strong> tại <strong>Việt Nam</strong></p>
                     </div>
                 </div>
                 <div class="col-12 col-xl-4">
                     <div class="box-intro box-intro-3 d-flex align-center">
-                        <img src="https://static.careerbuilder.vn/themes/employer/img/signup-new/icon-triangle.png">
+                        <!-- <img src="https://static.careerbuilder.vn/themes/employer/img/signup-new/icon-triangle.png"> -->
                         <p>Hơn <strong>18 triệu </strong>lượt xem mỗi tháng</p>
                     </div>
                 </div>
                 <div class="col-12">
                     <div class="right-note">
-                        <p>Nếu bạn đã có tài khoản. Vui lòng <a href="https://careerbuilder.vn/vi/employers/login">Đăng nhập</a></p>
+                        <p>Nếu bạn đã có tài khoản. Vui lòng <a href="#">Đăng nhập</a></p>
                     </div>
                 </div>
             </div>
@@ -293,9 +293,9 @@
         var height=$(window).scrollTop();if(height>(heightBody-heightFooter-heightWindow)){$('.employer-mail').addClass('no-scroll')}else{$('.employer-mail').removeClass('no-scroll')}});});function formTab(){$(".next-tab2").on('click',function(event){event.preventDefault();flag_chk=chkRegisfncfull();if(flag_chk===true){$("#step-2").show();$("#step-1").hide();}});$(".btn-prev").on('click',function(event){event.preventDefault();$("#step-1").show();$("#step-2").hide();$("html, body").animate({scrollTop:$("#step-1").offset().top});});}
         function chkRegisfncfull(){var form=$("#frmRegister");form.validate({onkeyup:false,ignore:":not(:visible),:disabled",rules:{email:{required:true,email:true,checkEmail:true},re_email:{required:true,equalTo:"#email"},password:{required:true,rangelength:[6,40],validatePassUnicodeStrong:true},re_password:{equalTo:"#password"},company_name:{required:true},contact_name:{required:true},company_address:{required:true},company_summary:{required:true,rangelength:[50,5000],checkcontactinfo:true},contact_phone:{required:true,checkSpecialCharTelephone:true},taxid:{checktaxid:true},captcha:{required:true}},messages:{email:{checkEmail:language.emp_register_email_exist},re_email:{equalTo:language.emp_register_re_field_email},password:{validatePassUnicodeStrong:language.emp_register_password_unicode},re_password:{equalTo:language.emp_register_re_field_pass}},errorPlacement:function(error,element){var name=element.attr('name');var errorSelector='.error_'+name;var $element=$(errorSelector);$(errorSelector).html(error.html());},invalidHandler:function(form,validator){$('html,body').animate({scrollTop:$('[name="'+validator.errorList[0].element.name+'"]').offset().top-100},'slow');},success:function(element){$('.error_'+element[0].htmlFor).html('');}});return form.valid();}
     </script>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         function autoload()  {loadLocations(1, 8);}  window.onload = autoload;
-    </script>
+    </script> -->
     <script type="text/javascript">
         var language_rg = {
           emp_register_email_exist:"Email này đã có người dùng. Vui lòng nhập email khác",
