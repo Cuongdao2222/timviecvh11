@@ -284,34 +284,34 @@
                     <div class="container-fluid container-narrow">
                         <ul class="flex-row jobs">
                             <li class="col-xs-6 col-sm-6 col-md-4 job">
-                                <a href="tim-viec-lam/nganh-sales-business-development.31/vi"><img src="{{ asset('images/job1.png')}}" /></a>
-                                <h3 class="job-title"><a href="tim-viec-lam/nganh-sales-business-development.31/vi">Bán hàng / Kinh doanh</a></h3>
+                                <a href="#"><img src="{{ asset('images/job1.png')}}" /></a>
+                                <h3 class="job-title"><a href="#">Bán hàng / Kinh doanh</a></h3>
                             </li>
                             <li class="col-xs-6 col-sm-6 col-md-4 job">
-                                <a href="tim-viec-lam/nganh-accounting-auditing-tax.2/vi"><img src="{{ asset('images/job2.png')}}" /></a>
-                                <h3 class="job-title"><a href="tim-viec-lam/nganh-accounting-auditing-tax.2/vi">Kế toán / Kiểm toán</a></h3>
+                                <a href="#"><img src="{{ asset('images/job2.png')}}" /></a>
+                                <h3 class="job-title"><a href="#">Kế toán / Kiểm toán</a></h3>
                             </li>
                             <li class="col-xs-6 col-sm-6 col-md-4 job">
-                                <a href="tim-viec-lam/nganh-architect.6/vi"><img src="{{ asset('images/job3.png')}}" /></a>
-                                <h3 class="job-title"><a href="tim-viec-lam/nganh-architect.6/vi">Kiến trúc</a></h3>
+                                <a href="#"><img src="{{ asset('images/job3.png')}}" /></a>
+                                <h3 class="job-title"><a href="#">Kiến trúc</a></h3>
                             </li>
                             <li class="col-xs-6 col-sm-6 col-md-4 job">
                                 <a href="tim-viec-lam/nganh-purchasing-merchandising.43/vi"><img src="{{ asset('images/job4.png')}}" /></a>
-                                <h3 class="job-title"><a href="tim-viec-lam/nganh-purchasing-merchandising.43/vi">Thu mua / Vật tư</a></h3>
+                                <h3 class="job-title"><a href="#">Thu mua / Vật tư</a></h3>
                             </li>
                             <li class="col-xs-6 col-sm-6 col-md-4 job">
-                                <a href="tim-viec-lam/nganh-freight-logistics-warehouse.33/vi"><img src="{{ asset('images/job5.png')}}" /></a>
-                                <h3 class="job-title"><a href="tim-viec-lam/nganh-freight-logistics-warehouse.33/vi">Vận chuyển / Giao nhận / Kho vận</a></h3>
+                                <a href="#"><img src="{{ asset('images/job5.png')}}" /></a>
+                                <h3 class="job-title"><a href="#">Vận chuyển / Giao nhận / Kho vận</a></h3>
                             </li>
                             <li class="col-xs-6 col-sm-6 col-md-4 job">
-                                <a href="tim-viec-lam/nganh-civil-construction.8/vi"><img src="{{ asset('images/job6.png')}}" /></a>
-                                <h3 class="job-title"><a href="tim-viec-lam/nganh-civil-construction.8/vi">Xây dựng</a></h3>
+                                <a href="#"><img src="{{ asset('images/job6.png')}}" /></a>
+                                <h3 class="job-title"><a href="#">Xây dựng</a></h3>
                             </li>
                         </ul>
                     </div>
                     <div class="row">
                         <div class="col-xs-3 btn-viewmore">
-                            <a href="viec-lam/tat-ca-viec-lam/vi" class="btn btn-block btn-primary">Xem thêm</a>
+                            <a href="#" class="btn btn-block btn-primary">Xem thêm</a>
                         </div>
                     </div>
                 </div>
