@@ -222,7 +222,7 @@ ul.list_job { clear: both }
 .list_job .job_sharing { height: 20px; margin-top: 8px }
 .list_job .job_place { color: #7e7e7e; font-size: 13px }
 #back-top { bottom: 30px; position: fixed; right: 20px; z-index: 30 }
-#back-top a { text-indent: -9999em; background-image: url("images/up-arrow.png"); background-repeat: no-repeat; background-position: 50% 20px; border-radius: 35px; display: block; height: 50px; width: 50px }
+/*#back-top a { text-indent: -9999em; background-image: url("images/up-arrow.png"); background-repeat: no-repeat; background-position: 50% 20px; border-radius: 35px; display: block; height: 50px; width: 50px }*/
 
 #lang .flag { padding-left: 25px; background-position: left center; background-repeat: no-repeat } 
 #lang .vi_flag { background-image: url("images/lang_vn.png") }

@@ -5,7 +5,7 @@
         <link href="vi" hreflang="vi" rel="alternate" />
         <link href="en" hreflang="en" rel="alternate" />
         <base href="https://static.talentnetwork.vn/talentnetwork/source/eurowindow/"/>
-        <link rel="shortcut icon" href="https://static.talentnetwork.vn/talentnetwork/source/favicon_eurowindow.ico?t=1"/>
+        <!-- <link rel="shortcut icon" href="https://static.talentnetwork.vn/talentnetwork/source/favicon_eurowindow.ico?t=1"/> -->
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="robots" content="index,follow" />
         <title>Tuyển dụng và tìm kiếm việc làm nhanh | Công Ty Cổ Phần Eurowindow</title>
@@ -15,7 +15,7 @@
         <meta property="og:title" content="Tuyển dụng và tìm kiếm việc làm nhanh | Công Ty Cổ Phần Eurowindow"/>
         <meta property="og:url" content="vi"/>
         <meta property="og:image:type" content="image/jpeg"/>
-        <meta property="og:image" content="sharefb?file=/rws/banner_thang_9-01_1569921859_1570440395.jpg"/>
+        
         <meta property="og:image:width" content="600"/>
         <meta property="og:image:height" content="315"/>
         <meta property="og:description" content="Tìm việc làm, tuyển dụng Eurowindow,viec lam tai Eurowindow, Eurowindow tuyển dụng"/>
@@ -41,8 +41,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
         <link href="{{ asset('download/css/TNredirect.css')}}" rel="stylesheet" type="text/css" media="screen"/>
         <link href="{{ asset('download/css/premium.css')}}" rel="stylesheet" type="text/css" media="screen"/>
-        <link href="css/themes.css" rel="stylesheet" type="text/css" media="screen"/>
-        <link rel="stylesheet" type="text/css" href="css/nav_vi.css?t=12032015" media="screen"/>
+       
+        <!-- <link rel="stylesheet" type="text/css" href="css/nav_vi.css?t=12032015" media="screen"/> -->
         <link href="{{ asset('download/js/jquery.multiselect.css')}}" rel="stylesheet" type="text/css"/>
         <link href="{{ asset('download/js/jquery-ui.css')}}" rel="stylesheet" type="text/css"/>
         <link href="{{ asset('download/css/jquery.fancybox-1.3.4.css')}}" rel="stylesheet" type="text/css"/>
@@ -73,14 +73,12 @@
                     return /windows phone/i.test(navigator.userAgent)
             }
         </script>
-        <link href="https://static.talentnetwork.vn/talentnetwork/source/js/chosen/chosen.css" rel="stylesheet" type="text/css" />
-        <script src="https://static.talentnetwork.vn/talentnetwork/source/js/chosen/chosen.jquery.js?t=28042016')}}"></script>
+       <!--  <link href="https://static.talentnetwork.vn/talentnetwork/source/js/chosen/chosen.css" rel="stylesheet" type="text/css" />
+        <script src="https://static.talentnetwork.vn/talentnetwork/source/js/chosen/chosen.jquery.js?t=28042016')}}"></script> -->
         <script type="text/javascript">
             $( window ).load(function() {
               // Search
-                if($('.chosen').is(":visible")){
-                    $(".chosen").chosen({no_results_text: language.msg_no_results_matched});
-                }
+                
                 $( window ).resize(function() {
                     widthWindowChosen = $(window).width();
                     if(widthWindowChosen > 973){
@@ -208,7 +206,7 @@
             </div>
         </div>
         <div id="wrapper">
-            <script language="javascript" src="https://static.talentnetwork.vn/talentnetwork/source/js/jquery.cycle.all.2.74.js"></script>
+           
             <div id="photo-area">
                 <div class="texton">
                     <div class="slogan">
@@ -266,7 +264,7 @@
                     <div class="col-xs-12">
                         <div class="content_fck text-intro">
                             <p style="text-align:justify">
-                                <img src="https://image.talentnetwork.vn/eurowindow///news/2019/10/07/1570440136_1568967007-20180619-01-1.jpg" style="float:right; height:264px; margin-left:15px; margin-right:15px; width:450px" />Với những thành tích trong hoạt động sản xuất và kinh doanh, Eurowindow đã được Chủ tịch nước tặng thưởng Huân chương Lao động hạng Ba, Thủ tướng Chính phủ tặng Bằng khen và được công nhận là Thương hiệu Quốc gia. Sản phẩm và thương hiệu Eurowindow nhiều năm liền đạt Giải vàng chất lượng Việt Nam của Bộ Khoa học Công nghệ &amp; Môi trường, Top 10 doanh nghiệp đạt Giải thưởng Sao vàng đất Việt của Hội doanh nghiệp trẻ Việt Nam, Top 10 thương hiệu nổi tiếng Quốc gia, giải thưởng Rồng Vàng, Hàng Việt Nam chất lượng cao và nhiều giải thưởng uy tín khác.
+                                <img src="{{ asset('images/1570440136_1568967007-20180619-01-1.jpg') }}" style="float:right; height:264px; margin-left:15px; margin-right:15px; width:450px" />Với những thành tích trong hoạt động sản xuất và kinh doanh, Eurowindow đã được Chủ tịch nước tặng thưởng Huân chương Lao động hạng Ba, Thủ tướng Chính phủ tặng Bằng khen và được công nhận là Thương hiệu Quốc gia. Sản phẩm và thương hiệu Eurowindow nhiều năm liền đạt Giải vàng chất lượng Việt Nam của Bộ Khoa học Công nghệ &amp; Môi trường, Top 10 doanh nghiệp đạt Giải thưởng Sao vàng đất Việt của Hội doanh nghiệp trẻ Việt Nam, Top 10 thương hiệu nổi tiếng Quốc gia, giải thưởng Rồng Vàng, Hàng Việt Nam chất lượng cao và nhiều giải thưởng uy tín khác.
                             </p>
                             <p style="text-align:justify">Với chất lượng sản phẩm và phong cách phục vụ không ngừng được nâng cao, gắn lợi ích của doanh nghiệp với lợi ích chung của xã hội và góp phần bảo vệ môi trường, Eurowindow cam kết cung cấp cho khách hàng những sản phẩm có chất lượng tốt nhất.</p>
                             <p style="text-align:justify">Sản phẩm chất lượng tốt, đội ngũ nhân viên có chuyên môn cao, phong cách phục vụ chuyên nghiệp, đó là các yếu tố quyết định sự thành công của thương hiệu Eurowindow.&nbsp;</p>
@@ -283,27 +281,27 @@
                     <div class="container-fluid container-narrow">
                         <ul class="flex-row jobs">
                             <li class="col-xs-6 col-sm-6 col-md-4 job">
-                                <a href="tim-viec-lam/nganh-sales-business-development.31/vi"><img src="images/job1.png" /></a>
+                                <a href="tim-viec-lam/nganh-sales-business-development.31/vi"><img src="{{ asset('images/job1.png')}}" /></a>
                                 <h3 class="job-title"><a href="tim-viec-lam/nganh-sales-business-development.31/vi">Bán hàng / Kinh doanh</a></h3>
                             </li>
                             <li class="col-xs-6 col-sm-6 col-md-4 job">
-                                <a href="tim-viec-lam/nganh-accounting-auditing-tax.2/vi"><img src="images/job2.png" /></a>
+                                <a href="tim-viec-lam/nganh-accounting-auditing-tax.2/vi"><img src="{{ asset('images/job2.png')}}" /></a>
                                 <h3 class="job-title"><a href="tim-viec-lam/nganh-accounting-auditing-tax.2/vi">Kế toán / Kiểm toán</a></h3>
                             </li>
                             <li class="col-xs-6 col-sm-6 col-md-4 job">
-                                <a href="tim-viec-lam/nganh-architect.6/vi"><img src="images/job3.png" /></a>
+                                <a href="tim-viec-lam/nganh-architect.6/vi"><img src="{{ asset('images/job3.png')}}" /></a>
                                 <h3 class="job-title"><a href="tim-viec-lam/nganh-architect.6/vi">Kiến trúc</a></h3>
                             </li>
                             <li class="col-xs-6 col-sm-6 col-md-4 job">
-                                <a href="tim-viec-lam/nganh-purchasing-merchandising.43/vi"><img src="images/job4.png" /></a>
+                                <a href="tim-viec-lam/nganh-purchasing-merchandising.43/vi"><img src="{{ asset('images/job4.png')}}" /></a>
                                 <h3 class="job-title"><a href="tim-viec-lam/nganh-purchasing-merchandising.43/vi">Thu mua / Vật tư</a></h3>
                             </li>
                             <li class="col-xs-6 col-sm-6 col-md-4 job">
-                                <a href="tim-viec-lam/nganh-freight-logistics-warehouse.33/vi"><img src="images/job5.png" /></a>
+                                <a href="tim-viec-lam/nganh-freight-logistics-warehouse.33/vi"><img src="{{ asset('images/job5.png')}}" /></a>
                                 <h3 class="job-title"><a href="tim-viec-lam/nganh-freight-logistics-warehouse.33/vi">Vận chuyển / Giao nhận / Kho vận</a></h3>
                             </li>
                             <li class="col-xs-6 col-sm-6 col-md-4 job">
-                                <a href="tim-viec-lam/nganh-civil-construction.8/vi"><img src="images/job6.png" /></a>
+                                <a href="tim-viec-lam/nganh-civil-construction.8/vi"><img src="{{ asset('images/job6.png')}}" /></a>
                                 <h3 class="job-title"><a href="tim-viec-lam/nganh-civil-construction.8/vi">Xây dựng</a></h3>
                             </li>
                         </ul>
@@ -320,9 +318,9 @@
             <div class="hidden-xs hidden-sm">
                 <div class="ads-pre slidebg" style="height:350px">
                     <div id="slidehr">
-                        <div class="bgimage" style="background-image:url(https://image.talentnetwork.vn/eurowindow//rws//banner_thang_9-03_1569921859_1570440395.jpg)"></div>
-                        <div class="bgimage" style="background-image:url(https://image.talentnetwork.vn/eurowindow//rws//banner_thang_9-04_1569921859_1570440395.jpg)"></div>
-                        <div class="bgimage" style="background-image:url(https://image.talentnetwork.vn/eurowindow//rws//banner_thang_9-05_1569921859_1570440395.jpg)"></div>
+                        <div class="bgimage" style="background-image:url({{ asset('images/banner_thang_9-03_1569921859_1570440395.jpg')}}"></div>
+                        <!-- <div class="bgimage" style="background-image:url({{ asset('images/banner_thang_9-04_1569921859_1570440395.jpg')}}"></div>
+                        <div class="bgimage" style="background-image:url({{ asset('images/banner_thang_9-05_1569921859_1570440395.jpg')}}"></div> -->
                     </div>
                     <ul id="pager">
                         <li><a href="javascript:void(0);"></a></li>
@@ -331,15 +329,7 @@
                         <li><a href="javascript:void(0);"></a></li>
                     </ul>
                     <script type="text/javascript">
-                        $(document).ready(function(){
-                                $('#slidehr').cycle({
-                                        fx: 'fade',
-                                        timeout: 5000,
-                                        pauseOnPagerHover: true,
-                                        pager: '#pager',
-                                        pagerAnchorBuilder: function(idx, slide) { return '#pager li:eq(' + (idx) + ')'; }
-                                });
-                        });
+                       
                         $(window).load(function(){
                                 var posPage = ($(window).width() - $('#pager').width())/2;
                                 $('#pager').css({'left':posPage+'px'});
@@ -391,7 +381,7 @@
 
                              @foreach($post as $posts)
                             <div class="col-xs-12 col-sm-6 col-md-4">
-                                <div class="box bg-size-cover" style="background-image:url(https://images.careerbuilder.vn/tintuc/career/20220524/crop/319x319/1653372151_data-analyst-careerbuilder.jpg);">
+                                <div class="box bg-size-cover" style="background-image:url({{  asset('images/1653372151_data-analyst-careerbuilder.jpg') }}">
                                     <div class="blurb">
                                         <p><a href="{{ route('blog_detail', $posts->link??'') }}">{{ $posts->title }}</a></p>
                                     </div>
@@ -417,9 +407,9 @@
             </div>
             <div id="media_section" class="section-page ImageService-pre"></div>
             <script type="text/javascript">
-                $(function(){
-                    loadMediaSection('media_section', 'index', 'index');
-                });
+                // $(function(){
+                //     loadMediaSection('media_section', 'index', 'index');
+                // });
             </script>
         </div>
         <div class="section-page social-pre bg-odd">
@@ -483,8 +473,8 @@
                 </div>
             </div>
         </div>
-        <link href="https://static.talentnetwork.vn/talentnetwork/source/css/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
-        <script type="text/javascript" src="https://static.talentnetwork.vn/talentnetwork/source/js/fancybox/jquery.fancybox-1.3.4.js"></script>
+        
+       
         <script type="text/javascript">
             $(document).ready(function(){
                 var popup_success = ''; 
@@ -557,7 +547,7 @@
         <script type="text/javascript" src="{{ asset('download/js/jquery.fancybox-1.3.4.js')}}"></script>
         <script type="text/javascript" src="{{ asset('download/js/jquery.validate.js')}}"></script>
         <script type="text/javascript" src="{{ asset('download/js/additional-methods.js')}}"></script>
-        <script type="text/javascript" src="{{ asset('download/js/tn-validate-methods.js')}}"></script>
+        <!-- <script type="text/javascript" src="{{ asset('download/js/tn-validate-methods.js')}}"></script> -->
         <script type="text/javascript" src="{{ asset('download/js/common.js?27062018')}}"></script>
         <script type="text/javascript" src="{{ asset('download/js/common_premium.js?v=1')}}"></script>
     </body>

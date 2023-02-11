@@ -651,13 +651,15 @@ html.header-medium-screen-menu-displayed { overflow: hidden; position: fixed; wi
  */
 /* FONT PATH
  * -------------------------- */
-@font-face {
+/*@font-face {
   font-family: 'FontAwesome';
   src: url('../../css/font/fontawesome-webfont.eot?v=4.7.0');
-  src: url('../../css/font/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../../css/font/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../../css/font/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../../css/font/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../../css/font/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  src: url('../../css/font/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../../css/font/fontawesome-webfont.woff2?v=4.7.0') 
+  format('woff2'), url('../../css/font/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../../css/font/fontawesome-webfont.ttf?v=4.7.0') 
+  format('truetype'), url('../../css/font/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
-}
+}*/
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;

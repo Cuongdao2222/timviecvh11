@@ -83,9 +83,9 @@ $(function(){
 		
 	
 	//overwrite defaut jvalidate error message
-	jQuery.extend(jQuery.validator.messages, {
-		required:language.msg_require
-	});
+	// jQuery.extend(jQuery.validator.messages, {
+	// 	required:language.msg_require
+	// });
 	if (checkIos()){
 		if(Controller =='jobs' && Action=='apply'){
 			$("#fromcomputer").hide();
