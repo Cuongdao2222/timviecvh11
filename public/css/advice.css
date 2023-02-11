@@ -3475,7 +3475,7 @@
 .career-advice-share-social ul li.zalo .zalo-share-button:before {
   top: 13px;
   height: 16px;
-/*  content: url("https://static.careerbuilder.vn/themes/careerbuilder/img/i-zalo-w.png");*/
+
 }
 @media (max-width: 1024px) {
   .career-advice-share-social {
@@ -5692,12 +5692,7 @@
   width: 100% !important;
   height: 100% !important;
 }
-/*.zalo-share-button:before {
-  content: url("https://static.careerbuilder.vn/themes/careerbuilder/img/i-zalo-w.png") !important;
-}
-.zalo-share-button:hover:before {
-  content: url("https://static.careerbuilder.vn/themes/careerbuilder/img/i-zalo-w.png") !important;
-}*/
+
 .cb-career-advice-no-result .no-search > p {
   font-size: 1.875rem;
   font-weight: 700;
