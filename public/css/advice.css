@@ -4647,7 +4647,7 @@
 }
 .cb-career-advice-detail .share-this-news .zalo-share-button:before {
   top: 3px;
-  content: url("https://static.careerbuilder.vn/themes/careerbuilder/img/i-zalo.png") !important;
+/*  content: url("https://static.careerbuilder.vn/themes/careerbuilder/img/i-zalo.png") !important;*/
 }
 .cb-career-advice-detail .tags {
   display: -webkit-box;
