@@ -101,7 +101,7 @@
                 width: 100%;
             }
             #back-top{
-                display: none;
+                display: none !important;
             }
         </style>
     </head>
