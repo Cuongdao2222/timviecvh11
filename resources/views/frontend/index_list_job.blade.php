@@ -296,7 +296,7 @@
                                 <h3 class="job-title"><a href="#">Kiến trúc</a></h3>
                             </li>
                             <li class="col-xs-6 col-sm-6 col-md-4 job">
-                                <a href="tim-viec-lam/nganh-purchasing-merchandising.43/vi"><img src="{{ asset('images/job4.png')}}" /></a>
+                                <a href="#"><img src="{{ asset('images/job4.png')}}" /></a>
                                 <h3 class="job-title"><a href="#">Thu mua / Vật tư</a></h3>
                             </li>
                             <li class="col-xs-6 col-sm-6 col-md-4 job">
