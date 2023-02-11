@@ -169,7 +169,7 @@
                             <h3 class="title-info">Thông Tin Nhân Viên Tư Vấn</h3>
                             <div class="wrap-info">
                                 <div class="image">
-                                    <img src="https://images.careerbuilder.vn//admin_avatar/1624174428_no_callcentrer.png" alt="cs-avtar">
+                                    <!-- <img src="https://images.careerbuilder.vn//admin_avatar/1624174428_no_callcentrer.png" alt="cs-avtar"> -->
                                 </div>
                                 <ul class="list-info">
                                     <li>
@@ -206,7 +206,7 @@
                                         <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="9" style="width: 630px; margin-right: 30px;">
                                             <div class="topresume-item">
                                                 <div class="topresume-left">
-                                                    <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20220718/2861868_1658117803_111720.jpg" alt="avatar ung vien">  </div>
+                                                    <!-- <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20220718/2861868_1658117803_111720.jpg" alt="avatar ung vien">  </div> -->
                                                 </div>
                                                 <div class="topresume-info">
                                                     <p> <a href="#" class="tuv" target="_blank"> ĐỖTHỊ PHƯƠNGTHẢO </a> <em class="date">(Ngày: 21-07-2022 11:17:13)</em> </p>
@@ -222,7 +222,7 @@
                                         <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 630px; margin-right: 30px;">
                                             <div class="topresume-item">
                                                 <div class="topresume-left">
-                                                    <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20180911/80500_1536639433_111841.jpg" alt="avatar ung vien">  </div>
+                                                    <!-- <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20180911/80500_1536639433_111841.jpg" alt="avatar ung vien">  </div> -->
                                                 </div>
                                                 <div class="topresume-info">
                                                     <p> <a href="#" class="tuv" target="_blank"> Đỗ Như Thành </a> <em class="date">(Ngày: 21-07-2022 11:00:53)</em> </p>
@@ -238,7 +238,7 @@
                                         <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="width: 630px; margin-right: 30px;">
                                             <div class="topresume-item">
                                                 <div class="topresume-left">
-                                                    <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20220226/325308_1645848227_110401.jpg" alt="avatar ung vien">  </div>
+                                                    <!-- <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20220226/325308_1645848227_110401.jpg" alt="avatar ung vien">  </div> -->
                                                 </div>
                                                 <div class="topresume-info">
                                                     <p> <a href="#" class="tuv" target="_blank"> Lương Hoàng Minh Dũng </a> <em class="date">(Ngày: 21-07-2022 11:21:03)</em> </p>
@@ -254,7 +254,7 @@
                                         <div class="swiper-slide" data-swiper-slide-index="2" style="width: 630px; margin-right: 30px;">
                                             <div class="topresume-item">
                                                 <div class="topresume-left">
-                                                    <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20190824/351461_1566623949_121955.jpg" alt="avatar ung vien">  </div>
+                                                    <!-- <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20190824/351461_1566623949_121955.jpg" alt="avatar ung vien">  </div> -->
                                                 </div>
                                                 <div class="topresume-info">
                                                     <p> <a href="#" class="tuv" target="_blank"> lê thu </a> <em class="date">(Ngày: 21-07-2022 11:20:56)</em> </p>
@@ -270,7 +270,7 @@
                                         <div class="swiper-slide" data-swiper-slide-index="3" style="width: 630px; margin-right: 30px;">
                                             <div class="topresume-item">
                                                 <div class="topresume-left">
-                                                    <div class="topresume-image">  <img src="https://static.careerbuilder.vn/themes/careerbuilder/img/dash-board/1.png" alt="avatar ung vien">  </div>
+                                                    <!-- <div class="topresume-image">  <img src="https://static.careerbuilder.vn/themes/careerbuilder/img/dash-board/1.png" alt="avatar ung vien">  </div> -->
                                                 </div>
                                                 <div class="topresume-info">
                                                     <p> <a href="#" class="tuv" target="_blank"> LÊ TOÀN TRUNG </a> <em class="date">(Ngày: 21-07-2022 11:22:50)</em> </p>
@@ -286,7 +286,7 @@
                                         <div class="swiper-slide" data-swiper-slide-index="4" style="width: 630px; margin-right: 30px;">
                                             <div class="topresume-item">
                                                 <div class="topresume-left">
-                                                    <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20220721/1011980_1658373516_101853.jpg" alt="avatar ung vien">  </div>
+                                                    <!-- <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20220721/1011980_1658373516_101853.jpg" alt="avatar ung vien">  </div> -->
                                                 </div>
                                                 <div class="topresume-info">
                                                     <p> <a href="#" class="tuv" target="_blank"> Nguyễn Thị Lệ </a> <em class="date">(Ngày: 21-07-2022 11:28:18)</em> </p>
@@ -302,7 +302,7 @@
                                         <div class="swiper-slide" data-swiper-slide-index="5" style="width: 630px; margin-right: 30px;">
                                             <div class="topresume-item">
                                                 <div class="topresume-left">
-                                                    <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20220706/1056782_1657118607_214407.jpg" alt="avatar ung vien">  </div>
+                                                    <!-- <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20220706/1056782_1657118607_214407.jpg" alt="avatar ung vien">  </div> -->
                                                 </div>
                                                 <div class="topresume-info">
                                                     <p> <a href="#" class="tuv" target="_blank"> Huỳnh Kỳ Bảo </a> <em class="date">(Ngày: 21-07-2022 10:58:32)</em> </p>
@@ -318,7 +318,7 @@
                                         <div class="swiper-slide" data-swiper-slide-index="6" style="width: 630px; margin-right: 30px;">
                                             <div class="topresume-item">
                                                 <div class="topresume-left">
-                                                    <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20130524/1292142_1369396436.jpg" alt="avatar ung vien">  </div>
+                                                    <!-- <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20130524/1292142_1369396436.jpg" alt="avatar ung vien">  </div> -->
                                                 </div>
                                                 <div class="topresume-info">
                                                     <p> <a href="#" class="tuv" target="_blank"> Đào Tấn Lực </a> <em class="date">(Ngày: 21-07-2022 10:58:45)</em> </p>
@@ -334,7 +334,7 @@
                                         <div class="swiper-slide" data-swiper-slide-index="7" style="width: 630px; margin-right: 30px;">
                                             <div class="topresume-item">
                                                 <div class="topresume-left">
-                                                    <div class="topresume-image">  <img src="https://static.careerbuilder.vn/themes/careerbuilder/img/dash-board/1.png" alt="avatar ung vien">  </div>
+                                                    <!-- <div class="topresume-image">  <img src="https://static.careerbuilder.vn/themes/careerbuilder/img/dash-board/1.png" alt="avatar ung vien">  </div> -->
                                                 </div>
                                                 <div class="topresume-info">
                                                     <p> <a href="#" class="tuv" target="_blank"> Nguyễn Thị Hồng Hạnh </a> <em class="date">(Ngày: 21-07-2022 11:05:12)</em> </p>
@@ -350,7 +350,7 @@
                                         <div class="swiper-slide" data-swiper-slide-index="8" style="width: 630px; margin-right: 30px;">
                                             <div class="topresume-item">
                                                 <div class="topresume-left">
-                                                    <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20200326/2299564_1585210374_151302.jpeg" alt="avatar ung vien">  </div>
+                                                    <!-- <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20200326/2299564_1585210374_151302.jpeg" alt="avatar ung vien">  </div> -->
                                                 </div>
                                                 <div class="topresume-info">
                                                     <p> <a href="https://careerbuilder.vn/vi/employers/popup/resumeinfo/35A4E900/35A4E900/marketing-communication-project-and-campaign-manager-imc-account-manager/35ACF3EB.html" class="tuv" target="_blank"> Trần Vũ Ngọc Hân </a> <em class="date">(Ngày: 21-07-2022 11:03:18)</em> </p>
@@ -366,7 +366,7 @@
                                         <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="9" style="width: 630px; margin-right: 30px;">
                                             <div class="topresume-item">
                                                 <div class="topresume-left">
-                                                    <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20220718/2861868_1658117803_111720.jpg" alt="avatar ung vien">  </div>
+                                                    <!-- <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20220718/2861868_1658117803_111720.jpg" alt="avatar ung vien">  </div> -->
                                                 </div>
                                                 <div class="topresume-info">
                                                     <p> <a href="#" class="tuv" target="_blank"> ĐỖTHỊ PHƯƠNGTHẢO </a> <em class="date">(Ngày: 21-07-2022 11:17:13)</em> </p>
@@ -382,7 +382,7 @@
                                         <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 630px; margin-right: 30px;">
                                             <div class="topresume-item">
                                                 <div class="topresume-left">
-                                                    <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20180911/80500_1536639433_111841.jpg" alt="avatar ung vien">  </div>
+                                                    <!-- <div class="topresume-image">  <img src="https://images.careerbuilder.vn/jobseekers/20180911/80500_1536639433_111841.jpg" alt="avatar ung vien">  </div> -->
                                                 </div>
                                                 <div class="topresume-info">
                                                     <p> <a href="#" class="tuv" target="_blank"> Đỗ Như Thành </a> <em class="date">(Ngày: 21-07-2022 11:00:53)</em> </p>
