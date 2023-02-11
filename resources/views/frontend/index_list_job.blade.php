@@ -168,7 +168,7 @@
                     <div id="show-menu"><span class="fa fa-bars"></span></div>
                 </div>
                 <div class="container">
-                    <div class="logo"><a href="vi"><img alt="Công Ty Cổ Phần Eurowindow" src="{{ asset('images/logo.png') }}" /></a></div>
+                    <div class="logo"><a href="{{ route('home') }}"><img alt="Công Ty Cổ Phần Eurowindow" src="{{ asset('images/logo.png') }}" /></a></div>
                     <div class="menu">
                         <ul>
                             <li class=""><a href="{{ route('employers_login_fe') }}" id="menu_11974"  target="_self">Đăng nhập </a>
