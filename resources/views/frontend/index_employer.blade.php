@@ -66,9 +66,9 @@
                             </div>
                             <div class="body">
                                 <div class="image">
-                                    <a href="#" title="CareerBuilder Rewards 2022" target="_blank">
+                                    <!-- <a href="#" title="CareerBuilder Rewards 2022" target="_blank">
                                     <img src="https://images.careerbuilder.vn/content/images/01BinhMKT/member_cbr_vi_cb.png" alt="">
-                                    </a>
+                                    </a> -->
                                 </div>
                                 <ul class="list-account-information">
                                     <li>
