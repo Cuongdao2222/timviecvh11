@@ -220,7 +220,7 @@
                 <div id="banner-video">
                     <div class="filter-videos"></div>
 
-                    <img src="{{ asset('images/banner1.png') }}">
+                    <img src="{{ asset('images/banner-home.jpg') }}">
                     
                 </div>
                 <div class="container-search">
