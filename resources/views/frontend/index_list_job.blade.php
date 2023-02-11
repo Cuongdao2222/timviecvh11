@@ -100,6 +100,9 @@
             #banner-video img{
                 width: 100%;
             }
+            #back-top{
+                display: none;
+            }
         </style>
     </head>
 
