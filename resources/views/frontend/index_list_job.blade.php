@@ -4,7 +4,7 @@
         <META HTTP-EQUIV="Content-language" CONTENT="vi">
         <link href="vi" hreflang="vi" rel="alternate" />
         <link href="en" hreflang="en" rel="alternate" />
-        <base href="https://static.talentnetwork.vn/talentnetwork/source/eurowindow/"/>
+        <!-- <base href="https://static.talentnetwork.vn/talentnetwork/source/eurowindow/"/> -->
         <!-- <link rel="shortcut icon" href="https://static.talentnetwork.vn/talentnetwork/source/favicon_eurowindow.ico?t=1"/> -->
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="robots" content="index,follow" />
