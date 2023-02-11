@@ -43,7 +43,7 @@
         <div class="container">
             <div class="row row-sp">
                 <div class="col-xl-5">
-                    <div class="box-img"> <img src="https://images.careerbuilder.vn/content/images/Banner/pic-laptop.png" alt=""> </div>
+                    <!-- <div class="box-img"> <img src="https://images.careerbuilder.vn/content/images/Banner/pic-laptop.png" alt=""> </div> -->
                 </div>
                 <div class="col-xl-7">
                     <div class="box-info-signup">
@@ -230,25 +230,25 @@
             <div class="row row-intro">
                 <div class="col-12 col-xl-4">
                     <div class="box-intro box-intro-1 d-flex align-center">
-                        <img src="https://static.careerbuilder.vn/themes/employer/img/signup-new/icon-folder.png">
+                        <!-- <img src="https://static.careerbuilder.vn/themes/employer/img/signup-new/icon-folder.png"> -->
                         <p>Hơn <strong>50.000</strong> hồ sơ cập nhật mỗi tháng</p>
                     </div>
                 </div>
                 <div class="col-12 col-xl-4">
                     <div class="box-intro box-intro-2 d-flex align-center">
-                        <img src="https://static.careerbuilder.vn/themes/employer/img/signup-new/icon-link.png">
+                        <!-- <img src="https://static.careerbuilder.vn/themes/employer/img/signup-new/icon-link.png"> -->
                         <p>Website tuyển dụng toàn cầu <strong>duy nhất</strong> tại <strong>Việt Nam</strong></p>
                     </div>
                 </div>
                 <div class="col-12 col-xl-4">
                     <div class="box-intro box-intro-3 d-flex align-center">
-                        <img src="https://static.careerbuilder.vn/themes/employer/img/signup-new/icon-triangle.png">
+                        <!-- <img src="https://static.careerbuilder.vn/themes/employer/img/signup-new/icon-triangle.png"> -->
                         <p>Hơn <strong>18 triệu </strong>lượt xem mỗi tháng</p>
                     </div>
                 </div>
                 <div class="col-12">
                     <div class="right-note">
-                        <p>Nếu bạn đã có tài khoản. Vui lòng <a href="https://careerbuilder.vn/vi/employers/login">Đăng nhập</a></p>
+                        <p>Nếu bạn đã có tài khoản. Vui lòng <a href="#">Đăng nhập</a></p>
                     </div>
                 </div>
             </div>
