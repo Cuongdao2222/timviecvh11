@@ -107,7 +107,7 @@
         <div class="main-wrap">
             <div class="left-wrap">
                 <div class="button-hambuger"><span class="mdi mdi-menu"></span></div>
-                                <div class="logo"><a href="#" title="homepage-employers">
+                                <div class="logo"><a href="{{ route('home') }}" title="homepage-employers">
                     <img src="{{ asset('images/template/logo/logo.png') }}" alt="https://images.careerbuilder.vn/logo/logo_1482896879_1489026739.png" title="https://images.careerbuilder.vn/logo/logo_1482896879_1489026739.png" /></a></div>
                <!--  <div class="main-menu">
                     <ul class="menu">
