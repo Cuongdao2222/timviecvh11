@@ -10,7 +10,7 @@
 <link href="https://careerbuilder.vn/vi/employers/postjobs" rel="canonical" />
 <meta name="robots" content="index,follow">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="shortcut icon" href="https://careerbuilder.vn/favicon_careerbuilder_v2.ico" />
+
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" type="text/css" href="{{ asset('css/form1.css') }}?ver=2">
 
