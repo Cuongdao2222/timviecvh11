@@ -41,12 +41,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
         <link href="{{ asset('download/css/TNredirect.css')}}" rel="stylesheet" type="text/css" media="screen"/>
         <link href="{{ asset('download/css/premium.css')}}" rel="stylesheet" type="text/css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
        
         <!-- <link rel="stylesheet" type="text/css" href="css/nav_vi.css?t=12032015" media="screen"/> -->
         <link href="{{ asset('download/js/jquery.multiselect.css')}}" rel="stylesheet" type="text/css"/>
         <link href="{{ asset('download/js/jquery-ui.css')}}" rel="stylesheet" type="text/css"/>
         <link href="{{ asset('download/css/jquery.fancybox-1.3.4.css')}}" rel="stylesheet" type="text/css"/>
         <link href="{{ asset('download/css/jquery-confirm.min.css')}}" rel="stylesheet" type="text/css"/>
+
+        <style type="text/css">
+            .search-jobs-main input.width_545, .search-jobs-main select.slc-mb,.searchvt1{
+                background: red !important;
+            }
+        </style>
         <script type="text/javascript" src="{{ asset('download/js/jquery-ui.min.js')}}"></script>
         <script type="text/javascript" src="{{ asset('download/js/jquery.multiselect.js')}}"></script>
         <script type="text/javascript" src="{{ asset('download/js/jquery.formatcurrency.js')}}"></script>
