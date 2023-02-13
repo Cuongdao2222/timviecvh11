@@ -59,6 +59,10 @@
             background: none !important;
             padding: 0 !important;
             }
+
+            .setfive{
+                display: flex;
+            }
         </style>
         <link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.min.css?ver=5.8.6' type='text/css' media='all'>
         <link rel='stylesheet' id='wp-pagenavi-css' href='wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all'>
@@ -129,92 +133,72 @@
 
                         <?php 
 
-
+                            $post = App\Models\post::paginate(10);
                         ?>
+
+                        @if(!empty($post))
+
+                        @foreach($post as $posts)
 
                         <article class="row mt-5">
                             <div class="col-12 col-lg-4">
-                                <a href="https://meovatgiadinh.vn/4-quan-lau-ngon-gia-ca-binh-dan-o-quan-8.html" title="4 quán lẩu ngon, giá cả bình dân ở quận 8">
-                                <img src="wp-content/uploads/2020/12/meovatgiadinh-4-quan-lau-ngon-gia-ca-binh-dan-o-quan-8.jpg" alt="4 quán lẩu ngon, giá cả bình dân ở quận 8" onerror="this.onerror=null;this.src='https://meovatgiadinh.vn/wp-content/themes/meovatgiadinh/assets/images/no-thumbnail.png';"></a>
+                                <a href="{{ route('blog_detail', $posts->link)}}" title="{{ @$posts->title }}">
+                                <img src="{{ asset('images/1653372151_data-analyst-careerbuilder.jpg') }}" alt="{{ @$posts->title }}" onerror="this.onerror=null;this.src='{{ asset(@$posts->image) }}';"></a>
                             </div>
                             <div class="col">
-                                <h2><a href="https://meovatgiadinh.vn/4-quan-lau-ngon-gia-ca-binh-dan-o-quan-8.html" title="4 quán lẩu ngon, giá cả bình dân ở quận 8">4 quán lẩu ngon, giá cả bình dân ở quận 8</a>
+                                <h2><a href="{{ route('blog_detail', $posts->link)}}" title="{{ @$posts->title }}">{{ @$posts->title }}</a>
                                 </h2>
                                 
                                 <div class="desc">
-                                    Bạn muốn tìm một quán lẩu ngon để thưởng thức với mức giá bình dân? Hãy cùng Mẹo vặt Gia đình điểm qua những quán lẩu ngon mà mức giá lại bình dân tại quận 8 nhé!                            <a href="https://meovatgiadinh.vn/4-quan-lau-ngon-gia-ca-binh-dan-o-quan-8.html" title="4 quán lẩu ngon, giá cả bình dân ở quận 8">Chi tiết <i class="far fa-long-arrow-right"></i> </a>
+                                    {{ @$posts->title }}                           
+                                    <a href="{{ route('blog_detail', $posts->link)}}" title="{{ @$posts->title }}">Chi tiết <i class="far fa-long-arrow-right"></i> </a>
                                 </div>
                             </div>
                         </article>
+
+                        @endforeach
+
+                        @endif
+
+
+                        {!!  $post !!}
                         
-                        <div class="paginate-group">
-                            <div class='wp-pagenavi' role='navigation'>
-                                <span aria-current='page' class='current'>1</span><a class="page larger" title="Page 2" href="top-list/page/2.html">2</a><a class="page larger" title="Page 3" href="top-list/page/3.html">3</a><a class="page larger" title="Page 4" href="top-list/page/4.html">4</a><a class="page larger" title="Page 5" href="top-list/page/5.html">5</a><span class='extend'>...</span><a class="nextpostslink" rel="next" aria-label="Next Page" href="top-list/page/2.html"><i class="fal fa-angle-right"></i></a>
-                            </div>
-                        </div>
+                        
                     </div>
-                    <div class="col-12 col-lg-4 sidebar" style="display: inherit;">
-                        <div class="sidebar-sticky-2">
-                            <div class="news-group  mt-4">
-                                <div class="news-group">
-                                    <a href="https://gocmeohay.com/" target="_blank" title="Góc Mẹo Hay - Cẩm Nang Các Mẹo Vặt Hay Trong Cuộc Sống">
-                                    <img style="max-width: 100%; border-radius: 5px;" src="wp-content/uploads/2022/09/thumb.png"  =""  =""  =""  =""  =""  =""  ="" alt="Góc Mẹo Hay - Cẩm Nang Các Mẹo Vặt Hay Trong Cuộc Sống">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="ad mt-4" style="min-height: 280px; max-width: 336px;">
-                                <!-- Sidebar 01 -->
-                                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9771722450338604" data-ad-slot="1292600754" data-ad-format="auto" data-full-width-responsive="true"></ins>
-                                <script>
-                                    (adsbygoogle = window.adsbygoogle || []).push({});
-                                </script>
-                            </div>
-                            
-                        </div>
-                    </div>
+
+                    
+
                 </div>
             </div>
         </section>
         <div class="text-center mt-5">
             <!-- Footer [V2] -->
-            <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-9771722450338604" data-ad-slot="5165193311"></ins>
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
+            
         </div>
-        <footer class="footer-container">
-            <div class="container">
-                <div class="row nav-group">
-                    <div class="col-12 col-lg address footer-col-item">
-                        <a class="logo" href="https://meovatgiadinh.vn/" title="Mẹo vặt Gia đình">
-                        <img src="wp-content/themes/meovatgiadinh/assets/images/logo.png" alt="Mẹo vặt Gia đình" title="Mẹo vặt Gia đình">
-                        </a>
-                        <p>Chia sẻ những kinh nghiệm hay trong cuộc sống.</p>
-                        <a href="https://meovatgiadinh.vn/lien-he.html">Liên hệ với chúng tôi.</a>
-                    </div>
-                    <div class="col-12 col-lg-6 footer-col-item mt-3 text-center text-lg-right">
-                        <a href="https://daiphatcoffee.com/" target="_blank" title="Cà phê sạch, rang xay nguyên chất Đại Phát">
-                        <img style="max-width: 100%; border-radius: 5px;" src="wp-content/themes/meovatgiadinh/assets/images/daiphatcoffee.png" alt="Cà phê sạch, rang xay nguyên chất Đại Phát">
-                        </a>
-                    </div>
+       <div class="section-page social-pre bg-odd">
+            <header class="container-fluid">
+                <h2 class="section-title">Kết nối với vieclamngon</h2>
+            </header>
+            <div class="col-sm-6 col-md-3 socialWrapper setfive">
+                <div class="col-xs-2 col-sm-2">
+                    <a class="socialIcon hvr-float-shadow" href="https://www.facebook.com/eurowindow.tuyendung/?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>
                 </div>
-                <div class="row">
-                    <div class="copyright-group">
-                        <div class="left">
-                            <span>Copyright ©
-                            2021 Mẹo vặt Gia đình. All Rights Reserved.</span>
-                        </div>
-                        <div class="right">
-                            <ul id="menu-footer-menu-04" class="">
-                                <li id="menu-item-2745" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2745"><a href="https://meovatgiadinh.vn/gioi-thieu.html">Giới thiệu</a></li>
-                                <li id="menu-item-18967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-18967"><a href="https://meovatgiadinh.vn/chinh-sach-bao-mat.html">Chính sách bảo mật</a></li>
-                                <li id="menu-item-25625" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25625"><a href="https://meovatgiadinh.vn/lien-he.html">Liên hệ</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="col-xs-2 col-sm-2">
+                    <a class="socialIcon hvr-float-shadow" href="https://www.linkedin.com/in/tuyen-dung-eurowindow-b0974538/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <div class="col-xs-2 col-sm-2">
+                    <a class="socialIcon hvr-float-shadow" href="https://www.youtube.com/watch?v=2Cd0a7YlMiA" target="_blank"><i class="fa fa-youtube"></i></a>
+                </div>
+                <div class="col-xs-2 col-sm-2">
+                    <a class="socialIcon hvr-float-shadow" href="" target="_blank"><i class="fa fa-twitter"></i></a>
+                </div>
+                <div class="col-xs-2 col-sm-2">
+                    <a class="socialIcon hvr-float-shadow" href="" target="_blank"><i class="fa fa-instagram"></i></a>
                 </div>
             </div>
-        </footer>
+        </div>
+
+
         <p id="toTop"><i class="fal fa-long-arrow-up"></i></p>
         <script src="wp-content/themes/meovatgiadinh/assets/scripts/jquery.min.js"></script>
         <script src="wp-content/themes/meovatgiadinh/assets/scripts/bootstrap.min.js"></script>

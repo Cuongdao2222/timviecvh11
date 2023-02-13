@@ -309,11 +309,11 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col-xs-3 btn-viewmore">
                             <a href="#" class="btn btn-block btn-primary">Xem thêm</a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="visible-xs visible-sm">
@@ -400,11 +400,11 @@
                             @endif
 
                         </div>
-                       <!--  <div class="row">
+                        <div class="row">
                             <div class="col-sm-2 col-sm-offset-5 btn-viewmore">
-                                <a class="btn btn-block btn-primary" href="tin-tuc-35A517C9/vi" class="btn btn-block btn-primary weight-bold">Xem thêm</a>
+                                <a class="btn btn-block btn-primary" href="{{ route('list-news') }}" class="btn btn-block btn-primary weight-bold">Xem thêm</a>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
