@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
-        <link rel="shortcut icon" href="{{ asset('wp-content/themes/meovatgiadinh/assets/images/favicon.png')}}">
+        <!-- <link rel="shortcut icon" href="{{ asset('wp-content/themes/meovatgiadinh/assets/images/favicon.png')}}"> -->
         <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('wp-content/themes/meovatgiadinh/assets/images/appleIcon.png')}}">
         <link rel="stylesheet" href="{{ asset('wp-content/themes/meovatgiadinh/assets/css/bootstrap.min.css')}}">
         <link rel="stylesheet" href="{{ asset('wp-content/themes/meovatgiadinh/assets/css/app.css')}}">
