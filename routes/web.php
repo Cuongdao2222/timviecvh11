@@ -65,6 +65,16 @@ Route::get('employers/register', 'Backend\employerController@index')->name('regi
 
 Route::get('employers_info', 'Backend\employerController@info_employer')->name('employers_info');
 
+
+Route::get('list-news', function () {
+
+    return view('frontend.listnews');
+
+})->name('list-news');
+
+
+
+
 Route::get('employers-login', function () {
 
     return view('frontend.employer_login');

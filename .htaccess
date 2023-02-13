@@ -44,7 +44,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 
 RewriteCond %{REQUEST_URI} !^/public/
 
-RewriteRule ^(css|js)/(.*)$ public/$1/$2 [L,NC]
+RewriteRule ^(css|js|wp-content)/(.*)$ public/$1/$2 [L,NC]
 
 RewriteRule ^(uploads|media|seo|background|images|download)/(.*)$ public/$1/$2 [L,NC]
 

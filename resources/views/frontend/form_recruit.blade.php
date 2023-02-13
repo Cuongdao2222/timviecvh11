@@ -12,10 +12,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="shortcut icon" href="https://careerbuilder.vn/favicon_careerbuilder_v2.ico" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" type="text/css" href="{{ asset('css/form1.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/form1.css') }}?ver=2">
 
 <script src="{{ asset('js/form2.js') }}"></script>
-<script type="text/javascript"  src="https://static.careerbuilder.vn/js/jquery.masknumber.js"></script>
+<!-- <script type="text/javascript"  src="https://static.careerbuilder.vn/js/jquery.masknumber.js"></script> -->
 <script language="javascript">
     var is_mobile = 0;
     var widthWindowChosen = $(window).width();
@@ -43,10 +43,10 @@
 }
 </script>
 
-<script type="text/javascript" src="https://static.careerbuilder.vn/themes/employer/gallery/daterangepicker/moment.min.js"></script>
+<!-- <script type="text/javascript" src="https://static.careerbuilder.vn/themes/employer/gallery/daterangepicker/moment.min.js"></script>
 <script type="text/javascript" src="https://static.careerbuilder.vn/themes/employer/gallery/daterangepicker/moment-with-locales.min.js"></script>
-<script type="text/javascript" src="https://static.careerbuilder.vn/themes/employer/gallery/daterangepicker/daterangepicker.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://static.careerbuilder.vn/themes/employer/gallery/daterangepicker/daterangepicker.css" />
+<script type="text/javascript" src="https://static.careerbuilder.vn/themes/employer/gallery/daterangepicker/daterangepicker.min.js"></script> -->
+<!-- <link rel="stylesheet" type="text/css" href="https://static.careerbuilder.vn/themes/employer/gallery/daterangepicker/daterangepicker.css" /> -->
 
 <script>
    var language_common = {
@@ -96,9 +96,7 @@
    if(typeof language === 'undefined') var language = language_common;
    else $.extend(language, language_common);
 
-   var domainstatic = "https://static.careerbuilder.vn/";
-   var domain = "https://careerbuilder.vn/vi/";
-   var domainroot = "https://careerbuilder.vn";
+   
    var calendarlanguage = "";
 </script>
          </head>
@@ -165,7 +163,7 @@
     </div>
     <div class="mobile-menu">
         <div class="mobile-wrap">
-            <div class="header-logo"><a href="https://careerbuilder.vn/vi/employers" title="homepage-employers"><img src="https://images.careerbuilder.vn/logo/logo_1644552010.png" alt="https://images.careerbuilder.vn/logo/logo_1482896879_1489026739.png" title="https://images.careerbuilder.vn/logo/logo_1482896879_1489026739.png" /></a></div>
+            <!-- <div class="header-logo"><a href="https://careerbuilder.vn/vi/employers" title="homepage-employers"><img src="" alt="https://images.careerbuilder.vn/logo/logo_1482896879_1489026739.png" title="https://images.careerbuilder.vn/logo/logo_1482896879_1489026739.png" /></a></div> -->
             <div class="header-bottom">
                 <div class="header-bottom-top">
                                         <div class="profile">
@@ -232,9 +230,9 @@
 
 </style>
 
-    <script language="javascript" src="https://static.careerbuilder.vn/ckeditor445/ckeditor.js"></script>
+<!--     <script language="javascript" src="https://static.careerbuilder.vn/ckeditor445/ckeditor.js"></script>
     <script language="javascript" src="https://static.careerbuilder.vn/ckeditor445/adapters/jquery.js"></script>
-    <script type="text/javascript" src="https://static.careerbuilder.vn/js/jquery.formatcurrency.js" ></script>
+    <script type="text/javascript" src="https://static.careerbuilder.vn/js/jquery.formatcurrency.js" ></script> -->
     <script src='https://cdn.jsdelivr.net/npm/@goongmaps/goong-js@1.0.6/dist/goong-js.js'></script>
     <link href='https://cdn.jsdelivr.net/npm/@goongmaps/goong-js@1.0.6/dist/goong-js.css' rel='stylesheet' />
     <section class="employer-navbar-2-1">
@@ -267,13 +265,7 @@
         </div> -->
     </div>
 </section>
-<div class="last-login-user">
-    <div class="container">
-        <p> Đăng nhập gần đây:
-            <time>07-06-2022 10:42:35</time>
-        </p>
-    </div>
-</div>
+
 <section class="manage-job-posting-post-jobs cb-section bg-manage">
 <div class="container">
 <div class="box-manage-job-posting">
