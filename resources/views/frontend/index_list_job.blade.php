@@ -492,7 +492,7 @@
         <script>
         document.getElementById("save-button").addEventListener("click", function() {
           // Get the image URL
-          var imageUrl = "https://example.com/image.png";
+          var imageUrl = "https://dienmaynguoiviet.vn/uploads/product/1672817564_RT35K5982DX-km1.jpg";
 
           // Create an image element
           var img = new Image();
