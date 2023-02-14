@@ -269,7 +269,7 @@
             </style>
             <div id="11974" class="section-page page-content-pre bg-odd" >
 
-                <button class="" onclick="saveImageToClipboard('https://dienmaynguoiviet.vn/uploads/product/1672817137_RT29K5532BY-km1.jpg')">click</button>
+                <button  id="save-button">click</button>
 
                 <header class="container-fluid">
                     <h2 class="section-title" >Giới thiệu</h2>
@@ -489,26 +489,39 @@
         </div>
 
 
-        <script type="text/javascript">
-            
-            function saveImageToClipboard(imageUrl) {
-                const canvas = document.createElement('canvas');
-                const ctx = canvas.getContext('2d');
-                const image = new Image();
-                image.crossOrigin = 'Anonymous';
-                image.src = imageUrl;
-                image.onload = function() {
-                    canvas.width = image.width;
-                    canvas.height = image.height;
-                    ctx.drawImage(image, 0, 0);
-                    const dataUrl = canvas.toDataURL('image/png');
-                    const clipData = [new ClipboardItem({'image/png': new Blob([dataUrl], {type: 'image/png'})})];
-                    navigator.clipboard.write(clipData);
-                };
+        <script>
+        document.getElementById("save-button").addEventListener("click", function() {
+          // Get the image URL
+          var imageUrl = "https://example.com/image.png";
 
-                alert('save image thành công!')
-            }
+          // Create an image element
+          var img = new Image();
+          img.src = imageUrl;
+
+          // Add the image to the body
+          document.body.appendChild(img);
+
+          // Select the image
+          var range = document.createRange();
+          range.selectNode(img);
+          window.getSelection().addRange(range);
+
+          // Copy the image to the clipboard
+          document.execCommand("copy");
+
+          // Remove the image from the body
+          document.body.removeChild(img);
+
+          // Show a success message
+          alert("Image saved to clipboard");
+        });
         </script>
+
+
+
+
+
+
         
        
         <script type="text/javascript">
