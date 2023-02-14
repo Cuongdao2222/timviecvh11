@@ -429,19 +429,33 @@
             </header>
             <div class="col-sm-6 col-md-3 socialWrapper setfive">
                 <div class="col-xs-2 col-sm-2">
-                    <a class="socialIcon hvr-float-shadow" href="https://www.facebook.com/eurowindow.tuyendung/?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a class="socialIcon hvr-float-shadow" href="https://www.facebook.com/eurowindow.tuyendung/?fref=ts" target="_blank">
+                        <i class="fa fa-facebook fa-brands fa-facebook-f"></i>
+                         
+                    </a>
                 </div>
                 <div class="col-xs-2 col-sm-2">
-                    <a class="socialIcon hvr-float-shadow" href="https://www.linkedin.com/in/tuyen-dung-eurowindow-b0974538/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a class="socialIcon hvr-float-shadow" href="https://www.linkedin.com/in/tuyen-dung-eurowindow-b0974538/" target="_blank">
+
+                        <i class="fa fa-linkedin fa-brands fa-linkedin" aria-hidden="true"></i>
+
+
+                    </a>
                 </div>
                 <div class="col-xs-2 col-sm-2">
-                    <a class="socialIcon hvr-float-shadow" href="https://www.youtube.com/watch?v=2Cd0a7YlMiA" target="_blank"><i class="fa fa-youtube"></i></a>
+                    <a class="socialIcon hvr-float-shadow" href="https://www.youtube.com/watch?v=2Cd0a7YlMiA" target="_blank"><i class="fa fa-youtube fa-brands fa-youtube"></i></a>
                 </div>
                 <div class="col-xs-2 col-sm-2">
-                    <a class="socialIcon hvr-float-shadow" href="" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a class="socialIcon hvr-float-shadow" href="" target="_blank">
+                        
+                        <i class="fa fa-twitter fa-brands fa-twitter"></i>
+                    </a>
                 </div>
                 <div class="col-xs-2 col-sm-2">
-                    <a class="socialIcon hvr-float-shadow" href="" target="_blank"><i class="fa fa-instagram"></i></a>
+
+                    <a class="socialIcon hvr-float-shadow" href="" target="_blank">
+                        <i class="fa fa-instagram fa-instagram fa-brands fa-instagram"></i>
+                    </a>
                 </div>
             </div>
         </div>
