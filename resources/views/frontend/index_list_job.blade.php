@@ -491,29 +491,17 @@
 
         <script>
         document.getElementById("save-button").addEventListener("click", function() {
-          // Get the image URL
-          var imageUrl = "https://dienmaynguoiviet.vn/uploads/product/1672817564_RT35K5982DX-km1.jpg";
-
-          // Create an image element
-          var img = new Image();
-          img.src = imageUrl;
-
-          // Add the image to the body
-          document.body.appendChild(img);
-
-          // Select the image
-          var range = document.createRange();
-          range.selectNode(img);
-          window.getSelection().addRange(range);
-
-          // Copy the image to the clipboard
-          document.execCommand("copy");
-
-          // Remove the image from the body
-          document.body.removeChild(img);
-
-          // Show a success message
-          alert("Image saved to clipboard");
+            // Get the image URL
+            var $temp = $("<input>");
+            var $url = 'https://dienmaynguoiviet.vn/uploads/product/1672817564_RT35K5982DX-km1.jpg';  
+            
+            $("body").append($temp);
+            $temp.val($url).select();
+            document.execCommand("copy");
+            $temp.remove();
+         
+            // Show a success message
+            alert("Image saved to clipboard");
         });
         </script>
 
