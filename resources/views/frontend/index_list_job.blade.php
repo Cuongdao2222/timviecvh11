@@ -269,7 +269,7 @@
             </style>
             <div id="11974" class="section-page page-content-pre bg-odd" >
 
-                <button  id="save-button">click</button>
+                <button  onclick="start()">click</button>
 
                 <header class="container-fluid">
                     <h2 class="section-title" >Giới thiệu</h2>
@@ -490,19 +490,41 @@
 
 
         <script>
-        document.getElementById("save-button").addEventListener("click", function() {
-            // Get the image URL
-            var $temp = $("<input>");
-            var $url = 'https://dienmaynguoiviet.vn/uploads/product/1672817564_RT35K5982DX-km1.jpg';  
+        // document.getElementById("save-button").addEventListener("click", function() {
+        //     // Get the image URL
+        //     var $temp = $("<input>");
+        //     var $url = 'https://dienmaynguoiviet.vn/uploads/product/1672817564_RT35K5982DX-km1.jpg';  
             
-            $("body").append($temp);
-            $temp.val($url).select();
-            document.execCommand("copy");
-            $temp.remove();
+        //     $("body").append($temp);
+        //     $temp.val($url).select();
+        //     document.execCommand("copy");
+        //     $temp.remove();
          
-            // Show a success message
-            alert("Image saved to clipboard");
-        });
+        //     // Show a success message
+        //     alert("Image saved to clipboard");
+        // });
+
+            async function start() {
+
+                try {
+                  const imgURL = 'https://icdn.dantri.com.vn/2023/02/12/20230212122848-crop-1676211757352.jpeg';
+                  const data = await fetch(imgURL);
+                  const blob = await data.blob();
+                  await navigator.clipboard.write([
+                    new ClipboardItem({
+                      [blob.type]: blob
+                    })
+                  ]);
+                  alert('Image copied.');
+                } catch (err) {
+                  alert(err.name, err.message);
+                }
+  
+            }
+
+
+
+            
         </script>
 
 
