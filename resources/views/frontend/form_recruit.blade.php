@@ -735,7 +735,7 @@
         <div class="col-lg-3">
             <div class="form-group form-date">
                 <label>Hạn nhận hồ sơ <font style="color: red">*</font></label>
-                <input type="text" name="JOB_LASTDATE" id="JOB_LASTDATE" class="dates_cus_select_postjob required" value="" readonly  />
+                <input type="text" name="JOB_LASTDATE" id="JOB_LASTDATE" class="dates_cus_select_postjob required" value="" />
                 <div class="icon"><em class="material-icons">event</em></div>
                 <span class="form-error error_job_lastdate"></span>
             </div>
@@ -2151,7 +2151,7 @@ function checkWebsite(str){var re=/^[\w-]+([\w-]+\.)+[a-z0-9]+([\-\.]{1}[a-z0-9]
                            </main>
             <footer class="for-customers">
     <div class="container">
-        <section class="top-footer cb-section cb-section-border-bottom">
+        <!-- <section class="top-footer cb-section cb-section-border-bottom">
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
                     <div class="logo"><img src="./img/logo-w.png" alt=""></div>
@@ -2241,7 +2241,7 @@ function checkWebsite(str){var re=/^[\w-]+([\w-]+\.)+[a-z0-9]+([\-\.]{1}[a-z0-9]
                     <em class="lnr lnr-arrow-up"></em>
                 </div>
             </div>
-        </section>
+        </section> -->
     </div>
 </footer>
 <a class="feedback-btn" data-fancybox="" data-type="ajax" data-src="https://careerbuilder.vn/vi/jobseekers/index/sendfeedback?from=employer&newlayout=1" title="Feedback" href="javascript:void(0);"><span>Feedback</span></a><script>/*employer-common.js*/
