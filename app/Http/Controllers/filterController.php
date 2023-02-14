@@ -19,6 +19,7 @@ class filterController extends Controller
         $address = $request->address;
 
         $industry = $request->industry;
+
         
         $job = DB::table('employer_registers')->join('job', 'employer_registers.id', '=', 'job.employer_id')->join('employ_info', 'employer_registers.id', '=', 'employ_info.employ_id')->where('job.title','LIKE', '%'. $datas .'%')->OrWhere('employ_info.name', 'LIKE', '%' . $datas . '%')->select('job.title', 'job.id', 'employ_info.name', 'employ_info.logo', 'employ_info.links', 'job.link', 'job.salary', 'job.address_job')->get();
        
@@ -32,7 +33,7 @@ class filterController extends Controller
     {
         $datas = trim($request->keyword);
 
-        $address = $request->local;
+        $address = $request->location;
 
         $industry = $request->industry;
 
