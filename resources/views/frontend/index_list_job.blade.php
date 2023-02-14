@@ -268,9 +268,6 @@
                 #bgvid1 { position: absolute; min-height:100%; height:auto; }
             </style>
             <div id="11974" class="section-page page-content-pre bg-odd" >
-
-                <button  onclick="start()">click</button>
-
                 <header class="container-fluid">
                     <h2 class="section-title" >Giới thiệu</h2>
                 </header>
@@ -504,23 +501,27 @@
         //     alert("Image saved to clipboard");
         // });
 
-            async function start() {
-
-                try {
-                  const imgURL = 'https://icdn.dantri.com.vn/2023/02/12/20230212122848-crop-1676211757352.jpeg';
-                  const data = await fetch(imgURL);
-                  const blob = await data.blob();
-                  await navigator.clipboard.write([
-                    new ClipboardItem({
-                      [blob.type]: blob
-                    })
-                  ]);
-                  alert('Image copied.');
-                } catch (err) {
-                  alert(err.name, err.message);
-                }
-  
+            async function getImageBlobFromUrl(url) {
+              const fetchedImageData = await fetch(url)
+              const blob = await fetchedImageData.blob()
+              return blob
             }
+
+            document.querySelector('.copy-button').addEventListener('click', async () => {
+              const src = 'https://png.pngtree.com/png-vector/20211220/ourlarge/pngtree-tree-and-roots-logo-png-image_4077826.png';
+              try {
+                const blob = await getImageBlobFromUrl(src)
+                await navigator.clipboard.write([
+                  new ClipboardItem({
+                    [blob.type]: blob
+                  })
+                ])
+                alert('Image copied to clipboard!')
+              } catch (err) {
+                console.error(err.name, err.message);
+                alert('There was an error while copying image to clipboard :/')
+              }
+            })
 
 
 
@@ -528,12 +529,6 @@
         </script>
 
 
-
-
-
-
-        
-       
         <script type="text/javascript">
             $(document).ready(function(){
                 var popup_success = ''; 
