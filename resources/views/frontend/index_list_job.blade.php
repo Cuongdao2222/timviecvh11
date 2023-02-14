@@ -385,7 +385,7 @@
 
                             <?php 
 
-                                $post =  App\Models\post::take(5)->get();
+                                $post =  App\Models\post::take(6)->get();
                             ?>
 
                             @if($post->count()>0)
