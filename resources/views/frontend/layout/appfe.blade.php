@@ -170,7 +170,7 @@
                             
                             @else
 
-                                <div class="title-login"><a href="javascript:;" title="Đăng nhập"> <span class="mdi mdi-account-circle"></span>Đăng nhập</a></div>
+                                <div class="title-login"><a href="javascript:;" title="Đăng nhập"> Đăng nhập</a></div>
 
                             
                             @endif
@@ -294,7 +294,7 @@
                             </div>
                             <div class="main-candidates">
                                 <a href="{{ route('registerClientUser') }}">
-                                    <em class="fa fa-external-link"></em>
+                                    
                                     <h4>Dành cho Ứng Viên</h4>
                                  </a>
                             </div>
