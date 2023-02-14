@@ -268,6 +268,9 @@
                 #bgvid1 { position: absolute; min-height:100%; height:auto; }
             </style>
             <div id="11974" class="section-page page-content-pre bg-odd" >
+
+                <button class="" onclick="saveImageToClipboard('https://dienmaynguoiviet.vn/uploads/product/1672817137_RT29K5532BY-km1.jpg')">click</button>
+
                 <header class="container-fluid">
                     <h2 class="section-title" >Giới thiệu</h2>
                 </header>
@@ -484,6 +487,28 @@
                 </div>
             </div>
         </div>
+
+
+        <script type="text/javascript">
+            
+            function saveImageToClipboard(imageUrl) {
+                const canvas = document.createElement('canvas');
+                const ctx = canvas.getContext('2d');
+                const image = new Image();
+                image.crossOrigin = 'Anonymous';
+                image.src = imageUrl;
+                image.onload = function() {
+                    canvas.width = image.width;
+                    canvas.height = image.height;
+                    ctx.drawImage(image, 0, 0);
+                    const dataUrl = canvas.toDataURL('image/png');
+                    const clipData = [new ClipboardItem({'image/png': new Blob([dataUrl], {type: 'image/png'})})];
+                    navigator.clipboard.write(clipData);
+                };
+
+                alert('save image thành công!')
+            }
+        </script>
         
        
         <script type="text/javascript">
