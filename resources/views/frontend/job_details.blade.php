@@ -24,7 +24,7 @@
             <div class="row no-gutters">
                 <div class="col-12 mb-15">
                     <section class="apply-now-banner  ">
-                        <div class="image"><img src="https://images.careerbuilder.vn/content/news/1.jpg" alt=""></div>
+                        <div class="image"></div>
                         <div class="apply-now-content">
                             <div class="job-desc">
                                 <h1 class="title">{{ @$data->title }}</h1>
@@ -90,7 +90,7 @@
                                                 <div class="map">
                                                     <strong><em class="mdi mdi-map-marker"></em>Địa điểm</strong>
                                                     <p><a href="https://careerbuilder.vn/viec-lam/ho-chi-minh-l8-vi.html">{{ $address[$data->address_job] }}</a></p>
-                                                    <a href="javascript:void(0)" onclick="show_map_detail_job();"><img src="img/icon-map.svg"></a>
+                                                    <a href="javascript:void(0)" onclick="show_map_detail_job();"></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -222,7 +222,7 @@
                                                                 <input type="text" name="captcha" id="captcha" autocomplete="off" placeholder="Mã xác nhận" onkeyup="this.setAttribute('value', this.value);" value="">
                                                                 <p class="text-validate error_captcha" ></p>
                                                             </div>
-                                                            <div id="captchaim"  style="float:left" class="form-group" ><img width="150" height="50" alt="" src="https://images.careerbuilder.vn/rws/captcha/af07d8ff32512a92e980182265b1a4a6.png" class="img_code" /><input type="hidden" name="key_captcha" id="key_captcha" value="af07d8ff32512a92e980182265b1a4a6"></div>
+                                                            <div id="captchaim"  style="float:left" class="form-group" ><input type="hidden" name="key_captcha" id="key_captcha" value="af07d8ff32512a92e980182265b1a4a6"></div>
                                                             <a style="padding-left: 10px" onclick="refeshImgCaptcha('captchaim');" href="javascript:void(0);" class="line_bot" id="trynewcode">Thử mã mới</a> 
                                                             <div class="form-group" style="clear:left">
                                                                 <button class="btn-send-report" onclick="saveFeedbackJob();return false;"> Báo xấu </button>
@@ -356,8 +356,7 @@
                                                     <div class="figure">
                                                         <div class="image">
                                                             <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-may-theu-giay-an-phuoc.35A4F400.html" target="_blank">
-                                                            <img
-                                                                class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot6/2816/110x55/74705logoap.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công Ty TNHH May Thêu Giày An Phước">
+                                                            
                                                             </a>
                                                         </div>
                                                         <div class="figcaption">
@@ -451,7 +450,7 @@
                                                         <div class="figure">
                                                             <div class="image">
                                                                 <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/he-thong-nha-hang-nhat-tokyo-deli.35A77DB7.html" target="_blank"  title="Hệ thống nhà hàng Nhật Tokyo Deli">
-                                                                <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot3/169143/67x67/141234standardlogo_001.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Hệ thống nhà hàng Nhật Tokyo Deli">
+                                                                
                                                                 </a>
                                                             </div>
                                                             <div class="figcaption">
