@@ -122,18 +122,7 @@
                         </div>
                     </div>
                     <div class="right-wrap">
-                        <div class="main-noti dropdown">
-                            <a href="javascript:void(0)" title="Thông Báo Việc Làm"> <span class="mdi mdi-bell"></span></a>
-                            <div class="dropdown-menu">
-                                <div class="noti">
-                                    <p>
-                                    <p>Chào mừng bạn đến CareerBuilder.vn</p>
-                                    <p>Đăng nhập ngay để xem việc làm phù hợp với bạn, nhà tuyển dụng đã xem hồ sơ của bạn và cập nhật nhiều hơn nữa ...<br><br></p>
-                                    </p>
-                                    <a class="email" href="javascript:void(0)" title="Tạo Ngay">Tạo Ngay</a> 
-                                </div>
-                            </div>
-                        </div>
+                       
 
 
                         @if(\Request::route()->getName()=='home')
