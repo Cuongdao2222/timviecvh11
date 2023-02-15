@@ -37,7 +37,7 @@ class adminController extends Controller
 
     public function banner()
     {
-
+    
         return view('admin.banner');
     }
 
@@ -176,8 +176,9 @@ class adminController extends Controller
 
             $path = 'images/upload/banner';
 
-            $request->file('image')->move($path, $name, 'local');
+            $move = $request->file('image')->move($path, $name, 'public');
 
+            
             $filePath = $path. '/'.$name;
 
             $input['image'] = $filePath;

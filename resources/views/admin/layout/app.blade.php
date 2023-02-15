@@ -197,7 +197,7 @@
                                 
                             </script>
                             <li class="nav-item">
-                                <a href="/admin/banner"
+                                <a href="{{  route('admin-banner')  }}"
                                     class="nav-link ">
                                     <p>Banner</p>
                                 </a>

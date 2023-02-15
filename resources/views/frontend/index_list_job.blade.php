@@ -228,7 +228,12 @@
                 <div id="banner-video">
                     <div class="filter-videos"></div>
 
-                    <img src="{{ asset('images/banner-home.jpg') }}">
+                    <?php 
+
+                        $banners =  App\Models\banners::where('id', 5)->first();
+                    ?>
+
+                    <img src="{{ asset($banners->image) }}">
                     
                 </div>
                 <div class="container-search">
