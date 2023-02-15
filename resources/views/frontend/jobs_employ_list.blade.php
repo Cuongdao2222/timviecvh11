@@ -173,10 +173,11 @@
                                     <tr>
                                         <th width="1%"></th>
                                         <th width="12%">Chức danh</th>
-                                        <th width="12%" onclick="setTypeSort('posting', 'asc', 3)">Ngày đăng<em class="material-icons">arrow_drop_down</em></th>
-                                        <th width="10%" onclick="setTypeSort('posting', 'asc', 4)">Hết hạn<em class="material-icons">sort</em></th>
-                                        <th width="10%" onclick="setTypeSort('posting', 'asc', 0)">Lượt Xem<em class="material-icons">sort</em></th>
-                                        <th width="10%" onclick="setTypeSort('posting', 'asc', 1)">Lượt Nộp<em class="material-icons">sort</em></th>
+                                        <th width="12%" onclick="setTypeSort('posting', 'asc', 3)">Ngày đăng
+                                        </th>
+                                        <th width="10%" onclick="setTypeSort('posting', 'asc', 4)">Hết hạn</th>
+                                        <th width="10%" onclick="setTypeSort('posting', 'asc', 0)">Lượt Xem</th>
+                                        <th width="10%" onclick="setTypeSort('posting', 'asc', 1)">Lượt Nộp</th>
                                        <!--  <th width="10%">CV Gợi Ý</th> -->
                                         <th width="15%">Sửa</th>
                                     </tr>

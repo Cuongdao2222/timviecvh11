@@ -1,5 +1,7 @@
 @extends('frontend.layout.appfe')
-@section('content')			
+@section('content')	
+
+		
 <main>
     <link rel="stylesheet" type="text/css" href="{{ asset('css/employer_dashboard.css') }}">
     <style>/*Chart.css*/

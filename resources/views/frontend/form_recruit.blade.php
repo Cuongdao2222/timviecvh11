@@ -14,7 +14,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" type="text/css" href="{{ asset('css/form1.css') }}?ver=2">
 
-<script src="{{ asset('js/form2.js') }}"></script>
+<!-- <script src="{{ asset('js/form2.js') }}"></script> -->
 <!-- <script type="text/javascript"  src="https://static.careerbuilder.vn/js/jquery.masknumber.js"></script> -->
 <script language="javascript">
     var is_mobile = 0;
@@ -24,29 +24,24 @@
    var memberLogin = "yes";
 </script>
 
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name":"Careerbuilder Vietnam",
-    "alternateName" : "careerbuilder.vn",
-    "url": "https://careerbuilder.vn/",
-    "sameAs" : [
-        "https://www.facebook.com/CareerbuilderVietnam/",
-        "https://www.linkedin.com/company/3216963/"
-    ],
-    "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://careerbuilder.vn/viec-lam/{search_term_string}-k-vi.html",
-        "query-input": "required name=search_term_string"
-    }
-}
-</script>
+<script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous"></script>
+
+
 
 <!-- <script type="text/javascript" src="https://static.careerbuilder.vn/themes/employer/gallery/daterangepicker/moment.min.js"></script>
 <script type="text/javascript" src="https://static.careerbuilder.vn/themes/employer/gallery/daterangepicker/moment-with-locales.min.js"></script>
 <script type="text/javascript" src="https://static.careerbuilder.vn/themes/employer/gallery/daterangepicker/daterangepicker.min.js"></script> -->
 <!-- <link rel="stylesheet" type="text/css" href="https://static.careerbuilder.vn/themes/employer/gallery/daterangepicker/daterangepicker.css" /> -->
+<style type="text/css">
+    .manage-job-posting-post-jobs .form-group.form-select-chosen select {
+
+        display: block !important;
+    } 
+</style>
+   
 
 <script>
    var language_common = {
@@ -1998,23 +1993,7 @@ function checkWebsite(str){var re=/^[\w-]+([\w-]+\.)+[a-z0-9]+([\-\.]{1}[a-z0-9]
                 $('.dates').on('apply.daterangepicker', function(ev, picker) {
                     $(this).val(picker.startDate.format('DD/MM/YYYY'));
                 });
-                CKEDITOR.env.isCompatible = true;
-                $("textarea.editor").ckeditor(function(){}, {
-                    toolbar: 'Basic',
-                    skin: 'bootstrapck'
-                });
-                CKEDITOR_JOB = CKEDITOR.instances.job_desc;
-                CKEDITOR_REQ = CKEDITOR.instances.job_req;
-                CKEDITOR.instances.job_desc.on('blur', function() {
-                    if($.trim($("#job_desc").val()).length > 10){
-                        //$('#div_jobdesc').find('.form-error').remove();
-                    }
-                });
-                CKEDITOR.instances.job_req.on('blur', function() {
-                    if($.trim($("#job_req").val()).length > 10){
-                        //$('#div_jobreq').find('.form-error').remove();
-                    }
-                });
+                
                 $('.auto_suggest').autoComplete({
                     minChars: 3,
                     source: function(term, response){
@@ -2622,25 +2601,9 @@ ulr+="_desc";}
 window.location=ulr;}
 </script>
 
-<!-- Google Tag Manager -->
-<noscript>
-<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTKWM2" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KTKWM2');</script>
-<!-- End Google Tag Manager -->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/584f5b7ff9976a1964d1c920/default';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
 
-</script>
-<script>$(document).ready(function() {$("img.lazy-new").lazy();});$.fancybox.defaults.hash=false;$.fancybox.defaults.backFocus=false;</script>
+
+
 <div class="page-loader" id="page-loading"><div class="lds-roller">
     <div>
     </div>

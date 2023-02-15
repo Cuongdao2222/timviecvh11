@@ -12,10 +12,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="shortcut icon" href="https://careerbuilder.vn/favicon_careerbuilder_v2.ico" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" type="text/css" href="{{ asset('css/form1.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/form1.css') }}?ver=22">
 
 <script src="{{ asset('js/form2.js') }}"></script>
-<script type="text/javascript"  src="https://static.careerbuilder.vn/js/jquery.masknumber.js"></script>
+<!-- <script type="text/javascript"  src="https://static.careerbuilder.vn/js/jquery.masknumber.js"></script> -->
 <script language="javascript">
     var is_mobile = 0;
     var widthWindowChosen = $(window).width();
@@ -42,11 +42,11 @@
     }
 }
 </script>
-
+<!-- 
 <script type="text/javascript" src="https://static.careerbuilder.vn/themes/employer/gallery/daterangepicker/moment.min.js"></script>
 <script type="text/javascript" src="https://static.careerbuilder.vn/themes/employer/gallery/daterangepicker/moment-with-locales.min.js"></script>
 <script type="text/javascript" src="https://static.careerbuilder.vn/themes/employer/gallery/daterangepicker/daterangepicker.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://static.careerbuilder.vn/themes/employer/gallery/daterangepicker/daterangepicker.css" />
+<link rel="stylesheet" type="text/css" href="https://static.careerbuilder.vn/themes/employer/gallery/daterangepicker/daterangepicker.css" /> -->
 
 <script>
    var language_common = {
@@ -165,7 +165,10 @@
     </div>
     <div class="mobile-menu">
         <div class="mobile-wrap">
-            <div class="header-logo"><a href="https://careerbuilder.vn/vi/employers" title="homepage-employers"><img src="https://images.careerbuilder.vn/logo/logo_1644552010.png" alt="https://images.careerbuilder.vn/logo/logo_1482896879_1489026739.png" title="https://images.careerbuilder.vn/logo/logo_1482896879_1489026739.png" /></a></div>
+            <div class="header-logo"><a href="https://careerbuilder.vn/vi/employers" title="homepage-employers">
+                <!-- <img src="https://images.careerbuilder.vn/logo/logo_1644552010.png" alt="https://images.careerbuilder.vn/logo/logo_1482896879_1489026739.png" title="https://images.careerbuilder.vn/logo/logo_1482896879_1489026739.png" /> -->
+            </a>
+            </div>
             <div class="header-bottom">
                 <div class="header-bottom-top">
                                         <div class="profile">
@@ -232,9 +235,9 @@
 
 </style>
 
-    <script language="javascript" src="https://static.careerbuilder.vn/ckeditor445/ckeditor.js"></script>
+   <!--  <script language="javascript" src="https://static.careerbuilder.vn/ckeditor445/ckeditor.js"></script>
     <script language="javascript" src="https://static.careerbuilder.vn/ckeditor445/adapters/jquery.js"></script>
-    <script type="text/javascript" src="https://static.careerbuilder.vn/js/jquery.formatcurrency.js" ></script>
+    <script type="text/javascript" src="https://static.careerbuilder.vn/js/jquery.formatcurrency.js" ></script> -->
     <script src='https://cdn.jsdelivr.net/npm/@goongmaps/goong-js@1.0.6/dist/goong-js.js'></script>
     <link href='https://cdn.jsdelivr.net/npm/@goongmaps/goong-js@1.0.6/dist/goong-js.css' rel='stylesheet' />
     <section class="employer-navbar-2-1">
@@ -294,7 +297,7 @@ function ajaxPhotoUpload()
             }
             else
             {
-               $("#list-image").append('<div class="image-item"><img src="' + data.path + '"><a class="btn-del-img company-btn-del-img" href="javascript:void(0);" data-src="' + data.msg + '" title="Xóa ảnh\"><em class="material-icons">clear</em></a></div>');
+               $("#list-image").append('<div class="image-item"><img src="' + data.path + '"><a class="btn-del-img company-btn-del-img" href="javascript:void(0);" data-src="' + data.msg + '" title="Xóa ảnh\"></a></div>');
                    $('#isdisplay').prop('disabled', false);
                if(strPhoto != '')
                      strPhoto += ',';
@@ -1106,7 +1109,7 @@ function checkWebsite(str){var re=/^[\w-]+([\w-]+\.)+[a-z0-9]+([\-\.]{1}[a-z0-9]
                         <input type="checkbox" id="0-1">
                         <label for="0-1">Bảo mật địa điểm làm việc</label>
                     </div>
-                    <a class="btn-delete ml-40 mt-5 delete-location-more" href="javascript:void(0)"><em class="material-icons">highlight_off</em>Xóa</a>
+                    <a class="btn-delete ml-40 mt-5 delete-location-more" href="javascript:void(0)">Xóa</a>
                 </div>
             </div>
         </div>
@@ -1507,10 +1510,10 @@ function chcknumber(){var from_exp=$('#JOB_FROMEXPERIENCE').val();var to_exp=$('
 function removeFormatWord(input){var stringStripper=/(\n|\r| class=(")?Mso[a-zA-Z]+(")?)/g;var output=input.replace(stringStripper,' ');var commentSripper=new RegExp('<!--(.*?)-->','g');var output=output.replace(commentSripper,'');var tagStripper=new RegExp('<(/)*(meta|link|span|\\?xml:|st1:|o:|font)(.*?)>','gi');output=output.replace(tagStripper,'');var badTags=['style','script','applet','embed','noframes','noscript'];for(var i=0;i<badTags.length;i++){tagStripper=new RegExp('<'+badTags[i]+'.*?'+badTags[i]+'(.*?)>','gi');output=output.replace(tagStripper,'');}
 var badAttributes=['style','start'];for(var i=0;i<badAttributes.length;i++){var attributeStripper=new RegExp(' '+badAttributes[i]+'="(.*?)"','gi');output=output.replace(attributeStripper,'');}
 return output;}
-function loadTagKey(){var job_title=$.trim($('#job_title').val());if(job_title!=''){$.ajax({type:"POST",url:domain+'employers/postjobs/loadtagkey',dataType:'JSON',data:{'job_title':job_title},success:function(rs){if(rs){$.each(rs,function(key,val){if(val.arrKey){$('#list-tag').html('');var tagStripper=new RegExp('[0-9,\(|\)]','g');job_title=job_title.replace(tagStripper,'');$("#list-tag").append('<div class="tag-item"><p>'+job_title+'</p><a class="delete-tag" onclick="return removeWord(this)" href="javascript:void(0)"> <em class="material-icons">clear </em></a><input type="hidden" name="synonym[]" value="'+job_title+'" /></div>');$.each(val.arrKey,function(key1,val1){$("#list-tag").append('<div class="tag-item"><p>'+val1+'</p><a class="delete-tag" onclick="return removeWord(this)" href="javascript:void(0)"> <em class="material-icons">clear </em></a><input type="hidden" name="synonym[]" value="'+val1+'" /></div>');});}});}else{var tagStripper=new RegExp('[0-9,\(|\)]','g');job_title=job_title.replace(tagStripper,'');$("#list-tag").append('<div class="tag-item"><p>'+job_title+'</p><a class="delete-tag" onclick="return removeWord(this)" href="javascript:void(0)"> <em class="material-icons">clear </em></a><input type="hidden" name="synonym[]" value="'+job_title+'" /></div>');}}})}}
+function loadTagKey(){var job_title=$.trim($('#job_title').val());if(job_title!=''){$.ajax({type:"POST",url:domain+'employers/postjobs/loadtagkey',dataType:'JSON',data:{'job_title':job_title},success:function(rs){if(rs){$.each(rs,function(key,val){if(val.arrKey){$('#list-tag').html('');var tagStripper=new RegExp('[0-9,\(|\)]','g');job_title=job_title.replace(tagStripper,'');$("#list-tag").append('<div class="tag-item"><p>'+job_title+'</p><a class="delete-tag" onclick="return removeWord(this)" href="javascript:void(0)"> </a><input type="hidden" name="synonym[]" value="'+job_title+'" /></div>');$.each(val.arrKey,function(key1,val1){$("#list-tag").append('<div class="tag-item"><p>'+val1+'</p><a class="delete-tag" onclick="return removeWord(this)" href="javascript:void(0)"> </a><input type="hidden" name="synonym[]" value="'+val1+'" /></div>');});}});}else{var tagStripper=new RegExp('[0-9,\(|\)]','g');job_title=job_title.replace(tagStripper,'');$("#list-tag").append('<div class="tag-item"><p>'+job_title+'</p><a class="delete-tag" onclick="return removeWord(this)" href="javascript:void(0)"> </a><input type="hidden" name="synonym[]" value="'+job_title+'" /></div>');}}})}}
 function addWord(){var arrJobTags=[];var str=$('#synonym').val();if($.trim(str)!=''){if(str.length>50){show_noti(2,language.emp_resume_tag_limit);$('#synonym').focus();return false;}
 var found=false;var lw_str;if(arrJobTags.length<1){$('#list-tag input[type="hidden"]').each(function(){lw_str=$(this).val().toLowerCase();lw_str=$.trim(lw_str);if($.inArray(lw_str,arrJobTags)<0)arrJobTags.push(lw_str);});}
-lw_str=str.toLowerCase();lw_str=$.trim(lw_str);if($.inArray(lw_str,arrJobTags)<0){arrJobTags.push(lw_str);$("#list-tag").append('<div class="tag-item"><p>'+str+'</p><a class="delete-tag" onclick="return removeWord(this)" href="javascript:void(0)"> <em class="material-icons">clear </em></a><input type="hidden" name="synonym[]" value="'+str+'" /></div>');}
+lw_str=str.toLowerCase();lw_str=$.trim(lw_str);if($.inArray(lw_str,arrJobTags)<0){arrJobTags.push(lw_str);$("#list-tag").append('<div class="tag-item"><p>'+str+'</p><a class="delete-tag" onclick="return removeWord(this)" href="javascript:void(0)"> </a><input type="hidden" name="synonym[]" value="'+str+'" /></div>');}
 $('#synonym').val('').focus();}
 return false;}
 function removeWord(obj){$(obj).parent().remove();return false;}
@@ -1754,7 +1757,7 @@ if($(this).scrollLeft()==0)
 {buttonPrev.addClass('disabled');}else{buttonPrev.removeClass('disabled');}});}
 function save_resume_to_ts(){$('.save_resume_to_ts').on('click',function(e){e.preventDefault();$(this).prop('disabled',true);$(this).off("click");var resume_id=$("#resume_id").val();if(typeof(resume_id)=="undefined"){show_noti(2,language.save_resume_ts_msg_view_contact);return false;}
 $.ajax({type:"POST",url:domain+'employers/popup/saveresumetots',data:{'jobTS_id':$("#jobTS_id").val(),'resume_id':resume_id},beforeSend:function(){$("#save_resume_ts_msg").remove()},success:function(obj){if(obj&&obj!=0){show_noti(1,language.save_resume_ts_msg_success);let time_to_ts=obj;$("#box_save_resume_ts").prepend('<div class="doc-success">\
-                            <p id="save_resume_ts_msg" class="text-success"><em class="material-icons">check_circle</em>'+language.save_resume_ts_msg+' '+time_to_ts+'</p>\
+                            <p id="save_resume_ts_msg" class="text-success">'+language.save_resume_ts_msg+' '+time_to_ts+'</p>\
                         </div>');}else{show_noti(2,language.save_resume_ts_msg_fail);}}});});}
 function searchResumeApply(){if(Date.parse($('#strFromDate').val())>Date.parse($('#strToDate').val())){show_noti(2,language.emp_manageresume_search_date_invalid);return false;}
 var strLink=domain+"employers/hrcentral/manageresume/"+folder_type+'/'+hexFolderID+'/';var keyword=$('#strKeyword').val().replace(/\//g,"");if(keyword){if(checkInputNormalText(keyword)==false){show_noti(2,language.emp_hrcentral_validate_keyword);return false}
@@ -1803,10 +1806,7 @@ ulr+="_desc";}
 window.location=ulr;}
 </script>
 
-<!-- Google Tag Manager -->
-<noscript>
-<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTKWM2" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
+
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KTKWM2');</script>
 <!-- End Google Tag Manager -->
 <script type="text/javascript">
