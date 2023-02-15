@@ -472,7 +472,7 @@
                                                         <div class="figure">
                                                             <div class="image">
                                                                 <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-dau-tu-dich-vu-hum-viet-nam.35A87FA0.html" target="_blank"  title="CÔNG TY TNHH ĐẦU TƯ DỊCH VỤ HUM VIỆT NAM">
-                                                                <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot8/235168/67x67/13580310974373.png" src="../kiemviecv32/images/graphics/blank.gif" alt="CÔNG TY TNHH ĐẦU TƯ DỊCH VỤ HUM VIỆT NAM">
+                                                                
                                                                 </a>
                                                             </div>
                                                             <div class="figcaption">
@@ -494,7 +494,7 @@
                                                         <div class="figure">
                                                             <div class="image">
                                                                 <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/mf-viet-nam-information-technology-co-ltd.35A80ECC.html" target="_blank"  title="MF Viet Nam Information Technology Co.,Ltd">
-                                                                <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot4/206284/67x67/90857logomf.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="MF Viet Nam Information Technology Co.,Ltd">
+                                                                
                                                                 </a>
                                                             </div>
                                                             <div class="figcaption">
@@ -516,7 +516,7 @@
                                                         <div class="figure">
                                                             <div class="image">
                                                                 <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-dtsx-bao-ngoc.35A8F06A.html" target="_blank"  title="Công Ty Cổ Phần ĐTSX Bảo Ngọc">
-                                                                <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot2/264042/67x67/161921bnagroup.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công Ty Cổ Phần ĐTSX Bảo Ngọc">
+                                                                
                                                                 </a>
                                                             </div>
                                                             <div class="figcaption">
@@ -538,7 +538,7 @@
                                                         <div class="figure">
                                                             <div class="image">
                                                                 <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-binh-viet-duc-bivid.35A8D45E.html" target="_blank"  title="Công ty TNHH Bình Việt Đức (BIVID)">
-                                                                <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot2/256862/67x67/121241logo-bivid_chuan.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Công ty TNHH Bình Việt Đức (BIVID)">
+                                                                
                                                                 </a>
                                                             </div>
                                                             <div class="figcaption">
@@ -560,7 +560,7 @@
                                                         <div class="figure">
                                                             <div class="image">
                                                                 <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-lien-doanh-vinh-hung-tmi-viet-nam.35A8E27D.html" target="_blank"  title="Công ty TNHH, Liên Doanh Vĩnh Hưng (TMI Việt Nam)">
-                                                                <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot7/260477/67x67/94530logocty.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công ty TNHH, Liên Doanh Vĩnh Hưng (TMI Việt Nam)">
+                                                                
                                                                 </a>
                                                             </div>
                                                             <div class="figcaption">
@@ -582,7 +582,7 @@
                                                         <div class="figure">
                                                             <div class="image">
                                                                 <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-bat-dong-san-grandland.35A8B759.html" target="_blank"  title="CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN GRANDLAND">
-                                                                <img class="lazy-hidden" data-src="https://static.careerbuilder.vn/themes/kiemviecv32/images/graphics/logo-default.png" src="../kiemviecv32/images/graphics/blank.gif" alt="CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN GRANDLAND">
+                                                                
                                                                 </a>
                                                             </div>
                                                             <div class="figcaption">
@@ -604,7 +604,7 @@
                                                         <div class="figure">
                                                             <div class="image">
                                                                 <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-thoi-trang-an-viet-vm-style.35A8D54D.html" target="_blank"  title="Công ty TNHH Thời trang An Việt (VM STYLE)">
-                                                                <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot1/257101/67x67/170850logotrang.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công ty TNHH Thời trang An Việt (VM STYLE)">
+                                                                
                                                                 </a>
                                                             </div>
                                                             <div class="figcaption">
@@ -626,7 +626,7 @@
                                                         <div class="figure">
                                                             <div class="image">
                                                                 <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/tap-doan-ktg.35A882DE.html" target="_blank"  title="Tập đoàn KTG">
-                                                                <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot8/235998/67x67/80145logoktg.png" src="../kiemviecv32/images/graphics/blank.gif" alt="Tập đoàn KTG">
+                                                                
                                                                 </a>
                                                             </div>
                                                             <div class="figcaption">
@@ -648,7 +648,7 @@
                                                         <div class="figure">
                                                             <div class="image">
                                                                 <a href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-tap-doan-dau-tu-quoc-te-newa-group.35A8F2CC.html" target="_blank"  title="Công Ty Cổ Phần Tập Đoàn Đầu Tư Quốc Tế Newa Group">
-                                                                <img class="lazy-hidden" data-src="https://images.careerbuilder.vn/employer_folders/lot2/264652/67x67/91204hinhanhnewa.jpg" src="../kiemviecv32/images/graphics/blank.gif" alt="Công Ty Cổ Phần Tập Đoàn Đầu Tư Quốc Tế Newa Group">
+                                                                
                                                                 </a>
                                                             </div>
                                                             <div class="figcaption">
@@ -751,7 +751,7 @@
 
                                 <div class="job-item">
                                     <div class="figure">
-                                        <div class="image"> <a href="{{ route('job_details', [$val->link, $val->id]) }}" target="_blank" title="Hệ thống nhà hàng Nhật Tokyo Deli"> <img  class="lazy-bg" data-src="{{ asset('picture/'.basename(str_replace('..','',$val->logo))) }}" src="{{ asset('picture/'.basename(str_replace('..','',$val->logo))) }}" alt="{{ $val->title }}"> </a> </div>
+                                        <div class="image"> <a href="{{ route('job_details', [$val->link, $val->id]) }}" target="_blank" title="Hệ thống nhà hàng Nhật Tokyo Deli"> <img  class="lazy-bg" data-src="{{ asset('picture/'.basename(str_replace('..','',$val->logo))) }}" src="{{ asset('images/1653372151_data-analyst-careerbuilder.jpg') }}" alt="{{ $val->title }}"> </a> </div>
                                         <div class="figcaption">
                                             <div class="timeago"></div>
                                             <div class="title"> <a class="job_link" href="{{ route('job_details', [$val->link, $val->id]) }}" target="_blank" title="{{ $val->title }}"> {{ $val->title }}</a> </div>
