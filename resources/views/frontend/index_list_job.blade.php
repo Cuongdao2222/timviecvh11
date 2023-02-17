@@ -40,7 +40,7 @@
         <link href="{{ asset('download/css/theme_default.css')}}" rel="stylesheet" type="text/css" media="screen"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
         <link href="{{ asset('download/css/TNredirect.css')}}" rel="stylesheet" type="text/css" media="screen"/>
-        <link href="{{ asset('download/css/premium.css')}}" rel="stylesheet" type="text/css" media="screen"/>
+        <link href="{{ asset('download/css/premium.css')}}?ver=1" rel="stylesheet" type="text/css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
        
