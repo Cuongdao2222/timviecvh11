@@ -20,7 +20,7 @@
         }
 
         #banner-video{
-            height: 570px;
+            height: 570px !important;
         }
         /*employer-dashboard.css*/
     </style>
