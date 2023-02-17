@@ -79,7 +79,7 @@ input, select { font-family: Arial; font-size: 12px }
 #header-pre .navbar-right span.en, #header-menu-links span.en { background-position: -110px -99px }
 #photo-area, .section-page, #wrapper, .ads-pre, .section-header, #job-search, #breadcrumb, #slidehr { float: left; width: 100% }
 #photo-area, .ads-pre.slidebg { position: relative }
-#banner-video, #bslidehr, #bslidehr .bgimage { height: 720px; overflow: hidden }
+#banner-video, #bslidehr, #bslidehr .bgimage { height: 570px; overflow: hidden }
 #sliderTopMain, #sliderTopMain .bgimage, .ads-pre.slidebg.sliderSetheight { height: 600px }
 #sliderTopMain { float: left; width: 100%; left: 0; position: absolute; top: 0; z-index: 0; overflow: hidden }
 #sliderTopMain .bgimage { width: 100%!important; background-size: cover; background-repeat: no-repeat; background-position: center center }
