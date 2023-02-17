@@ -52,7 +52,7 @@
 
         <style type="text/css">
             .search-jobs-main input.width_545, .search-jobs-main select.slc-mb,.searchvt1{
-                background: red !important;
+                background: green !important;
             }
         </style>
         <script type="text/javascript" src="{{ asset('download/js/jquery-ui.min.js')}}"></script>
