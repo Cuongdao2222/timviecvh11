@@ -10,8 +10,8 @@
 
     $option = [];
 
-    $option[0] = ['name'=>'Banner slide home', 'size'=>'1920px x 630px'];
-    $option[1] = ['name'=>'Banner ', 'size'=>'1920px x 44px'];
+    $option[0] = ['name'=>'Banner slide home', 'size'=>'1903px x 720px'];
+    $option[1] = ['name'=>'Banner quảng cáo trang home', 'size'=>'1366 x 753px'];
     $option[2] = ['name'=>'Banner trên phần việc làm nổi bật', 'size'=>'1900 x 570px'];
     $option[3] = ['name'=>'Banner quảng cáo trên cẩm nang nghề nghiệp', 'size'=>'330px x 290px'];
     $option[4] = ['name'=>'Banner category', 'size'=>'1200 x 200px'];

@@ -18,6 +18,10 @@
         .topresume-list .topresume-item .topresume-image{
             max-width: 90%;
         }
+
+        #banner-video{
+            height: 570px;
+        }
         /*employer-dashboard.css*/
     </style>
     <!-- <section class="employer-navbar-2-1">
