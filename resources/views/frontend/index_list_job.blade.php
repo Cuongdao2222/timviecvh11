@@ -184,6 +184,10 @@
                             
                             <li class=""><a href="{{ route('form_recruit') }}" id="menu_11979"  target="_self">Đăng tin tuyển dụng </a>
                             </li>
+
+
+                            <li class=""><a href="{{ route('registerClientUser') }}"  target="_self">Đăng ký ứng viên </a>
+                            </li>
                         </ul>
                     </div>
                     <!-- <div class="navbar-right">
