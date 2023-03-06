@@ -6,6 +6,10 @@
                 color: red;
                 text-align: center;
             }
+            .main-form .form-group.form-text label {
+
+                text-align: left;
+            }
 
         </style>
         <link href="https://careerbuilder.vn/vi/jobseekers/register" rel="canonical" />
@@ -112,42 +116,8 @@
                                 <div class="or-line"><span>hoặc </span></div> -->
 
 
-                                <div class="register-form">
-                                    <form name="frmRegister" id="frmRegister" method="POST" action="{{ route('register') }}" autocomplete="off">
-                                         @csrf
-                                        <div class="form-group form-text">
-                                            <input name="name" id="name" maxlength="15" type="text"  autocomplete="off" value="">
-                                            <label for="">* Tên</label>
-                                            <span class="error_firstname" style="display:none"></span>
-                                        </div>
-                                        
-                                        <div class="form-group form-text">
-                                            <input name="email" id="email"  maxlength="50" type="text"   autocomplete="off" value="">
-                                            <label for="">* Email</label>
-                                            <span class="error_email" style="display:none"></span>
-                                        </div>
-                                        <div class="form-group form-text">
-                                            <input type="password" name="password" id="password" maxlength="255"   autocomplete="off" value="">
-                                            <label for="">* Mật khẩu</label>
-                                            <span class="error_password" style="display:none"></span>
-                                        </div>
-                                        <div class="form-group form-text">
-                                            <input type="password" name="confirm_password" id="confirm_password" maxlength="255"   autocomplete="off" value="">
-                                            <label for="">* Xác nhận mật khẩu</label>
-                                            <span class="error_confirm_password" style="display:none"></span>
-                                        </div>
-                                        <div class="form-group form-checkbox">
-                                            <input type="checkbox" checked="checked" name="chkAgree" id="chkAgree" value="1">
-                                           
-                                            <span class="error_chkAgree" style="display:none"></span>
-                                        </div>
-                                        <button class="btn-gradient">Đăng ký</button>
-                                        
-                                    </form>
-                                </div>
-
                                 <div class="login-form">
-                               
+                           
                                     <div>
                                         <form name="frmRegister" id="frmRegister" method="post" action="{{ route('login-user') }}" autocomplete="off">
                                             @csrf
@@ -167,7 +137,100 @@
                                         </form>
                                     </div>
                                 </div>
+
+
+
+                                 <div class="register-form">
+                                    <form name="frmRegister" id="frmRegister" method="POST" action="{{ route('register') }}" autocomplete="off">
+                                         @csrf
+                                        <div class="form-group form-text">
+                                            <input name="name" id="name" maxlength="15" type="text"  autocomplete="off" value="">
+                                            <label for="">* Tên</label>
+                                            <span class="error_firstname" style="display:none"></span>
+                                        </div>
+
+                                        <div class="form-group form-text">
+                                            <input name="surname" id="surname" maxlength="15" type="text"  autocomplete="off" value="">
+                                            <label for="">* Họ và tên đệm</label>
+                                            <span class="error_firstname" style="display:none"></span>
+                                        </div>
+
+                                        <div class="form-group form-text">
+
+                                           <div for="">* Giới tính</div>
+
+                                            <div style="text-align: center;">
+                                                <p> Nam</p>
+                                                <input type="radio" name="sex" value="0" checked> 
+                                            <div>
+
+                                            <div style="text-align: center;">
+                                                <p> Nữ</p>
+                                                <input type="radio" name="sex" value="1"> 
+                                            <div>
+                                            
+                                        </div>
+
+
+                                      
+                                        <div class="form-group form-text">
+                                           
+                                            <label for="">Quốc gia </label>
+
+                                            <br>
+
+                                            <input type="text" name="national">
+                                        </div>
+
+
+                                        <div class="form-group form-text">
+                                           
+                                            <label for="">Tỉnh thành </label>
+
+                                            <br>
+
+                                            <input type="text" name="province">
+                                        </div>
+
+                                        <div class="form-group form-text">
+                                           
+                                            <label for="">Vị trí mong muốn</label>
+
+                                            <br>
+
+                                            <input type="text" name="workplace">
+                                        </div>
+
+                                        <div class="form-group form-text">
+                                            <input name="email" id="email"  maxlength="50" type="text"   autocomplete="off" value="">
+                                            <label for="">* Email</label>
+                                            <span class="error_email" style="display:none" ></span>
+                                        </div>
+                                        <div class="form-group form-text">
+                                            <input type="password" name="password" id="password" maxlength="255"   autocomplete="off" value="">
+                                            <label for="">* Mật khẩu</label>
+                                            <span class="error_password" style="display:none"></span>
+                                        </div>
+                                        <div class="form-group form-text">
+                                            <input type="password" name="confirm_password" id="confirm_password" maxlength="255"   autocomplete="off" value="">
+                                            <label for="">* Xác nhận mật khẩu</label>
+                                            <span class="error_confirm_password" style="display:none"></span>
+                                        </div>
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" checked="checked" name="chkAgree" id="chkAgree" value="1">
+                                           
+                                            <span class="error_chkAgree" style="display:none"></span>
+                                        </div>
+                                        <button class="btn-gradient">Đăng ký</button>
+                                        
+                                    </form>
+                                </div> 
+
+                                <!--end  register-form -->
+
                             </div>
+
+                                
 
                         </div>
                     </div>
@@ -187,8 +250,10 @@
             $('.login-user a').click(function () {
                 $('.login-user').addClass('active');
                 $('.register-user').removeClass('active');
-                $('.login-form').show();
+                 
                 $('.register-form').hide();
+                 $('.login-form').show();
+                 
             })
 
             $('.register-user a').click(function () {
@@ -277,26 +342,26 @@
                     var email = $('#email').val();
                     var emailexist;
                     filter = /^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?$/i;
-                    if (filter.test(email) && email != '') {
-                        $.ajax({
-                            type: "POST",
-                            async: false,
-                            url: PATH_KIEMVIEC + "jobseekers/member/emailexist",
-                            data: {
-                                'email': email
-                            },
-                            success: function(data) {
-                                if (data == 1) {
-                                    emailexist = false;
-                                } else {
-                                    emailexist = true;
-                                }
-                            }
-                        });
-                        return emailexist;
-                    } else {
-                        return false;
-                    }
+                    // if (filter.test(email) && email != '') {
+                    //     $.ajax({
+                    //         type: "POST",
+                    //         async: false,
+                    //         url: PATH_KIEMVIEC + "jobseekers/member/emailexist",
+                    //         data: {
+                    //             'email': email
+                    //         },
+                    //         success: function(data) {
+                    //             if (data == 1) {
+                    //                 emailexist = false;
+                    //             } else {
+                    //                 emailexist = true;
+                    //             }
+                    //         }
+                    //     });
+                    //     return emailexist;
+                    // } else {
+                    //     return false;
+                    // }
                 }, language.message_common);
                 $.validator.addMethod('requiredemail', function(value) {
                     var valemail = $.trim($('#email').val());

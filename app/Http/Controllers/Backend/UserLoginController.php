@@ -17,15 +17,25 @@ class UserLoginController extends Controller
 {
     public function registerUser(Request $request)
     {
+        
+
+
         $request->session()->put('keys', 'register');
 
          $messages = [
             'required' => 'Trường :attribute bắt buộc nhập.',
             'email'    => 'Trường :attribute phải có định dạng email',
-            'unique'    => ':attribute đã tồn tại xin kiểm tra lại',
+            'unique'   => ':attribute đã tồn tại xin kiểm tra lại',
         ];
          $validator = Validator::make($request->all(), [
             'email' => 'required|unique:users',
+            'surname'=>'required',
+            'national'=>'required',
+            'province'=>'required',
+            'workplace'=>'required',
+            'password'=>'required'
+
+
            
         ], $messages);
 
@@ -42,6 +52,15 @@ class UserLoginController extends Controller
         if(!empty($input['password'])){
            $input['password'] =  bcrypt($input['password']);
         }
+
+        $user->surname = $input['surname'];
+        $user->sex = $input['sex'];
+
+        $user->national = $input['national'];
+        $user->province = $input['province'];
+        $user->workplace = $input['workplace'];
+
+
         $user->name = $input['name'];
         $user->email = $input['email'];
         $user->password = $input['password'];
