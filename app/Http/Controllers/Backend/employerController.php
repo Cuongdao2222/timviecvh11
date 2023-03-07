@@ -53,6 +53,7 @@ class employerController extends Controller
             'required' => 'Trường :attribute bắt buộc nhập.',
             'email'    => 'Trường :attribute phải có định dạng email',
             'unique'    => ':attribute đã tồn tại xin kiểm tra lại',
+            ''
         ];
          $validator = Validator::make($request->all(), [
             'email' => 'required|unique:employer_registers',
@@ -76,10 +77,18 @@ class employerController extends Controller
             $input['password'] = bcrypt($input['password']);
 
         }
-        $employer_register->email = $request->email;
 
         $employer_register->password = $input['password'];
 
+        $employer_register->email = $request->email;
+
+        $employer_register->name_company = $input['name_company'];
+
+        $employer_register->office = $input['office'];
+
+        $employer_register->phone_number = $input['phone_number'];
+
+    
         $employer_register->save();
 
 

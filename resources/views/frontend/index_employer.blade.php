@@ -79,16 +79,9 @@
                                 <ul class="list-account-information">
                                     <li>
                                         <p class="number intNumPostNoUse">0</p>
-                                        <a class="title" href="#">Vị trí chưa sử dụng</a>
+                                        <a class="title" href="">Thông tin doanh nghiệp</a>
                                     </li>
-                                    <li>
-                                        <p class="number orderNew">0</p>
-                                        <a class="title" href="#">Đơn hàng đang sử dụng</a>
-                                    </li>
-                                    <li>
-                                        <p class="number JskNew">0</p>
-                                        <a class="title" href="#">Ứng viên ứng tuyển</a>
-                                    </li>
+                                   
                                 </ul>
                             </div>
                         </div>

@@ -17,7 +17,7 @@ class employer_register extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'email', 'password',
+        'email', 'password','name_company', 'office', 'phone_number'
     ];
 
     /**

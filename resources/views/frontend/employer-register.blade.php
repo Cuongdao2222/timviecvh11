@@ -76,12 +76,39 @@
                                     </div> -->
                                 <div class="main-form">
                                     <div class="form-group d-flex">
-                                        <div class="form-info"> <span>Email đăng nhập</span> </div>
+                                        <div class="form-info"> <span>Tên công ty</span> </div>
                                         <div class="form-input">
-                                            <input type="text" name="email" id="email" value="" autocomplete="off" class="form-control" placeholder="Vui lòng nhập thông tin">
-                                            <span class="form-error error_email" id="error_email" >  </span> 
+                                            <input type="text" name="name_company" id="name_company" value="" autocomplete="off" class="form-control" placeholder="Vui lòng nhập tên công ty" required>
+                                            <span class="form-error error_email" id="error_name_company"> </span> 
                                         </div>
                                     </div>
+
+                                    <div class="form-group d-flex">
+                                        <div class="form-info"> <span>Văn phòng đại diện </span> </div>
+                                        <div class="form-input">
+                                            <input type="text" name="office" id="office" value="" autocomplete="off" class="form-control" placeholder="Vui lòng nhập địa chỉ văn phòng" required>
+                                            <span class="form-error error_email" id="error_office" required> </span> 
+                                        </div>
+                                    </div>
+
+
+                                    <div class="form-group d-flex">
+                                        <div class="form-info"> <span>Email đăng nhập</span> </div>
+                                        <div class="form-input">
+                                            <input type="text" name="email" id="email" value="" autocomplete="off" class="form-control" placeholder="Vui lòng nhập thông tin" required>
+                                            <span class="form-error error_email" id="error_email" required>  </span> 
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group d-flex">
+                                        <div class="form-info"> <span>Điện thoại liên hệ</span> </div>
+                                        <div class="form-input">
+                                            <input type="text" name="phone_number" id="error_phone_number" value="" autocomplete="off" class="form-control" placeholder="Vui lòng nhập số điện thoại" required>
+                                            
+                                        </div>
+                                    </div>
+
+
                                     <div class="form-group d-flex">
                                         <div class="form-info"> <span>Mật khẩu</span> </div>
                                         <div class="form-input">
@@ -101,148 +128,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--  <div class="step-2" id="step-2" style="display: none;">
-                                <div class="step-title d-flex">
-                                   <div class="main-step-title">
-                                      <h3>Bước 2 : Thông Tin Công Ty</h3>
-                                      <p>Thông tin doanh nghiệp của Quý Công ty trên CareerBuilder</p>
-                                   </div>
-                                   <div class="text-sup"><a href="https://careerbuilder.vn/vi/employers/faq" target="_blank" target="_blank" class="support">Hướng dẫn</a></div>
-                                </div>
-                                <div class="main-form">
-                                   <div class="form-group d-flex">
-                                      <div class="form-info"> <span>Tên công ty</span> </div>
-                                      <div class="form-input">
-                                         <input type="text" name="company_name" id="company_name" value="" class="form-control" placeholder="Vui lòng nhập thông tin">
-                                         <span class="form-error error_company_name">  </span> 
-                                      </div>
-                                   </div>
-                                   <div class="form-group d-flex">
-                                      <div class="form-info"> <span>Chọn số nhân viên</span> </div>
-                                      <div class="form-input short form-input-select">
-                                         <select class="form-control" name="company_size">
-                                            <option value="">Chọn số nhân viên</option>
-                                            <option value="Ít hơn 10" >Ít hơn 10</option>
-                                            <option value="10-20" >10-20</option>
-                                            <option value="25-99" >25-99</option>
-                                            <option value="100-499" >100-499</option>
-                                            <option value="500-999" >500-999</option>
-                                            <option value="1.000-4.999" >1.000-4.999</option>
-                                            <option value="5.000-9.999" >5.000-9.999</option>
-                                            <option value="10.000-19.999" >10.000-19.999</option>
-                                            <option value="20.000-49.999" >20.000-49.999</option>
-                                            <option value="Hơn 50.000" >Hơn 50.000</option>
-                                         </select>
-                                         <span class="form-error error_company_size"></span> 
-                                      </div>
-                                   </div>
-                                   <div class="form-group d-flex">
-                                      <div class="form-info"> <span>Quốc gia</span> </div>
-                                      <div class="form-input short form-input-select">
-                                         <select class="form-control" name="country_id" id="country_id" onChange="loadLocations(this.value);">
-                                            <option value="1"  selected >Việt Nam</option>
-                                            <option value="22" >Bangladesh</option>
-                                            <option value="14" >Campuchia</option>
-                                            <option value="4" >Canada</option>
-                                            <option value="25" >Công Gô</option>
-                                            <option value="20" >Đài Loan</option>
-                                            <option value="8" >Hàn Quốc</option>
-                                            <option value="13" >Hoa Kỳ</option>
-                                            <option value="24" >Hồng Kông</option>
-                                            <option value="169" >Khác</option>
-                                            <option value="19" >Lào</option>
-                                            <option value="9" >Malaysia</option>
-                                            <option value="21" >Myanmar</option>
-                                            <option value="2" >Nhật Bản</option>
-                                            <option value="17" >Qatar</option>
-                                            <option value="23" >Quốc tế</option>
-                                            <option value="10" >Singapore</option>
-                                            <option value="5" >Trung Quốc</option>
-                                            <option value="3" >Úc</option>
-                                            <option value="16" >Ukraine</option>
-                                         </select>
-                                         <span class="form-error error_country_id"></span> 
-                                      </div>
-                                   </div>
-                                   <div class="form-group d-flex">
-                                      <div class="form-info"> <span id="lable_location">Tỉnh / TP</span> </div>
-                                      <div class="form-input short form-input-select">
-                                         <select class="form-control" id="location_id">
-                                         </select>
-                                         <span class="form-error error_location_id"></span> 
-                                      </div>
-                                   </div>
-                                   <div class="form-group d-flex">
-                                      <div class="form-info"> <span>Địa chỉ công ty</span> </div>
-                                      <div class="form-input">
-                                         <input type="text"   name="company_address" id="company_address" value="" class="form-control" placeholder="Vui lòng nhập thông tin">
-                                         <span class="form-error error_company_address"></span> 
-                                      </div>
-                                   </div>
-                                   <div class="form-group d-flex info-company">
-                                      <div class="form-info"> <span>Sơ lược về công ty</span> </div>
-                                      <div class="form-input">
-                                         <textarea class="form-control" rows="5" name="company_summary" id="company_summary"></textarea>
-                                         <span class="form-error error_company_summary">  </span> 
-                                      </div>
-                                      <div class="noti">
-                                         <em class="material-icons">error</em>
-                                         <div class="toolip">
-                                            <p> <strong>Gợi ý</strong></p>
-                                            <p>Giới thiệu thông tin về công ty là cách tốt nhất làm nổi bật công ty của Quý khách trước các ứng viên tiềm năng. Một bản sơ lược tốt về công ty sẽ gây ấn tượng đối với ứng viên, khiến họ chọn công ty của Quý khách làm nơi phát triển nghề nghiệp lâu dài.</p>
-                                            <p>Hãy giới thiệu các đặc trưng của công ty bằng cách trình bày nhiều thông tin hấp dẫn về công ty: </p>
-                                            <ul>
-                                               <p>Năm thành lập công ty</p>
-                                               <p>Vị trí tọa lạc ( thành phố/ quận/huyện)</p>
-                                               <p>Quốc tịch (công ty Việt Nam hay  chi nhánh tập đoàn nước ngoài)</p>
-                                               <p>Dòng sản phẩm/các dịch vụ</p>
-                                               <p>Quy mô công ty (số nhân viên, văn phòng, nhà máy)</p>
-                                               <p>Hoạt động và thành tựu kinh doanh</p>
-                                            </ul>
-                                         </div>
-                                      </div>
-                                   </div>
-                                   <div class="form-group d-flex">
-                                      <div class="form-info"> <span>Tên người liên hệ</span> </div>
-                                      <div class="form-input">
-                                         <input type="text" name="contact_name" id="contact_name" value="" class="form-control" placeholder="Vui lòng nhập thông tin">
-                                         <span class="form-error error_contact_name">  </span> 
-                                      </div>
-                                   </div>
-                                   <div class="form-group d-flex">
-                                      <div class="form-info"> <span>Điện thoại</span> </div>
-                                      <div class="form-input">
-                                         <input type="text" name="contact_phone" id="contact_phone" value="" class="form-control" placeholder="Vui lòng nhập thông tin">
-                                         <span class="form-error error_contact_phone">  </span> 
-                                      </div>
-                                   </div>
-                                   <div class="form-group d-flex">
-                                      <div class="form-info"> <span>Mã số thuế</span> </div>
-                                      <div class="form-input">
-                                         <input type="text" name="taxid" id="taxid" value="" class="form-control" placeholder="Vui lòng nhập mã số thuế">
-                                         <span class="form-error error_taxid">  </span> 
-                                      </div>
-                                   </div>
-                                   <div class="form-group d-flex">
-                                      <div class="form-info"> <span>Mã xác nhận</span> </div>
-                                      <div class="form-input short">
-                                         <input type="text" name="captcha" id="captcha" autocomplete="off" class="form-control">
-                                         <span class="form-error error_captcha">  </span> 
-                                      </div>
-                                      <div class="box-captcha d-flex" >
-                                         <div id="captchaim"><img width="150" height="50" alt="" src="https://images.careerbuilder.vn/rws/captcha/772ad988a2229a2e7a7107f06c5d2203.png" class="img_code" /><input type="hidden" name="key_captcha" id="key_captcha" value="772ad988a2229a2e7a7107f06c5d2203"></div>
-                                         <div class="reCapcha" style="font-size: 24px;"><a onclick="refeshImgCaptcha('captchaim');" href="javascript:void(0);"> <em class="fa fa-repeat"></em></a></div>
-                                      </div>
-                                   </div>
-                                   <div class="btn-area list-btn">
-                                      <button type="button" class="btn-prev">Quay lại</button>
-                                      <button class="btn-action" type="submit">Đăng ký</button>
-                                   </div>
-                                   <div class="right-note">
-                                      <p> Bằng việc nhấp vào "Đăng Ký Ngay!", bạn đã đồng ý với các điều khoản ghi trong <a href="https://careerbuilder.vn/vi/jobseekers/use">Thỏa thuận dịch vụ của CareerBuilder.vn.</a></p>
-                                   </div>
-                                </div>
-                                </div> -->
+                           
                         </form>
                     </div>
                 </div>
