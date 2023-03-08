@@ -461,7 +461,7 @@
                                     <div class="jobs-side-list">
 
                                         <?php 
-                                            $job= DB::table('employer_registers')->join('job', 'employer_registers.id', '=', 'job.employer_id')->join('employ_info', 'employer_registers.id', '=', 'employ_info.employ_id')->paginate(12);
+                                            $job= DB::table('employer_registers')->join('job', 'employer_registers.id', '=', 'job.employer_id')->join('employ_info', 'employer_registers.id', '=', 'employ_info.employ_id')->paginate(16);
 
                                         ?>
 
@@ -469,7 +469,7 @@
                                                
                                             <div class="job-item">
                                                 <div class="figure">
-                                                    <div class="image"><a target="_blank" href="{{ route('job_details', [$jobs->link, $jobs->id]) }}" title="{{ $jobs->title }}"><img src="{{ asset('picture/'.basename(str_replace('..','',$jobs->logo))) }}" class="swiper-lazy" data-src="{{ asset('picture/'.basename(str_replace('..','',$jobs->logo))) }}" alt="{{ $jobs->title }} " /></a></div>
+                                                    <div class="image"><a target="_blank" href="{{ route('job_details', [$jobs->link, $jobs->id]) }}" title="{{ $jobs->title }}"><img src="https://dxwd4tssreb4w.cloudfront.net/web/images/common/no-logo.png" class="swiper-lazy" data-src="https://dxwd4tssreb4w.cloudfront.net/web/images/common/no-logo.png" alt="{{ $jobs->title }} " /></a></div>
                                                     <div class="figcaption">
                                                         <div class="title">
                                                             <a target="_blank" href="{{ route('job_details', [$jobs->link, $jobs->id]) }}" title="{{ $jobs->title  }}">{{ $jobs->title  }}</a>

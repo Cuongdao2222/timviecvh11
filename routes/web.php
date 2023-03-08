@@ -41,7 +41,7 @@ Route::group(['prefix' => 'ajax'], function() {
 
 });
 
-Route::get('/alljob', function () {
+Route::get('/co-hoi-nghe-nghiep', function () {
 
     return view('frontend.all_job');
 
@@ -86,6 +86,16 @@ Route::get('employers-login', function () {
     return view('frontend.employer_login');
 
 })->name('employers_login_fe'); 
+
+
+Route::get('ve-chung-toi', function () {
+
+    return view('frontend.our');
+
+});
+
+
+
 
 
 Route::group(['prefix' => 'employer','middleware' => 'Checkemploy'], function() {
