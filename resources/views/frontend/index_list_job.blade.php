@@ -425,6 +425,201 @@
                     </div>
                 </div>
             </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 ">
+                        <div class="job-item">
+                            <div class="figure">
+                                <div class="image"><a target="_blank" href="https://careerbuilder.vn/vi/nha-tuyen-dung/hongfa-electroacoustic-hk-company-limited.35A95C9F.html" title="Hongfa Electroacoustic (HK) Company Limited"><img src="https://images.careerbuilder.vn/employer_folders/lot3/291743/67x67/103534logo_hongfa-003-4.png" class="swiper-lazy swiper-lazy-loaded" alt="Hongfa Electroacoustic (HK) Company Limited"></a></div>
+                                <div class="figcaption">
+                                    <div class="title"><a target="_blank" href="https://careerbuilder.vn/vi/tim-viec-lam/senior-sales-manager.35BB7A82.html" title="Senior Sales Manager">Senior Sales Manager</a></div>
+                                    <div class="caption">
+                                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/hongfa-electroacoustic-hk-company-limited.35A95C9F.html" title="Hongfa Electroacoustic (HK) Company Limited" target="_blank">Hongfa Electroacoustic (HK) Company Limited</a>
+                                        <p class="salary"><em class="fa fa-usd"></em>Lương:  1,300 - 1,500 USD</p>
+                                        <div class="location">
+                                            <em class="mdi mdi-map-marker"></em>
+                                            <p> Hà Nội</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="top-icon"> <span class="top">Top</span> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="job-item">
+                            <div class="figure">
+                                <div class="image"><a target="_blank" href="https://careerbuilder.vn/vi/nha-tuyen-dung/anh-van-hoi-viet-my-vus.35A4FE0E.html" title="Anh Văn Hội Việt Mỹ (VUS)"><img src="https://images.careerbuilder.vn/employers/5390/67x67/190156logo.jpg" class="swiper-lazy swiper-lazy-loaded" alt="Anh Văn Hội Việt Mỹ (VUS)"></a></div>
+                                <div class="figcaption">
+                                    <div class="title"><a target="_blank" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-tu-van-qua-dien-thoai.35BB79F4.html" title="Nhân viên tư vấn qua điện thoại">Nhân viên tư vấn qua điện thoại</a></div>
+                                    <div class="caption">
+                                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/anh-van-hoi-viet-my-vus.35A4FE0E.html" title="Anh Văn Hội Việt Mỹ (VUS)" target="_blank">Anh Văn Hội Việt Mỹ (VUS)</a>
+                                        <p class="salary"><em class="fa fa-usd"></em>Lương:  8 Tr - 12 Tr VND</p>
+                                        <div class="location">
+                                            <em class="mdi mdi-map-marker"></em>
+                                            <p> Hồ Chí Minh</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="top-icon"> <span class="top">Top</span> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="job-item">
+                            <div class="figure">
+                                <div class="image"><a target="_blank" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-che-bien-thuc-pham-olam-viet-nam.35A78F67.html" title="Công ty TNHH Chế Biến Thực Phẩm Olam Việt Nam"><img src="https://images.careerbuilder.vn/employer_folders/lot1/173671/67x67/181717ofi_share_logo.png" class="swiper-lazy swiper-lazy-loaded" alt="Công ty TNHH Chế Biến Thực Phẩm Olam Việt Nam"></a></div>
+                                <div class="figcaption">
+                                    <div class="title"><a target="_blank" href="https://careerbuilder.vn/vi/tim-viec-lam/hse-staff-nhan-vien-an-toan-lao-dong-long-thanh.35BB774B.html" title="HSE Staff/Nhân viên An toàn Lao động (Long Thành)">HSE Staff/Nhân viên An toàn Lao động (Long Thành)</a></div>
+                                    <div class="caption">
+                                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-tnhh-che-bien-thuc-pham-olam-viet-nam.35A78F67.html" title="Công ty TNHH Chế Biến Thực Phẩm Olam Việt Nam" target="_blank">Công ty TNHH Chế Biến Thực Phẩm Olam Việt Nam</a>
+                                        <p class="salary"><em class="fa fa-usd"></em>Lương: Cạnh Tranh</p>
+                                        <div class="location">
+                                            <em class="mdi mdi-map-marker"></em>
+                                            <p> Đồng Nai</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="top-icon"> <span class="top">Top</span> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="job-item">
+                            <div class="figure">
+                                <div class="image"><a target="_blank" href="https://careerbuilder.vn/vi/nha-tuyen-dung/chicilon-media.35A8EA99.html" title="CHICILON MEDIA"><img src="https://images.careerbuilder.vn/employer_folders/lot3/262553/67x67/90025logohcm.png" class="swiper-lazy swiper-lazy-loaded" alt="CHICILON MEDIA"></a></div>
+                                <div class="figcaption">
+                                    <div class="title"><a target="_blank" href="https://careerbuilder.vn/vi/tim-viec-lam/chuyen-vien-kinh-doanh-sales-luong-co-ban-tu-12-15-trieu-hoa-hong-thuong-hap-dan.35BB74B1.html" title="Chuyên Viên Kinh Doanh / Sales (Lương Cơ Bản Từ 12-15 Triệu + Hoa Hồng &amp; Thưởng Hấp Dẫn)">Chuyên Viên Kinh Doanh / Sales (Lương Cơ Bản Từ 12-15 Triệu + Hoa Hồng &amp; Thưởng Hấp Dẫn)</a></div>
+                                    <div class="caption">
+                                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/chicilon-media.35A8EA99.html" title="CHICILON MEDIA" target="_blank">CHICILON MEDIA</a>
+                                        <p class="salary"><em class="fa fa-usd"></em>Lương:  12 Tr - 15 Tr VND</p>
+                                        <div class="location">
+                                            <em class="mdi mdi-map-marker"></em>
+                                            <p> Hà Nội</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="top-icon"> <span class="top">Top</span> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="job-item">
+                            <div class="figure">
+                                <div class="image"><a target="_blank" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-tap-doan-bizman.35A7F40B.html" title="Công ty Cổ Phần Tập Đoàn Bizman"><img src="https://images.careerbuilder.vn/employer_folders/lot5/199435/67x67/164922bizman.jpg" class="swiper-lazy swiper-lazy-loaded" alt="Công ty Cổ Phần Tập Đoàn Bizman"></a></div>
+                                <div class="figcaption">
+                                    <div class="title"><a target="_blank" href="https://careerbuilder.vn/vi/tim-viec-lam/chuyen-vien-kinh-doanh-thu-nhap-15-25-trieu-dong-thang.35BB76F4.html" title="Chuyên viên Kinh doanh (Thu nhập 15-25 triệu đồng/tháng)">Chuyên viên Kinh doanh (Thu nhập 15-25 triệu đồng/tháng)</a></div>
+                                    <div class="caption">
+                                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-tap-doan-bizman.35A7F40B.html" title="Công ty Cổ Phần Tập Đoàn Bizman" target="_blank">Công ty Cổ Phần Tập Đoàn Bizman</a>
+                                        <p class="salary"><em class="fa fa-usd"></em>Lương:  15 Tr - 25 Tr VND</p>
+                                        <div class="location">
+                                            <em class="mdi mdi-map-marker"></em>
+                                            <p> Hà Nội |  Hồ Chí Minh</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="top-icon"> <span class="top">Top</span> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="job-item">
+                            <div class="figure">
+                                <div class="image"><a target="_blank" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-tap-doan-bizman.35A7F40B.html" title="Công ty Cổ Phần Tập Đoàn Bizman"><img src="https://images.careerbuilder.vn/employer_folders/lot5/199435/67x67/164922bizman.jpg" class="swiper-lazy swiper-lazy-loaded" alt="Công ty Cổ Phần Tập Đoàn Bizman"></a></div>
+                                <div class="figcaption">
+                                    <div class="title"><a target="_blank" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-kinh-doanh-thu-nhap-10-20-trieu-dong-thang.35BB76F3.html" title="Nhân viên Kinh doanh (Thu nhập 10-20 triệu đồng/tháng)">Nhân viên Kinh doanh (Thu nhập 10-20 triệu đồng/tháng)</a></div>
+                                    <div class="caption">
+                                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-tap-doan-bizman.35A7F40B.html" title="Công ty Cổ Phần Tập Đoàn Bizman" target="_blank">Công ty Cổ Phần Tập Đoàn Bizman</a>
+                                        <p class="salary"><em class="fa fa-usd"></em>Lương:  10 Tr - 20 Tr VND</p>
+                                        <div class="location">
+                                            <em class="mdi mdi-map-marker"></em>
+                                            <p> Hà Nội |  Hồ Chí Minh</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="top-icon"> <span class="top">Top</span> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="job-item">
+                            <div class="figure">
+                                <div class="image"><a target="_blank" href="https://careerbuilder.vn/vi/nha-tuyen-dung/chicilon-media.35A8EA99.html" title="CHICILON MEDIA"><img src="https://images.careerbuilder.vn/employer_folders/lot3/262553/67x67/90025logohcm.png" class="swiper-lazy swiper-lazy-loaded" alt="CHICILON MEDIA"></a></div>
+                                <div class="figcaption">
+                                    <div class="title"><a target="_blank" href="https://careerbuilder.vn/vi/tim-viec-lam/nhan-vien-ky-thuat.35BB74E6.html" title="Nhân viên kỹ thuật">Nhân viên kỹ thuật</a></div>
+                                    <div class="caption">
+                                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/chicilon-media.35A8EA99.html" title="CHICILON MEDIA" target="_blank">CHICILON MEDIA</a>
+                                        <p class="salary"><em class="fa fa-usd"></em>Lương:  8 Tr - 12 Tr VND</p>
+                                        <div class="location">
+                                            <em class="mdi mdi-map-marker"></em>
+                                            <p> Hà Nội</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="top-icon"> <span class="top">Top</span> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="job-item">
+                            <div class="figure">
+                                <div class="image"><a target="_blank" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-quoc-te-homefarm.35A81D31.html" title="Công ty Cổ phần Quốc tế Homefarm"><img src="https://images.careerbuilder.vn/employer_folders/lot9/209969/67x67/155118logo-doc-550x500px.png" class="swiper-lazy swiper-lazy-loaded" alt="Công ty Cổ phần Quốc tế Homefarm"></a></div>
+                                <div class="figcaption">
+                                    <div class="title"><a target="_blank" href="https://careerbuilder.vn/vi/tim-viec-lam/chuyen-vien-cham-soc-khach-hang.35BB92AD.html" title="Chuyên viên chăm sóc khách hàng">Chuyên viên chăm sóc khách hàng</a></div>
+                                    <div class="caption">
+                                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/cong-ty-co-phan-quoc-te-homefarm.35A81D31.html" title="Công ty Cổ phần Quốc tế Homefarm" target="_blank">Công ty Cổ phần Quốc tế Homefarm</a>
+                                        <p class="salary"><em class="fa fa-usd"></em>Lương:  7 Tr - 9 Tr VND</p>
+                                        <div class="location">
+                                            <em class="mdi mdi-map-marker"></em>
+                                            <p> Hà Nội</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="top-icon"> <span class="new">(Mới)</span> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="job-item">
+                            <div class="figure">
+                                <div class="image"><a target="_blank" href="https://careerbuilder.vn/vi/nha-tuyen-dung/aaa-assurance-corporation.35A74450.html" title="AAA Assurance Corporation"><img src="https://images.careerbuilder.vn/employer_folders/lot8/154448/67x67/124116logo-aaa-doc-02.png" class="swiper-lazy swiper-lazy-loaded" alt="AAA Assurance Corporation"></a></div>
+                                <div class="figcaption">
+                                    <div class="title"><a target="_blank" href="https://careerbuilder.vn/vi/tim-viec-lam/chuyen-vien-nghiep-vu-bao-hiem-hang-hai.35BB1DE3.html" title="Chuyên viên Nghiệp vụ Bảo hiểm Hàng hải">Chuyên viên Nghiệp vụ Bảo hiểm Hàng hải</a></div>
+                                    <div class="caption">
+                                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/aaa-assurance-corporation.35A74450.html" title="AAA Assurance Corporation" target="_blank">AAA Assurance Corporation</a>
+                                        <p class="salary"><em class="fa fa-usd"></em>Lương: Cạnh Tranh</p>
+                                        <div class="location">
+                                            <em class="mdi mdi-map-marker"></em>
+                                            <p> Hồ Chí Minh</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="top-icon"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="job-item">
+                            <div class="figure">
+                                <div class="image"><a target="_blank" href="https://careerbuilder.vn/vi/nha-tuyen-dung/suntory-pepsico.35A712DB.html" title="Suntory PepsiCo"><img src="https://images.careerbuilder.vn/employer_folders/lot7/141787/67x67/121124logofinalwithoutspvb.jpg" class="swiper-lazy swiper-lazy-loaded" alt="Suntory PepsiCo"></a></div>
+                                <div class="figcaption">
+                                    <div class="title"><a target="_blank" href="https://careerbuilder.vn/vi/tim-viec-lam/key-account-executive-khu-vuc-nha-trang-phan-thiet.35BB7912.html" title="Key Account Executive khu vực Nha Trang - Phan Thiết">Key Account Executive khu vực Nha Trang - Phan Thiết</a></div>
+                                    <div class="caption">
+                                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/suntory-pepsico.35A712DB.html" title="Suntory PepsiCo" target="_blank">Suntory PepsiCo</a>
+                                        <p class="salary"><em class="fa fa-usd"></em>Lương: Cạnh Tranh</p>
+                                        <div class="location">
+                                            <em class="mdi mdi-map-marker"></em>
+                                            <p> Khánh Hòa</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="top-icon"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
             <div id="media_section" class="section-page ImageService-pre"></div>
             <script type="text/javascript">
                 // $(function(){
