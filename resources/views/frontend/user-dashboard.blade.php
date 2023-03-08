@@ -32,7 +32,6 @@
     
 ?>
 
-
 <div class="content-inner">
     <div class="find-jobs-form">
         <div class="container-fluid">

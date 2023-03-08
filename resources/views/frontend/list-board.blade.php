@@ -234,7 +234,116 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="widget widget-24" id="t-resume-section">
+
+                        <div class="widget widget-20" id="work-recent">
+                            <div class="widget-head">
+                                <div class="cb-title-h3">
+                                    <div class="figure">
+                                        <div class="image"><img src="./img/dash-board/i14.png" alt=""></div>
+                                        <div class="figcaption">
+                                            <h3>Công việc gần đây </h3>
+
+                                        </div>
+                                    </div>
+                                    <div class="right-action">
+                                        <div class="tips p1" onclick="openTipSlide('work-recent')">
+                                            <div class="icon">
+                                                <em class="mdi mdi-lightbulb"></em>
+                                            </div>
+                                            <p>Tips</p>
+                                        </div>
+                                        <div class="link-edit"><a href="javascript:void(0)" onclick="openTipSlide('tip-t-modal');"><span>Chỉnh sửa</span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="widget-head">
+                                <div class="cb-title-h3">
+                                    <div class="figure">
+                                        <div class="image"><img src="./img/dash-board/i14.png" alt=""></div>
+                                        <div class="figcaption">
+                                            <h3>Số năm kinh nghiệm </h3>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="right-action">
+                                        <div class="tips p1" onclick="openTipSlide('work-recent')">
+                                            <div class="icon">
+                                                <em class="mdi mdi-lightbulb"></em>
+                                            </div>
+                                            <p>Tips</p>
+                                        </div>
+                                        <div class="link-edit"><a href="javascript:void(0)" onclick="openTipSlide('work-recent');"><span>Chỉnh sửa</span></a></div>
+                                    </div>
+                                </div>
+                            </div> -->
+
+
+                            <div class="widget-body">
+                                <div class="no-content">
+                                    <p>Công việc gần đây</p>
+                                    <a href="javascript:void(0)" onclick="openTipSlide('tip-t-modal');"><span>Chỉnh sửa</span></a>
+                                </div>
+                                <input type="hidden" id="title_hidden_value" value="">
+                            </div>
+                        </div>
+
+                        <div class="widget widget-25" id="work-recent">
+                            <div class="widget-head">
+                                <div class="cb-title-h3">
+                                    <div class="figure">
+                                        <div class="image"><img src="./img/dash-board/i14.png" alt=""></div>
+                                        <div class="figcaption">
+                                            <h3>Công việc gần đây </h3>
+
+                                        </div>
+                                    </div>
+                                    <div class="right-action">
+                                        <div class="tips p1" onclick="openTipSlide('work-recent')">
+                                            <div class="icon">
+                                                <em class="mdi mdi-lightbulb"></em>
+                                            </div>
+                                            <p>Tips</p>
+                                        </div>
+                                        <div class="link-edit"><a href="javascript:void(0)" onclick="openTipSlide('tip-t-modal');"><span>Chỉnh sửa</span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="widget-head">
+                                <div class="cb-title-h3">
+                                    <div class="figure">
+                                        <div class="image"><img src="./img/dash-board/i14.png" alt=""></div>
+                                        <div class="figcaption">
+                                            <h3>Số năm kinh nghiệm </h3>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="right-action">
+                                        <div class="tips p1" onclick="openTipSlide('work-recent')">
+                                            <div class="icon">
+                                                <em class="mdi mdi-lightbulb"></em>
+                                            </div>
+                                            <p>Tips</p>
+                                        </div>
+                                        <div class="link-edit"><a href="javascript:void(0)" onclick="openTipSlide('work-recent');"><span>Chỉnh sửa</span></a></div>
+                                    </div>
+                                </div>
+                            </div> -->
+
+
+                            <div class="widget-body">
+                                <div class="no-content">
+                                    <p>Công việc gần đây</p>
+                                    <a href="javascript:void(0)" onclick="openTipSlide('tip-t-modal');"><span>Chỉnh sửa</span></a>
+                                </div>
+                                <input type="hidden" id="title_hidden_value" value="">
+                            </div>
+                        </div>
+
+                        <div class="widget widget-26" id="t-resume-sections">
                             <div class="widget-head">
                                 <div class="cb-title-h3">
                                     <div class="figure">
@@ -273,6 +382,8 @@
                                 <input type="hidden" id="title_hidden_value" value="">
                             </div>
                         </div>
+
+
                         <div class="widget widget-13" id="personalinfo-section">
                             <div class="widget-head">
                                 <div class="cb-title-h3">
@@ -1150,10 +1261,11 @@
                     </div>
                 </div>
             </div>
-            <div class="tips-modal" id="tip-t-modal" style="display: none">
+
+            <div class="tips-modal" id="work-recent" style="display: none">
                 <div class="add-title-modal edit-modal-dashboard fancybox-content" style="">
                     <div class="modal-title">
-                        <h3>Tiêu đề hồ sơ</h3>
+                        <h3>Công việc gần đây</h3>
                     </div>
                     <div class="modal-body">
                         <form autocomplete="on" name="t-resume-form" id="t-resume-form" method="post" action="{{ route('postProfile', 'title') }}">
@@ -1184,6 +1296,8 @@
                     </button>
                 </div>
             </div>
+
+
             <div class="tips-modal" id="tip-personalinfo" style="display: none">
                 <div class="head-modal">
                     <div class="icon"><em class="mdi mdi-lightbulb-outline"></em></div>
