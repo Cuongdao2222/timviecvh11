@@ -77,7 +77,7 @@
                                             <ul>
                                                 <li class="edit-pro">
                                                     <input class="hidden" onchange="return ajaxFileUpload();" type="file" class="file" id="fileAvatar" name="fileAvatar">
-                                                    <a href="javascript:void(0);" onclick="choose_file();" id="upload-image"><em class="material-icons">add_photo_alternate</em><span>Tải hình ảnh</span></a> 
+                                                    <a href="javascript:void(0);" onclick="choose_file();" id="upload-image"><span>Tải hình ảnh</span></a> 
                                                 </li>
                                                 <!-- <li class="view-pro"><a href="javascript:void(0);" onclick="removeAvarta();"> <em class="material-icons">highlight_off</em><span>Xóa hình ảnh</span></a></li> -->
                                             </ul>
@@ -261,14 +261,14 @@
                                             </div>
                                             <p>Tips</p>
                                         </div>
-                                        <div class="link-edit"><a href="javascript:void(0)" onclick="openTipSlide('tip-t-modal');"> <em class="material-icons">create</em><span>Chỉnh sửa</span></a></div>
+                                        <div class="link-edit"><a href="javascript:void(0)" onclick="openTipSlide('tip-t-modal');"><span>Chỉnh sửa</span></a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="widget-body">
                                 <div class="no-content">
                                     <p>Tiêu đề hồ sơ</p>
-                                    <a href="javascript:void(0)" onclick="openTipSlide('tip-t-modal');"><em class="mdi mdi-plus-circle"></em><span>Chỉnh sửa</span></a>
+                                    <a href="javascript:void(0)" onclick="openTipSlide('tip-t-modal');"><span>Chỉnh sửa</span></a>
                                 </div>
                                 <input type="hidden" id="title_hidden_value" value="">
                             </div>
@@ -298,7 +298,7 @@
                                             </div>
                                             <p>Tips</p>
                                         </div>
-                                        <div class="link-edit"><a href="javascript:void(0);" onclick="openTipSlide('tip-personalinfo-modal')"> <em class="material-icons">create</em><span>Chỉnh sửa</span></a></div>
+                                        <div class="link-edit"><a href="javascript:void(0);" onclick="openTipSlide('tip-personalinfo-modal')"> <span>Chỉnh sửa</span></a></div>
                                     </div>
                                 </div>
                             </div>
@@ -369,14 +369,14 @@
                                             </div>
                                             <p>Tips</p>
                                         </div>
-                                        <div class="link-edit"><a href="javascript:void(0);" onclick="openTipSlide('tip-objective-modal');"> <em class="material-icons">create</em><span>Thêm mới</span></a></div>
+                                        <div class="link-edit"><a href="javascript:void(0);" onclick="openTipSlide('tip-objective-modal');"> <span>Thêm mới</span></a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="widget-body">
                                 <div class="no-content">
                                     <p>Vui lòng thêm Mục tiêu nghề nghiệp</p>
-                                    <a href="javascript:;" onclick="openTipSlide('tip-objective-modal');"><em class="mdi mdi-plus-circle"></em><span>Thêm mới</span></a> 
+                                    <a href="javascript:;" onclick="openTipSlide('tip-objective-modal');"><span>Thêm mới</span></a> 
                                 </div>
                             </div>
                             <div class="widget-body">
@@ -476,12 +476,10 @@
                                     </div>
                                     <div class="right-action">
                                         <div class="tips p1" onclick="openTipSlide('tip-experience')">
-                                            <div class="icon">
-                                                <em class="mdi mdi-lightbulb"></em>
-                                            </div>
+                                            
                                             <p>Tips</p>
                                         </div>
-                                        <div class="link-add"><a href="javascript:void(0);" onclick="openTipSlide('tip-experience-modal')" title="Thêm mới"> <em class="material-icons">add</em><span>Thêm mới</span></a></div>
+                                        <div class="link-add"><a href="javascript:void(0);" onclick="openTipSlide('tip-experience-modal')" title="Thêm mới"> <span>Thêm mới</span></a></div>
                                     </div>
                                 </div>
                             </div>
@@ -499,7 +497,7 @@
                                                 <td>Số năm kinh nghiệm</td>
                                                 <td id="txt-experience">{{ (json_decode($checkTitle->experience))->yearOfExperience??'Chưa có kinh nghiệm' }}</td>
                                                 <td>
-                                                    <div class="link-edit"><a href="javascript:void(0);" onclick="editFrmExperience();"> <em class="material-icons">create</em></a></div>
+                                                    <div class="link-edit"><a href="javascript:void(0);" onclick="editFrmExperience();"></a></div>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -523,7 +521,7 @@
                                                 ?>
                                                 <td id="cbprofile_levelpresent">{{ $number_levelcurrent_id }}</td>
                                                 <td>
-                                                    <div class="link-edit"><a href="javascript:void(0);" onclick="editFrmExperience();"> <em class="material-icons">create</em></a></div>
+                                                    <div class="link-edit"><a href="javascript:void(0);" onclick="editFrmExperience();"> </a></div>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -559,19 +557,17 @@
                                     </div>
                                     <div class="right-action">
                                         <div class="tips p1" onclick="openTipSlide('tip-education')">
-                                            <div class="icon">
-                                                <em class="mdi mdi-lightbulb"></em>
-                                            </div>
+                                            
                                             <p>Tips</p>
                                         </div>
-                                        <div class="link-add"><a href="javascript:void(0)" onclick="openTipSlide('tip-education-modal')" title="Thêm mới"> <em class="material-icons">add</em><span>Thêm mới</span></a></div>
+                                        <div class="link-add"><a href="javascript:void(0)" onclick="openTipSlide('tip-education-modal')" title="Thêm mới"> <span>Thêm mới</span></a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="widget-body">
                                 <div class="no-content">
                                     <p>Nhập thông tin học vấn của bạn</p>
-                                    <a href="javascript:void(0)" onclick="openTipSlide('tip-education-modal');" title="Thêm mới"><em class="mdi mdi-plus-circle"></em><span>Thêm mới</span></a> 
+                                    <a href="javascript:void(0)" onclick="openTipSlide('tip-education-modal');" title="Thêm mới"><span>Thêm mới</span></a> 
                                 </div>
                             </div>
                             <div class="widget-body">
@@ -597,7 +593,7 @@
                                                 <td>
                                                     <div class="box-edit-degree" id="cbprofile_degree_name">
                                                         {{ @$exp[$redu_degree] }}                  
-                                                        <div class="link-edit link-highest-degree"><a href="javascript:void(0);"> <em class="material-icons">create</em></a></div>
+                                                        <div class="link-edit link-highest-degree"><a href="javascript:void(0);"></a></div>
                                                     </div>
                                                     <div class="highest-degree">
                                                         <div class="select-group">
