@@ -100,6 +100,8 @@ Route::get('ve-chung-toi', function () {
 
 Route::group(['prefix' => 'employer','middleware' => 'Checkemploy'], function() {
 
+    Route::post('update-active-job', 'Backend\employerController@activeJobEmployer')->name('update-active-job');
+
     Route::get('employers-info-list','Backend\employerInfoController@index')->name('employers-info-list');
 
 

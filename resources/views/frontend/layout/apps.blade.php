@@ -4,7 +4,7 @@
          <head>
          
 <meta charset="UTF-8">
-<title>Tuyển dụng và tìm kiếm việc làm nhanh | CareerBuilder.vn</title>
+<title>Tuyển dụng việc làm</title>
 <meta name="keywords" content="Kiem viec, tim viec lam, tuyen dung, viec lam, viec lam online, tim viec, mang tuyen dung, việc làm, tìm việc, kiếm việc, tuyển dụng, việc làm online" />
 <meta name="description" content="CareerBuilder.vn - Hơn 1,3 triệu ứng viên để lựa chọn, nhưng vẫn làm cho việc tuyển dụng dễ dàng và tiết kiệm nhờ các tính năng quản lý và nhắc nhở thông minh." />
 <link href="https://careerbuilder.vn/vi/employers/postjobs" rel="canonical" />
@@ -13,6 +13,8 @@
 <link rel="shortcut icon" href="https://careerbuilder.vn/favicon_careerbuilder_v2.ico" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" type="text/css" href="{{ asset('css/form1.css') }}?ver=22">
+ <meta name="csrf-token" content="{{ csrf_token() }}">
+
 
 <script src="{{ asset('js/form2.js') }}"></script>
 <!-- <script type="text/javascript"  src="https://static.careerbuilder.vn/js/jquery.masknumber.js"></script> -->

@@ -20,6 +20,8 @@ class employerController extends Controller
             return view('frontend.employer-register');
         }
         else{
+
+
             return redirect(route('index_employer'));
         }  
     }
@@ -30,11 +32,14 @@ class employerController extends Controller
 
     public function viewIndex()
     {
+
         if(!Auth::guard('employer_register')->check()){
             return view('frontend.employer-register');
         }
         $id = Auth::guard('employer_register')->user()->id;
         $job = job::where('employer_id', $id)->get()->count();
+
+
 
         return view('frontend.index_employer', compact('job'));
     }
@@ -245,5 +250,20 @@ class employerController extends Controller
            return view('frontend.info_employer', compact('data_employ'));
         }  
         
+    }
+
+    public function activeJobEmployer(Request $request)
+    {
+        $id = $request->id;
+
+        $active = $request->active;
+
+        $update = job::find($id);
+
+        $update->active = $active;
+
+        $update->save();
+
+        return response('thanh cong');
     }
 }

@@ -8,58 +8,11 @@
         <div class="heading-manage">
             <div class="left-heading">
                 <h1 class="title-manage">Quản Lý Tuyển Dụng</h1>
-                <div class="button"><a class="btn-gradient" href="{{ route('form_recruit') }}"><em class="material-icons">create</em>Tạo Mẫu Tuyển Dụng</a></div>
+                <div class="button"><a class="btn-gradient" href="{{ route('form_recruit') }}">Tạo Mẫu Tuyển Dụng</a></div>
             </div>
             <!-- <div class="right-heading"><a href="https://careerbuilder.vn/vi/employers/faq" target="_blank" class="support">Hướng dẫn</a></div> -->
         </div>
-        <!-- <div class="main-form-posting">
-            <form name="frmSearchJob" id="frmSearchJob" action="" method="post" onsubmit="return validateSearch();">
-                <div class="form-wrap">
-                    <div class="form-group form-text">
-                        <label>Từ khóa</label>
-                        <input type="text" name="keyword" id="keyword" placeholder="Nhập từ khóa" value="">
-                    </div>
-                    <div class="form-group form-select">
-                        <label>Tìm theo ngày</label>
-                        <select class="fl_left mar_left46" name="date_type" id="date_type">
-                            <option value="0">Ngày đăng</option>
-                            <option value="1">Ngày hết hạn</option>
-                        </select>
-                    </div>
-                    <div class="form-group form-date start-date">
-                        <label>Từ</label>
-                        <input type="text" readonly="" name="date_from" id="date_from" placeholder="Chọn" class="dates_cus_select" value="">
-                        <div class="icon"><em class="material-icons">event</em></div>
-                        <div id="start-date" class="dtpicker-overlay dtpicker-mobile">
-                            <div class="dtpicker-bg">
-                                <div class="dtpicker-cont">
-                                    <div class="dtpicker-content">
-                                        <div class="dtpicker-subcontent"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group form-date end-date">
-                        <label>Đến</label>
-                        <input type="text" readonly="" name="date_to" id="date_to" placeholder="Chọn" class="dates_cus_select" value="">
-                        <div class="icon"><em class="material-icons">event</em></div>
-                        <div id="end-date" class="dtpicker-overlay dtpicker-mobile">
-                            <div class="dtpicker-bg">
-                                <div class="dtpicker-cont">
-                                    <div class="dtpicker-content">
-                                        <div class="dtpicker-subcontent"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group form-submit">
-                        <button class="btn-submit btn-gradient" type="submit"><em class="material-icons">search</em>Tìm</button>
-                    </div>
-                </div>
-            </form>
-        </div> -->
+        
         <script type="text/javascript">
             var action  = 'posting';
             var user_id = 'chiensi26045.1652405352';
@@ -179,6 +132,7 @@
                                         <th width="10%" onclick="setTypeSort('posting', 'asc', 0)">Lượt Xem</th>
                                         <th width="10%" onclick="setTypeSort('posting', 'asc', 1)">Lượt Nộp</th>
                                        <!--  <th width="10%">CV Gợi Ý</th> -->
+                                        <th width="15%">Nổi bật</th>
                                         <th width="15%">Sửa</th>
                                     </tr>
                                 </thead>
@@ -204,6 +158,11 @@
                                          <td>
                                             0
                                         </td>
+
+                                        <td class="cb-text-center">
+
+                                            <a href="javascript:void(0)" onclick="updateActiveJob({{  $jobs->id }},  {{ $jobs->active==0?1:0  }})">{{ $jobs->active==0?'Tắt':'Bật'  }}</a>
+                                        </td>
                                         
                                         <td colspan="9" class="cb-text-center">
 
@@ -227,6 +186,8 @@
                     </div>
                 </div>
             </div>
+
+            
             <script type="text/javascript">
                 var language_append = {
                 		emp_hrcentral_unposting_this_online_job:"Quý khách muốn tạm ngừng đăng quảng cáo tuyển dụng này?<br/>Lưu ý: Thời gian tạm ngừng vẫn được tính vào thời hạn 30 ngày đăng tuyển của quảng cáo tuyển dụng. Trong thời gian tạm ngừng, các dịch vụ cộng thêm sẽ bị gián đoạn cho đến khi quảng cáo tuyển dụng được kích hoạt lại. ",
@@ -247,6 +208,35 @@
                 var current_tag_show = null;
                 $(document).ready(function(){
                 });
+            </script>
+
+            <script type="text/javascript">
+                
+                function updateActiveJob(id,active) {
+
+
+
+                    $.ajaxSetup({
+                        headers: {
+                            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                        }
+                    });
+
+                    $.ajax({
+                        type: 'POST',
+                        url: "{{ route('update-active-job')  }}",
+                        data: {
+                            id: id,
+                            active:active,   
+                        },
+                       
+                        success: function(result){
+                           
+                            window.location.reload()
+                        }
+                    });
+                    
+                }
             </script>
         </div>
     </div>

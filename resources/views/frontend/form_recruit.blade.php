@@ -104,36 +104,14 @@
                 <div class="button-hambuger"><span class="mdi mdi-menu"></span></div>
                                 <div class="logo"><a href="{{ route('home') }}" title="homepage-employers">
                     <img src="{{ asset('images/template/logo/logo.png') }}" alt="https://images.careerbuilder.vn/logo/logo_1482896879_1489026739.png" title="https://images.careerbuilder.vn/logo/logo_1482896879_1489026739.png" /></a></div>
-               <!--  <div class="main-menu">
-                    <ul class="menu">
-                        <li class=""><a href="https://careerbuilder.vn/vi/employers" alt="Trang chủ" title="Trang chủ">Trang Chủ</a></li>
-                        <li class="dropdown "><a href="https://careerbuilder.vn/vi/employers/products-and-services">Sản Phẩm và Dịch Vụ</a>
-                            <div class="dropdown-menu">
-                                <ul><li><a href="https://careerbuilder.vn/vi/employers/products-and-services/dang-tuyen-dung/3">Đăng Tuyển Dụng</a></li><li><a href="https://careerbuilder.vn/vi/employers/products-and-services/tim-ho-so-ung-vien/8">Tìm Hồ Sơ Ứng Viên</a></li><li><a href="https://careerbuilder.vn/vi/employers/products-and-services/talent-solution/">Talent Solution</a></li><li><a href="https://careerbuilder.vn/vi/employers/products-and-services/quang-cao-tuyen-dung/9">Quảng Cáo Tuyển Dụng</a></li><li><a href="https://careerbuilder.vn/vi/employers/products-and-services/talent-driver/14">Talent Driver</a></li><li><a href="https://careerbuilder.vn/vi/employers/products-and-services/targeted-email-marketing/">Targeted Email Marketing</a></li><li><a href="https://careerbuilder.vn/vi/employers/products-and-services/talent-referral/">Talent Referral</a></li><li><a href="https://careerbuilder.vn/vi/employers/products-and-services/dang-tuyen-dung-va-tim-ho-so-quoc-te/10">Đăng Tuyển Dụng và Tìm Hồ Sơ Quốc tế</a></li><li><a href="https://careerbuilder.vn/vi/employers/products-and-services">Xem tất cả sản phẩm / dịch vụ</a></li></ul>
-                            </div>
-                        </li>
-                        <li class="dropdown active "><a href="https://careerbuilder.vn/vi/employers/dashboard">HR Central</a>
-                            <div class="dropdown-menu">
-                                <ul>
-                                    <li><a href="https://careerbuilder.vn/vi/employers/dashboard">Dashboard</a></li>
-                                    <li><a href="https://careerbuilder.vn/vi/employers/postjobs">Đăng Tuyển Dụng</a></li>
-                                    <li><a href="https://careerbuilder.vn/vi/resume-search.html">Tìm Hồ Sơ</a></li>
-
-                                                                                                                        <li><a href="https://careerbuilder.vn/vi/employers/careerbuilder-rewards">CareerBuilder Rewards</a></li>
-                                                                                                            </ul>
-                            </div>
-                        </li>
-                        <li class=""><a href="https://careerbuilder.vn/vi/hiringsite">Cẩm Nang Tuyển Dụng</a></li>
-                        <li class=""><a href="https://careerbuilder.vn/vi/employers/services/contact">Liên hệ</a></li>
-                    </ul>
-                </div> -->
+              
             </div>
             <div class="right-wrap">
-                                <div class="main-login dropdown logged"><a href="https://careerbuilder.vn/vi/employers/hrcentral/accounts" title="cuong"> <span class="mdi mdi-account-circle"></span>Hi, <span class="name">cuong</span></a>
+                                <div class="main-login dropdown logged"><a href="{{ route('index_employer') }}" title="cuong"> <span class="mdi mdi-account-circle"></span>Hi, <span class="name">cuong</span></a>
                     <div class="dropdown-menu">
                         <ul>
-                            <li> <a href="https://careerbuilder.vn/vi/employers/hrcentral/accounts"> <em class="fa fa-cog"></em>Tài khoản</a></li>
-                            <li> <a href="https://careerbuilder.vn/vi/employers/logout"> <em class="fa fa-sign-out"> </em>Thoát</a></li>
+                            
+                            <li> <a href="{{ route('employer-logout') }}"> <em class="fa fa-sign-out"> </em>Thoát</a></li>
                         </ul>
                     </div>
                 </div>
@@ -268,7 +246,7 @@
     <div class="left-heading">
         <h1 class="title-manage">Đăng Tuyển Dụng</h1>
     </div>
-    <div class="right-heading"><a href="https://careerbuilder.vn/vi/employers/faq" target="_blank" class="support" target="_blank">Hướng dẫn</a></div>
+   
 </div>
 <form name="frmEditJob" id="frmEditJob"  method="post" action="{{ route('postJob') }}">
     @csrf
@@ -302,7 +280,7 @@
         </div>
         <div class="col-lg-6">
             <div class="noti mt-20">
-                <em class="material-icons">info</em>
+                
                 <div class="toolip">
                     Lưu ý: Chức danh nên mô tả chính xác vị trí tuyển dụng cần tuyển. Đây là một phần quan trọng thu hút người tìm việc ứng tuyển và hệ thống gợi ý hồ sơ phù hợp.
                 </div>
@@ -318,7 +296,7 @@
         <div class="col-lg-6">
             <div class="d-flex mt-20 align-center">
                 <div class="noti">
-                    <em class="material-icons">info</em>
+                    
                     <div class="toolip">
                         Quý khách có thể chọn <strong>Mẫu Quảng Cáo Tuyển  Dụng</strong> có sẵn của chúng tôi.
                     </div>
@@ -684,7 +662,7 @@
                 <label for="0-2"><span>Hiển thị trên tin tuyển dụng để thu hút ứng viên hơn</span></label>
             </div>
             <div class="noti">
-                <em class="material-icons">info</em>
+                
                 <div class="toolip">
                     <p class="width_62 fl_left"><b>Lưu ý:</b></p>
                     </br>- 72% ứng viên chia sẻ rằng thông tin lương ảnh hưởng đến quyết định ứng tuyển của họ.
