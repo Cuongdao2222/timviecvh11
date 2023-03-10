@@ -142,9 +142,8 @@
                                             </div> -->
                                             <div class="check-box">
                                                 <div class="form-group form-check-box job-alerts">
-                                                    <label for="cv_jobalert_16167824">Nhận thông báo việc làm
-                                                    <input type="checkbox" name="cv_jobalert_16167824" id="cv_jobalert_16167824"  value="16167824"   disabled="disabled"  onclick="updateCvJobalert(this);">
-                                                    <span class="slider"></span> </label>
+                                                    <label for="cv_jobalert_16167824">Tải cv xuống
+                                                    <button><a href="javascript:void(0)">download</a></button>
                                                 </div>
                                             </div>
                                             <script>
@@ -235,7 +234,44 @@
                             </div>
                         </div>
 
-                        <div class="widget widget-20" id="work-recent">
+
+                        <div class="widget widget-20" id="desired-salarys">
+                            <div class="widget-head">
+                                <div class="cb-title-h3">
+                                    <div class="figure">
+                                        <div class="image"><img src="./img/dash-board/i14.png" alt=""></div>
+                                        <div class="figcaption">
+                                            <h3>Mức lương mong muốn </h3>
+
+                                        </div>
+                                    </div>
+                                    <div class="right-action">
+                                        <div class="tips p1" onclick="openTipSlide('desired-salary')">
+                                            <div class="icon">
+                                                <em class="mdi mdi-lightbulb"></em>
+                                            </div>
+                                            <p>Tips</p>
+                                        </div>
+                                        <div class="link-edit"><a href="javascript:void(0)" onclick="openTipSlide('desired-salary');"><span>Chỉnh sửa</span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                           
+
+                            <div class="widget-body">
+                                <div class="no-content">
+                                    <p>Mức lương mong muốn</p>
+                                    <a href="javascript:void(0)" onclick="openTipSlide('desired-salary');"><span>Chỉnh sửa</span></a>
+                                </div>
+                                <input type="hidden" id="title_hidden_value" value="">
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="widget widget-20" id="work-recents">
                             <div class="widget-head">
                                 <div class="cb-title-h3">
                                     <div class="figure">
@@ -283,7 +319,7 @@
                             <div class="widget-body">
                                 <div class="no-content">
                                     <p>Công việc gần đây</p>
-                                    <a href="javascript:void(0)" onclick="openTipSlide('tip-t-resume');"><span>Chỉnh sửa</span></a>
+                                    <a href="javascript:void(0)" onclick="openTipSlide('work-recent');"><span>Chỉnh sửa</span></a>
                                 </div>
                                 <input type="hidden" id="title_hidden_value" value="">
                             </div>
@@ -1042,6 +1078,9 @@
                     </form>
                 </div>
             </div>
+
+
+
             <div class="edit-db-work-experience-1 edit-modal-dashboard" style="display:none">
                 <div class="modal-title">
                     <h3>Kinh nghiệm làm việc</h3>
@@ -1217,11 +1256,83 @@
                         <h3>Công việc gần đây</h3>
                     </div>
                     <div class="modal-body">
+                        <form autocomplete="on" name="t-resume-form" id="t-resume-form" method="post" action="{{ route('postProfile', 'workrc') }}">
+                            @csrf
+                            <div class="form-group row">
+                                <div class="col-lg-4">
+                                    <label for="">Công việc gần đây<span>*</span></label>
+                                </div>
+                               
+                                <div class="col-lg-8">
+                                    <div class="input-group">
+                                        <input type="text"  name="resume_title" id="resume_title" maxlength="400" value="{{ @json_decode($checkTitle->title)->workrc }}">
+                                    </div>
+                                    <div class="form-error"><span class="err_resume_title"></span></div>
+                                </div>
+                            </div>
+                            <div class="form-group form-button">
+                                <div class="button-save button-center">
+                                    <button class="btn-gradient" type="submit">Lưu Lại</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <button type="button" data-fancybox-close="" class="fancybox-button fancybox-close-small" title="Close">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24">
+                            <path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="tips-modal" id="desired-salary" style="display: none">
+                <div class="add-title-modal edit-modal-dashboard fancybox-content" style="">
+                    <div class="modal-title">
+                        <h3>Mức lương mong muốn</h3>
+                    </div>
+                    <div class="modal-body">
+                        <form autocomplete="on" name="t-resume-form" id="t-resume-form" method="post" action="{{ route('postProfile', 'desired_salary') }}">
+                            @csrf
+                            <div class="form-group row">
+                                <div class="col-lg-4">
+                                    <label for="">Mức lương mong muốn<span>*</span></label>
+                                </div>
+                               
+                                <div class="col-lg-8">
+                                    <div class="input-group">
+                                        <input type="text"  name="resume_title" id="resume_title" maxlength="400" value="{{ @json_decode($checkTitle->title)->desired_salary }}">
+                                    </div>
+                                    <div class="form-error"><span class="err_resume_title"></span></div>
+                                </div>
+                            </div>
+                            <div class="form-group form-button">
+                                <div class="button-save button-center">
+                                    <button class="btn-gradient" type="submit">Lưu Lại</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <button type="button" data-fancybox-close="" class="fancybox-button fancybox-close-small" title="Close">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24">
+                            <path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+
+
+            <div class="tips-modal" id="tip-t-modal" style="display: none">
+                <div class="add-title-modal edit-modal-dashboard fancybox-content" style="">
+                    <div class="modal-title">
+                        <h3>Tiêu đề hồ sơ</h3>
+                    </div>
+                    <div class="modal-body">
                         <form autocomplete="on" name="t-resume-form" id="t-resume-form" method="post" action="{{ route('postProfile', 'title') }}">
                             @csrf
                             <div class="form-group row">
                                 <div class="col-lg-4">
-                                    <label for="">Tiêu đề hồ sơ<span>*</span></label>
+                                    <label for="">Tiêu đề hồ sơ <span>*</span></label>
                                 </div>
                                
                                 <div class="col-lg-8">
@@ -2057,13 +2168,17 @@
             </div>
             <script>
                 function openTipSlide(idTip) {
+
+
                     $.fancybox.open($("#"+idTip), {});
+
+                   
                     if($('#'+idTip+' .widget-12 .swiper-container .swiper-slide').length > 1){
                         setTimeout(() => {
                             widgetTipSlide(idTip)
                         }, 100);
                     }else{
-                        $('#'+idTip+' .widget-12 .swiper-container .main-button').hide();
+                        // $('#'+idTip+' .widget-12 .swiper-container .main-button').hide();
                     }
                     
                 }
