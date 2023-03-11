@@ -79,7 +79,7 @@
                                 <ul class="list-account-information">
                                     <li>
                                         <p class="number intNumPostNoUse">0</p>
-                                        <a class="title" href="">Thông tin doanh nghiệp</a>
+                                        <a class="title" href="javascript:void(0)">Thông tin doanh nghiệp</a>
                                     </li>
                                    
                                 </ul>
@@ -193,7 +193,7 @@
                     <div class="col-lg-6">
                         <div class="box-dasboard-bottom topresume-list">
                             <div class="topresume-list-head">
-                                Top <span class="swiper-pagination swiper-pagination-fraction" style="position: inherit;"><span class="swiper-pagination-current">1</span> / <span class="swiper-pagination-total">10</span></span> hồ sơ mới <a href="#">Xem thêm tìm kiếm ứng viên</a>
+                                Top <span class="swiper-pagination swiper-pagination-fraction" style="position: inherit;"><span class="swiper-pagination-current">1</span> / <span class="swiper-pagination-total">10</span></span> hồ sơ mới 
                                 <div class="main-button">
                                     <div class="button-prev" tabindex="0" role="button" aria-label="Previous slide"><em class="mdi mdi-chevron-left"></em></div>
                                     <div class="button-next" tabindex="0" role="button" aria-label="Next slide"><em class="mdi mdi-chevron-right"></em></div>
