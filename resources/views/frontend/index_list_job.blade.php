@@ -487,7 +487,7 @@
                     <div class="col-lg-6 ">
                         <div class="job-item">
                             <div class="figure">
-                                <div class="image"><a target="_blank" href="" title="Hongfa Electroacoustic (HK) Company Limited"><img src="https://images.careerbuilder.vn/employer_folders/lot3/291743/67x67/103534logo_hongfa-003-4.png" class="swiper-lazy swiper-lazy-loaded" alt="Hongfa Electroacoustic (HK) Company Limited"></a></div>
+                                <div class="image"><a target="_blank" href="{{ route('job_details', [$value->link, $value->id]) }}" title="Hongfa Electroacoustic (HK) Company Limited"><img src="https://images.careerbuilder.vn/employer_folders/lot3/291743/67x67/103534logo_hongfa-003-4.png" class="swiper-lazy swiper-lazy-loaded" alt="Hongfa Electroacoustic (HK) Company Limited"></a></div>
                                 <div class="figcaption">
                                     <div class="title"><a target="_blank" href="https://careerbuilder.vn/vi/tim-viec-lam/senior-sales-manager.35BB7A82.html" title="Senior Sales Manager">{{  $value->title }}</a></div>
                                     <div class="caption">
