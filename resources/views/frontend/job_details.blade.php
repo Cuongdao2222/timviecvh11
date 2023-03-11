@@ -106,7 +106,7 @@
                                                         <p>  
                                                                      
                                                             <a href="https://careerbuilder.vn/viec-lam/nhan-su-c22-vi.html" >
-                                                             {{ $careers[$data->career] }}
+                                                             {{ $careers[$data->career]??'' }}
                                                             </a>
 
                                                         </p>
