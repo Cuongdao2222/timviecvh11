@@ -18323,7 +18323,10 @@ header.header-dashboard .mobile-menu .menu .menu-logged ul li.dropdown-mobile .d
 	<h3>OBJECTIVES</h3>
 	<div class="text-edt">
 		<div class="content_fck">
-			{{ json_decode($data_cv['objective'])->objective  }}
+
+			@if(!empty(json_decode($data_cv['objective']) ) && !empty(json_decode($data_cv['objective'])->objective))
+			{{ json_decode($data_cv['objective'])->objective??''  }}
+			@endif
 		</div>
 	</div>
 	<h3>WORK EXPERIENCE</h3>
