@@ -491,7 +491,7 @@
                                 <div class="figcaption">
                                     <div class="title"><a target="_blank" href="https://careerbuilder.vn/vi/tim-viec-lam/senior-sales-manager.35BB7A82.html" title="Senior Sales Manager">{{  $value->title }}</a></div>
                                     <div class="caption">
-                                        <a class="company-name" href="https://careerbuilder.vn/vi/nha-tuyen-dung/hongfa-electroacoustic-hk-company-limited.35A95C9F.html" title="Hongfa Electroacoustic (HK) Company Limited" target="_blank">{{ $value->name }}</a>
+                                        <a class="company-name" href="{{ route('job_details', [$value->link, $value->id]) }}" title="Hongfa Electroacoustic (HK) Company Limited" target="_blank">{{ $value->name }}</a>
                                         
                                         {!! @$value->salary  !!}
 
