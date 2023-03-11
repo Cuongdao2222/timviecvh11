@@ -197,7 +197,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="main-register"><a href="{{ route('registerClientUser') }}" title="Đăng ký">Đăng ký</a></div>
+                        <!-- <div class="main-register"><a href="{{ route('registerClientUser') }}" title="Đăng ký">Đăng ký</a></div> -->
                         <!-- <div class="main-language dropdown">
                             <div class="dropdown-toggle">
                                 <p>VI<em class="mdi mdi-chevron-down"></em></p>
@@ -266,7 +266,7 @@
                             </div>
                             @endif
 
-                            <div class="main-register"><a href="{{ route('register_employer') }}">Đăng ký</a></div>
+                            <!-- <div class="main-register"><a href="{{ route('register_employer') }}">Đăng ký</a></div> -->
                             <div class="main-noti" style="display: none"><a href="javascript:void(0);"> <span class="mdi mdi-cart"></span></a></div>
                             <div class="main-language dropdown">
                                 <!-- <div class="dropdown-toggle">
