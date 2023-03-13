@@ -269,7 +269,7 @@
                         <div class="widget-body">
                             <div class="box-text">
                                 <h4>Bạn cần tải hoặc tạo hồ sơ</h4>
-                                <p>Vui lòng thêm mục tiêu nghề nghiệp</p>
+                                
                             </div>
                             <div class="button-upload" id="created-resume"><a href="javascript:void(0);" >Tạo  Hồ Sơ Ngay!</a></div>
                         </div>
