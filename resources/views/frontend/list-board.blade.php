@@ -124,28 +124,17 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- <div class="searchable-cv-widget status-area attached-status-area">
-                                                <div class="switch-status group_searchable" id="cv_searchable_16167824" data-id="16167824" data-complete="0">
-                                                    <a href="javascript:void(0);" data-type="2" class="lock active"><em class="mdi mdi-lock"></em>Khóa</a>
-                                                    <a href="javascript:void(0);" data-type="1" class="public "><em class="mdi mdi-web"></em>Công khai</a>
-                                                    <a href="javascript:void(0);" data-type="3" class="flash "><em class="mdi mdi-flash"></em>Khẩn cấp</a>
-                                                </div>
-                                                <p class="text-notes text-notes-2 d-block">
-                                                    CV của bạn đang ở trạng thái "Khóa", NTD sẽ không tìm thấy CV của bạn.
-                                                </p>
-                                                <p class="text-notes text-notes-1 d-none">
-                                                    CV của bạn đang ở trạng thái "Công khai", NTD bây giờ đã có thể tìm thấy CV của bạn.
-                                                </p>
-                                                <p class="text-notes text-notes-3 d-none">
-                                                    CV của bạn đang ở trạng thái "Khẩn cấp", NTD sẽ tìm thấy CV của bạn với hashtag #Opentonewjob.
-                                                </p>
-                                            </div> -->
+                                          
+
+                                            @if(!empty(Auth::user()->cv))
                                             <div class="check-box">
                                                 <div class="form-group form-check-box job-alerts">
                                                     <label for="cv_jobalert_16167824">Tải cv xuống
-                                                    <button><a href="javascript:void(0)">download</a></button>
+                                                    <button><a href="{{ asset(Auth::user()->cv) }}">download</a></button>
                                                 </div>
                                             </div>
+
+                                            @endif
                                             <script>
                                                 var intComCBProfile = 0;
                                                 $(document).ready(function(){

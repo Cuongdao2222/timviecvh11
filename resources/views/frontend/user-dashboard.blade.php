@@ -115,8 +115,12 @@
                                         </div>
                                     </div>
                                 </div>
+
+                                
                                 <div class="col-lg-8 col-xl-9">
                                     <div class="cb-name">
+
+
                                         <h2>{{ Auth::user()->name }}</h2>
                                     </div>
                                     <div class="information">
@@ -265,6 +269,8 @@
                                 <h3>Hồ sơ đính kèm</h3>
                             </div>
 
+                            @if(empty(Auth::user()->cv))
+
                             <form method="POST" action="{{ route('upload-cv-file') }}" enctype="multipart/form-data">
 
                                 @csrf
@@ -279,6 +285,12 @@
                                 </div>
                                 
                             </form>
+
+                            @else
+                            <span>Đã tồn tại file cv </span>
+
+                            @endif
+                            
                             <p>Ngoài hồ sơ, bạn có thể tạo hồ sơ đính kèm để ứng tuyển và  tìm kiếm bởi nhà tuyển dụng</p>
                         </div>
                        

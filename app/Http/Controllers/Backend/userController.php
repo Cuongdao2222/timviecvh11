@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 use Auth;
 use App\Models\application;
 
+use DB;
+
 class userController extends Controller
 {
     public function register()
@@ -42,7 +44,16 @@ class userController extends Controller
 
     public function registerUser()
     {
-        return view('frontend.registerClientUser');
+
+        if(Auth::check()){
+
+            return redirect(route('user-dashboard'));
+
+        }
+        else{
+            return view('frontend.registerClientUser');
+        }
+        
     }
 
     public function viewCv($id)
@@ -60,19 +71,15 @@ class userController extends Controller
             
         ]);
         
-
         $name = $request->file('file')->getClientOriginalName();
 
-         $path = $reques->file('file')->storeAs('files', $name, 'public');
+        $path = $request->file('file')->storeAs('user', $name, 'public');
 
+        $id_user = Auth::user()->id;
 
-        // $path = $request->file('file')->store('public/files');
+        DB::table('users')->where('id', $id_user)->update(['cv'=>$path]);
 
-
-        // $save = new File;
-
-        // $save->name = $name;
-        // $save->path = $path;
+        return redirect()->back();
     }
 
 

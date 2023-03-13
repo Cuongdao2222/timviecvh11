@@ -86,7 +86,7 @@ Route::get('ve-chung-toi', function () {
 
     return view('frontend.our');
 
-});
+})->name('our');
 
 
 

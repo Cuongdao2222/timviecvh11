@@ -42,6 +42,7 @@
         <link href="{{ asset('download/css/TNredirect.css')}}" rel="stylesheet" type="text/css" media="screen"/>
         <link href="{{ asset('download/css/premium.css')}}?ver=1" rel="stylesheet" type="text/css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="{{ asset('/css/global1.css') }}">
 
        
         <!-- <link rel="stylesheet" type="text/css" href="css/nav_vi.css?t=12032015" media="screen"/> -->
@@ -53,6 +54,10 @@
         <style type="text/css">
             .search-jobs-main input.width_545, .search-jobs-main select.slc-mb,.searchvt1{
                 background: green !important;
+            }
+
+            .container-fluid{
+                display: none;
             }
         </style>
         <script type="text/javascript" src="{{ asset('download/js/jquery-ui.min.js')}}"></script>
@@ -186,6 +191,9 @@
 
 
                             <li class=""><a href="{{ route('registerClientUser') }}"  target="_self">Gia nhập việc làm ngon </a>
+                            </li>
+
+                            <li class=""><a href="{{ route('our') }}"  target="_self">Về chúng tôi </a>
                             </li>
                         </ul>
                     </div>
@@ -602,22 +610,74 @@
                 </div>
             </div>
         </div>
-        <!-- <div id="footer-pre">
+
+
+        <footer>
             <div class="container">
-                <div class="col-xs-12 col-sm-3 powerby"><a href="https://VieclamIT.vn/" target="_blank" style="color:inherit">Talent </a><a href="https://careerbuilder.vn/careermap" target="_blank" style="color:inherit">Solution</a> <a href="https://VietnamSalary.vn/" target="_blank" style="color:inherit">by </a> <a href="https://careerbuilder.vn/viec-lam/tat-ca-viec-lam-vi.html" title="Tìm việc làm nhanh" target="_blank" style="color:inherit">CareerBuilder</a></div>
-                <div class="col-xs-12 col-sm-9 menu-footer">
-                    <ul>
-                        <li><a href="vi" >Trang Chủ</a></li>
-                        <li><a href="vi/#11974" >Giới Thiệu</a></li>
-                        <li><a href="vi/#11975" >Cơ Hội Nghề Nghiệp</a></li>
-                        <li><a href="vi/#11976" >Phúc Lợi</a></li>
-                        <li><a href="vi/#11977" >Tin Tức</a></li>
-                        <li><a href="vi/#11978" >Tất Cả Việc Làm</a></li>
-                        <li><a href="lien-he/vi" >Liên Hệ</a></li>
-                    </ul>
-                </div>
+                <section class="top-footer cb-section cb-section-border-bottom">
+                    <div class="row">
+                        <div class="col-lg-12 logo"><img class="lazy-bg" data-src="http://localhost:8000/images/template/logo/logo.png" src="http://localhost:8000/images/template/logo/logo.png" alt="Tuyển dụng &amp; Tìm kiếm việc làm nhanh"></div>
+                        <div class="col-lg-2 col-sm-6">
+                            <div class="footer-links">
+                                <h3>Dành Cho Ứng Viên</h3>
+                                <ul>
+                                    <li><a href="javascript:void(0)" title="Việc làm mới nhất">Việc làm mới nhất</a></li>
+                                    <li><a href="javascript:void(0)" title="CV Hay">CV Hay</a></li>
+                                    <li><a href="javascript:void(0)" title="VietnamSalary">VietnamSalary</a></li>
+             
+                                    <li><a href="javascript:void(0)" title="Cẩm Nang">Cẩm Nang</a></li>
+                                    <li><a href="javascript:void(0)" title="IT Blogs">IT Blogs</a></li>
+                                    <li><a href="javascript:void(0)" title="Ứng Dụng Di Động">Ứng Dụng Di Động</a></li>
+                                    <li><a href="javascript:void(0)" title="Sơ Đồ Trang Web">Sơ Đồ Trang Web</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-sm-6">
+                            <div class="footer-links">
+                                <h3>Nhà Tuyển Dụng</h3>
+                                <ul>
+                                    <li><a href="javascript:void(0)" title="Đăng Tuyển Dụng">Đăng Tuyển Dụng</a></li>
+                                    <li><a href="javascript:void(0)" title="Tìm Hồ Sơ">Tìm Hồ Sơ</a></li>
+                                    <li><a href="javascript:void(0)">Giải Pháp Talent Solution</a></li>
+                                    <li><a href="javascript:void(0)" title="Sản Phẩm Dịch Vụ">Sản Phẩm Dịch Vụ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-sm-6">
+                            <div class="footer-links">
+                                <h3>Trung tâm trợ giúp</h3>
+                                <ul>
+                                  
+                                    <li><a href="javascript:void(0)" title="Chính Sách BV Thông Tin">Chính Sách BV Thông Tin</a></li>
+                                    <li><a href="javascript:void(0)" title="Chính sách GDPR">Chính sách GDPR</a></li>
+                                    <li><a href="javascript:void(0)" title="Quy chế sàn giao dịch">Quy chế sàn giao dịch</a></li>
+                                    <li><a href="javascript:void(0)" title="Thỏa thuận sử dụng">Thỏa thuận sử dụng</a></li>
+                                    <li><a href="javascript:void(0)" title="Quy định bảo mật">Quy định bảo mật</a></li>
+                                    <li><a href="javascript:void(0)" title="QT Giải Quyết Tranh Chấp">QT Giải Quyết Tranh Chấp</a></li>
+                                    <li><a href="javascript:void(0)" title="Trợ giúp">Trợ giúp</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-sm-6">
+                            <div class="footer-links">
+                                <h3>Website Đối Tác</h3>
+                                <ul>
+                                    <li><a href="javascript:void(0)">Vieclam.Tuoitre.vn</a></li>
+                                    <li><a href="javascript:void(0)">Vieclam.Vietnamnet.vn</a></li>
+                                    <li><a href="javascript:void(0)">Vieclam.Thanhnien.vn</a></li>
+                                    <li><a href="javascript:void(0)">VieclamIT.vn</a></li>
+                                    <li><a href="javascript:void(0)">Liên Hệ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </section>
+               
             </div>
-        </div> -->
+        </footer>
+
+
         <div id="back-top" class="" style="display: none;"><a class="bgcolor_theme" id="topToPage" href="javascript:void(0);">_Top_</a></div>
         <div style="display: none">
             <div id="NoticePost" class="msgbox">
