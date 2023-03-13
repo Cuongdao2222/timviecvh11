@@ -89,7 +89,7 @@
                                             <div class="detail-box">
                                                 <div class="map">
                                                     <strong><em class="mdi mdi-map-marker"></em>Địa điểm</strong>
-                                                    <p><a href="https://careerbuilder.vn/viec-lam/ho-chi-minh-l8-vi.html">{{ $address[$data->address_job] }}</a></p>
+                                                    <p><a href="javascript:void(0)">{{ $address[$data->address_job] }}</a></p>
                                                     <a href="javascript:void(0)" onclick="show_map_detail_job();"></a>
                                                 </div>
                                             </div>
@@ -105,7 +105,7 @@
                                                         <strong> <em class="mdi mdi-briefcase"></em>Ngành nghề</strong>
                                                         <p>  
                                                                      
-                                                            <a href="https://careerbuilder.vn/viec-lam/nhan-su-c22-vi.html" >
+                                                            <a href="javascript:void(0)" >
                                                              {{ $careers[$data->career]??'' }}
                                                             </a>
 
@@ -250,13 +250,13 @@
                                                                 <tr>
                                                                     <td>Ngành nghề</td>
                                                                     <td>
-                                                                        <a href="https://careerbuilder.vn/viec-lam/nhan-su-c22-vi.html" >
+                                                                        <a href="javascript:void(0)" >
                                                                         Nhân sự
                                                                         ,                                                </a>
-                                                                        <a href="https://careerbuilder.vn/viec-lam/det-may-da-giay-thoi-trang-c39-vi.html" >
+                                                                        <a href="javascript:void(0)" >
                                                                         Dệt may / Da giày / Thời trang
                                                                         ,                                                </a>
-                                                                        <a href="https://careerbuilder.vn/viec-lam/hanh-chinh-thu-ky-c3-vi.html" >
+                                                                        <a href="javascript:void(0)" >
                                                                         Hành chính / Thư ký
                                                                         </a>
                                                                     </td>
