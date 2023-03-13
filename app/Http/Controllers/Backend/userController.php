@@ -52,6 +52,29 @@ class userController extends Controller
         return view('user.cv', compact('data_cv'));
     }
 
+    public function upload_cv_pdf(Request $request)
+    {
+
+        $validatedData = $request->validate([
+            'file' => 'required|max:4096|mimes:pdf,png'
+            
+        ]);
+        
+
+        $name = $request->file('file')->getClientOriginalName();
+
+         $path = $reques->file('file')->storeAs('files', $name, 'public');
+
+
+        // $path = $request->file('file')->store('public/files');
+
+
+        // $save = new File;
+
+        // $save->name = $name;
+        // $save->path = $path;
+    }
+
 
     
      // Route::get('/my-profile', function () {

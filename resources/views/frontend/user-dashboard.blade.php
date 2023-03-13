@@ -264,15 +264,24 @@
                             <div class="cb-title-h3">
                                 <h3>Hồ sơ đính kèm</h3>
                             </div>
+
+                            <form method="POST" action="{{ route('upload-cv-file') }}" enctype="multipart/form-data">
+
+                                @csrf
+                                <div>
+                                    
+                                    <input type="file" id="file" name="file" accept="image/png, pdf/jpeg">
+
+                                </div>
+                                
+                                <div>
+                                    <button type="submit">uploads</button>
+                                </div>
+                                
+                            </form>
                             <p>Ngoài hồ sơ, bạn có thể tạo hồ sơ đính kèm để ứng tuyển và  tìm kiếm bởi nhà tuyển dụng</p>
                         </div>
-                        <div class="widget-body">
-                            <div class="box-text">
-                                <h4>Bạn cần tải hoặc tạo hồ sơ</h4>
-                                
-                            </div>
-                            <div class="button-upload" id="created-resume"><a href="javascript:void(0);" >Tạo  Hồ Sơ Ngay!</a></div>
-                        </div>
+                       
                     </div>
                 </div>
                

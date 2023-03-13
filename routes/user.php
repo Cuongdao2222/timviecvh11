@@ -15,6 +15,9 @@ Route::group(['middleware' => 'checklogin'], function() {
 	Route::get('logout-user','UserLoginController@logoutUser')->name('logoutUser');
 
 	Route::get('cv/{id}', 'userController@viewCv')->name('viewCv');
+
+
+	Route::post('upload-cv-pdf', 'userController@upload_cv_pdf')->name('upload-cv-file');
 });	
 Route::get('register-client-user', 'userController@registerUser')->name('registerClientUser');
 
