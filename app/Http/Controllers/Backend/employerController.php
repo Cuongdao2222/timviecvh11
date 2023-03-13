@@ -203,7 +203,7 @@ class employerController extends Controller
             $employ_info->website = $request->EMP_WEBSITE ;
             $employ_info->taxid = $request->EMP_TAXID;
             $employ_info->desc = $request->EMP_DESC;
-            $employ_info->links = convertSlug($employ_info->name);
+            $employ_info->links = $this->convertSlug($employ_info->name);
             $employ_info->address = $request->address_employ ;
         
 
@@ -243,11 +243,13 @@ class employerController extends Controller
 
             $employ_id = Auth::guard('employer_register')->user()->id;
 
+            $infoEmployer = Auth::guard('employer_register')->user();
+
             $id = employ_info::where('employ_id', $employ_id)->first();
 
             $data_employ = employ_info::find($id->id);
 
-           return view('frontend.info_employer', compact('data_employ'));
+           return view('frontend.info_employer', compact('data_employ', 'infoEmployer'));
         }  
         
     }

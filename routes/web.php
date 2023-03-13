@@ -60,12 +60,6 @@ Route::get('/quick-register-user', function () {
 
 Route::get('blog-details/{link}', 'blogController@viewBlog')->name('blog_detail'); 
 
-
-Route::get('employers/register', 'Backend\employerController@index')->name('register_employer'); 
-
-Route::get('employers_info', 'Backend\employerController@info_employer')->name('employers_info');
-
-
 Route::get('list-news', function () {
 
     return view('frontend.listnews');
@@ -99,6 +93,11 @@ Route::get('ve-chung-toi', function () {
 
 
 Route::group(['prefix' => 'employer','middleware' => 'Checkemploy'], function() {
+
+
+    Route::get('employers/register', 'Backend\employerController@index')->name('register_employer'); 
+
+    Route::get('employers_info', 'Backend\employerController@info_employer')->name('employers_info');
 
     Route::post('update-active-job', 'Backend\employerController@activeJobEmployer')->name('update-active-job');
 

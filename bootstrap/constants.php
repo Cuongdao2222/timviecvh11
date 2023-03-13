@@ -230,3 +230,45 @@ define('LEVEL', [
    'Lao động phổ thông',
    'Không yêu cầu',
 ]);
+
+define('STAFF', [
+   'Ít hơn 10',
+   '10-20',
+   '25-99',
+   '100-499',
+   '500-999',
+   '1.000-4.999',
+   '5.000-9.999',
+   '10.000-19.999',
+   '20.000-49.999',
+   'Nhiều hơn 50.000',
+]);
+
+define('COMPANY_TYPE', [
+    '100% vốn nước ngoài',
+    'Cá nhân',
+    'Công ty đa quốc gia',
+    'Cổ phần',
+    'Liên doanh',
+    'Nhà nước',
+    'Trách nhiệm hữu hạn',
+
+]);
+
+define('WELFARE',[
+    'Chế độ bảo hiểm', 
+    'Đào tạo',
+    'Xe đưa đón',
+    'Phụ cấp thâm niên',
+    'Du Lịch',
+    'Tăng lương',
+    'Du lịch nước ngoài',
+    'Nghỉ phép năm',
+    'Chế độ thưởng', 
+    'Laptop',
+    'Đồng phục',
+    'CLB thể thao', 
+    'Chăm sóc sức khỏe',
+    'Phụ cấp',
+    'Công tác phí',
+]);

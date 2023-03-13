@@ -104,20 +104,7 @@
                         <div class="logo"><a href="{{ route('home') }}" title="Tuyển dụng & Tìm kiếm việc làm nhanh" ><img src="{{ asset('images/template/logo/logo.png') }}" alt="Tuyển dụng & Tìm kiếm việc làm nhanh"></a></div>
                         <div class="main-menu">
                             <ul class="menu">
-                              <!--   <li class="dropdown">
-                                    <a href="javascript:void(0);" title="Tìm Việc Làm">Tìm Việc Làm</a>
-                                    <div class="dropdown-menu">
-                                        <ul>
-                                            <li> <a href="javascript:void(0)" title="Việc làm mới nhất">Việc làm mới nhất</a></li>
-                                            <li> <a href="javascript:void(0)" title="Ngành nghề / Địa điểm">Ngành nghề / Địa điểm</a></li>
-                                        </ul>
-                                    </div>
-                                </li> -->
-                               <!--  <li> <a href="javascript:void(0)"  title="CV Hay">CV Hay</a></li>
-                                <li> <a href="javascript:void(0)"  title="VietnamSalary">VietnamSalary</a></li> 
-                                <li> <a href="javascript:void(0)" title="CareerMap">CareerMap</a></li> 
-                                <li> <a href="javascript:void(0)" title="Cẩm Nang">Cẩm Nang</a></li>
-                                <li> <a href="javascript:void(0)" title="Tính Lương">Tính Lương</a></li> -->
+                              
                             </ul>
                         </div>
                     </div>
