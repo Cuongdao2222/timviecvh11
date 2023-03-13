@@ -14,35 +14,25 @@
                 <div class="left-heading">
                     <h1 class="title-manage"> Thông Tin Tài Khoản</h1>
                 </div>
-                <div class="right-heading"> <a class="support" href="https://careerbuilder.vn/vi/employers/faq" target="_blank">Hướng dẫn</a></div>
+                <div class="right-heading"> <a class="support" href="javascript:voi(0)">Hướng dẫn</a></div>
             </div>
             <div class="main-tabslet" data-toggle="tabslet">
                 <ul class="tabslet-tab">
-                    <li class="active"><a href="https://careerbuilder.vn/vi/employers/hrcentral/accounts/1" alt="Quản lý user"><span>Quản lý user</span></a></li>
-                    <li><a href="https://careerbuilder.vn/vi/employers/hrcentral/accounts/edit_employer" alt="Thông tin công ty"><span>Thông tin công ty</span></a></li>
+                    <li class="active" data-id ="tab-1"><a href="javascript:void(0)" alt="Quản lý user" ><span>Quản lý user</span></a></li>
+                    <li  data-id ="tab-2"><a href="javascript:void(0)" alt="Thông tin công ty"><span>Thông tin công ty</span></a></li>
                    
-                    <li><a href="https://careerbuilder.vn/vi/employers/hrcentral/accounts/changepassword" alt="Đổi mật khẩu"><span>Đổi mật khẩu</span></a></li>
+                    <li data-id ="tab-3"><a href="javascript:void(0)" alt="Đổi mật khẩu"><span>Đổi mật khẩu</span></a></li>
                 </ul>
-                <div class="tabslet-content  active" id="tab-1">
+
+                <div class="tabslet-content active" id="tab-1">
                     <div class="main-application-information">
                         <h2 class="title-application no-bg no-pad">Danh sách user</h2>
-                        <div class="application-content">
-                            <p>Quý khách có thể tạo tối đa <strong>5</strong> user(s). Để có thể tạo thêm nhiều user phụ và nhiều thông tin công ty con, vui lòng <a href="https://careerbuilder.vn/vi/employers/services/contact" class="line_bot">liên hệ với chúng tôi</a>.</p>
-                            <p>Hiện có: <strong>1</strong> user(s)</p>
-                        </div>
+                      
                     </div>
                     <div class="main-jobs-posting">
                         <div class="jobs-posting-detail">
                             <div class="jobs-posting-detail-bottom">
-                                <div class="content-detail-bottom">
-                                    <div class="heading-resume-applied">
-                                        <div class="left-heading">
-                                            <ul class="list-check">
-                                                <li><a class="btn-created-user" href="javascript:;" onclick="getInfouser('',0);">Tạo user phụ</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                                 <div class="boding-jobs-posting">
                                     <div class="table table-account-user">
                                         <table>
@@ -63,18 +53,18 @@
                                                         <time>11/03/2023</time>
                                                     </td>
                                                     <td>
-                                                        <a class="btn-edit-user" href="javascript:;" onclick="getInfouser('hanngocquyet.1678506410',1);" title="Cập nhật thông tin" id="hanngocquyet.1678506410_email">hanngocquyet@gmail.com</a>
+                                                        <a class="btn-edit-user" href="javascript:;">{{ @$infoEmployer->email }}</a>
                                                     </td>
                                                     <td>
-                                                        <p id="hanngocquyet.1678506410_name">Quyết - 0938391991</p>
+                                                        <p >{{ @$infoEmployer->name_company }}</p>
                                                     </td>
-                                                    <td id="hanngocquyet.1678506410">
+                                                    <td>
                                                         <p>Kích hoạt</p>
                                                     </td>
                                                     <td>
                                                         <p>Chính</p>
                                                     </td>
-                                                    <td> <a href="https://careerbuilder.vn/vi/employers/hrcentral/accounts/report_task_log/hanngocquyet.1678506410/%25/%25/0/0/15" alt="Xem tác vụ">Xem tác vụ</a></td>
+                                                    <td> <a href="javascript:void(0)" alt="Xem tác vụ">Xem tác vụ</a></td>
                                                     <td>
                                                         <ul class="list-manipulation">
                                                             <li>
@@ -91,18 +81,559 @@
                                             <ul class="pagination"></ul>
                                         </div>
                                     </div>
-                                    <div class="main-button-sticky">
-                                        <div class="button-prev disabled"><em class="mdi mdi-chevron-left"></em></div>
-                                        <div class="button-next"><em class="mdi mdi-chevron-right"></em></div>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
+
+                <div class="tabslet-content" id="tab-2">
+                    <form name="editCompany" id="editCompany" action="" method="post" enctype="multipart/form-data">
+                        <div class="main-application-information">
+                            <h2 class="title-application no-bg no-pad">
+                                CHỈNH SỬA THÔNG TIN CÔNG TY
+                            </h2>
+                            <h2 class="title-application">THÔNG TIN CÔNG TY</h2>
+                            <div class="form-wrap">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group form-text form-input-label">
+                                            <input type="text" name="EMP_NAME" id="EMP_NAME" value="" maxlength="350" onkeyup="this.setAttribute('value', this.value);" class="label-active">
+                                            <label>Tên công ty   <font style="color: red">*</font></label>
+                                            <span class="error error_EMP_NAME"> </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="noti mt-20">
+                                           
+                                            <div class="toolip">
+                                                <p>Vui lòng nhập tối thiểu 3 ký tự!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group form-select">
+                                            <label>Tổng số nhân viên</label>
+                                            <select name="EMP_TOTALSTAFF">
+                                                <option value="">Chọn số nhân viên</option>
+                                                <option value="Ít hơn 10">Ít hơn 10</option>
+                                                <option value="10-20">10-20</option>
+                                                <option value="25-99">25-99</option>
+                                                <option value="100-499">100-499</option>
+                                                <option value="500-999">500-999</option>
+                                                <option value="1.000-4.999">1.000-4.999</option>
+                                                <option value="5.000-9.999">5.000-9.999</option>
+                                                <option value="10.000-19.999">10.000-19.999</option>
+                                                <option value="20.000-49.999">20.000-49.999</option>
+                                                <option value="Nhiều hơn 50.000">Nhiều hơn 50.000</option>
+                                            </select>
+                                            <span class="error error_EMP_TOTALSTAFF"> </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group form-select">
+                                            <label>Loại hình hoạt động</label>
+                                            <select name="Company_type" id="company_type" class="width_160">
+                                                <option value="">Vui lòng chọn</option>
+                                                <option value="6">100% vốn nước ngoài</option>
+                                                <option value="4">Cá nhân</option>
+                                                <option value="7">Công ty đa quốc gia</option>
+                                                <option value="2">Cổ phần</option>
+                                                <option value="5">Liên doanh</option>
+                                                <option value="1">Nhà nước</option>
+                                                <option value="3">Trách nhiệm hữu hạn</option>
+                                            </select>
+                                            <span class="error error_Company_type"> </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group form-text form-input-label">
+                                            <input type="text" name="EMP_WEBSITE" id="EMP_WEBSITE" value="" onkeyup="this.setAttribute('value', this.value);" maxlength="100">
+                                            <label>Website công ty</label>
+                                            <span class="error error_EMP_WEBSITE"> </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group form-text form-input-label">
+                                            <input type="text" name="EMP_TAXID" id="EMP_TAXID" value="" onkeyup="this.setAttribute('value', this.value);" maxlength="100">
+                                            <label>Mã số thuế</label>
+                                            <span class="error error_EMP_TAXID"> </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-wrap logo-wrap">
+                                <div class="main-image">
+                                    <div class="form-group">
+                                        <p class="title-label">Logo</p>
+                                    </div>
+                                    <div class="list-image">
+                                        <div class="image-item" id="logo_path">
+                                        </div>
+                                    </div>
+                                    <div class="upload-img">
+                                        <input type="file" id="logo" name="logo" value="">
+                                        <input type="hidden" name="logo_h" id="logo_h" value="">
+                                        <input type="hidden" name="logo_old" id="logo_old" value="">
+                                        <input type="hidden" name="logo_new" id="logo_new" value="">
+                                        <label for="logo">Tải ảnh từ máy tính</label>
+                                        <div class="noti">
+                                            
+                                            <div class="toolip">
+                                                <p>Định dạng: gif, jpg, png, kích thước đẹp nhất 240x160px</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                            <div class="form-wrap">
+                                <div class="form-group form-editor" id="div_jobdesc">
+                                    <label>Giới thiệu về công ty </label>
+                                    <textarea cols="80" rows="5" name="EMP_DESC"></textarea>
+                                   
+                                    <div class="note">
+                                        <p>Vui lòng không nhập email,số điện thoại và số lượng kí tự   phải lớn hơn 10
+                                        </p>
+                                    </div>
+                                    <span class="error error_EMP_DESC"> </span>
+                                    <div class="note">
+                                        <p> </p>
+                                    </div>
+                                </div>
+                                <div class="form-group form-editor" id="div_jobreq">
+                                    <label>Thông điệp từ công ty</label>
+                                    <textarea cols="80" rows="5" id="EMP_MESSAGE" name="EMP_MESSAGE" class="editor"></textarea>
+                                    
+                                    </div>
+                                    <div class="note">
+                                        <p>Vui lòng không nhập email,số điện thoại và số lượng kí tự   phải lớn hơn 10
+                                        </p>
+                                    </div>
+                                    <span class="error error_EMP_MESSAGE"> </span>
+                                    <div class="note">
+                                        <p> </p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                           
+                            <script type="text/javascript">
+                                $( document ).ready(function() {
+                                   checkYoutubeValid();
+                                   eventAfterAjax();
+                                   deletePhotoCompany();
+                                });
+                                
+                                
+                                var is_execute_profile = false;
+                                function ajaxPhotoUpload()
+                                {
+                                    $('#filephoto').prop('disabled', true);
+                                    var strPhoto = $("#strPhoto").val();
+                                    if(is_execute_profile)
+                                        return false;
+                                    is_execute_profile = true;
+                                
+                                    var file = $('#filephoto')[0].files;
+                                
+                                    var formdata = false;
+                                    if (window.FormData) {
+                                        formdata = new FormData();
+                                    }
+                                    formdata.append("filephoto", file[0]);
+                                    $('#filephoto').val('');
+                                    $.ajax({
+                                        url: 'https://careerbuilder.vn/vi/employers/postjobs/uploadphoto',
+                                        type: "POST",
+                                        data: formdata,
+                                        processData: false,
+                                        contentType: false,
+                                        dataType: 'json',
+                                        success: function (data) {
+                                            is_execute_profile = false;
+                                            if(typeof(data.error) != 'undefined')
+                                            {
+                                                if(data.error != '')
+                                                {
+                                                    show_noti(2, data.error);
+                                                }
+                                                else
+                                                {
+                                                    $("#list-image").append('<div class="image-item"><img src="' + data.path + '"><a class="btn-del-img company-btn-del-img" href="javascript:void(0);" data-src="' + data.msg + '" title="Xóa ảnh\"></a></div>');
+                                                    $('#isdisplay').prop('disabled', false);
+                                                    if(strPhoto != '')
+                                                            strPhoto += ',';
+                                                        strPhoto += data.msg;
+                                                        $("#strPhoto").val(strPhoto);
+                                                }
+                                            }
+                                            eventAfterAjax();
+                                        }
+                                    });
+                                
+                                    return false;
+                                }
+                                function eventAfterAjax()
+                                {
+                                    $("#loading").hide();
+                                    var num = $("#strPhoto").val().split(",").length;
+                                    if(num >= 5){
+                                        $('#filephoto').prop('disabled', true);
+                                    }else{
+                                        $('#filephoto').prop('disabled', false);
+                                    }
+                                }
+                                
+                                
+                                function deletePhotoCompany()
+                                {
+                                    $(document).on('click', ".company-btn-del-img", function(){
+                                        var name = $(this).data('src');
+                                        $(this).closest('.image-item').remove();
+                                        var strPhoto = $("#strPhoto").val();
+                                        var strPhotoDelete = $("#strPhotoDelete").val();
+                                        // Add in hidden delete
+                                        if(strPhotoDelete != '')
+                                            strPhotoDelete += ',';
+                                        strPhotoDelete += name;
+                                        $("#strPhotoDelete").val(strPhotoDelete);
+                                        // Remove in hidden upload
+                                        var posName = strPhoto.indexOf(name);
+                                        var posTemp = strPhoto.indexOf(',');
+                                        if(posName == 0){
+                                            if(posTemp > 0)
+                                                name += ',';
+                                        }else{
+                                            name = ','+name;
+                                        }
+                                        $("#strPhoto").val(strPhoto.replace(name,''));
+                                        // Check exist image and video
+                                        checkYoutubeValid(2);
+                                        if($("#strPhoto").val() == '' && $("#checkYouTube").val() == 'false' ){
+                                            $('#isdisplay').prop('checked', false);
+                                            $('#isdisplay').prop('disabled', true);
+                                        }
+                                        $('#filephoto').prop('disabled', false);
+                                    });
+                                }
+                                
+                                /* XÓA KHI UPDATE SAU */
+                                function ajaxPhotoDelete(name)
+                                {
+                                    var strPhoto = $("#strPhoto").val();
+                                    var strPhotoDelete = $("#strPhotoDelete").val();
+                                    // Add in hidden delete
+                                    if(strPhotoDelete != '')
+                                        strPhotoDelete += ',';
+                                    strPhotoDelete += name;
+                                    $("#strPhotoDelete").val(strPhotoDelete);
+                                    // Remove in hidden upload
+                                    var posName = strPhoto.indexOf(name);
+                                    var posTemp = strPhoto.indexOf(',');
+                                    if(posName == 0){
+                                        if(posTemp > 0)
+                                            name += ',';
+                                    }else{
+                                        name = ','+name;
+                                    }
+                                    $("#strPhoto").val(strPhoto.replace(name,''));
+                                    // Check exist image and video
+                                    checkYoutubeValid(2);
+                                    if($("#strPhoto").val() == '' && $("#checkYouTube").val() == 'false' ){
+                                        $('#isdisplay').prop('checked', false);
+                                        $('#isdisplay').prop('disabled', true);
+                                    }
+                                    $('#filephoto').prop('disabled', false);
+                                }
+                                /* XÓA KHI UPDATE SAU */
+                                
+                                
+                                /* type 0: check message error, 1: check message error and show video, 2: check */
+                                function checkYoutubeValid(type)
+                                {
+                                    var url = $('#strVideo').val();
+                                    url = url.replace(/^\s+|\s+$/g, "");
+                                
+                                    if(url != '')
+                                    {
+                                        var pos = url.indexOf('youtube.com/watch?v=');
+                                        // Check youtube link valid before check video valid on server
+                                        if(pos < 0){
+                                            
+                                            if(type != 2){
+                                                $('#eVideo').remove();
+                                                $('#strVideo').after('<span class="form-error" id="eVideo" generated="true" style="width:480px">Link video không dúng định dạng. Bạn vui lòng nhập lại.</span>');
+                                            }
+                                            // Check exist image and video
+                                            if($("#strPhoto").val() == ''){
+                                                $('#isdisplay').prop('checked', false);
+                                                $('#isdisplay').prop('disabled', true);
+                                            }
+                                    
+                                            $('#checkYouTube').val('false');
+                                            return false;
+                                        }
+                                
+                                        $.ajax({
+                                            type: "POST",
+                                            url: domain+'employers/postjobs/checklinkyoutube',
+                                            dataType: 'JSON',
+                                            data: 'link=' + url,
+                                            success: function(rs)
+                                            {
+                                                if(rs == '0'){
+                                                    // Message error when input link youtube
+                                                    if(type != 2)
+                                                    {
+                                                        $('#eVideo').remove();
+                                                        $('#strVideo').after('<span class="form-error" id="eVideo" generated="true" style="width:480px">Link video không dúng định dạng. Bạn vui lòng nhập lại.</span>');
+                                
+                                                    }
+                                                    // Check exist image and video
+                                                    if($("#strPhoto").val() == ''){
+                                                        $('#isdisplay').prop('checked', false);
+                                                        $('#isdisplay').prop('disabled', true);
+                                                    }
+                                                    $('#checkYouTube').val('false');
+                                
+                                                
+                                
+                                                    return false;
+                                                }else{
+                                                    
+                                                    if(type != 2){
+                                                        $('#eVideo').remove();
+                                                        $('#isdisplay').prop('disabled', false);
+                                                        // Check button view youtube
+                                                        if(type == 1){
+                                                            $.fancybox.open({
+                                                                'closeExisting': true,
+                                                                'src': url.replace(new RegExp("watch\\?v=", "i"), 'embed/') + '?autoplay=1&rel=0',
+                                                                'type': 'iframe'
+                                                            });
+                                                        }
+                                                    }
+                                                    $('#checkYouTube').val('true');
+                                                    return true;
+                                                }
+                                            }
+                                        });
+                                    }
+                                    else
+                                    {
+                                        /* Don't input link youtube */
+                                        $('#eVideo').remove();
+                                        // check button view
+                                        if(type == 1){
+                                            $('#strVideo').after('<span class="form-error" id="eVideo" generated="true" style="width:480px">Link video không dúng định dạng. Bạn vui lòng nhập lại.</span>');
+                                        }
+                                        // Check exist image and video
+                                        if($("#strPhoto").val() == ''){
+                                            $('#isdisplay').prop('checked', false);
+                                            $('#isdisplay').prop('disabled', true);
+                                        }
+                                        $('#checkYouTube').val('false');
+                                        return false;
+                                    }
+                                }
+                                
+                                
+                                
+                            </script>
+                            <h2 class="title-application">Phúc lợi</h2>
+                            <div class="checkbox-wrap">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_2" name="BENEFIT_ID[]" value="2" checked="checked">
+                                            <label for="BENEFIT_ID_2"> Chế độ bảo hiểm</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_3" name="BENEFIT_ID[]" value="3" checked="checked">
+                                            <label for="BENEFIT_ID_3"> Du Lịch</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_8" name="BENEFIT_ID[]" value="8" checked="checked">
+                                            <label for="BENEFIT_ID_8"> Chế độ thưởng</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_9" name="BENEFIT_ID[]" value="9" checked="checked">
+                                            <label for="BENEFIT_ID_9"> Chăm sóc sức khỏe</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_10" name="BENEFIT_ID[]" value="10" checked="checked">
+                                            <label for="BENEFIT_ID_10"> Đào tạo</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_11" name="BENEFIT_ID[]" value="11" checked="checked">
+                                            <label for="BENEFIT_ID_11"> Tăng lương</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_1" name="BENEFIT_ID[]" value="1">
+                                            <label for="BENEFIT_ID_1"> Laptop</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_4" name="BENEFIT_ID[]" value="4">
+                                            <label for="BENEFIT_ID_4"> Phụ cấp</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_5" name="BENEFIT_ID[]" value="5">
+                                            <label for="BENEFIT_ID_5"> Xe đưa đón</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_6" name="BENEFIT_ID[]" value="6">
+                                            <label for="BENEFIT_ID_6"> Du lịch nước ngoài</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_7" name="BENEFIT_ID[]" value="7">
+                                            <label for="BENEFIT_ID_7"> Đồng phục</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_12" name="BENEFIT_ID[]" value="12">
+                                            <label for="BENEFIT_ID_12"> Công tác phí</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_13" name="BENEFIT_ID[]" value="13">
+                                            <label for="BENEFIT_ID_13"> Phụ cấp thâm niên</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_14" name="BENEFIT_ID[]" value="14">
+                                            <label for="BENEFIT_ID_14"> Nghỉ phép năm</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="form-group form-checkbox">
+                                            <input type="checkbox" class="" id="BENEFIT_ID_15" name="BENEFIT_ID[]" value="15">
+                                            <label for="BENEFIT_ID_15"> CLB thể thao</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="noted">
+                                <p>  <font style="color: red">*</font> Thông tin bắt buộc</p>
+                            </div>
+                            <div class="form-group form-submit form-continue">
+                                <a class="btn-cancel btn-preview-account-user" href="javascript:;" onclick="window.open('https://careerbuilder.vn/vi/nha-tuyen-dung/dien-may-nguoi-viet.35A963C6.html', '_blank'); return false;  ">
+                                Xem lại</a>
+                                <button class="btn-gradient btn-submit" type="submit" id="update_info_company_form" onclick="updateInfoCompany()">Cập nhật</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+
+                <div class="tabslet-content" id="tab-3">
+                    <form name="editPassFrm" id="editPassFrm" onsubmit="return false;" method="post">
+                        <div class="main-application-information main-form-change-password">
+                            <h2 class="title-application no-bg no-pad">Đổi mật khẩu</h2>
+                            <div class="form-wrap">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group form-text form-input-label">
+                                            <input type="text" value="hanngocquyet@gmail.com" onkeyup="this.setAttribute('value', this.value);" disabled="disabled">
+                                            <label>Email/Tên đăng nhập </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group form-text form-input-label">
+                                            <input type="password" value="" name="oldpass" id="oldpass" onkeyup="this.setAttribute('value', this.value);">
+                                            <label>Mật khẩu cũ <font style="color: red">*</font></label>
+                                            <span class="error error_oldpass" id="oldpass_error">  </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group form-text form-input-label">
+                                            <input type="password" value="" name="newpass" id="newpass" onkeyup="this.setAttribute('value', this.value);">
+                                            <label>Mật khẩu mới <font style="color: red">*</font></label>
+                                            <span class="error" id="resultPass"></span>
+                                            <span class="error error_newpass" id="newpass_error">  </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group form-text form-input-label">
+                                            <input type="password" value="" name="renewpass" id="renewpass" maxlength="40" onkeyup="this.setAttribute('value', this.value);">
+                                            <label>Xác nhận mật khẩu mới <font style="color: red">*</font></label>
+                                            <span class="error error_renewpass" id="renewpass_error">  </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group form-submit form-continue">
+                                <button class="btn-cancel btn-reset" type="reset" onclick="resetformchangpass();">Hủy</button>
+                                <button class="btn-gradient btn-submit" type="submit" id="account_change_password_btn">Lưu</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
             </div>
+
+
         </div>
     </div>
 </section>
+
+@push('js')
+    
+    <script type="text/javascript">
+        
+        $('.tabslet-tab li').click(function() {
+
+            $('.tabslet-tab li').removeClass('active');
+
+            $(this).addClass('active');
+
+            let data_id = $(this).attr('data-id');
+
+            $('.tabslet-content').removeClass('active');
+
+            $('#'+data_id).addClass('active')
+          
+        })
+
+    </script>
+    
+@endpush
 
 @endsection

@@ -118,9 +118,7 @@ Route::group(['prefix' => 'employer','middleware' => 'Checkemploy'], function() 
     })->name('form_recruit'); 
 
 
-    Route::get('/info', function () {
-        return view('frontend.info_employers_detail');
-    })->name('info-employer'); 
+    Route::get('/info', 'Backend\employerInfoController@getInfoEmployer')->name('info-employer'); 
 
 
 
