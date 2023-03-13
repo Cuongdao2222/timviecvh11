@@ -195,6 +195,9 @@
 
                             <li class=""><a href="{{ route('our') }}"  target="_self">Về chúng tôi </a>
                             </li>
+
+                            <li class=""><a href="{{ route('list-news') }}"  target="_self">Kiến thức </a>
+                            </li>
                         </ul>
                     </div>
                     <!-- <div class="navbar-right">

@@ -60,7 +60,7 @@ Route::get('/quick-register-user', function () {
 
 Route::get('blog-details/{link}', 'blogController@viewBlog')->name('blog_detail'); 
 
-Route::get('list-news', function () {
+Route::get('kien-thuc', function () {
 
     return view('frontend.listnews');
 
