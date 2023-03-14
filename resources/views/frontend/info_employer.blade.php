@@ -534,7 +534,8 @@ body.compensate-for-scrollbar{overflow:hidden;}.fancybox-active{height:auto;}.fa
                 ?>
 
                 <div class="tabslet-content" id="tab-3">
-                    <form name="editPassFrm" id="editPassFrm" onsubmit="return false;" method="post">
+                    <form name="editPassFrm" id="editPassFrm"  method="post" action="{{ route('update-pass-employer') }}">
+                    	@csrf
                         <div class="main-application-information main-form-change-password">
                             <h2 class="title-application no-bg no-pad">Đổi mật khẩu</h2>
                             <div class="form-wrap">
@@ -549,7 +550,7 @@ body.compensate-for-scrollbar{overflow:hidden;}.fancybox-active{height:auto;}.fa
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="form-group form-text form-input-label">
-                                            <input type="password" value="" name="oldpass" id="oldpass" onkeyup="this.setAttribute('value', this.value);">
+                                            <input type="password" value="" name="oldpass" id="oldpass" onkeyup="this.setAttribute('value', this.value);" required>
                                             <label>Mật khẩu cũ <font style="color: red">*</font></label>
                                             <span class="error error_oldpass" id="oldpass_error">  </span>
                                         </div>
@@ -558,7 +559,7 @@ body.compensate-for-scrollbar{overflow:hidden;}.fancybox-active{height:auto;}.fa
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="form-group form-text form-input-label">
-                                            <input type="password" value="" name="newpass" id="newpass" onkeyup="this.setAttribute('value', this.value);">
+                                            <input type="password" value="" name="newpass" id="newpass" onkeyup="this.setAttribute('value', this.value);" required>
                                             <label>Mật khẩu mới <font style="color: red">*</font></label>
                                             <span class="error" id="resultPass"></span>
                                             <span class="error error_newpass" id="newpass_error">  </span>
@@ -568,7 +569,7 @@ body.compensate-for-scrollbar{overflow:hidden;}.fancybox-active{height:auto;}.fa
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="form-group form-text form-input-label">
-                                            <input type="password" value="" name="renewpass" id="renewpass" maxlength="40" onkeyup="this.setAttribute('value', this.value);">
+                                            <input type="password" value="" name="renewpass" id="renewpass" maxlength="40" onkeyup="this.setAttribute('value', this.value);" required>
                                             <label>Xác nhận mật khẩu mới <font style="color: red">*</font></label>
                                             <span class="error error_renewpass" id="renewpass_error">  </span>
                                         </div>
@@ -588,7 +589,18 @@ body.compensate-for-scrollbar{overflow:hidden;}.fancybox-active{height:auto;}.fa
             </div>
         </div>
     </div>
+
 </section>
+
+
+@if (\Session::has('message_password'))
+
+	<script type="text/javascript">
+		
+		alert('{!! \Session::get("message_password") !!}')
+	</script>
+   
+@endif
 
 
 

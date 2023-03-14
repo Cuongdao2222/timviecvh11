@@ -45,11 +45,6 @@
         height: 90px;
     }
 
-    .chosen-select-max-three optgroup{
-        margin: 5px;
-    }
-
-
 </style>
    
 

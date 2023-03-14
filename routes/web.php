@@ -95,6 +95,7 @@ Route::get('employers/register', 'Backend\employerController@index')->name('regi
 
 Route::group(['prefix' => 'employer','middleware' => 'Checkemploy'], function() {
 
+    Route::post('update-pass-employer', 'employerController@updatePassEmployer')->name('update-pass-employer');
 
     
     Route::get('employers-info', 'Backend\employerController@info_employer')->name('employers_info');
