@@ -617,7 +617,7 @@
                                             <div class="timeago"></div>
                                             <div class="title"> <a class="job_link" href="{{ route('job_details', [$val->link, $val->id]) }}" target="_blank" title="{{ $val->title }}"> {{ $val->title }}</a> </div>
                                             <div class="caption">
-                                                <a class="company-name" href="/nha-tuyen-dung/{{ $val->links }}" title="{{ $val->name }}">{{ $val->name }}</a>
+                                                <a class="company-name" href="{{ route('employ-details', $val->links) }}" title="{{ $val->name }}">{{ $val->name }}</a>
                                                 <p class="salary"><em class="fa fa-usd"></em>thương lượng</p>
                                                 <div class="location">
                                                     <em class="mdi mdi-map-marker"></em>
