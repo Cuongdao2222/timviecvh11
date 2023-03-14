@@ -223,7 +223,7 @@
                             
                                 @else
 
-                                    <div class="title-login"><a href="javascript:;" title="Đăng nhập"> <span class="mdi mdi-account-circle"></span>Đăng nhập</a></div>
+                                    <div class="title-login"><a href="javascript:;" title="Đăng nhập">Đăng nhập</a></div>
 
                                 
                                 @endif
