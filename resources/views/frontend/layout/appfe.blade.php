@@ -255,19 +255,28 @@
 
                             <!-- <div class="main-register"><a href="{{ route('register_employer') }}">Đăng ký</a></div> -->
                             <div class="main-noti" style="display: none"><a href="javascript:void(0);"> <span class="mdi mdi-cart"></span></a></div>
+
+
+                             @if(Auth::guard('employer_register')->check())
+
                             <div class="main-language dropdown">
-                                <!-- <div class="dropdown-toggle">
-                                    <p>VI<em class="mdi mdi-chevron-down"></em></p>
-                                </div> -->
-                                <!-- <div class="dropdown-menu">
-                                    <div class="item active">
-                                       <a class="dropdown-item" href="javascript:void(0);" title="Change language">VI</a>
-                                    </div>
+                                 <div class="dropdown-toggle">
+                                    <p>Xin chào {{ Auth::guard('employer_register')->user()->name_company }}</p>
+                                </div> 
+                                <div class="dropdown-menu">
+                                    
                                     <div class="item">
-                                       <a class="dropdown-item" href="https://careerbuilder.vn/en/employers/register" title="Change language">EN</a>
+                                       <a class="dropdown-item" href="{{ route('employer-logout') }}" title="Change language">Logout</a>
                                     </div>
-                                </div> -->
+                                </div>
                             </div>
+
+            
+                            @endif
+
+                            
+
+
                             <div class="main-candidates">
                                 <a href="{{ route('registerClientUser') }}">
                                     

@@ -152,11 +152,7 @@
                         <p>Hơn <strong>18 triệu </strong>lượt xem mỗi tháng</p>
                     </div>
                 </div>
-                <div class="col-12">
-                    <div class="right-note">
-                        <p>Nếu bạn đã có tài khoản. Vui lòng <a href="#">Đăng nhập</a></p>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>
