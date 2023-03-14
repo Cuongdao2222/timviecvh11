@@ -16,7 +16,9 @@ Route::group(['middleware' => 'checkad'], function() {
 
 	Route::post('postEditBanner/{id}', 'adminController@postEditBanner')->name('postEditBanner');
 
-	Route::post('create-post', 'adminController@store')->name('create-post');
+	Route::post('create-posts', 'adminController@store')->name('create-posts');
+
+	Route::post('update-post/{id}', 'adminController@update')->name('update-post');
 
 	Route::get('banner/{id}', 'adminController@bannerviewedit')->name('admin-banner-edit');
 
@@ -26,6 +28,8 @@ Route::group(['middleware' => 'checkad'], function() {
 	Route::get('Listboard', 'adminController@Listboard')->name('admin-view-Listboard'); 
 
 	Route::get('post', 'adminController@listpost')->name('list-post'); 
+
+	Route::get('post/{id}', 'adminController@edit');
 
 	Route::get('create-post', 'adminController@indexPost')->name('create-post'); 
 

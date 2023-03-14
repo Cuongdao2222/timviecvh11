@@ -15,6 +15,7 @@ use App\Models\apply_job;
 use DB;
 use Auth;
 use App\Models\application;
+use Carbon\Carbon;
 
 class adminController extends Controller
 {
@@ -234,6 +235,8 @@ class adminController extends Controller
     {
         $input = $request->all();
 
+        $input['image'] = 'https://images.careerbuilder.vn/employer_folders/lot3/291743/67x67/103534logo_hongfa-003-4.png';
+
         if ($request->hasFile('image')) {
 
             $file_upload = $request->file('image');
@@ -249,26 +252,74 @@ class adminController extends Controller
         
         $input['id_user'] = 1;
 
+        $input['Meta_id'] = 1;
+
+        $input['created_at'] = Carbon::now();
+
+        $input['updated_at'] = Carbon::now();
+
         $input['date_post'] = Carbon::now();
 
-
-        dd($input);
-
-        // $meta_model = new metaSeo();
+        unset($input['_token']);
 
 
-        // $meta_model->meta_title = $input['title'];
+        $insert = DB::table('posts1')->insert($input);
 
-        // $meta_model->meta_content = $input['shortcontent'];
+        return redirect()->back();
 
-        // $meta_model->meta_og_content = $input['title'];
+    }
 
-        // $meta_model->meta_key_words = $input['title'];
+    public function edit(Request $request)
+    {
+        $id = $request->id;
 
-        // $meta_model->meta_og_title = $input['shortcontent'];
+        $data = DB::table('posts1')->where('id', $id)->get()->first();
 
-        // $meta_model->save();
+        if(empty($data)){
 
-        // $input['Meta_id'] = $meta_model['id'];
+            return abort('404');
+
+        }
+
+        return view('admin.create_post', compact('data'));
+    }
+
+    public function update(Request $request)
+    {
+        $id = $request->id;
+
+
+        $input = $request->all();
+
+        $input['image'] = 'https://images.careerbuilder.vn/employer_folders/lot3/291743/67x67/103534logo_hongfa-003-4.png';
+
+        if ($request->hasFile('image')) {
+
+            $file_upload = $request->file('image');
+
+            $name = time() . '_' . $file_upload->getClientOriginalName();
+
+            $filePath = $file_upload->storeAs('uploads', $name, 'public');
+
+            $input['image'] = $filePath;
+        }
+        $input['link'] = $this->createSlug($input['title']);
+
+        
+        $input['id_user'] = 1;
+
+        $input['Meta_id'] = 1;
+
+       
+        $input['updated_at'] = Carbon::now();
+
+        $input['date_post'] = Carbon::now();
+
+        unset($input['_token']);
+
+        $update = DB::table('posts1')->update($input);
+
+        return redirect()->back();
+
     }
 }

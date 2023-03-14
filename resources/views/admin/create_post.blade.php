@@ -20,7 +20,7 @@
             </div>
         </div>
     </section>
-    <div class="btn btn-info seo-click"> Dùng cho SEO </div>
+    <!-- <div class="btn btn-info seo-click"> Dùng cho SEO </div> -->
    <!--  <div class="content px-3">
         <div class="card seo">
             <form method="POST" action="http://localhost/pj5/admins/metaSeos/7497" accept-charset="UTF-8">
@@ -81,8 +81,8 @@
     </div> -->
     <div class="content px-3">
         <div class="card">
-            <form method="POST" action="{{ route('create-post') }}" accept-charset="UTF-8" enctype="multipart/form-data">
-                <input name="_method" type="hidden" value="PATCH">
+            <form method="post" action="{{ !empty($data)?route('update-post/'.$data->id):route('create-posts') }}" accept-charset="UTF-8" enctype="multipart/form-data">
+               
                 @csrf
                 <div class="card-body">
                     <div class="row">
@@ -92,7 +92,7 @@
                         </style>
                         <div class="col-md-12 draft-article" style="display: none;">  </div>
                         <!-- Title Field --> 
-                        <div class="form-group col-sm-6"> <label for="title">Title:</label> <input class="form-control ui-autocomplete-input" name="title" type="text" value="" id="title" autocomplete="off"> </div>
+                        <div class="form-group col-sm-6"> <label for="title">Title:</label> <input class="form-control ui-autocomplete-input" name="title" type="text" value="{{ @$data->title }}" id="title" autocomplete="off"> </div>
                         <div class="form-group col-sm-6">
                             <label for="category">category:</label> 
                             <select id="category" class="form-control" name="category">
@@ -105,7 +105,7 @@
                         </div>
                         <!-- shortcontent Field --> 
                         <div class="form-group col-sm-12 col-lg-12"> <label for="shortcontent">Mô tả ngắn:</label> 
-                            <textarea class="form-control content-input" name="shortcontent" cols="50" rows="10" id="shortcontent"></textarea> 
+                            <textarea class="form-control content-input" name="shortcontent" cols="50" rows="10" id="shortcontent">{{ @$data->shortcontent  }}</textarea> 
                         </div>
                         <div id="article_media_holder">
                             <style type="text/css"> a.preview_media{
@@ -131,7 +131,9 @@
                         
                         <div class="form-group col-sm-12 col-md-12">
                             <label for="content">Content:</label> 
-                            <textarea class="form-control content-input" name="content" cols="50" rows="10" id="content" style="visibility: hidden; display: none;"></textarea>
+                            <textarea class="form-control content-input" name="content" cols="50" rows="10" id="content" style="visibility: hidden; display: none;">
+                                {!! @$data->content  !!}
+                            </textarea>
                             
                         </div>
                         <div class="col-md-12 col-sm-12">

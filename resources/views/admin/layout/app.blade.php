@@ -27,7 +27,8 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css"
             integrity="sha512-aEe/ZxePawj0+G2R+AaIxgrQuKT68I28qh+wgLrcAJOz3rxCP+TwrK5SPN+E5I+1IQjNtcfvb96HDagwrKRdBw=="
             crossorigin="anonymous"/>
-        <meta name="csrf-token" content="AHESRRqb0xWlPaXVsH9FEanXnrsLfHxHYI10slaJ">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+
         <script src="https://dienmaynguoiviet.vn/js/ckeditor/ckeditor.js?ver=1"></script>
         <!--    <script src=https://dienmaynguoiviet.vn/js/ckfinder/ckfinder.js></script> -->
         <script
