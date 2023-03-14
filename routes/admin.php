@@ -16,12 +16,18 @@ Route::group(['middleware' => 'checkad'], function() {
 
 	Route::post('postEditBanner/{id}', 'adminController@postEditBanner')->name('postEditBanner');
 
+	Route::post('create-post', 'adminController@store')->name('create-post');
+
 	Route::get('banner/{id}', 'adminController@bannerviewedit')->name('admin-banner-edit');
 
 	Route::get('delete-user', 'adminController@remove_user')->name('Remove-user');
 
 	
 	Route::get('Listboard', 'adminController@Listboard')->name('admin-view-Listboard'); 
+
+	Route::get('post', 'adminController@listpost')->name('list-post'); 
+
+	Route::get('create-post', 'adminController@indexPost')->name('create-post'); 
 
 	Route::get('employerlistboard', 'adminController@ListEmployer')->name('admin-list-employer'); 
 

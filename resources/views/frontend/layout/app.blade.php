@@ -26,11 +26,13 @@
         <link rel="apple-touch-icon" sizes="167x167" href="https://static.careerbuilder.vn/themes/kiemviecv32/images/graphics/cb_167x167.png?t=1"/>
         <link rel="apple-touch-icon" sizes="180x180" href="https://static.careerbuilder.vn/themes/kiemviecv32/images/graphics/cb_180x180.png?t=1"/>
         <link href="https://careerbuilder.vn/manifest.json" rel="manifest"/>
+
+        <meta name="csrf-token" content="{{ csrf_token() }}">
         <meta property="og:image" content="https://static.careerbuilder.vn/themes/careerbuilder/img/CareerBuilder-social.png"/>
         <link data-page-subject="true" href="https://static.careerbuilder.vn/themes/careerbuilder/img/CareerBuilder-social.png" rel="image_src"/>
         <meta property="fb:app_id" content="143458889176984"/>
-        <link rel="shortcut icon" href="https://careerbuilder.vn/favicon_careerbuilder_v2.ico?t=1"/>
-        <link href="https://careerbuilder.vn/vi/jobseekers/dashboard" rel="canonical" />
+     
+        
         <link rel="stylesheet" type="text/css" href="{{ asset('css/userClient.css') }}">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxy/1.6.1/scripts/jquery.ajaxy.min.js"></script> -->

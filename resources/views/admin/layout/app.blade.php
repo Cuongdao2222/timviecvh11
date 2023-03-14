@@ -151,6 +151,14 @@
                                 </a>
                                 <span class="btn btn-link open" style="width: 12%;">+</span>
                             </li>
+
+                            <li class="nav-item" style="display: flex; height:44px;"  >
+                                <a href="{{ route('list-post') }}"
+                                    class="nav-link " style="width: 68%;">
+                                    <p>Bài viết</p>
+                                </a>
+                                <span class="btn btn-link open" style="width: 12%;">+</span>
+                            </li>
                             
 
                             

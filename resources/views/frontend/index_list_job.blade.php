@@ -196,7 +196,14 @@
                             <li class=""><a href="{{ route('our') }}"  target="_self">Về chúng tôi </a>
                             </li>
 
-                            <li class=""><a href="{{ route('list-news') }}"  target="_self">Kiến thức </a>
+                            <li class=""><a href="javascript:void(0)" class="dropdown-toggle click-drop"  data-toggle="dropdown">Kiến thức </a>
+
+                                <ul class="dropdown-menu">
+                                  <li><a href="#">Kỹ năng công sở</a></li>
+                                  <li><a href="#">Chuyên ngành</a></li>
+                                  <li><a href="#">Chuyện công sở</a></li>
+                                </ul>
+
                             </li>
                         </ul>
                     </div>
@@ -704,6 +711,22 @@
                 </div>
             </div>
         </div>
+
+
+        <script type="text/javascript">
+            
+            $('.click-drop').click(function () {
+
+                if($('.dropdown-menu').is(":visible")){
+
+                    $('.dropdown-menu').hide();
+                }
+                else{
+                    $('.dropdown-menu').show();
+                }   
+                
+            })
+        </script>
 
 
         <script>
