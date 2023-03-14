@@ -79,7 +79,7 @@
                                 <ul class="list-account-information">
                                     <li>
                                         <p class="number intNumPostNoUse">0</p>
-                                        <a class="title" href="{{ route('info-employer') }}">Thông tin doanh nghiệp</a>
+                                        <a class="title" href="{{ route('employers_info') }}">Thông tin doanh nghiệp</a>
                                     </li>
                                    
                                 </ul>

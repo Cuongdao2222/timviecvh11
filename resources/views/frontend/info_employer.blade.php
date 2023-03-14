@@ -352,7 +352,7 @@ body.compensate-for-scrollbar{overflow:hidden;}.fancybox-active{height:auto;}.fa
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="noti mt-20">
-                                            <em class="material-icons">info</em>
+                                            
                                             <div class="toolip">
                                                 <p>Vui lòng nhập tối thiểu 3 ký tự!</p>
                                             </div>
@@ -433,9 +433,9 @@ body.compensate-for-scrollbar{overflow:hidden;}.fancybox-active{height:auto;}.fa
                                         <input type="hidden" name="logo_h" id="logo_h" value="" />
                                         <input type="hidden" name="logo_old" id="logo_old" value="" />
                                         <input type="hidden" name="logo_new" id="logo_new" value="" />
-                                        <label for="logo"><em class="material-icons">folder_open</em>Tải ảnh từ máy tính</label>
+                                        <label for="logo">Tải ảnh từ máy tính</label>
                                         <div class="noti">
-                                            <em class="material-icons">info </em>
+                                           
                                             <div class="toolip">
                                                 <p>Định dạng: gif, jpg, png, kích thước đẹp nhất 240x160px</p>
                                             </div>
@@ -526,6 +526,13 @@ body.compensate-for-scrollbar{overflow:hidden;}.fancybox-active{height:auto;}.fa
                     </form>
                 </div>
 
+
+                <?php 
+
+                	$email_employer = Auth::guard('employer_register')->user()->email;
+
+                ?>
+
                 <div class="tabslet-content" id="tab-3">
                     <form name="editPassFrm" id="editPassFrm" onsubmit="return false;" method="post">
                         <div class="main-application-information main-form-change-password">
@@ -534,7 +541,7 @@ body.compensate-for-scrollbar{overflow:hidden;}.fancybox-active{height:auto;}.fa
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="form-group form-text form-input-label">
-                                            <input type="text" value="hanngocquyet@gmail.com" onkeyup="this.setAttribute('value', this.value);" disabled="disabled">
+                                            <input type="text" value="{{ @$email_employer }}" onkeyup="this.setAttribute('value', this.value);" disabled="disabled">
                                             <label>Email/Tên đăng nhập </label>
                                         </div>
                                     </div>
@@ -627,7 +634,7 @@ function ajaxPhotoUpload()
 				}
 				else
 				{
-					$("#list-image").append('<div class="image-item"><img src="' + data.path + '"><a class="btn-del-img company-btn-del-img" href="javascript:void(0);" data-src="' + data.msg + '" title="Xóa ảnh\"><em class="material-icons">clear</em></a></div>');
+					$("#list-image").append('<div class="image-item"><img src="' + data.path + '"><a class="btn-del-img company-btn-del-img" href="javascript:void(0);" data-src="' + data.msg + '" title="Xóa ảnh\"></a></div>');
 	                $('#isdisplay').prop('disabled', false);
 					if(strPhoto != '')
 							strPhoto += ',';

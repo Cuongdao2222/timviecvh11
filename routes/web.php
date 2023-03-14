@@ -97,7 +97,7 @@ Route::group(['prefix' => 'employer','middleware' => 'Checkemploy'], function() 
 
 
     
-    Route::get('employers_info', 'Backend\employerController@info_employer')->name('employers_info');
+    Route::get('employers-info', 'Backend\employerController@info_employer')->name('employers_info');
 
     Route::post('update-active-job', 'Backend\employerController@activeJobEmployer')->name('update-active-job');
 
